@@ -169,13 +169,24 @@ namespace Ahao.Algorithm
 
             //PivotIndex pivotIndex = new PivotIndex();
             //int[] nums = { -1, -1, 0, 0, -1, -1 };
+            //Console.WriteLine("打印出第一个中心索引");
             //Console.WriteLine(pivotIndex.Method(nums));
+
+            //Console.WriteLine("-----------------");
+            //Console.WriteLine("打印出所有的中心索引");
+            //List<int> result = pivotIndex.Method2(nums);
+            //foreach(var item in result)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
             #endregion
 
 
-            #region 
+            #region  202.快乐数
 
+            IsHappy isHappy = new IsHappy();
+            Console.WriteLine(isHappy.Method(123));
 
             #endregion
 
