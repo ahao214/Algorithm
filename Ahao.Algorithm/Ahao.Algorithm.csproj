@@ -65,6 +65,7 @@
     <Compile Include="LevelOrderBottom.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="MaxScoreSightseeingPair.cs" />
+    <Compile Include="MaxSubArray.cs" />
     <Compile Include="MergeTwoLists.cs" />
     <Compile Include="PivotIndex.cs" />
     <Compile Include="Program.cs" />
