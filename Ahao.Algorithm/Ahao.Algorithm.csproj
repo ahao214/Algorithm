@@ -66,6 +66,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FirstUniqChar.cs" />
     <Compile Include="RomanToInt.cs" />
+    <Compile Include="SolveSudoku.cs" />
     <Compile Include="TopKFrequent.cs" />
   </ItemGroup>
   <ItemGroup>

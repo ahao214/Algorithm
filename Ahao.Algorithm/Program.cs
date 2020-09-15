@@ -185,11 +185,17 @@ namespace Ahao.Algorithm
 
             #region  202.快乐数
 
-            IsHappy isHappy = new IsHappy();
-            Console.WriteLine(isHappy.Method(123));
+            //IsHappy isHappy = new IsHappy();
+            //Console.WriteLine(isHappy.Method(123));
 
             #endregion
 
+            #region 37.解数独
+
+            SolveSudoku solveSudoku = new SolveSudoku();
+            char[][] board = null;
+
+            #endregion
 
             ReadLine();
         }
