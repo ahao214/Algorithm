@@ -25,7 +25,10 @@ namespace Ahao.Algorithm
         public ListNode Method(ListNode l1, ListNode l2)
         {           
             //递归
-            if (l1 == null || l2 == null) return l1 == null ? l2 : l1;
+            if (l1 == null || l2 == null)
+            {
+                return l1 == null ? l2 : l1;
+            }
             if (l1.val < l2.val)
             {
                 l1.next = Method(l1.next, l2);
