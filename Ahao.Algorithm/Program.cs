@@ -182,7 +182,6 @@ namespace Ahao.Algorithm
 
             #endregion
 
-
             #region  202.快乐数
 
             //IsHappy isHappy = new IsHappy();
@@ -192,8 +191,8 @@ namespace Ahao.Algorithm
 
             #region 37.解数独
 
-            SolveSudoku solveSudoku = new SolveSudoku();
-            char[][] board = null;
+            //SolveSudoku solveSudoku = new SolveSudoku();
+            //char[][] board = null;
 
             #endregion
 
@@ -213,8 +212,15 @@ namespace Ahao.Algorithm
 
             #region 326.3的幂
 
-            IsPowerOfThree isPowerOfThree = new IsPowerOfThree();
-            Console.WriteLine(isPowerOfThree.Method(9));
+            //IsPowerOfThree isPowerOfThree = new IsPowerOfThree();
+            //Console.WriteLine(isPowerOfThree.Method(9));
+
+            #endregion
+
+            #region 20.有效的括号
+
+            IsValid isValid = new IsValid();
+            Console.WriteLine(isValid.Method("([)]"));
 
             #endregion
 

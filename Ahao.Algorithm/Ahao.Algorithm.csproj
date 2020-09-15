@@ -58,6 +58,7 @@
     <Compile Include="IsPowerOfThree.cs" />
     <Compile Include="IsPowerOfTwo.cs" />
     <Compile Include="IsUgly.cs" />
+    <Compile Include="IsValid.cs" />
     <Compile Include="JudgeCircle.cs" />
     <Compile Include="JudgeSquareSum.cs" />
     <Compile Include="LengthOfLastWord.cs" />
