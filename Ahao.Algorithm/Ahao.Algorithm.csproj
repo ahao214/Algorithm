@@ -55,6 +55,7 @@
     <Compile Include="FindKthLargest.cs" />
     <Compile Include="GetPermutation.cs" />
     <Compile Include="IsHappy.cs" />
+    <Compile Include="IsPowerOfTwo.cs" />
     <Compile Include="IsUgly.cs" />
     <Compile Include="JudgeCircle.cs" />
     <Compile Include="JudgeSquareSum.cs" />

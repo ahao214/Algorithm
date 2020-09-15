@@ -199,8 +199,15 @@ namespace Ahao.Algorithm
 
             #region 58. 最后一个单词的长度
 
-            LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
-            Console.WriteLine(lengthOfLastWord.Method("hello world"));
+            //LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
+            //Console.WriteLine(lengthOfLastWord.Method("hello world"));
+
+            #endregion
+
+            #region 231. 2的幂
+
+            IsPowerOfTwo isPowerOfTwo = new IsPowerOfTwo();
+            Console.WriteLine(isPowerOfTwo.Method(14));
 
             #endregion
 
