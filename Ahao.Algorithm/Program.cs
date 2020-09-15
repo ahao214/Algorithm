@@ -197,6 +197,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 58. 最后一个单词的长度
+
+            LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
+            Console.WriteLine(lengthOfLastWord.Method("hello world"));
+
+            #endregion
+
             ReadLine();
         }
     }
