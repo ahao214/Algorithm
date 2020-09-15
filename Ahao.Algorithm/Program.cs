@@ -206,8 +206,15 @@ namespace Ahao.Algorithm
 
             #region 231. 2的幂
 
-            IsPowerOfTwo isPowerOfTwo = new IsPowerOfTwo();
-            Console.WriteLine(isPowerOfTwo.Method(14));
+            //IsPowerOfTwo isPowerOfTwo = new IsPowerOfTwo();
+            //Console.WriteLine(isPowerOfTwo.Method(14));
+
+            #endregion
+
+            #region 326.3的幂
+
+            IsPowerOfThree isPowerOfThree = new IsPowerOfThree();
+            Console.WriteLine(isPowerOfThree.Method(9));
 
             #endregion
 
