@@ -233,9 +233,15 @@ namespace Ahao.Algorithm
 
             #region 53. 最大子序和
 
-            MaxSubArray maxSubArray = new MaxSubArray();
-            int[] nums = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
-            Console.WriteLine(maxSubArray.Methd(nums));
+            //MaxSubArray maxSubArray = new MaxSubArray();
+            //int[] nums = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+            //Console.WriteLine(maxSubArray.Methd(nums));
+
+            #endregion
+
+            #region 226. 翻转二叉树
+
+            InvertTree invertTree = new InvertTree();
 
             #endregion
 

@@ -54,6 +54,7 @@
     <Compile Include="Exist.cs" />
     <Compile Include="FindKthLargest.cs" />
     <Compile Include="GetPermutation.cs" />
+    <Compile Include="InvertTree.cs" />
     <Compile Include="IsHappy.cs" />
     <Compile Include="IsPowerOfThree.cs" />
     <Compile Include="IsPowerOfTwo.cs" />
