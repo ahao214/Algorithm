@@ -245,6 +245,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 441. 排列硬币
+
+            ArrangeCoins arrangeCoins = new ArrangeCoins();
+            Console.WriteLine(arrangeCoins.Method(10));
+
+            #endregion
+
             ReadLine();
         }
     }

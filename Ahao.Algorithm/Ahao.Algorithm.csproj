@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="238.cs" />
+    <Compile Include="ArrangeCoins.cs" />
     <Compile Include="AverageOfLevels.cs" />
     <Compile Include="CombinationSum.cs" />
     <Compile Include="CombinationSum2.cs" />
