@@ -256,10 +256,21 @@ namespace Ahao.Algorithm
 
             #region 342.4的幂
 
-            IsPowerOfFour isPowerOfFour = new IsPowerOfFour();
-            WriteLine(isPowerOfFour.Method(5));
+            //IsPowerOfFour isPowerOfFour = new IsPowerOfFour();
+            //WriteLine(isPowerOfFour.Method(5));
 
             #endregion
+
+            #region 367. 有效的完全平方数
+
+            IsPerfectSquare isPerfectSquare = new IsPerfectSquare();
+            WriteLine(isPerfectSquare.Method(160000));
+
+            #endregion
+
+
+
+
 
             ReadLine();
         }

@@ -58,6 +58,7 @@
     <Compile Include="GetPermutation.cs" />
     <Compile Include="InvertTree.cs" />
     <Compile Include="IsHappy.cs" />
+    <Compile Include="IsPerfectSquare.cs" />
     <Compile Include="IsPowerOfFour.cs" />
     <Compile Include="IsPowerOfThree.cs" />
     <Compile Include="IsPowerOfTwo.cs" />
