@@ -263,12 +263,16 @@ namespace Ahao.Algorithm
 
             #region 367. 有效的完全平方数
 
-            IsPerfectSquare isPerfectSquare = new IsPerfectSquare();
-            WriteLine(isPerfectSquare.Method(160000));
+            //IsPerfectSquare isPerfectSquare = new IsPerfectSquare();
+            //WriteLine(isPerfectSquare.Method(160000));
 
             #endregion
 
+            #region
 
+
+
+            #endregion
 
 
 
