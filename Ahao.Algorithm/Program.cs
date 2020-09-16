@@ -254,6 +254,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 342.4的幂
+
+            IsPowerOfFour isPowerOfFour = new IsPowerOfFour();
+            WriteLine(isPowerOfFour.Method(5));
+
+            #endregion
+
             ReadLine();
         }
     }
