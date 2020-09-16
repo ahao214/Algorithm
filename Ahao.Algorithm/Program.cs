@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -247,8 +242,15 @@ namespace Ahao.Algorithm
 
             #region 441. 排列硬币
 
-            ArrangeCoins arrangeCoins = new ArrangeCoins();
-            Console.WriteLine(arrangeCoins.Method(2147483647));
+            //ArrangeCoins arrangeCoins = new ArrangeCoins();
+            //WriteLine(arrangeCoins.Method(8));
+
+            #endregion
+
+            #region 83.删除排序链表中的重复元素
+
+            DeleteDuplicates deleteDuplicates = new DeleteDuplicates();
+
 
             #endregion
 
