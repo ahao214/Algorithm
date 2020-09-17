@@ -282,8 +282,15 @@ namespace Ahao.Algorithm
 
             #region 387.字符串中的第一个唯一字符
 
-            FirstUniqChar firstUniqChar = new FirstUniqChar();
-            WriteLine(firstUniqChar.Method("aabcc"));
+            //FirstUniqChar firstUniqChar = new FirstUniqChar();
+            //WriteLine(firstUniqChar.Method("aabcc"));
+
+            #endregion
+
+            #region
+
+            FizzBuzz fizzBuzz = new FizzBuzz();
+            fizzBuzz.Method(9);
 
             #endregion
 

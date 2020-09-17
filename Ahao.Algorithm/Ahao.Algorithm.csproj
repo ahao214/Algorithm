@@ -55,6 +55,7 @@
     <Compile Include="DeleteDuplicates.cs" />
     <Compile Include="Exist.cs" />
     <Compile Include="FindKthLargest.cs" />
+    <Compile Include="FizzBuzz.cs" />
     <Compile Include="GetPermutation.cs" />
     <Compile Include="InvertTree.cs" />
     <Compile Include="IsHappy.cs" />
