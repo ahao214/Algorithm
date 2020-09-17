@@ -268,9 +268,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region
+            #region 198.打家劫舍
 
-
+            Rob rob = new Rob();
+            int[] nums1 = { 1, 2, 3, 1 };
+            int[] nums2 = { 2, 7, 9, 3, 1 };
+            int[] nums3 = { 9, 1, 1, 9 };
+            WriteLine(rob.Method(nums3));
 
             #endregion
 
