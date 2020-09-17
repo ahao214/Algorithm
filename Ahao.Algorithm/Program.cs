@@ -296,9 +296,18 @@ namespace Ahao.Algorithm
 
             #region 121.买卖股票的最佳时机
 
-            MaxProfit maxProfit = new MaxProfit();
-            int[] nums = { 7, 1, 5, 3, 6, 4 };
-            WriteLine(maxProfit.Method(nums));
+            //MaxProfit maxProfit = new MaxProfit();
+            //int[] nums = { 7, 1, 5, 3, 6, 4 };
+            //WriteLine(maxProfit.Method(nums));
+
+            #endregion
+
+            #region 139.单词拆分
+
+            WordBreak wordBreak = new WordBreak();
+            string s = "cars";
+            string[] wordDict = { "cars", "ar", "rs" };
+            WriteLine(wordBreak.Method(s, wordDict));
 
             #endregion
 

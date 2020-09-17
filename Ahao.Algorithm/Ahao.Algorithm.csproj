@@ -82,6 +82,7 @@
     <Compile Include="RomanToInt.cs" />
     <Compile Include="SolveSudoku.cs" />
     <Compile Include="TopKFrequent.cs" />
+    <Compile Include="WordBreak.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
