@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -270,15 +272,20 @@ namespace Ahao.Algorithm
 
             #region 198.打家劫舍
 
-            Rob rob = new Rob();
-            int[] nums1 = { 1, 2, 3, 1 };
-            int[] nums2 = { 2, 7, 9, 3, 1 };
-            int[] nums3 = { 9, 1, 1, 9 };
-            WriteLine(rob.Method(nums3));
+            //Rob rob = new Rob();
+            //int[] nums1 = { 1, 2, 3, 1 };
+            //int[] nums2 = { 2, 7, 9, 3, 1 };
+            //int[] nums3 = { 9, 1, 1, 9 };
+            //WriteLine(rob.Method(nums3));
 
             #endregion
 
+            #region 387.字符串中的第一个唯一字符
 
+            FirstUniqChar firstUniqChar = new FirstUniqChar();
+            WriteLine(firstUniqChar.Method("aabcc"));
+
+            #endregion
 
             ReadLine();
         }
