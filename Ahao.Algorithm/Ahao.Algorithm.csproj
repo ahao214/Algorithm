@@ -70,6 +70,7 @@
     <Compile Include="LengthOfLastWord.cs" />
     <Compile Include="LevelOrderBottom.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
+    <Compile Include="MaxProfit.cs" />
     <Compile Include="MaxScoreSightseeingPair.cs" />
     <Compile Include="MaxSubArray.cs" />
     <Compile Include="MergeTwoLists.cs" />

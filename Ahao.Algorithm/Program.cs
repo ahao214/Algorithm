@@ -289,8 +289,16 @@ namespace Ahao.Algorithm
 
             #region
 
-            FizzBuzz fizzBuzz = new FizzBuzz();
-            fizzBuzz.Method(9);
+            //FizzBuzz fizzBuzz = new FizzBuzz();
+            //fizzBuzz.Method(9);
+
+            #endregion
+
+            #region 121.买卖股票的最佳时机
+
+            MaxProfit maxProfit = new MaxProfit();
+            int[] nums = { 7, 1, 5, 3, 6, 4 };
+            WriteLine(maxProfit.Method(nums));
 
             #endregion
 
