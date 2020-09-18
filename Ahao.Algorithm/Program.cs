@@ -304,10 +304,18 @@ namespace Ahao.Algorithm
 
             #region 139.单词拆分
 
-            WordBreak wordBreak = new WordBreak();
-            string s = "cars";
-            string[] wordDict = { "cars", "ar", "rs" };
-            WriteLine(wordBreak.Method(s, wordDict));
+            //WordBreak wordBreak = new WordBreak();
+            //string s = "cars";
+            //string[] wordDict = { "cars", "ar", "rs" };
+            //WriteLine(wordBreak.Method(s, wordDict));
+
+            #endregion
+
+            #region 47.全排列
+
+            PermuteUnique permuteUnique = new PermuteUnique();
+            int[] nums = { 1, 1, 2 };            
+            IList<IList<int>> result = permuteUnique.Method(nums);
 
             #endregion
 
