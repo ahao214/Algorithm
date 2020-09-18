@@ -52,6 +52,7 @@
     <Compile Include="CombinationSum3.cs" />
     <Compile Include="Combine.cs" />
     <Compile Include="ContainsDuplicate.cs" />
+    <Compile Include="ContainsNearbyDuplicate.cs" />
     <Compile Include="DeleteDuplicates.cs" />
     <Compile Include="Exist.cs" />
     <Compile Include="FindKthLargest.cs" />

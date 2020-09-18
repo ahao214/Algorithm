@@ -313,11 +313,26 @@ namespace Ahao.Algorithm
 
             #region 47.全排列
 
-            PermuteUnique permuteUnique = new PermuteUnique();
-            int[] nums = { 1, 1, 2 };            
-            IList<IList<int>> result = permuteUnique.Method(nums);
+            //PermuteUnique permuteUnique = new PermuteUnique();
+            //int[] nums = { 1, 1, 2 };            
+            //IList<IList<int>> result = permuteUnique.Method(nums);
 
             #endregion
+
+            #region 219.存在重复元素(2)
+
+            ContainsNearbyDuplicate containsNearbyDuplicate = new ContainsNearbyDuplicate();
+            int[] nums = { 1, 0, 1, 1 };
+            int k = 1;
+            WriteLine(containsNearbyDuplicate.Method(nums, k));
+
+            #endregion
+
+
+
+
+
+
 
             ReadLine();
         }
