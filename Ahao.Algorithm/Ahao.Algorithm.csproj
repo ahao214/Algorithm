@@ -83,6 +83,7 @@
     <Compile Include="Rob.cs" />
     <Compile Include="RomanToInt.cs" />
     <Compile Include="SolveSudoku.cs" />
+    <Compile Include="SumOfLeftLeaves.cs" />
     <Compile Include="TopKFrequent.cs" />
     <Compile Include="WordBreak.cs" />
   </ItemGroup>

@@ -27,12 +27,12 @@ namespace Ahao.Algorithm
             #endregion
 
             #region 平方数之和
+
             //JudgeSquareSum judgeSquareSum = new JudgeSquareSum();
             //for(int i=1;i<101;i++)
             //{
             //    WriteLine($"当前值{i}是否是：" + judgeSquareSum.Method(i));
             //}
-
             //WriteLine(judgeSquareSum.Method(int.MaxValue));
 
             #endregion
@@ -321,14 +321,18 @@ namespace Ahao.Algorithm
 
             #region 219.存在重复元素(2)
 
-            ContainsNearbyDuplicate containsNearbyDuplicate = new ContainsNearbyDuplicate();
-            int[] nums = { 1, 0, 1, 1 };
-            int k = 1;
-            WriteLine(containsNearbyDuplicate.Method(nums, k));
+            //ContainsNearbyDuplicate containsNearbyDuplicate = new ContainsNearbyDuplicate();
+            //int[] nums = { 1, 0, 1, 1 };
+            //int k = 1;
+            //WriteLine(containsNearbyDuplicate.Method(nums, k));
 
             #endregion
 
+            #region 404.左叶子之和
 
+
+
+            #endregion
 
 
 
