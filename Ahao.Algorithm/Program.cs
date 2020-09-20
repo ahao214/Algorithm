@@ -334,7 +334,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 78.子集
 
+            int[] nums = { 1, 2, 3 };
+            Subsets subsets = new Subsets();
+            subsets.Method(nums);
+
+            #endregion
 
 
 

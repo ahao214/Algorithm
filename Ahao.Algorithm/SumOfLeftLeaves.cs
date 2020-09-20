@@ -25,7 +25,6 @@ namespace Ahao.Algorithm
                 return;
             }
 
-
             if (node.left != null && node.left.left == null && node.left.right == null)
             {
                 sum += node.left.val;
