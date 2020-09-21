@@ -350,14 +350,22 @@ namespace Ahao.Algorithm
 
             #region 88.合并两个有序数组
 
-            int[] num1 = { 1, 2, 3,0,0,0 };
-            int m = 3;
-            int[] num2 = { 2, 5, 6 };
-            int n = 3;
+            //int[] num1 = { 1, 2, 3,0,0,0 };
+            //int m = 3;
+            //int[] num2 = { 2, 5, 6 };
+            //int n = 3;
 
-            Merge merge = new Merge();
-            merge.Method(num1, m, num2, n);
+            //Merge merge = new Merge();
+            //merge.Method(num1, m, num2, n);
 
+            #endregion
+
+            #region 125.验证回文串
+
+            IsPalindrome isPalindrome = new IsPalindrome();
+            string item = "race a car";            
+            WriteLine(isPalindrome.Method(item));
+            
             #endregion
 
             ReadLine();
