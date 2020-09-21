@@ -75,6 +75,7 @@
     <Compile Include="MaxProfit.cs" />
     <Compile Include="MaxScoreSightseeingPair.cs" />
     <Compile Include="MaxSubArray.cs" />
+    <Compile Include="Merge.cs" />
     <Compile Include="MergeTwoLists.cs" />
     <Compile Include="PermuteUnique.cs" />
     <Compile Include="PivotIndex.cs" />

@@ -344,10 +344,21 @@ namespace Ahao.Algorithm
 
             #region 538.把二叉搜索树转换为累加树
 
-
+            ConvertBST convertBST = new ConvertBST();
 
             #endregion
 
+            #region 88.合并两个有序数组
+
+            int[] num1 = { 1, 2, 3,0,0,0 };
+            int m = 3;
+            int[] num2 = { 2, 5, 6 };
+            int n = 3;
+
+            Merge merge = new Merge();
+            merge.Method(num1, m, num2, n);
+
+            #endregion
 
             ReadLine();
         }
