@@ -336,12 +336,17 @@ namespace Ahao.Algorithm
 
             #region 78.子集
 
-            int[] nums = { 1, 2, 3 };
-            Subsets subsets = new Subsets();
-            subsets.Method(nums);
+            //int[] nums = { 1, 2, 3 };
+            //Subsets subsets = new Subsets();
+            //subsets.Method(nums);
 
             #endregion
 
+            #region 538.把二叉搜索树转换为累加树
+
+
+
+            #endregion
 
 
             ReadLine();
