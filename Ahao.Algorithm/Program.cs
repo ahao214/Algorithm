@@ -363,9 +363,10 @@ namespace Ahao.Algorithm
             #region 125.验证回文串
 
             IsPalindrome isPalindrome = new IsPalindrome();
-            string item = "race a car";            
+            string item = "race a car";
             WriteLine(isPalindrome.Method(item));
-            
+
+
             #endregion
 
             ReadLine();
