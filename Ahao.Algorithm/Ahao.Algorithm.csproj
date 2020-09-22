@@ -59,6 +59,7 @@
     <Compile Include="FindKthLargest.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="GetPermutation.cs" />
+    <Compile Include="Intersection.cs" />
     <Compile Include="InvertTree.cs" />
     <Compile Include="IsHappy.cs" />
     <Compile Include="IsPalindrome.cs" />

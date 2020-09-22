@@ -362,11 +362,18 @@ namespace Ahao.Algorithm
 
             #region 125.验证回文串
 
-            IsPalindrome isPalindrome = new IsPalindrome();
-            string item = "race a car";
-            WriteLine(isPalindrome.Method(item));
+            //IsPalindrome isPalindrome = new IsPalindrome();
+            //string item = "race a car";
+            //WriteLine(isPalindrome.Method(item));
 
+            #endregion
 
+            #region 349.两个数组的交集
+
+            Intersection intersection = new Intersection();
+            int[] num1 = { 1, 2, 2, 1 };
+            int[] num2 = { 2, 2 };
+            intersection.Method(num1, num2);
             #endregion
 
             ReadLine();
