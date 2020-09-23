@@ -392,8 +392,16 @@ namespace Ahao.Algorithm
 
             #region 12.整数转罗马数字
 
-            IntToRoman intToRoman = new IntToRoman();
-            WriteLine(intToRoman.Method(40));
+            //IntToRoman intToRoman = new IntToRoman();
+            //WriteLine(intToRoman.Method(40));
+
+            #endregion
+
+            #region 11.盛做多水的容器
+
+            MaxArea maxArea = new MaxArea();
+            int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+            WriteLine(maxArea.Method(height));
 
             #endregion
 

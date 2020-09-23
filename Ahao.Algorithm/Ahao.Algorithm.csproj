@@ -76,6 +76,7 @@
     <Compile Include="LengthOfLongestSubstring.cs" />
     <Compile Include="LevelOrderBottom.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
+    <Compile Include="MaxArea.cs" />
     <Compile Include="MaxProfit.cs" />
     <Compile Include="MaxScoreSightseeingPair.cs" />
     <Compile Include="MaxSubArray.cs" />
