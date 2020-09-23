@@ -385,8 +385,15 @@ namespace Ahao.Algorithm
 
             #region 3.无重复字符的最长子串
 
-            LengthOfLongestSubstring lengthOfLongestSubstring = new LengthOfLongestSubstring();
-            WriteLine(lengthOfLongestSubstring.Method("abcabcbb"));
+            //LengthOfLongestSubstring lengthOfLongestSubstring = new LengthOfLongestSubstring();
+            //WriteLine(lengthOfLongestSubstring.Method("abcabcbb"));
+
+            #endregion
+
+            #region 12.整数转罗马数字
+
+            IntToRoman intToRoman = new IntToRoman();
+            WriteLine(intToRoman.Method(40));
 
             #endregion
 
