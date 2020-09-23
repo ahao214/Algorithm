@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ahao.Algorithm
 {
     /// <summary>
-    /// 363-丑数
+    /// 363.丑数
     /// 丑数就是只包含质因数 2, 3, 5 的正整数
     /// 1 是丑数
     /// </summary>

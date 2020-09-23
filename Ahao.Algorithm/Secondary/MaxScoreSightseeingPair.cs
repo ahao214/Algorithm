@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ahao.Algorithm
 {
     /// <summary>
-    /// 1014-最佳观光组合
+    /// 1014.最佳观光组合
     /// </summary>
     public class MaxScoreSightseeingPair
     {

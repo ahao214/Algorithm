@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ahao.Algorithm
 {
     /// <summary>
-    /// 633-平方数之和
+    /// 633.平方数之和
     /// </summary>
     public class JudgeSquareSum
     {

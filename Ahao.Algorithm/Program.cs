@@ -10,7 +10,7 @@ namespace Ahao.Algorithm
         static void Main(string[] args)
         {
 
-            #region 除自身以外数组的乘积
+            #region 238.除自身以外数组的乘积
 
             //int[] nums = { 1, 2, 3, 4 };
             //ProductExceptSelf productExceptSelf = new ProductExceptSelf();
@@ -18,7 +18,7 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 丑数
+            #region 363.丑数
 
             //IsUgly isUgly = new IsUgly();
             //bool result = isUgly.Method(3);
@@ -26,7 +26,7 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 平方数之和
+            #region 633.平方数之和
 
             //JudgeSquareSum judgeSquareSum = new JudgeSquareSum();
             //for(int i=1;i<101;i++)
@@ -37,7 +37,7 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 最佳观光组合
+            #region 1014.最佳观光组合
 
             //MaxScoreSightseeingPair maxScoreSightseeingPair = new MaxScoreSightseeingPair();
             //int[] a = { 8, 1, 5, 2, 6 };
@@ -287,9 +287,9 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region
+            #region 412.Fizz Buzz
 
-            //FizzBuzz fizzBuzz = new FizzBuzz();
+            FizzBuzz fizzBuzz = new FizzBuzz();
             //fizzBuzz.Method(9);
 
             #endregion
