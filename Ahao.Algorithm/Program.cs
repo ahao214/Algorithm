@@ -370,10 +370,17 @@ namespace Ahao.Algorithm
 
             #region 349和350.两个数组的交集
 
-            Intersection intersection = new Intersection();
-            int[] num1 = { 1, 2, 2, 1 };
-            int[] num2 = { 2, 2 };
-            intersection.Method2(num1, num2);
+            //Intersection intersection = new Intersection();
+            //int[] num1 = { 1, 2, 2, 1 };
+            //int[] num2 = { 2, 2 };
+            //intersection.Method2(num1, num2);
+
+            #endregion
+
+            #region 617.合并二叉树
+
+
+
             #endregion
 
             ReadLine();
