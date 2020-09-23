@@ -399,9 +399,17 @@ namespace Ahao.Algorithm
 
             #region 11.盛做多水的容器
 
-            MaxArea maxArea = new MaxArea();
-            int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
-            WriteLine(maxArea.Method(height));
+            //MaxArea maxArea = new MaxArea();
+            //int[] height = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+            //WriteLine(maxArea.Method(height));
+
+            #endregion
+
+            #region 75.颜色分类
+
+            SortColors sortColors = new SortColors();
+            int[] nums = { 1, 2, 0, 0, 0, 1, 2 };
+            sortColors.Method(nums);
 
             #endregion
 

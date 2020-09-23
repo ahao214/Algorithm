@@ -91,6 +91,7 @@
     <Compile Include="Rob.cs" />
     <Compile Include="RomanToInt.cs" />
     <Compile Include="SolveSudoku.cs" />
+    <Compile Include="SortColors.cs" />
     <Compile Include="Subsets.cs" />
     <Compile Include="SumOfLeftLeaves.cs" />
     <Compile Include="TopKFrequent.cs" />
