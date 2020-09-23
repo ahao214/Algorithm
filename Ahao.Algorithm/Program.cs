@@ -10,7 +10,7 @@ namespace Ahao.Algorithm
         static void Main(string[] args)
         {
 
-            #region 238.除自身以外数组的乘积
+            #region 除自身以外数组的乘积
 
             //int[] nums = { 1, 2, 3, 4 };
             //ProductExceptSelf productExceptSelf = new ProductExceptSelf();
