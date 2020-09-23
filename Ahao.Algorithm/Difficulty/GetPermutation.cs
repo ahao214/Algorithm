@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ahao.Algorithm
 {
+    /// <summary>
+    /// 60.第K个排列
+    /// </summary>
     public class GetPermutation
     {
         public string Method(int n, int k)

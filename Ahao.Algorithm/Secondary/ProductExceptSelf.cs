@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace Ahao.Algorithm
 {
     /// <summary>
-    /// 除自身以外数组的乘积
+    /// 238.除自身以外数组的乘积
     /// </summary>
-    public class _238
+    public class ProductExceptSelf
     {
-        public int[] productExceptSelf(int[] nums)
+        public int[] Method(int[] nums)
         {
             int len = nums.Length;
             int[] output = new int[len];

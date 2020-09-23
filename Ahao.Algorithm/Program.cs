@@ -13,8 +13,8 @@ namespace Ahao.Algorithm
             #region 238.除自身以外数组的乘积
 
             //int[] nums = { 1, 2, 3, 4 };
-            //_238 a = new _238();
-            //int[] newNums = a.productExceptSelf(nums);
+            //ProductExceptSelf productExceptSelf = new ProductExceptSelf();
+            //int[] newNums = productExceptSelf.productExceptSelf(nums);
 
             #endregion
 
