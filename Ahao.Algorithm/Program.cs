@@ -383,6 +383,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 3.无重复字符的最长子串
+
+            LengthOfLongestSubstring lengthOfLongestSubstring = new LengthOfLongestSubstring();
+            WriteLine(lengthOfLongestSubstring.Method("abcabcbb"));
+
+            #endregion
+
             ReadLine();
         }
     }

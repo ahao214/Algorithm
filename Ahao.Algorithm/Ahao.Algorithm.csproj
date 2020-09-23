@@ -72,6 +72,7 @@
     <Compile Include="JudgeCircle.cs" />
     <Compile Include="JudgeSquareSum.cs" />
     <Compile Include="LengthOfLastWord.cs" />
+    <Compile Include="LengthOfLongestSubstring.cs" />
     <Compile Include="LevelOrderBottom.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="MaxProfit.cs" />
