@@ -98,6 +98,7 @@
     <Compile Include="Simple\SumOfLeftLeaves.cs" />
     <Compile Include="Secondary\TopKFrequent.cs" />
     <Compile Include="Secondary\WordBreak.cs" />
+    <Compile Include="Simple\WordPattern.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

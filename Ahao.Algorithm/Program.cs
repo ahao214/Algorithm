@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ahao.Algorithm.Simple;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using static System.Console;
@@ -424,6 +425,15 @@ namespace Ahao.Algorithm
 
             HasPathSum hasPathSum = new HasPathSum();
 
+
+            #endregion
+
+            #region 290.单词规则
+
+            WordPattern wordPattern = new WordPattern();
+            string pattern = "abab";
+            string str = "dog cat dog cat";
+            WriteLine(wordPattern.Method(pattern, str));
 
             #endregion
 
