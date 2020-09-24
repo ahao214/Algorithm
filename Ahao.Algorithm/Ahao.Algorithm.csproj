@@ -60,6 +60,7 @@
     <Compile Include="Simple\FindMode.cs" />
     <Compile Include="Simple\FizzBuzz.cs" />
     <Compile Include="Difficulty\GetPermutation.cs" />
+    <Compile Include="Simple\HasPathSum.cs" />
     <Compile Include="Simple\Intersection.cs" />
     <Compile Include="Secondary\IntToRoman.cs" />
     <Compile Include="Simple\InvertTree.cs" />
