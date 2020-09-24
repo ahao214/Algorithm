@@ -430,13 +430,22 @@ namespace Ahao.Algorithm
 
             #region 290.单词规则
 
-            WordPattern wordPattern = new WordPattern();
-            string pattern = "abab";
-            string str = "dog cat dog cat";
-            WriteLine(wordPattern.Method(pattern, str));
+            //WordPattern wordPattern = new WordPattern();
+            //string pattern = "abab";
+            //string str = "dog cat dog cat";
+            //WriteLine(wordPattern.Method(pattern, str));
 
             #endregion
 
+            #region 709. 转换成小写字母
+
+            ToLowerCase toLowerCase = new ToLowerCase();
+            WriteLine(toLowerCase.Method("ABC"));
+
+            #endregion
+            
+            
+            
             ReadLine();
         }
     }
