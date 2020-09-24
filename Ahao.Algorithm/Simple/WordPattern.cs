@@ -14,13 +14,12 @@ namespace Ahao.Algorithm.Simple
         public bool Method(string pattern, string s)
         {
             string[] subStrs = s.Split(' ');
-            List<string> lst = new List<string>();
-            int patternCount = pattern.Count();
-            if (patternCount != subStrs.Count())
+            List<string> lst = new List<string>();            
+            if (pattern.Count() != subStrs.Count())
             {
                 return false;
             }
-            for (int i = 0; i < patternCount; i++)
+            for (int i = 0; i < pattern.Count(); i++)
             {
                 //判断字母首次出现位置
                 int first = pattern.IndexOf(pattern[i]);
