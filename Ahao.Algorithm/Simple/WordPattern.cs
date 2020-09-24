@@ -22,8 +22,9 @@ namespace Ahao.Algorithm.Simple
             }
             for (int i = 0; i < patternCount; i++)
             {
-                //判断字母首次出现的位置
-                if (i == pattern.IndexOf(pattern[i]))
+                //判断字母首次出现位置
+                int first = pattern.IndexOf(pattern[i]);
+                if (i == first)
                 {
                     if (lst.Contains(subStrs[i]))
                     {
@@ -33,7 +34,8 @@ namespace Ahao.Algorithm.Simple
                 }
                 else
                 {
-                    if (lst[pattern.IndexOf(pattern[i])] != subStrs[i])
+                    //判断对应的数据是否相等
+                    if (lst[first] != subStrs[i])
                     {
                         return false;
                     }
