@@ -57,6 +57,7 @@
     <Compile Include="Simple\DeleteDuplicates.cs" />
     <Compile Include="Secondary\Exist.cs" />
     <Compile Include="Simple\FindKthLargest.cs" />
+    <Compile Include="Simple\FindMode.cs" />
     <Compile Include="Simple\FizzBuzz.cs" />
     <Compile Include="Difficulty\GetPermutation.cs" />
     <Compile Include="Simple\Intersection.cs" />
