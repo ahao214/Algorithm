@@ -9,12 +9,12 @@ namespace Ahao.Algorithm.Simple
     /// <summary>
     /// 119.杨辉三角(2)
     /// </summary>
-   public class GetRow
-    {        
+    public class GetRow
+    {
         public IList<int> Method(int rowIndex)
-        {           
-            var result = new List<IList<int>>();           
-            for (int i = 0; i < rowIndex+1; i++)
+        {
+            var result = new List<IList<int>>();
+            for (int i = 0; i < rowIndex + 1; i++)
             {
                 var list = new List<int>(i + 1);
                 for (int j = 0; j < i + 1; j++)
@@ -30,7 +30,7 @@ namespace Ahao.Algorithm.Simple
                     }
                     list.Add(number);
                 }
-                if(rowIndex==i)
+                if (rowIndex == i)
                 {
                     return list;
                 }
