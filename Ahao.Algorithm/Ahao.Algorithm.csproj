@@ -74,6 +74,7 @@
     <Compile Include="Simple\IsPowerOfThree.cs" />
     <Compile Include="Simple\IsPowerOfTwo.cs" />
     <Compile Include="Simple\IsSameTree.cs" />
+    <Compile Include="Simple\IsSymmetric.cs" />
     <Compile Include="Simple\IsUgly.cs" />
     <Compile Include="Simple\IsValid.cs" />
     <Compile Include="Simple\JudgeCircle.cs" />
