@@ -62,6 +62,7 @@
     <Compile Include="Simple\FizzBuzz.cs" />
     <Compile Include="Difficulty\GetPermutation.cs" />
     <Compile Include="Simple\Generate.cs" />
+    <Compile Include="Simple\GetRow.cs" />
     <Compile Include="Simple\HasPathSum.cs" />
     <Compile Include="Simple\Intersection.cs" />
     <Compile Include="Secondary\IntToRoman.cs" />

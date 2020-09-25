@@ -453,8 +453,15 @@ namespace Ahao.Algorithm
 
             #region 118.杨辉三角
 
-            Generate generate = new Generate();
-            generate.Method(3);
+            //Generate generate = new Generate();
+            //generate.Method(3);
+
+            #endregion
+
+            #region 119.杨辉三角(2)
+
+            GetRow getRow = new GetRow();
+            getRow.Method(3);
 
             #endregion
 
