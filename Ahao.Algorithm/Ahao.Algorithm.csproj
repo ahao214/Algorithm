@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Secondary\BuildTree.cs" />
     <Compile Include="Secondary\ProductExceptSelf.cs" />
     <Compile Include="Simple\ArrangeCoins.cs" />
     <Compile Include="Simple\AverageOfLevels.cs" />

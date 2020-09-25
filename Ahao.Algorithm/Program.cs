@@ -439,13 +439,19 @@ namespace Ahao.Algorithm
 
             #region 709. 转换成小写字母
 
-            ToLowerCase toLowerCase = new ToLowerCase();
-            WriteLine(toLowerCase.Method("ABC"));
+            //ToLowerCase toLowerCase = new ToLowerCase();
+            //WriteLine(toLowerCase.Method("ABC"));
 
             #endregion
-            
-            
-            
+
+            #region 106. 从中序与后序遍历序列构造二叉树
+
+            BuildTree buildTree = new BuildTree();
+
+
+            #endregion
+
+
             ReadLine();
         }
     }
