@@ -451,6 +451,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 118.杨辉三角
+
+            Generate generate = new Generate();
+            generate.Method(3);
+
+            #endregion
+
 
             ReadLine();
         }
