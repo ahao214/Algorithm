@@ -13,8 +13,7 @@ namespace Ahao.Algorithm.Simple
     {        
         public IList<int> Method(int rowIndex)
         {           
-            var result = new List<IList<int>>();
-            var res = new List<int>();
+            var result = new List<IList<int>>();           
             for (int i = 0; i < rowIndex+1; i++)
             {
                 var list = new List<int>(i + 1);
@@ -31,11 +30,14 @@ namespace Ahao.Algorithm.Simple
                     }
                     list.Add(number);
                 }
-                res = list;
+                if(rowIndex==i)
+                {
+                    return list;
+                }
                 result.Add(list);
             }
-            
-            return res;
+
+            return result.Last();
         }
     }
 }
