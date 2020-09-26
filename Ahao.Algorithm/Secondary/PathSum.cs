@@ -9,8 +9,8 @@ namespace Ahao.Algorithm.Secondary
     /// <summary>
     /// 113.路径总和(2)
     /// </summary>
-   public class PathSum
-    {        
+    public class PathSum
+    {
         public IList<IList<int>> Method(TreeNode root, int sum)
         {
             var result = new List<IList<int>>();
@@ -24,6 +24,10 @@ namespace Ahao.Algorithm.Secondary
 
         private void GetResult(TreeNode root, int sum, List<int> path, List<IList<int>> result)
         {
+            if (root == null)
+            {
+                return;
+            }
             if (root.left == null && root.right == null)
             {
                 sum -= root.val;
@@ -44,9 +48,9 @@ namespace Ahao.Algorithm.Secondary
 
     public class TreeNode
     {
-      public int val;
-      public TreeNode left;
-      public TreeNode right;
-      public TreeNode(int x) { val = x; }
-  }
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int x) { val = x; }
+    }
 }
