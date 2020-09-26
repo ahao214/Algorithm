@@ -1,4 +1,5 @@
-﻿using Ahao.Algorithm.Simple;
+﻿using Ahao.Algorithm.Secondary;
+using Ahao.Algorithm.Simple;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -477,7 +478,9 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region
+            #region 113.路径总和(2)
+
+            PathSum pathSum = new PathSum();
 
 
             #endregion
