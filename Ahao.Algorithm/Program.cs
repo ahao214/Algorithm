@@ -506,6 +506,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 142.环形链表(2)
+
+            DetectCycle detectCycle = new DetectCycle();
+
+            #endregion
+
             #region
 
 
