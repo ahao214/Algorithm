@@ -493,12 +493,20 @@ namespace Ahao.Algorithm
 
             #region 137.只出现一次的数字(2)
 
-            SingleNumber singleNumber = new SingleNumber();
-            int[] num1 = { 2, 2, 3, 2 };
-            int[] num2 = { 0, 1, 0, 1, 0, 1, 99 };
-            WriteLine(singleNumber.Method(num2));
+            //SingleNumber singleNumber = new SingleNumber();
+            //int[] num1 = { 2, 2, 3, 2 };
+            //int[] num2 = { 0, 1, 0, 1, 0, 1, 99 };
+            //WriteLine(singleNumber.Method(num2));
 
             #endregion
+
+            #region
+
+
+
+            #endregion
+
+
 
 
             ReadLine();
