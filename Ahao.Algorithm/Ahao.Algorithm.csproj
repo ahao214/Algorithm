@@ -47,6 +47,7 @@
     <Compile Include="Secondary\BuildTree.cs" />
     <Compile Include="Secondary\PathSum.cs" />
     <Compile Include="Secondary\ProductExceptSelf.cs" />
+    <Compile Include="Secondary\SingleNumber.cs" />
     <Compile Include="Simple\ArrangeCoins.cs" />
     <Compile Include="Simple\AverageOfLevels.cs" />
     <Compile Include="Secondary\CombinationSum.cs" />
