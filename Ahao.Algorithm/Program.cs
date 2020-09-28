@@ -514,11 +514,18 @@ namespace Ahao.Algorithm
 
             #region 168.Excel表列名称
 
-            ConvertToTitle convertToTitle = new ConvertToTitle();
-            WriteLine(convertToTitle.Method(2));
+            //ConvertToTitle convertToTitle = new ConvertToTitle();
+            //WriteLine(convertToTitle.Method(2));
 
             #endregion
 
+            #region 179.最大数
+
+            LargestNumber largestNumber = new LargestNumber();
+            int[] numLarge = { 9, 5, 3, 30, 34 };
+            WriteLine(largestNumber.Method(numLarge));
+
+            #endregion
 
             ReadLine();
         }
