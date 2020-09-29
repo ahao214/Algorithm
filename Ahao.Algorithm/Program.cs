@@ -521,11 +521,25 @@ namespace Ahao.Algorithm
 
             #region 179.最大数
 
-            LargestNumber largestNumber = new LargestNumber();
-            int[] numLarge = { 9, 5, 3, 30, 34 };
-            WriteLine(largestNumber.Method(numLarge));
+            //LargestNumber largestNumber = new LargestNumber();
+            //int[] numLarge = { 9, 5, 3, 30, 34 };
+            //WriteLine(largestNumber.Method(numLarge));
 
             #endregion
+
+            #region 145.二叉树的后序遍历
+
+            PostorderTraversal postorderTraversal = new PostorderTraversal();
+
+            #endregion
+
+            #region 
+
+            
+            #endregion
+
+
+
 
             ReadLine();
         }
