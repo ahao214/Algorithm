@@ -533,9 +533,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 701. 二叉搜索树中的插入操作
 
-            
+            InsertIntoBST insertIntoBST = new InsertIntoBST();
+
+
             #endregion
 
 
