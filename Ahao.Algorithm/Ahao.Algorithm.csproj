@@ -48,6 +48,7 @@
     <Compile Include="Secondary\DetectCycle.cs" />
     <Compile Include="Secondary\InsertIntoBST.cs" />
     <Compile Include="Secondary\LargestNumber.cs" />
+    <Compile Include="Secondary\MinimumOperations.cs" />
     <Compile Include="Secondary\PathSum.cs" />
     <Compile Include="Secondary\PostorderTraversal.cs" />
     <Compile Include="Secondary\ProductExceptSelf.cs" />

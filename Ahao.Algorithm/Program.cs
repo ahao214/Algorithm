@@ -540,7 +540,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region LCP 19. 秋叶收藏集
 
+            MinimumOperations minimumOperations = new MinimumOperations();
+            string leaves = "ryr";
+            WriteLine(minimumOperations.Method(leaves));
+
+            #endregion
 
 
             ReadLine();
