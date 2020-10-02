@@ -542,9 +542,18 @@ namespace Ahao.Algorithm
 
             #region LCP 19. 秋叶收藏集
 
-            MinimumOperations minimumOperations = new MinimumOperations();
-            string leaves = "ryr";
-            WriteLine(minimumOperations.Method(leaves));
+            //MinimumOperations minimumOperations = new MinimumOperations();
+            //string leaves = "ryr";
+            //WriteLine(minimumOperations.Method(leaves));
+
+            #endregion
+
+            #region 771.宝石与石头
+
+            NumJewelsInStones numJewelsInStones = new NumJewelsInStones();
+            string J = "z";
+            string s = "ZZ";
+            WriteLine(numJewelsInStones.Method(J, s));
 
             #endregion
 
