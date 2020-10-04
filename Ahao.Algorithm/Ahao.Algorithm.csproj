@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Secondary\AddTwoNumbers.cs" />
     <Compile Include="Secondary\BuildTree.cs" />
     <Compile Include="Secondary\DetectCycle.cs" />
     <Compile Include="Secondary\InsertIntoBST.cs" />

@@ -550,13 +550,18 @@ namespace Ahao.Algorithm
 
             #region 771.宝石与石头
 
-            NumJewelsInStones numJewelsInStones = new NumJewelsInStones();
-            string J = "z";
-            string s = "ZZ";
-            WriteLine(numJewelsInStones.Method(J, s));
+            //NumJewelsInStones numJewelsInStones = new NumJewelsInStones();
+            //string J = "z";
+            //string s = "ZZ";
+            //WriteLine(numJewelsInStones.Method(J, s));
 
             #endregion
 
+            #region 2.两数相加
+
+            AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+
+            #endregion
 
             ReadLine();
         }
