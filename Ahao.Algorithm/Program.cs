@@ -563,6 +563,15 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 18.四数之和
+
+            FourSum fourSum = new FourSum();
+            int[] num = { 1, 0, -1, 0, -2, 2 };
+            int target = 0;
+            fourSum.Method(num, target);
+
+            #endregion
+
             ReadLine();
         }
     }
