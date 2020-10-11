@@ -572,6 +572,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 416. 分割等和子集
+
+            CanPartition canPartition = new CanPartition();
+            int[] numCan = { 1, 2, 3, 5, 5 };
+            WriteLine(canPartition.Method(numCan));
+
+            #endregion
+
             ReadLine();
         }
     }
