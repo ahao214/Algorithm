@@ -574,9 +574,15 @@ namespace Ahao.Algorithm
 
             #region 416. 分割等和子集
 
-            CanPartition canPartition = new CanPartition();
-            int[] numCan = { 1, 2, 3, 5, 5 };
-            WriteLine(canPartition.Method(numCan));
+            //CanPartition canPartition = new CanPartition();
+            //int[] numCan = { 1, 2, 3, 5, 5 };
+            //WriteLine(canPartition.Method(numCan));
+
+            #endregion
+
+            #region 530. 二叉搜索树的最小绝对差
+
+
 
             #endregion
 

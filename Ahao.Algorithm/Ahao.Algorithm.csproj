@@ -73,6 +73,7 @@
     <Compile Include="Simple\FizzBuzz.cs" />
     <Compile Include="Difficulty\GetPermutation.cs" />
     <Compile Include="Simple\Generate.cs" />
+    <Compile Include="Simple\GetMinimumDifference.cs" />
     <Compile Include="Simple\GetRow.cs" />
     <Compile Include="Simple\HasCycle.cs" />
     <Compile Include="Simple\HasPathSum.cs" />
