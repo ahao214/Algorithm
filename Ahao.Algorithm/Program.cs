@@ -582,6 +582,7 @@ namespace Ahao.Algorithm
 
             #region 530. 二叉搜索树的最小绝对差
 
+            GetMinimumDifference getMinimumDifference = new GetMinimumDifference();
 
 
             #endregion
