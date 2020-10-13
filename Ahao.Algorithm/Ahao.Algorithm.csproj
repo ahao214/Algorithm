@@ -56,6 +56,7 @@
     <Compile Include="Secondary\PostorderTraversal.cs" />
     <Compile Include="Secondary\ProductExceptSelf.cs" />
     <Compile Include="Secondary\SingleNumber.cs" />
+    <Compile Include="Secondary\SwapPairs.cs" />
     <Compile Include="Simple\ArrangeCoins.cs" />
     <Compile Include="Simple\AverageOfLevels.cs" />
     <Compile Include="Secondary\CombinationSum.cs" />

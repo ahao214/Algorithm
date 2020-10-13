@@ -587,6 +587,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 24.两两交换链表中的节点
+
+            SwapPairs swapPairs = new SwapPairs();
+
+            #endregion
+
             ReadLine();
         }
     }
