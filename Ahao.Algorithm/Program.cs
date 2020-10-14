@@ -593,6 +593,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 1002. 查找常用字符
+
+            CommonChars commonChars = new CommonChars();
+            string[] A = { "cool", "lock", "cook" };
+            WriteLine(commonChars.Method(A));
+
+            #endregion
+
             ReadLine();
         }
     }
