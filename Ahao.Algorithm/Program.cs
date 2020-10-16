@@ -595,9 +595,17 @@ namespace Ahao.Algorithm
 
             #region 1002. 查找常用字符
 
-            CommonChars commonChars = new CommonChars();
-            string[] A = { "cool", "lock", "cook" };
-            WriteLine(commonChars.Method(A));
+            //CommonChars commonChars = new CommonChars();
+            //string[] A = { "cool", "lock", "cook" };
+            //WriteLine(commonChars.Method(A));
+
+            #endregion
+
+            #region 977. 有序数组的平方
+
+            SortedSquares sortedSquares = new SortedSquares();
+            int[] A = { -4, -1, 0, 3, 10 };
+            WriteLine(sortedSquares.Method(A));
 
             #endregion
 
