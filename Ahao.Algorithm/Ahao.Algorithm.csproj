@@ -63,6 +63,7 @@
     <Compile Include="Secondary\CombinationSum2.cs" />
     <Compile Include="Secondary\CombinationSum3.cs" />
     <Compile Include="Secondary\Combine.cs" />
+    <Compile Include="Simple\BackspaceCompare.cs" />
     <Compile Include="Simple\CommonChars.cs" />
     <Compile Include="Simple\ContainsDuplicate.cs" />
     <Compile Include="Simple\ContainsNearbyDuplicate.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Secondary\IntToRoman.cs" />
     <Compile Include="Simple\InvertTree.cs" />
     <Compile Include="Simple\IsHappy.cs" />
+    <Compile Include="Simple\IsLongPressedName.cs" />
     <Compile Include="Simple\IsPalindrome.cs" />
     <Compile Include="Simple\IsPerfectSquare.cs" />
     <Compile Include="Simple\IsPowerOfFour.cs" />

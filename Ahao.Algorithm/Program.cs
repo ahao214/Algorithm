@@ -603,9 +603,33 @@ namespace Ahao.Algorithm
 
             #region 977. 有序数组的平方
 
-            SortedSquares sortedSquares = new SortedSquares();
-            int[] A = { -4, -1, 0, 3, 10 };
-            WriteLine(sortedSquares.Method(A));
+            //SortedSquares sortedSquares = new SortedSquares();
+            //int[] A = { -4, -1, 0, 3, 10 };
+            //WriteLine(sortedSquares.Method(A));
+
+            #endregion
+
+            #region 844. 比较含退格的字符串
+
+            //BackspaceCompare backspaceCompare = new BackspaceCompare();
+            //string S = "ab#c";
+            //string T = "ad#c";
+            //WriteLine(backspaceCompare.Method(S, T));
+
+            #endregion
+
+            #region 925.长按键入
+
+            IsLongPressedName isLongPressedName = new IsLongPressedName();
+            string name = "alex";
+            string typed = "aaleex";
+            WriteLine(isLongPressedName.Method(name, typed));
+
+            #endregion
+
+            #region
+
+
 
             #endregion
 
