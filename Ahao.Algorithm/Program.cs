@@ -620,15 +620,16 @@ namespace Ahao.Algorithm
 
             #region 925.长按键入
 
-            IsLongPressedName isLongPressedName = new IsLongPressedName();
-            string name = "alex";
-            string typed = "aaleex";
-            WriteLine(isLongPressedName.Method(name, typed));
+            //IsLongPressedName isLongPressedName = new IsLongPressedName();
+            //string name = "alex";
+            //string typed = "aaleex";
+            //WriteLine(isLongPressedName.Method(name, typed));
 
             #endregion
 
-            #region
+            #region 234.回文链表
 
+            IsPalindromeNum isPalindromeNum = new IsPalindromeNum();
 
 
             #endregion

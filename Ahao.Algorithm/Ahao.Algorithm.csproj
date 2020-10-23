@@ -86,6 +86,7 @@
     <Compile Include="Simple\IsHappy.cs" />
     <Compile Include="Simple\IsLongPressedName.cs" />
     <Compile Include="Simple\IsPalindrome.cs" />
+    <Compile Include="Simple\IsPalindromeNum.cs" />
     <Compile Include="Simple\IsPerfectSquare.cs" />
     <Compile Include="Simple\IsPowerOfFour.cs" />
     <Compile Include="Simple\IsPowerOfThree.cs" />
