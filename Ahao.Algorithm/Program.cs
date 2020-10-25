@@ -634,6 +634,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 845. 数组中的最长山脉 
+
+            LongestMountain longestMountain = new LongestMountain();
+            int[] A = { 1,2,0,2,0,2};
+            WriteLine(longestMountain.Method(A));
+
+            #endregion
+
             ReadLine();
         }
     }
