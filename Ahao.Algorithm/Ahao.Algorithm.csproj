@@ -119,6 +119,7 @@
     <Compile Include="Simple\Rob.cs" />
     <Compile Include="Simple\RomanToInt.cs" />
     <Compile Include="Difficulty\SolveSudoku.cs" />
+    <Compile Include="Simple\SmallerNumbersThanCurrent.cs" />
     <Compile Include="Simple\SortColors.cs" />
     <Compile Include="Secondary\Subsets.cs" />
     <Compile Include="Simple\SortedSquares.cs" />

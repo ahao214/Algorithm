@@ -636,9 +636,17 @@ namespace Ahao.Algorithm
 
             #region 845. 数组中的最长山脉 
 
-            LongestMountain longestMountain = new LongestMountain();
-            int[] A = { 1,2,0,2,0,2};
-            WriteLine(longestMountain.Method(A));
+            //LongestMountain longestMountain = new LongestMountain();
+            //int[] A = { 1,2,0,2,0,2};
+            //WriteLine(longestMountain.Method(A));
+
+            #endregion
+
+            #region 1365. 有多少小于当前数字的数字
+
+            SmallerNumbersThanCurrent smallerNumbersThanCurrent = new SmallerNumbersThanCurrent();
+            int[] A = { 8, 1, 2, 2, 3 };
+            smallerNumbersThanCurrent.Method(A);           
 
             #endregion
 
