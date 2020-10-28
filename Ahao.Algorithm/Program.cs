@@ -644,9 +644,17 @@ namespace Ahao.Algorithm
 
             #region 1365. 有多少小于当前数字的数字
 
-            SmallerNumbersThanCurrent smallerNumbersThanCurrent = new SmallerNumbersThanCurrent();
-            int[] A = { 8, 1, 2, 2, 3 };
-            smallerNumbersThanCurrent.Method(A);           
+            //SmallerNumbersThanCurrent smallerNumbersThanCurrent = new SmallerNumbersThanCurrent();
+            //int[] A = { 8, 1, 2, 2, 3 };
+            //smallerNumbersThanCurrent.Method(A);           
+
+            #endregion
+
+            #region 1207. 独一无二的出现次数
+
+            UniqueOccurrences uniqueOccurrences = new UniqueOccurrences();
+            int[] arr = { 1, 2, 3, 2, 1, 1, };
+            WriteLine(uniqueOccurrences.Method(arr));
 
             #endregion
 

@@ -127,6 +127,7 @@
     <Compile Include="Secondary\TopKFrequent.cs" />
     <Compile Include="Secondary\WordBreak.cs" />
     <Compile Include="Simple\ToLowerCase.cs" />
+    <Compile Include="Simple\UniqueOccurrences.cs" />
     <Compile Include="Simple\WordPattern.cs" />
   </ItemGroup>
   <ItemGroup>
