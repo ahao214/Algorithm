@@ -652,9 +652,17 @@ namespace Ahao.Algorithm
 
             #region 1207. 独一无二的出现次数
 
-            UniqueOccurrences uniqueOccurrences = new UniqueOccurrences();
-            int[] arr = { 1, 2, 3, 2, 1, 1, };
-            WriteLine(uniqueOccurrences.Method(arr));
+            //UniqueOccurrences uniqueOccurrences = new UniqueOccurrences();
+            //int[] arr = { 1, 2, 3, 2, 1, 1, };
+            //WriteLine(uniqueOccurrences.Method(arr));
+
+            #endregion
+
+            #region 922. 按奇偶排序数组 II
+
+            SortArrayByParityII sortArrayByParityII = new SortArrayByParityII();
+            int[] A = { 1, 2, 3, 4 };
+            sortArrayByParityII.Method(A);
 
             #endregion
 
