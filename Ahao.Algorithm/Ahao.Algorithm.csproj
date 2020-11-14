@@ -116,6 +116,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Simple\FirstUniqChar.cs" />
+    <Compile Include="Simple\RelativeSortArray.cs" />
     <Compile Include="Simple\Rob.cs" />
     <Compile Include="Simple\RomanToInt.cs" />
     <Compile Include="Difficulty\SolveSudoku.cs" />

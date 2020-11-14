@@ -660,11 +660,25 @@ namespace Ahao.Algorithm
 
             #region 922. 按奇偶排序数组 II
 
-            SortArrayByParityII sortArrayByParityII = new SortArrayByParityII();
-            int[] A = { 1, 2, 3, 4 };
-            sortArrayByParityII.Method(A);
+            //SortArrayByParityII sortArrayByParityII = new SortArrayByParityII();
+            //int[] A = { 1, 2, 3, 4 };
+            //sortArrayByParityII.Method(A);
 
             #endregion
+
+            #region  1122.数组的相对排序
+
+            RelativeSortArray relativeSortArray = new RelativeSortArray();
+            int[] arr1 = { 2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19 };
+            int[] arr2 = { 2, 1, 4, 3, 9, 6 };
+            relativeSortArray.Method(arr1, arr2);
+
+            #endregion
+
+            #region
+
+            #endregion
+
 
             ReadLine();
         }
