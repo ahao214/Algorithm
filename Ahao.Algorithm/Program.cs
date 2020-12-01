@@ -668,15 +668,18 @@ namespace Ahao.Algorithm
 
             #region  1122.数组的相对排序
 
-            RelativeSortArray relativeSortArray = new RelativeSortArray();
-            int[] arr1 = { 2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19 };
-            int[] arr2 = { 2, 1, 4, 3, 9, 6 };
-            relativeSortArray.Method(arr1, arr2);
+            //RelativeSortArray relativeSortArray = new RelativeSortArray();
+            //int[] arr1 = { 2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19 };
+            //int[] arr2 = { 2, 1, 4, 3, 9, 6 };
+            //relativeSortArray.Method(arr1, arr2);
 
             #endregion
 
-            #region
-
+            #region 34. 在排序数组中查找元素的第一个和最后一个位置
+            SearchRange searchRange = new SearchRange();
+            int[] numSearch = { 5, 7, 7, 8, 8, 10 };            
+            int targetSearch = 8;
+            searchRange.Method(numSearch, targetSearch);
             #endregion
 
 
