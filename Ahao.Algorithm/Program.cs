@@ -676,10 +676,20 @@ namespace Ahao.Algorithm
             #endregion
 
             #region 34. 在排序数组中查找元素的第一个和最后一个位置
-            SearchRange searchRange = new SearchRange();
-            int[] numSearch = { 5, 7, 7, 8, 8, 10 };            
-            int targetSearch = 8;
-            searchRange.Method(numSearch, targetSearch);
+
+            //SearchRange searchRange = new SearchRange();
+            //int[] numSearch = { 5, 7, 7, 8, 8, 10 };            
+            //int targetSearch = 8;
+            //searchRange.Method(numSearch, targetSearch);
+
+            #endregion
+
+            #region 204.计算质数
+
+            CountPrimes countPrimes = new CountPrimes();
+            int countN = 10;
+            Console.WriteLine(countPrimes.Method(countN));
+
             #endregion
 
 
