@@ -686,11 +686,24 @@ namespace Ahao.Algorithm
 
             #region 204.计算质数
 
-            CountPrimes countPrimes = new CountPrimes();
-            int countN = 10;
-            Console.WriteLine(countPrimes.Method(countN));
+            //CountPrimes countPrimes = new CountPrimes();
+            //int countN = 10;
+            //Console.WriteLine(countPrimes.Method(countN));
 
             #endregion
+
+            #region 659. 分割数组为连续子序列
+
+            IsPossible isPossible = new IsPossible();
+            int[] possibleNums = { 1, 2, 3, 3, 4, 5 };
+
+            WriteLine(isPossible.Method(possibleNums));
+
+
+            #endregion
+
+
+
 
 
             ReadLine();
