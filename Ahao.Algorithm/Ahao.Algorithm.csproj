@@ -60,6 +60,7 @@
     <Compile Include="Secondary\SearchRange.cs" />
     <Compile Include="Secondary\SingleNumber.cs" />
     <Compile Include="Secondary\SwapPairs.cs" />
+    <Compile Include="Secondary\UniquePaths.cs" />
     <Compile Include="Simple\ArrangeCoins.cs" />
     <Compile Include="Simple\AverageOfLevels.cs" />
     <Compile Include="Secondary\CombinationSum.cs" />

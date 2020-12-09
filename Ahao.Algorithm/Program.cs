@@ -694,15 +694,23 @@ namespace Ahao.Algorithm
 
             #region 659. 分割数组为连续子序列
 
-            IsPossible isPossible = new IsPossible();
-            int[] possibleNums = { 1, 2, 3, 3, 4, 5 };
+            //IsPossible isPossible = new IsPossible();
+            //int[] possibleNums = { 1, 2, 3, 3, 4, 5 };
 
-            WriteLine(isPossible.Method(possibleNums));
+            //WriteLine(isPossible.Method(possibleNums));
 
 
             #endregion
 
+            #region 62.不同路径
 
+            UniquePaths uniquePaths = new UniquePaths();
+            int m = 3;
+            int n = 3;
+            WriteLine(uniquePaths.Method(m, n));
+
+
+            #endregion
 
 
 
