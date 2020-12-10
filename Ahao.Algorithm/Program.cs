@@ -704,14 +704,22 @@ namespace Ahao.Algorithm
 
             #region 62.不同路径
 
-            UniquePaths uniquePaths = new UniquePaths();
-            int m = 3;
-            int n = 3;
-            WriteLine(uniquePaths.Method(m, n));
+            //UniquePaths uniquePaths = new UniquePaths();
+            //int m = 3;
+            //int n = 3;
+            //WriteLine(uniquePaths.Method(m, n));
 
 
             #endregion
 
+
+            #region 860.柠檬水找零
+
+            LemonadeChange lemonadeChange = new LemonadeChange();
+            int[] bills = { };
+            WriteLine(lemonadeChange.Method(bills));
+
+            #endregion
 
 
             ReadLine();
