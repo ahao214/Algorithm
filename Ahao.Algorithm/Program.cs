@@ -715,12 +715,21 @@ namespace Ahao.Algorithm
 
             #region 860.柠檬水找零
 
-            LemonadeChange lemonadeChange = new LemonadeChange();
-            int[] bills = { };
-            WriteLine(lemonadeChange.Method(bills));
+            //LemonadeChange lemonadeChange = new LemonadeChange();
+            //int[] bills = { };
+            //WriteLine(lemonadeChange.Method(bills));
 
             #endregion
 
+
+            #region 605.种花问题
+
+            CanPlaceFlowers canPlaceFlowers = new CanPlaceFlowers();
+            int[] flowerbed = { 1, 0, 0, 0, 1 };
+            int c = 1;
+            WriteLine(canPlaceFlowers.Method(flowerbed, c));
+
+            #endregion
 
             ReadLine();
         }
