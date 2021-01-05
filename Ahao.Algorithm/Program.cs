@@ -724,10 +724,19 @@ namespace Ahao.Algorithm
 
             #region 605.种花问题
 
-            CanPlaceFlowers canPlaceFlowers = new CanPlaceFlowers();
-            int[] flowerbed = { 1, 0, 0, 0, 1 };
-            int c = 1;
-            WriteLine(canPlaceFlowers.Method(flowerbed, c));
+            //CanPlaceFlowers canPlaceFlowers = new CanPlaceFlowers();
+            //int[] flowerbed = { 1, 0, 0, 0, 1 };
+            //int c = 1;
+            //WriteLine(canPlaceFlowers.Method(flowerbed, c));
+
+            #endregion
+
+            #region 830.较大分组的位置
+
+            LargeGroupPositions largeGroupPositions = new LargeGroupPositions();
+            string s = "aaabbccc";
+            largeGroupPositions.Method(s);
+
 
             #endregion
 

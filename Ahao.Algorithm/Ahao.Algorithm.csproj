@@ -103,6 +103,7 @@
     <Compile Include="Simple\IsValid.cs" />
     <Compile Include="Simple\JudgeCircle.cs" />
     <Compile Include="Simple\JudgeSquareSum.cs" />
+    <Compile Include="Simple\LargeGroupPositions.cs" />
     <Compile Include="Simple\LemonadeChange.cs" />
     <Compile Include="Simple\LengthOfLastWord.cs" />
     <Compile Include="Secondary\LengthOfLongestSubstring.cs" />
