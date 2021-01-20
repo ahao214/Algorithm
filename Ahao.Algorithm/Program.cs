@@ -733,10 +733,27 @@ namespace Ahao.Algorithm
 
             #region 830.较大分组的位置
 
-            LargeGroupPositions largeGroupPositions = new LargeGroupPositions();
-            string s = "aaabbccc";
-            largeGroupPositions.Method(s);
+            //LargeGroupPositions largeGroupPositions = new LargeGroupPositions();
+            //string s = "aaabbccc";
+            //largeGroupPositions.Method(s);
 
+
+            #endregion
+
+            #region 1232. 缀点成线
+
+
+
+
+            #endregion
+
+
+
+            #region 628.三个数的最大乘积
+
+            MaximumProduct maximumProduct = new MaximumProduct();
+            int[] maxValue = { 1, 2, 0 };
+            WriteLine(maximumProduct.Method(maxValue));
 
             #endregion
 
