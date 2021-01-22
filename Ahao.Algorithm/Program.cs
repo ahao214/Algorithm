@@ -751,9 +751,18 @@ namespace Ahao.Algorithm
 
             #region 628.三个数的最大乘积
 
-            MaximumProduct maximumProduct = new MaximumProduct();
-            int[] maxValue = { 1, 2, 0 };
-            WriteLine(maximumProduct.Method(maxValue));
+            //MaximumProduct maximumProduct = new MaximumProduct();
+            //int[] maxValue = { 1, 2, 0 };
+            //WriteLine(maximumProduct.Method(maxValue));
+
+            #endregion
+
+            #region 989. 数组形式的整数加法
+
+            int[] A = { 1, 2, 0, 0 };
+            int K = 34;
+            AddToArrayForm addToArrayForm = new AddToArrayForm();
+            Console.WriteLine(addToArrayForm.Method(A, K));
 
             #endregion
 
