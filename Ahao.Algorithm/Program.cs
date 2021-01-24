@@ -712,7 +712,6 @@ namespace Ahao.Algorithm
 
             #endregion
 
-
             #region 860.柠檬水找零
 
             //LemonadeChange lemonadeChange = new LemonadeChange();
@@ -720,7 +719,6 @@ namespace Ahao.Algorithm
             //WriteLine(lemonadeChange.Method(bills));
 
             #endregion
-
 
             #region 605.种花问题
 
@@ -747,8 +745,6 @@ namespace Ahao.Algorithm
 
             #endregion
 
-
-
             #region 628.三个数的最大乘积
 
             //MaximumProduct maximumProduct = new MaximumProduct();
@@ -759,10 +755,18 @@ namespace Ahao.Algorithm
 
             #region 989. 数组形式的整数加法
 
-            int[] A = { 1, 2, 0, 0 };
-            int K = 34;
-            AddToArrayForm addToArrayForm = new AddToArrayForm();
-            Console.WriteLine(addToArrayForm.Method(A, K));
+            //int[] A = { 1, 2, 0, 0 };
+            //int K = 34;
+            //AddToArrayForm addToArrayForm = new AddToArrayForm();
+            //Console.WriteLine(addToArrayForm.Method(A, K));
+
+            #endregion
+
+            #region 674.最长连续递增序列
+
+            FindLengthOfLCIS findLengthOfLCIS = new FindLengthOfLCIS();
+            int[] numLength = { 3, 3, 5, 4, 7 };
+            Console.WriteLine(findLengthOfLCIS.Method(numLength));
 
             #endregion
 
