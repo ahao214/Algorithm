@@ -1,6 +1,8 @@
-﻿using Ahao.Algorithm.Secondary;
+﻿using Ahao.Algorithm.LNode;
+using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
 using System;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
 using static System.Console;
@@ -772,11 +774,47 @@ namespace Ahao.Algorithm
 
             #region 888.公平的糖果棒交换
 
-            FairCandySwap fairCandySwap = new FairCandySwap();
-            int[] A = { 1, 1 };
-            int[] B = { 2, 2 };
+            //FairCandySwap fairCandySwap = new FairCandySwap();
+            //int[] A = { 1, 1 };
+            //int[] B = { 2, 2 };
 
-            fairCandySwap.Method(A, B);
+            //fairCandySwap.Method(A, B);
+
+            #endregion
+
+            #region 如何实现链表的逆序
+
+            int i = 0;
+            //链表头结点
+            Ahao.Algorithm.LNode.LNode head = new Ahao.Algorithm.LNode.LNode();
+            head.next = null;
+            Ahao.Algorithm.LNode.LNode tmp = null;
+            Ahao.Algorithm.LNode.LNode cur = head;
+            //构造单链表
+            for (; i < 8; i++)
+            {
+                tmp = new Ahao.Algorithm.LNode.LNode();
+                tmp.data = i;
+                tmp.next = null;
+                cur.next = tmp;
+                cur = tmp;
+            }
+
+            Console.WriteLine("逆序前：");
+            for(cur =head.next;cur!=null;cur=cur.next)
+            {
+                Console.Write(cur.data + " ");
+            }
+            Console.WriteLine("\n逆序后：");
+            Ahao.Algorithm.LNode.TestReverse.Reverse(head);
+
+            for (cur = head.next; cur != null;cur=cur.next)
+            {
+                Console.Write(cur.data + " ");
+            }
+
+
+
 
             #endregion
 

@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LNode\TestReverse.cs" />
     <Compile Include="Secondary\AddTwoNumbers.cs" />
     <Compile Include="Secondary\BuildTree.cs" />
     <Compile Include="Secondary\CanPartition.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Simple\CountPrimes.cs" />
     <Compile Include="Simple\DeleteDuplicates.cs" />
     <Compile Include="Secondary\Exist.cs" />
+    <Compile Include="Simple\FairCandySwap.cs" />
     <Compile Include="Simple\FindKthLargest.cs" />
     <Compile Include="Simple\FindLengthOfLCIS.cs" />
     <Compile Include="Simple\FindMode.cs" />
@@ -146,6 +148,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Array\" />
+    <Folder Include="Number\" />
+    <Folder Include="Stack\" />
+    <Folder Include="String\" />
+    <Folder Include="Tree\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
