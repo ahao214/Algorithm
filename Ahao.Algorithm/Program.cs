@@ -764,11 +764,22 @@ namespace Ahao.Algorithm
 
             #region 674.最长连续递增序列
 
-            FindLengthOfLCIS findLengthOfLCIS = new FindLengthOfLCIS();
-            int[] numLength = { 3, 3, 5, 4, 7 };
-            Console.WriteLine(findLengthOfLCIS.Method(numLength));
+            //FindLengthOfLCIS findLengthOfLCIS = new FindLengthOfLCIS();
+            //int[] numLength = { 3, 3, 5, 4, 7 };
+            //Console.WriteLine(findLengthOfLCIS.Method(numLength));
 
             #endregion
+
+            #region 888.公平的糖果棒交换
+
+            FairCandySwap fairCandySwap = new FairCandySwap();
+            int[] A = { 1, 1 };
+            int[] B = { 2, 2 };
+
+            fairCandySwap.Method(A, B);
+
+            #endregion
+
 
             ReadLine();
         }
