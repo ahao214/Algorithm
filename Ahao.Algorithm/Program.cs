@@ -784,39 +784,46 @@ namespace Ahao.Algorithm
 
             #region 如何实现链表的逆序
 
-            int i = 0;
-            //链表头结点
-            Ahao.Algorithm.LNode.LNode head = new Ahao.Algorithm.LNode.LNode();
-            head.next = null;
-            Ahao.Algorithm.LNode.LNode tmp = null;
-            Ahao.Algorithm.LNode.LNode cur = head;
-            //构造单链表
-            for (; i < 8; i++)
-            {
-                tmp = new Ahao.Algorithm.LNode.LNode();
-                tmp.data = i;
-                tmp.next = null;
-                cur.next = tmp;
-                cur = tmp;
-            }
+            //int i = 0;
+            ////链表头结点
+            //Ahao.Algorithm.LNode.LNode head = new Ahao.Algorithm.LNode.LNode();
+            //head.next = null;
+            //Ahao.Algorithm.LNode.LNode tmp = null;
+            //Ahao.Algorithm.LNode.LNode cur = head;
+            ////构造单链表
+            //for (; i < 8; i++)
+            //{
+            //    tmp = new Ahao.Algorithm.LNode.LNode();
+            //    tmp.data = i;
+            //    tmp.next = null;
+            //    cur.next = tmp;
+            //    cur = tmp;
+            //}
 
-            Console.WriteLine("逆序前：");
-            for(cur =head.next;cur!=null;cur=cur.next)
-            {
-                Console.Write(cur.data + " ");
-            }
-            Console.WriteLine("\n逆序后：");
-            Ahao.Algorithm.LNode.TestReverse.Reverse(head);
+            //Console.WriteLine("逆序前：");
+            //for(cur =head.next;cur!=null;cur=cur.next)
+            //{
+            //    Console.Write(cur.data + " ");
+            //}
+            //Console.WriteLine("\n逆序后：");
+            //Ahao.Algorithm.LNode.TestReverse.Reverse(head);
 
-            for (cur = head.next; cur != null;cur=cur.next)
-            {
-                Console.Write(cur.data + " ");
-            }
-
-
-
+            //for (cur = head.next; cur != null;cur=cur.next)
+            //{
+            //    Console.Write(cur.data + " ");
+            //}
 
             #endregion
+
+            #region 424. 替换后的最长重复字符
+
+            string s = "ABAB";
+            int k = 2;
+            CharacterReplacement characterReplacement = new CharacterReplacement();
+            WriteLine(characterReplacement.Method(s, k));
+
+            #endregion
+
 
 
             ReadLine();
