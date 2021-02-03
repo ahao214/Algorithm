@@ -782,44 +782,6 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 如何实现链表的逆序
-
-           // int i = 0;
-           // //链表头结点
-           // Ahao.Algorithm.LNode.LNode head = new Ahao.Algorithm.LNode.LNode();
-           // head.next = null;
-           // Ahao.Algorithm.LNode.LNode tmp = null;
-           // Ahao.Algorithm.LNode.LNode cur = head;
-           // //构造单链表
-           // for (; i < 8; i++)
-           // {
-           //     tmp = new Ahao.Algorithm.LNode.LNode();
-           //     tmp.data = i;
-           //     tmp.next = null;
-           //     cur.next = tmp;
-           //     cur = tmp;
-           // }
-
-           // Console.WriteLine("逆序前：");
-           // for (cur = head.next; cur != null; cur = cur.next)
-           // {
-           //     Console.Write(cur.data + " ");
-           // }
-           // Console.WriteLine("\n逆序后：");
-           // //就地逆序
-           // //Ahao.Algorithm.LNode.TestReverse.Reverse(head);
-           // //递归法
-           // //Ahao.Algorithm.LNode.TestReverse.ReverseDG(head);
-           // //插入法
-           ////Ahao.Algorithm.LNode.TestReverse.ReverseInsert(head);
-
-           // for (cur = head.next; cur != null; cur = cur.next)
-           // {
-           //     Console.Write(cur.data + " ");
-           // }
-
-            #endregion
-
             #region 424. 替换后的最长重复字符
 
             //string s = "ABAB";
@@ -829,6 +791,44 @@ namespace Ahao.Algorithm
 
             #endregion
 
+
+            #region 如何实现链表的逆序
+
+            // int i = 0;
+            // //链表头结点
+            // Ahao.Algorithm.LNode.LNode head = new Ahao.Algorithm.LNode.LNode();
+            // head.next = null;
+            // Ahao.Algorithm.LNode.LNode tmp = null;
+            // Ahao.Algorithm.LNode.LNode cur = head;
+            // //构造单链表
+            // for (; i < 8; i++)
+            // {
+            //     tmp = new Ahao.Algorithm.LNode.LNode();
+            //     tmp.data = i;
+            //     tmp.next = null;
+            //     cur.next = tmp;
+            //     cur = tmp;
+            // }
+
+            // Console.WriteLine("逆序前：");
+            // for (cur = head.next; cur != null; cur = cur.next)
+            // {
+            //     Console.Write(cur.data + " ");
+            // }
+            // Console.WriteLine("\n逆序后：");
+            // //就地逆序
+            // //Ahao.Algorithm.LNode.TestReverse.Reverse(head);
+            // //递归法
+            // //Ahao.Algorithm.LNode.TestReverse.ReverseDG(head);
+            // //插入法
+            ////Ahao.Algorithm.LNode.TestReverse.ReverseInsert(head);
+
+            // for (cur = head.next; cur != null; cur = cur.next)
+            // {
+            //     Console.Write(cur.data + " ");
+            // }
+
+            #endregion
 
 
             ReadLine();
