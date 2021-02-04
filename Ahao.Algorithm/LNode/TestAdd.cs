@@ -11,5 +11,12 @@ namespace Ahao.Algorithm.LNode
     /// </summary>
     public class TestAdd
     {
+
+        #region 链表相加法
+
+
+
+        #endregion
+
     }
 }

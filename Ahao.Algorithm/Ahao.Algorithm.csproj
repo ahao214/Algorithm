@@ -87,6 +87,7 @@
     <Compile Include="Simple\FairCandySwap.cs" />
     <Compile Include="Simple\FindKthLargest.cs" />
     <Compile Include="Simple\FindLengthOfLCIS.cs" />
+    <Compile Include="Simple\FindMaxAverage.cs" />
     <Compile Include="Simple\FindMode.cs" />
     <Compile Include="Simple\FizzBuzz.cs" />
     <Compile Include="Difficulty\GetPermutation.cs" />
