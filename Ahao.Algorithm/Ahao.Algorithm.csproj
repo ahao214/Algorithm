@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LNode\LNode.cs" />
+    <Compile Include="LNode\TestRemoveDup.cs" />
     <Compile Include="LNode\TestReverse.cs" />
     <Compile Include="Secondary\AddTwoNumbers.cs" />
     <Compile Include="Secondary\BuildTree.cs" />
