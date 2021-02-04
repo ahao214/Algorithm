@@ -863,12 +863,16 @@ namespace Ahao.Algorithm
             //{
             //    Console.Write(cur.data + " ");
             //}
+            //#region 顺序删除
+
             ////TestRemoveDup.RemoveDup(head);
+
+            //#endregion
 
             //#region 递归法
             //TestRemoveDup.RemoveDupDG(head);
             //#endregion
-            
+
             //Console.Write("\n删除重复结点后：");
             //for(cur =head.next;cur !=null;cur =cur .next )
             //{

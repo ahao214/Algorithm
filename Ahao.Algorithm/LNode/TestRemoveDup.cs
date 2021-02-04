@@ -11,6 +11,9 @@ namespace Ahao.Algorithm.LNode
     /// </summary>
     public class TestRemoveDup
     {
+
+        #region 顺序删除
+
         public static void RemoveDup(LNode head)
         {
             if (head == null || head.next == null)
@@ -39,6 +42,7 @@ namespace Ahao.Algorithm.LNode
             }
         }
 
+        #endregion
 
         #region 递归法
 
