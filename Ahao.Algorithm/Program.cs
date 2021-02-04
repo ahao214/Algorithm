@@ -833,45 +833,47 @@ namespace Ahao.Algorithm
 
             #region 如何从无序链表中移除重复项
 
-            int i = 1;
-            //链表头指针            
-            LNode.LNode head = new LNode.LNode();
-            head.next = null;
-            LNode.LNode tmp = null;
-            LNode.LNode cur = head;
-            for (; i < 7; i++)
-            {
-                tmp = new LNode.LNode();
-                if (i % 2 == 0)
-                {
-                    tmp.data = i + 1;
-                }
-                else if (i%3==0)
-                {
-                    tmp.data = i - 2;
-                }
-                else
-                {
-                    tmp.data = i;
-                }
-                tmp.next = null;
-                cur.next = tmp;
-                cur = tmp;
-            }
-            Console.Write("删除重复结点前：");
-            for(cur=head .next;cur!=null;cur=cur.next )
-            {
-                Console.Write(cur.data + " ");
-            }
-            //TestRemoveDup.RemoveDup(head);
-            #region 递归法
-            TestRemoveDup.RemoveDupDG(head);
-            #endregion
-            Console.Write("\n删除重复结点后：");
-            for(cur =head.next;cur !=null;cur =cur .next )
-            {
-                Console.Write(cur.data + " ");
-            }
+            //int i = 1;
+            ////链表头指针            
+            //LNode.LNode head = new LNode.LNode();
+            //head.next = null;
+            //LNode.LNode tmp = null;
+            //LNode.LNode cur = head;
+            //for (; i < 7; i++)
+            //{
+            //    tmp = new LNode.LNode();
+            //    if (i % 2 == 0)
+            //    {
+            //        tmp.data = i + 1;
+            //    }
+            //    else if (i%3==0)
+            //    {
+            //        tmp.data = i - 2;
+            //    }
+            //    else
+            //    {
+            //        tmp.data = i;
+            //    }
+            //    tmp.next = null;
+            //    cur.next = tmp;
+            //    cur = tmp;
+            //}
+            //Console.Write("删除重复结点前：");
+            //for(cur=head .next;cur!=null;cur=cur.next )
+            //{
+            //    Console.Write(cur.data + " ");
+            //}
+            ////TestRemoveDup.RemoveDup(head);
+
+            //#region 递归法
+            //TestRemoveDup.RemoveDupDG(head);
+            //#endregion
+            
+            //Console.Write("\n删除重复结点后：");
+            //for(cur =head.next;cur !=null;cur =cur .next )
+            //{
+            //    Console.Write(cur.data + " ");
+            //}
 
 
             #endregion
