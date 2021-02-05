@@ -794,109 +794,155 @@ namespace Ahao.Algorithm
 
             #region 643.子数组最大平均数-1
 
-            FindMaxAverage findMaxAverage = new FindMaxAverage();
-            int[] nums = { 1, 12, -5, -6, 50, 3 };
-            int k = 6;
-            WriteLine(findMaxAverage.Method(nums, k));
+            //FindMaxAverage findMaxAverage = new FindMaxAverage();
+            //int[] nums = { 1, 12, -5, -6, 50, 3 };
+            //int k = 6;
+            //WriteLine(findMaxAverage.Method(nums, k));
 
             #endregion
 
-        #region 如何实现链表的逆序
+            #region 如何实现链表的逆序
 
-        // int i = 0;
-        // //链表头结点
-        // Ahao.Algorithm.LNode.LNode head = new Ahao.Algorithm.LNode.LNode();
-        // head.next = null;
-        // Ahao.Algorithm.LNode.LNode tmp = null;
-        // Ahao.Algorithm.LNode.LNode cur = head;
-        // //构造单链表
-        // for (; i < 8; i++)
-        // {
-        //     tmp = new Ahao.Algorithm.LNode.LNode();
-        //     tmp.data = i;
-        //     tmp.next = null;
-        //     cur.next = tmp;
-        //     cur = tmp;
-        // }
+            // int i = 0;
+            // //链表头结点
+            // Ahao.Algorithm.LNode.LNode head = new Ahao.Algorithm.LNode.LNode();
+            // head.next = null;
+            // Ahao.Algorithm.LNode.LNode tmp = null;
+            // Ahao.Algorithm.LNode.LNode cur = head;
+            // //构造单链表
+            // for (; i < 8; i++)
+            // {
+            //     tmp = new Ahao.Algorithm.LNode.LNode();
+            //     tmp.data = i;
+            //     tmp.next = null;
+            //     cur.next = tmp;
+            //     cur = tmp;
+            // }
 
-        // Console.WriteLine("逆序前：");
-        // for (cur = head.next; cur != null; cur = cur.next)
-        // {
-        //     Console.Write(cur.data + " ");
-        // }
-        // Console.WriteLine("\n逆序后：");
-        // //就地逆序
-        // //Ahao.Algorithm.LNode.TestReverse.Reverse(head);
-        // //递归法
-        // //Ahao.Algorithm.LNode.TestReverse.ReverseDG(head);
-        // //插入法
-        ////Ahao.Algorithm.LNode.TestReverse.ReverseInsert(head);
+            // Console.WriteLine("逆序前：");
+            // for (cur = head.next; cur != null; cur = cur.next)
+            // {
+            //     Console.Write(cur.data + " ");
+            // }
+            // Console.WriteLine("\n逆序后：");
+            // //就地逆序
+            // //Ahao.Algorithm.LNode.TestReverse.Reverse(head);
+            // //递归法
+            // //Ahao.Algorithm.LNode.TestReverse.ReverseDG(head);
+            // //插入法
+            ////Ahao.Algorithm.LNode.TestReverse.ReverseInsert(head);
 
-        // for (cur = head.next; cur != null; cur = cur.next)
-        // {
-        //     Console.Write(cur.data + " ");
-        // }
+            // for (cur = head.next; cur != null; cur = cur.next)
+            // {
+            //     Console.Write(cur.data + " ");
+            // }
 
-        #endregion
+            #endregion
 
-        #region 如何从无序链表中移除重复项
+            #region 如何从无序链表中移除重复项
 
-        //int i = 1;
-        ////链表头指针            
-        //LNode.LNode head = new LNode.LNode();
-        //head.next = null;
-        //LNode.LNode tmp = null;
-        //LNode.LNode cur = head;
-        //for (; i < 7; i++)
-        //{
-        //    tmp = new LNode.LNode();
-        //    if (i % 2 == 0)
-        //    {
-        //        tmp.data = i + 1;
-        //    }
-        //    else if (i%3==0)
-        //    {
-        //        tmp.data = i - 2;
-        //    }
-        //    else
-        //    {
-        //        tmp.data = i;
-        //    }
-        //    tmp.next = null;
-        //    cur.next = tmp;
-        //    cur = tmp;
-        //}
-        //Console.Write("删除重复结点前：");
-        //for(cur=head .next;cur!=null;cur=cur.next )
-        //{
-        //    Console.Write(cur.data + " ");
-        //}
-        //#region 顺序删除
+            //int i = 1;
+            ////链表头指针            
+            //LNode.LNode head = new LNode.LNode();
+            //head.next = null;
+            //LNode.LNode tmp = null;
+            //LNode.LNode cur = head;
+            //for (; i < 7; i++)
+            //{
+            //    tmp = new LNode.LNode();
+            //    if (i % 2 == 0)
+            //    {
+            //        tmp.data = i + 1;
+            //    }
+            //    else if (i%3==0)
+            //    {
+            //        tmp.data = i - 2;
+            //    }
+            //    else
+            //    {
+            //        tmp.data = i;
+            //    }
+            //    tmp.next = null;
+            //    cur.next = tmp;
+            //    cur = tmp;
+            //}
+            //Console.Write("删除重复结点前：");
+            //for(cur=head .next;cur!=null;cur=cur.next )
+            //{
+            //    Console.Write(cur.data + " ");
+            //}
+            //#region 顺序删除
 
-        ////TestRemoveDup.RemoveDup(head);
+            ////TestRemoveDup.RemoveDup(head);
 
-        //#endregion
+            //#endregion
 
-        //#region 递归法
-        //TestRemoveDup.RemoveDupDG(head);
-        //#endregion
+            //#region 递归法
+            //TestRemoveDup.RemoveDupDG(head);
+            //#endregion
 
-        //Console.Write("\n删除重复结点后：");
-        //for(cur =head.next;cur !=null;cur =cur .next )
-        //{
-        //    Console.Write(cur.data + " ");
-        //}
-
-
-        #endregion
-
-        #region 如何计算两个单链表所代表的数之和
+            //Console.Write("\n删除重复结点后：");
+            //for(cur =head.next;cur !=null;cur =cur .next )
+            //{
+            //    Console.Write(cur.data + " ");
+            //}
 
 
+            #endregion
 
-        #endregion
+            #region 如何计算两个单链表所代表的数之和
 
-        ReadLine();
+            int i = 1;
+            //链表头指针
+            LNode.LNode head1 = new LNode.LNode();
+            head1.next = null;
+            LNode.LNode head2 = new LNode.LNode();
+            head2.next = null;
+            LNode.LNode tmp = null;
+            LNode.LNode cur = head1;
+            LNode.LNode addResult = null;
+            //构造第一个链表
+            for (; i < 7; i++)
+            {
+                tmp = new LNode.LNode();
+                tmp.data = i + 2;
+                tmp.next = null;
+                cur.next = null;
+                cur.next = tmp;
+                cur = tmp;
+            }
+            cur = head2;
+            //构造第二个链表
+            for (i = 9; i > 4; i--)
+            {
+                tmp = new LNode.LNode();
+                tmp.data = i;
+                tmp.next = null;
+                cur.next = tmp;
+                cur = tmp;
+            }
+            Write("Head1:");
+            for (cur = head1.next; cur != null; cur = cur.next)
+            {
+                Write(cur.data + " ");
+            }
+            Write("\nHead2:");
+
+
+            for (cur = head2.next; cur != null; cur = cur.next)
+            {
+                Write(cur.data + " ");
+            }
+            addResult = Ahao.Algorithm.LNode.TestAdd.Add(head1, head2);
+            Write("\n相加后:");
+            for (cur = addResult.next; cur != null; cur = cur.next)
+            {
+                Write(cur.data + " ");
+            }
+
+            #endregion
+
+            ReadLine();
         }
     }
 }
