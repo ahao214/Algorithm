@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="LNode\LNode.cs" />
     <Compile Include="LNode\TestAdd.cs" />
+    <Compile Include="LNode\TestConstructListK.cs" />
     <Compile Include="LNode\TestFindMiddleNode.cs" />
     <Compile Include="LNode\TestRemoveDup.cs" />
     <Compile Include="LNode\TestReverse.cs" />
