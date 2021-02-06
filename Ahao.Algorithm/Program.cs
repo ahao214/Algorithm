@@ -801,6 +801,16 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 1423. 可获得的最大点数
+
+            int[] cardPoints = { 96,90,41,82,39,74,64,50,30 };
+            int k = 8;
+            MaxScore maxScore = new MaxScore();
+
+            WriteLine(maxScore.Method(cardPoints, k));
+
+            #endregion
+
             #region 如何实现链表的逆序
 
             // int i = 0;
@@ -892,53 +902,53 @@ namespace Ahao.Algorithm
 
             #region 如何计算两个单链表所代表的数之和
 
-            int i = 1;
-            //链表头指针
-            LNode.LNode head1 = new LNode.LNode();
-            head1.next = null;
-            LNode.LNode head2 = new LNode.LNode();
-            head2.next = null;
-            LNode.LNode tmp = null;
-            LNode.LNode cur = head1;
-            LNode.LNode addResult = null;
-            //构造第一个链表
-            for (; i < 7; i++)
-            {
-                tmp = new LNode.LNode();
-                tmp.data = i + 2;
-                tmp.next = null;
-                cur.next = null;
-                cur.next = tmp;
-                cur = tmp;
-            }
-            cur = head2;
-            //构造第二个链表
-            for (i = 9; i > 4; i--)
-            {
-                tmp = new LNode.LNode();
-                tmp.data = i;
-                tmp.next = null;
-                cur.next = tmp;
-                cur = tmp;
-            }
-            Write("Head1:");
-            for (cur = head1.next; cur != null; cur = cur.next)
-            {
-                Write(cur.data + " ");
-            }
-            Write("\nHead2:");
+            //int i = 1;
+            ////链表头指针
+            //LNode.LNode head1 = new LNode.LNode();
+            //head1.next = null;
+            //LNode.LNode head2 = new LNode.LNode();
+            //head2.next = null;
+            //LNode.LNode tmp = null;
+            //LNode.LNode cur = head1;
+            //LNode.LNode addResult = null;
+            ////构造第一个链表
+            //for (; i < 7; i++)
+            //{
+            //    tmp = new LNode.LNode();
+            //    tmp.data = i + 2;
+            //    tmp.next = null;
+            //    cur.next = null;
+            //    cur.next = tmp;
+            //    cur = tmp;
+            //}
+            //cur = head2;
+            ////构造第二个链表
+            //for (i = 9; i > 4; i--)
+            //{
+            //    tmp = new LNode.LNode();
+            //    tmp.data = i;
+            //    tmp.next = null;
+            //    cur.next = tmp;
+            //    cur = tmp;
+            //}
+            //Write("Head1:");
+            //for (cur = head1.next; cur != null; cur = cur.next)
+            //{
+            //    Write(cur.data + " ");
+            //}
+            //Write("\nHead2:");
 
 
-            for (cur = head2.next; cur != null; cur = cur.next)
-            {
-                Write(cur.data + " ");
-            }
-            addResult = Ahao.Algorithm.LNode.TestAdd.Add(head1, head2);
-            Write("\n相加后:");
-            for (cur = addResult.next; cur != null; cur = cur.next)
-            {
-                Write(cur.data + " ");
-            }
+            //for (cur = head2.next; cur != null; cur = cur.next)
+            //{
+            //    Write(cur.data + " ");
+            //}
+            //addResult = Ahao.Algorithm.LNode.TestAdd.Add(head1, head2);
+            //Write("\n相加后:");
+            //for (cur = addResult.next; cur != null; cur = cur.next)
+            //{
+            //    Write(cur.data + " ");
+            //}
 
             #endregion
 

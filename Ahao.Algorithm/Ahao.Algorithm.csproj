@@ -58,6 +58,7 @@
     <Compile Include="Secondary\IsPossible.cs" />
     <Compile Include="Secondary\LargestNumber.cs" />
     <Compile Include="Secondary\LongestMountain.cs" />
+    <Compile Include="Secondary\MaxScore.cs" />
     <Compile Include="Secondary\MinimumOperations.cs" />
     <Compile Include="Secondary\PathSum.cs" />
     <Compile Include="Secondary\PostorderTraversal.cs" />
