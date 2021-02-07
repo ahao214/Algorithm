@@ -5,6 +5,7 @@ using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.DesignerServices;
 using System.Runtime.InteropServices;
 using static System.Console;
 
@@ -962,7 +963,32 @@ namespace Ahao.Algorithm
 
             #region 对链表进行重新排序
 
-
+            //int i = 1;
+            ////链表头指针
+            //LNode.LNode head = new LNode.LNode();
+            //head.next = null;
+            //LNode.LNode tmp = null;
+            //LNode.LNode cur = head;
+            ////构造第一个链表
+            //for (; i < 8; i++)
+            //{
+            //    tmp = new LNode.LNode();
+            //    tmp.data = i;
+            //    tmp.next = null;
+            //    cur.next = tmp;
+            //    cur = tmp;
+            //}
+            //Write("排序前：");
+            //for (cur = head.next; cur != null; cur = cur.next)
+            //{
+            //    Write(cur.data + " ");
+            //}
+            //TestFindMiddleNode.Reorder(head);
+            //Write("\n排序后：");
+            //for (cur = head.next; cur != null; cur = cur.next)
+            //{
+            //    Write(cur.data + " ");
+            //}
 
             #endregion
 
