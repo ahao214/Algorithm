@@ -78,6 +78,7 @@
     <Compile Include="Secondary\Combine.cs" />
     <Compile Include="Simple\BackspaceCompare.cs" />
     <Compile Include="Simple\CanPlaceFlowers.cs" />
+    <Compile Include="Simple\CheckPossibility.cs" />
     <Compile Include="Simple\CheckStraightLine.cs" />
     <Compile Include="Simple\CommonChars.cs" />
     <Compile Include="Simple\ContainsDuplicate.cs" />

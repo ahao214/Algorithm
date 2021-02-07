@@ -803,11 +803,19 @@ namespace Ahao.Algorithm
 
             #region 1423. 可获得的最大点数
 
-            int[] cardPoints = { 96,90,41,82,39,74,64,50,30 };
-            int k = 8;
-            MaxScore maxScore = new MaxScore();
+            //int[] cardPoints = { 96,90,41,82,39,74,64,50,30 };
+            //int k = 8;
+            //MaxScore maxScore = new MaxScore();
 
-            WriteLine(maxScore.Method(cardPoints, k));
+            //WriteLine(maxScore.Method(cardPoints, k));
+
+            #endregion
+
+            #region 665. 非递减数列
+
+            //int[] nums = { 5, 7, 1, 8 };
+            //CheckPossibility checkPossibility = new CheckPossibility();
+            //WriteLine(checkPossibility.Method(nums));
 
             #endregion
 
@@ -949,6 +957,12 @@ namespace Ahao.Algorithm
             //{
             //    Write(cur.data + " ");
             //}
+
+            #endregion
+
+            #region 对链表进行重新排序
+
+
 
             #endregion
 

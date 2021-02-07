@@ -18,10 +18,10 @@ namespace Ahao.Algorithm.LNode
         /// </summary>
         /// <param name="head"></param>
         /// <returns></returns>
-        private static LNode FindMiddleNode(LNode head)
-        {
+        //private static LNode FindMiddleNode(LNode head)
+        //{
 
-        }
+        //}
 
 
         /// <summary>
@@ -30,10 +30,10 @@ namespace Ahao.Algorithm.LNode
         /// </summary>
         /// <param name="head"></param>
         /// <returns></returns>
-        private static LNode Reverse(LNode head)
-        {
+        //private static LNode Reverse(LNode head)
+        //{
 
-        }
+        //}
 
         /// <summary>
         /// 方法功能：对链表进行排序
