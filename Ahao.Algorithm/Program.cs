@@ -992,6 +992,21 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 找出单链表中的倒数第K个元素
+
+            LNode.LNode head = Ahao.Algorithm.LNode.TestConstructListK.ConstructList();//链表头指针
+            LNode.LNode result = null;
+            Write("链表：");
+            TestConstructListK.PrintList(head);
+            result = TestConstructListK.FindLastK(head, 3);
+            if (result !=null )
+            {
+                Write("\n链表倒数第3个元素为：" + result.data);
+            }
+                
+
+            #endregion
+
             ReadLine();
         }
     }
