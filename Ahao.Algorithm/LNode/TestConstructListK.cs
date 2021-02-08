@@ -24,7 +24,7 @@ namespace Ahao.Algorithm.LNode
             LNode tmp = null;
             LNode cur = head;
             //构造第一个链表
-            for(;i<8;i++)
+            for (; i < 8; i++)
             {
                 tmp = new LNode();
                 tmp.data = i;
@@ -38,7 +38,7 @@ namespace Ahao.Algorithm.LNode
         //顺序打印单链表结点的数据
         public static void PrintList(LNode head)
         {
-            for (LNode cur = head.next; cur != null; cur = cur.next )
+            for (LNode cur = head.next; cur != null; cur = cur.next)
             {
                 Console.Write(cur.data + " ");
             }
@@ -52,26 +52,26 @@ namespace Ahao.Algorithm.LNode
         /// <param name="head"></param>
         /// <param name="k"></param>
         /// <returns></returns>
-        public static LNode FindLastK(LNode head,int k)
+        public static LNode FindLastK(LNode head, int k)
         {
-            if(head ==null || head .next ==null )
+            if (head == null || head.next == null)
             {
                 return head;
             }
             LNode slow, fast;
             slow = fast = head.next;
             int i;
-            for(i=0;i<k && fast !=null; ++i)
+            for (i = 0; i < k && fast != null; ++i)
             {
                 //前移k步
                 fast = fast.next;
             }
             //判断k是否已超出链表长度
-            if(i<k)
+            if (i < k)
             {
                 return null;
             }
-            while (fast !=null )
+            while (fast != null)
             {
                 slow = slow.next;
                 fast = fast.next;

@@ -999,11 +999,11 @@ namespace Ahao.Algorithm
             Write("链表：");
             TestConstructListK.PrintList(head);
             result = TestConstructListK.FindLastK(head, 3);
-            if (result !=null )
+            if (result != null)
             {
                 Write("\n链表倒数第3个元素为：" + result.data);
             }
-                
+
 
             #endregion
 
