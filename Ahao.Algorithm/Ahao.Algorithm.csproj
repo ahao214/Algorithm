@@ -50,6 +50,7 @@
     <Compile Include="LNode\TestFindMiddleNode.cs" />
     <Compile Include="LNode\TestRemoveDup.cs" />
     <Compile Include="LNode\TestReverse.cs" />
+    <Compile Include="LNode\TestRotateK.cs" />
     <Compile Include="Secondary\AddTwoNumbers.cs" />
     <Compile Include="Secondary\BuildTree.cs" />
     <Compile Include="Secondary\CanPartition.cs" />
