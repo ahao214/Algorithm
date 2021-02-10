@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.DesignerServices;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -1009,16 +1010,37 @@ namespace Ahao.Algorithm
 
             #region 将单链表向右旋转K个位置
 
-            LNode.LNode head = TestRotateK.ConstructList();
-            Write("旋转前：");
-            TestRotateK.PrintList(head);
+            //LNode.LNode head = TestRotateK.ConstructList();
+            //Write("旋转前：");
+            //TestRotateK.PrintList(head);
 
-            TestRotateK.Rotate(head, 4);
-            Write("\n旋转后：");
-            TestRotateK.PrintList(head);
+            //TestRotateK.Rotate(head, 4);
+            //Write("\n旋转后：");
+            //TestRotateK.PrintList(head);
 
 
             #endregion
+
+            #region 检查一个较大的单链表是否有环
+
+            LNode.LNode head = TestIsLoop.ConstructList();  //头结点
+            LNode.LNode meetNode = TestIsLoop.IsLoop(head);
+            LNode.LNode loopNode = null;
+            if(meetNode !=null )
+            {
+                WriteLine("有环");
+                loopNode = TestIsLoop.FindLoopNode(head, meetNode);
+                WriteLine("环的入口点为：" + loopNode.data);
+            }
+            else
+            {
+                WriteLine("无环");
+            }
+            ReadLine();
+
+            #endregion
+
+
 
             ReadLine();
         }

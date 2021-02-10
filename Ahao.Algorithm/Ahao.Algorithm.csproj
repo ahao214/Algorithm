@@ -48,6 +48,7 @@
     <Compile Include="LNode\TestAdd.cs" />
     <Compile Include="LNode\TestConstructListK.cs" />
     <Compile Include="LNode\TestFindMiddleNode.cs" />
+    <Compile Include="LNode\TestIsLoop.cs" />
     <Compile Include="LNode\TestRemoveDup.cs" />
     <Compile Include="LNode\TestReverse.cs" />
     <Compile Include="LNode\TestRotateK.cs" />
