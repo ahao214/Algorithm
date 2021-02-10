@@ -1023,20 +1023,20 @@ namespace Ahao.Algorithm
 
             #region 检查一个较大的单链表是否有环
 
-            LNode.LNode head = TestIsLoop.ConstructList();  //头结点
-            LNode.LNode meetNode = TestIsLoop.IsLoop(head);
-            LNode.LNode loopNode = null;
-            if(meetNode !=null )
-            {
-                WriteLine("有环");
-                loopNode = TestIsLoop.FindLoopNode(head, meetNode);
-                WriteLine("环的入口点为：" + loopNode.data);
-            }
-            else
-            {
-                WriteLine("无环");
-            }
-            ReadLine();
+            //LNode.LNode head = TestIsLoop.ConstructList();  //头结点
+            //LNode.LNode meetNode = TestIsLoop.IsLoop(head);
+            //LNode.LNode loopNode = null;
+            //if(meetNode !=null )
+            //{
+            //    WriteLine("有环");
+            //    loopNode = TestIsLoop.FindLoopNode(head, meetNode);
+            //    WriteLine("环的入口点为：" + loopNode.data);
+            //}
+            //else
+            //{
+            //    WriteLine("无环");
+            //}
+            //ReadLine();
 
             #endregion
 
