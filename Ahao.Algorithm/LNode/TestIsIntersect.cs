@@ -10,14 +10,15 @@ namespace Ahao.Algorithm.LNode
     /// 判断两个链表是否相交
     /// </summary>
     public class TestIsIntersect
-    {/// <summary>
-     /// 方法功能：判断两个链表是否相交，如果相交找出交点
-     /// 输入参数：head1与head2分别为两个链表的头结点
-     /// 返回值：如果不相交返回null，如果相交返回相交结点
-     /// </summary>
-     /// <param name="head1"></param>
-     /// <param name="head2"></param>
-     /// <returns></returns>
+    {
+        /// <summary>
+        /// 方法功能：判断两个链表是否相交，如果相交找出交点
+        /// 输入参数：head1与head2分别为两个链表的头结点
+        /// 返回值：如果不相交返回null，如果相交返回相交结点
+        /// </summary>
+        /// <param name="head1"></param>
+        /// <param name="head2"></param>
+        /// <returns></returns>
         public static LNode IsIntersect(LNode head1, LNode head2)
         {
             if (head1 == null || head1.next == null || head2 == null || head2.next == null || head1 == head2)
