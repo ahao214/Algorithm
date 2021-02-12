@@ -1076,37 +1076,51 @@ namespace Ahao.Algorithm
 
             #region 把链表以K个结点为一组进行翻转
 
-            int i = 1;
-            LNode.LNode head = new LNode.LNode();
-            head.next = null;
-            LNode.LNode tmp = null;
-            LNode.LNode cur = head;
-            for (; i < 8; i++)
-            {
-                tmp = new LNode.LNode();
-                tmp.data = i;
-                tmp.next = null;
-                cur.next = tmp;
-                cur = tmp;
-            }
-            Write("顺序输出：");
-            for (cur = head.next; cur != null; cur = cur.next)
-            {
-                Write(cur.data + " ");
-            }
-            TestReverseByK.ReverseK(head, 3);
-            Write("\n逆序输出：");
-            for (cur = head.next; cur != null; cur = cur.next)
-            {
-                Write(cur.data + " ");
-            }
-            for (cur = head.next; cur != null;)
-            {
-                tmp = cur;
-                cur = cur.next;
-            }
+            //int i = 1;
+            //LNode.LNode head = new LNode.LNode();
+            //head.next = null;
+            //LNode.LNode tmp = null;
+            //LNode.LNode cur = head;
+            //for (; i < 8; i++)
+            //{
+            //    tmp = new LNode.LNode();
+            //    tmp.data = i;
+            //    tmp.next = null;
+            //    cur.next = tmp;
+            //    cur = tmp;
+            //}
+            //Write("顺序输出：");
+            //for (cur = head.next; cur != null; cur = cur.next)
+            //{
+            //    Write(cur.data + " ");
+            //}
+            //TestReverseByK.ReverseK(head, 3);
+            //Write("\n逆序输出：");
+            //for (cur = head.next; cur != null; cur = cur.next)
+            //{
+            //    Write(cur.data + " ");
+            //}
+            //for (cur = head.next; cur != null;)
+            //{
+            //    tmp = cur;
+            //    cur = cur.next;
+            //}
 
 
+
+            #endregion
+
+            #region 合并两个有序链表
+
+            LNode.LNode head1 = TestLNodeMerge.ConstructList(1);
+            LNode.LNode head2 = TestLNodeMerge.ConstructList(2);
+            Write("head1:");
+            TestLNodeMerge.PrintList(head1);
+            Write("\nhead2:");
+            TestLNodeMerge.PrintList(head2);
+            Write("\n合并后的链表：");
+            LNode.LNode head = TestLNodeMerge.Merge(head1, head2);
+            TestLNodeMerge.PrintList(head);
 
             #endregion
 
