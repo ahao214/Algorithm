@@ -4,6 +4,7 @@ using Ahao.Algorithm.Simple;
 using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Runtime.DesignerServices;
 using System.Runtime.InteropServices;
@@ -1112,17 +1113,86 @@ namespace Ahao.Algorithm
 
             #region 合并两个有序链表
 
-            LNode.LNode head1 = TestLNodeMerge.ConstructList(1);
-            LNode.LNode head2 = TestLNodeMerge.ConstructList(2);
-            Write("head1:");
-            TestLNodeMerge.PrintList(head1);
-            Write("\nhead2:");
-            TestLNodeMerge.PrintList(head2);
-            Write("\n合并后的链表：");
-            LNode.LNode head = TestLNodeMerge.Merge(head1, head2);
-            TestLNodeMerge.PrintList(head);
+            //LNode.LNode head1 = TestLNodeMerge.ConstructList(1);
+            //LNode.LNode head2 = TestLNodeMerge.ConstructList(2);
+            //Write("head1:");
+            //TestLNodeMerge.PrintList(head1);
+            //Write("\nhead2:");
+            //TestLNodeMerge.PrintList(head2);
+            //Write("\n合并后的链表：");
+            //LNode.LNode head = TestLNodeMerge.Merge(head1, head2);
+            //TestLNodeMerge.PrintList(head);
 
             #endregion
+
+            #region 在只给定单链表中某个结点的指针的情况下删除该结点
+
+
+
+            #endregion
+
+            #region 判断两个单链表(无环)是否相交
+
+            int i = 1;
+            //链表头结点
+            LNode.LNode head1 = new LNode.LNode();
+            head1.next = null;
+            //链表头结点
+            LNode.LNode head2 = new LNode.LNode();
+            head2.next = null;
+            LNode.LNode tmp = null;
+            LNode.LNode cur = head1;
+            LNode.LNode p = null;
+            //构造第一个链表
+            for (; i < 8; i++)
+            {
+                tmp = new LNode.LNode();
+                tmp.data = i;
+                tmp.next = null;
+                cur.next = tmp;
+                cur = tmp;
+                if (i == 5)
+                {
+                    p = tmp;
+                }
+            }
+            cur = head2;
+            //构造第二个链表
+            for (i = 1; i < 5; i++)
+            {
+                tmp = new LNode.LNode();
+                tmp.data = i;
+                tmp.next = null;
+                cur.next = tmp;
+                cur = tmp;
+            }
+            //使它们相交与结点5
+            cur.next = p;
+            LNode.LNode interNode = TestIsIntersect.IsIntersect(head1, head2);
+            if (interNode == null)
+            {
+                WriteLine("这两个链表不相交；");
+            }
+            else
+            {
+                WriteLine("这两个链表相交点为：" + interNode.data);
+            }
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             ReadLine();
         }

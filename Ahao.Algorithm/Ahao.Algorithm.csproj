@@ -48,9 +48,11 @@
     <Compile Include="LNode\TestAdd.cs" />
     <Compile Include="LNode\TestConstructListK.cs" />
     <Compile Include="LNode\TestFindMiddleNode.cs" />
+    <Compile Include="LNode\TestIsIntersect.cs" />
     <Compile Include="LNode\TestIsLoop.cs" />
     <Compile Include="LNode\TestLNodeMerge.cs" />
     <Compile Include="LNode\TestRemoveDup.cs" />
+    <Compile Include="LNode\TestRemoveNode.cs" />
     <Compile Include="LNode\TestReverse.cs" />
     <Compile Include="LNode\TestReverseByK.cs" />
     <Compile Include="LNode\TestReverseN.cs" />
