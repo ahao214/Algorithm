@@ -1042,12 +1042,46 @@ namespace Ahao.Algorithm
 
             #region 把链表相邻元素翻转
 
+            //int i = 1;
+            //LNode.LNode head = new LNode.LNode();
+            //head.next = null;
+            //LNode.LNode tmp = null;
+            //LNode.LNode cur = head;
+            //for (; i < 9; i++)
+            //{
+            //    tmp = new LNode.LNode();
+            //    tmp.data = i;
+            //    tmp.next = null;
+            //    cur.next = tmp;
+            //    cur = tmp;
+            //}
+            //Write("顺序输出：");
+            //for (cur = head.next; cur != null; cur = cur.next)
+            //{
+            //    Write(cur.data + " ");
+            //}
+            //TestReverseN.Reverse(head);
+            //Write("\n逆序输出：");
+            //for (cur = head.next; cur != null; cur = cur.next)
+            //{
+            //    Write(cur.data + " ");
+            //}
+            //for (cur = head.next; cur != null;)
+            //{
+            //    tmp = cur;
+            //    cur = cur.next;
+            //}
+
+            #endregion
+
+            #region 把链表以K个结点为一组进行翻转
+
             int i = 1;
             LNode.LNode head = new LNode.LNode();
             head.next = null;
             LNode.LNode tmp = null;
             LNode.LNode cur = head;
-            for (; i < 9; i++)
+            for (; i < 8; i++)
             {
                 tmp = new LNode.LNode();
                 tmp.data = i;
@@ -1060,7 +1094,7 @@ namespace Ahao.Algorithm
             {
                 Write(cur.data + " ");
             }
-            TestReverseN.Reverse(head);
+            TestReverseByK.ReverseK(head, 3);
             Write("\n逆序输出：");
             for (cur = head.next; cur != null; cur = cur.next)
             {
@@ -1072,9 +1106,9 @@ namespace Ahao.Algorithm
                 cur = cur.next;
             }
 
+
+
             #endregion
-
-
 
             ReadLine();
         }
