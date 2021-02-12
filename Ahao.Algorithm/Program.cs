@@ -1127,33 +1127,33 @@ namespace Ahao.Algorithm
 
             #region 在只给定单链表中某个结点的指针的情况下删除该结点
 
-            int i = 1;
-            LNode.LNode head = new LNode.LNode();   //链表头结点
-            head.next = null;
-            LNode.LNode tmp = null;
-            LNode.LNode cur = head;
-            LNode.LNode p = null;
-            //构造链表
-            for(;i<10;i++)
-            {
-                tmp = new LNode.LNode();
-                tmp.data = i;
-                tmp.next = null;
-                cur.next = tmp;
-                cur = tmp;
-                if(i==5)
-                {
-                    p = tmp;
-                }
-            }
-            Write("删除节点" + p.data + "前链表：");
-            TestRemoveNode.PrintList(head);
-            bool result = TestRemoveNode.RemoveNode(p);
-            if(result)
-            {
-                Write("\n删除该结点后链表：");
-                TestRemoveNode.PrintList(head);
-            }
+            //int i = 1;
+            //LNode.LNode head = new LNode.LNode();   //链表头结点
+            //head.next = null;
+            //LNode.LNode tmp = null;
+            //LNode.LNode cur = head;
+            //LNode.LNode p = null;
+            ////构造链表
+            //for(;i<10;i++)
+            //{
+            //    tmp = new LNode.LNode();
+            //    tmp.data = i;
+            //    tmp.next = null;
+            //    cur.next = tmp;
+            //    cur = tmp;
+            //    if(i==5)
+            //    {
+            //        p = tmp;
+            //    }
+            //}
+            //Write("删除节点" + p.data + "前链表：");
+            //TestRemoveNode.PrintList(head);
+            //bool result = TestRemoveNode.RemoveNode(p);
+            //if(result)
+            //{
+            //    Write("\n删除该结点后链表：");
+            //    TestRemoveNode.PrintList(head);
+            //}
 
 
             #endregion
