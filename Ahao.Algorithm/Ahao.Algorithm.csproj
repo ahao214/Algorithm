@@ -164,6 +164,7 @@
     <Compile Include="Stack\TestQueueByLink.cs" />
     <Compile Include="Stack\TestStackByArray.cs" />
     <Compile Include="Stack\TestStackByLink.cs" />
+    <Compile Include="Tree\BiTNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -172,7 +173,6 @@
     <Folder Include="Array\" />
     <Folder Include="Number\" />
     <Folder Include="String\" />
-    <Folder Include="Tree\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
