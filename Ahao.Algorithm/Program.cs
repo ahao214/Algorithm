@@ -1286,6 +1286,23 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 给栈排序
+
+            Stack<int> s = new Stack<int>();
+            s.Push(1);
+            s.Push(3);
+            s.Push(2);
+            s.Push(90);
+            s.Push(11);
+            TestSortStack.SortStack(s);
+            Write("排序后出栈顺序为：");
+            while(s.Count >0)
+            {
+                Write(s.Peek() + " ");
+                s.Pop();
+            }
+
+            #endregion
 
 
 

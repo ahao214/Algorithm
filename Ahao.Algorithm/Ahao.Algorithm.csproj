@@ -163,6 +163,7 @@
     <Compile Include="Stack\TestMoveBottomToTop.cs" />
     <Compile Include="Stack\TestQueueByArray.cs" />
     <Compile Include="Stack\TestQueueByLink.cs" />
+    <Compile Include="Stack\TestSortStack.cs" />
     <Compile Include="Stack\TestStackByArray.cs" />
     <Compile Include="Stack\TestStackByLink.cs" />
     <Compile Include="Tree\BiTNode.cs" />
