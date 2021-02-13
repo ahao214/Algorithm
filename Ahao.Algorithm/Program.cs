@@ -1222,7 +1222,21 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 用链表实现栈
 
+            //TestStackByLink.MyStack<int> stack = new TestStackByLink.MyStack<int>();
+            //for (var i = 1; i < 11; i+=2)
+            //{
+            //    stack.Push(i);
+            //}
+            //WriteLine("栈顶元素为：" + stack.Top());
+            //WriteLine("栈的大小为：" + stack.Size());
+            //stack.Pop();
+            //WriteLine("出栈完成");
+            //stack.Pop();
+            //Read();
+
+            #endregion
 
 
 
