@@ -5,6 +5,7 @@ using Ahao.Algorithm.Stack;
 using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
 using System.Runtime.DesignerServices;
@@ -1267,7 +1268,23 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 翻转栈的所有元素
 
+            //Stack<int> s = new Stack<int>();
+            //for (var i = 5; i > 0; i--)
+            //{
+            //    s.Push(i);
+            //}
+            //TestMoveBottomToTop.Reverse(s);
+            //WriteLine("翻转后出栈顺序后：");
+            //while(s.Count>0)
+            //{
+            //    Write(s.Peek() + " ");
+            //    s.Pop();
+            //}
+            //Read();
+
+            #endregion
 
 
 
