@@ -1255,15 +1255,15 @@ namespace Ahao.Algorithm
 
             #region 链表实现队列
 
-            TestQueueByLink.MyQueue<int> queue = new TestQueueByLink.MyQueue<int>();
-            queue.Enqueue(1);
-            queue.Enqueue(1);
-            WriteLine("队首元素为：" + queue.Dequeue());
-            WriteLine("队列大小为：" + queue.Count());
-            queue.Peek();
-            WriteLine("取队首成功！");
-            queue.Peek();
-            Read();
+            //TestQueueByLink.MyQueue<int> queue = new TestQueueByLink.MyQueue<int>();
+            //queue.Enqueue(1);
+            //queue.Enqueue(1);
+            //WriteLine("队首元素为：" + queue.Dequeue());
+            //WriteLine("队列大小为：" + queue.Count());
+            //queue.Peek();
+            //WriteLine("取队首成功！");
+            //queue.Peek();
+            //Read();
 
             #endregion
 
