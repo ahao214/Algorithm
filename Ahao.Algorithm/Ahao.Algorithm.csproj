@@ -160,6 +160,7 @@
     <Compile Include="Simple\ToLowerCase.cs" />
     <Compile Include="Simple\UniqueOccurrences.cs" />
     <Compile Include="Simple\WordPattern.cs" />
+    <Compile Include="Stack\TestQueueByArray.cs" />
     <Compile Include="Stack\TestStackByArray.cs" />
     <Compile Include="Stack\TestStackByLink.cs" />
   </ItemGroup>

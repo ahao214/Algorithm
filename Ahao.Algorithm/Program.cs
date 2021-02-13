@@ -10,6 +10,7 @@ using System.Linq;
 using System.Runtime.DesignerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
+using System.Web.UI.WebControls;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -1238,7 +1239,19 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 数组实现队列
 
+            //TestQueueByArray.MyQueue<int> queue = new TestQueueByArray.MyQueue<int>(10);
+            //queue.Enquene(1);
+            //queue.Enquene(1);
+            //WriteLine("对首元素为：" + queue.Dequene());
+            //WriteLine("队列大小为：" + queue.Count());
+            //queue.Peek();
+            //WriteLine("取队首成功");
+            //queue.Peek();
+            //Read();
+
+            #endregion
 
 
 
