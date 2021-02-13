@@ -1,6 +1,7 @@
 ﻿using Ahao.Algorithm.LNode;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
+using Ahao.Algorithm.Stack;
 using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
@@ -1207,8 +1208,19 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 用数组实现栈
 
+            //TestStackByArray.MyStack<int> stack = new TestStackByArray.MyStack<int>();
+            //stack.Push(1);
+            //stack.Push(2);
+            //WriteLine("栈顶元素为：" + stack.Top());
+            //WriteLine("栈大小为：" + stack.Size());
+            //stack.Pop();
+            //WriteLine("弹栈成功");
+            //stack.Pop();
+            //Read();
 
+            #endregion
 
 
 
