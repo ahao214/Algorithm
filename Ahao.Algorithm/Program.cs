@@ -1338,12 +1338,12 @@ namespace Ahao.Algorithm
 
             #region 用两个栈模拟队列操作
 
-            TestTwoStack.MyStack<int> stack = new TestTwoStack.MyStack<int>();
-            stack.push(1);
-            stack.push(2);
-            WriteLine("队列首元素为：" + stack.pop());                        
-            WriteLine("队列首元素为：" + stack.pop());
-            Read();
+            //TestTwoStack.MyStack<int> stack = new TestTwoStack.MyStack<int>();
+            //stack.push(1);
+            //stack.push(2);
+            //WriteLine("队列首元素为：" + stack.pop());                        
+            //WriteLine("队列首元素为：" + stack.pop());
+            //Read();
 
 
             #endregion
