@@ -1348,7 +1348,23 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 设计一个排序系统
 
+            TestUser u1 = new TestUser(1, "战三");
+            TestUser u2 = new TestUser(2, "大刀");
+            TestUser u3 = new TestUser(3, "玄剑");
+            TestUser u4 = new TestUser(4, "战斧");
+            MyQueue queue = new MyQueue();
+            queue.EnQueue(u1);
+            queue.EnQueue(u2);
+            queue.EnQueue(u3);
+            queue.EnQueue(u4);
+            queue.DeQueue();    //对首元素u1出队列
+            queue.DeQueue(u3);  //队列中间的元素u3出队列
+            queue.PrintList();
+
+
+            #endregion
 
 
 
