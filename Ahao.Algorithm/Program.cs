@@ -1366,7 +1366,22 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 实现LRU缓存方案
 
+            ////假设缓存大小为3
+            //TestLRU lru = new TestLRU(3);
+            ////访问page
+            //lru.AccessPage(1);
+            //lru.AccessPage(2);
+            //lru.AccessPage(5);
+            //lru.AccessPage(1);
+            //lru.AccessPage(6);
+            //lru.AccessPage(7);
+
+            ////通过上面的访问序列后，缓存的信息为
+            //lru.PrintQueue();
+
+            #endregion
 
 
 
