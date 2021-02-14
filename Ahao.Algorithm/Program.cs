@@ -1396,6 +1396,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 从数组中找出满足a+b=c+d的两个数对
+
+            //int[] arr = { 3, 4, 7, 10, 20, 9, 8 };
+            //ArrayElements a = new ArrayElements();
+            //a.findPairs(arr);
+
+            #endregion 
 
 
 
