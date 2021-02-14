@@ -168,6 +168,7 @@
     <Compile Include="Stack\TestSortStack.cs" />
     <Compile Include="Stack\TestStackByArray.cs" />
     <Compile Include="Stack\TestStackByLink.cs" />
+    <Compile Include="Stack\TestTwoStack.cs" />
     <Compile Include="Tree\BiTNode.cs" />
   </ItemGroup>
   <ItemGroup>
