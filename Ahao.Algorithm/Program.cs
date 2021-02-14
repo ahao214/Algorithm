@@ -1304,7 +1304,20 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 根据入栈序列判断可能的出栈序列
 
+            //String push = "12345";
+            //String pop = "53412";
+            //if (TestIsPopSerial.IsPopSerial(push, pop))
+            //{
+            //    WriteLine(pop + "是" + push + "的一个pop序列");
+            //}
+            //else
+            //{
+            //    WriteLine(pop + "不是" + push + "的一个pop序列");
+            //}
+
+            #endregion
 
             ReadLine();
         }
