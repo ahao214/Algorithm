@@ -1383,7 +1383,18 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 从给定的车票中找出旅程的路线
 
+            //Dictionary<String, String> input = new Dictionary<String, String>();
+            //input.Add("西安","成都");
+            //input.Add("北京", "上海");
+            //input.Add("大连", "西安");
+            //input.Add("上海", "大连");
+            //input.Add("成都", "武汉");
+
+            //Itinerary.PrintResult(input);
+
+            #endregion
 
 
 

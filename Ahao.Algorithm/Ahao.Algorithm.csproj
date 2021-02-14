@@ -160,6 +160,7 @@
     <Compile Include="Simple\ToLowerCase.cs" />
     <Compile Include="Simple\UniqueOccurrences.cs" />
     <Compile Include="Simple\WordPattern.cs" />
+    <Compile Include="Stack\Itinerary.cs" />
     <Compile Include="Stack\MyQueue.cs" />
     <Compile Include="Stack\TestIsPopSerial.cs" />
     <Compile Include="Stack\TestLRU.cs" />
