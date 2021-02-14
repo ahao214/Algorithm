@@ -1319,6 +1319,35 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求栈中最小元素
+
+            //TestMinEleInStack.MyStack stack = new TestMinEleInStack.MyStack();
+            //stack.Push(5);
+            //WriteLine("栈中最小值为：" + stack.Min());
+            //stack.Push(6);
+            //WriteLine("栈中最小值为：" + stack.Min());
+            //stack.Push(2);
+            //WriteLine("栈中最小值为：" + stack.Min());
+            //stack.Pop();
+            //WriteLine("栈中最小值为：" + stack.Min());
+            //stack.Push(4);
+            //WriteLine("栈中最小值为：" + stack.Min());
+            //Read();
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
             ReadLine();
         }
     }

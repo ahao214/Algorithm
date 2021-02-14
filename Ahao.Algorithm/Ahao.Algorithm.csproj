@@ -161,6 +161,7 @@
     <Compile Include="Simple\UniqueOccurrences.cs" />
     <Compile Include="Simple\WordPattern.cs" />
     <Compile Include="Stack\TestIsPopSerial.cs" />
+    <Compile Include="Stack\TestMinEleInStack.cs" />
     <Compile Include="Stack\TestMoveBottomToTop.cs" />
     <Compile Include="Stack\TestQueueByArray.cs" />
     <Compile Include="Stack\TestQueueByLink.cs" />
