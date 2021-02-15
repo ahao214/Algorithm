@@ -177,6 +177,7 @@
     <Compile Include="Stack\TestUser.cs" />
     <Compile Include="Tree\BiTNode.cs" />
     <Compile Include="Tree\TestArraytotree.cs" />
+    <Compile Include="Tree\TestPrintTreeLayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
