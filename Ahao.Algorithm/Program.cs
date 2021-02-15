@@ -826,6 +826,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 485.最大连续1的个数
+
+            //FindMaxConsecutiveOnes findMaxConsecutiveOnes = new FindMaxConsecutiveOnes();
+            //int[] nums = { 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1 ,1,0,1};
+            //WriteLine(findMaxConsecutiveOnes.Method(nums));
+
+            #endregion
+
             #region 如何实现链表的逆序
 
             // int i = 0;
