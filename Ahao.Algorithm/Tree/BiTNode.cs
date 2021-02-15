@@ -11,8 +11,8 @@ namespace Ahao.Algorithm.Tree
     /// </summary>
     public class BiTNode
     {
-        int Data { get; set; }
-        BiTNode Lchild { get; set; }
-        BiTNode Rchild { get; set; }        
+        public int Data { get; set; }
+        public BiTNode Lchild { get; set; }
+        public BiTNode Rchild { get; set; }
     }
 }

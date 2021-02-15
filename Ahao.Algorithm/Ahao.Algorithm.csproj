@@ -175,6 +175,7 @@
     <Compile Include="Stack\TestTwoStack.cs" />
     <Compile Include="Stack\TestUser.cs" />
     <Compile Include="Tree\BiTNode.cs" />
+    <Compile Include="Tree\TestArraytotree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

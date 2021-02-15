@@ -2,6 +2,7 @@
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
 using Ahao.Algorithm.Stack;
+using Ahao.Algorithm.Tree;
 using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
@@ -1402,9 +1403,24 @@ namespace Ahao.Algorithm
             //ArrayElements a = new ArrayElements();
             //a.findPairs(arr);
 
-            #endregion 
+            #endregion
 
+            #region 把一个有序整数数组放到二叉树中
 
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //Write("数组：");
+            //for(int i=0;i<arr.Length;i++)
+            //{
+            //    Write(arr[i] + " ");
+            //}
+            //WriteLine();
+            //BiTNode root;
+            //root = TestArraytotree.Arraytotree(arr, 0, arr.Length - 1);
+            //WriteLine("转换成树的中序遍历为：");
+            //TestArraytotree.PrintTreeMidOrders(root);
+            //WriteLine();
+
+            #endregion
 
 
             ReadLine();
