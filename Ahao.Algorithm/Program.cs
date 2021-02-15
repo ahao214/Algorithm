@@ -1432,10 +1432,10 @@ namespace Ahao.Algorithm
 
             #region 从顶部开始逐层遍历二叉树结点数据
 
-            int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-            BiTNode root = TestArraytotree.Arraytotree(arr, 0, arr.Length - 1);
-            Write("树的层序遍历结果为：");
-            TestPrintTreeLayer.PrintTreeLayer(root);
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //BiTNode root = TestArraytotree.Arraytotree(arr, 0, arr.Length - 1);
+            //Write("树的层序遍历结果为：");
+            //TestPrintTreeLayer.PrintTreeLayer(root);
 
             #endregion
 
