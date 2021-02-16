@@ -1450,7 +1450,21 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 判断两颗二叉树是否相等
 
+            //BiTNode root1 = TestIsEqualTree.constructTree(5, 3, 0, 9);
+            //BiTNode root2 = TestIsEqualTree.constructTree(3, 4, 9, 0);
+            //bool equal = TestIsEqualTree.IsEqual(root1, root2);
+            //if (equal)
+            //{
+            //    WriteLine("这两颗二叉树相等");
+            //}
+            //else
+            //{
+            //    WriteLine("这两颗二叉树不相等");
+            //}
+
+            #endregion
 
 
 
