@@ -1442,11 +1442,11 @@ namespace Ahao.Algorithm
             #region 求一颗二叉树的最大子树的和
 
             //构造二叉树
-            BiTNode root = TestFindMaxSubTree.constructTree();
-            BiTNode maxRoot = new BiTNode();    //最大子树的根结点
-            int maxSum = TestFindMaxSubTree.FindMaxSubTree(root, maxRoot);
-            WriteLine("最大子树和为：" + maxSum);
-            WriteLine("对应子树的根结点为：" + maxRoot.Data);
+            //BiTNode root = TestFindMaxSubTree.constructTree();
+            //BiTNode maxRoot = new BiTNode();    //最大子树的根结点
+            //int maxSum = TestFindMaxSubTree.FindMaxSubTree(root, maxRoot);
+            //WriteLine("最大子树和为：" + maxSum);
+            //WriteLine("对应子树的根结点为：" + maxRoot.Data);
 
             #endregion
 
