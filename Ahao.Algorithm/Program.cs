@@ -5,6 +5,7 @@ using Ahao.Algorithm.Stack;
 using Ahao.Algorithm.Tree;
 using System;
 using System.CodeDom.Compiler;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.Eventing.Reader;
@@ -1488,7 +1489,25 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 如何判断一个数组是否是二元查找树后序遍历的序列
 
+            int[] arr = { 1, 3, 2, 5, 7, 6, 4 };
+            bool result = TestIsAfterOrder.IsAfterOrder(arr, 0, arr.Length - 1);
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Write(arr[i] + " ");
+            }
+            if (result)
+            {
+                WriteLine("是某一个二元查找树的后续遍历序列");
+            }
+            else
+            {
+                WriteLine("不是某一个二元查找树的后续遍历序列");
+            }
+
+
+            #endregion
 
 
 
