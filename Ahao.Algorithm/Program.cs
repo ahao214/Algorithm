@@ -1466,6 +1466,30 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 把二叉树转换为双向链表
+
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7 };
+            //BiTNode root;
+            //root = TestArraytotree.Arraytotree(arr, 0, arr.Length - 1);
+            //TestInOrderBSTree.InOrderBSTree(root);
+            //BiTNode cur;
+            //Write("转换后双向链表正向遍历：");
+            //for (cur = TestInOrderBSTree.pHead; cur != null; cur = cur.Rchild)
+            //{
+            //    Write(cur.Data + " ");
+            //}
+            //WriteLine();
+            //Write("转换后双向链表逆向遍历：");
+            //for (cur = TestInOrderBSTree.pEnd; cur != null; cur = cur.Lchild)
+            //{
+            //    Write(cur.Data + " ");
+            //}
+
+
+            #endregion
+
+
+
 
 
             ReadLine();
