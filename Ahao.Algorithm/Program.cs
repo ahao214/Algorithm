@@ -1528,6 +1528,26 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 复制二叉树
+
+            //BiTNode root1 = TestCopyTree.constructTree();
+            //BiTNode root2 = TestCopyTree.createDupTree(root1);
+            //Write("原始二叉树中序遍历：");
+            //TestCopyTree.printTreeMidOrder(root1);
+            //WriteLine();
+            //Write("新的二叉树中序遍历：");
+            //TestCopyTree.printTreeMidOrder(root2);
+
+            #endregion 
+
+
+
+
+
+
+
+
+
             ReadLine();
         }
     }
