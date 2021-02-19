@@ -1549,7 +1549,19 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 如何对二叉树进行镜像翻转
 
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7 };
+            //BiTNode root;
+            //root = TestReverseTree.arraytotree(arr, 0, arr.Length - 1);
+            //Write("二叉树层序遍历结果为：");
+            //TestReverseTree.PrintTreeLayer(root);
+            //WriteLine();
+            //TestReverseTree.ReverseTree(root);
+            //Write("反转后的二叉树层序遍历结果为：");
+            //TestReverseTree.PrintTreeLayer(root);
+
+            #endregion
 
 
 

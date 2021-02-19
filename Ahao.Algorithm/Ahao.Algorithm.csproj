@@ -185,6 +185,7 @@
     <Compile Include="Tree\TestIsAfterOrder.cs" />
     <Compile Include="Tree\TestIsEqualTree.cs" />
     <Compile Include="Tree\TestPrintTreeLayer.cs" />
+    <Compile Include="Tree\TestReverseTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
