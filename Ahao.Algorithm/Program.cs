@@ -1538,9 +1538,16 @@ namespace Ahao.Algorithm
             //Write("新的二叉树中序遍历：");
             //TestCopyTree.printTreeMidOrder(root2);
 
-            #endregion 
+            #endregion
 
+            #region 在二叉树中找出与输入整数相等的所有路径
 
+            //BiTNode root = TestFindRoad.constructTree();
+            //List<int> s = new List<int>();
+            //Write("满足路径结点和等于8的路径为：");
+            //TestFindRoad.FindRoad(root, 8, 0, s);
+
+            #endregion
 
 
 
