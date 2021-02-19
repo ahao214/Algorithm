@@ -180,6 +180,7 @@
     <Compile Include="Tree\TestCopyTree.cs" />
     <Compile Include="Tree\TestFindMaxSubTree.cs" />
     <Compile Include="Tree\TestFindRoad.cs" />
+    <Compile Include="Tree\TestGetNode.cs" />
     <Compile Include="Tree\TestGetPathFromRoot.cs" />
     <Compile Include="Tree\TestInOrderBSTree.cs" />
     <Compile Include="Tree\TestIsAfterOrder.cs" />

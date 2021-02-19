@@ -1563,7 +1563,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 在二叉排序树中找出第一个大于中间值的结点
 
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7 };
+            //BiTNode root;
+            //root = TestGetNode.arraytoTree(arr, 0, arr.Length - 1);
+            //WriteLine(TestGetNode.GetNode(root).Data);
+
+            #endregion
 
 
 
