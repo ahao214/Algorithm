@@ -178,6 +178,7 @@
     <Compile Include="Tree\BiTNode.cs" />
     <Compile Include="Tree\TestArraytotree.cs" />
     <Compile Include="Tree\TestFindMaxSubTree.cs" />
+    <Compile Include="Tree\TestGetPathFromRoot.cs" />
     <Compile Include="Tree\TestInOrderBSTree.cs" />
     <Compile Include="Tree\TestIsAfterOrder.cs" />
     <Compile Include="Tree\TestIsEqualTree.cs" />

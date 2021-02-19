@@ -1508,7 +1508,25 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 找出排序二叉树上任意两个结点的最近共同父结点
 
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //BiTNode root;
+            //root = TestArraytotree.Arraytotree(arr, 0, arr.Length - 1);
+            //BiTNode node1 = root.Lchild.Lchild.Lchild;
+            //BiTNode node2 = root.Lchild.Rchild;
+            //BiTNode res = null;
+            //res = TestGetPathFromRoot.FindParentNode(root, node1, node2);
+            //if (res != null)
+            //{
+            //    Write(node1.Data + "与" + node2.Data + "的最近公共父结点为：" + res.Data);
+            //}
+            //else
+            //{
+            //    WriteLine("没有公共父结点");
+            //}
+
+            #endregion
 
             ReadLine();
         }
