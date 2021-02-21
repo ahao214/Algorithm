@@ -1572,6 +1572,24 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 在二叉树中找出路径最大的和
+
+            //Ahao.Algorithm.Tree.TreeNode root = new Ahao.Algorithm.Tree.TreeNode(2);
+            //Ahao.Algorithm.Tree.TreeNode left = new Ahao.Algorithm.Tree.TreeNode(3);
+            //Ahao.Algorithm.Tree.TreeNode right = new Ahao.Algorithm.Tree.TreeNode(5);
+            //root.Left  = left;
+            //root.Right = right;
+            //TestFindMaxPath t = new TestFindMaxPath();
+            //WriteLine(t.FindMaxPath(root));
+
+            #endregion
+
+
+
+
+
+
+
 
 
             ReadLine();

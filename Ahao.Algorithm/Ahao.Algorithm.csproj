@@ -178,6 +178,7 @@
     <Compile Include="Tree\BiTNode.cs" />
     <Compile Include="Tree\TestArraytotree.cs" />
     <Compile Include="Tree\TestCopyTree.cs" />
+    <Compile Include="Tree\TestFindMaxPath.cs" />
     <Compile Include="Tree\TestFindMaxSubTree.cs" />
     <Compile Include="Tree\TestFindRoad.cs" />
     <Compile Include="Tree\TestGetNode.cs" />
@@ -187,6 +188,7 @@
     <Compile Include="Tree\TestIsEqualTree.cs" />
     <Compile Include="Tree\TestPrintTreeLayer.cs" />
     <Compile Include="Tree\TestReverseTree.cs" />
+    <Compile Include="Tree\TreeNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
