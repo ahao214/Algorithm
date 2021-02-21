@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Diagnostics.Eventing.Reader;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Runtime.DesignerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
@@ -1584,7 +1585,33 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 如何实现反向DNS查找缓存
 
+            //String[] ipAdds = { "10.57.11.127", "121.57.61.129", "66.125.100.103" };
+            //String[] url = { "www.samsung.com", "www.samsung.net", "www.google.in" };
+
+            //int n = ipAdds.Length;
+            //DNSCache cache = new DNSCache();
+
+            ////把IP地址和对应的URL插入到Trie树中
+            //for(int i=0;i<n;i++)
+            //{
+            //    cache.insert(ipAdds[i], url[i]);
+            //}
+
+            //String ip = "121.57.61.129";
+            //String res_url = cache.searchDNSCache(ip);
+            //if(res_url !=null )
+            //{
+            //    WriteLine("找到了IP对应的URL:\n" + ip + "--->" + res_url);
+            //}
+            //else
+            //{
+            //    WriteLine("没有找到对应的URL\n");
+            //}
+
+
+            #endregion 
 
 
 
