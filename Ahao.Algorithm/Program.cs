@@ -1619,7 +1619,15 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 查找数组中元素的最大值和最小值
 
+            int[] array = { 7, 3, 19, 40, 4, 7, 1 };
+            TestMaxMin.MaxMin m = TestMaxMin.GetmaxAndMin(array);
+            WriteLine("max=" + m.Max);
+            WriteLine("min=" + m.Min);
+            Read();
+
+            #endregion
 
 
             ReadLine();
