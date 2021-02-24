@@ -1,20 +1,6 @@
-﻿using Ahao.Algorithm.LNode;
+﻿using Ahao.Algorithm.ArrayNums;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
-using Ahao.Algorithm.Stack;
-using Ahao.Algorithm.Tree;
-using System;
-using System.CodeDom.Compiler;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Diagnostics.Eventing.Reader;
-using System.Linq;
-using System.Reflection.Emit;
-using System.Runtime.DesignerServices;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography;
-using System.Web.UI.WebControls;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -1611,10 +1597,16 @@ namespace Ahao.Algorithm
             //}
 
 
-            #endregion 
+            #endregion
 
+            #region 找出数组中唯一的重复元素
 
+            int[] nums = { 1, 2, 3, 4, 8, 7, 9, 8 };
+            int result = TestFindDup.FindDupHash(nums);
+            WriteLine(result);
+            Read();
 
+            #endregion
 
 
 

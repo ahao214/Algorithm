@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayNums\TestFindDup.cs" />
     <Compile Include="LNode\LNode.cs" />
     <Compile Include="LNode\TestAdd.cs" />
     <Compile Include="LNode\TestConstructListK.cs" />
@@ -195,7 +196,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Array\" />
     <Folder Include="Number\" />
     <Folder Include="String\" />
   </ItemGroup>

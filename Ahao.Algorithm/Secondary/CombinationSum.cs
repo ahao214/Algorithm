@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Ahao.Algorithm
+namespace Ahao.Algorithm.Secondary
 {
     /// <summary>
     /// 39.组合总和
@@ -14,7 +12,7 @@ namespace Ahao.Algorithm
         List<IList<int>> result = new List<IList<int>>();
         public IList<IList<int>> Method(int[] candidates, int target)
         {            
-            Array.Sort(candidates);
+            Array.Sort(candidates);            
             recrusion(candidates, 0, target, new List<int>(target), result);
             return result;
         }
