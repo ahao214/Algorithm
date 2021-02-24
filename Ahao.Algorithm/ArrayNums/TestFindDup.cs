@@ -106,7 +106,7 @@ namespace Ahao.Algorithm.ArrayNums
                     return -1;
                 }
             }
-            return -1;
+            return index;
         }
 
         /// <summary>
@@ -125,8 +125,8 @@ namespace Ahao.Algorithm.ArrayNums
             do
             {
                 fast = nums[nums[fast]];
-                slow = nums[nums[slow]];
-            } while (slow != fast);
+                slow = nums[slow];
+            } while (slow != fast); //找到相遇点
             fast = 0;
             do
             {
@@ -138,10 +138,35 @@ namespace Ahao.Algorithm.ArrayNums
         }
 
 
-        //public static HashSet <int>FindRepeat(int[] nums,int len,int num)
-        //{
+        public static HashSet<int> FindRepeat(int[] array, int len, int num)
+        {
+            HashSet<int> s = new HashSet<int>();
+            if (array == null || len < 1 || num < 1 || len < num)
+            {
+                return s;
+            }
+            int index = array[0];
+            num = num - 1;
+            while (true )
+            {
+                if(array [index ]<0)
+                {
+                    num--;
+                    //找到了重复的数字index，为了保证能遍历数组中所有的数，把index
+                    //下标对应的值修改为尽可能接近N+M的数
+                    array[index] = len - num;
+                    s.Add(index);
+                }
+                if (num ==0)
+                {
+                    return s;
+                }
+                array[index] *= -1;
+                index = array[index] * (-1);
+            }
 
-        //}
+
+        }
 
 
     }

@@ -1,6 +1,7 @@
 ﻿using Ahao.Algorithm.ArrayNums;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
+using System.Collections.Generic;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -1601,10 +1602,20 @@ namespace Ahao.Algorithm
 
             #region 找出数组中唯一的重复元素
 
-            int[] nums = { 1, 2, 3, 4, 8, 7, 9, 8 };
-            int result = TestFindDup.FindDupHash(nums);
-            WriteLine(result);
-            Read();
+            //int[] nums = { 1, 3, 4, 2, 5, 3 };
+            //int result = TestFindDup.FindDupHuan(nums);
+            //WriteLine(result);
+            //Read();
+
+            //int[] array = { 1, 2, 3, 3, 3, 4, 5, 5, 5, 5, 6 };
+            //int length = array.Length;
+            //int nums = 6;
+            //HashSet<int> s = TestFindDup.FindRepeat(array, length, nums);
+            //foreach (var item in s)
+            //{
+            //    WriteLine(item);
+            //}
+            //Read();
 
             #endregion
 
