@@ -823,6 +823,15 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 1227. 飞机座位分配概率
+
+            NthPersonGetsNthSeat nthPersonGetsNthSeat = new NthPersonGetsNthSeat();
+            WriteLine(nthPersonGetsNthSeat.Method(4));
+
+            #endregion
+
+
+
             #region 如何实现链表的逆序
 
             // int i = 0;
@@ -1621,11 +1630,11 @@ namespace Ahao.Algorithm
 
             #region 查找数组中元素的最大值和最小值
 
-            int[] array = { 7, 3, 19, 40, 4, 7, 1 };
-            TestMaxMin.MaxMin m = TestMaxMin.GetmaxAndMin(array);
-            WriteLine("max=" + m.Max);
-            WriteLine("min=" + m.Min);
-            Read();
+            //int[] array = { 7, 3, 19, 40, 4, 7, 1 };
+            //TestMaxMin.MaxMin m = TestMaxMin.GetmaxAndMin(array);
+            //WriteLine("max=" + m.Max);
+            //WriteLine("min=" + m.Min);
+            //Read();
 
             #endregion
 

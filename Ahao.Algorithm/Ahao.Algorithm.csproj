@@ -71,6 +71,7 @@
     <Compile Include="Secondary\LongestMountain.cs" />
     <Compile Include="Secondary\MaxScore.cs" />
     <Compile Include="Secondary\MinimumOperations.cs" />
+    <Compile Include="Secondary\NthPersonGetsNthSeat.cs" />
     <Compile Include="Secondary\PathSum.cs" />
     <Compile Include="Secondary\PostorderTraversal.cs" />
     <Compile Include="Secondary\ProductExceptSelf.cs" />
