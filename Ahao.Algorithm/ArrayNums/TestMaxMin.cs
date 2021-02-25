@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Management;
 
 namespace Ahao.Algorithm.ArrayNums
 {
@@ -80,12 +82,53 @@ namespace Ahao.Algorithm.ArrayNums
         }
 
 
+        //返回值列表中有两个元素，第一个值为子数组的最小值，第二个元素为最大值
+        public List<int> GetMaxAndMin(int[] arr, int l, int r)
+        {
+            if (arr == null)
+            {
+                Console.WriteLine("参数不合法");
+                return null;
+            }
+            List<int> list = new List<int>();
+            int m = (l + r) / 2;    //求中点
+            int max;
+            int min;
+            if (l == r)    //l和r之间只有一个元素
+            {
+                list.Add(arr[l]);
+                list.Add(arr[r]);
+                return list;
+            }
 
+            if (l + 1 == r)  //l和r之间只有两个元素
+            {
+                if (arr[l] >= arr[r])
+                {
+                    max = arr[l];
+                    min = arr[r];
+                }
+                else
+                {
+                    max = arr[r];
+                    min = arr[l];
+                }
+                list.Add(min);
+                list.Add(max);
+                return list;
+            }
 
-
+            //递归计算左半部分
+            List<int> lList = GetMaxAndMin(arr, l, m);
+            //递归计算右半部分
+            List<int> rList = GetMaxAndMin(arr, m + 1, r);
+            //总的最大值
+            max = (lList[1] > rList[1]) ? lList[1] : rList[1];
+            //总的最小值
+            min = (lList[0] < rList[0]) ? lList[0] : rList[0];
+            list.Add(min);
+            list.Add(max);
+            return list;
+        }
     }
-
-
-
-
 }

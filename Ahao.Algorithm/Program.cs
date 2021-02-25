@@ -2,6 +2,7 @@
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
 using System.Collections.Generic;
+using System.Linq;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -1646,6 +1647,12 @@ namespace Ahao.Algorithm
             //WriteLine("max=" + m.Max);
             //WriteLine("min=" + m.Min);
             //Read();
+
+            //TestMaxMin testMaxMin = new TestMaxMin();
+            //List<int> result = testMaxMin.GetMaxAndMin(array, 0, array.Length - 1);
+            //WriteLine("max=" + result[1]);
+            //WriteLine("min=" + result[0]);
+
 
             #endregion
 
