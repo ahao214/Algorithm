@@ -832,12 +832,14 @@ namespace Ahao.Algorithm
 
             #region 881.救生艇
 
-            NumRescueBoats numRescueBoats = new NumRescueBoats();
-            int[] people = { 1, 2 };
-            int limit = 3;
-            WriteLine(numRescueBoats.Method(people, limit));
+            //NumRescueBoats numRescueBoats = new NumRescueBoats();
+            //int[] people = { 1, 2 };
+            //int limit = 3;
+            //WriteLine(numRescueBoats.Method(people, limit));
 
             #endregion
+
+
 
 
 
