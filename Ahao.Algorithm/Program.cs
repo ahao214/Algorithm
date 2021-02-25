@@ -825,8 +825,8 @@ namespace Ahao.Algorithm
 
             #region 1227. 飞机座位分配概率
 
-            NthPersonGetsNthSeat nthPersonGetsNthSeat = new NthPersonGetsNthSeat();
-            WriteLine(nthPersonGetsNthSeat.Method(4));
+            //NthPersonGetsNthSeat nthPersonGetsNthSeat = new NthPersonGetsNthSeat();
+            //WriteLine(nthPersonGetsNthSeat.Method(4));
 
             #endregion
 
