@@ -830,6 +830,15 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 881.救生艇
+
+            NumRescueBoats numRescueBoats = new NumRescueBoats();
+            int[] people = { 1, 2 };
+            int limit = 3;
+            WriteLine(numRescueBoats.Method(people, limit));
+
+            #endregion
+
 
 
             #region 如何实现链表的逆序
