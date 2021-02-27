@@ -46,6 +46,16 @@ namespace Ahao.Algorithm.ArrayNums
                 }
             }
         }
+
+/// <summary>
+/// 异或法
+/// </summary>
+/// <param name="arr"></param>
+        public static void GetOddNumberYH(int[] arr)
+        {
+            
+        }
+        
     }
 
 }
