@@ -1658,8 +1658,12 @@ namespace Ahao.Algorithm
 
             #region 找出旋转数组的最小元素
 
-
-
+            //int[] arrone = { 5, 6, 1, 2, 3, 4 };
+            //int min = TestGetMin.GetMin(arrone);
+            //WriteLine(min);
+            //int[] arrtwo = { 1, 1, 0, 1 };
+            //min = TestGetMin.GetMin(arrtwo);
+            //WriteLine(min);
 
             #endregion
 
