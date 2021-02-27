@@ -1676,9 +1676,14 @@ namespace Ahao.Algorithm
             //    WriteLine(arr[i] + " ");
             //}
 
-            #endregion 
+            #endregion
+
+            #region 如何找出数组总出现奇数次的数
 
 
+
+
+            #endregion
 
 
             ReadLine();

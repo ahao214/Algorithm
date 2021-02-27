@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="ArrayNums\TestFindDup.cs" />
     <Compile Include="ArrayNums\TestGetMin.cs" />
+    <Compile Include="ArrayNums\TestGetOddNumberHash.cs" />
     <Compile Include="ArrayNums\TestMaxMin.cs" />
     <Compile Include="ArrayNums\TestSwap.cs" />
     <Compile Include="LNode\LNode.cs" />
