@@ -62,7 +62,7 @@ namespace Ahao.Algorithm.ArrayNums
             int result = 0;
             int position = 0;
             //计算数组中所有数字异或的结果
-            for (int i = 0; i < arr.Length - 1; i++)
+            for (int i = 0; i < arr.Length ; i++)
             {
                 result = result ^ arr[i];
             }
@@ -85,8 +85,7 @@ namespace Ahao.Algorithm.ArrayNums
             Console.WriteLine(result);
             //得到另外一个出现一次的数
             Console.WriteLine(result ^ tmpResult);
-        }
-        
+        }    
     }
 
 }
