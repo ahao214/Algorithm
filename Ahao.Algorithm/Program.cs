@@ -1667,10 +1667,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
-
             #region 实现数组旋转
 
-
+            //int[] arr = { 1, 2, 3, 4, 5 };
+            //TestSwap.rotatearr(arr, 2);
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    WriteLine(arr[i] + " ");
+            //}
 
             #endregion 
 
