@@ -1684,7 +1684,9 @@ namespace Ahao.Algorithm
             //TestGetOddNumberHash.GetOddNumberHash(arr);
             //Read();
 
-
+            int[] arr = { 3, 5, 6, 6, 5, 7, 2, 2 };
+            TestGetOddNumberHash.GetOddNumberYH(arr);
+            
             #endregion
 
 
