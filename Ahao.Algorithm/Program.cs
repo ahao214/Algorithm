@@ -1680,7 +1680,9 @@ namespace Ahao.Algorithm
 
             #region 如何找出数组总出现奇数次的数
 
-
+            //int[] arr = { 3, 5, 6, 6, 5, 7, 2, 2 };
+            //TestGetOddNumberHash.GetOddNumberHash(arr);
+            //Read();
 
 
             #endregion
