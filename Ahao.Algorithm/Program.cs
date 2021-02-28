@@ -1686,8 +1686,20 @@ namespace Ahao.Algorithm
 
             //int[] arr = { 3, 5, 6, 6, 5, 7, 2, 2 };
             //TestGetOddNumberHash.GetOddNumberYH(arr);
-            
+
             #endregion
+
+            #region 找出数组中第K小的数
+
+            int k = 3;
+            int[] arr = { 4, 6, 1, 5, 2, 3 };
+            WriteLine("第" + k + "小的值为：");
+            WriteLine(TestFindSmallK.FindSmallK(arr, 0, arr.Length - 1, k));
+
+
+            #endregion
+
+
 
 
             ReadLine();
