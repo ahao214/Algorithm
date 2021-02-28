@@ -1691,14 +1691,17 @@ namespace Ahao.Algorithm
 
             #region 找出数组中第K小的数
 
-            int k = 3;
-            int[] arr = { 4, 6, 1, 5, 2, 3 };
-            WriteLine("第" + k + "小的值为：");
-            WriteLine(TestFindSmallK.FindSmallK(arr, 0, arr.Length - 1, k));
-
+            //int k = 3;
+            //int[] arr = { 4, 6, 1, 5, 2, 3 };
+            //WriteLine("第" + k + "小的值为：");
+            //WriteLine(TestFindSmallK.FindSmallK(arr, 0, arr.Length - 1, k));
 
             #endregion
 
+            #region 在数组中找出前K大的值
+
+
+            #endregion
 
 
 
