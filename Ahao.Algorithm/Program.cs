@@ -1717,10 +1717,14 @@ namespace Ahao.Algorithm
             //int one = 4;
             //int two = 8;
             //WriteLine(TestMinDistance.MinDistance(arr, one, two));
+            //WriteLine(TestMinDistance.MinDistance(arr, one, two));
 
             #endregion
 
+            #region 
 
+
+            #endregion
 
 
 
