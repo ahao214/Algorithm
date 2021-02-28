@@ -1721,8 +1721,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 求解最小三元组距离
 
+            int[] a = { 3, 4, 5, 7, 15 };
+            int[] b = { 10, 12, 14, 16, 17 };
+            int[] c = { 20, 21, 23, 24, 37, 30 };
+            WriteLine("最小距离为：" + TestThreeMinDistance.MinDistance(a, b, c));
 
             #endregion
 

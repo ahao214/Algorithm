@@ -52,6 +52,7 @@
     <Compile Include="ArrayNums\TestMaxMin.cs" />
     <Compile Include="ArrayNums\TestMinDistance.cs" />
     <Compile Include="ArrayNums\TestSwap.cs" />
+    <Compile Include="ArrayNums\TestThreeMinDistance.cs" />
     <Compile Include="LNode\LNode.cs" />
     <Compile Include="LNode\TestAdd.cs" />
     <Compile Include="LNode\TestConstructListK.cs" />
