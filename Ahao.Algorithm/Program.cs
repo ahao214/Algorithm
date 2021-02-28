@@ -840,7 +840,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 896. 单调数列
 
+            //int[] arr = { 3, 3, 3 };
+            //IsMonotonic isMonotonic = new IsMonotonic();
+            //WriteLine(isMonotonic.Method(arr));
+
+            #endregion
 
 
 
