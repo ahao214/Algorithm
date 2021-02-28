@@ -1711,6 +1711,29 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求数组中两个元素的最小距离
+
+            //int[] arr = { 4, 5, 6, 4, 7, 4, 6, 4, 7, 8, 5, 6, 4, 3, 10, 8 };
+            //int one = 4;
+            //int two = 8;
+            //WriteLine(TestMinDistance.MinDistance(arr, one, two));
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             ReadLine();
