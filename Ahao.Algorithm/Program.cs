@@ -850,10 +850,10 @@ namespace Ahao.Algorithm
 
             #region 16. 最接近的三数之和
 
-            ThreeSumClosest threeSumClosest = new ThreeSumClosest();
-            int[] nums = { -1, 2, 1, -4 };
-            int tar = 1;
-            WriteLine(threeSumClosest.Method(nums, tar));
+            //ThreeSumClosest threeSumClosest = new ThreeSumClosest();
+            //int[] nums = { -1, 2, 1, -4 };
+            //int tar = 1;
+            //WriteLine(threeSumClosest.Method(nums, tar));
 
             #endregion
 
