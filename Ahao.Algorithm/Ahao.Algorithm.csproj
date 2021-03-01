@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayNums\TestFindDup.cs" />
+    <Compile Include="ArrayNums\TestFindMin.cs" />
     <Compile Include="ArrayNums\TestFindSmallK.cs" />
     <Compile Include="ArrayNums\TestFindTopK.cs" />
     <Compile Include="ArrayNums\TestGetMin.cs" />
