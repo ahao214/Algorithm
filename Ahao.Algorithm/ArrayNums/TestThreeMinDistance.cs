@@ -62,5 +62,10 @@ namespace Ahao.Algorithm.ArrayNums
             }
             return minDist;
         }
+
+
+
+
+
     }
 }
