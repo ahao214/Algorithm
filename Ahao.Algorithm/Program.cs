@@ -1748,6 +1748,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求数组连续最大和
+
+
+
+
+            #endregion
+
 
 
 
