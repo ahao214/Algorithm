@@ -1742,8 +1742,9 @@ namespace Ahao.Algorithm
 
             #region 求数组中绝对值最小的数
 
-
-
+            //int[] arr = { -10, -5, -2, 7, 15, 50 };
+            //WriteLine("绝对值最小的数是:" + TestFindMin.FindMin(arr));
+            //WriteLine("绝对值最小的数是:" + TestFindMin.FindMinT(arr));
 
             #endregion
 
