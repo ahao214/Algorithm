@@ -1750,7 +1750,8 @@ namespace Ahao.Algorithm
 
             #region 求数组连续最大和
 
-
+            int[] arr = { 1, -2, 4, 8, -4, 7, -1, -5 };
+            WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArray(arr));
 
 
             #endregion
