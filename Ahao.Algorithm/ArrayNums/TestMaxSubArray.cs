@@ -70,9 +70,9 @@ namespace Ahao.Algorithm.ArrayNums
 
         #region 动态规划方法
 
-        public static int MaxSubArrayDT(int [] arr )
+        public static int MaxSubArrayDT(int[] arr)
         {
-            if (arr ==null || arr .Length <=0)
+            if (arr == null || arr.Length <= 0)
             {
                 Console.WriteLine("参数不合法");
                 return -1;
@@ -84,7 +84,7 @@ namespace Ahao.Algorithm.ArrayNums
             End[n - 1] = arr[n - 1];
             All[n - 1] = arr[n - 1];
             End[0] = All[0] = arr[0];
-            for (int i=1;i<n;i++)
+            for (int i = 1; i < n; i++)
             {
                 End[i] = Math.Max(End[i - 1] + arr[i], arr[i]);
                 All[i] = Math.Max(End[i], All[i - 1]);
@@ -94,6 +94,28 @@ namespace Ahao.Algorithm.ArrayNums
 
         }
 
+
+        #endregion
+
+        #region 优化的动态规范方法
+
+        public static int MaxSubArrayDTT(int[] arr)
+        {
+            if (arr == null || arr.Length <= 0)
+            {
+                Console.WriteLine("参数不合法");
+                return -1;
+            }
+
+            int nAll = arr[0];  //最大子数组和
+            int nEnd = arr[0];  //包含最后一个元素的最大子数组和
+            for (int i = 0; i < arr.Length; i++)
+            {
+                nEnd = Math.Max(nEnd + arr[i], arr[i]);
+                nAll = Math.Max(nEnd, nAll);
+            }
+            return nAll;
+        }
 
         #endregion
 

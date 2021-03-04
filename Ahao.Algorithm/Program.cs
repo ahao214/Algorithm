@@ -1754,6 +1754,7 @@ namespace Ahao.Algorithm
             WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArray(arr));
             WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArr(arr));
             WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArrayDT(arr));
+            WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArrayDTT(arr));
 
             #endregion
 
