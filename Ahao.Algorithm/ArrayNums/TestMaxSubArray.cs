@@ -41,7 +41,32 @@ namespace Ahao.Algorithm.ArrayNums
         #endregion
 
 
+        #region 重复利用已经计算的子数组和
 
+        public static int MaxSubArr(int[] arr)
+        {
+            if (arr == null || arr.Length <= 0)
+            {
+                Console.WriteLine("参数不合法");
+                return -1;
+            }
+
+            int maxSum = int.MinValue;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                int sum = 0;
+                for (int j = i; j < arr.Length; j++)
+                {
+                    sum += arr[j];
+                    if (sum > maxSum)
+                        maxSum = sum;
+                }
+            }
+            return maxSum;
+        }
+
+
+        #endregion
 
     }
 }

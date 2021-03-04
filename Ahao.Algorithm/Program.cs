@@ -1752,7 +1752,7 @@ namespace Ahao.Algorithm
 
             int[] arr = { 1, -2, 4, 8, -4, 7, -1, -5 };
             WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArray(arr));
-
+            WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArr(arr));
 
             #endregion
 
