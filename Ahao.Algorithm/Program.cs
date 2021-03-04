@@ -9,6 +9,8 @@ namespace Ahao.Algorithm
 {
     class Program
     {
+        public int getBegin() { return this.begin; }
+        public int getEnd() { return this.end; }
         static void Main(string[] args)
         {
 
@@ -1750,11 +1752,14 @@ namespace Ahao.Algorithm
 
             #region 求数组连续最大和
 
-            int[] arr = { 1, -2, 4, 8, -4, 7, -1, -5 };
-            WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArray(arr));
-            WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArr(arr));
-            WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArrayDT(arr));
-            WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArrayDTT(arr));
+            //int[] arr = { 1, -2, 4, 8, -4, 7, -1, -5 };
+            //WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArray(arr));
+            //WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArr(arr));
+            //WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArrayDT(arr));
+            //WriteLine("连续最大和为：" + TestMaxSubArray.MaxSubArrayDTT(arr));
+            //Program p = new Program();
+            //WriteLine("连续最大和为：" + p.MaxSubArrayOne(arr));
+            //WriteLine("最大和对应的数组起始与结束坐标分别为：" + p.getBegin() + "," + p.getEnd());
 
             #endregion
 
@@ -1771,6 +1776,36 @@ namespace Ahao.Algorithm
 
 
             ReadLine();
+        }
+
+        private int begin = 0;  //记录最大子数组起始位置
+        private int end = 0;    //记录最大子数组结束位置
+
+        public int MaxSubArrayOne(int[] arr)
+        {
+            int n = arr.Length;
+            int maxSum = int.MinValue;  //子数组最大值
+            int nSum = 0;   //包含子数组最后一位的最大值
+            int nStart = 0;
+            for (int i = 0; i < n; i++)
+            {
+                if (nSum < 0)
+                {
+                    nSum = arr[i];
+                    nStart = i;
+                }
+                else
+                {
+                    nSum += arr[i];
+                }
+                if (nSum > maxSum)
+                {
+                    maxSum = nSum;
+                    begin = end;
+                    end = i;
+                }
+            }
+            return maxSum;
         }
     }
 }
