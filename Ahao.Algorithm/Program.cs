@@ -1787,7 +1787,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求集合的所有子集
 
+            //char[] array = { 'a', 'b', 'c' };
+            //int[] mask = { 0, 0, 0 };
+            //TestGetAllSubset.GetAllSubset(array, mask, 0);
+
+            #endregion
 
 
 
