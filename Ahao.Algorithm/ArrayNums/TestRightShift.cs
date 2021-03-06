@@ -56,5 +56,36 @@ namespace Ahao.Algorithm.ArrayNums
         #endregion
 
 
+        #region 翻转法
+
+        public static void Reverse(int[] arr, int start, int end)
+        {
+            while (start < end)
+            {
+                int temp = arr[start];
+                arr[start] = arr[end];
+                arr[end] = temp;
+                start++;
+                end--;
+            }
+        }
+
+        public static void RightShiftThree(int[] arr, int k)
+        {
+            if (arr == null)
+            {
+                Console.WriteLine("参数不合法");
+            }
+            int len = arr.Length;
+            k %= len;
+            Reverse(arr, 0, len - k - 1);
+            Reverse(arr, len - k, len - 1);
+            Reverse(arr, 0, len - 1);
+        }
+
+
+        #endregion
+
+
     }
 }
