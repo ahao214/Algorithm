@@ -1779,7 +1779,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 在不排序的情况下求数组中的中位数
 
+            //int[] arr = { 7, 5, 3, 1, 11, 9 };
+            //TestGetMid testGetMid = new TestGetMid();
+            //WriteLine(testGetMid.GetMid(arr));
+
+            #endregion
 
 
 
