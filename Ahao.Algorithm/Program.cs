@@ -1801,7 +1801,18 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 对数组进行循环移位
 
+            int i;
+            int k = 4;
+            int[] arr = { 1, 2, 3, 4, 5, 6, 7,8 };
+            TestRightShift.RightShiftOne(arr, k);
+            for (i =0;i<arr .Length;i++)
+            {
+                Write(arr[i] + " ");
+            }
+
+            #endregion
 
 
 
