@@ -1793,6 +1793,12 @@ namespace Ahao.Algorithm
             //int[] mask = { 0, 0, 0 };
             //TestGetAllSubset.GetAllSubset(array, mask, 0);
 
+            //List<string> result = TestGetAllSubset.GetAllSubSet("abc");
+            //for (int i=0;i<result .Count;i++)
+            //{
+            //    WriteLine(result[i]);
+            //}
+
             #endregion
 
 

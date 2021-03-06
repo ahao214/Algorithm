@@ -14,6 +14,8 @@ namespace Ahao.Algorithm.ArrayNums
     {
         //子集个数Sn与原集合元素个数n之间的关系满足如下等式：Sn=2^n-1
 
+        #region 位图法
+
         public static void GetAllSubset(char[] array, int[] mask, int c)
         {
             int length = array.Length;
@@ -38,5 +40,34 @@ namespace Ahao.Algorithm.ArrayNums
                 GetAllSubset(array, mask, c + 1);
             }
         }
+
+        #endregion
+
+        #region 迭代法
+
+        public static List<string> GetAllSubSet(string str)
+        {
+            if (str == null || str.Length < 1)
+            {
+                Console.WriteLine("参数不合法");
+                return null;
+            }
+
+            List<string> arr = new List<string>();
+            arr.Add(str.Substring(0, 1));
+            for (int i = 1; i < str.Length; i++)
+            {
+                int len = arr.Count;
+                for (int j = 0; j < len; j++)
+                {
+                    arr.Add(arr[j] + str[i]);
+                }
+                arr.Add(str.Substring(i, str.Length - 1 - i));
+            }
+            return arr;
+        }
+
+        #endregion
+
     }
 }
