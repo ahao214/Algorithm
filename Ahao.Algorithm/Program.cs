@@ -1765,7 +1765,17 @@ namespace Ahao.Algorithm
 
             #region 找出数组中出现1次的数
 
-
+            //int[] arr = { 6, 3, 4, 5, 9, 4, 3 };
+            //TestFindSingle testFindSingle = new TestFindSingle();
+            //int result = testFindSingle.FindSingle(arr);
+            //if (result != -1)
+            //{
+            //    WriteLine(result);
+            //}
+            //else
+            //{
+            //    WriteLine("没找到");
+            //}
 
             #endregion
 
