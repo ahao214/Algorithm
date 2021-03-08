@@ -1821,6 +1821,8 @@ namespace Ahao.Algorithm
             ReadLine();
         }
 
+        #region 求数组连续最大和
+
         private int begin = 0;  //记录最大子数组起始位置
         private int end = 0;    //记录最大子数组结束位置
 
@@ -1850,5 +1852,7 @@ namespace Ahao.Algorithm
             }
             return maxSum;
         }
+
+        #endregion
     }
 }
