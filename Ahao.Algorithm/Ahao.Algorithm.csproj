@@ -55,6 +55,7 @@
     <Compile Include="ArrayNums\TestGetOddNumberHash.cs" />
     <Compile Include="ArrayNums\TestMaxMin.cs" />
     <Compile Include="ArrayNums\TestMaxSubArray.cs" />
+    <Compile Include="ArrayNums\TestMaze.cs" />
     <Compile Include="ArrayNums\TestMinDistance.cs" />
     <Compile Include="ArrayNums\TestRightShift.cs" />
     <Compile Include="ArrayNums\TestSwap.cs" />

@@ -3,6 +3,7 @@ using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -1814,7 +1815,21 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求解迷宫问题
 
+            //TestMaze testMaze = new TestMaze();
+            //int[][] maze = { new int[] { 1, 0, 0, 0 }, new int[] { 1, 1, 0, 1 }, new int[] { 0, 1, 0, 0 }, new int[] { 1, 1, 1, 1 } };
+            //int[][] sol = { new int []{ 0, 0, 0, 0 }, new int []{ 0, 0, 0, 0 }, new int[] { 0, 0, 0, 0 }, new int[] { 0, 0, 0, 0 } };
+            //if(testMaze.GetPath(maze,0,0,sol)==false)
+            //{
+            //    Write("不存在可达的路径");
+            //}
+            //else
+            //{
+            //    testMaze.PrintSolution(sol);
+            //}
+
+            #endregion
 
 
 
