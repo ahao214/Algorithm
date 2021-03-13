@@ -1831,6 +1831,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求解数组分为和相等的m份后m最大值问题
+
+            //int[] arr = { 3, 2, 4, 3, 6 };
+            //TestGetMMax.GetMax(arr);
+
+            #endregion
+
+
 
 
             ReadLine();
