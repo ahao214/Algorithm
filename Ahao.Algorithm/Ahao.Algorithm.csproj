@@ -62,6 +62,7 @@
     <Compile Include="ArrayNums\TestMaxSubArray.cs" />
     <Compile Include="ArrayNums\TestMaze.cs" />
     <Compile Include="ArrayNums\TestMinDistance.cs" />
+    <Compile Include="ArrayNums\TestMoreHalf.cs" />
     <Compile Include="ArrayNums\TestRightShift.cs" />
     <Compile Include="ArrayNums\TestSwap.cs" />
     <Compile Include="ArrayNums\TestThreeMinDistance.cs" />

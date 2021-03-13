@@ -1870,7 +1870,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 找出数组中出现次数超过了一半的那个数字
 
+            //int[] arr = { 1, 3, 3, 3, 1 };
+            //int res = TestMoreHalf.MoreHalf(arr);
+            //WriteLine(res);
+
+            #endregion
 
 
 
