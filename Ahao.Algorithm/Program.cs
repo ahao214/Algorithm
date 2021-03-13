@@ -1852,7 +1852,16 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 寻找丑数
 
+            //int number = 10;
+            //TestIsUgly isUgly = new TestIsUgly();
+            //int result = isUgly.FindUgly(number);
+            //WriteLine(result);
+
+            //Write(TestIsUgly.ExcellenceFindUgly(number));
+
+            #endregion
 
 
 

@@ -55,6 +55,7 @@
     <Compile Include="ArrayNums\TestGetMid.cs" />
     <Compile Include="ArrayNums\TestGetMMax.cs" />
     <Compile Include="ArrayNums\TestGetOddNumberHash.cs" />
+    <Compile Include="ArrayNums\TestIsUgly.cs" />
     <Compile Include="ArrayNums\TestLIS.cs" />
     <Compile Include="ArrayNums\TestMaxMin.cs" />
     <Compile Include="ArrayNums\TestMaxSubArray.cs" />
