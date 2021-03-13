@@ -1843,8 +1843,27 @@ namespace Ahao.Algorithm
             //int[] arr = { 9, 4, 3, 2, 5, 4, 3, 2 };
             //TestLIS.LIS(arr);
 
+            #endregion
+
+            #region 求解和为n的连续正数序列
+
+            //int number = 15;
+            //TestFind.Find(number);
 
             #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             ReadLine();
