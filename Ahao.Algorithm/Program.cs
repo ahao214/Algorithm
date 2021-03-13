@@ -1865,7 +1865,8 @@ namespace Ahao.Algorithm
 
             #region 找到数组元素连接起来排成的所有数字中最小的一个
 
-
+            //int[] arr = { 4, 3, 2, 3, 1 };
+            //TestComArrayMin.ComArrayMin(arr);
 
             #endregion
 
