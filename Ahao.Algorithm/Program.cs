@@ -1838,7 +1838,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求一个数组的最长递减子序列
 
+            //int[] arr = { 9, 4, 3, 2, 5, 4, 3, 2 };
+            //TestLIS.LIS(arr);
+
+
+            #endregion
 
 
             ReadLine();
