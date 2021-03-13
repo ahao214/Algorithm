@@ -1863,7 +1863,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 找到数组元素连接起来排成的所有数字中最小的一个
 
+
+
+            #endregion
 
 
 
