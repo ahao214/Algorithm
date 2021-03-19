@@ -1891,6 +1891,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求集合的所有子集
+
+            //TestRecurse.SubSet("1234");
+
+            #endregion
 
 
 
