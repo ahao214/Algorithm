@@ -1913,6 +1913,17 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求解n-m问题
+
+            //int m = 2;
+            //int n = 3;
+            //int[] arr = { 1, 2, 3, 4, 1, 2, 3, 4, 1, 2, 3 };
+            //Write(TestFindSingleNumber.FindSingleNumber(arr, m, n));
+
+            #endregion
+
+
+
 
             ReadLine();
         }
