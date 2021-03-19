@@ -1897,7 +1897,18 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 如何知道拿走了哪个数
+
+            //int[] arr = new int[10000];
+            //for (int i = 1; i <= 10000; i++)
+            //{
+            //    //模拟把999拿走
+            //    if (i != 999)
+            //    {
+            //        arr[i - 1] = i;
+            //    }
+            //}
+            //TestFindLoseNumber.FindLoseNumber(arr);
 
 
             #endregion

@@ -47,6 +47,7 @@
     <Compile Include="ArrayNums\TestComArrayMin.cs" />
     <Compile Include="ArrayNums\TestFind.cs" />
     <Compile Include="ArrayNums\TestFindDup.cs" />
+    <Compile Include="ArrayNums\TestFindLoseNumber.cs" />
     <Compile Include="ArrayNums\TestFindMin.cs" />
     <Compile Include="ArrayNums\TestFindSingle.cs" />
     <Compile Include="ArrayNums\TestFindSmallK.cs" />
