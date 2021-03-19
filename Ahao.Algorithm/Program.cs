@@ -1885,9 +1885,9 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 进行大整数相乘
 
-
+            //TestMulti.Multi("1234", "5678");
 
             #endregion
 
