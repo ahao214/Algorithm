@@ -43,6 +43,25 @@ namespace Ahao.Algorithm.ArrayNums
         }
 
 
+        public static void Find(string[] array)
+        {
+            int n = array.Length;
+            //循环2^n次
+            for (int i = 0; i < (1 << n); i++)
+            {
+                //将int值转换成二进制的字符串
+                String setStr = Convert.ToString(i, 2);
+                //需要做对其处理，切记
+                int unChoose = n - setStr.Length;
+                for (int j = 0; j < setStr.Length; j++)
+                {
+                    if (setStr[j] == '1')  //1表示被选中，0表示没有被选中
+                        Console.Write(array[unChoose + j]);
+                }
+                Console.WriteLine();
+            }
+        }
+
 
     }
 }
