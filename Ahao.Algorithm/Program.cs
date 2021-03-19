@@ -1878,9 +1878,18 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 找出数组中左边的数都小于等于它，右边的数都大于等于它的数
+
+            //int[] arr = { 7, 10, 2, 6, 19, 22, 32 };
+            //TestSmallLarge.SmallLarge(arr);
+
+            #endregion
+
+            #region 
 
 
 
+            #endregion
 
 
 
