@@ -1922,7 +1922,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求2个有序数组合并后的中位数
 
+            //int[] a = new int[] { 1, 2, 3, 4 };
+            //int[] b = new int[] { 5, 6, 7, 8, 9 };
+            //Write(TestFindMedian.FindMedian(a, a.Length, b, b.Length));
+
+            #endregion
 
 
             ReadLine();
