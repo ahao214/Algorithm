@@ -1930,6 +1930,18 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 找出n个整数中最小的K个数
+
+            //int[] arr = new int[] { 4, 5, 1, 6, 2, 7, 3, 8 };
+            //int k = 4;
+            //TestGetLeastNumbers.GetLeastNumbers(arr, k);
+
+            #endregion
+
+
+
+
+
 
             ReadLine();
         }
