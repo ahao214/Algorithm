@@ -1945,7 +1945,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 找出数组的峰值
 
+            //int[] arr = { 1, 2, 1, 3, 4, 5, 7, 6 };
+            //WriteLine(TestFindPeakElement.FindPeakElement(arr));
+
+            #endregion
 
 
             ReadLine();

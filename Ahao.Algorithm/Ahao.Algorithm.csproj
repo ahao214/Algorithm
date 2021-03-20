@@ -50,6 +50,7 @@
     <Compile Include="ArrayNums\TestFindLoseNumber.cs" />
     <Compile Include="ArrayNums\TestFindMedian.cs" />
     <Compile Include="ArrayNums\TestFindMin.cs" />
+    <Compile Include="ArrayNums\TestFindPeakElement.cs" />
     <Compile Include="ArrayNums\TestFindSingle.cs" />
     <Compile Include="ArrayNums\TestFindSingleNumber.cs" />
     <Compile Include="ArrayNums\TestFindSmallK.cs" />
