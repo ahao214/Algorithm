@@ -65,6 +65,7 @@
     <Compile Include="ArrayNums\TestLIS.cs" />
     <Compile Include="ArrayNums\TestMaxMin.cs" />
     <Compile Include="ArrayNums\TestMaxSubArray.cs" />
+    <Compile Include="ArrayNums\TestMaxSubProduct.cs" />
     <Compile Include="ArrayNums\TestMaze.cs" />
     <Compile Include="ArrayNums\TestMinDistance.cs" />
     <Compile Include="ArrayNums\TestMoreHalf.cs" />

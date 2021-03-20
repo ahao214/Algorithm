@@ -1952,6 +1952,18 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 找出数组中的乘积最大子序列
+
+            //int[] array = { 1, 2, 1, 3, 4, 5, 7, 6 };
+            //WriteLine(TestMaxSubProduct.MaxSubProduct(array));
+
+            #endregion
+
+
+
+
+
+
 
             ReadLine();
         }
