@@ -1938,7 +1938,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求解数组中逆序对的个数
 
+            //int[] arr = { 4, 5, 1, 6, 2, 7, 3, 8 };
+            //WriteLine(TestReversePairs.ReversePairs(arr));
+
+            #endregion
 
 
 

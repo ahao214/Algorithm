@@ -69,6 +69,7 @@
     <Compile Include="ArrayNums\TestMoreHalf.cs" />
     <Compile Include="ArrayNums\TestMulti.cs" />
     <Compile Include="ArrayNums\TestRecurse.cs" />
+    <Compile Include="ArrayNums\TestReversePairs.cs" />
     <Compile Include="ArrayNums\TestRightShift.cs" />
     <Compile Include="ArrayNums\TestSmallLarge.cs" />
     <Compile Include="ArrayNums\TestSwap.cs" />
