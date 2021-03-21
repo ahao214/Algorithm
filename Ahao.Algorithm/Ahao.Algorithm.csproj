@@ -64,6 +64,7 @@
     <Compile Include="ArrayNums\TestGetOddNumberHash.cs" />
     <Compile Include="ArrayNums\TestIsUgly.cs" />
     <Compile Include="ArrayNums\TestLIS.cs" />
+    <Compile Include="ArrayNums\TestMaxGap.cs" />
     <Compile Include="ArrayNums\TestMaxMin.cs" />
     <Compile Include="ArrayNums\TestMaxSubArray.cs" />
     <Compile Include="ArrayNums\TestMaxSubProduct.cs" />

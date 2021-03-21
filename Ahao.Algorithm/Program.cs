@@ -1999,9 +1999,14 @@ namespace Ahao.Algorithm
             //    Write(arr[i] + " ");
             //}
 
+            #endregion
+
+            #region 求解数组排序前后最大的间隔
+
+            //var arr = new int[] { 1, 9, 2, 5 };
+            //WriteLine(TestMaxGap.MaxGap(arr));
+
             #endregion 
-
-
 
 
             ReadLine();
