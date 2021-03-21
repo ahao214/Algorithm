@@ -73,6 +73,7 @@
     <Compile Include="ArrayNums\TestRecurse.cs" />
     <Compile Include="ArrayNums\TestReversePairs.cs" />
     <Compile Include="ArrayNums\TestRightShift.cs" />
+    <Compile Include="ArrayNums\TestRotate.cs" />
     <Compile Include="ArrayNums\TestSmallLarge.cs" />
     <Compile Include="ArrayNums\TestSwap.cs" />
     <Compile Include="ArrayNums\TestThreeMinDistance.cs" />
