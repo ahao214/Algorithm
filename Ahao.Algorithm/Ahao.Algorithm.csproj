@@ -79,6 +79,7 @@
     <Compile Include="ArrayNums\TestSwap.cs" />
     <Compile Include="ArrayNums\TestThreeMinDistance.cs" />
     <Compile Include="ArrayNums\TestMaxDiffSubArrays.cs" />
+    <Compile Include="ArrayNums\TestWiggleSort.cs" />
     <Compile Include="LNode\LNode.cs" />
     <Compile Include="LNode\TestAdd.cs" />
     <Compile Include="LNode\TestConstructListK.cs" />

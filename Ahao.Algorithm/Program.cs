@@ -1988,8 +1988,18 @@ namespace Ahao.Algorithm
             //int[] b = { 1, 8, 5 };
             //WriteLine(string.Join(",", TestCountOfSmallerNumber.CountOfSmallerNumber(a, b)));
 
-            #endregion 
+            #endregion
 
+            #region 如何进行摇摆排序
+
+            //var arr = new int[] { 3, 5, 2, 1, 6, 4 };
+            //TestWiggleSort.WiggleSort(arr);
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Write(arr[i] + " ");
+            //}
+
+            #endregion 
 
 
 
