@@ -1975,6 +1975,21 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求数组的最大子数组差
+
+            //int[] arr = { 1, 2, -3, 1 };
+            //WriteLine(TestMaxDiffSubArrays.MaxDiffSubArrays(arr));
+
+            #endregion
+
+            #region 如何统计比给定整数小的数的个数
+
+            //int[] a = { 1, 2, 7, 8, 5 };
+            //int[] b = { 1, 8, 5 };
+            //WriteLine(string.Join(",", TestCountOfSmallerNumber.CountOfSmallerNumber(a, b)));
+
+            #endregion 
+
 
 
 

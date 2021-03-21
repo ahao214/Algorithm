@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayNums\TestComArrayMin.cs" />
+    <Compile Include="ArrayNums\TestCountOfSmallerNumber.cs" />
     <Compile Include="ArrayNums\TestFind.cs" />
     <Compile Include="ArrayNums\TestFindDup.cs" />
     <Compile Include="ArrayNums\TestFindLoseNumber.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="ArrayNums\TestSmallLarge.cs" />
     <Compile Include="ArrayNums\TestSwap.cs" />
     <Compile Include="ArrayNums\TestThreeMinDistance.cs" />
+    <Compile Include="ArrayNums\TestMaxDiffSubArrays.cs" />
     <Compile Include="LNode\LNode.cs" />
     <Compile Include="LNode\TestAdd.cs" />
     <Compile Include="LNode\TestConstructListK.cs" />
