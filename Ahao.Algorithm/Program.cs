@@ -1,6 +1,7 @@
 ﻿using Ahao.Algorithm.ArrayNums;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
@@ -2006,7 +2007,20 @@ namespace Ahao.Algorithm
             //var arr = new int[] { 1, 9, 2, 5 };
             //WriteLine(TestMaxGap.MaxGap(arr));
 
+            #endregion
+
+            #region 找出和最接近0的子数组
+
+            var array = new int[] { -3, 1, 1, -3, 5 };
+            Console.WriteLine(String.Join("", TestSubarraySumClosest.SubarraySumClosest(array)));
+
             #endregion 
+
+
+
+
+
+
 
 
             ReadLine();

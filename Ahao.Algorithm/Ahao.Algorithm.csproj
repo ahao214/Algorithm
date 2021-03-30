@@ -77,6 +77,7 @@
     <Compile Include="ArrayNums\TestRightShift.cs" />
     <Compile Include="ArrayNums\TestRotate.cs" />
     <Compile Include="ArrayNums\TestSmallLarge.cs" />
+    <Compile Include="ArrayNums\TestSubarraySumClosest.cs" />
     <Compile Include="ArrayNums\TestSwap.cs" />
     <Compile Include="ArrayNums\TestThreeMinDistance.cs" />
     <Compile Include="ArrayNums\TestMaxDiffSubArrays.cs" />
