@@ -2014,9 +2014,18 @@ namespace Ahao.Algorithm
             //var array = new int[] { -3, 1, 1, -3, 5 };
             //Console.WriteLine(String.Join("", TestSubarraySumClosest.SubarraySumClosest(array)));
 
-            #endregion 
+            #endregion
 
+            #region 找出数组中和为指定值的四元组
 
+            var array = new int[] { 1, 0, -1, 0, -2, 2 };
+            var list = TestFourNum.FourNum(array,0);
+            foreach(var item in list )
+            {
+                Console.WriteLine(string.Join(" ", item));
+            }
+
+            #endregion
 
 
 
