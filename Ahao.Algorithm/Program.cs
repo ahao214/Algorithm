@@ -2011,8 +2011,8 @@ namespace Ahao.Algorithm
 
             #region 找出和最接近0的子数组
 
-            var array = new int[] { -3, 1, 1, -3, 5 };
-            Console.WriteLine(String.Join("", TestSubarraySumClosest.SubarraySumClosest(array)));
+            //var array = new int[] { -3, 1, 1, -3, 5 };
+            //Console.WriteLine(String.Join("", TestSubarraySumClosest.SubarraySumClosest(array)));
 
             #endregion 
 
