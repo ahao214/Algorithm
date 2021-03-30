@@ -2018,16 +2018,19 @@ namespace Ahao.Algorithm
 
             #region 找出数组中和为指定值的四元组
 
-            var array = new int[] { 1, 0, -1, 0, -2, 2 };
-            var list = TestFourNum.FourNum(array,0);
-            foreach(var item in list )
-            {
-                Console.WriteLine(string.Join(" ", item));
-            }
+            //var array = new int[] { 1, 0, -1, 0, -2, 2 };
+            //var list = TestFourNum.FourNum(array,0);
+            //foreach(var item in list )
+            //{
+            //    Console.WriteLine(string.Join(" ", item));
+            //}
 
             #endregion
 
+            #region 
 
+
+            #endregion
 
 
 
