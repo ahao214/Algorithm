@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayNums\TestCanComplete.cs" />
     <Compile Include="ArrayNums\TestComArrayMin.cs" />
     <Compile Include="ArrayNums\TestCountOfSmallerNumber.cs" />
     <Compile Include="ArrayNums\TestFind.cs" />

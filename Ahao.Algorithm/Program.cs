@@ -2034,7 +2034,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 确定出发加油站问题
 
+            //int[] gas = { 1, 1, 3, 1 };
+            //int[] cost = { 2, 2, 1, 1 };
+            //WriteLine(TestCanComplete.CanComplete(gas, cost));
+
+            #endregion
 
 
             ReadLine();
