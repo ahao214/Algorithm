@@ -2027,8 +2027,10 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 计算买股票的最佳时间
 
+            //int[] prices = { 3, 2, 3, 1, 2 };
+            //WriteLine(TestMaxProfit.MaxProfit(prices));
 
             #endregion
 
