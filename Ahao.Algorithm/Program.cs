@@ -1,6 +1,7 @@
 ﻿using Ahao.Algorithm.ArrayNums;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
+using Ahao.Algorithm.String;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -2041,6 +2042,17 @@ namespace Ahao.Algorithm
             //WriteLine(TestCanComplete.CanComplete(gas, cost));
 
             #endregion
+
+            #region 求一个字符串的所有排列
+
+            //String s = "abc";
+            //TestPermutation.Permutation(s);
+
+            #endregion
+
+
+
+
 
 
             ReadLine();
