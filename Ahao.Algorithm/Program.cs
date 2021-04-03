@@ -2048,6 +2048,8 @@ namespace Ahao.Algorithm
             //String s = "abc";
             //TestPermutation.Permutation(s);
 
+            //TestPermutationT.Permutation(s);
+
             #endregion
 
 

@@ -221,6 +221,7 @@
     <Compile Include="Stack\TestTwoStack.cs" />
     <Compile Include="Stack\TestUser.cs" />
     <Compile Include="String\TestPermutation.cs" />
+    <Compile Include="String\TestPermutationT.cs" />
     <Compile Include="Tree\BiTNode.cs" />
     <Compile Include="Tree\DNSCache.cs" />
     <Compile Include="Tree\TestArraytotree.cs" />
