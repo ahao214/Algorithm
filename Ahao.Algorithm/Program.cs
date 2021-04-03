@@ -2049,6 +2049,7 @@ namespace Ahao.Algorithm
             //TestPermutation.Permutation(s);
 
             //TestPermutationT.Permutation(s);
+            //TestPermutationThree.Permutation(s);
 
             #endregion
 
