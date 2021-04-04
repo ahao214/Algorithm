@@ -2058,11 +2058,14 @@ namespace Ahao.Algorithm
             //String str1 = "abccade";
             //String str2 = "dgcadde";
             //Console.WriteLine(TestGetMaxSubStr.GetMaxSubStr(str1, str2));
-
+            //Console.WriteLine(TestGetMaxSubStr.GetMaxSubStrHD(str1, str2));
 
             #endregion
 
+            #region 
 
+
+            #endregion
 
 
             ReadLine();
