@@ -220,9 +220,10 @@
     <Compile Include="Stack\TestStackByLink.cs" />
     <Compile Include="Stack\TestTwoStack.cs" />
     <Compile Include="Stack\TestUser.cs" />
-    <Compile Include="String\TestPermutation.cs" />
-    <Compile Include="String\TestPermutationT.cs" />
-    <Compile Include="String\TestPermutationThree.cs" />
+    <Compile Include="CharacterString\TestGetMaxSubStr.cs" />
+    <Compile Include="CharacterString\TestPermutation.cs" />
+    <Compile Include="CharacterString\TestPermutationT.cs" />
+    <Compile Include="CharacterString\TestPermutationThree.cs" />
     <Compile Include="Tree\BiTNode.cs" />
     <Compile Include="Tree\DNSCache.cs" />
     <Compile Include="Tree\TestArraytotree.cs" />

@@ -1,7 +1,7 @@
 ﻿using Ahao.Algorithm.ArrayNums;
+using Ahao.Algorithm.CharacterString;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
-using Ahao.Algorithm.String;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -2053,7 +2053,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求两个字符串的最长公共子串
 
+            //String str1 = "abccade";
+            //String str2 = "dgcadde";
+            //Console.WriteLine(TestGetMaxSubStr.GetMaxSubStr(str1, str2));
+
+
+            #endregion
 
 
 

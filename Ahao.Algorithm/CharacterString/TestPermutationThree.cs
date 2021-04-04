@@ -6,7 +6,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.Algorithm.String
+namespace Ahao.Algorithm.CharacterString
 {
     /// <summary>
     /// 求一个字符串的所有排列-去掉重复的排列

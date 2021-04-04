@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.Algorithm.String
+namespace Ahao.Algorithm.CharacterString
 {
     /// <summary>
     /// 求一个字符串的所有排列-递归方法
