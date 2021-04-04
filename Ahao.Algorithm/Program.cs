@@ -2065,20 +2065,52 @@ namespace Ahao.Algorithm
 
             #region 判断两个字符串是否为换位字符串
 
-            String strone = "aaaabbc";
-            String strtwo = "abcbaaa";
-            Console.WriteLine(strone + "和" + strtwo);
-            if(TextCompare .Compare (strone ,strtwo ))
-            {
-                Console.WriteLine("是换位字符");
-            }
-            else
-            {
-                Console.WriteLine("不是换位字符");
-            }
+            //String strone = "aaaabbc";
+            //String strtwo = "abcbaaa";
+            //Console.WriteLine(strone + "和" + strtwo);
+            //if(TextCompare .Compare (strone ,strtwo ))
+            //{
+            //    Console.WriteLine("是换位字符");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("不是换位字符");
+            //}
 
 
             #endregion
+
+            #region 判断两个字符串的包含关系
+
+            //String str1 = "abcdef";
+            //String str2 = "acf";
+            //bool isContain = TestIsContain.IsContain(str1, str2);
+            ////时间换空间方法
+            //isContain = TestIsContain.IsContainT(str1, str2);
+            //Console.Write(str1 + "和" + str2);
+            //if (isContain)
+            //{
+            //    Console.WriteLine("有包含关系");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("没有包含关系");
+            //}
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             ReadLine();
