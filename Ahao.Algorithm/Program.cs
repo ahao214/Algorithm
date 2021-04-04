@@ -2099,7 +2099,16 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 对由大小写字母组成的字符数组排序
 
+            //char[] ch = "AbcDef".ToCharArray();
+            //TestReverseArray.ReverseArray(ch);
+            //for (int i = 0; i < ch.Length; i++)
+            //{
+            //    Console.Write(ch[i]);
+            //}
+
+            #endregion
 
 
 
