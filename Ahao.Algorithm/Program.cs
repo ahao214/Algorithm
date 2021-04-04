@@ -4,6 +4,7 @@ using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
 using System;
 using System.Collections.Generic;
+using System.IO.Pipes;
 using System.Linq;
 using System.Reflection;
 using static System.Console;
@@ -2062,7 +2063,19 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 判断两个字符串是否为换位字符串
+
+            String strone = "aaaabbc";
+            String strtwo = "abcbaaa";
+            Console.WriteLine(strone + "和" + strtwo);
+            if(TextCompare .Compare (strone ,strtwo ))
+            {
+                Console.WriteLine("是换位字符");
+            }
+            else
+            {
+                Console.WriteLine("不是换位字符");
+            }
 
 
             #endregion
