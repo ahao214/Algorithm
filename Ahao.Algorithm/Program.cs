@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.IO.Pipes;
 using System.Linq;
 using System.Reflection;
+using System.Reflection.Emit;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -2128,6 +2129,23 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 判断字符串是否是整数
+
+            //TestIsNumber testIsNumber = new TestIsNumber();
+            //String s = "-543";
+            //Console.WriteLine(testIsNumber.strToint(s));
+
+            //s = "543";
+            //Console.WriteLine(testIsNumber.strToint(s));
+
+            //s = "+543";
+            //Console.WriteLine(testIsNumber.strToint(s));
+
+            //s = "++43";
+            //int result = testIsNumber.strToint(s);
+            //Console.WriteLine(result);
+
+            #endregion
 
 
 
