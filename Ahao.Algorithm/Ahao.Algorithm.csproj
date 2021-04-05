@@ -112,6 +112,7 @@
     <Compile Include="Secondary\LargestNumber.cs" />
     <Compile Include="Secondary\LongestMountain.cs" />
     <Compile Include="Secondary\MaxScore.cs" />
+    <Compile Include="Secondary\Merge.cs" />
     <Compile Include="Secondary\MinimumOperations.cs" />
     <Compile Include="Secondary\NthPersonGetsNthSeat.cs" />
     <Compile Include="Secondary\NumRescueBoats.cs" />
