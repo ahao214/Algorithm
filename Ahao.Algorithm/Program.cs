@@ -2123,6 +2123,8 @@ namespace Ahao.Algorithm
 
             #region 去掉字符串中嵌套的括号
 
+            //string str = "(1,(2,3),(4,(5,6),7))";
+            //Console.WriteLine(str + "去除嵌套括号后是：" + TestRemoveNestedPare.RemoveNestedPare(str));
 
             #endregion
 
