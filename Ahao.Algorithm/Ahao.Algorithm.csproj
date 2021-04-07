@@ -87,6 +87,7 @@
     <Compile Include="ArrayNums\TestWiggleSort.cs" />
     <Compile Include="CharacterString\TestIsContain.cs" />
     <Compile Include="CharacterString\TestIsNumber.cs" />
+    <Compile Include="CharacterString\TestMatch.cs" />
     <Compile Include="CharacterString\TestRemoveNestedPare.cs" />
     <Compile Include="CharacterString\TestReverseArray.cs" />
     <Compile Include="CharacterString\TextCompare.cs" />

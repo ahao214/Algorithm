@@ -2147,7 +2147,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 实现字符串的匹配
 
+            String s = "xyzabcd";
+            String p = "abc";
+            Console.WriteLine(TestMatch.match(s, p));
+
+            #endregion
 
 
 
