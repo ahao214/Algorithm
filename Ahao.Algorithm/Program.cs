@@ -2200,6 +2200,16 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 左旋转字符串
+
+            //var array = new string[] { "a", "b", "c", "d", "e" };
+            //TestLeftRotate.LeftRotate(array, 1);
+            //for (int i=0;i<array .Length;i++)
+            //{
+            //    Console.Write(array[i]);
+            //}
+
+            #endregion
 
 
 
