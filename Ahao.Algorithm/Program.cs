@@ -572,10 +572,10 @@ namespace Ahao.Algorithm
 
             #region 18.四数之和
 
-            FourSum fourSum = new FourSum();
-            int[] num = { 1, 0, -1, 0, -2, 2 };
-            int target = 0;
-            fourSum.Method(num, target);
+            //FourSum fourSum = new FourSum();
+            //int[] num = { 1, 0, -1, 0, -2, 2 };
+            //int target = 0;
+            //fourSum.Method(num, target);
 
             #endregion
 
@@ -2182,6 +2182,36 @@ namespace Ahao.Algorithm
             //WriteLine("编辑距离：" + testEditDistance.edit(s1, s2, 2));
 
             #endregion
+
+            #region 查找到达目标词的最短链长度
+
+            //TestIsAdjacent testIsAdjacent = new TestIsAdjacent();
+            //List<String> D = new List<string>();
+            //D.Add("pooN");
+            //D.Add("pbcc");
+            //D.Add("azmc");
+            //D.Add("poIc");
+            //D.Add("pbca");
+            //D.Add("pbIc");
+            //D.Add("poIN");
+            //String start = "TooN";
+            //String target = "pbca";
+            //Console.WriteLine("最短的链条的长度为：" + testIsAdjacent.shortestChainLen(start, target, D));
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
