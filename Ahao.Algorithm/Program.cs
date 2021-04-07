@@ -2149,9 +2149,25 @@ namespace Ahao.Algorithm
 
             #region 实现字符串的匹配
 
-            String s = "xyzabcd";
-            String p = "abc";
-            Console.WriteLine(TestMatch.match(s, p));
+            //String s = "xyzabcd";
+            //String p = "abc";
+            //Console.WriteLine(TestMatch.match(s, p));
+            
+            //------------------------------
+
+            //String s = "abababaabcbab";
+            //String p = "ababac";
+            //int len = p.Length;
+            //int[] next = new int[len + 1];
+            //TestMatchT.GetNext(p, next);
+            //Console.Write("next数组为：" + next[0]);
+            //for(int i=1;i<len -1;i++)
+            //{
+            //    Console.Write("," + next[i]);
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine("匹配结果为：" + TestMatchT.Match(s, p, next));
+
 
             #endregion
 
