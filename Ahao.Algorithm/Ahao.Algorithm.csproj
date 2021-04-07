@@ -85,6 +85,7 @@
     <Compile Include="ArrayNums\TestThreeMinDistance.cs" />
     <Compile Include="ArrayNums\TestMaxDiffSubArrays.cs" />
     <Compile Include="ArrayNums\TestWiggleSort.cs" />
+    <Compile Include="CharacterString\TestEditDistance.cs" />
     <Compile Include="CharacterString\TestIsContain.cs" />
     <Compile Include="CharacterString\TestIsNumber.cs" />
     <Compile Include="CharacterString\TestMatch.cs" />

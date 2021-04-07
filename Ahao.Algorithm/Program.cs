@@ -2152,7 +2152,7 @@ namespace Ahao.Algorithm
             //String s = "xyzabcd";
             //String p = "abc";
             //Console.WriteLine(TestMatch.match(s, p));
-            
+
             //------------------------------
 
             //String s = "abababaabcbab";
@@ -2171,7 +2171,17 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求字符串的编辑距离
 
+            //String s1 = "bciln";
+            //String s2 = "fciling";
+            //TestEditDistance testEditDistance = new TestEditDistance();
+            //WriteLine("第一问：");
+            //WriteLine("编辑距离：" + testEditDistance.edit(s1, s2, 1));
+            //WriteLine("第二问：");
+            //WriteLine("编辑距离：" + testEditDistance.edit(s1, s2, 2));
+
+            #endregion
 
 
 
