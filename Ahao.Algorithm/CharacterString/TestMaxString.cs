@@ -59,7 +59,7 @@ namespace Ahao.Algorithm.CharacterString
 
             for (int i = 0; i < arr.Length; i++)
             {
-                if (G[i][j] > 1)
+                if (G[i][i] > 1)
                 {
                     Console.WriteLine("存在环");
                     return;

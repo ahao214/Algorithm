@@ -85,6 +85,7 @@
     <Compile Include="ArrayNums\TestThreeMinDistance.cs" />
     <Compile Include="ArrayNums\TestMaxDiffSubArrays.cs" />
     <Compile Include="ArrayNums\TestWiggleSort.cs" />
+    <Compile Include="CharacterString\TestDeleteChars.cs" />
     <Compile Include="CharacterString\TestEditDistance.cs" />
     <Compile Include="CharacterString\TestFindFirstWord.cs" />
     <Compile Include="CharacterString\TestFindMaxLength.cs" />

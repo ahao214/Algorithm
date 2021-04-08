@@ -2217,13 +2217,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
-
             #region 找出字符串中连续最长的数字串 
 
             //WriteLine(TestFindMaxLength .FindMaxLength("aba123ccd123456eff".ToCharArray()));
 
             #endregion
-
 
             #region 进行字符串的串联
 
@@ -2232,7 +2230,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 从一个字符串中删除另一个字符串的所有的字符
 
+            //var arr = "They are student.".ToCharArray();
+            //TestDeleteChars.DeleteChars(arr, "aeiou".ToCharArray());
+            //WriteLine(string.Join("", arr));
+
+            #endregion
 
 
 
