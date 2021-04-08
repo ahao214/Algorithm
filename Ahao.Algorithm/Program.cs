@@ -2225,7 +2225,9 @@ namespace Ahao.Algorithm
             #endregion
 
 
-            #region
+            #region 进行字符串的串联
+
+
 
 
             #endregion
