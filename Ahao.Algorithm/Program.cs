@@ -2218,8 +2218,9 @@ namespace Ahao.Algorithm
             #endregion
 
 
-            #region
+            #region 找出字符串中连续最长的数字串 
 
+            //WriteLine(TestFindMaxLength .FindMaxLength("aba123ccd123456eff".ToCharArray()));
 
             #endregion
 
