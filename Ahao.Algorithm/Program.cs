@@ -2211,7 +2211,23 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 在一个字符串中找到第一个只出现一次的字符
 
+            //WriteLine(TestFindFirstWord.FindFirstWord("abaccdeff".ToCharArray()));
+
+            #endregion
+
+
+            #region
+
+
+            #endregion
+
+
+            #region
+
+
+            #endregion
 
 
 

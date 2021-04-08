@@ -86,6 +86,7 @@
     <Compile Include="ArrayNums\TestMaxDiffSubArrays.cs" />
     <Compile Include="ArrayNums\TestWiggleSort.cs" />
     <Compile Include="CharacterString\TestEditDistance.cs" />
+    <Compile Include="CharacterString\TestFindFirstWord.cs" />
     <Compile Include="CharacterString\TestIsAdjacent.cs" />
     <Compile Include="CharacterString\TestIsContain.cs" />
     <Compile Include="CharacterString\TestIsNumber.cs" />
