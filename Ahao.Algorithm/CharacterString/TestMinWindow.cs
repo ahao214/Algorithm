@@ -78,7 +78,7 @@ namespace Ahao.Algorithm.CharacterString
             {
                 Console.WriteLine("未找到");
             }
-
-
         }
+
     }
+}

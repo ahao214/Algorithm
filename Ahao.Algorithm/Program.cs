@@ -2244,9 +2244,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 进行通配符匹配
 
-
+            //TestMatchStr testMatchStr = new TestMatchStr();
+            //char[] one = "aa".ToCharArray();
+            //char[] two = "a".ToCharArray();
+            //WriteLine(testMatchStr.Match(one, two));
 
 
             #endregion

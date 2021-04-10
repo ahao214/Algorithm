@@ -24,7 +24,7 @@ namespace Ahao.Algorithm.CharacterString
             //首先遍历原字符数组，找出字符数组的长度以及其中的空格数量
             for (oldstringLen = 0; str[oldstringLen] != '\0'; oldstringLen++)
             {
-                if (str[oldstringLen] == '')
+                if (str[oldstringLen] == ' ')
                     blankNumber++;
             }
             //根据原字符数组的长度和空格的数量可以求出最后新字符数组的长度

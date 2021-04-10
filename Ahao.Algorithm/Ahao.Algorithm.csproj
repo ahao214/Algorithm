@@ -93,6 +93,7 @@
     <Compile Include="CharacterString\TestIsContain.cs" />
     <Compile Include="CharacterString\TestIsNumber.cs" />
     <Compile Include="CharacterString\TestLeftRotate.cs" />
+    <Compile Include="CharacterString\TestMatchStr.cs" />
     <Compile Include="CharacterString\TestMatch.cs" />
     <Compile Include="CharacterString\TestMatchT.cs" />
     <Compile Include="CharacterString\TestMaxString.cs" />
