@@ -2254,7 +2254,15 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 解决字符串包含问题
 
+            //string s = "cbaebabacd";
+            //string p = "abc";
+            //TestFindAnagrams testFindAnagrams = new TestFindAnagrams();
+            //WriteLine(testFindAnagrams.FindAnagrams(s, p));
+
+
+            #endregion
 
 
 
