@@ -98,6 +98,7 @@
     <Compile Include="CharacterString\TestMaxString.cs" />
     <Compile Include="CharacterString\TestMinWindow.cs" />
     <Compile Include="CharacterString\TestRemoveNestedPare.cs" />
+    <Compile Include="CharacterString\TestReplaceSpace.cs" />
     <Compile Include="CharacterString\TestReverseArray.cs" />
     <Compile Include="CharacterString\TestContin.cs" />
     <Compile Include="CharacterString\TextCompare.cs" />
