@@ -2238,7 +2238,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 判断字符串A中是否包含有字符串B中字符重新排列成的新字符串
 
+            //WriteLine(TestContin.Contin("abcfde", "dcf"));
+
+            #endregion
 
 
 
