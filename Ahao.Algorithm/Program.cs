@@ -2275,10 +2275,10 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 264-丑数(2)
+            #region 264.丑数(2)
 
-            NthUglyNumber nthUglyNumber = new NthUglyNumber();
-            WriteLine(nthUglyNumber.Method(10));
+            //NthUglyNumber nthUglyNumber = new NthUglyNumber();
+            //WriteLine(nthUglyNumber.Method(10));
 
             #endregion
 
