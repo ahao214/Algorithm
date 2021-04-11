@@ -59,7 +59,7 @@ namespace Ahao.Algorithm.CharacterString
                     start++;
                 }
             }
-            return begin == -1 ? source.Substring(begin, end + 1);
+            return begin == -1 ? "" : source.Substring(begin, end + 1);
         }
     }
 }

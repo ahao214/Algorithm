@@ -2264,7 +2264,16 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 找出字符串中最长公共前缀
 
+            //List<string> strs = new List<string>();
+            //strs.Add("abcd");
+            //strs.Add("abc");
+            //strs.Add("ab");
+            //TestLongestCommonPrefix testLongestCommonPrefix = new TestLongestCommonPrefix();
+            //WriteLine(testLongestCommonPrefix.LongestCommonPrefix(strs));
+
+            #endregion
 
 
 
