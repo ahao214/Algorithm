@@ -133,6 +133,7 @@
     <Compile Include="Secondary\Merge.cs" />
     <Compile Include="Secondary\MinimumOperations.cs" />
     <Compile Include="Secondary\NthPersonGetsNthSeat.cs" />
+    <Compile Include="Secondary\NthUglyNumber.cs" />
     <Compile Include="Secondary\NumRescueBoats.cs" />
     <Compile Include="Secondary\PathSum.cs" />
     <Compile Include="Secondary\PostorderTraversal.cs" />
