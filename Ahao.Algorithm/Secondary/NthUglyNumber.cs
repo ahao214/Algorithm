@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ahao.Algorithm.Secondary
 {
     /// <summary>
-    /// 丑数(2)
+    /// 264-丑数(2)
     /// </summary>
     public class NthUglyNumber
     {
