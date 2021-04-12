@@ -2282,6 +2282,17 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 找到数组删除K个数字之后的最小正整数
+
+            //TestDeleteKNumbers testDeleteKNumbers = new TestDeleteKNumbers();
+            //string str = "145872";
+            //int k = 4;
+            //WriteLine(testDeleteKNumbers.DeleteKNumbers(str, k));
+
+
+            #endregion
+
+
 
             ReadLine();
         }
