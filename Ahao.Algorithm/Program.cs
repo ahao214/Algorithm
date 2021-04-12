@@ -2292,6 +2292,20 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 如何查找没有重复字符的最长子串
+
+            //char[] str = "abcabcbb".ToCharArray();
+            //TestLengthOfLongestSubstrin lengthOfLongestSubstring = new TestLengthOfLongestSubstrin();
+            //WriteLine(lengthOfLongestSubstring.Method(str));
+
+            #endregion
+
+
+
+
+
+
+
 
 
             ReadLine();

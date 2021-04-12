@@ -95,6 +95,7 @@
     <Compile Include="CharacterString\TestIsContain.cs" />
     <Compile Include="CharacterString\TestIsNumber.cs" />
     <Compile Include="CharacterString\TestLeftRotate.cs" />
+    <Compile Include="CharacterString\LengthOfLongestSubstring.cs" />
     <Compile Include="CharacterString\TestLongestCommonPrefix.cs" />
     <Compile Include="CharacterString\TestMatchStr.cs" />
     <Compile Include="CharacterString\TestMatch.cs" />
