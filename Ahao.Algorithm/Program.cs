@@ -1,5 +1,6 @@
 ﻿using Ahao.Algorithm.ArrayNums;
 using Ahao.Algorithm.CharacterString;
+using Ahao.Algorithm.Numbers;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
 using System;
@@ -2300,7 +2301,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 不使用库函数求解整数X的平方根
 
+            //int x = 4;
+            //WriteLine(TestSqrt.Sqrt(x));
+
+            #endregion
 
 
 
