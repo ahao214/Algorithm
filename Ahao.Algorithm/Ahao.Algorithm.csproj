@@ -121,6 +121,7 @@
     <Compile Include="LNode\TestReverseByK.cs" />
     <Compile Include="LNode\TestReverseN.cs" />
     <Compile Include="LNode\TestRotateK.cs" />
+    <Compile Include="Numbers\TestDicesSum.cs" />
     <Compile Include="Numbers\TestSqrt.cs" />
     <Compile Include="Secondary\AddTwoNumbers.cs" />
     <Compile Include="Secondary\BuildTree.cs" />

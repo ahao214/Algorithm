@@ -2308,7 +2308,15 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 进行骰子求和
 
+            //var dict = TestDicesSum.DicesSum(3);
+            //foreach (var item in dict )
+            //{
+            //    WriteLine("[" + item.Key + "," + item.Value + "]");
+            //}
+
+            #endregion
 
 
 
