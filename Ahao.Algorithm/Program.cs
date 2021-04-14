@@ -2318,7 +2318,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求解最多有多少个点在一条直线上的问题
 
+            //Point[] points = new Point[4] { new Point(1, 2), new Point(3, 6), new Point(0, 0), new Point(1, 3) };
+            //Write(TestMaxPoints.MaxPoints(points));
+
+            #endregion
 
 
 
