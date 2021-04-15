@@ -123,6 +123,7 @@
     <Compile Include="LNode\TestRotateK.cs" />
     <Compile Include="Numbers\TestConvetToBinary.cs" />
     <Compile Include="Numbers\TestDicesSum.cs" />
+    <Compile Include="Numbers\TestDigitCounts.cs" />
     <Compile Include="Numbers\TestFastPower.cs" />
     <Compile Include="Numbers\TestMaxPoints.cs" />
     <Compile Include="Numbers\TestSqrt.cs" />

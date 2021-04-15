@@ -2345,6 +2345,20 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 查找连续数字中某个数字出现的次数
+
+
+
+            #endregion
+
+
+
+
+
+
+
+
+
 
 
             ReadLine();
