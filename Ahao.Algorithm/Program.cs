@@ -2325,6 +2325,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 进行数字的二进制翻转
+
+            //int a = 31;
+            //int b = 14;
+            //WriteLine(TestVal.Val(a, b));
+
+            #endregion
+
 
 
             ReadLine();

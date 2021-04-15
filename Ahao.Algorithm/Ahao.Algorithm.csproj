@@ -124,6 +124,7 @@
     <Compile Include="Numbers\TestDicesSum.cs" />
     <Compile Include="Numbers\TestMaxPoints.cs" />
     <Compile Include="Numbers\TestSqrt.cs" />
+    <Compile Include="Numbers\TestVal.cs" />
     <Compile Include="Secondary\AddTwoNumbers.cs" />
     <Compile Include="Secondary\BuildTree.cs" />
     <Compile Include="Secondary\CanPartition.cs" />
