@@ -2333,6 +2333,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 把数字转换为二级制
+
+            //WriteLine(TestConvetToBinary.ConvetToBinary(new decimal(16.67)));
+
+            #endregion
+
+
+
 
 
             ReadLine();
