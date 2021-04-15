@@ -2339,7 +2339,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 进行指数运算
 
+            //WriteLine(TestFastPower.FastPower(2, 3, 31));
+
+            #endregion
 
 
 
