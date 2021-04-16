@@ -2357,7 +2357,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 判断一个数是否是回文数
 
+            //Write(TestPalinNumber.PalinNumber(1241));
+
+            #endregion
 
 
 
