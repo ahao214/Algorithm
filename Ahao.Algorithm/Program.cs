@@ -2347,7 +2347,7 @@ namespace Ahao.Algorithm
 
             #region 查找连续数字中某个数字出现的次数
 
-            Write(TestDigitCounts.DigitCounts(1, 12));
+            //Write(TestDigitCounts.DigitCounts(1, 12));
 
             #endregion
 
