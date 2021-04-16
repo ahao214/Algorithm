@@ -39,5 +39,32 @@ namespace Ahao.Algorithm.Numbers
             }
         }
 
+
+        public static bool PalinNum(int n)
+        {
+            bool result = false;
+            string strNum = n.ToString();
+            int len = strNum.Length;
+            int left = 0;
+            int right = len - 1;
+            for (int i = 0; i < len / 2; i++)
+            {
+                if (strNum[left] == strNum[right])
+                {
+                    left++;
+                    right--;
+                    result = true;
+                    continue;
+                }
+                else
+                {
+                    result = false;
+                    break;
+                }
+            }
+            
+            return result;
+        }
+
     }
 }
