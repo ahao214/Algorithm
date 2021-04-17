@@ -125,6 +125,7 @@
     <Compile Include="Numbers\TestDicesSum.cs" />
     <Compile Include="Numbers\TestDigitCounts.cs" />
     <Compile Include="Numbers\TestFastPower.cs" />
+    <Compile Include="Numbers\TestIsPower.cs" />
     <Compile Include="Numbers\TestMaxPoints.cs" />
     <Compile Include="Numbers\TestPalinNumber.cs" />
     <Compile Include="Numbers\TestReverseInteger.cs" />
