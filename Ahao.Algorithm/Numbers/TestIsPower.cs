@@ -34,5 +34,38 @@ namespace Ahao.Algorithm.Numbers
             }
             return false;
         }
+
+        /// <summary>
+        /// 二分查找法
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public static bool IsPowerT(int n)
+        {
+            int low = 1;
+            int high = n;
+            int mid;
+            int power;
+            while (low < high)
+            {
+                mid = (low + high) / 2;
+                power = mid * mid;
+                //接着在1-mid区间内查找
+                if (power > n)
+                {
+                    high = mid - 1;
+                }
+                //接着在mid+1-n区间内查找
+                else if (power < n)
+                {
+                    low = mid + 1;
+                }
+                else
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
