@@ -2366,25 +2366,25 @@ namespace Ahao.Algorithm
 
             #region 判断一个自然数是否是某个数的二次方
 
-            int n1 = 15;
-            int n2 = 16;
-            if (TestIsPower.IsPower(n1))
-            {
-                WriteLine(n1 + "是某个自然数的二次方");
-            }
-            else
-            {
-                WriteLine(n1 + "不是某个自然数的二次方");
-            }
+            //int n1 = 15;
+            //int n2 = 16;
+            //if (TestIsPower.IsPower(n1))
+            //{
+            //    WriteLine(n1 + "是某个自然数的二次方");
+            //}
+            //else
+            //{
+            //    WriteLine(n1 + "不是某个自然数的二次方");
+            //}
 
-            if (TestIsPower.IsPower(n2))
-            {
-                WriteLine(n2 + "是某个自然数的二次方");
-            }
-            else
-            {
-                WriteLine(n2 + "不是某个自然数的二次方");
-            }
+            //if (TestIsPower.IsPower(n2))
+            //{
+            //    WriteLine(n2 + "是某个自然数的二次方");
+            //}
+            //else
+            //{
+            //    WriteLine(n2 + "不是某个自然数的二次方");
+            //}
 
             #endregion
 
