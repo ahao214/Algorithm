@@ -67,5 +67,31 @@ namespace Ahao.Algorithm.Numbers
             }
             return false;
         }
+
+        /// <summary>
+        /// 减法运算法
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public static bool IsPowerA(int n)
+        {
+            int minus = 1;
+            while (n > 0)
+            {
+                n = n - minus;
+                //n是某个数的二次方
+                if (n == 0)
+                    return true;
+                //n不是某个数的二次方
+                else if (n < 0)
+                    return false;
+                //每次减数都加2
+                else
+                    minus += 2;
+            }
+            return false;
+        }
+
+
     }
 }
