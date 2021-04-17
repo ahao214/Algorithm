@@ -2388,8 +2388,17 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 判断一个数是否为2的n次方
 
+            //int n = 8;
+            //if (TestIsPowerN.IsPowerN(n))
+            //{
+            //    WriteLine(n + "能表示成2的n次方");
+            //}
+            //else
+            //{
+            //    WriteLine(n + "不能表示成2的n次方");
+            //}
 
             #endregion
 
