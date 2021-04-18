@@ -131,6 +131,7 @@
     <Compile Include="Numbers\TestPalinNumber.cs" />
     <Compile Include="Numbers\TestRand.cs" />
     <Compile Include="Numbers\TestReverseInteger.cs" />
+    <Compile Include="Numbers\TestSearch.cs" />
     <Compile Include="Numbers\TestSqrt.cs" />
     <Compile Include="Numbers\TestVal.cs" />
     <Compile Include="Numbers\TestZeroCount.cs" />
