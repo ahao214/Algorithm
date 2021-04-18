@@ -11,6 +11,11 @@ namespace Ahao.Algorithm.Numbers
     /// </summary>
     public class TestSearch
     {
+        /// <summary>
+        /// 蛮力方法
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public static int Search(int n)
         {
             int i, count = 0;
