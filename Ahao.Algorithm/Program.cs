@@ -9,6 +9,7 @@ using System.IO.Pipes;
 using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
+using System.Runtime.CompilerServices;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -2412,7 +2413,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 如何判断1024!末尾有多少个0
 
+            //WriteLine("1024!末尾0的个数是：" + TestZeroCount.ZeroCount(1024));
+
+            #endregion
 
 
 
