@@ -2402,6 +2402,19 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 根据已知随机数生成函数计算新的随机数
+
+            //for (int i = 0; i != 10; i++)
+            //{
+            //    WriteLine(TestRand.Rand10() + " ");
+            //}
+
+
+            #endregion
+
+
+
+
 
 
             ReadLine();
