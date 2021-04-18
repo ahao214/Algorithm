@@ -2421,8 +2421,8 @@ namespace Ahao.Algorithm
 
             #region 求有序数列的第1500个数值
 
-            WriteLine(TestSearch.Search(1500));
-            WriteLine(TestSearch.SearchT(1500));
+            //WriteLine(TestSearch.Search(1500));
+            //WriteLine(TestSearch.SearchT(1500));
 
             #endregion
 
