@@ -2428,8 +2428,8 @@ namespace Ahao.Algorithm
 
             #region 求二进制数中1的个数
 
-            WriteLine(TestCountOne.CountOne(7));
-            WriteLine(TestCountOne.CountOneT(8));
+            //WriteLine(TestCountOne.CountOne(7));
+            //WriteLine(TestCountOne.CountOneT(8));
 
             #endregion
 
