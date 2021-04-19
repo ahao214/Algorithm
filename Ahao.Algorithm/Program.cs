@@ -2426,6 +2426,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求二进制数中1的个数
+
+            WriteLine(TestCountOne.CountOne(7));
+
+            #endregion
+
+
+
 
             ReadLine();
         }
