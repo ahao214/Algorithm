@@ -2433,6 +2433,17 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 找出最小的不重复数
+
+            //WriteLine(TestFindMinNonDupNum.FindMinNonDupNum(23345));
+            //WriteLine(TestFindMinNonDupNum.FindMinNonDupNum(1101010));
+            //WriteLine(TestFindMinNonDupNum.FindMinNonDupNum(99010));
+            //WriteLine(TestFindMinNonDupNum.FindMinNonDupNum(8989));
+
+            #endregion
+
+
+
 
 
 

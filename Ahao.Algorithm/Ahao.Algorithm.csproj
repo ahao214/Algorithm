@@ -126,6 +126,7 @@
     <Compile Include="Numbers\TestDicesSum.cs" />
     <Compile Include="Numbers\TestDigitCounts.cs" />
     <Compile Include="Numbers\TestFastPower.cs" />
+    <Compile Include="Numbers\TestFindMinNonDupNum.cs" />
     <Compile Include="Numbers\TestIsPower.cs" />
     <Compile Include="Numbers\TestIsPowerN.cs" />
     <Compile Include="Numbers\TestMaxPoints.cs" />
