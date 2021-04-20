@@ -2442,7 +2442,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 计算一个数的n次方
 
+            WriteLine(TestPower.Power(2, 3));
+            WriteLine(TestPower.Power(2, -3));
+
+
+            #endregion
 
 
 
