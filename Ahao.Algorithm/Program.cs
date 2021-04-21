@@ -2452,6 +2452,19 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 91.解码方法
+
+            //NumDecodings numDecodings = new NumDecodings();
+            //WriteLine(numDecodings.Method("229"));
+
+            #endregion
+
+            #region 找出排名前500的数
+
+
+            #endregion
+
+
 
 
 

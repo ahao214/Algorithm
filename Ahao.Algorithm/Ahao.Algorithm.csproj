@@ -85,6 +85,7 @@
     <Compile Include="ArrayNums\TestThreeMinDistance.cs" />
     <Compile Include="ArrayNums\TestMaxDiffSubArrays.cs" />
     <Compile Include="ArrayNums\TestWiggleSort.cs" />
+    <Compile Include="BigData\TestGetTop.cs" />
     <Compile Include="CharacterString\TestDeleteChars.cs" />
     <Compile Include="CharacterString\TestDeleteKNumbers.cs" />
     <Compile Include="CharacterString\TestEditDistance.cs" />
@@ -153,6 +154,7 @@
     <Compile Include="Secondary\MinimumOperations.cs" />
     <Compile Include="Secondary\NthPersonGetsNthSeat.cs" />
     <Compile Include="Secondary\NthUglyNumber.cs" />
+    <Compile Include="Secondary\NumDecodings.cs" />
     <Compile Include="Secondary\NumRescueBoats.cs" />
     <Compile Include="Secondary\PathSum.cs" />
     <Compile Include="Secondary\PostorderTraversal.cs" />
