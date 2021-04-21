@@ -26,7 +26,7 @@ namespace Ahao.Algorithm.Secondary
                 if (s[i] == '0')
                 {
                     if (s[i - 1] != '1' && s[i - 1] != '2')
-                        return 0;   //因为数字只有10和20符合要求，如果0的前面数字不是1或者不是2，则不符合
+                        return 0;   //因为数字只有10和20符合要求，如果0的前面数字不是1或者不是2
                     else
                         cur = pre;
                 }
