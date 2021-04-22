@@ -2480,6 +2480,21 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 进行插入排序
+
+            //int[] array = { 7, 3, 19, 40, 4, 7, 1 };
+            //TestInsertSort.InsertSort(array);
+            //for (int i = 0; i < array.Length; i++)
+            //{
+            //    Write(array[i].ToString() + " ");
+            //}
+
+            #endregion
+
+
+
+
+
 
 
             ReadLine();

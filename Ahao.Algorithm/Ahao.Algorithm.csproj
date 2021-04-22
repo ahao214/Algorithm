@@ -250,6 +250,7 @@
     <Compile Include="Simple\ToLowerCase.cs" />
     <Compile Include="Simple\UniqueOccurrences.cs" />
     <Compile Include="Simple\WordPattern.cs" />
+    <Compile Include="Sortings\TestInsertSort.cs" />
     <Compile Include="Sortings\TestSelectSort.cs" />
     <Compile Include="Stack\ArrayElements.cs" />
     <Compile Include="Stack\Itinerary.cs" />
