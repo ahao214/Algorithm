@@ -1,4 +1,5 @@
 ﻿using Ahao.Algorithm.ArrayNums;
+using Ahao.Algorithm.BigData;
 using Ahao.Algorithm.CharacterString;
 using Ahao.Algorithm.Numbers;
 using Ahao.Algorithm.Secondary;
@@ -2461,6 +2462,8 @@ namespace Ahao.Algorithm
 
             #region 找出排名前500的数
 
+            //int[][] data = { new int[] { 29, 17, 14, 2, 1 }, new int[] { 19, 17, 16, 15, 6 }, new int[] { 30, 25, 20, 14, 5 } };
+            //WriteLine(string.Join("", TestGetTop.getTop(data)));
 
             #endregion
 
