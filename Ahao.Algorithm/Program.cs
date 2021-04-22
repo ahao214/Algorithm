@@ -4,6 +4,7 @@ using Ahao.Algorithm.CharacterString;
 using Ahao.Algorithm.Numbers;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
+using Ahao.Algorithm.Sortings;
 using System;
 using System.Collections.Generic;
 using System.IO.Pipes;
@@ -2467,7 +2468,17 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 进行选择排序
 
+            int i = 0;
+            int[] a = { 5, 4, 9, 8, 7, 6, 0, 1, 2, 3 };
+            TestSelectSort.SelectSort(a);
+            for (i=0;i<a.Length;i++)
+            {
+                Write(a[i].ToString() + " ");
+            }
+
+            #endregion
 
 
 
