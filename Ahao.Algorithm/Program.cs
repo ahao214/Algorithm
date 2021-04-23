@@ -2491,7 +2491,16 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 冒泡排序
 
+            //int[] a = { 9, 8, 4, 5, 7, 1, 3 };
+            //TestBubbleSort.BubbleSort(a);
+            //for (int i = 0; i < a.Length; i++)
+            //{
+            //    Write(a[i] + " ");
+            //}
+
+            #endregion
 
 
 
