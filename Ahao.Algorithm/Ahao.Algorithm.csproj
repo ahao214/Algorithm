@@ -147,6 +147,7 @@
     <Compile Include="Secondary\FourSum.cs" />
     <Compile Include="Secondary\InsertIntoBST.cs" />
     <Compile Include="Secondary\IsPossible.cs" />
+    <Compile Include="Secondary\LargestDivisibleSubset.cs" />
     <Compile Include="Secondary\LargestNumber.cs" />
     <Compile Include="Secondary\LongestMountain.cs" />
     <Compile Include="Secondary\MaxScore.cs" />

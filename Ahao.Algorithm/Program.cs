@@ -2515,6 +2515,25 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 368. 最大整除子集
+
+            //int[] arr = { 1, 2,3,4,8 };
+            //LargestDivisibleSubset largestDivisibleSubset = new LargestDivisibleSubset();
+            //IList<int> lst = largestDivisibleSubset.Method(arr);
+            //for (int i = 0; i < lst.Count; i++)
+            //{
+            //    Write(lst[i] + " ");
+            //}
+
+            #endregion
+
+            #region
+
+
+            #endregion
+
+
+
 
 
             ReadLine();
