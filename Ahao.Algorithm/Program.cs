@@ -2502,7 +2502,18 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 进行归并排序
 
+            //int i = 0;
+            //int[] a = { 5, 4, 9, 8, 7, 0, 1, 3, 2 };
+            //int len = a.Length;
+            //TestMergeSort.MergeSort(a, 0, len - 1);
+            //for (i = 0; i < len; i++)
+            //{
+            //    Write(a[i] + " ");
+            //}
+
+            #endregion
 
 
 
