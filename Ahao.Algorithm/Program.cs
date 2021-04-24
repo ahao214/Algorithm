@@ -2566,6 +2566,16 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 377. 组合总和 Ⅳ
+
+            //CombinationSumFour combinationSumFour = new CombinationSumFour();
+            //int[] nums = { 1, 2, 3 };
+            //int target = 4;
+            //WriteLine(combinationSumFour.Method(nums, target));
+
+            #endregion
+
+
 
             ReadLine();
         }
