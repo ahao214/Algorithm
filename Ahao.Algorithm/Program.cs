@@ -2527,8 +2527,16 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region
+            #region 进行快速排序
 
+            //int i = 0;
+            //int[] arr = { 5, 4, 9, 8, 7, 6, 0, 1, 3, 2 };
+            //int len = arr.Length;
+            //TestQuickSort.QuickSort(arr);
+            //for(i=0;i<len;i++)
+            //{
+            //    Write(arr[i] + " ");
+            //}
 
             #endregion
 
