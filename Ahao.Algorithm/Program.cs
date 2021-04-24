@@ -2577,9 +2577,9 @@ namespace Ahao.Algorithm
 
             #region 152. 乘积最大子数组
 
-            MaxProduct maxProduct = new MaxProduct();
-            int[] arr = {2,-5,-2,-4,3};
-            WriteLine(maxProduct.Method(arr));
+            //MaxProduct maxProduct = new MaxProduct();
+            //int[] arr = {2,-5,-2,-4,3};
+            //WriteLine(maxProduct.Method(arr));
 
             #endregion
 
