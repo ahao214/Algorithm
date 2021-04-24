@@ -256,6 +256,7 @@
     <Compile Include="Sortings\TestMergeSort.cs" />
     <Compile Include="Sortings\TestQuickSort.cs" />
     <Compile Include="Sortings\TestSelectSort.cs" />
+    <Compile Include="Sortings\TestShellSort.cs" />
     <Compile Include="Stack\ArrayElements.cs" />
     <Compile Include="Stack\Itinerary.cs" />
     <Compile Include="Stack\MyQueue.cs" />

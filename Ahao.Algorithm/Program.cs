@@ -2540,6 +2540,18 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 希尔排序
+
+            //int i = 0;
+            //int[] arr = { 5, 4, 9, 8, 7, 6, 0, 1, 3, 2 };
+            //int len = arr.Length;
+            //TestShellSort.ShellSort(arr);
+            //for (i = 0; i < len; i++)
+            //{
+            //    Write(arr[i] + " ");
+            //}
+
+            #endregion
 
 
 
