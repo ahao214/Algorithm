@@ -254,6 +254,7 @@
     <Compile Include="Sortings\TestBubbleSort.cs" />
     <Compile Include="Sortings\TestInsertSort.cs" />
     <Compile Include="Sortings\TestMergeSort.cs" />
+    <Compile Include="Sortings\TestMinHeapSort.cs" />
     <Compile Include="Sortings\TestQuickSort.cs" />
     <Compile Include="Sortings\TestSelectSort.cs" />
     <Compile Include="Sortings\TestShellSort.cs" />
