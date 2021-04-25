@@ -201,6 +201,7 @@
     <Compile Include="Simple\GetRow.cs" />
     <Compile Include="Simple\HasCycle.cs" />
     <Compile Include="Simple\HasPathSum.cs" />
+    <Compile Include="Simple\IncreasingBST.cs" />
     <Compile Include="Simple\Intersection.cs" />
     <Compile Include="Secondary\IntToRoman.cs" />
     <Compile Include="Simple\InvertTree.cs" />

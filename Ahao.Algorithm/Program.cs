@@ -2607,6 +2607,17 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 897. 递增顺序搜索树
+
+            //IncreasingBST increasingBST = new IncreasingBST();
+            //TreeNodes root = IncreasingBST.constructTree();
+            //increasingBST.Method(root);
+
+            #endregion
+
+
+
+
 
 
             ReadLine();
