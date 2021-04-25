@@ -2594,7 +2594,18 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 如何拿到最多的金币
 
+            //int monitorCount = 1000;
+            //int success = 0;
+            //for (int i = 0; i < monitorCount; i++)
+            //{
+            //    if (TestGetMaxNum.GetMaxNum(10))
+            //        success++;
+            //}
+            //WriteLine((double)success / (double)monitorCount);
+
+            #endregion
 
 
 
