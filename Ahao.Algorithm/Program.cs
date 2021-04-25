@@ -1,6 +1,7 @@
 ﻿using Ahao.Algorithm.ArrayNums;
 using Ahao.Algorithm.BigData;
 using Ahao.Algorithm.CharacterString;
+using Ahao.Algorithm.Combinations;
 using Ahao.Algorithm.Numbers;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
@@ -2582,6 +2583,20 @@ namespace Ahao.Algorithm
             //WriteLine(maxProduct.Method(arr));
 
             #endregion
+
+            #region 求数字的组合
+
+            //int[] arr = { 1, 2, 2, 3, 4, 5 };
+            //TestCombination testCombination = new TestCombination(arr );
+            //testCombination.GetAllCombination();
+            ////打印所有组合
+            //testCombination.PrintAllCombinations();
+
+            #endregion
+
+
+
+
 
             ReadLine();
         }

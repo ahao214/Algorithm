@@ -109,6 +109,7 @@
     <Compile Include="CharacterString\TestReverseArray.cs" />
     <Compile Include="CharacterString\TestContin.cs" />
     <Compile Include="CharacterString\TextCompare.cs" />
+    <Compile Include="Combinations\TestCombination.cs" />
     <Compile Include="LNode\LNode.cs" />
     <Compile Include="LNode\TestAdd.cs" />
     <Compile Include="LNode\TestConstructListK.cs" />
