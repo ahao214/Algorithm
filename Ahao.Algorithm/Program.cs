@@ -2623,10 +2623,10 @@ namespace Ahao.Algorithm
 
             #region 1011. 在 D 天内送达包裹的能力
 
-            ShipWithinDays shipWithinDays = new ShipWithinDays();
-            int[] weights = { 1, 2, 3, 1, 1 };
-            int days = 4;
-            WriteLine(shipWithinDays.Method(weights, days));
+            //ShipWithinDays shipWithinDays = new ShipWithinDays();
+            //int[] weights = { 1, 2, 3, 1, 1 };
+            //int days = 4;
+            //WriteLine(shipWithinDays.Method(weights, days));
 
             #endregion
 
