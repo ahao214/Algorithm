@@ -2615,7 +2615,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 求正整数n所有可能的整数组合
 
+            //TestShowAllCombination.ShowAllCombination(4);
+
+            #endregion
 
 
 
