@@ -13,6 +13,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
+using static Ahao.Algorithm.Simple.RangeSumBST;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -2629,6 +2630,23 @@ namespace Ahao.Algorithm
             //WriteLine(shipWithinDays.Method(weights, days));
 
             #endregion
+
+            #region 938. 二叉搜索树的范围和
+
+            //RangeSumBST rangeSumBST = new RangeSumBST();
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //TreeNodeBST root = new TreeNodeBST();
+            //int low = 7;
+            //int high = 15;
+
+
+            #endregion
+
+
+
+
+
+
 
 
             ReadLine();
