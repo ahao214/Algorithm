@@ -2642,7 +2642,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 633.平方数之和
 
+            //JudgeSquareSum judgeSquareSum = new JudgeSquareSum();
+            //WriteLine(judgeSquareSum.Method(50));
+
+            #endregion
 
 
 
