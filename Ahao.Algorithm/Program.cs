@@ -2649,8 +2649,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 300. 最长递增子序列
 
+            //int[] nums = { 10, 9, 2, 5, 3, 7, 101, 18 };
+            //LengthOfLIS lengthOfLIS = new LengthOfLIS();
+            //WriteLine(lengthOfLIS.Method(nums));
 
+            #endregion
 
 
 

@@ -154,6 +154,7 @@
     <Compile Include="Secondary\JudgeSquareSum.cs" />
     <Compile Include="Secondary\LargestDivisibleSubset.cs" />
     <Compile Include="Secondary\LargestNumber.cs" />
+    <Compile Include="Secondary\LengthOfLIS.cs" />
     <Compile Include="Secondary\LongestMountain.cs" />
     <Compile Include="Secondary\MaxProduct.cs" />
     <Compile Include="Secondary\MaxScore.cs" />
