@@ -2657,6 +2657,21 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 用一个随机函数得到另一个随机函数
+
+            //int i;
+            //for (i = 0; i < 16; i++)
+            //    WriteLine(TestFun.Fun2() + " ");
+
+            //WriteLine();
+            //for (i = 0; i < 16; i++)
+            //    WriteLine(TestFun.Fun2() + " ");
+
+            #endregion
+
+
+
+
 
 
             ReadLine();
