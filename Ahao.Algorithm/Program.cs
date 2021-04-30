@@ -2669,7 +2669,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 137. 只出现一次的数字 II
 
+            //SingleNumberT singleNumberT = new SingleNumberT();
+            //int[] nums = { 2, 2, 2, 3 };
+            //WriteLine(singleNumberT.Method(nums));
+
+            #endregion
 
 
 
