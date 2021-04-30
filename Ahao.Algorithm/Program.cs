@@ -2677,6 +2677,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 322. 零钱兑换
+
+            //CoinChange coinChange = new CoinChange();
+            //int[] coins = { 1, 2, 5 };
+            //int amount = 11;
+            //WriteLine(coinChange.Method(coins, amount));
+
+            #endregion
 
 
 

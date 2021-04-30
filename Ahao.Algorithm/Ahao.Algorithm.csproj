@@ -147,6 +147,7 @@
     <Compile Include="Secondary\BuildTree.cs" />
     <Compile Include="Secondary\CanPartition.cs" />
     <Compile Include="Secondary\CharacterReplacement.cs" />
+    <Compile Include="Secondary\CoinChange.cs" />
     <Compile Include="Secondary\CombinationSumFour.cs" />
     <Compile Include="Secondary\DetectCycle.cs" />
     <Compile Include="Secondary\FourSum.cs" />
