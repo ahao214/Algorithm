@@ -2688,44 +2688,48 @@ namespace Ahao.Algorithm
 
             #region 690. 员工的重要性
 
-            Employee employee = new Employee();
-            IList<Employee> employees = new List<Employee>();
-            IList<int> lst = new List<int>();
-            employee.id = 1;
-            employee.importance = 5;
-            lst.Add(2);
-            lst.Add(3);
-            employee.subordinates = lst;
-            employees.Add(employee);
+            //Employee employee = new Employee();
+            //IList<Employee> employees = new List<Employee>();
+            //IList<int> lst = new List<int>();
+            //employee.id = 1;
+            //employee.importance = 5;
+            //lst.Add(2);
+            //lst.Add(3);
+            //employee.subordinates = lst;
+            //employees.Add(employee);
 
-            employee = new Employee();
-            employee.id = 2;
-            employee.importance = 3;
-            lst = new List<int>();
-            lst.Add(4);
-            employee.subordinates = lst;
-            employees.Add(employee);
+            //employee = new Employee();
+            //employee.id = 2;
+            //employee.importance = 3;
+            //lst = new List<int>();
+            //lst.Add(4);
+            //employee.subordinates = lst;
+            //employees.Add(employee);
 
-            employee = new Employee();
-            employee.id = 3;
-            employee.importance = 4;
-            lst = new List<int>();
-            employee.subordinates = lst;
-            employees.Add(employee);
+            //employee = new Employee();
+            //employee.id = 3;
+            //employee.importance = 4;
+            //lst = new List<int>();
+            //employee.subordinates = lst;
+            //employees.Add(employee);
 
-            employee = new Employee();
-            employee.id = 4;
-            employee.importance = 1;
-            lst = new List<int>();
-            employee.subordinates = lst;
-            employees.Add(employee);
+            //employee = new Employee();
+            //employee.id = 4;
+            //employee.importance = 1;
+            //lst = new List<int>();
+            //employee.subordinates = lst;
+            //employees.Add(employee);
 
-            GetImportance getImportance = new GetImportance();
-            WriteLine(getImportance.Method(employees, 1));
+            //GetImportance getImportance = new GetImportance();
+            //WriteLine(getImportance.Method(employees, 1));
 
             #endregion
 
+            #region 
 
+
+
+            #endregion
 
 
 
