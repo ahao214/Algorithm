@@ -2725,9 +2725,16 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 如何等概率地从大小为n的数组中选取m个整数
 
-
+            //int[] a = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //int n = 10;
+            //int m = 6;
+            //TestGetRandomM.GetRandomM(a, n, m);
+            //for(int i=0;i<m;++i)
+            //{
+            //    WriteLine(a[i] + " ");
+            //}
 
             #endregion
 
