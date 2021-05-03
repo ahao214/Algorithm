@@ -2738,7 +2738,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 组合1、2、5这三个数字使其和为100
 
+            WriteLine(TestCombinationCount.CombinationCount(100));
+
+            #endregion
 
 
 
