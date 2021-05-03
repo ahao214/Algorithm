@@ -37,5 +37,20 @@ namespace Ahao.Algorithm.BigData
 
         #endregion
 
+        #region 数字规律法
+
+        public static int CombinationCountT(int n)
+        {
+            int count = 0;
+            for(int m=0;m<=n;m+=5)
+            {
+                count += (m + 2) / 2;
+            }
+            return count;
+        }
+
+        #endregion
+
+
     }
 }
