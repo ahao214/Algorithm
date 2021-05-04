@@ -2745,6 +2745,24 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 如何判断还有几盏灯泡亮着
+
+            //int i, count;
+            //int[] num = new int[100];
+            //for (i = 0; i < 100; i++)
+            //{
+            //    num[i] = i + 1;
+            //}
+            //count = TestFactorIsOdd.TotalCount(num, 100);
+            //WriteLine("最后总共有" + count + "盏灯亮着");
+
+            #endregion
+
+
+
+
+
+
 
 
 
