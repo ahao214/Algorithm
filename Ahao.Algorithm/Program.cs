@@ -13,6 +13,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
+using System.Runtime.InteropServices;
 using static Ahao.Algorithm.Simple.RangeSumBST;
 using static System.Console;
 
@@ -2758,7 +2759,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 740. 删除并获得点数
 
+            //DeleteAndEarn deleteAndEarn = new DeleteAndEarn();
+            //int[] nums = { 2, 2, 3, 3, 3, 4 };
+            //WriteLine(deleteAndEarn.Method(nums));
+
+            #endregion
 
 
 
