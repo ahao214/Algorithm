@@ -197,6 +197,7 @@
     <Compile Include="Simple\ConvertBST.cs" />
     <Compile Include="Simple\ConvertToTitle.cs" />
     <Compile Include="Simple\CountPrimes.cs" />
+    <Compile Include="Simple\Decode.cs" />
     <Compile Include="Simple\DeleteDuplicates.cs" />
     <Compile Include="Secondary\Exist.cs" />
     <Compile Include="Simple\FairCandySwap.cs" />

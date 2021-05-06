@@ -2767,7 +2767,18 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 1720. 解码异或后的数组
 
+            //int[] encoded = { 1, 2, 3 };
+            //int first = 1;
+            //Decode decode = new Decode();
+            //int[] result = decode.Method(encoded, first);
+            //for (int i = 0; i < result.Length; i++)
+            //{
+            //    WriteLine(result[i]);
+            //}
+
+            #endregion
 
 
 
