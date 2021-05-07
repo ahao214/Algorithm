@@ -19,7 +19,7 @@ namespace Ahao.DataStructure
             {
                 arr[i] = i;
                 Write(arr[i] + " ");
-                
+
             }
             WriteLine();
 
@@ -27,7 +27,7 @@ namespace Ahao.DataStructure
             for (int i = 0; i < 15; i++)
             {
                 array.Add(i);
-                Write(array[i] + " ");                
+                Write(array[i] + " ");
             }
             WriteLine();
 
@@ -49,7 +49,7 @@ namespace Ahao.DataStructure
             WriteLine(aOne);
 
             WriteLine("数组的查询、修改---Begin");
-            WriteLine (aOne.GetFirst());
+            WriteLine(aOne.GetFirst());
             WriteLine(aOne.GetLast());
             WriteLine(aOne.Get(1));
             aOne.Set(1, 999);
@@ -64,6 +64,33 @@ namespace Ahao.DataStructure
             WriteLine(aOne);
 
             WriteLine("数组的删除-End");
+
+
+            WriteLine("-------------------------");
+
+            WriteLine("使用泛型技术-Begin");
+
+            int[] nE = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            ArrayE<int> arrayE = new ArrayE<int>();
+            for (int i = 0; i < nE.Length; i++)
+                arrayE.AddLast(nE[i]);
+            WriteLine(arrayE);
+
+            string[] s = { "a", "b", "c", "d", "e" };
+            ArrayE<string> se = new ArrayE<string>();
+            for (int i = 0; i < s.Length; i++)
+                se.AddLast(s[i]);
+            WriteLine(se);
+
+            WriteLine("使用泛型技术-End");
+
+
+            WriteLine("-------------------------");
+
+
+            WriteLine("-------------------------");
+
+
 
             ReadLine();
         }
