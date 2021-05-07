@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -115,6 +116,74 @@ namespace Ahao.DataStructure
             data[index] = newEle;
         }
 
+        /// <summary>
+        /// 是否包含某个元素
+        /// </summary>
+        /// <returns></returns>
+        public bool Contains(int ele)
+        {
+            for (int i = 0; i < N; i++)
+            {
+                if (data[i] == ele)
+                    return true;
+            }
+            return false;
+        }
+
+        /// <summary>
+        /// 元素的位置
+        /// </summary>
+        /// <param name="ele"></param>
+        /// <returns></returns>
+        public int IndexOf(int ele)
+        {
+            for (int i = 0; i < N; i++)
+            {
+                if (data[i] == ele)
+                    return i;
+            }
+            return -1;
+        }
+
+        /// <summary>
+        /// 删除
+        /// </summary>
+        /// <param name="index"></param>
+        /// <returns></returns>
+        public int RemoveAt(int index)
+        {
+            if (index < 0 || index >= N)
+                throw new ArgumentException("数组索引越界");
+            int del = data[index];
+            for (int i = index + 1; i <= N - 1; i++)
+            {
+                data[i - 1] = data[i];
+            }
+            N--;
+            data[N] = default(int);
+            return del;
+        }
+
+        public int RemoveFirst()
+        {
+            return RemoveAt(0);
+        }
+
+        public int RemoveLast()
+        {
+            return RemoveAt(N - 1);
+        }
+
+        /// <summary>
+        /// 删除某个元素
+        /// </summary>
+        /// <param name="ele"></param>
+        public void Remove(int ele)
+        {
+            int index = IndexOf(ele);
+            if (index != -1)
+                RemoveAt(index);
+        }
 
         public override string ToString()
         {

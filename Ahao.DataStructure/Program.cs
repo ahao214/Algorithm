@@ -56,6 +56,14 @@ namespace Ahao.DataStructure
             WriteLine(aOne);
             WriteLine("数组的查询、修改---End");
 
+            WriteLine("数组的删除-Begin");
+            aOne.RemoveAt(3);
+            aOne.RemoveFirst();
+            aOne.RemoveLast();
+            aOne.Remove(4);
+            WriteLine(aOne);
+
+            WriteLine("数组的删除-End");
 
             ReadLine();
         }
