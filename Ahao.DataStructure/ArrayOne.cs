@@ -69,5 +69,23 @@ namespace Ahao.DataStructure
             N++;
         }
 
+        /// <summary>
+        /// 向数组末尾添加数据
+        /// </summary>
+        /// <param name="ele"></param>
+        public void AddLast(int ele)
+        {
+            Add(N, ele);
+        }
+
+        /// <summary>
+        /// 向数组头部添加数据
+        /// </summary>
+        /// <param name="ele"></param>
+        public void AddFirst(int ele)
+        {
+            Add(0, ele);
+        }
+
     }
 }
