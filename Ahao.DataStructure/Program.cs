@@ -38,6 +38,24 @@ namespace Ahao.DataStructure
                 Write(lst[i] + " ");
             }
 
+            WriteLine();
+
+            ArrayOne aOne = new ArrayOne(20);
+            for (int i = 0; i < 10; i++)
+                aOne.AddLast(i);
+            WriteLine(aOne);
+
+            aOne.AddFirst(44);
+            WriteLine(aOne);
+
+            WriteLine("数组的查询、修改---Begin");
+            WriteLine (aOne.GetFirst());
+            WriteLine(aOne.GetLast());
+            WriteLine(aOne.Get(1));
+            aOne.Set(1, 999);
+            WriteLine(aOne);
+            WriteLine("数组的查询、修改---End");
+
 
             ReadLine();
         }

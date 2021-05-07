@@ -87,5 +87,50 @@ namespace Ahao.DataStructure
             Add(0, ele);
         }
 
+        //获取某个位置的元素
+        public int Get(int index)
+        {
+            if (index < 0 || index >= N)
+                throw new ArgumentException("数组索引越界");
+            return data[index];
+        }
+
+        //获取第一个元素
+        public int GetFirst()
+        {
+            return Get(0);
+        }
+
+        //获取最后一个元素
+        public int GetLast()
+        {
+            return Get(N - 1);
+        }
+
+        //设置某个位置的元素
+        public void Set(int index, int newEle)
+        {
+            if (index < 0 || index >= N)
+                throw new ArgumentException("数组索引越界");
+            data[index] = newEle;
+        }
+
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append(string.Format($"ArrayOne: Count={N}, Capacity={data.Length }"));
+            sb.Append("[");
+            for (int i = 0; i < N; i++)
+            {
+                sb.Append(data[i]);
+                if (i != N - 1)
+                    sb.Append(", ");
+            }
+            sb.Append("]");
+            return sb.ToString();
+        }
+
+
     }
 }
