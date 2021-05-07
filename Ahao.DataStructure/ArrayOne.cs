@@ -58,7 +58,8 @@ namespace Ahao.DataStructure
             if (index < 0 || index > N)
                 throw new ArgumentException("数组索引越界");
             if (N == data.Length)
-                throw new ArgumentException("数组已满");
+                ResetCapacity(2 * data.Length);     //数组扩大容量
+
             for (int i = N - 1; i >= index; i--)
             {
                 //把前面一个元素赋值给后面
@@ -161,6 +162,11 @@ namespace Ahao.DataStructure
             }
             N--;
             data[N] = default(int);
+
+            //数组减小容量
+            if (N == data.Length / 4)
+                ResetCapacity(data.Length / 2);
+
             return del;
         }
 
@@ -185,10 +191,22 @@ namespace Ahao.DataStructure
                 RemoveAt(index);
         }
 
+        /// <summary>
+        /// 对数组进行扩容
+        /// </summary>
+        /// <param name="newCapacity"></param>
+        private void ResetCapacity(int newCapacity)
+        {
+            int[] newData = new int[newCapacity];
+            for (int i = 0; i < N; i++)
+                newData[i] = data[i];
+            data = newData;
+        }
+
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append(string.Format($"ArrayOne: Count={N}, Capacity={data.Length }"));
+            sb.Append(string.Format($"ArrayOne: Count={N}, Capacity={data.Length }\n"));
             sb.Append("[");
             for (int i = 0; i < N; i++)
             {
