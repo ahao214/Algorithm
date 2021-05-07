@@ -2780,7 +2780,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 1486. 数组异或操作
 
+            //XorOperation xorOperation = new XorOperation();
+            //WriteLine(xorOperation.Method(10, 5));
+
+            #endregion
 
 
 
