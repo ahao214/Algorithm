@@ -143,7 +143,7 @@ namespace Ahao.DataStructure
         public bool Contains(E e)
         {
             Node cur = head;
-            while (cur !=null )
+            while (cur != null)
             {
                 if (cur.e.Equals(e))
                     return true;
@@ -154,7 +154,22 @@ namespace Ahao.DataStructure
 
         #endregion
 
+        #region 打印
 
+        public override string ToString()
+        {
+            StringBuilder res = new StringBuilder();
+            Node cur = head;
+            while (cur != null)
+            {
+                res.Append(cur + "->");
+                cur = cur.next;
+            }
+            res.Append("Null");
+            return res.ToString();
+        }
+
+        #endregion
 
 
     }
