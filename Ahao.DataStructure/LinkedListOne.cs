@@ -2,6 +2,7 @@
 using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -94,10 +95,35 @@ namespace Ahao.DataStructure
             Add(N, e);
         }
 
-        #endregion 
+        #endregion
 
+        #region 查找
 
+        public E Get(int index)
+        {
+            if (index < 0 || index >= N)
+                throw new ArgumentException("非法索引");
 
+            Node cur = head;
+            for (int i = 0; i < index; i++)
+                cur = cur.next;
+
+            return cur.e;
+        }
+
+        public E GetFirst()
+        {
+            return Get(0);
+        }
+
+        public E GetLast()
+        {
+            return Get(N - 1);
+        }
+
+        #endregion
+
+        
 
 
 
