@@ -107,6 +107,10 @@ namespace Ahao.DataStructure
 
             WriteLine(l.Contains(5));
 
+            l.RemoveFirst();
+            l.RemoveLast();
+            WriteLine(l);
+
 
             WriteLine("链表-End");
 
