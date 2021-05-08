@@ -138,7 +138,21 @@ namespace Ahao.DataStructure
 
         #endregion
 
+        #region 查找元素是否存在
 
+        public bool Contains(E e)
+        {
+            Node cur = head;
+            while (cur !=null )
+            {
+                if (cur.e.Equals(e))
+                    return true;
+                cur = cur.next;
+            }
+            return false;
+        }
+
+        #endregion
 
 
 
