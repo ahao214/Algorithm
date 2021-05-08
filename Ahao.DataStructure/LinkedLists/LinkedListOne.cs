@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 
 namespace Ahao.DataStructure
 {
+    /// <summary>
+    /// 链表
+    /// </summary>
+    /// <typeparam name="E"></typeparam>
     class LinkedListOne<E>
     {
         private class Node
