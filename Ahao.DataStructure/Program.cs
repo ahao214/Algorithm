@@ -89,35 +89,69 @@ namespace Ahao.DataStructure
 
             #region 链表
 
-            WriteLine("-------------------------");
-            WriteLine("链表-Begin");
+            //WriteLine("-------------------------");
+            //WriteLine("链表-Begin");
 
-            LinkedListOne <int> l = new LinkedListOne<int>();
-            for (int i = 0; i < 6; i++)
-            {
-                l.AddFirst(i);
-                WriteLine(l);
-            }
+            //LinkedListOne <int> l = new LinkedListOne<int>();
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    l.AddFirst(i);
+            //    WriteLine(l);
+            //}
 
-            l.Add(2, 444);
-            WriteLine(l);
+            //l.Add(2, 444);
+            //WriteLine(l);
 
-            l.Set(4, 555);
-            WriteLine(l);
+            //l.Set(4, 555);
+            //WriteLine(l);
 
-            WriteLine(l.Contains(5));
+            //WriteLine(l.Contains(5));
 
-            l.RemoveFirst();
-            l.RemoveLast();
-            WriteLine(l);
+            //l.RemoveFirst();
+            //l.RemoveLast();
+            //WriteLine(l);
 
 
-            WriteLine("链表-End");
+            //WriteLine("链表-End");
 
             #endregion
 
             WriteLine("-------------------------");
 
+            #region 栈
+
+            WriteLine("栈-Begin");
+
+            ArrayOneStack<int> stack = new ArrayOneStack<int>();
+            for(int i=0;i<5;i++)
+            {
+                stack.Push(i);
+                WriteLine(stack);
+            }
+
+            //出栈
+            stack.Pop();
+            WriteLine("出栈之后：" + stack);
+
+            WriteLine("栈-End");
+
+            #endregion
+
+            WriteLine("-------------------------");
+
+
+            WriteLine("-------------------------");
+
+
+            WriteLine("-------------------------");
+
+
+            WriteLine("-------------------------");
+
+            WriteLine("-------------------------");
+
+
+            WriteLine("-------------------------");
 
 
             ReadLine();

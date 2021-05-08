@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ahao.DataStructure
 {
+    /// <summary>
+    /// 数组栈
+    /// </summary>
+    /// <typeparam name="E"></typeparam>
     class ArrayOneStack<E> : IStack<E>
     {
         private ArrayE<E> arr;
@@ -20,23 +24,40 @@ namespace Ahao.DataStructure
             arr = new ArrayE<E>();
         }
 
-        public int Count => throw new NotImplementedException();
+        public int Count
+        {
+            get
+            {
+                return arr.Count;
+            }
+        }
 
-        public bool IsEmpty => throw new NotImplementedException();
+        public bool IsEmpty
+        {
+            get
+            {
+                return arr.IsEmpty;
+            }
+        }
 
         public void Push(E e)
         {
-            throw new NotImplementedException();
+            arr.AddLast(e);
         }
 
         public E Pop()
         {
-            throw new NotImplementedException();
+            return arr.RemoveLast();
         }
 
         public E Peek()
         {
-            throw new NotImplementedException();
+            return arr.GetLast();
+        }
+
+        public override string ToString()
+        {
+            return "Stack:" + arr.ToString() + "top";
         }
     }
 }

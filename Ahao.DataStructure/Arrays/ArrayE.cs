@@ -201,7 +201,7 @@ namespace Ahao.DataStructure
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append(string.Format($"ArrayOne: Count={N}, Capacity={data.Length }\n"));
+            //sb.Append(string.Format($"ArrayOne: Count={N}, Capacity={data.Length }\n"));
             sb.Append("[");
             for (int i = 0; i < N; i++)
             {
