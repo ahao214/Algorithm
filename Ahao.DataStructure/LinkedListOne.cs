@@ -174,12 +174,12 @@ namespace Ahao.DataStructure
         #region 删除
 
         //根据索引删除元素
-        public E Remove(int index)
+        public E RemoveIndex(int index)
         {
             if (index < 0 || index >= N)
                 throw new ArgumentException("非法索引");
 
-            if(index ==0)
+            if (index == 0)
             {
                 Node delNode = head;
                 head = head.next;
@@ -201,15 +201,45 @@ namespace Ahao.DataStructure
 
         public E RemoveFirst()
         {
-            return Remove(0);
+            return RemoveIndex(0);
         }
 
         public E RemoveLast()
         {
-            return Remove(N - 1);
+            return RemoveIndex(N - 1);
         }
 
+        //删除链表中指定的结点
+        public void RemoveEle(E e)
+        {
+            if (head == null)
+                return;
 
+            if (head.e.Equals(e))
+            {
+                head = head.next;
+                N--;
+            }
+            else
+            {
+                Node cur = head;
+                Node pre = null;
+                while (cur != null)
+                {
+                    if (cur.e.Equals(e))
+                        break;
+
+                    pre = cur;
+                    cur = cur.next;
+                }
+                if (cur != null)
+                {
+                    pre.next = pre.next.next;
+                    N--;
+                }
+            }
+
+        }
 
         #endregion
 
