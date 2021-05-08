@@ -123,7 +123,20 @@ namespace Ahao.DataStructure
 
         #endregion
 
-        
+        #region 修改
+
+        public void Set(int index, E newE)
+        {
+            if (index < 0 || index >= N)
+                throw new ArgumentException("非法索引");
+
+            Node cur = head;
+            for (int i = 0; i < index; i++)
+                cur = cur.next;
+            cur.e = newE;
+        }
+
+        #endregion
 
 
 
