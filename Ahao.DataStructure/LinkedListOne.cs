@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -49,6 +50,57 @@ namespace Ahao.DataStructure
         {
             get { return N == 0; }
         }
+
+        #region 添加
+
+        public void Add(int index, E e)
+        {
+            if (index < 0 || index > N)
+                throw new ArgumentException("非法索引");
+
+            if (index == 0)
+            {
+                //Node node = new Node(e);
+                //node.next = head;
+                //head = node;
+                //上面三句代码可以用下面的一句代码代替
+                head = new Node(e, head);
+            }
+            else
+            {
+                Node pre = head;
+                //找到要插入的元素的前一个元素所在的位置
+                for (int i = 0; i < index - 1; i++)
+                    pre = pre.next;
+                //Node node = new Node(e);
+                //node.next = pre.next;
+                //pre.next = node;
+
+                //上面三句代码可以用下面的一句代码代替
+                pre.next = new Node(e, pre.next);
+
+            }
+            N++;
+        }
+
+
+        public void AddFirst(E e)
+        {
+            Add(0, e);
+        }
+
+        public void AddLast(E e)
+        {
+            Add(N, e);
+        }
+
+        #endregion 
+
+
+
+
+
+
 
 
 
