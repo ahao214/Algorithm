@@ -171,6 +171,48 @@ namespace Ahao.DataStructure
 
         #endregion
 
+        #region 删除
+
+        //根据索引删除元素
+        public E Remove(int index)
+        {
+            if (index < 0 || index >= N)
+                throw new ArgumentException("非法索引");
+
+            if(index ==0)
+            {
+                Node delNode = head;
+                head = head.next;
+                N--;
+                return delNode.e;
+            }
+            else
+            {
+                Node pre = head;
+                for (int i = 0; i < index; i++)
+                    pre = pre.next;
+
+                Node delNode = pre.next;
+                pre.next = delNode.next;
+                N--;
+                return delNode.e;
+            }
+        }
+
+        public E RemoveFirst()
+        {
+            return Remove(0);
+        }
+
+        public E RemoveLast()
+        {
+            return Remove(N - 1);
+        }
+
+
+
+        #endregion
+
 
     }
 }
