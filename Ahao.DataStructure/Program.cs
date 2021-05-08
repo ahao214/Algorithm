@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Ahao.DataStructure;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -120,39 +121,58 @@ namespace Ahao.DataStructure
 
             #region 栈
 
-            WriteLine("栈-Begin");
+            //WriteLine("栈-Begin");
 
-            WriteLine("数组栈");
-            ArrayOneStack<int> stack = new ArrayOneStack<int>();
-            for (int i = 0; i < 5; i++)
-            {
-                stack.Push(i);
-                WriteLine(stack);
-            }
+            //WriteLine("数组栈");
+            //ArrayOneStack<int> stack = new ArrayOneStack<int>();
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    stack.Push(i);
+            //    WriteLine(stack);
+            //}
 
-            //出栈
-            stack.Pop();
-            WriteLine("出栈之后");
-            WriteLine(stack);
+            ////出栈
+            //stack.Pop();
+            //WriteLine("出栈之后");
+            //WriteLine(stack);
 
-            WriteLine("链表栈");
-            LinkedListOneStack<int> lstStack = new LinkedListOneStack<int>();
-            for (int i = 0; i < 5; i++)
-            {
-                lstStack.Push(i);
-                WriteLine(lstStack);
-            }
-            //出栈
-            lstStack.Pop();
-            WriteLine("出栈之后");
-            WriteLine(lstStack);
+            //WriteLine("链表栈");
+            //LinkedListOneStack<int> lstStack = new LinkedListOneStack<int>();
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    lstStack.Push(i);
+            //    WriteLine(lstStack);
+            //}
+            ////出栈
+            //lstStack.Pop();
+            //WriteLine("出栈之后");
+            //WriteLine(lstStack);
 
 
-            WriteLine("栈-End");
+            //WriteLine("栈-End");
 
             #endregion
 
             WriteLine("-------------------------");
+
+            #region 数组队列
+
+            ArrayOneQueue<int> arr = new ArrayOneQueue<int>();
+            for (int i=0;i<5;i++)
+            {
+                //入队
+                arr.Enqueue(i);
+                WriteLine(arr);
+            }
+            //出队
+            arr.Dequeue();
+            WriteLine("出队之后");
+            WriteLine(arr);
+
+
+            #endregion
+
+
 
 
             WriteLine("-------------------------");

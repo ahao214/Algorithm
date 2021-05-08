@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="StackFiles\ArrayOneQueue.cs" />
     <Compile Include="StackFiles\ArrayOneStack.cs" />
     <Compile Include="Arrays\ArrayE.cs" />
     <Compile Include="Arrays\ArrayOne.cs" />
+    <Compile Include="StackFiles\IQueue.cs" />
     <Compile Include="StackFiles\IStack.cs" />
     <Compile Include="LinkedLists\LinkedListOne.cs" />
     <Compile Include="Program.cs" />
