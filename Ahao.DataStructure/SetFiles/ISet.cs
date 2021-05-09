@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ahao.DataStructure
 {
+    /// <summary>
+    /// 集合接口
+    /// </summary>
+    /// <typeparam name="E"></typeparam>
     interface ISet<E>
     {
         int Count { get; }
