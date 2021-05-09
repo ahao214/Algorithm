@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Arrays\ArrayTwo.cs" />
+    <Compile Include="DictionaryFiles\IDictionary.cs" />
+    <Compile Include="LinkedLists\LinkedListThree.cs" />
     <Compile Include="LinkedLists\LinkedListTwo.cs" />
     <Compile Include="QueueFiles\ArrayOneQueue.cs" />
     <Compile Include="QueueFiles\LinkedListTwoQueue.cs" />
