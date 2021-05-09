@@ -14,6 +14,6 @@ namespace Ahao.DataStructure.DictionaryFiles
         void Remove(Key key);
         bool ContainsKey(Key key);
         Value Get(Key key);
-        void Set(Key key, Value value);
+        void Set(Key key, Value newValue);
     }
 }
