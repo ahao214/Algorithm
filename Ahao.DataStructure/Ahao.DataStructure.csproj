@@ -54,6 +54,7 @@
     <Compile Include="LinkedLists\LinkedListOne.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StackFiles\LinkedListOneQueue.cs" />
     <Compile Include="StackFiles\LinkedListOneStack.cs" />
   </ItemGroup>
   <ItemGroup>
