@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Ahao.DataStructure
 {
+    /// <summary>
+    /// 数组队列
+    /// </summary>
+    /// <typeparam name="E"></typeparam>
     class ArrayTwoQueue<E> : IQueue<E>
     {
         private ArrayTwo<E> arr;
