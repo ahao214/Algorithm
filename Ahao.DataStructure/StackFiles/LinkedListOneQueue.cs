@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.DataStructure.StackFiles
+namespace Ahao.DataStructure
 {
     /// <summary>
     /// 链表队列
