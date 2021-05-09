@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ahao.DataStructure.DictionaryFiles
 {
+    /// <summary>
+    /// 字典接口
+    /// </summary>
+    /// <typeparam name="Key"></typeparam>
+    /// <typeparam name="Value"></typeparam>
     interface IDictionary<Key,Value>
     {
         int Count { get; }
