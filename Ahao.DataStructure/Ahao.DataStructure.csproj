@@ -52,6 +52,7 @@
     <Compile Include="QueueFiles\LinkedListTwoQueue.cs" />
     <Compile Include="SetFiles\ISet.cs" />
     <Compile Include="SetFiles\LinkedListOneSet.cs" />
+    <Compile Include="SortedArrays\SortedArrayOne.cs" />
     <Compile Include="StackFiles\ArrayOneStack.cs" />
     <Compile Include="Arrays\ArrayE.cs" />
     <Compile Include="Arrays\ArrayOne.cs" />
