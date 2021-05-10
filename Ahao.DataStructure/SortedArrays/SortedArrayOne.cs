@@ -97,7 +97,13 @@ namespace Ahao.DataStructure
             return keys[k];
         }
 
-
+        public bool Contains(Key key)
+        {
+            int i = Rank(key);
+            if (i < N && keys[i].CompareTo(key) == 0)
+                return true;
+            return false;
+        }
 
         //数组容量的修改
         private void ResetCapacity(int newCapacity)
