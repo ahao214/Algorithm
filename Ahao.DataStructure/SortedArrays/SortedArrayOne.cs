@@ -78,6 +78,19 @@ namespace Ahao.DataStructure
             keys = newKeys;
         }
 
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("[");
+            for (int i = 0; i < N; i++)
+            {
+                sb.Append(keys[i]);
+                if (i != N - 1)
+                    sb.Append(", ");
+            }
+            sb.Append("]");
+            return sb.ToString();
+        }
 
     }
 }
