@@ -46,5 +46,38 @@ namespace Ahao.DataStructure
             }
         }
 
+
+        //非递归添加
+        public void add(E e)
+        {
+            if (root == null)
+            {
+                root = new Node(e);
+                N++;
+                return;
+            }
+
+            Node pre = null;
+            Node cur = null;
+            while (cur != null)
+            {
+                if (e.CompareTo(cur.e) == 0)
+                    return;
+                pre = cur;
+                if (e.CompareTo(cur.e) < 0)
+                    cur = cur.left;
+                else
+                    cur = cur.righ;
+            }
+
+            cur = new Node(e);
+            if (e.CompareTo(cur.e) < 0)
+                pre.left = cur;
+            else
+                pre.righ = cur;
+            N++;
+
+        }
+
     }
 }
