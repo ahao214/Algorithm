@@ -67,6 +67,17 @@ namespace Ahao.DataStructure
             keys[N] = default(Key);
         }
 
+        //数组容量的修改
+        private void ResetCapacity(int newCapacity)
+        {
+            Key[] newKeys = new Key[newCapacity];
+            for (int i = 0; i < N; i++)
+            {
+                newKeys[i] = keys[i];
+            }
+            keys = newKeys;
+        }
+
 
     }
 }
