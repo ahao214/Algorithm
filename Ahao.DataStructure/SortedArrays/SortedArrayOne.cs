@@ -72,6 +72,24 @@ namespace Ahao.DataStructure
                 N = keys.Length / 2;
         }
 
+        //数组最小值
+        public Key Min()
+        {
+            if (IsEmpty)
+                throw new ArgumentException("数组为空");
+            return keys[0];
+        }
+
+        //数组最大值
+        public Key Max()
+        {
+            if (IsEmpty)
+                throw new ArgumentException("数组为空");
+
+            return keys[N - 1];
+        }
+
+
         //数组容量的修改
         private void ResetCapacity(int newCapacity)
         {
