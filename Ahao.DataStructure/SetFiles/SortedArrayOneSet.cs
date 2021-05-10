@@ -35,19 +35,19 @@ namespace Ahao.DataStructure
             }
         }
 
-        public void Add(Key e)
+        public void Add(Key key)
         {
-            s.Add(e);
+            s.Add(key);
         }
 
-        public bool Contains(Key e)
+        public bool Contains(Key key)
         {
-            return s.Contains(e);
+            return s.Contains(key);
         }
 
-        public void Remove(Key e)
+        public void Remove(Key key)
         {
-            s.Remove(e);
+            s.Remove(key);
         }
     }
 }
