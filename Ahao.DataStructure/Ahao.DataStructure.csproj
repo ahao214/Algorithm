@@ -64,6 +64,7 @@
     <Compile Include="QueueFiles\LinkedListOneQueue.cs" />
     <Compile Include="StackFiles\LinkedListOneStack.cs" />
     <Compile Include="TestHelper.cs" />
+    <Compile Include="TestSearch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
