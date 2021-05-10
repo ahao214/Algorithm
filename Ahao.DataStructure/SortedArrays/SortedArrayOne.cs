@@ -23,6 +23,7 @@ namespace Ahao.DataStructure
         public int Count { get { return N; } }
         public bool IsEmpty { get { return N == 0; } }
 
+        //查询元素的索引
         public int Rank(Key key)
         {
             int left = 0;
@@ -39,6 +40,20 @@ namespace Ahao.DataStructure
             }
             return left;
         }
+
+        //添加
+        public void Add(Key key )
+        {
+            int index = Rank(key);
+            if (index < N && keys[index].CompareTo(key) == 0)
+                return;
+            for (int j = N - 1; j >= index; j--)
+                keys[j + 1] = keys[j];
+            keys[i] = key;
+            N++;
+        }
+
+
 
 
     }
