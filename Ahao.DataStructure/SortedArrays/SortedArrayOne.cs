@@ -45,6 +45,9 @@ namespace Ahao.DataStructure
         public void Add(Key key)
         {
             int index = Rank(key);
+            if (N == keys.Length)
+                N = keys.Length * 2;
+
             if (index < N && keys[index].CompareTo(key) == 0)
                 return;
             for (int j = N - 1; j >= index; j--)
@@ -65,6 +68,8 @@ namespace Ahao.DataStructure
                 keys[j - 1] = keys[j];
             N--;
             keys[N] = default(Key);
+            if (N == keys.Length / 4)
+                N = keys.Length / 2;
         }
 
         //数组容量的修改
