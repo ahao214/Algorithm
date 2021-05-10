@@ -42,7 +42,7 @@ namespace Ahao.DataStructure
         }
 
         //添加
-        public void Add(Key key )
+        public void Add(Key key)
         {
             int index = Rank(key);
             if (index < N && keys[index].CompareTo(key) == 0)
@@ -53,7 +53,19 @@ namespace Ahao.DataStructure
             N++;
         }
 
-
+        //删除
+        public void Remove(Key key)
+        {
+            if (IsEmpty)
+                return;
+            int i = Rank(key);
+            if (i == N || keys[i].CompareTo(key) != 0)
+                return;
+            for (int j = i + 1; j <= N - 1; j++)
+                keys[j - 1] = keys[j];
+            N--;
+            keys[N] = default(Key);
+        }
 
 
     }
