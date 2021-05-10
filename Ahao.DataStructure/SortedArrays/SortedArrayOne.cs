@@ -89,6 +89,15 @@ namespace Ahao.DataStructure
             return keys[N - 1];
         }
 
+        public Key Select(int k)
+        {
+            if (k < 0 || k >= N)
+                throw new ArgumentException("索引越界");
+
+            return keys[k];
+        }
+
+
 
         //数组容量的修改
         private void ResetCapacity(int newCapacity)
