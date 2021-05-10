@@ -46,6 +46,7 @@
     <Compile Include="Arrays\ArrayTwo.cs" />
     <Compile Include="DictionaryFiles\IDictionary.cs" />
     <Compile Include="DictionaryFiles\LinkedListThreeDictionary.cs" />
+    <Compile Include="DictionaryFiles\SortedArrayDictionary.cs" />
     <Compile Include="LinkedLists\LinkedListThree.cs" />
     <Compile Include="LinkedLists\LinkedListTwo.cs" />
     <Compile Include="QueueFiles\ArrayOneQueue.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="SetFiles\LinkedListOneSet.cs" />
     <Compile Include="SetFiles\SortedArrayOneSet.cs" />
     <Compile Include="SortedArrays\SortedArrayOne.cs" />
+    <Compile Include="SortedArrays\SortedArrayTwo.cs" />
     <Compile Include="StackFiles\ArrayOneStack.cs" />
     <Compile Include="Arrays\ArrayE.cs" />
     <Compile Include="Arrays\ArrayOne.cs" />

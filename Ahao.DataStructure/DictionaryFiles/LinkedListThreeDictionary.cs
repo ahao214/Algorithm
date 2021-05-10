@@ -12,7 +12,7 @@ namespace Ahao.DataStructure
     /// </summary>
     /// <typeparam name="Key"></typeparam>
     /// <typeparam name="Value"></typeparam>
-    class LinkedListThreeDictionary<Key, Value> : Ahao.DataStructure.DictionaryFiles.IDictionary<Key, Value>
+    class LinkedListThreeDictionary<Key, Value> : Ahao.DataStructure.IDictionary<Key, Value>
     {
         private LinkedListThree<Key, Value> list;
         public LinkedListThreeDictionary()

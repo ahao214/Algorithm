@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.DataStructure.DictionaryFiles
+namespace Ahao.DataStructure
 {
     /// <summary>
     /// 字典接口
