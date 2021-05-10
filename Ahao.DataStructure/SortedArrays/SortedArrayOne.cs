@@ -49,7 +49,7 @@ namespace Ahao.DataStructure
                 return;
             for (int j = N - 1; j >= index; j--)
                 keys[j + 1] = keys[j];
-            keys[i] = key;
+            keys[index] = key;
             N++;
         }
 
