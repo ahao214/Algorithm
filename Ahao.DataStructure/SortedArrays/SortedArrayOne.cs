@@ -105,6 +105,28 @@ namespace Ahao.DataStructure
             return false;
         }
 
+        //找出小于或等于key的最大值
+        public Key Floor(Key key)
+        {
+            int i = Rank(key);
+            if (i < N && keys[i].CompareTo(key) == 0)
+                return keys[i];
+            if (i == 0)
+                throw new ArgumentException("没有找打小于或等于" + key + "的最大值");
+            else
+                return keys[i - 1];
+        }
+
+        //找出大于或等于key的最小值
+        public Key Ceiling(Key key)
+        {
+            int i = Rank(key);
+            if (i == N)
+                throw new ArgumentException("没有找打大于或等于" + key + "的最小值");
+            else
+                return keys[i];
+        }
+
         //数组容量的修改
         private void ResetCapacity(int newCapacity)
         {
