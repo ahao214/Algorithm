@@ -159,7 +159,7 @@ namespace Ahao.DataStructure
             #region 数组队列
 
             ArrayOneQueue<int> arr = new ArrayOneQueue<int>();
-            for (int i=0;i<5;i++)
+            for (int i = 0; i < 5; i++)
             {
                 //入队
                 arr.Enqueue(i);
@@ -186,6 +186,8 @@ namespace Ahao.DataStructure
             bst.InOrder();
             WriteLine("----");
             bst.PostOrder();
+            WriteLine("----");
+            bst.LevelOrder();
 
             #endregion
 

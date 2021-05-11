@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace Ahao.DataStructure
@@ -189,6 +191,26 @@ namespace Ahao.DataStructure
 
         #endregion
 
+        #region 层序遍历
+
+
+        //层序遍历以node为根的二叉查找树
+        public void LevelOrder()
+        {
+            Queue<Node> q = new Queue<Node>();
+            q.Enqueue(root);
+            while (q.Count != 0)
+            {
+                Node cur = q.Dequeue();
+                Console.WriteLine(cur.e);
+                if (cur.left != null)
+                    q.Enqueue(cur.left);
+                if (cur.right != null)
+                    q.Enqueue(cur.right);
+            }
+        }
+
+        #endregion
 
 
     }
