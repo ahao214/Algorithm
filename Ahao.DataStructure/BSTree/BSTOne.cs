@@ -216,6 +216,8 @@ namespace Ahao.DataStructure
 
         public E Min()
         {
+            if (IsEmpty)
+                throw new ArgumentException("空树");
             return Min(root).e;
         }
 
@@ -229,6 +231,8 @@ namespace Ahao.DataStructure
 
         public E Max()
         {
+            if (IsEmpty)
+                throw new ArgumentException("空树");
             return Max(root).e;
         }
 
