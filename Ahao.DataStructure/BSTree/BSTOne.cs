@@ -266,6 +266,24 @@ namespace Ahao.DataStructure
             return node;
         }
 
+        public E RemoveMax()
+        {
+            E res = Max();
+            root = RemoveMax(root);
+            return res;
+        }
+
+        private Node RemoveMax(Node node)
+        {
+            if (node.right == null)
+            {
+                N--;
+                return node.left;
+            }
+            node.right = RemoveMax(node.right);
+            return node;
+        }
+
         #endregion
 
 

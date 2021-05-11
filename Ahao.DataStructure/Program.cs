@@ -192,6 +192,8 @@ namespace Ahao.DataStructure
             bst.RemoveMin();
             bst.InOrder();
             WriteLine("----");
+            bst.RemoveMax();
+            bst.InOrder();
 
 
             #endregion
