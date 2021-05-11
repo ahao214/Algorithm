@@ -182,7 +182,9 @@ namespace Ahao.DataStructure
             for (int i = 0; i < a.Length; i++)
                 bst.add(a[i]);
             bst.PreOrder();
-
+            WriteLine("----");
+            bst.InOrder();
+            WriteLine("----");
 
             #endregion
 

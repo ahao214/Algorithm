@@ -139,7 +139,7 @@ namespace Ahao.DataStructure
             PreOrder(root);
         }
 
-        //前序遍历以node为根的二叉查找树
+        //前序遍历以node为根的二叉查找树-根左右
         private void PreOrder(Node node)
         {
             if (node == null)
@@ -150,6 +150,26 @@ namespace Ahao.DataStructure
         }
 
         #endregion
+
+        #region 中序遍历
+
+        public void InOrder()
+        {
+            InOrder(root);
+        }
+
+        //中序遍历以node为根的二叉查找树-左根右的顺序
+        private void InOrder(Node node)
+        {
+            if (node == null)
+                return;
+            InOrder(node.left);
+            Console.WriteLine(node.e);
+            InOrder(node.right);
+        }
+
+        #endregion
+
 
 
     }
