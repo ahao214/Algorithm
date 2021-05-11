@@ -251,7 +251,7 @@ namespace Ahao.DataStructure
         public E RemoveMin()
         {
             E res = Min();
-            RemoveMin(root);
+            root = RemoveMin(root);
             return res;
         }
 
