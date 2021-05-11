@@ -286,6 +286,46 @@ namespace Ahao.DataStructure
 
         #endregion
 
+        #region 删除任意结点
 
+        public void Remove(E e)
+        {
+            root = Remove(root, e);
+        }
+
+        private Node Remove(Node node, E e)
+        {
+            if (node == null)
+                return null;
+            if (e.CompareTo(node.e) < 0)
+            {
+                node.left = Remove(node.left, e);
+                return node;
+            }
+            else if (e.CompareTo(node.e) > 0)
+            {
+                node.right = Remove(node.right, e);
+                return node;
+            }
+            else
+            {
+                if (node.right == null)
+                {
+                    N--;
+                    return node.left;
+                }
+                if (node.left == null)
+                {
+                    N--;
+                    return node.right;
+                }
+                Node s = Min(node.right);
+                s.right = RemoveMin(node.right);
+                s.left = node.left;
+                return s;
+            }
+        }
+
+        #endregion
     }
 }
