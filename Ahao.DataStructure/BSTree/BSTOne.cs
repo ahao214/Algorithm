@@ -212,6 +212,36 @@ namespace Ahao.DataStructure
 
         #endregion
 
+        #region 最小值和最大值
+
+        public E Min()
+        {
+            return Min(root).e;
+        }
+
+        //返回以node为根的二叉查找树的最小值的所在的结点
+        private Node Min(Node node)
+        {
+            if (node.left == null)
+                return node;
+            return Min(node.left);
+        }
+
+        public E Max()
+        {
+            return Max(root).e;
+        }
+
+        //返回以node为根的二叉查找树的最大值的所在的结点
+        private Node Max(Node node)
+        {
+            if (node.right == null)
+                return node;
+            return Max(node.right);
+        }
+
+        #endregion
+
 
     }
 }
