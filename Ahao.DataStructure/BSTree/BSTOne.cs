@@ -75,7 +75,7 @@ namespace Ahao.DataStructure
             cur = new Node(e);
             if (e.CompareTo(pre.e) < 0)
                 pre.left = cur;
-            else 
+            else
                 pre.right = cur;
             N++;
 
@@ -166,6 +166,25 @@ namespace Ahao.DataStructure
             InOrder(node.left);
             Console.WriteLine(node.e);
             InOrder(node.right);
+        }
+
+        #endregion
+
+        #region 后序遍历
+
+        public void PostOrder()
+        {
+            PostOrder(root);
+        }
+
+        //后序遍历以node为根的二叉查找树-左根右的顺序
+        private void PostOrder(Node node)
+        {
+            if (node == null)
+                return;
+            PostOrder(node.left);
+            PostOrder(node.right);
+            Console.WriteLine(node.e);
         }
 
         #endregion

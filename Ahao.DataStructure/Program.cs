@@ -185,6 +185,7 @@ namespace Ahao.DataStructure
             WriteLine("----");
             bst.InOrder();
             WriteLine("----");
+            bst.PostOrder();
 
             #endregion
 
