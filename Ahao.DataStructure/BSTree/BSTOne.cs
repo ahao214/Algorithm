@@ -246,6 +246,28 @@ namespace Ahao.DataStructure
 
         #endregion
 
+        #region 删除最大值和最小值
+
+        public E RemoveMin()
+        {
+            E res = Min();
+            RemoveMin(root);
+            return res;
+        }
+
+        private Node RemoveMin(Node node)
+        {
+            if (node.left == null)
+            {
+                N--;
+                return node.right;
+            }
+            node.left = RemoveMin(node.left);
+            return node;
+        }
+
+        #endregion
+
 
     }
 }

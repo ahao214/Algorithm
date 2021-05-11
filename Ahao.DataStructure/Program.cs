@@ -188,6 +188,11 @@ namespace Ahao.DataStructure
             bst.PostOrder();
             WriteLine("----");
             bst.LevelOrder();
+            WriteLine("----");
+            bst.RemoveMin();
+            bst.InOrder();
+            WriteLine("----");
+
 
             #endregion
 
