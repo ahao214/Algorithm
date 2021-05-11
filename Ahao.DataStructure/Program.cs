@@ -181,19 +181,7 @@ namespace Ahao.DataStructure
             BSTOne<int> bst = new BSTOne<int>();
             for (int i = 0; i < a.Length; i++)
                 bst.add(a[i]);
-            bst.PreOrder();
-            WriteLine("----");
-            bst.InOrder();
-            WriteLine("----");
-            bst.PostOrder();
-            WriteLine("----");
-            bst.LevelOrder();
-            WriteLine("----");
-            bst.RemoveMin();
-            bst.InOrder();
-            WriteLine("----");
-            bst.RemoveMax();
-            bst.InOrder();
+            WriteLine(bst.MaxHeight());
 
 
             #endregion

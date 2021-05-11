@@ -327,5 +327,30 @@ namespace Ahao.DataStructure
         }
 
         #endregion
+
+        #region 二叉树的高度
+
+        public int MaxHeight()
+        {
+            return MaxHeight(root);
+        }
+
+        private int MaxHeight(Node node)
+        {
+            if (node == null)
+                return 0;
+            int left = MaxHeight(node.left);
+            int right = MaxHeight(node.right);
+            return Math.Max(left, right) + 1;
+        }
+
+        #endregion
+
+
+
+
+
+
+
     }
 }
