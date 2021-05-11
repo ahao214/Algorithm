@@ -60,7 +60,7 @@ namespace Ahao.DataStructure
             }
 
             Node pre = null;
-            Node cur = null;
+            Node cur = root;
             while (cur != null)
             {
                 if (e.CompareTo(cur.e) == 0)
@@ -73,9 +73,9 @@ namespace Ahao.DataStructure
             }
 
             cur = new Node(e);
-            if (e.CompareTo(cur.e) < 0)
+            if (e.CompareTo(pre.e) < 0)
                 pre.left = cur;
-            else
+            else 
                 pre.right = cur;
             N++;
 
@@ -129,6 +129,25 @@ namespace Ahao.DataStructure
                 return Contains(node.right, e);
         }
 
+
+        #endregion
+
+        #region 前序遍历
+
+        public void PreOrder()
+        {
+            PreOrder(root);
+        }
+
+        //前序遍历以node为根的二叉查找树
+        private void PreOrder(Node node)
+        {
+            if (node == null)
+                return;
+            Console.WriteLine(node.e);
+            PreOrder(node.left);
+            PreOrder(node.right);
+        }
 
         #endregion
 

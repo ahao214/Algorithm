@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
@@ -172,10 +173,18 @@ namespace Ahao.DataStructure
 
             #endregion
 
-
-
-
             WriteLine("-------------------------");
+
+            #region 二叉树
+
+            int[] a = { 8, 4, 12, 2, 6, 10, 14 };
+            BSTOne<int> bst = new BSTOne<int>();
+            for (int i = 0; i < a.Length; i++)
+                bst.add(a[i]);
+            bst.PreOrder();
+
+
+            #endregion
 
 
             WriteLine("-------------------------");
