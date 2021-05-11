@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace Ahao.DataStructure
 {
@@ -46,6 +47,7 @@ namespace Ahao.DataStructure
             }
         }
 
+        #region 非递归添加
 
         //非递归添加
         public void add(E e)
@@ -79,6 +81,10 @@ namespace Ahao.DataStructure
 
         }
 
+        #endregion
+
+        #region 递归添加
+
         //递归添加
         public void Add(E e)
         {
@@ -101,6 +107,31 @@ namespace Ahao.DataStructure
 
             return node;
         }
+
+        #endregion
+
+        #region 查找元素
+
+        public bool Contains(E e)
+        {
+            return Contains(e);
+        }
+
+        private bool Contains(Node node, E e)
+        {
+            if (node == null)
+                return false;
+            if (e.CompareTo(node.e) == 0)
+                return true;
+            else if (e.CompareTo(node.e) < 0)
+                return Contains(node.left, e);
+            else
+                return Contains(node.right, e);
+        }
+
+
+        #endregion
+
 
     }
 }
