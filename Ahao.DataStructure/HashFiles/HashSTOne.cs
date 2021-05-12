@@ -46,5 +46,20 @@ namespace Ahao.DataStructure
                 N++;
             }
         }
+
+        public void Remove(Key key)
+        {
+            LinkedListOne<Key> lst = hashtable[Hash(key)];
+            if (lst.Contains(key))
+            {
+                lst.RemoveEle(key);
+                N--;
+            }
+        }
+
+
+
+
+
     }
 }
