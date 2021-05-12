@@ -49,12 +49,14 @@
     <Compile Include="DictionaryFiles\BSTTwoDictionary.cs" />
     <Compile Include="DictionaryFiles\IDictionary.cs" />
     <Compile Include="DictionaryFiles\LinkedListThreeDictionary.cs" />
+    <Compile Include="DictionaryFiles\RBTTwoDictionary.cs" />
     <Compile Include="DictionaryFiles\SortedArrayDictionary.cs" />
     <Compile Include="LinkedLists\LinkedListThree.cs" />
     <Compile Include="LinkedLists\LinkedListTwo.cs" />
     <Compile Include="QueueFiles\ArrayOneQueue.cs" />
     <Compile Include="QueueFiles\LinkedListTwoQueue.cs" />
     <Compile Include="RBTree\RBTOne.cs" />
+    <Compile Include="RBTree\RBTTwo.cs" />
     <Compile Include="SetFiles\RBTOneSet.cs" />
     <Compile Include="SetFiles\BSTOneSet.cs" />
     <Compile Include="SetFiles\ISet.cs" />
