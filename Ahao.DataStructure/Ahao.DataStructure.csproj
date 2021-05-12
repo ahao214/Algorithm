@@ -55,7 +55,7 @@
     <Compile Include="QueueFiles\ArrayOneQueue.cs" />
     <Compile Include="QueueFiles\LinkedListTwoQueue.cs" />
     <Compile Include="RBTree\RBTOne.cs" />
-    <Compile Include="RBTree\RBTOneSet.cs" />
+    <Compile Include="SetFiles\RBTOneSet.cs" />
     <Compile Include="SetFiles\BSTOneSet.cs" />
     <Compile Include="SetFiles\ISet.cs" />
     <Compile Include="SetFiles\LinkedListOneSet.cs" />
