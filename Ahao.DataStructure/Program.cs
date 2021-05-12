@@ -189,6 +189,19 @@ namespace Ahao.DataStructure
 
             WriteLine("-------------------------");
 
+            #region 红黑树
+
+            RBTOne<int> rbt = new RBTOne<int>();
+            int[] rbtArr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            for (int i = 0; i < rbtArr.Length; i++)
+            {
+                rbt.Add(rbtArr[i]);
+            }
+            WriteLine(rbt.MaxHeight());
+
+
+            #endregion
+
 
             WriteLine("-------------------------");
 
