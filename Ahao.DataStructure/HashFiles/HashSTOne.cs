@@ -57,6 +57,13 @@ namespace Ahao.DataStructure
             }
         }
 
+        public bool Contains(Key key)
+        {
+            LinkedListOne<Key> lst = hashtable[Hash(key)];
+            return lst.Contains(key);
+        }
+
+
 
 
 
