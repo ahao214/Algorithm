@@ -135,5 +135,27 @@ namespace Ahao.DataStructure
 
         #endregion
 
+        #region 包含元素
+
+        public bool Contains(E e)
+        {
+            return Contains(e);
+        }
+
+        private bool Contains(Node node, E e)
+        {
+            if (node == null)
+                return false;
+            if (e.CompareTo(node.e) == 0)
+                return true;
+            else if (e.CompareTo(node.e) < 0)
+                return Contains(node.left, e);
+            else
+                return Contains(node.right, e);
+        }
+
+
+        #endregion
+
     }
 }
