@@ -52,6 +52,7 @@
     <Compile Include="DictionaryFiles\RBTTwoDictionary.cs" />
     <Compile Include="DictionaryFiles\SortedArrayDictionary.cs" />
     <Compile Include="HashFiles\HashSTOne.cs" />
+    <Compile Include="HashFiles\HashSTTwo.cs" />
     <Compile Include="LinkedLists\LinkedListThree.cs" />
     <Compile Include="LinkedLists\LinkedListTwo.cs" />
     <Compile Include="QueueFiles\ArrayOneQueue.cs" />
