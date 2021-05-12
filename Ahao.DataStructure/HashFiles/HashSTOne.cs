@@ -33,6 +33,18 @@ namespace Ahao.DataStructure
             return (key.GetHashCode() & 0x7fffffff) % M;
         }
 
-
+        public void Add(Key key)
+        {
+            LinkedListOne<Key> lst = hashtable[Hash(key)];
+            if (lst.Contains(key))
+            {
+                return;
+            }
+            else
+            {
+                lst.AddFirst(key);
+                N++;
+            }
+        }
     }
 }
