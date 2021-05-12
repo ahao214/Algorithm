@@ -47,6 +47,7 @@
     <Compile Include="BSTree\BSTOne.cs" />
     <Compile Include="BSTree\BSTTwo.cs" />
     <Compile Include="DictionaryFiles\BSTTwoDictionary.cs" />
+    <Compile Include="DictionaryFiles\HashSTTwoDictionary.cs" />
     <Compile Include="DictionaryFiles\IDictionary.cs" />
     <Compile Include="DictionaryFiles\LinkedListThreeDictionary.cs" />
     <Compile Include="DictionaryFiles\RBTTwoDictionary.cs" />
