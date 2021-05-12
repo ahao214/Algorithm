@@ -65,7 +65,16 @@ namespace Ahao.DataStructure
             return node.color;
         }
 
-
+        //左旋转
+        private Node LeftRotate(Node node)
+        {
+            Node x = node.right;
+            node.right = x.left;
+            x.left = node;
+            x.color = node.color;
+            node.color = Red;
+            return x;
+        }
 
     }
 }
