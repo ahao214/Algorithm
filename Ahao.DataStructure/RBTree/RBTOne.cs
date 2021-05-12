@@ -87,5 +87,13 @@ namespace Ahao.DataStructure
             return x;
         }
 
+        //颜色翻转
+        private void FlipColor(Node node)
+        {
+            node.color = Red;
+            node.right.color = Black;
+            node.left.color = Black;
+        }
+
     }
 }
