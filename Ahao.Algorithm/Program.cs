@@ -2793,6 +2793,16 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 461.汉明距离
+
+            //int x = 1;
+            //int y = 4;
+            //HammingDistance hammingDistance = new HammingDistance();
+            //WriteLine(hammingDistance.Method(x, y));
+
+            #endregion
+
+
 
             ReadLine();
         }
