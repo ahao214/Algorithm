@@ -258,6 +258,7 @@
     <Compile Include="Simple\FirstUniqChar.cs" />
     <Compile Include="Simple\RangeSumBST.cs" />
     <Compile Include="Simple\RelativeSortArray.cs" />
+    <Compile Include="Simple\RemoveElements.cs" />
     <Compile Include="Simple\Rob.cs" />
     <Compile Include="Simple\RomanToInt.cs" />
     <Compile Include="Difficulty\SolveSudoku.cs" />
