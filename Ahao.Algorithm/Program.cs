@@ -2807,6 +2807,15 @@ namespace Ahao.Algorithm
 
             #endregion
 
+
+            #region 374. 猜数字大小
+
+            //GuessNumber guessNumber = new GuessNumber();
+            //int result = guessNumber.Method(10);
+            //WriteLine(result);
+
+            #endregion
+
             ReadLine();
         }
 

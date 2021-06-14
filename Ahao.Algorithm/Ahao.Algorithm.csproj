@@ -212,6 +212,7 @@
     <Compile Include="Simple\GetImportance.cs" />
     <Compile Include="Simple\GetMinimumDifference.cs" />
     <Compile Include="Simple\GetRow.cs" />
+    <Compile Include="Simple\GuessNumber.cs" />
     <Compile Include="Simple\HammingDistance.cs" />
     <Compile Include="Simple\HasCycle.cs" />
     <Compile Include="Simple\HasPathSum.cs" />
