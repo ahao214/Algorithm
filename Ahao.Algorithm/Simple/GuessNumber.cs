@@ -20,18 +20,19 @@ namespace Ahao.Algorithm.Simple
         public int BinSearch(int left, int right, int n)
         {
             int mid = left + (right - left) / 2;
-            if (guess(mid) < 0)
-            {
-                return BinSearch(left, mid, n);
-            }
-            else if (guess(mid) > 0)
-            {
-                return BinSearch(mid + 1, right, n);
-            }
-            else
-            {
-                return mid;
-            }
+            //if (guess(mid) < 0)
+            //{
+            //    return BinSearch(left, mid, n);
+            //}
+            //else if (guess(mid) > 0)
+            //{
+            //    return BinSearch(mid + 1, right, n);
+            //}
+            //else
+            //{
+            //    return mid;
+            //}
+            return mid;
         }
     }
 
