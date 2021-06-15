@@ -2807,7 +2807,6 @@ namespace Ahao.Algorithm
 
             #endregion
 
-
             #region 374. 猜数字大小
 
             //GuessNumber guessNumber = new GuessNumber();
@@ -2815,6 +2814,18 @@ namespace Ahao.Algorithm
             //WriteLine(result);
 
             #endregion
+
+            #region 852. 山脉数组的峰顶索引
+
+            //int[] arr = { 24, 69, 100, 99, 79, 78, 67, 36, 26, 19 };
+            //PeakIndexInMountainArray peakIndexInMountainArray = new PeakIndexInMountainArray();
+            //WriteLine(peakIndexInMountainArray.Method(arr));
+
+            #endregion
+
+
+
+
 
             ReadLine();
         }

@@ -253,6 +253,7 @@
     <Compile Include="Simple\MergeTwoLists.cs" />
     <Compile Include="Secondary\PermuteUnique.cs" />
     <Compile Include="Simple\NumJewelsInStones.cs" />
+    <Compile Include="Simple\PeakIndexInMountainArray.cs" />
     <Compile Include="Simple\PivotIndex.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
