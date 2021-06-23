@@ -2823,7 +2823,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 剑指 Offer 15. 二进制中1的个数
 
+            //uint n = 00000000000000000000000000001011;
+            //HammingWeight hammingWeight = new HammingWeight();
+            //WriteLine(hammingWeight.Method(n));
+
+            #endregion
 
 
 
