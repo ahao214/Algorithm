@@ -162,6 +162,7 @@
     <Compile Include="Secondary\LargestNumber.cs" />
     <Compile Include="Secondary\LengthOfLIS.cs" />
     <Compile Include="Secondary\LongestMountain.cs" />
+    <Compile Include="Secondary\MaxIceCream.cs" />
     <Compile Include="Secondary\MaxProduct.cs" />
     <Compile Include="Secondary\MaxScore.cs" />
     <Compile Include="Secondary\Merge.cs" />

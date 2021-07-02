@@ -2831,6 +2831,19 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 1833. 雪糕的最大数量
+
+            //MaxIceCream maxIceCream = new MaxIceCream();
+            //int[] costs = { 1, 3, 2, 4, 1 };
+            //int coins = 7;
+            //WriteLine(maxIceCream.Method(costs, coins));
+
+            #endregion
+
+
+
+
+
 
 
             ReadLine();
