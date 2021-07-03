@@ -155,6 +155,7 @@
     <Compile Include="Secondary\DeleteAndEarn.cs" />
     <Compile Include="Secondary\DetectCycle.cs" />
     <Compile Include="Secondary\FourSum.cs" />
+    <Compile Include="Secondary\FrequencySort.cs" />
     <Compile Include="Secondary\InsertIntoBST.cs" />
     <Compile Include="Secondary\IsPossible.cs" />
     <Compile Include="Secondary\JudgeSquareSum.cs" />
