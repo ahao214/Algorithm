@@ -2848,7 +2848,17 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 645. 错误的集合
 
+            //FindErrorNums findErrorNums = new FindErrorNums();
+            //int[] nums = { 1, 2, 2, 4 };
+            //int[] newNums = findErrorNums.Method(nums);
+            //foreach (var item in newNums)
+            //{
+            //    WriteLine(item);
+            //}
+
+            #endregion
 
 
 
