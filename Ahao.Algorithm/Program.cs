@@ -2864,7 +2864,7 @@ namespace Ahao.Algorithm
 
             //MajorityElement majorityElement = new MajorityElement();
             //int[] nums = { 1, 2, 5, 9, 5, 9, 5, 5, 5 };
-            //WriteLine(majorityElement.Method(nums));
+            //WriteLine(majorityElement.Method2(nums));
 
             #endregion
 

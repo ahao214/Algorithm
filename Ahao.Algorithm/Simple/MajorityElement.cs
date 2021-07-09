@@ -42,5 +42,32 @@ namespace Ahao.Algorithm.Simple
             }
             return count * 2 > len ? date : -1;
         }
+
+
+        public int Method2(int[] nums)
+        {            
+            int result = -1;
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            foreach(var item in nums)
+            {
+                if (!dic.ContainsKey(item))
+                {
+                    dic.Add(item, 1);
+                }
+                else
+                {
+                    dic[item] += 1;
+                }
+            }
+
+            foreach(var item in dic)
+            {
+                if(item.Value*2>nums.Length)
+                {
+                    result= item.Key;
+                }
+            }
+            return result;
+        }
     }
 }
