@@ -2860,6 +2860,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 面试题 17.10. 主要元素
+
+            MajorityElement majorityElement = new MajorityElement();
+            int[] nums = { 1, 2, 5, 9, 5, 9, 5, 5, 5 };
+            WriteLine(majorityElement.Method(nums));
+
+            #endregion
 
 
             ReadLine();

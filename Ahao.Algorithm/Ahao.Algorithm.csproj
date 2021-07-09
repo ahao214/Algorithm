@@ -248,6 +248,7 @@
     <Compile Include="Simple\LongestCommonPrefix.cs" />
     <Compile Include="Secondary\MaxArea.cs" />
     <Compile Include="Simple\LowestCommonAncestor.cs" />
+    <Compile Include="Simple\MajorityElement.cs" />
     <Compile Include="Simple\MaximumProduct.cs" />
     <Compile Include="Simple\MaxProfit.cs" />
     <Compile Include="Secondary\MaxScoreSightseeingPair.cs" />
