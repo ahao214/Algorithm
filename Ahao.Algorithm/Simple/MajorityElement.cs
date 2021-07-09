@@ -45,10 +45,10 @@ namespace Ahao.Algorithm.Simple
 
 
         public int Method2(int[] nums)
-        {            
+        {
             int result = -1;
             Dictionary<int, int> dic = new Dictionary<int, int>();
-            foreach(var item in nums)
+            foreach (var item in nums)
             {
                 if (!dic.ContainsKey(item))
                 {
@@ -60,11 +60,11 @@ namespace Ahao.Algorithm.Simple
                 }
             }
 
-            foreach(var item in dic)
+            foreach (var item in dic)
             {
-                if(item.Value*2>nums.Length)
+                if (item.Value * 2 > nums.Length)
                 {
-                    result= item.Key;
+                    result = item.Key;
                 }
             }
             return result;
