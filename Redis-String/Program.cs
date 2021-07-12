@@ -54,17 +54,17 @@ namespace Redis_String
 
                 #region 设置过期时间
 
-                //client.Set<string>("name", "ahao", TimeSpan.FromSeconds(10));
+                client.Set<string>("name", "ahao", TimeSpan.FromSeconds(10));
 
-                //client.Set<string>("address", "shanghai", TimeSpan.FromSeconds(1));
-                //Task.Delay(1 * 1000).Wait();
-                ////如果读不到key则返回一个""
-                //WriteLine(client.Get<string>("address"));
+                client.Set<string>("address", "shanghai", TimeSpan.FromSeconds(1));
+                Task.Delay(1 * 1000).Wait();
+                //如果读不到key则返回一个""
+                WriteLine(client.Get<string>("address"));
 
-                ////设置特定的过期时间
+                //设置特定的过期时间
 
-                ////指定明天的这个时候过期
-                //client.Set<string>("age", "18", DateTime.Now.AddDays(1));
+                //指定明天的这个时候过期
+                client.Set<string>("age", "18", DateTime.Now.AddDays(1));
 
                 #endregion
 
