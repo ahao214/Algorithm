@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 using ServiceStack.Redis;
 using static System.Console;
@@ -34,24 +35,38 @@ namespace Redis_String
 
                 #region 批量操作
 
-                var dicts = new Dictionary<string, string>();
-                dicts.Add("id", "101");
-                dicts.Add("name", "ahao");
-                dicts.Add("addresss", "shanghai");
-                //批量写入
-                client.SetAll(dicts);
-                //读取
-                var lst = client.GetAll<string>(new string[] { "id", "name", "address" });
-                foreach (var item in lst)
-                {
-                    WriteLine(item);
-                    WriteLine("key:" + item.Key);
-                    WriteLine("value:" + item.Value);
-                }
+                //var dicts = new Dictionary<string, string>();
+                //dicts.Add("id", "101");
+                //dicts.Add("name", "ahao");
+                //dicts.Add("addresss", "shanghai");
+                ////批量写入
+                //client.SetAll(dicts);
+                ////读取
+                //var lst = client.GetAll<string>(new string[] { "id", "name", "address" });
+                //foreach (var item in lst)
+                //{
+                //    WriteLine(item);
+                //    WriteLine("key:" + item.Key);
+                //    WriteLine("value:" + item.Value);
+                //}
 
                 #endregion
 
+                #region 设置过期时间
 
+                //client.Set<string>("name", "ahao", TimeSpan.FromSeconds(10));
+
+                //client.Set<string>("address", "shanghai", TimeSpan.FromSeconds(1));
+                //Task.Delay(1 * 1000).Wait();
+                ////如果读不到key则返回一个""
+                //WriteLine(client.Get<string>("address"));
+
+                ////设置特定的过期时间
+
+                ////指定明天的这个时候过期
+                //client.Set<string>("age", "18", DateTime.Now.AddDays(1));
+
+                #endregion
 
 
 
