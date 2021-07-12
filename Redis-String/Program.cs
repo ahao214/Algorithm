@@ -101,7 +101,20 @@ namespace Redis_String
 
                 #endregion
 
+                #region add和set
 
+                //使用add，如果之前的key存在，则新增失败
+                WriteLine(client.Add<string>("name", "Jack"));
+                WriteLine(client.Add<string>("name", "Jack666"));
+
+
+                //set是直接替换原来的key的值
+                WriteLine(client.Set("age", 19));
+                WriteLine(client.Set("age", 29));
+
+                
+
+                #endregion
 
             };
 
