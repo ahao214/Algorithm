@@ -87,7 +87,19 @@ namespace Redis_String
 
                 #endregion
 
+                #region 自增和自减
 
+                var a = client.Increment("counta", 1);
+                client.Increment("counta", 1);
+                client.Increment("counta", 1);
+                WriteLine(client.Get<int>("counta"));
+
+                var b = client.Decrement("countb", 1);
+                client.Decrement("countb", 1);
+                client.Decrement("countb", 1);
+                WriteLine(client.Get<int>("countb"));
+
+                #endregion
 
 
 
