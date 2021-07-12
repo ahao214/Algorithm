@@ -10,6 +10,10 @@ namespace Redis_String
 {
     class Program
     {
+        /// <summary>
+        /// redis的string操作
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             using (IRedisClient client = new RedisClient("127.0.0.1", 6379))
