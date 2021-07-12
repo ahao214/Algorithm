@@ -112,7 +112,14 @@ namespace Redis_String
                 WriteLine(client.Set("age", 19));
                 WriteLine(client.Set("age", 29));
 
-                
+                //判断key是否存在
+                WriteLine(client.ContainsKey("name"));
+                WriteLine(client.ContainsKey("addr"));
+
+                //获取当前key的类型
+                client.Set<string>("add", "beijing");
+                var type = client.GetEntryType("add");
+                WriteLine(type);
 
                 #endregion
 
