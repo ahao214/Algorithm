@@ -69,7 +69,6 @@ namespace Redis_String
 
                 #endregion
 
-
                 #region string操作-追加和获取旧值设置新值
 
                 //追加
@@ -81,13 +80,10 @@ namespace Redis_String
                 //WriteLine(client.Get<string>("name"));
 
                 //获取旧值设置新值
-                client.Set<string>("city", "shanghai");
-                var values = client.GetAndSetValue("city", "beijing");
-                WriteLine(JsonConvert.DeserializeObject<string>(values));
-                WriteLine("新值为：" + client.Get<string>("city"));
-
-
-
+                //client.Set<string>("city", "shanghai");
+                //var values = client.GetAndSetValue("city", "beijing");
+                //WriteLine(JsonConvert.DeserializeObject<string>(values));
+                //WriteLine("新值为：" + client.Get<string>("city"));
 
                 #endregion
 
