@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using ServiceStack;
 using ServiceStack.Redis;
 using static System.Console;
 
@@ -72,13 +73,18 @@ namespace Redis_String
                 #region string操作-追加和获取旧值设置新值
 
                 //追加
-                client.AppendToValue("name", "I");
-                WriteLine(client.Get<string>("name"));
-                client.AppendToValue("name", " love");
-                WriteLine(client.Get<string>("name"));
-                client.AppendToValue("name", " you!");
-                WriteLine(client.Get<string>("name"));
+                //client.AppendToValue("name", "I");
+                //WriteLine(client.Get<string>("name"));
+                //client.AppendToValue("name", " love");
+                //WriteLine(client.Get<string>("name"));
+                //client.AppendToValue("name", " you!");
+                //WriteLine(client.Get<string>("name"));
 
+                //获取旧值设置新值
+                client.Set<string>("city", "shanghai");
+                var values = client.GetAndSetValue("city", "beijing");
+                WriteLine(JsonConvert.DeserializeObject<string>(values));
+                WriteLine("新值为：" + client.Get<string>("city"));
 
 
 
