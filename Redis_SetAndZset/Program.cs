@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 using ServiceStack.Redis;
 using ServiceStack.Text;
 using static System.Console;
@@ -22,6 +24,18 @@ namespace Redis_SetAndZset
                 //清空当前数据库
                 client.FlushDb();
 
+                //set也是一个集合，自动去重的一个
+                var libai = new User() { ID = "01", Name = "李白" };
+                client.AddItemToSet("setId", JsonConvert.SerializeObject(libai));
+                client.AddItemToSet("setId", JsonConvert.SerializeObject(libai));
+                client.AddItemToSet("setId", JsonConvert.SerializeObject(libai));
+
+                var dufu = new User() { ID = "02", Name = "杜甫" };
+                client.AddItemToSet("setId", JsonConvert.SerializeObject(dufu));
+                WriteLine(client.GetSetCount("setId"));
+
+
+                ReadLine();
             };
         }
     }
