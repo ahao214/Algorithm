@@ -33,10 +33,18 @@ namespace Redis_List
 
                 #endregion
 
-                #region 追加
+                #region 从左侧向list添加 追加
 
                 var guanyu = new User() { ID = "03", Name = "关羽" };
                 client.PushItemToList("list", JsonConvert.SerializeObject(guanyu));
+
+                #endregion
+
+                #region 从右侧向list添加 插队
+
+                var zhangfei = new User() { ID = "04", Name = "张飞" };
+                client.PrependItemToList("list", JsonConvert.SerializeObject(zhangfei));
+
 
                 #endregion
 
