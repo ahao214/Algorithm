@@ -81,8 +81,26 @@ namespace Redis_SetAndZset
                 client.MoveBetweenSets("one", "two", "a");
                 client.MoveBetweenSets("one", "two", "d");
 
-                WriteLine("******************");
+                WriteLine("********交集**********");
 
+                //交叉并补
+
+                client.AddRangeToSet("a", new List<string>() { "1", "3", "5" });
+                client.AddRangeToSet("b", new List<string>() { "2", "4", "5", "6" });
+                //交集
+                var jjlist = client.GetIntersectFromSets("a", "b");
+                foreach (var item in jjlist )
+                {
+                    WriteLine(item);
+                }
+
+                WriteLine("********并集**********");
+                //并集
+                var bjlist = client.GetUnionFromSets("a", "b");
+                foreach(var item in bjlist)
+                {
+                    WriteLine(item);
+                }
 
                 ReadLine();
             };
