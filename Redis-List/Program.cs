@@ -85,13 +85,22 @@ namespace Redis_List
                 //WriteLine(client.RemoveEndFromList("list"));
 
                 //移除头部，并返回结果
-                WriteLine(client.RemoveStartFromList("list"));
-                WriteLine(client.RemoveStartFromList("list"));
-
+                //WriteLine(client.RemoveStartFromList("list"));
+                //WriteLine(client.RemoveStartFromList("list"));
 
                 #endregion
 
+                #region 扩展
 
+                //从一个list的尾部移除一个元素，然后把这个数据添加到另一个list的头部，并返回移除的值
+                //WriteLine(client.PopAndPushItemBetweenLists("list", "newlist"));
+                //WriteLine(client.PopAndPushItemBetweenLists("list", "newlist"));
+
+                //WriteLine(client.GetTimeToLive("list"));
+                //根据集合下标修改值
+                //client.SetItemInList("list", 0, "孙权");
+
+                #endregion
 
                 ReadLine();
             };
