@@ -26,36 +26,47 @@ namespace Redis_List
 
                 #region 顺序添加
 
-                var caocao = new User() { ID = "01", Name = "曹操" };
-                client.AddItemToList("list", JsonConvert.SerializeObject(caocao));
-                var liubei = new User() { ID = "02", Name = "刘备" };
-                client.AddItemToList("list", JsonConvert.SerializeObject(liubei));
+                //var caocao = new User() { ID = "01", Name = "曹操" };
+                //client.AddItemToList("list", JsonConvert.SerializeObject(caocao));
+                //var liubei = new User() { ID = "02", Name = "刘备" };
+                //client.AddItemToList("list", JsonConvert.SerializeObject(liubei));
 
                 #endregion
 
                 #region 从左侧向list添加 追加
 
-                var guanyu = new User() { ID = "03", Name = "关羽" };
-                client.PushItemToList("list", JsonConvert.SerializeObject(guanyu));
+                //var guanyu = new User() { ID = "03", Name = "关羽" };
+                //client.PushItemToList("list", JsonConvert.SerializeObject(guanyu));
 
                 #endregion
 
                 #region 从右侧向list添加 插队
 
-                var zhangfei = new User() { ID = "04", Name = "张飞" };
-                client.PrependItemToList("list", JsonConvert.SerializeObject(zhangfei));
+                //var zhangfei = new User() { ID = "04", Name = "张飞" };
+                //client.PrependItemToList("list", JsonConvert.SerializeObject(zhangfei));
 
                 #endregion
 
                 #region 设置过期时间
 
-                client.ExpireEntryAt("list", DateTime.Now.AddSeconds(1));
-                WriteLine(client.GetListCount("list"));
-                Task.Delay(2 * 1000).Wait();
-                WriteLine(client.GetListCount("list"));
+                //client.ExpireEntryAt("list", DateTime.Now.AddSeconds(1));
+                //WriteLine(client.GetListCount("list"));
+                //Task.Delay(2 * 1000).Wait();
+                //WriteLine(client.GetListCount("list"));
 
                 #endregion
 
+                #region 批量添加
+
+                client.AddRangeToList("lists", new List<string>() { "1", "2", "3", "4" });
+                //按下标来查询
+                var values = client.GetRangeFromList("lists", 0, 2);
+                foreach(var item in values)
+                {
+                    WriteLine(item);
+                }
+
+                #endregion
 
                 ReadLine();
             };
