@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -33,6 +34,20 @@ namespace Redis_SetAndZset
                 var dufu = new User() { ID = "02", Name = "杜甫" };
                 client.AddItemToSet("setId", JsonConvert.SerializeObject(dufu));
                 WriteLine(client.GetSetCount("setId"));
+
+
+                WriteLine("******************");
+                //批量
+                client.AddRangeToSet("setIds", new List<string>() { "01", "02", "03", "04", "05" });
+                WriteLine(client.GetSetCount("setIds"));
+
+                var sets = client.GetAllItemsFromSet("setIds");
+                foreach (var item in sets)
+                {
+                    WriteLine(item);
+                }
+
+                WriteLine("******************");
 
 
                 ReadLine();
