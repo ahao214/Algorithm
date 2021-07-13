@@ -64,6 +64,26 @@ namespace Redis_SetAndZset
 
                 WriteLine("******************");
 
+                client.AddRangeToSet("ids", new List<string>() { "01", "02", "03", "04", "05" });
+                //根据值去删除
+                client.RemoveItemFromSet("ids", "01");
+                client.RemoveItemFromSet("ids", "02");
+                var lst = client.GetAllItemsFromSet("ids");
+                foreach (var item in lst)
+                {
+                    WriteLine(item);
+                }
+
+
+
+                WriteLine("******************");
+
+
+
+
+                WriteLine("******************");
+
+
                 ReadLine();
             };
         }
