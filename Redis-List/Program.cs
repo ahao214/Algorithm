@@ -79,10 +79,15 @@ namespace Redis_List
                 var zhangfei = new User() { ID = "04", Name = "张飞" };
                 client.AddItemToList("list", JsonConvert.SerializeObject(zhangfei));
 
-                //先读取后移除
-                WriteLine(client.RemoveEndFromList("list"));
-                WriteLine(client.RemoveEndFromList("list"));
-                WriteLine(client.RemoveEndFromList("list"));
+                //移除尾部，并返回结果
+                //WriteLine(client.RemoveEndFromList("list"));
+                //WriteLine(client.RemoveEndFromList("list"));
+                //WriteLine(client.RemoveEndFromList("list"));
+
+                //移除头部，并返回结果
+                WriteLine(client.RemoveStartFromList("list"));
+                WriteLine(client.RemoveStartFromList("list"));
+
 
                 #endregion
 
