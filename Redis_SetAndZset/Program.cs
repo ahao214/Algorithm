@@ -102,6 +102,14 @@ namespace Redis_SetAndZset
                     WriteLine(item);
                 }
 
+
+                WriteLine("********差集**********");
+                var cjlist = client.GetDifferencesFromSet("a", "b");
+                foreach(var item in cjlist)
+                {
+                    WriteLine(item);
+                }
+
                 ReadLine();
             };
         }
