@@ -89,7 +89,7 @@ namespace Redis_SetAndZset
                 client.AddRangeToSet("b", new List<string>() { "2", "4", "5", "6" });
                 //交集
                 var jjlist = client.GetIntersectFromSets("a", "b");
-                foreach (var item in jjlist )
+                foreach (var item in jjlist)
                 {
                     WriteLine(item);
                 }
@@ -97,7 +97,7 @@ namespace Redis_SetAndZset
                 WriteLine("********并集**********");
                 //并集
                 var bjlist = client.GetUnionFromSets("a", "b");
-                foreach(var item in bjlist)
+                foreach (var item in bjlist)
                 {
                     WriteLine(item);
                 }
@@ -105,7 +105,7 @@ namespace Redis_SetAndZset
 
                 WriteLine("********差集**********");
                 var cjlist = client.GetDifferencesFromSet("a", "b");
-                foreach(var item in cjlist)
+                foreach (var item in cjlist)
                 {
                     WriteLine(item);
                 }
@@ -115,9 +115,66 @@ namespace Redis_SetAndZset
                 //zset 自动去重，而且多一个权重，或者份数的字段，自动排序
 
                 //当不给分数的时候，默认是最大值
-                client.AddItemToSortedSet("zsetid", "a");
+                client.AddItemToSortedSet("zsetid", "a", 90);
                 client.AddItemToSortedSet("zsetid", "b", 100);
-                client.AddItemToSortedSet("zsetid", "c");
+                client.AddItemToSortedSet("zsetid", "c", 80);
+
+                WriteLine("**************");
+                //批量添加
+                client.AddRangeToSortedSet("zsetidrange", new List<string>() { "a", "b" }, 100);
+
+
+                WriteLine("**************");
+                //正序查询
+                var zsetlist = client.GetAllItemsFromSortedSet("zsetid");
+                foreach (var item in zsetlist)
+                {
+                    WriteLine(item);
+                }
+
+                //倒序查询
+                var zsetDesc = client.GetAllItemsFromSortedSetDesc("zsetid");
+                foreach (var item in zsetDesc)
+                {
+                    WriteLine(item);
+                }
+
+
+                WriteLine("**************");
+
+                //根据下标获取
+                var dic = client.GetRangeFromSortedSet("zsetid", 0, 1);
+                foreach (var item in dic)
+                {
+                    WriteLine(item);
+                }
+
+                WriteLine("**************");
+                //返回份数
+                var dicScore = client.GetRangeWithScoresFromSortedSet("zsetid", 0, 1);
+                foreach (var item in dicScore)
+                {
+                    WriteLine(item.Key + ":" + item.Value);
+                }
+
+                WriteLine("**************");
+
+                //把集合中的交集放入到一个新的集合中
+                client.AddItemToSortedSet("x", "a", 1);
+                client.AddItemToSortedSet("x", "b", 2);
+                client.AddItemToSortedSet("x", "c", 3);
+                client.AddItemToSortedSet("x", "d", 4);
+           
+                client.AddItemToSortedSet("y", "c", 3);
+                client.AddItemToSortedSet("y", "d", 4);
+
+                client.AddItemToSortedSet("z", "c", 3);
+                client.AddItemToSortedSet("z", "e", 9);
+
+                var newDic = client.StoreIntersectFromSortedSets("newSet", "x", "y", "z");
+                WriteLine(newDic);
+
+
 
                 ReadLine();
             };
