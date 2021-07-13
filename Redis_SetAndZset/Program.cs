@@ -49,6 +49,11 @@ namespace Redis_SetAndZset
 
                 WriteLine("******************");
 
+                //随机获取set中的值
+                for (int i = 0; i < 10; i++)
+                {
+                    WriteLine(client.GetRandomItemFromSet("setIds"));
+                }
 
                 ReadLine();
             };
