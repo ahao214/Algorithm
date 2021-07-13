@@ -110,6 +110,15 @@ namespace Redis_SetAndZset
                     WriteLine(item);
                 }
 
+                WriteLine("***zset***");
+
+                //zset 自动去重，而且多一个权重，或者份数的字段，自动排序
+
+                //当不给分数的时候，默认是最大值
+                client.AddItemToSortedSet("zsetid", "a");
+                client.AddItemToSortedSet("zsetid", "b", 100);
+                client.AddItemToSortedSet("zsetid", "c");
+
                 ReadLine();
             };
         }
