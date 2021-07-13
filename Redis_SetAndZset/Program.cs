@@ -55,6 +55,15 @@ namespace Redis_SetAndZset
                     WriteLine(client.GetRandomItemFromSet("setIds"));
                 }
 
+                WriteLine("******************");
+                //随机删除，返回结果并删除
+                for (int i = 0; i < 3; i++)
+                {
+                    WriteLine(client.PopItemFromSet("setIds"));
+                }
+
+                WriteLine("******************");
+
                 ReadLine();
             };
         }
