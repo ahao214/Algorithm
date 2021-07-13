@@ -74,12 +74,12 @@ namespace Redis_SetAndZset
                     WriteLine(item);
                 }
 
-
-
                 WriteLine("******************");
 
-
-
+                //从原来的集合，移除值到新的一个集合总
+                client.AddRangeToSet("one", new List<string>() { "a", "b", "c", "d" });
+                client.MoveBetweenSets("one", "two", "a");
+                client.MoveBetweenSets("one", "two", "d");
 
                 WriteLine("******************");
 
