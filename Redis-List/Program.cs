@@ -58,15 +58,35 @@ namespace Redis_List
 
                 #region 批量添加
 
-                client.AddRangeToList("lists", new List<string>() { "1", "2", "3", "4" });
-                //按下标来查询
-                var values = client.GetRangeFromList("lists", 0, 2);
-                foreach(var item in values)
-                {
-                    WriteLine(item);
-                }
+                //client.AddRangeToList("lists", new List<string>() { "1", "2", "3", "4" });
+                ////按下标来查询
+                //var values = client.GetRangeFromList("lists", 0, 2);
+                //foreach(var item in values)
+                //{
+                //    WriteLine(item);
+                //}
 
                 #endregion
+
+                #region list栈操作 后进先出
+
+                var caocao = new User() { ID = "01", Name = "曹操" };
+                client.AddItemToList("list", JsonConvert.SerializeObject(caocao));
+                var liubei = new User() { ID = "02", Name = "刘备" };
+                client.AddItemToList("list", JsonConvert.SerializeObject(liubei));
+                var guanyu = new User() { ID = "03", Name = "关羽" };
+                client.AddItemToList("list", JsonConvert.SerializeObject(guanyu));
+                var zhangfei = new User() { ID = "04", Name = "张飞" };
+                client.AddItemToList("list", JsonConvert.SerializeObject(zhangfei));
+
+                //先读取后移除
+                WriteLine(client.RemoveEndFromList("list"));
+                WriteLine(client.RemoveEndFromList("list"));
+                WriteLine(client.RemoveEndFromList("list"));
+
+                #endregion
+
+
 
                 ReadLine();
             };
