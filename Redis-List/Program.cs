@@ -45,8 +45,17 @@ namespace Redis_List
                 var zhangfei = new User() { ID = "04", Name = "张飞" };
                 client.PrependItemToList("list", JsonConvert.SerializeObject(zhangfei));
 
+                #endregion
+
+                #region 设置过期时间
+
+                client.ExpireEntryAt("list", DateTime.Now.AddSeconds(1));
+                WriteLine(client.GetListCount("list"));
+                Task.Delay(2 * 1000).Wait();
+                WriteLine(client.GetListCount("list"));
 
                 #endregion
+
 
                 ReadLine();
             };
