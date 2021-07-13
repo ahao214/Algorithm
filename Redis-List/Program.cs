@@ -33,6 +33,13 @@ namespace Redis_List
 
                 #endregion
 
+                #region 追加
+
+                var guanyu = new User() { ID = "03", Name = "关羽" };
+                client.PushItemToList("list", JsonConvert.SerializeObject(guanyu));
+
+                #endregion
+
                 ReadLine();
             };
         }
