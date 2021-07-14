@@ -17,6 +17,7 @@ namespace Redis_LockServer
         {
             using (var client = new RedisClient("127.0.0.1",6379))
             {
+                //true 拿到锁,false 拿不到锁
                 bool isLock = client.Add<string>("Datalock:" + key, key, timeout);
                 if (isLock)
                 {
