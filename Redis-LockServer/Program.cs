@@ -43,6 +43,7 @@ namespace Redis_LockServer
                            //阻塞锁
                            //BlockingLock.Show(i, "akey", TimeSpan.FromSeconds(100));
                            //非阻塞锁
+                           //缺点 没有卖完
                            //ImmediatelyLock.Show(i, "akey", TimeSpan.FromSeconds(100));
                        });
                    });
