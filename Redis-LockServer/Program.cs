@@ -16,7 +16,7 @@ namespace Redis_LockServer
             var builder = new ConfigurationBuilder().AddCommandLine(args);
             var configuration = builder.Builder();
             int minute = int.Parse(configuration["minute"]);
-            using (var client =new RedisClient ("127.0.0.1",6379))
+            using (var client = new RedisClient("127.0.0.1", 6379))
             {
                 //先把库存数量预支进去
                 client.Set<int>("inventoryNum", 10);
@@ -26,9 +26,9 @@ namespace Redis_LockServer
 
             WriteLine($"在{minute}分0秒正式开启秒杀!");
             var flag = true;
-            while (flag )
+            while (flag)
             {
-                if(DateTime .Now .Minute ==minute )
+                if (DateTime.Now.Minute == minute)
                 {
                     flag = false;
                     Parallel.For(0, 30, (i) =>
@@ -40,6 +40,10 @@ namespace Redis_LockServer
                            NormalSecondsKill.Show();
                            //加锁的情况下
                            NormalSecondsKill.LockShow();
+                           //阻塞锁
+                           //BlockingLock.Show(i, "akey", TimeSpan.FromSeconds(100));
+                           //非阻塞锁
+                           //ImmediatelyLock.Show(i, "akey", TimeSpan.FromSeconds(100));
                        });
                    });
                 }
