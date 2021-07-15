@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Console;
 
 namespace MongoDBServer
 {
@@ -10,6 +11,22 @@ namespace MongoDBServer
     {
         static void Main(string[] args)
         {
+            try
+            {
+                {
+                    WriteLine("---json操作---");
+                    JsonOperation.Show();
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                WriteLine(ex.Message);
+            }
+
+
+            ReadLine();
         }
     }
 }
