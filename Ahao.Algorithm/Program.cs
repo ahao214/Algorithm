@@ -2870,9 +2870,9 @@ namespace Ahao.Algorithm
 
             #region 1846. 减小和重新排列数组后的最大元素
 
-            MaximumElementAfterDecrementingAndRearranging maximumElementAfterDecrementingAndRearranging = new MaximumElementAfterDecrementingAndRearranging();
-            int[] nums = { 100,1,1000 };
-            WriteLine(maximumElementAfterDecrementingAndRearranging.Method(nums));
+            //MaximumElementAfterDecrementingAndRearranging maximumElementAfterDecrementingAndRearranging = new MaximumElementAfterDecrementingAndRearranging();
+            //int[] nums = { 100,1,1000 };
+            //WriteLine(maximumElementAfterDecrementingAndRearranging.Method(nums));
 
             #endregion
 
