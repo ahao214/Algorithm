@@ -13,9 +13,10 @@ namespace Redis_LockServer
     {
         static void Main(string[] args)
         {
-            var builder = new ConfigurationBuilder().AddCommandLine(args);
-            var configuration = builder.Builder();
-            int minute = int.Parse(configuration["minute"]);
+            //var builder = new ConfigurationBuilder().AddCommandLine(args);
+            //var configuration = builder.Builder();
+            //int minute = int.Parse(configuration["minute"]);
+            int minute = 40;
             using (var client = new RedisClient("127.0.0.1", 6379))
             {
                 //先把库存数量预支进去
