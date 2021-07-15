@@ -13,6 +13,8 @@ namespace MongoDBServer
         {
             try
             {
+                //删除数据库
+                LinqOperation.DropDatabase();
                 {
                     WriteLine("---json操作---");
                     JsonOperation.Show();

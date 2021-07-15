@@ -8,5 +8,17 @@ namespace MongoDBServer
 {
     public class LinqOperation
     {
+        static DBbase<UserInfo> dbBase = new DBbase<UserInfo>();
+
+        public static void DropDatabase()
+        {
+            
+        }
+
+        public static void InsertOne()
+        {
+            
+        }
+
     }
 }
