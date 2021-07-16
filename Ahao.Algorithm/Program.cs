@@ -2876,7 +2876,14 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 剑指 Offer 53 - I. 在排序数组中查找数字 I
 
+            //Search search = new Search();
+            //int[] nums = { 1, 2, 2, 3, 4, 5 };
+            //int target = 6;
+            //WriteLine(search.Method(nums, target));
+
+            #endregion
 
             ReadLine();
         }

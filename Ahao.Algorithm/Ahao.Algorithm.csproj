@@ -270,6 +270,7 @@
     <Compile Include="Simple\Rob.cs" />
     <Compile Include="Simple\RomanToInt.cs" />
     <Compile Include="Difficulty\SolveSudoku.cs" />
+    <Compile Include="Simple\Search.cs" />
     <Compile Include="Simple\SmallerNumbersThanCurrent.cs" />
     <Compile Include="Simple\SortArrayByParityII.cs" />
     <Compile Include="Simple\SortColors.cs" />
