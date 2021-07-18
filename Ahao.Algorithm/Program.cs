@@ -2885,6 +2885,17 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 面试题 10.02. 变位词组
+
+            string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
+            GroupAnagrams groupAnagrams = new GroupAnagrams();
+            groupAnagrams.Method(strs);
+
+            #endregion
+
+
+
+
             ReadLine();
         }
 
