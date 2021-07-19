@@ -2887,12 +2887,20 @@ namespace Ahao.Algorithm
 
             #region 面试题 10.02. 变位词组
 
-            string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
-            GroupAnagrams groupAnagrams = new GroupAnagrams();
-            groupAnagrams.Method(strs);
+            //string[] strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
+            //GroupAnagrams groupAnagrams = new GroupAnagrams();
+            //groupAnagrams.Method(strs);
 
             #endregion
 
+            #region 1838. 最高频元素的频数
+
+            MaxFrequency maxFrequency = new MaxFrequency();
+            int[] nums = { 1, 3, 4, 5, 6 };
+            int k = 6;
+            WriteLine(maxFrequency.Method(nums, k));
+
+            #endregion
 
 
 

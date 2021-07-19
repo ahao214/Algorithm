@@ -164,6 +164,7 @@
     <Compile Include="Secondary\LargestNumber.cs" />
     <Compile Include="Secondary\LengthOfLIS.cs" />
     <Compile Include="Secondary\LongestMountain.cs" />
+    <Compile Include="Secondary\MaxFrequency.cs" />
     <Compile Include="Secondary\MaxIceCream.cs" />
     <Compile Include="Secondary\MaximumElementAfterDecrementingAndRearranging.cs" />
     <Compile Include="Secondary\MaxProduct.cs" />
