@@ -2895,12 +2895,22 @@ namespace Ahao.Algorithm
 
             #region 1838. 最高频元素的频数
 
-            MaxFrequency maxFrequency = new MaxFrequency();
-            int[] nums = { 1, 3, 4, 5, 6 };
-            int k = 6;
-            WriteLine(maxFrequency.Method(nums, k));
+            //MaxFrequency maxFrequency = new MaxFrequency();
+            //int[] nums = { 1, 3, 4, 5, 6 };
+            //int k = 6;
+            //WriteLine(maxFrequency.Method(nums, k));
 
             #endregion
+
+            #region 1877. 数组中最大数对和的最小值
+
+            MinPairSum minPairSum = new MinPairSum();
+            int[] nums = { 3, 5, 2, 3 };
+            WriteLine(minPairSum.Method(nums));
+
+            #endregion
+
+
 
 
 

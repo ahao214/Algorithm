@@ -171,6 +171,7 @@
     <Compile Include="Secondary\MaxScore.cs" />
     <Compile Include="Secondary\Merge.cs" />
     <Compile Include="Secondary\MinimumOperations.cs" />
+    <Compile Include="Secondary\MinPairSum.cs" />
     <Compile Include="Secondary\NthPersonGetsNthSeat.cs" />
     <Compile Include="Secondary\NthUglyNumber.cs" />
     <Compile Include="Secondary\NumDecodings.cs" />
