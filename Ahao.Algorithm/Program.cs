@@ -2910,7 +2910,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 剑指 Offer 52. 两个链表的第一个公共节点
 
+            GetIntersectionNode getIntersectionNode = new GetIntersectionNode();
+
+
+            #endregion
 
 
 
