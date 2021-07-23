@@ -2904,9 +2904,9 @@ namespace Ahao.Algorithm
 
             #region 1877. 数组中最大数对和的最小值
 
-            MinPairSum minPairSum = new MinPairSum();
-            int[] nums = { 3, 5, 2, 3 };
-            WriteLine(minPairSum.Method(nums));
+            //MinPairSum minPairSum = new MinPairSum();
+            //int[] nums = { 3, 5, 2, 3 };
+            //WriteLine(minPairSum.Method(nums));
 
             #endregion
 
@@ -2914,6 +2914,12 @@ namespace Ahao.Algorithm
 
             GetIntersectionNode getIntersectionNode = new GetIntersectionNode();
 
+
+            #endregion
+
+            #region 1893. 检查是否区域内所有整数都被覆盖
+
+            //IsCovered isCovered = new IsCovered();                    
 
             #endregion
 

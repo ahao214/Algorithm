@@ -229,6 +229,7 @@
     <Compile Include="Simple\Intersection.cs" />
     <Compile Include="Secondary\IntToRoman.cs" />
     <Compile Include="Simple\InvertTree.cs" />
+    <Compile Include="Simple\IsCovered.cs" />
     <Compile Include="Simple\IsHappy.cs" />
     <Compile Include="Simple\IsLongPressedName.cs" />
     <Compile Include="Simple\IsMonotonic.cs" />
