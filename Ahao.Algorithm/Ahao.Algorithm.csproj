@@ -256,6 +256,7 @@
     <Compile Include="Simple\LowestCommonAncestor.cs" />
     <Compile Include="Simple\MajorityElement.cs" />
     <Compile Include="Simple\MaximumProduct.cs" />
+    <Compile Include="Simple\MaximumTime.cs" />
     <Compile Include="Simple\MaxProfit.cs" />
     <Compile Include="Secondary\MaxScoreSightseeingPair.cs" />
     <Compile Include="Simple\MaxSubArray.cs" />

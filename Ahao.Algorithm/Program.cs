@@ -2923,6 +2923,13 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 1736. 替换隐藏数字得到的最晚时间
+
+            MaximumTime maximumTime = new MaximumTime();
+            string time = "2?:?0";
+            WriteLine(maximumTime.Method(time));
+
+            #endregion
 
 
             ReadLine();
