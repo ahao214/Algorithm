@@ -2937,8 +2937,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 581. 最短无序连续子数组
 
+            FindUnsortedSubarray findUnsortedSubarray = new FindUnsortedSubarray();
+            int[] nums = { 1,2,3,4 };
+            WriteLine(findUnsortedSubarray.Method(nums));
 
             #endregion
 
