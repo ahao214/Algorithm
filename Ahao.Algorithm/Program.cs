@@ -2945,13 +2945,18 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region
+            #region 611. 有效三角形的个数
 
-
+            TriangleNumber triangleNumber = new TriangleNumber();
+            int[] nums = { 2, 2, 3, 4 };
+            WriteLine(triangleNumber.Method(nums));
 
             #endregion
 
+            #region
 
+
+            #endregion
 
 
 
