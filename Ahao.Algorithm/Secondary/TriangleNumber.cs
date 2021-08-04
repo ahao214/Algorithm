@@ -32,6 +32,11 @@ namespace Ahao.Algorithm.Secondary
             return result;
         }
 
+        /// <summary>
+        /// 排序+二分查找
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
         public int Methods(int[] nums)
         {
             int result = 0;
