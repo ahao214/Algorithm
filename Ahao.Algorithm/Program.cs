@@ -2955,11 +2955,23 @@ namespace Ahao.Algorithm
 
             #region 1137. 第 N 个泰波那契数
 
-            Tribonacci tribonacci = new Tribonacci();
-            int n = 3;
-            WriteLine(tribonacci.Method(n));
+            //Tribonacci tribonacci = new Tribonacci();
+            //int n = 3;
+            //WriteLine(tribonacci.Method(n));
+            //WriteLine(Tribonacci.FuncOne(n));
+            //WriteLine(Tribonacci.FuncTwo(n));
 
             #endregion
+
+            #region 
+
+
+
+            #endregion
+
+
+
+
 
 
 
