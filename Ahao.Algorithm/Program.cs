@@ -2965,7 +2965,9 @@ namespace Ahao.Algorithm
 
             #region 
 
-
+            NumberOfArithmeticSlices numberOfArithmeticSlices = new NumberOfArithmeticSlices();
+            int[] nums = { 1, 2, 3, 4 };
+            WriteLine(numberOfArithmeticSlices.Method(nums));
 
             #endregion
 
