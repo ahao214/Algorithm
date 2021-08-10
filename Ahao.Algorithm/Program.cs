@@ -2971,8 +2971,10 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 283. 移动零
 
+            MoveZeroes moveZeroes = new MoveZeroes();
+            int[] nums = { 1, 0, 2, 0, 4, 8, 0 };
 
 
             #endregion
