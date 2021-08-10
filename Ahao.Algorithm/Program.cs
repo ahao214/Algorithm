@@ -2963,15 +2963,19 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 413. 等差数列划分
 
-            NumberOfArithmeticSlices numberOfArithmeticSlices = new NumberOfArithmeticSlices();
-            int[] nums = { 1, 2, 3, 4 };
-            WriteLine(numberOfArithmeticSlices.Method(nums));
+            //NumberOfArithmeticSlices numberOfArithmeticSlices = new NumberOfArithmeticSlices();
+            //int[] nums = { 1, 2, 3, 4 };
+            //WriteLine(numberOfArithmeticSlices.Method(nums));
 
             #endregion
 
+            #region 
 
+
+
+            #endregion
 
 
 
