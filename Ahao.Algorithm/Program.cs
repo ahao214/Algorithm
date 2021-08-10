@@ -2973,14 +2973,22 @@ namespace Ahao.Algorithm
 
             #region 283. 移动零
 
-            MoveZeroes moveZeroes = new MoveZeroes();
-            int[] nums = { 1, 0, 2, 0, 4, 8, 0 };
-
+            //MoveZeroes moveZeroes = new MoveZeroes();
+            //int[] nums = { 1, 0, 2, 0, 4, 8, 0 };
 
             #endregion
 
+            #region 237. 删除链表中的节点
+
+            //DeleteNode deleteNode = new DeleteNode();
+
+            #endregion
+
+            #region
 
 
+
+            #endregion
 
 
             ReadLine();

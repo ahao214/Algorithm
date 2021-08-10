@@ -210,6 +210,7 @@
     <Compile Include="Simple\Decode.cs" />
     <Compile Include="Simple\DeleteDuplicates.cs" />
     <Compile Include="Secondary\Exist.cs" />
+    <Compile Include="Simple\DeleteNode.cs" />
     <Compile Include="Simple\FairCandySwap.cs" />
     <Compile Include="Simple\FindErrorNums.cs" />
     <Compile Include="Simple\FindKthLargest.cs" />
