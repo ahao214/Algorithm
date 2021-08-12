@@ -2984,9 +2984,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region
+            #region 516. 最长回文子序列
 
-
+            LongestPalindromeSubseq longestPalindromeSubseq = new LongestPalindromeSubseq();
+            string str = "bbbab";
+            WriteLine(longestPalindromeSubseq.Method(str));
 
             #endregion
 
