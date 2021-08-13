@@ -116,6 +116,7 @@
     <Compile Include="Combinations\TestCombination.cs" />
     <Compile Include="Combinations\TestGetMaxNum.cs" />
     <Compile Include="Combinations\TestShowAllCombination.cs" />
+    <Compile Include="Difficulty\CountDigitOne.cs" />
     <Compile Include="LNode\LNode.cs" />
     <Compile Include="LNode\TestAdd.cs" />
     <Compile Include="LNode\TestConstructListK.cs" />

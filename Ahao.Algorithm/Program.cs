@@ -2,6 +2,7 @@
 using Ahao.Algorithm.BigData;
 using Ahao.Algorithm.CharacterString;
 using Ahao.Algorithm.Combinations;
+using Ahao.Algorithm.Difficulty;
 using Ahao.Algorithm.Numbers;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
@@ -2986,9 +2987,16 @@ namespace Ahao.Algorithm
 
             #region 516. 最长回文子序列
 
-            LongestPalindromeSubseq longestPalindromeSubseq = new LongestPalindromeSubseq();
-            string str = "bbbab";
-            WriteLine(longestPalindromeSubseq.Method(str));
+            //LongestPalindromeSubseq longestPalindromeSubseq = new LongestPalindromeSubseq();
+            //string str = "bbbab";
+            //WriteLine(longestPalindromeSubseq.Method(str));
+
+            #endregion
+
+            #region 233. 数字 1 的个数
+
+            CountDigitOne countDigitOne = new CountDigitOne();
+            WriteLine(countDigitOne.Method(3));
 
             #endregion
 
