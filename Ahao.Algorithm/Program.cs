@@ -2995,10 +2995,17 @@ namespace Ahao.Algorithm
 
             #region 233. 数字 1 的个数
 
-            CountDigitOne countDigitOne = new CountDigitOne();
-            WriteLine(countDigitOne.Method(3));
+            //CountDigitOne countDigitOne = new CountDigitOne();
+            //WriteLine(countDigitOne.Method(3));
 
             #endregion
+
+            #region 1583. 统计不开心的朋友
+
+            UnhappyFriends unhappyFriends = new UnhappyFriends();
+           
+            #endregion
+
 
 
             ReadLine();
