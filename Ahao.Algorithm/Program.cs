@@ -3003,10 +3003,16 @@ namespace Ahao.Algorithm
             #region 1583. 统计不开心的朋友
 
             UnhappyFriends unhappyFriends = new UnhappyFriends();
-           
+
             #endregion
 
+            #region 551. 学生出勤记录 I
 
+            CheckRecord checkRecord = new CheckRecord();
+            string s = "PPALLALPLL";
+            WriteLine(checkRecord.Method(s));
+
+            #endregion
 
             ReadLine();
         }
