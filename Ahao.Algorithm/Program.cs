@@ -3008,11 +3008,22 @@ namespace Ahao.Algorithm
 
             #region 551. 学生出勤记录 I
 
-            CheckRecord checkRecord = new CheckRecord();
-            string s = "PPALLALPLL";
-            WriteLine(checkRecord.Method(s));
+            //CheckRecord checkRecord = new CheckRecord();
+            //string s = "PPALLALPLL";
+            //WriteLine(checkRecord.Method(s));            
 
             #endregion
+
+            #region 最大公约数
+
+            Divisor divisor = new Divisor();
+            WriteLine(divisor.Gcd(3, 13));
+
+            #endregion
+
+
+
+
 
             ReadLine();
         }
