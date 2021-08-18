@@ -3017,11 +3017,17 @@ namespace Ahao.Algorithm
 
             #region 最大公约数
 
-            Divisor divisor = new Divisor();
-            WriteLine(divisor.Gcd(3, 13));
+            //Divisor divisor = new Divisor();
+            //WriteLine(divisor.Gcd(3, 13));
 
             #endregion
 
+            #region 345. 反转字符串中的元音字母
+
+            ReverseVowels reverseVowels = new ReverseVowels();
+            WriteLine(reverseVowels.Method("hello"));
+
+            #endregion
 
 
 
