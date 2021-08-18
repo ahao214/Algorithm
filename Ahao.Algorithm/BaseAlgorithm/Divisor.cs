@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.Algorithm.Simple
+namespace Ahao.Algorithm.BaseAlgorithm
 {
     /// <summary>
     /// 两个整数的最大公约数

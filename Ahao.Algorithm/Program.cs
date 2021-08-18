@@ -1,4 +1,5 @@
 ﻿using Ahao.Algorithm.ArrayNums;
+using Ahao.Algorithm.BaseAlgorithm;
 using Ahao.Algorithm.BigData;
 using Ahao.Algorithm.CharacterString;
 using Ahao.Algorithm.Combinations;
