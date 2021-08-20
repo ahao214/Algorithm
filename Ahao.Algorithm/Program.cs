@@ -3024,12 +3024,17 @@ namespace Ahao.Algorithm
 
             #region 345. 反转字符串中的元音字母
 
-            ReverseVowels reverseVowels = new ReverseVowels();
-            WriteLine(reverseVowels.Method("hello"));
+            //ReverseVowels reverseVowels = new ReverseVowels();
+            //WriteLine(reverseVowels.Method("hello"));
 
             #endregion
 
+            #region 541. 反转字符串 II
 
+            ReverseStr reverseStr = new ReverseStr();
+            WriteLine(reverseStr.Method("abcdefg", 2));
+
+            #endregion
 
 
             ReadLine();
