@@ -3031,10 +3031,20 @@ namespace Ahao.Algorithm
 
             #region 541. 反转字符串 II
 
-            ReverseStr reverseStr = new ReverseStr();
-            WriteLine(reverseStr.Method("abcdefg", 2));
+            //ReverseStr reverseStr = new ReverseStr();
+            //WriteLine(reverseStr.Method("abcdefg", 2));
 
             #endregion
+
+            #region 443. 压缩字符串
+
+            Compress compress = new Compress();            
+
+            #endregion
+
+
+
+
 
 
             ReadLine();

@@ -153,6 +153,7 @@
     <Compile Include="Secondary\CharacterReplacement.cs" />
     <Compile Include="Secondary\CoinChange.cs" />
     <Compile Include="Secondary\CombinationSumFour.cs" />
+    <Compile Include="Secondary\Compress.cs" />
     <Compile Include="Secondary\DeleteAndEarn.cs" />
     <Compile Include="Secondary\DetectCycle.cs" />
     <Compile Include="Secondary\EventualSafeNodes.cs" />
