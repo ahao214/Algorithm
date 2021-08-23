@@ -3038,10 +3038,16 @@ namespace Ahao.Algorithm
 
             #region 443. 压缩字符串
 
-            Compress compress = new Compress();            
+            //Compress compress = new Compress();            
 
             #endregion
 
+            #region 1646. 获取生成数组中的最大值
+
+            GetMaximumGenerated getMaximumGenerated = new GetMaximumGenerated();
+            WriteLine(getMaximumGenerated.Method(7));
+
+            #endregion
 
 
 
