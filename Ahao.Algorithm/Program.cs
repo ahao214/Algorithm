@@ -3044,11 +3044,17 @@ namespace Ahao.Algorithm
 
             #region 1646. 获取生成数组中的最大值
 
-            GetMaximumGenerated getMaximumGenerated = new GetMaximumGenerated();
-            WriteLine(getMaximumGenerated.Method(7));
+            //GetMaximumGenerated getMaximumGenerated = new GetMaximumGenerated();
+            //WriteLine(getMaximumGenerated.Method(7));
 
             #endregion
 
+            #region 797. 所有可能的路径
+
+            AllPathsSourceTarget allPathsSourceTarget = new AllPathsSourceTarget();
+
+
+            #endregion
 
 
 

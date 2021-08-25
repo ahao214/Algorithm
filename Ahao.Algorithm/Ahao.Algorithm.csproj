@@ -148,6 +148,7 @@
     <Compile Include="Numbers\TestVal.cs" />
     <Compile Include="Numbers\TestZeroCount.cs" />
     <Compile Include="Secondary\AddTwoNumbers.cs" />
+    <Compile Include="Secondary\AllPathsSourceTarget.cs" />
     <Compile Include="Secondary\BuildTree.cs" />
     <Compile Include="Secondary\CanPartition.cs" />
     <Compile Include="Secondary\CharacterReplacement.cs" />
