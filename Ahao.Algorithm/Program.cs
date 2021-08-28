@@ -3051,12 +3051,18 @@ namespace Ahao.Algorithm
 
             #region 797. 所有可能的路径
 
-            AllPathsSourceTarget allPathsSourceTarget = new AllPathsSourceTarget();
+            //AllPathsSourceTarget allPathsSourceTarget = new AllPathsSourceTarget();
 
 
             #endregion
 
+            #region 1480. 一维数组的动态和
 
+            RunningSum runningSum = new RunningSum();
+            int[] nums = { 1, 2, 3 };
+            int[] newNums = runningSum.Method(nums);
+
+            #endregion
 
 
             ReadLine();
