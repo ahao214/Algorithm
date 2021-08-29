@@ -300,6 +300,7 @@
     <Compile Include="Simple\SortColors.cs" />
     <Compile Include="Secondary\Subsets.cs" />
     <Compile Include="Simple\SortedSquares.cs" />
+    <Compile Include="Simple\SumOddLengthSubarrays.cs" />
     <Compile Include="Simple\SumOfLeftLeaves.cs" />
     <Compile Include="Secondary\TopKFrequent.cs" />
     <Compile Include="Secondary\WordBreak.cs" />

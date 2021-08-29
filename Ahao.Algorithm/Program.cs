@@ -3058,11 +3058,22 @@ namespace Ahao.Algorithm
 
             #region 1480. 一维数组的动态和
 
-            RunningSum runningSum = new RunningSum();
-            int[] nums = { 1, 2, 3 };
-            int[] newNums = runningSum.Method(nums);
+            //RunningSum runningSum = new RunningSum();
+            //int[] nums = { 1, 2, 3 };
+            //int[] newNums = runningSum.Method(nums);
 
             #endregion
+
+            #region 1588. 所有奇数长度子数组的和
+
+            SumOddLengthSubarrays sumOddLengthSubarrays = new SumOddLengthSubarrays();
+            int[] arr = { 1, 4, 2, 5, 3 };
+            WriteLine(sumOddLengthSubarrays.Method(arr));
+
+            #endregion
+
+
+
 
 
             ReadLine();
