@@ -3066,12 +3066,20 @@ namespace Ahao.Algorithm
 
             #region 1588. 所有奇数长度子数组的和
 
-            SumOddLengthSubarrays sumOddLengthSubarrays = new SumOddLengthSubarrays();
-            int[] arr = { 1, 4, 2, 5, 3 };
-            WriteLine(sumOddLengthSubarrays.Method(arr));
+            //SumOddLengthSubarrays sumOddLengthSubarrays = new SumOddLengthSubarrays();
+            //int[] arr = { 1, 4, 2, 5, 3 };
+            //WriteLine(sumOddLengthSubarrays.Method(arr));
 
             #endregion
 
+            #region 165. 比较版本号
+
+            CompareVersion compareVersion = new CompareVersion();
+            string version1 = "1.01";
+            string version2 = "1.001";
+            WriteLine(compareVersion.Method(version1, version2));
+
+            #endregion
 
 
 
