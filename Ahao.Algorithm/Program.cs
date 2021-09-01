@@ -3074,12 +3074,32 @@ namespace Ahao.Algorithm
 
             #region 165. 比较版本号
 
-            CompareVersion compareVersion = new CompareVersion();
-            string version1 = "1.01";
-            string version2 = "1.001";
-            WriteLine(compareVersion.Method(version1, version2));
+            //CompareVersion compareVersion = new CompareVersion();
+            //string version1 = "1.01";
+            //string version2 = "1.001";
+            //WriteLine(compareVersion.Method(version1, version2));
 
             #endregion
+
+            #region 剑指 Offer 22. 链表中倒数第k个节点
+
+            GetKthFromEnd getKthFromEnd = new GetKthFromEnd();
+
+            #endregion
+
+            #region
+
+
+
+            #endregion
+
+
+
+
+
+
+
+
 
 
 

@@ -231,6 +231,7 @@
     <Compile Include="Simple\Generate.cs" />
     <Compile Include="Simple\GetImportance.cs" />
     <Compile Include="Simple\GetIntersectionNode.cs" />
+    <Compile Include="Simple\GetKthFromEnd.cs" />
     <Compile Include="Simple\GetMaximumGenerated.cs" />
     <Compile Include="Simple\GetMinimumDifference.cs" />
     <Compile Include="Simple\GetRow.cs" />
