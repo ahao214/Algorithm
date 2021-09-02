@@ -3083,13 +3083,20 @@ namespace Ahao.Algorithm
 
             #region 剑指 Offer 22. 链表中倒数第k个节点
 
-            GetKthFromEnd getKthFromEnd = new GetKthFromEnd();
+            //GetKthFromEnd getKthFromEnd = new GetKthFromEnd();
 
             #endregion
 
-            #region
+            #region 面试题 17.14. 最小K个数
 
-
+            SmallestK smallestK = new SmallestK();
+            int[] arr = { 3, 5, 7, 2, 4, 6, 8 };
+            int k = 4;
+            int[] result = smallestK.Method(arr, k);
+            for (int i = 0; i < result.Length; i++)
+            {
+                WriteLine(arr[i]);
+            }
 
             #endregion
 

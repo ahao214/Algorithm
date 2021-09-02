@@ -191,6 +191,7 @@
     <Compile Include="Secondary\ShipWithinDays.cs" />
     <Compile Include="Secondary\SingleNumber.cs" />
     <Compile Include="Secondary\SingleNumberT.cs" />
+    <Compile Include="Secondary\SmallestK.cs" />
     <Compile Include="Secondary\SwapPairs.cs" />
     <Compile Include="Secondary\ThreeSumClosest.cs" />
     <Compile Include="Secondary\TriangleNumber.cs" />
