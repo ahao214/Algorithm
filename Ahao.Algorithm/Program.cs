@@ -3089,18 +3089,23 @@ namespace Ahao.Algorithm
 
             #region 面试题 17.14. 最小K个数
 
-            SmallestK smallestK = new SmallestK();
-            int[] arr = { 3, 5, 7, 2, 4, 6, 8 };
-            int k = 4;
-            int[] result = smallestK.Method(arr, k);
-            for (int i = 0; i < result.Length; i++)
-            {
-                WriteLine(arr[i]);
-            }
+            //SmallestK smallestK = new SmallestK();
+            //int[] arr = { 3, 5, 7, 2, 4, 6, 8 };
+            //int k = 4;
+            //int[] result = smallestK.Method(arr, k);
+            //for (int i = 0; i < result.Length; i++)
+            //{
+            //    WriteLine(arr[i]);
+            //}
 
             #endregion
 
+            #region 剑指 Offer 10- I. 斐波那契数列
 
+            Fib fib = new Fib();
+            WriteLine(fib.Method(5555));
+
+            #endregion
 
 
 

@@ -221,6 +221,7 @@
     <Compile Include="Simple\DeleteNode.cs" />
     <Compile Include="BaseAlgorithm\Divisor.cs" />
     <Compile Include="Simple\FairCandySwap.cs" />
+    <Compile Include="Simple\Fib.cs" />
     <Compile Include="Simple\FindErrorNums.cs" />
     <Compile Include="Simple\FindKthLargest.cs" />
     <Compile Include="Simple\FindLengthOfLCIS.cs" />
