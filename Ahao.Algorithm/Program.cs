@@ -3109,14 +3109,20 @@ namespace Ahao.Algorithm
 
             #region 704. 二分查找
 
-            BinarySearch binarySearch = new BinarySearch();
-            int[] nums = { 0, 2, 4, 5, 6, 7, 9, 10 };
-            int target = 5;
-            WriteLine(binarySearch.Method(nums, target));
+            //BinarySearch binarySearch = new BinarySearch();
+            //int[] nums = { 0, 2, 4, 5, 6, 7, 9, 10 };
+            //int target = 5;
+            //WriteLine(binarySearch.Method(nums, target));
 
             #endregion
 
+            #region 1221. 分割平衡字符串
 
+            BalancedStringSplit balancedStringSplit = new BalancedStringSplit();
+            string s = "RLRRLLRLRL";
+            WriteLine(balancedStringSplit.Method(s));
+
+            #endregion
 
 
 

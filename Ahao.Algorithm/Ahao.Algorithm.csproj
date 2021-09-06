@@ -205,6 +205,7 @@
     <Compile Include="Secondary\CombinationSum3.cs" />
     <Compile Include="Secondary\Combine.cs" />
     <Compile Include="Simple\BackspaceCompare.cs" />
+    <Compile Include="Simple\BalancedStringSplit.cs" />
     <Compile Include="Simple\BinarySearch.cs" />
     <Compile Include="Simple\CanPlaceFlowers.cs" />
     <Compile Include="Simple\CheckPossibility.cs" />
