@@ -3102,11 +3102,19 @@ namespace Ahao.Algorithm
 
             #region 剑指 Offer 10- I. 斐波那契数列
 
-            Fib fib = new Fib();
-            WriteLine(fib.Method(5555));
+            //Fib fib = new Fib();
+            //WriteLine(fib.Method(5555));
 
             #endregion
 
+            #region 704. 二分查找
+
+            BinarySearch binarySearch = new BinarySearch();
+            int[] nums = { 0, 2, 4, 5, 6, 7, 9, 10 };
+            int target = 5;
+            WriteLine(binarySearch.Method(nums, target));
+
+            #endregion
 
 
 
