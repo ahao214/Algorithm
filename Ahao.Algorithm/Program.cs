@@ -3118,12 +3118,20 @@ namespace Ahao.Algorithm
 
             #region 1221. 分割平衡字符串
 
-            BalancedStringSplit balancedStringSplit = new BalancedStringSplit();
-            string s = "RLRRLLRLRL";
-            WriteLine(balancedStringSplit.Method(s));
+            //BalancedStringSplit balancedStringSplit = new BalancedStringSplit();
+            //string s = "RLRRLLRLRL";
+            //WriteLine(balancedStringSplit.Method(s));
 
             #endregion
 
+            #region 1894. 找到需要补充粉笔的学生编号
+
+            ChalkReplacer chalkReplacer = new ChalkReplacer();
+            int[] chalk = { 3, 4, 1, 2 };
+            int k = 25;
+            WriteLine(chalkReplacer.Method(chalk, k));
+
+            #endregion
 
 
 
