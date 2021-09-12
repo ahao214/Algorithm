@@ -153,6 +153,7 @@
     <Compile Include="Secondary\CanPartition.cs" />
     <Compile Include="Secondary\ChalkReplacer.cs" />
     <Compile Include="Secondary\CharacterReplacement.cs" />
+    <Compile Include="Secondary\CheckValidString.cs" />
     <Compile Include="Secondary\CoinChange.cs" />
     <Compile Include="Secondary\CombinationSumFour.cs" />
     <Compile Include="Secondary\CompareVersion.cs" />

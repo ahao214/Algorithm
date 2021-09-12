@@ -3126,14 +3126,20 @@ namespace Ahao.Algorithm
 
             #region 1894. 找到需要补充粉笔的学生编号
 
-            ChalkReplacer chalkReplacer = new ChalkReplacer();
-            int[] chalk = { 3, 4, 1, 2 };
-            int k = 25;
-            WriteLine(chalkReplacer.Method(chalk, k));
+            //ChalkReplacer chalkReplacer = new ChalkReplacer();
+            //int[] chalk = { 3, 4, 1, 2 };
+            //int k = 25;
+            //WriteLine(chalkReplacer.Method(chalk, k));
 
             #endregion
 
+            #region 678. 有效的括号字符串
 
+            CheckValidString checkValidString = new CheckValidString();
+            string s = "(*))";
+            WriteLine(checkValidString.Method(s));
+
+            #endregion
 
 
 
