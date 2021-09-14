@@ -3143,13 +3143,21 @@ namespace Ahao.Algorithm
 
             #region 524. 通过删除字母匹配到字典里最长单词
 
-            FindLongestWord findLongestWord = new FindLongestWord();
-            List<string> dic = new List<string>();
-            dic.Add("a");
-            dic.Add("b");
-            dic.Add("c");
-            string s = "abpcplea";
-            WriteLine(findLongestWord.Method(s, dic));
+            //FindLongestWord findLongestWord = new FindLongestWord();
+            //List<string> dic = new List<string>();
+            //dic.Add("a");
+            //dic.Add("b");
+            //dic.Add("c");
+            //string s = "abpcplea";
+            //WriteLine(findLongestWord.Method(s, dic));
+
+            #endregion
+
+            #region 162. 寻找峰值
+
+            FindPeakElement findPeakElement = new FindPeakElement();
+            int[] nums = { 1, 2, 1, 3, 5, 6, 4 };
+            WriteLine(findPeakElement.Method(nums));
 
             #endregion
 
