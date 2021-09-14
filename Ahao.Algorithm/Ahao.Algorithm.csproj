@@ -161,6 +161,7 @@
     <Compile Include="Secondary\DeleteAndEarn.cs" />
     <Compile Include="Secondary\DetectCycle.cs" />
     <Compile Include="Secondary\EventualSafeNodes.cs" />
+    <Compile Include="Secondary\FindLongestWord.cs" />
     <Compile Include="Secondary\FindUnsortedSubarray.cs" />
     <Compile Include="Secondary\FourSum.cs" />
     <Compile Include="Secondary\FrequencySort.cs" />

@@ -3135,12 +3135,23 @@ namespace Ahao.Algorithm
 
             #region 678. 有效的括号字符串
 
-            CheckValidString checkValidString = new CheckValidString();
-            string s = "(*))";
-            WriteLine(checkValidString.Method(s));
+            //CheckValidString checkValidString = new CheckValidString();
+            //string s = "(*))";
+            //WriteLine(checkValidString.Method(s));
 
             #endregion
 
+            #region 524. 通过删除字母匹配到字典里最长单词
+
+            FindLongestWord findLongestWord = new FindLongestWord();
+            List<string> dic = new List<string>();
+            dic.Add("a");
+            dic.Add("b");
+            dic.Add("c");
+            string s = "abpcplea";
+            WriteLine(findLongestWord.Method(s, dic));
+
+            #endregion
 
 
 
