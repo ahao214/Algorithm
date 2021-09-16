@@ -3155,12 +3155,17 @@ namespace Ahao.Algorithm
 
             #region 162. 寻找峰值
 
-            FindPeakElement findPeakElement = new FindPeakElement();
-            int[] nums = { 1, 2, 1, 3, 5, 6, 4 };
-            WriteLine(findPeakElement.Method(nums));
+            //FindPeakElement findPeakElement = new FindPeakElement();
+            //int[] nums = { 1, 2, 1, 3, 5, 6, 4 };
+            //WriteLine(findPeakElement.Method(nums));
 
             #endregion
 
+            #region 212. 单词搜索 II
+
+            FindWords findWords = new FindWords();
+
+            #endregion
 
 
             ReadLine();
