@@ -3163,9 +3163,18 @@ namespace Ahao.Algorithm
 
             #region 212. 单词搜索 II
 
-            FindWords findWords = new FindWords();
+            //FindWords findWords = new FindWords();
 
             #endregion
+
+            #region 36. 有效的数独
+
+            IsValidSudoku isValidSudoku = new IsValidSudoku();
+
+            #endregion
+
+
+
 
 
             ReadLine();
