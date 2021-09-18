@@ -214,6 +214,7 @@
     <Compile Include="Simple\BalancedStringSplit.cs" />
     <Compile Include="Simple\BinarySearch.cs" />
     <Compile Include="Simple\CanPlaceFlowers.cs" />
+    <Compile Include="Simple\CanWinNim.cs" />
     <Compile Include="Simple\CheckPossibility.cs" />
     <Compile Include="Simple\CheckRecord.cs" />
     <Compile Include="Simple\CheckStraightLine.cs" />

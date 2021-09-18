@@ -3169,11 +3169,16 @@ namespace Ahao.Algorithm
 
             #region 36. 有效的数独
 
-            IsValidSudoku isValidSudoku = new IsValidSudoku();
+            //IsValidSudoku isValidSudoku = new IsValidSudoku();
 
             #endregion
 
+            #region 292. Nim 游戏
 
+            CanWinNim canWinNim = new CanWinNim();
+            WriteLine(canWinNim.Method(8));
+
+            #endregion
 
 
 
