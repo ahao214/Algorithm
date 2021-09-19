@@ -3175,12 +3175,17 @@ namespace Ahao.Algorithm
 
             #region 292. Nim 游戏
 
-            CanWinNim canWinNim = new CanWinNim();
-            WriteLine(canWinNim.Method(8));
+            //CanWinNim canWinNim = new CanWinNim();
+            //WriteLine(canWinNim.Method(8));
 
             #endregion
 
+            #region 650. 只有两个键的键盘
 
+            MinSteps minSteps = new MinSteps();
+            WriteLine(minSteps.Method(3));
+
+            #endregion
 
             ReadLine();
         }
