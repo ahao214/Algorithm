@@ -3182,10 +3182,20 @@ namespace Ahao.Algorithm
 
             #region 650. 只有两个键的键盘
 
-            MinSteps minSteps = new MinSteps();
-            WriteLine(minSteps.Method(3));
+            //MinSteps minSteps = new MinSteps();
+            //WriteLine(minSteps.Method(3));
 
             #endregion
+
+            #region 673. 最长递增子序列的个数
+
+            FindNumberOfLIS findNumberOfLIS = new FindNumberOfLIS();
+            int[] nums = { 1, 3, 5, 4, 7 };
+            WriteLine(findNumberOfLIS.Method(nums));
+
+            #endregion
+
+
 
             ReadLine();
         }

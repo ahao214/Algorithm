@@ -163,6 +163,7 @@
     <Compile Include="Secondary\DetectCycle.cs" />
     <Compile Include="Secondary\EventualSafeNodes.cs" />
     <Compile Include="Secondary\FindLongestWord.cs" />
+    <Compile Include="Secondary\FindNumberOfLIS.cs" />
     <Compile Include="Secondary\FindPeakElement.cs" />
     <Compile Include="Secondary\FindUnsortedSubarray.cs" />
     <Compile Include="Secondary\FourSum.cs" />
