@@ -14,9 +14,9 @@ namespace Ahao.Algorithm
         public int Method(string s)
         {
             string[] array = s.Split(' ');
-            for(var i=array.Length -1;i>=0;i--)
+            for (var i = array.Length - 1; i >= 0; i--)
             {
-                if(!string .IsNullOrEmpty(array[i]))
+                if (!string.IsNullOrEmpty(array[i]))
                 {
                     return array[i].Length;
                 }
