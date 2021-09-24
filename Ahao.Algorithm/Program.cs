@@ -3197,7 +3197,7 @@ namespace Ahao.Algorithm
 
             #region 547. 省份数量
 
-
+            FindCircleNum findCircleNum = new FindCircleNum();
 
             #endregion
 
