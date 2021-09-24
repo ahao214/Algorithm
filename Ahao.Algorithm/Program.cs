@@ -3197,14 +3197,23 @@ namespace Ahao.Algorithm
 
             #region 547. 省份数量
 
-            FindCircleNum findCircleNum = new FindCircleNum();
-            int[][] isConnected = new int[3][];
-            isConnected[0] = new int[] { 1, 1, 0 };
-            isConnected[1] = new int[] { 1, 1, 0 };
-            isConnected[2] = new int[] { 0, 0, 1 };
-            WriteLine(findCircleNum.DfsMethod(isConnected));
+            //FindCircleNum findCircleNum = new FindCircleNum();
+            //int[][] isConnected = new int[3][];
+            //isConnected[0] = new int[] { 1, 1, 0 };
+            //isConnected[1] = new int[] { 1, 1, 0 };
+            //isConnected[2] = new int[] { 0, 0, 1 };
+            //WriteLine(findCircleNum.DfsMethod(isConnected));
 
             #endregion
+
+            #region 877.石子游戏
+
+            StoneGame stoneGame = new StoneGame();
+
+
+            #endregion
+
+
 
 
             ReadLine();
