@@ -162,7 +162,7 @@
     <Compile Include="Secondary\DeleteAndEarn.cs" />
     <Compile Include="Secondary\DetectCycle.cs" />
     <Compile Include="Secondary\EventualSafeNodes.cs" />
-    <Compile Include="Secondary\FindCircleNum.cs" />
+    <Compile Include="Secondary\LC547\FindCircleNum.cs" />
     <Compile Include="Secondary\FindLongestWord.cs" />
     <Compile Include="Secondary\FindNumberOfLIS.cs" />
     <Compile Include="Secondary\FindPeakElement.cs" />
