@@ -3215,10 +3215,10 @@ namespace Ahao.Algorithm
 
             #region 583. 两个字符串的删除操作
 
-            MinDistance minDistance = new MinDistance();
-            string word1 = "sea";
-            string word2 = "eat";
-            WriteLine(minDistance.Method(word1, word2));
+            //MinDistance minDistance = new MinDistance();
+            //string word1 = "sea";
+            //string word2 = "eat";
+            //WriteLine(minDistance.Method(word1, word2));
 
             #endregion
 
