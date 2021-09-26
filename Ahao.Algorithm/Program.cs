@@ -3222,6 +3222,19 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 371.两整数之和
+
+            //GetSum getSum = new GetSum();
+            //WriteLine(getSum.Method(2, 3));
+
+            #endregion
+
+            #region
+
+
+
+            #endregion
+
 
             ReadLine();
         }
