@@ -163,6 +163,7 @@
     <Compile Include="Secondary\DetectCycle.cs" />
     <Compile Include="Secondary\EventualSafeNodes.cs" />
     <Compile Include="Secondary\LC371\GetSum.cs" />
+    <Compile Include="Secondary\LC437\PathSum.cs" />
     <Compile Include="Secondary\LC547\FindCircleNum.cs" />
     <Compile Include="Secondary\FindLongestWord.cs" />
     <Compile Include="Secondary\FindNumberOfLIS.cs" />
