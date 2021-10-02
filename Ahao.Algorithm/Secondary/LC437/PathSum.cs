@@ -9,7 +9,7 @@ namespace Ahao.Algorithm.Secondary
     /// <summary>
     /// 437. 路径总和 III
     /// </summary>
-    public class PathSum
+    public class PathSumII
     {
         public int Method(TreeNode root, int targetSum)
         {

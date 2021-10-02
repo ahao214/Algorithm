@@ -495,9 +495,7 @@ namespace Ahao.Algorithm
             #endregion
 
             #region 113.路径总和(2)
-
-            PathSum pathSum = new PathSum();
-
+            
 
             #endregion
 
@@ -3240,6 +3238,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 405. 数字转换为十六进制数
+
+            ToHex toHex = new ToHex();
+            WriteLine(toHex.Method(14));
+
+            #endregion
 
 
 
