@@ -3247,12 +3247,22 @@ namespace Ahao.Algorithm
 
             #region 482. 密钥格式化
 
-            LicenseKeyFormatting licenseKeyFormatting = new LicenseKeyFormatting();
-            string s = "5F3Z-2e-9-w";
-            int k = 4;
-            WriteLine(licenseKeyFormatting.Method(s, k));
+            //LicenseKeyFormatting licenseKeyFormatting = new LicenseKeyFormatting();
+            //string s = "5F3Z-2e-9-w";
+            //int k = 4;
+            //WriteLine(licenseKeyFormatting.Method(s, k));
 
             #endregion
+
+            #region
+
+
+
+            #endregion
+
+
+
+
 
             ReadLine();
         }
