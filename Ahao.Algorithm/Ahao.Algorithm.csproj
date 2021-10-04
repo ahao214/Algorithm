@@ -283,6 +283,7 @@
     <Compile Include="Simple\LargeGroupPositions.cs" />
     <Compile Include="Simple\LC1436\DestCity.cs" />
     <Compile Include="Simple\LC405\ToHex.cs" />
+    <Compile Include="Simple\LC482\LicenseKeyFormatting.cs" />
     <Compile Include="Simple\LeafSimilar.cs" />
     <Compile Include="Simple\LemonadeChange.cs" />
     <Compile Include="Simple\LengthOfLastWord.cs" />
