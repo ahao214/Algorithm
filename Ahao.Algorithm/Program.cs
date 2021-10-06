@@ -495,7 +495,7 @@ namespace Ahao.Algorithm
             #endregion
 
             #region 113.路径总和(2)
-            
+
 
             #endregion
 
@@ -3254,9 +3254,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region
+            #region 414. 第三大的数
 
-
+            ThirdMax thirdMax = new ThirdMax();
+            int[] nums = { 1, 2, 2, 3, 3 };
+            WriteLine(thirdMax.Method(nums));
 
             #endregion
 
