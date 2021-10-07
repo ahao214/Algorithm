@@ -3256,13 +3256,25 @@ namespace Ahao.Algorithm
 
             #region 414. 第三大的数
 
-            ThirdMax thirdMax = new ThirdMax();
-            int[] nums = { 1, 2, 2, 3, 3 };
-            WriteLine(thirdMax.Method(nums));
+            //ThirdMax thirdMax = new ThirdMax();
+            //int[] nums = { 1, 2, 2, 3, 3 };
+            //WriteLine(thirdMax.Method(nums));
 
             #endregion
 
+            #region 434. 字符串中的单词数
 
+            CountSegments countSegments = new CountSegments();
+            string s = "hello,my name is Jack";
+            WriteLine(countSegments.Method(s));
+
+            #endregion
+
+            #region
+
+
+
+            #endregion
 
 
 
