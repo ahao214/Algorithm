@@ -3264,9 +3264,16 @@ namespace Ahao.Algorithm
 
             #region 434. 字符串中的单词数
 
-            CountSegments countSegments = new CountSegments();
-            string s = "hello,my name is Jack";
-            WriteLine(countSegments.Method(s));
+            //CountSegments countSegments = new CountSegments();
+            //string s = "hello,my name is Jack";
+            //WriteLine(countSegments.Method(s));
+
+            #endregion
+
+            #region 441. 排列硬币
+
+            //ArrangeCoins arrangeCoins = new ArrangeCoins();
+            //WriteLine(arrangeCoins.Method(5));
 
             #endregion
 
@@ -3275,7 +3282,6 @@ namespace Ahao.Algorithm
 
 
             #endregion
-
 
 
             ReadLine();
