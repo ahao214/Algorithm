@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.Algorithm
+namespace Ahao.Algorithm.Simple
 {
     /// <summary>
-    /// 412.Fizz Buzz
+    /// 412. Fizz Buzz
     /// </summary>
     public class FizzBuzz
     {

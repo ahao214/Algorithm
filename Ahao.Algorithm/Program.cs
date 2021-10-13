@@ -307,7 +307,7 @@ namespace Ahao.Algorithm
 
             #region 412.Fizz Buzz
 
-            FizzBuzz fizzBuzz = new FizzBuzz();
+            //FizzBuzz fizzBuzz = new FizzBuzz();
             //fizzBuzz.Method(9);
 
             #endregion
@@ -3277,8 +3277,9 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region
+            #region 
 
+            
 
 
             #endregion

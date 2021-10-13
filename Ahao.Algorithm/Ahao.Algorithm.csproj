@@ -245,7 +245,6 @@
     <Compile Include="Simple\FindMaxAverage.cs" />
     <Compile Include="Simple\FindMaxConsecutiveOnes.cs" />
     <Compile Include="Simple\FindMode.cs" />
-    <Compile Include="Simple\FizzBuzz.cs" />
     <Compile Include="Difficulty\GetPermutation.cs" />
     <Compile Include="Simple\Generate.cs" />
     <Compile Include="Simple\GetImportance.cs" />
@@ -283,6 +282,7 @@
     <Compile Include="Simple\LargeGroupPositions.cs" />
     <Compile Include="Simple\LC1436\DestCity.cs" />
     <Compile Include="Simple\LC405\ToHex.cs" />
+    <Compile Include="Simple\LC412\FizzBuzz.cs" />
     <Compile Include="Simple\LC414\ThirdMax.cs" />
     <Compile Include="Simple\LC434\CountSegments.cs" />
     <Compile Include="Simple\LC441\ArrangeCoins.cs" />
