@@ -26,9 +26,6 @@ namespace Ahao.Algorithm.Simple
                     break;
                 }
             }
-
-            return res;
-
             return res;
         }
     }
