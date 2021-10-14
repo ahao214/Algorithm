@@ -3277,10 +3277,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 剑指 Offer II 069. 山峰数组的顶部
 
-            
-
+            PeakIndexInMountainArrays peakIndexInMountainArray = new PeakIndexInMountainArrays();
+            int[] arr = { 1, 3, 5, 4, 2 };
+            WriteLine(peakIndexInMountainArray.Method(arr));
 
             #endregion
 
