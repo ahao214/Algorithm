@@ -282,6 +282,7 @@
     <Compile Include="Simple\KWeakestRows.cs" />
     <Compile Include="Simple\LargeGroupPositions.cs" />
     <Compile Include="Simple\LC1436\DestCity.cs" />
+    <Compile Include="Simple\LC1\TwoSum.cs" />
     <Compile Include="Simple\LC405\ToHex.cs" />
     <Compile Include="Simple\LC412\FizzBuzz.cs" />
     <Compile Include="Simple\LC414\ThirdMax.cs" />
