@@ -162,6 +162,7 @@
     <Compile Include="Secondary\DeleteAndEarn.cs" />
     <Compile Include="Secondary\DetectCycle.cs" />
     <Compile Include="Secondary\EventualSafeNodes.cs" />
+    <Compile Include="Secondary\LC142\DetectCycle.cs" />
     <Compile Include="Secondary\LC371\GetSum.cs" />
     <Compile Include="Secondary\LC437\PathSum.cs" />
     <Compile Include="Secondary\LC547\FindCircleNum.cs" />
