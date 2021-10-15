@@ -14,6 +14,8 @@ namespace Ahao.Algorithm.Simple.LC1
         public int[] Method(int[] nums, int target)
         {
             int[] result = Array.Empty<int>();
+            if (nums == null || nums.Length == 0)
+                return result;
             for (int i = 0; i < nums.Length; i++)
             {
                 var nj = target - nums[i];
