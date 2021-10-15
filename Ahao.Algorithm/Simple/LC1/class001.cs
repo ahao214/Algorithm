@@ -9,9 +9,9 @@ namespace Ahao.Algorithm.Simple.LC1
     /// <summary>
     /// 1.两数之和
     /// </summary>
-    public class TwoSum
+    public class class001
     {
-        public int[] Method(int[] nums, int target)
+        public int[] TwoSum(int[] nums, int target)
         {
             int[] result = Array.Empty<int>();
             if (nums == null || nums.Length == 0)
