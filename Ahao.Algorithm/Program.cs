@@ -3287,11 +3287,22 @@ namespace Ahao.Algorithm
 
             #region 453. 最小操作次数使数组元素相等
 
-            MinMoves minMoves = new MinMoves();
-            int[] arr = { 1, 2, 3, 4 };
-            WriteLine(minMoves.Method(arr));
+            //MinMoves minMoves = new MinMoves();
+            //int[] arr = { 1, 2, 3, 4 };
+            //WriteLine(minMoves.Method(arr));
 
             #endregion
+
+            #region 45.跳跃游戏(2)
+
+            Jump jump = new Jump();
+            int[] arr = { 2, 3, 1, 1, 4 };
+            WriteLine(jump.Method(arr));
+
+            #endregion
+
+
+
 
 
             ReadLine();

@@ -168,6 +168,7 @@
     <Compile Include="Secondary\LC371\GetSum.cs" />
     <Compile Include="Secondary\LC3\Class003.cs" />
     <Compile Include="Secondary\LC437\PathSum.cs" />
+    <Compile Include="Secondary\LC45\Jump.cs" />
     <Compile Include="Secondary\LC547\FindCircleNum.cs" />
     <Compile Include="Secondary\FindLongestWord.cs" />
     <Compile Include="Secondary\FindNumberOfLIS.cs" />
