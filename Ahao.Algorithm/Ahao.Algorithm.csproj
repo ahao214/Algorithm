@@ -290,6 +290,7 @@
     <Compile Include="Simple\LC412\FizzBuzz.cs" />
     <Compile Include="Simple\LC414\ThirdMax.cs" />
     <Compile Include="Simple\LC434\CountSegments.cs" />
+    <Compile Include="Simple\LC435\MinMoves.cs" />
     <Compile Include="Simple\LC441\ArrangeCoins.cs" />
     <Compile Include="Simple\LC482\LicenseKeyFormatting.cs" />
     <Compile Include="Simple\LeafSimilar.cs" />
