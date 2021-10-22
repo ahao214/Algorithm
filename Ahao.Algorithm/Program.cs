@@ -3295,9 +3295,17 @@ namespace Ahao.Algorithm
 
             #region 45.跳跃游戏(2)
 
-            Jump jump = new Jump();
-            int[] arr = { 2, 3, 1, 1, 4 };
-            WriteLine(jump.Method(arr));
+            //Jump jump = new Jump();
+            //int[] arr = { 2, 3, 1, 1, 4 };
+            //WriteLine(jump.Method(arr));
+
+            #endregion
+
+            #region 229. 求众数 II
+
+            Secondary.MajorityElement majorityElement = new Secondary.MajorityElement();
+            int[] arr = { 1, 2, 3, 3, 3 };
+            IList<int> res = majorityElement.Method(arr);
 
             #endregion
 
