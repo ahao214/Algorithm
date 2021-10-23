@@ -3303,13 +3303,22 @@ namespace Ahao.Algorithm
 
             #region 229. 求众数 II
 
-            Secondary.MajorityElement majorityElement = new Secondary.MajorityElement();
-            int[] arr = { 1, 2, 3, 3, 3 };
-            IList<int> res = majorityElement.Method(arr);
+            //Secondary.MajorityElement majorityElement = new Secondary.MajorityElement();
+            //int[] arr = { 1, 2, 3, 3, 3 };
+            //IList<int> res = majorityElement.Method(arr);
 
             #endregion
 
+            #region 492. 构造矩形
 
+            ConstructRectangle constructRectangle = new ConstructRectangle();
+            int[] result = constructRectangle.Method(56);
+            foreach (var item in result)
+            {
+                WriteLine(item);
+            }
+
+            #endregion
 
 
 
