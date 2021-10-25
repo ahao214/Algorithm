@@ -3311,14 +3311,22 @@ namespace Ahao.Algorithm
 
             #region 492. 构造矩形
 
-            ConstructRectangle constructRectangle = new ConstructRectangle();
-            int[] result = constructRectangle.Method(56);
-            foreach (var item in result)
-            {
-                WriteLine(item);
-            }
+            //ConstructRectangle constructRectangle = new ConstructRectangle();
+            //int[] result = constructRectangle.Method(56);
+            //foreach (var item in result)
+            //{
+            //    WriteLine(item);
+            //}
 
             #endregion
+
+            #region 240. 搜索二维矩阵 II
+
+
+
+            #endregion
+
+
 
 
 

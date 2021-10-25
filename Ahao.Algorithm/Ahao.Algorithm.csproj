@@ -165,6 +165,7 @@
     <Compile Include="Secondary\EventualSafeNodes.cs" />
     <Compile Include="Secondary\LC142\DetectCycle.cs" />
     <Compile Include="Secondary\LC229\MajorityElement.cs" />
+    <Compile Include="Secondary\LC240\SearchMatrix.cs" />
     <Compile Include="Secondary\LC2\Class002.cs" />
     <Compile Include="Secondary\LC371\GetSum.cs" />
     <Compile Include="Secondary\LC3\Class003.cs" />
