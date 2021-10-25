@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.Algorithm.Secondary.LC240
+namespace Ahao.Algorithm.Secondary
 {
     /// <summary>
     /// 240. 搜索二维矩阵 II

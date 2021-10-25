@@ -3322,7 +3322,7 @@ namespace Ahao.Algorithm
 
             #region 240. 搜索二维矩阵 II
 
-
+            SearchMatrix searchMatrix = new SearchMatrix();
 
             #endregion
 
