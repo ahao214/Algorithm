@@ -297,6 +297,7 @@
     <Compile Include="Simple\LC441\ArrangeCoins.cs" />
     <Compile Include="Simple\LC482\LicenseKeyFormatting.cs" />
     <Compile Include="Simple\LC492\ConstructRectangle.cs" />
+    <Compile Include="Simple\LC496\NextGreaterElement.cs" />
     <Compile Include="Simple\LeafSimilar.cs" />
     <Compile Include="Simple\LemonadeChange.cs" />
     <Compile Include="Simple\LengthOfLastWord.cs" />
