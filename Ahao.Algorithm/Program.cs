@@ -3328,11 +3328,15 @@ namespace Ahao.Algorithm
 
             #region 496. 下一个更大元素 I
 
-            NextGreaterElement nextGreaterElement = new NextGreaterElement();
+            //NextGreaterElement nextGreaterElement = new NextGreaterElement();
 
             #endregion
 
+            #region 
 
+
+
+            #endregion
 
             ReadLine();
         }
