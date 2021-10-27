@@ -149,6 +149,7 @@
     <Compile Include="Numbers\TestSqrt.cs" />
     <Compile Include="Numbers\TestVal.cs" />
     <Compile Include="Numbers\TestZeroCount.cs" />
+    <Compile Include="Secondary\17.14\SmallestK.cs" />
     <Compile Include="Secondary\AddTwoNumbers.cs" />
     <Compile Include="Secondary\AllPathsSourceTarget.cs" />
     <Compile Include="Secondary\BuildTree.cs" />
