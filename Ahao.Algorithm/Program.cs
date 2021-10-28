@@ -3332,9 +3332,10 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region 
+            #region 869. 重新排序得到 2 的幂
 
-
+            //ReorderedPowerOf2 reorderedPowerOf2 = new ReorderedPowerOf2();
+            //WriteLine(reorderedPowerOf2.Method(23));
 
             #endregion
 

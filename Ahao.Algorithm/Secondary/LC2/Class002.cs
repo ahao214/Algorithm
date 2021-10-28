@@ -8,10 +8,10 @@ namespace Ahao.Algorithm.Secondary.LC2
 {
     public class Class002
     {
-        public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
-        {
+        //public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
+        //{
 
-        }
+        //}
     }
 
     public class ListNode

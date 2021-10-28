@@ -11,9 +11,9 @@ namespace Ahao.Algorithm.Secondary.LC3
     /// </summary>
     public class Class003
     {
-        public int LengthOfLongestSubstring(string s)
-        {
+        //public int LengthOfLongestSubstring(string s)
+        //{
 
-        }
+        //}
     }
 }

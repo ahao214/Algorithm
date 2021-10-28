@@ -189,6 +189,7 @@
     <Compile Include="Secondary\LC583\MinDistance.cs" />
     <Compile Include="Secondary\LC797\AllPathsSourceTarget.cs" />
     <Compile Include="Secondary\LC799\ChampagneTower.cs" />
+    <Compile Include="Secondary\LC869\ReorderedPowerOf2.cs" />
     <Compile Include="Secondary\LC877\StoneGame.cs" />
     <Compile Include="Secondary\LengthOfLIS.cs" />
     <Compile Include="Secondary\LongestMountain.cs" />
