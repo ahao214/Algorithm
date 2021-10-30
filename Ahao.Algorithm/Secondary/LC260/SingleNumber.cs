@@ -11,6 +11,7 @@ namespace Ahao.Algorithm.Secondary.LC260
     /// </summary>
     public class SingleNumber
     {
+        //位运算
         public int[] Method(int[] nums)
         {
             int xorSum = 0;
@@ -35,6 +36,31 @@ namespace Ahao.Algorithm.Secondary.LC260
             return new int[] { type1, type2 };
         }
 
-
+        //哈希表
+        public int[] HashMethod(int[] nums)
+        {
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            foreach (var n in nums)
+            {
+                if (dic.ContainsKey(n))
+                {
+                    ++dic[n];
+                }
+                else
+                {
+                    dic.Add(n, 1);
+                }
+            }
+            int[] res = new int[2];
+            int index = 0;
+            foreach (KeyValuePair<int, int> pair in dic)
+            {
+                if (pair.Value == 1)
+                {
+                    res[index++] = pair.Key;
+                }
+            }
+            return res;
+        }
     }
 }
