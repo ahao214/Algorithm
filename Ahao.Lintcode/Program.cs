@@ -10,10 +10,15 @@ namespace Ahao.Lintcode
         {
             #region 1 · A + B 问题
 
-            Aplusb aplusb = new Aplusb();
-            int a = 3;
-            int b = 4;
-            WriteLine(aplusb.Method(a, b));
+            //Aplusb aplusb = new Aplusb();
+            //int a = 3;
+            //int b = 4;
+            //WriteLine(aplusb.Method(a, b));
+
+            #endregion
+
+            #region
+
 
             #endregion
 
