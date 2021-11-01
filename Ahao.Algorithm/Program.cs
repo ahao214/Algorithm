@@ -3345,9 +3345,11 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region
+            #region 575. 分糖果
 
-
+            //DistributeCandies distributeCandies = new DistributeCandies();
+            //int[] candies = { 1, 1, 2, 2, 3, 3 };
+            //WriteLine(distributeCandies.Method(candies));
 
             #endregion
 

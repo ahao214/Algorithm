@@ -303,6 +303,7 @@
     <Compile Include="Simple\LC492\ConstructRectangle.cs" />
     <Compile Include="Simple\LC496\NextGreaterElement.cs" />
     <Compile Include="Simple\LC500\FindWords.cs" />
+    <Compile Include="Simple\LC575\DistributeCandies.cs" />
     <Compile Include="Simple\LeafSimilar.cs" />
     <Compile Include="Simple\LemonadeChange.cs" />
     <Compile Include="Simple\LengthOfLastWord.cs" />
