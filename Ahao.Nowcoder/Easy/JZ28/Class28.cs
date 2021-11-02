@@ -9,9 +9,9 @@ namespace Ahao.Nowcoder.Easy.JZ28
     /// <summary>
     /// JZ28 对称的二叉树
     /// </summary>
-    public class IsSymmetrical
+    public class Class28
     {
-        public bool Method(TreeNode pRoot)
+        public bool IsSymmetrical(TreeNode pRoot)
         {
             if (pRoot == null)
             {
