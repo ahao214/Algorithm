@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ahao.Lintcode.Easy
 {
-    public class Aplusb
+    public class Class1
     {
         /// <summary>
         /// 1 · A + B 问题
@@ -14,7 +14,7 @@ namespace Ahao.Lintcode.Easy
         /// <param name="a"></param>
         /// <param name="b"></param>
         /// <returns></returns>
-        public int Method(int a, int b)
+        public int Aplusb(int a, int b)
         {
             if (a == b)
             {
