@@ -118,6 +118,7 @@
     <Compile Include="Combinations\TestShowAllCombination.cs" />
     <Compile Include="Difficulty\CountDigitOne.cs" />
     <Compile Include="Difficulty\FindWords.cs" />
+    <Compile Include="Difficulty\LC407\Class407.cs" />
     <Compile Include="Difficulty\LC4\Class004.cs" />
     <Compile Include="LNode\LNode.cs" />
     <Compile Include="LNode\TestAdd.cs" />
