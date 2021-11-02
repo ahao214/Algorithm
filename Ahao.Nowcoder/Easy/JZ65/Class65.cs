@@ -9,9 +9,9 @@ namespace Ahao.Nowcoder.Easy.JZ65
     /// <summary>
     /// JZ65 不用加减乘除做加法
     /// </summary>
-    public class Add
+    public class Class65
     {
-        public int Method(int num1, int num2)
+        public int Add(int num1, int num2)
         {
             if (num1 == 0 & num2 == 0)
             {
