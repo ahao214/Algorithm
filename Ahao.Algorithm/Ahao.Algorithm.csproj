@@ -294,6 +294,7 @@
     <Compile Include="Simple\LargeGroupPositions.cs" />
     <Compile Include="Simple\LC1436\DestCity.cs" />
     <Compile Include="Simple\LC1\class001.cs" />
+    <Compile Include="Simple\LC367\Class367.cs" />
     <Compile Include="Simple\LC405\ToHex.cs" />
     <Compile Include="Simple\LC412\FizzBuzz.cs" />
     <Compile Include="Simple\LC414\ThirdMax.cs" />
