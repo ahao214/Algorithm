@@ -9,7 +9,6 @@
     <Folder Include="LessEasy\" />
     <Folder Include="LessHard\" />
     <Folder Include="Hard\" />
-    <Folder Include="Medium\" />
   </ItemGroup>
 
 </Project>
