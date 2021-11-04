@@ -3358,6 +3358,16 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 1218. 最长定差子序列
+
+            int[] arr = { 1, 5, 7, 8, 5, 3, 4, 2, 1 };
+            int difference = -2;
+            Class1218 class1218 = new Class1218();
+            WriteLine(class1218.LongestSubsequence(arr, difference));
+
+            #endregion
+
+
 
             ReadLine();
         }
