@@ -26,7 +26,7 @@ namespace Ahao.Nowcoder.Medium.NC5
             if (root.left == null && root.right == null)
             {
                 return sum;
-            }
+            }            
             return dfs(root.left, sum) + dfs(root.right, sum);
         }
     }
