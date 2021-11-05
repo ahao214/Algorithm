@@ -74,5 +74,23 @@ namespace Ahao.Algorithm.Simple.LC268
             return xor;
         }
 
+
+        /// <summary>
+        /// 数学方法
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public int MissingNumber4(int[] nums)
+        {
+            int n = nums.Length;
+            int total = n * (n + 1) / 2;
+            int arrSum = 0;
+            for (int i = 0; i < n; i++)
+            {
+                arrSum += nums[i];
+            }
+            return total - arrSum;
+        }
+
     }
 }
