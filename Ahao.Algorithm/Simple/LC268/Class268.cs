@@ -20,12 +20,39 @@ namespace Ahao.Algorithm.Simple.LC268
         {
             Array.Sort(nums);
             int n = nums.Length;
-            for(int i=0;i<n;i++)
+            for (int i = 0; i < n; i++)
             {
                 if (nums[i] != i)
                     return i;
             }
             return n;
         }
+
+        /// <summary>
+        /// 哈希集合
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public int MissingNumber2(int[] nums)
+        {
+            ISet<int> set = new HashSet<int>();
+            int n = nums.Length;
+            for (int i = 0; i < n; i++)
+            {
+                set.Add(nums[i]);
+            }
+            int missing = -1;
+            for (int i = 0; i <= n; i++)
+            {
+                if (!set.Contains(i))
+                {
+                    missing = i;
+                    break;
+                }
+            }
+            return missing;
+        }
+
+
     }
 }
