@@ -3382,10 +3382,10 @@ namespace Ahao.Algorithm
 
             #region 299. 猜数字游戏
 
-            Class299 class299 = new Class299();
-            string secret = "1807";
-            string guess = "7810";
-            WriteLine(class299.GetHint(secret, guess));
+            //Class299 class299 = new Class299();
+            //string secret = "1807";
+            //string guess = "7810";
+            //WriteLine(class299.GetHint(secret, guess));
 
             #endregion
 
