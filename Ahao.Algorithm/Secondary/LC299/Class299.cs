@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.Algorithm.Secondary.LC299
+namespace Ahao.Algorithm.Secondary
 {
     /// <summary>
     /// 299. 猜数字游戏

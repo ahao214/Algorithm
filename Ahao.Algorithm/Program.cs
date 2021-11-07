@@ -3375,10 +3375,22 @@ namespace Ahao.Algorithm
 
             #region 5. 最长回文子串
 
-            Class005 class005 = new Class005();
-            WriteLine(class005.LongestPalindrome("abcba"));
+            //Class005 class005 = new Class005();
+            //WriteLine(class005.LongestPalindrome("abcba"));
 
             #endregion
+
+            #region 299. 猜数字游戏
+
+            Class299 class299 = new Class299();
+            string secret = "1807";
+            string guess = "7810";
+            WriteLine(class299.GetHint(secret, guess));
+
+            #endregion
+
+
+
 
 
 
