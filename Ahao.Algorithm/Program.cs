@@ -3373,7 +3373,12 @@ namespace Ahao.Algorithm
 
             #endregion
 
+            #region 5. 最长回文子串
 
+            Class005 class005 = new Class005();
+            WriteLine(class005.LongestPalindrome("abcba"));
+
+            #endregion
 
 
 

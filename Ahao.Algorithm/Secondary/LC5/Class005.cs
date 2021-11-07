@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.Algorithm.Secondary.LC5
+namespace Ahao.Algorithm.Secondary
 {
     /// <summary>
     /// 5. 最长回文子串
     /// </summary>
-    class Class005
+    public class Class005
     {
         public string LongestPalindrome(string s)
         {
-            if(s==null )
+            if (s == null)
             {
                 return string.Empty;
             }
