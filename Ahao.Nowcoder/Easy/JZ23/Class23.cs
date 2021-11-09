@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ahao.Nowcoder.Easy.JZ23
 {
     /// <summary>
-    /// JZ23
+    /// JZ23 链表中环的入口结点
     /// </summary>
     public class Class23
     {
