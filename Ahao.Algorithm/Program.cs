@@ -3391,10 +3391,10 @@ namespace Ahao.Algorithm
 
             #region 495. 提莫攻击
 
-            Class495 class495 = new Class495();
-            int[] timeSeries = { 1, 4 };
-            int duration = 2;
-            WriteLine(class495.FindPoisonedDuration(timeSeries, duration));
+            //Class495 class495 = new Class495();
+            //int[] timeSeries = { 1, 4 };
+            //int duration = 2;
+            //WriteLine(class495.FindPoisonedDuration(timeSeries, duration));
 
             #endregion 
 
