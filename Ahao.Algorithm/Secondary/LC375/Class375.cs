@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.Algorithm.Secondary.LC375
+namespace Ahao.Algorithm.Secondary
 {
     /// <summary>
     /// 375. 猜数字大小 II

@@ -3396,9 +3396,14 @@ namespace Ahao.Algorithm
             //int duration = 2;
             //WriteLine(class495.FindPoisonedDuration(timeSeries, duration));
 
-            #endregion 
+            #endregion
 
+            #region 375. 猜数字大小 II
 
+            Class375 class375 = new Class375();
+            WriteLine(class375.GetMoneyAmount(10));
+
+            #endregion
 
 
             ReadLine();
