@@ -34,5 +34,35 @@ namespace Ahao.Algorithm.Simple
             }
             return true;
         }
+
+
+        public bool DetectCapitalUse2(string word)
+        {
+            int capCount = 0;
+            for (int i = 0; i < word.Length; i++)
+            {
+                if (char.IsUpper(word[i]))
+                {
+                    capCount++;
+                }
+            }
+
+            //全是小写
+            if (capCount == 0)
+            {
+                return true;
+            }
+            //首字母大写,其他字母小写
+            if (capCount == 1 && char.IsUpper(word[0]))
+            {
+                return true;
+            }
+            //全是大写
+            if (capCount == word.Length)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }
