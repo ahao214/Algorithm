@@ -3400,10 +3400,19 @@ namespace Ahao.Algorithm
 
             #region 375. 猜数字大小 II
 
-            Class375 class375 = new Class375();
-            WriteLine(class375.GetMoneyAmount(10));
+            //Class375 class375 = new Class375();
+            //WriteLine(class375.GetMoneyAmount(10));
 
             #endregion
+
+            #region 520. 检测大写字母
+
+            Class520 class520 = new Class520();
+            string word = "CHINA";
+            WriteLine(class520.DetectCapitalUse(word));
+
+            #endregion
+
 
 
             ReadLine();
