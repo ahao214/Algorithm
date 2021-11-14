@@ -172,6 +172,7 @@
     <Compile Include="Secondary\LC260\SingleNumber.cs" />
     <Compile Include="Secondary\LC299\Class299.cs" />
     <Compile Include="Secondary\LC2\Class002.cs" />
+    <Compile Include="Secondary\LC319\Class319.cs" />
     <Compile Include="Secondary\LC371\GetSum.cs" />
     <Compile Include="Secondary\LC375\Class375.cs" />
     <Compile Include="Secondary\LC3\Class003.cs" />

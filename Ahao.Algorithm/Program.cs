@@ -3407,11 +3407,19 @@ namespace Ahao.Algorithm
 
             #region 520. 检测大写字母
 
-            Class520 class520 = new Class520();
-            string word = "CHINA";
-            WriteLine(class520.DetectCapitalUse(word));
+            //Class520 class520 = new Class520();
+            //string word = "CHINA";
+            //WriteLine(class520.DetectCapitalUse(word));
 
             #endregion
+
+            #region 319. 灯泡开关
+
+            Class319 class319 = new Class319();
+            WriteLine(class319.BulbSwitch(5));
+
+            #endregion
+
 
 
 
