@@ -193,6 +193,7 @@
     <Compile Include="Secondary\LargestNumber.cs" />
     <Compile Include="Secondary\LC583\MinDistance.cs" />
     <Compile Include="Secondary\LC5\Class005.cs" />
+    <Compile Include="Secondary\LC677\Class677.cs" />
     <Compile Include="Secondary\LC797\AllPathsSourceTarget.cs" />
     <Compile Include="Secondary\LC799\ChampagneTower.cs" />
     <Compile Include="Secondary\LC869\ReorderedPowerOf2.cs" />
