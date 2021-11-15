@@ -3415,12 +3415,16 @@ namespace Ahao.Algorithm
 
             #region 319. 灯泡开关
 
-            Class319 class319 = new Class319();
-            WriteLine(class319.BulbSwitch(5));
+            //Class319 class319 = new Class319();
+            //WriteLine(class319.BulbSwitch(5));
 
             #endregion
 
+            #region
 
+
+
+            #endregion
 
 
             ReadLine();
