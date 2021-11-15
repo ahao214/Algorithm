@@ -120,7 +120,7 @@
     <Compile Include="LeetCode\Hard\FindWords.cs" />
     <Compile Include="LeetCode\Hard\LC407\Class407.cs" />
     <Compile Include="LeetCode\Hard\LC4\Class004.cs" />
-    <Compile Include="Interview\Medium\0107\Class0107.cs" />
+    <Compile Include="LeetCode\Interview\Medium\0107\Class0107.cs" />
     <Compile Include="LNode\LNode.cs" />
     <Compile Include="LNode\TestAdd.cs" />
     <Compile Include="LNode\TestConstructListK.cs" />
@@ -413,11 +413,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interview\Easy\" />
-    <Folder Include="Interview\Hard\" />
-    <Folder Include="Offer\Easy\" />
-    <Folder Include="Offer\Hard\" />
-    <Folder Include="Offer\Medium\" />
+    <Folder Include="LeetCode\Interview\Easy\" />
+    <Folder Include="LeetCode\Interview\Hard\" />
+    <Folder Include="LeetCode\Offer\Easy\" />
+    <Folder Include="LeetCode\Offer\Hard\" />
+    <Folder Include="LeetCode\Offer\Medium\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
