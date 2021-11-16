@@ -118,6 +118,7 @@
     <Compile Include="Combinations\TestShowAllCombination.cs" />
     <Compile Include="LeetCode\Hard\CountDigitOne.cs" />
     <Compile Include="LeetCode\Hard\FindWords.cs" />
+    <Compile Include="LeetCode\Hard\LC391\Class391.cs" />
     <Compile Include="LeetCode\Hard\LC407\Class407.cs" />
     <Compile Include="LeetCode\Hard\LC4\Class004.cs" />
     <Compile Include="LeetCode\Interview\Medium\0107\Class0107.cs" />
