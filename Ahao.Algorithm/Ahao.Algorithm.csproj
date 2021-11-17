@@ -122,6 +122,7 @@
     <Compile Include="LeetCode\Hard\LC407\Class407.cs" />
     <Compile Include="LeetCode\Hard\LC4\Class004.cs" />
     <Compile Include="LeetCode\Interview\Medium\0107\Class0107.cs" />
+    <Compile Include="LeetCode\Medium\LC318\Class318.cs" />
     <Compile Include="LNode\LNode.cs" />
     <Compile Include="LNode\TestAdd.cs" />
     <Compile Include="LNode\TestConstructListK.cs" />
