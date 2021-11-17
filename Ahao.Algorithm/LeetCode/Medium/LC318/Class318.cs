@@ -37,5 +37,48 @@ namespace Ahao.Algorithm.LeetCode.Medium.LC318
             }
             return maxProd;
         }
+
+        public int MaxProduc2(string[] words)
+        {
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            int length = words.Length;
+            for (int i = 0; i < length; i++)
+            {
+                int mask = 0;
+                string word = words[i];
+                int wordLength = word.Length;
+                for (int j = 0; j < wordLength; j++)
+                {
+                    mask |= 1 << (word[j] - 'a');
+                }
+
+                if (dic.ContainsKey(mask))
+                {
+                    if (wordLength > dic[mask])
+                    {
+                        dic[mask] = wordLength;
+                    }
+                }
+                else
+                {
+                    dic.Add(mask, wordLength);
+                }
+            }
+
+            int maxProd = 0;
+            foreach (int mask1 in dic.Keys)
+            {
+                int wordLength1 = dic[mask1];
+                foreach (int mask2 in dic.Keys)
+                {
+                    if ((mask1 & mask2) == 0)
+                    {
+                        int wordLength2 = dic[mask2];
+                        maxProd = Math.Max(maxProd, wordLength1 * wordLength2);
+                    }
+                }
+            }
+            return maxProd;
+        }
     }
 }
