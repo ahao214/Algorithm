@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.LeetCode.Medium.LC33
+namespace Ahao.LeetCode.Medium
 {
     /// <summary>
     /// 33. 搜索旋转排序数组
