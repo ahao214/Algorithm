@@ -29,6 +29,34 @@ namespace Ahao.Algorithm.LeetCode.Medium
             return 2 + Math.Min(IntegerReplacement(n / 2), IntegerReplacement(n / 2 + 1));
         }
 
+        /// <summary>
+        /// 记忆化搜索
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        Dictionary<int, int> dic = new Dictionary<int, int>();
+        public int IntegerReplacement2(int n)
+        {
+            if (n == 1)
+            {
+                return 0;
+            }
+
+            if (!dic.ContainsKey(n))
+            {
+                if (n % 2 == 0)
+                {
+                    dic.Add(n, 1 + IntegerReplacement2(n / 2));
+                }
+                else
+                {
+                    dic.Add(n, 2 + Math.Min(IntegerReplacement2(n / 2), IntegerReplacement2(n / 2 + 1)));
+                }
+            }
+            return dic[n];
+        }
+
+
 
     }
 }
