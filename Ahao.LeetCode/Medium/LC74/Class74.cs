@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.LeetCode.Medium.LC74
+namespace Ahao.LeetCode.Medium
 {
     /// <summary>
     /// 74. 搜索二维矩阵
