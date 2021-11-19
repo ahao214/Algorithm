@@ -27,5 +27,27 @@ namespace Ahao.LeetCode.Simple.LC1
             }
             return Array.Empty<int>();
         }
+
+        public int[] TwoSum2(int[] nums, int target)
+        {
+            var map = new Dictionary<int, int>(nums.Length);
+            for (int i = 0; i < nums.Length; i++)
+            {
+                map[nums[i]] = i;
+            }
+            for (int i = 0; i < nums.Length; i++)
+            {
+                var nj = target - nums[i];
+                if (map.ContainsKey(nj))
+                {
+                    var j = map[nj];
+                    if (j > i)
+                    {
+                        return new[] { i, j };
+                    }
+                }
+            }
+            return Array.Empty<int>();
+        }
     }
 }
