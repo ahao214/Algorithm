@@ -4,6 +4,7 @@ using Ahao.Algorithm.BigData;
 using Ahao.Algorithm.CharacterString;
 using Ahao.Algorithm.Combinations;
 using Ahao.Algorithm.Difficulty;
+using Ahao.Algorithm.LeetCode.Medium;
 using Ahao.Algorithm.Numbers;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
@@ -3420,9 +3421,10 @@ namespace Ahao.Algorithm
 
             #endregion
 
-            #region
+            #region 397. 整数替换
 
-
+            Class397 class397 = new Class397();
+            WriteLine(class397.IntegerReplacement(4));
 
             #endregion
 

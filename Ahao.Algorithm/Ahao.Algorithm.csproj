@@ -123,6 +123,7 @@
     <Compile Include="LeetCode\Hard\LC4\Class004.cs" />
     <Compile Include="LeetCode\Interview\Medium\0107\Class0107.cs" />
     <Compile Include="LeetCode\Medium\LC318\Class318.cs" />
+    <Compile Include="LeetCode\Medium\LC397\Class397.cs" />
     <Compile Include="LeetCode\Simple\LC108\Class108.cs" />
     <Compile Include="LeetCode\Simple\LC563\Class563.cs" />
     <Compile Include="LNode\LNode.cs" />
