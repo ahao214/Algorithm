@@ -21,9 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis-LockServer", "Redis-L
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETFive", "NETFive", "{A95F4497-54BA-4B3D-B6E0-846F5BCAEFCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ahao.Nowcoder", "Ahao.Nowcoder\Ahao.Nowcoder.csproj", "{00B3FB29-FA30-4D64-94DB-2B0624DBFF11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ahao.Nowcoder", "Ahao.Nowcoder\Ahao.Nowcoder.csproj", "{00B3FB29-FA30-4D64-94DB-2B0624DBFF11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ahao.Lintcode", "Ahao.Lintcode\Ahao.Lintcode.csproj", "{952B1533-2D63-44FB-BE77-30F19AB4D535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ahao.Lintcode", "Ahao.Lintcode\Ahao.Lintcode.csproj", "{952B1533-2D63-44FB-BE77-30F19AB4D535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ahao.LeetCode", "Ahao.LeetCode\Ahao.LeetCode.csproj", "{56D3834E-4AE0-4DE4-A523-334E20C071AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -143,6 +145,18 @@ Global
 		{952B1533-2D63-44FB-BE77-30F19AB4D535}.Release|x64.Build.0 = Release|Any CPU
 		{952B1533-2D63-44FB-BE77-30F19AB4D535}.Release|x86.ActiveCfg = Release|Any CPU
 		{952B1533-2D63-44FB-BE77-30F19AB4D535}.Release|x86.Build.0 = Release|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Debug|x64.Build.0 = Debug|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Debug|x86.Build.0 = Debug|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Release|x64.ActiveCfg = Release|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Release|x64.Build.0 = Release|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Release|x86.ActiveCfg = Release|Any CPU
+		{56D3834E-4AE0-4DE4-A523-334E20C071AC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

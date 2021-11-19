@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Hard\" />
+    <Folder Include="Simple\" />
+    <Folder Include="Interview\" />
+    <Folder Include="Offer\" />
+  </ItemGroup>
+
+</Project>

@@ -1,23 +1,6 @@
-﻿using Ahao.Algorithm.ArrayNums;
-using Ahao.Algorithm.BaseAlgorithm;
-using Ahao.Algorithm.BigData;
-using Ahao.Algorithm.CharacterString;
-using Ahao.Algorithm.Combinations;
-using Ahao.Algorithm.Difficulty;
-using Ahao.Algorithm.LeetCode.Medium;
-using Ahao.Algorithm.Numbers;
+﻿using Ahao.Algorithm.LeetCode.Medium;
 using Ahao.Algorithm.Secondary;
 using Ahao.Algorithm.Simple;
-using Ahao.Algorithm.Sortings;
-using System;
-using System.Collections.Generic;
-using System.IO.Pipes;
-using System.Linq;
-using System.Reflection;
-using System.Reflection.Emit;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using static Ahao.Algorithm.Simple.RangeSumBST;
 using static System.Console;
 
 namespace Ahao.Algorithm
@@ -3423,8 +3406,17 @@ namespace Ahao.Algorithm
 
             #region 397. 整数替换
 
-            Class397 class397 = new Class397();
-            WriteLine(class397.IntegerReplacement(4));
+            //Class397 class397 = new Class397();
+            //WriteLine(class397.IntegerReplacement(4));
+
+            #endregion
+
+            #region 33. 搜索旋转排序数组
+
+            Class33 class33 = new Class33();
+            int[] arr = { 4, 5, 6, 7, 0, 1, 2 };
+            int target = 0;
+            WriteLine(class33.Search(arr, target));
 
             #endregion
 
