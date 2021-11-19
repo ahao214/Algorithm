@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Folder Include="Hard\" />
-    <Folder Include="Simple\" />
     <Folder Include="Interview\" />
     <Folder Include="Offer\" />
   </ItemGroup>
