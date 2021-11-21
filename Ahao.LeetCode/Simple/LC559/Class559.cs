@@ -31,6 +31,39 @@ namespace Ahao.LeetCode.Simple.LC559
             }
             return maxChildDepth + 1;
         }
+
+        /// <summary>
+        /// 广度优先搜索
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        public int MaxDepth2(Node root)
+        {
+            if (root == null)
+            {
+                return 0;
+            }
+            Queue<Node> queue = new Queue<Node>();
+            queue.Enqueue(root);
+            int ans = 0;
+            while (queue.Count > 0)
+            {
+                int size = queue.Count;
+                while (size > 0)
+                {
+                    Node node = queue.Dequeue();
+                    IList<Node> children = node.children;
+                    foreach (Node child in children)
+                    {
+                        queue.Enqueue(child);
+                    }
+                    size--;
+                }
+                ans++;
+            }
+            return ans;
+
+        }
     }
 
     public class Node
