@@ -62,7 +62,6 @@ namespace Ahao.LeetCode.Simple.LC559
                 ans++;
             }
             return ans;
-
         }
     }
 
