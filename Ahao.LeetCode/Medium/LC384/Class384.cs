@@ -8,7 +8,7 @@ namespace Ahao.LeetCode.Medium.LC384
 {
     /// <summary>
     /// 384. 打乱数组
-    /// </summary>
+    /// </summary>   
     public class Class384
     {
         int[] nums;
@@ -49,5 +49,38 @@ namespace Ahao.LeetCode.Medium.LC384
 
     }
 
+
+    //Fisher-Yates洗牌算法
+    public class Solution
+    {
+        int[] nums;
+        int[] original;
+
+        public Solution(int[] nums)
+        {
+            this.nums = nums;
+            this.original = new int[nums.Length];
+            Array.Copy(nums, original, nums.Length);
+        }
+
+        public int[] Reset()
+        {
+            Array.Copy(original, nums, nums.Length);
+            return nums;
+        }
+
+        public int[] Shuffle()
+        {
+            Random random = new Random();
+            for (int i = 0; i < nums.Length; i++)
+            {
+                int j = random.Next(i, nums.Length);
+                int tmp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = tmp;
+            }
+            return nums;
+        }
+    }
 
 }
