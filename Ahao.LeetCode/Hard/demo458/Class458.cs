@@ -63,5 +63,19 @@ namespace Ahao.LeetCode.Hard.demo458
             }
             return 0;
         }
+
+        /// <summary>
+        /// 数学
+        /// </summary>
+        /// <param name="buckets"></param>
+        /// <param name="minutesToDie"></param>
+        /// <param name="minutesToTest"></param>
+        /// <returns></returns>
+        public int PoorPigs2(int buckets, int minutesToDie, int minutesToTest)
+        {
+            int iteration = minutesToTest / minutesToDie + 1;
+            int pigs = (int)Math.Ceiling(Math.Log(buckets) / Math.Log(iteration));
+            return pigs;
+        }
     }
 }
