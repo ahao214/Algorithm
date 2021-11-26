@@ -15,7 +15,7 @@ namespace Ahao.LeetCode.Medium.demo130
         public void Solve(char[][] board)
         {
             row = board.Length;
-            if (row == 0 || board == null)
+            if (row == 0)
             {
                 return;
             }
@@ -49,7 +49,7 @@ namespace Ahao.LeetCode.Medium.demo130
 
         public void dfs(char[][] board, int x, int y)
         {
-            if (x < 0 || x >= row || y < 0 || y >= col || board[x][y] != 'o')
+            if (x < 0 || x >= row || y < 0 || y >= col || board[x][y] != 'O')
             {
                 return;
             }
@@ -57,7 +57,7 @@ namespace Ahao.LeetCode.Medium.demo130
             dfs(board, x + 1, y);
             dfs(board, x - 1, y);
             dfs(board, x, y + 1);
-            dfs(board, x, y + 1);
+            dfs(board, x, y - 1);
         }
     }
 }
