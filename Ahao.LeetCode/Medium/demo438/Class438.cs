@@ -60,5 +60,42 @@ namespace Ahao.LeetCode.Medium.LC438
 
             return res;
         }
+
+        public IList<int> FindAnagrams2(string s, string p)
+        {
+            int sLen = s.Length;
+            int pLen = p.Length;
+            if (sLen < pLen)
+            {
+                return new List<int>();
+            }
+
+            IList<int> res = new List<int>();
+            int[] sCount = new int[26];
+            int[] pCount = new int[26];
+            for (int i = 0; i < pLen; i++)
+            {
+                ++sCount[s[i] - 'a'];
+                ++pCount[p[i] - 'a'];
+            }
+
+
+            if (Enumerable.SequenceEqual(sCount, pCount))
+            {
+                res.Add(0);
+            }
+
+            for (int i = 0; i < sLen - pLen; i++)
+            {
+                --sCount[s[i] - 'a'];
+                ++sCount[s[i + pLen] - 'a'];
+
+                if (Enumerable.SequenceEqual(sCount, pCount))
+                {
+                    res.Add(i + 1);
+                }
+            }
+            return res;
+        }
     }
 }
