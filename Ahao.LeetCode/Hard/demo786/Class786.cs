@@ -14,6 +14,11 @@ namespace Ahao.LeetCode.Hard.demo786
         public int[] KthSmallestPrimeFraction(int[] arr, int k)
         {
             int n = arr.Length;
+            if (k == 1)
+            {
+                return new int[] { arr[0], arr[n - 1] };
+            }
+
             List<int[]> lst = new List<int[]>();
             for (int i = 0; i < n; i++)
             {
