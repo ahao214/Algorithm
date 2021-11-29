@@ -19,7 +19,7 @@ namespace Ahao.LeetCode.Hard.demo786
             {
                 for (int j = i + 1; j < n; j++)
                 {
-                    lst.Add(new int[] { arr[i], arr[j] };
+                    lst.Add(new int[] { arr[i], arr[j] });
                 }
             }
             lst.Sort((x, y) => x[0] * y[1] - y[0] * x[1]);
