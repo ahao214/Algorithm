@@ -36,7 +36,7 @@ namespace Ahao.LeetCode.Medium.demo213
             {
                 int tmp = second;
                 second = Math.Max(first + arr[i], second);
-                first = second;
+                first = tmp;
             }
             return second;
         }
