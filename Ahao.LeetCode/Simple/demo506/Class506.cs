@@ -38,5 +38,32 @@ namespace Ahao.LeetCode.Simple.demo506
             }
             return result;
         }
+
+
+        public string[] FindRelativeRanks2(int[] score)
+        {
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            string[] desc = { "Gold Medal", "Silver Medal", "Bronze Medal" };
+            int n = score.Length;
+            string[] answer = new string[score.Length];
+            for (int i = 0; i < n; i++)
+            {
+                dic.Add(score[i], i);
+            }
+            Array.Sort(score);//升序排序
+            Array.Reverse(score);//反转为降序
+            for (int i = 0; i < n; i++)
+            {
+                if (i < 3)
+                {
+                    answer[dic[score[i]]] = desc[i];
+                }
+                else
+                {
+                    answer[dic[score[i]]] = (i + 1).ToString();
+                }
+            }
+            return answer;
+        }
     }
 }
