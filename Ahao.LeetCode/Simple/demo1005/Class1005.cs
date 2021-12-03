@@ -34,5 +34,51 @@ namespace Ahao.LeetCode.Simple
             }
             return nums.Sum();
         }
+
+        public int LargestSumAfterKNegations2(int[] nums, int k)
+        {
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            foreach (var num in nums)
+            {
+                if (!dic.ContainsKey(num))
+                {
+                    dic.Add(num, 0);
+                }
+                dic[num] += 1;
+            }
+
+            int res = nums.Sum();
+            for (int i = -100; i < 0; i++)
+            {
+                if (dic.ContainsKey(i))
+                {
+                    int ops = Math.Min(k, dic[i]);
+                    res += (-i) * ops * 2;
+                    dic[i] -= ops;
+                    if (!dic.ContainsKey(-i))
+                    {
+                        dic.Add(-i, 0);
+                    }
+                    dic[-i] += ops;
+                    k -= ops;
+                    if (k == 0)
+                    {
+                        break;
+                    }
+                }
+            }
+            if (k > 0 && k % 2 == 1 && !dic.ContainsKey(0))
+            {
+                for (int i = 1; i <= 100; i++)
+                {
+                    if (dic.ContainsKey(i))
+                    {
+                        res -= i * 2;
+                        break;
+                    }
+                }
+            }
+            return res;
+        }
     }
 }
