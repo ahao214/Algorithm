@@ -1,4 +1,5 @@
 ﻿using Ahao.LeetCode.Medium;
+using Ahao.LeetCode.Simple;
 using System;
 using static System.Console;
 
@@ -18,8 +19,12 @@ namespace Ahao.LeetCode
 
             #endregion
 
-            #region
+            #region 1005. K 次取反后最大化的数组和
 
+            Class1005 class1005 = new Class1005();
+            int[] arr = { 2, -3, -1, 5, -4 };
+            int k = 2;
+            WriteLine(class1005.LargestSumAfterKNegations(arr, k));
 
             #endregion
 
