@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.LeetCode.Simple.LC1
+namespace Ahao.LeetCode.Simple.demo1
 {
     /// <summary>
     /// 1. 两数之和
