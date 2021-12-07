@@ -92,7 +92,7 @@ namespace Ahao.LeetCode.Medium.demo1034
                 {
                     int nx = direc[i][0] + x;
                     int ny = direc[i][1] + y;
-                    if (!(nx >= 0 && nx < m && ny >= 0 && ny < n && grid[nx)[ny] == originalColor))
+                    if (!(nx >= 0 && nx < m && ny >= 0 && ny < n && grid[nx][ny] == originalColor))
                     {
                         isBorder = true;
                     }
