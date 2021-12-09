@@ -11,5 +11,9 @@ namespace Ahao.LeetCode.Hard.demo123
     /// </summary>
     public class Class123
     {
+        public int MaxProfit(int[] prices)
+        {
+
+        }
     }
 }

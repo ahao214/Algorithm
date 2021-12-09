@@ -1,17 +1,15 @@
 ﻿using System;
 
-/// <summary>
-/// Summary description for Class1
-/// </summary>
-public class Class72
+namespace Ahao.LeetCode.Hard.demo72
 {
-	/// <summary>
-	/// 72.编辑距离
-	/// </summary>
-	public Class72()
-	{
-		//
-		// TODO: Add constructor logic here
-		//
-	}
+    /// <summary>
+    /// 72.编辑距离
+    /// </summary>
+    public class Class72
+    {
+
+
+
+    }
 }
+

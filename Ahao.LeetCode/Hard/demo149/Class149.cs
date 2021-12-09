@@ -1,24 +1,15 @@
 ﻿using System;
 
-/// <summary>
-/// Summary description for Class1
-/// </summary>
-public class Class149
+namespace Ahao.LeetCode.Hard.demo149
 {
-	/// <summary>
-	/// 149. 直线上最多的点数
-	/// </summary>
-	public Class149()
-	{
-		//
-		// TODO: Add constructor logic here
-		//
-	}
+    /// <summary>
+    /// 149. 直线上最多的点数
+    /// </summary>
+    public class Class149
+    {
+        //public int MaxPoints(int[][] points)
+        //{
 
-	public int MaxPoints(int[][] points)
-	{
-
-	}
-
-
+        //}
+    }
 }
