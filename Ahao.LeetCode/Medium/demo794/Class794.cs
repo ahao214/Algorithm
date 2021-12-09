@@ -24,8 +24,14 @@ public class Class794
         {
             foreach (char c in row)
             {
-                xCount = (c == 'X') ? (xCount + 1) : xCount;
-                oCount = (c == 'O') ? (oCount + 1) : oCount;
+                if (c == 'X')
+                {
+                    xCount++;
+                }
+                if (c == 'O')
+                {
+                    oCount++;
+                }
             }
         }
         if (oCount != xCount && oCount != xCount - 1)
@@ -47,20 +53,12 @@ public class Class794
     {
         for (int i = 0; i < 3; ++i)
         {
-            if (p == board[i][0] && p == board[i][1] && p == board[i][2])
-            {
-                return true;
-            }
-            if (p == board[0][i] && p == board[1][i] && p == board[2][i])
+            if ((p == board[i][0] && p == board[i][1] && p == board[i][2]) || (p == board[0][i] && p == board[1][i] && p == board[2][i]))
             {
                 return true;
             }
         }
-        if (p == board[0][0] && p == board[1][1] && p == board[2][2])
-        {
-            return true;
-        }
-        if (p == board[0][2] && p == board[1][1] && p == board[2][0])
+        if ((p == board[0][0] && p == board[1][1] && p == board[2][2]) || (p == board[0][2] && p == board[1][1] && p == board[2][0]))
         {
             return true;
         }
