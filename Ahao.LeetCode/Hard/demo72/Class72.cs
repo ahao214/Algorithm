@@ -5,6 +5,9 @@
 /// </summary>
 public class Class72
 {
+	/// <summary>
+	/// 72.编辑距离
+	/// </summary>
 	public Class72()
 	{
 		//
