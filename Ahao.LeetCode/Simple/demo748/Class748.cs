@@ -38,7 +38,7 @@ namespace Ahao.LeetCode.Simple.demo748
                         break;
                     }
                 }
-                if (ok && (idx <= || words[i].Length < words[idx].Length))
+                if (ok && (idx <=0 || words[i].Length < words[idx].Length))
                 {
                     idx = i;
                 }
