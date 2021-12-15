@@ -49,5 +49,55 @@ namespace Ahao.LeetCode.Medium.demo851
                 }
             }
         }
+
+
+
+        //拓扑排序
+        public int[] LoudAndRich1(int[][] richer, int[] quiet)
+        {
+            int n = quiet.Length;
+            IList<int>[] g = new List<int>[n];
+            for (int i = 0; i < n; ++i)
+            {
+                g[i] = new List<int>();
+            }
+            int[] inDeg = new int[n];
+            foreach (int[] r in richer)
+            {
+                g[r[0]].Add(r[1]);
+                ++inDeg[r[1]];
+            }
+
+            int[] ans = new int[n];
+            for (int i = 0; i < n; ++i)
+            {
+                ans[i] = i;
+            }
+            Queue<int> q = new Queue<int>();
+            for (int i = 0; i < n; ++i)
+            {
+                if (inDeg[i] == 0)
+                {
+                    q.Enqueue(i);
+                }
+            }
+            while (q.Count > 0)
+            {
+                int x = q.Dequeue();
+                foreach (int y in g[x])
+                {
+                    if (quiet[ans[x]] < quiet[ans[y]])
+                    {
+                        ans[y] = ans[x]; // 更新 x 的邻居的答案
+                    }
+                    if (--inDeg[y] == 0)
+                    {
+                        q.Enqueue(y);
+                    }
+                }
+            }
+            return ans;
+        }
+
     }
 }
