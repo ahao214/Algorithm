@@ -18,6 +18,7 @@ namespace Ahao.LeetCode.Hard.demo1610
             List<double> polarDegrees = new List<double>();
             int locationX = location[0];
             int locationY = location[1];
+            //在一条直线上的点
             for (int i = 0; i < points.Count; ++i)
             {
                 int x = points[i][0];
@@ -77,6 +78,7 @@ namespace Ahao.LeetCode.Hard.demo1610
             List<double> polarDegrees = new List<double>();
             int locationX = location[0];
             int locationY = location[1];
+            //在一条直线上的点
             for (int i = 0; i < points.Count; ++i)
             {
                 int x = points[i][0];
