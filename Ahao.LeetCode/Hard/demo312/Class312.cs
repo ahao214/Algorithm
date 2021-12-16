@@ -56,6 +56,43 @@ namespace Ahao.LeetCode.Hard.demo312
         }
 
 
-        
+        public static int maxCoins2(int[] nums)
+        {
+            if (nums == null || nums.Length == 0)
+            {
+                return 0;
+            }
+            if (nums.Length == 1)
+            {
+                return nums[0];
+            }
+            int N = nums.Length;
+            int[] help = new int[N + 2];
+            help[0] = 1;
+            help[N + 1] = 1;
+            for (int i = 0; i < N; i++)
+            {
+                help[i + 1] = nums[i];
+            }
+            int[,] dp = new int[N + 2, N + 2];
+            for (int i = 1; i <= N; i++)
+            {
+                dp[i, i] = help[i - 1] * help[i] * help[i + 1];
+            }
+            for (int L = N; L >= 1; L--)
+            {
+                for (int R = L + 1; R <= N; R++)
+                {
+                    int ans = help[L - 1] * help[L] * help[R + 1] + dp[L + 1, R];
+                    ans = Math.Max(ans, help[L - 1] * help[R] * help[R + 1] + dp[L, R - 1]);
+                    for (int i = L + 1; i < R; i++)
+                    {
+                        ans = Math.Max(ans, help[L - 1] * help[i] * help[R + 1] + dp[L, i - 1] + dp[i + 1, R]);
+                    }
+                    dp[L, R] = ans;
+                }
+            }
+            return dp[1, N];
+        }
     }
 }
