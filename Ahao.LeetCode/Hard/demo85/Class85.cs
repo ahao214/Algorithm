@@ -49,47 +49,47 @@ namespace Ahao.LeetCode.Hard.demo85
                     }
                 }
             }
-            
-            var heap = new MinHeap<Item>(new List<Item>(rowCount * colCount), 0, (x, y) => Comparer<int>.Default.Compare(x.Value, y.Value));
 
-            
+            //var heap = new MinHeap<Item>(new List<Item>(rowCount * colCount), 0, (x, y) => Comparer<int>.Default.Compare(x.Value, y.Value));
 
-            for (int i = 0; i < rowCount; i++)
-            {
-                for (int j = 0; j < colCount; j++)
-                {
-                    if (matrix[i][j] != '0')
-                    {
-                        heap.Insert(new Item(i * colCount + j, i, j, 1, 1));
-                    }
-                }
-            }
+
+
+            //for (int i = 0; i < rowCount; i++)
+            //{
+            //    for (int j = 0; j < colCount; j++)
+            //    {
+            //        if (matrix[i][j] != '0')
+            //        {
+            //            heap.Insert(new Item(i * colCount + j, i, j, 1, 1));
+            //        }
+            //    }
+            //}
 
             var maxValue = 0;
-            while (heap.Count > 0)
-            {
-                var item = heap.PopRoot();
-                var row = item.Row;
-                var col = item.Col;
+            //while (heap.Count > 0)
+            //{
+            //    var item = heap.PopRoot();
+            //    var row = item.Row;
+            //    var col = item.Col;
 
-                if (hcount[row, col] * vcount[row, col] <= maxValue)
-                {
-                    maxValue = Math.Max(maxValue, item.Area);
-                }
+            //    if (hcount[row, col] * vcount[row, col] <= maxValue)
+            //    {
+            //        maxValue = Math.Max(maxValue, item.Area);
+            //    }
 
-                if (item.HAble)
-                {
-                    if (item.NextCol < colCount && vcount[row, item.NextCol] >= item.Height)
-                    {
-                        heap.Insert(new Item(item.Value, row, col, item.Width + 1, item.Height, true));
-                    }
-                }
+            //    if (item.HAble)
+            //    {
+            //        if (item.NextCol < colCount && vcount[row, item.NextCol] >= item.Height)
+            //        {
+            //            heap.Insert(new Item(item.Value, row, col, item.Width + 1, item.Height, true));
+            //        }
+            //    }
 
-                if (item.NextRow < rowCount && hcount[item.NextRow, col] >= item.Width)
-                {
-                    heap.Insert(new Item(item.Value, row, col, item.Width, item.Height + 1, true));
-                }
-            }
+            //    if (item.NextRow < rowCount && hcount[item.NextRow, col] >= item.Width)
+            //    {
+            //        heap.Insert(new Item(item.Value, row, col, item.Width, item.Height + 1, true));
+            //    }
+            //}
             return maxValue;
         }
 
