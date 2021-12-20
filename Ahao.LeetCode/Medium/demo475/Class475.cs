@@ -86,5 +86,29 @@ namespace Ahao.LeetCode.Medium.demo475
             }
             return ans;
         }
+
+
+        public int FindRadius4(int[] houses, int[] heaters)
+        {
+            Array.Sort(houses);
+            Array.Sort(heaters);
+            int res = 0;
+            //i表示房子，j表示火炉
+            for (int i = 0, j = 0; i < houses.Length; i++)
+            {
+                while (!Best(houses, heaters, i, j))
+                {
+                    j++;
+                }
+                res = Math.Max(res, Math.Abs(heaters[j] - houses[i]));
+            }
+            return res;
+
+        }
+
+        public bool Best(int[] houses, int[] heaters, int i, int j)
+        {
+            return j == heaters.Length - 1 || Math.Abs(houses[i] - heaters[j]) < Math.Abs(houses[i] - heaters[j + 1]);
+        }
     }
 }
