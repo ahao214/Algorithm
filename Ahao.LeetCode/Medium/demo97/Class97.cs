@@ -65,12 +65,15 @@ namespace Ahao.LeetCode.Medium.demo97
                 var ch2 = s2[i];
                 if (ch1 == ch2)
                     continue;
-                if (TryRemove(set2, ch1) || TryRemove(set1, ch2))
+
+                if (!TryRemove(set1, ch2))
                 {
-                    continue;
+                    Add(set2, ch2);
                 }
-                set1.Add(ch1, 1);
-                set2.Add(ch2, 1);
+                if (!TryRemove(set2, ch1))
+                {
+                    Add(set1, ch1);
+                }
             }
             return set1.Count == 0 && set2.Count == 0;
 
@@ -85,6 +88,18 @@ namespace Ahao.LeetCode.Medium.demo97
                 else
                     set[ch] = count - 1;
                 return true;
+            }
+
+            void Add(Dictionary<char, int> set, char ch)
+            {
+                if (set.TryGetValue(ch, out var count))
+                {
+                    set[ch] = count + 1;
+                }
+                else
+                {
+                    set.Add(ch, 1);
+                }
             }
         }
     }
