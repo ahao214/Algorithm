@@ -71,5 +71,17 @@ namespace Ahao.LeetCode.Medium.demo686
             return -1;
         }
 
+
+        /// <summary>
+        /// 方法二：Knuth-Morris-Pratt 算法
+        /// </summary>
+        /// <param name="a"></param>
+        /// <param name="b"></param>
+        /// <returns></returns>
+        public int RepeatedStringMatch2(string a, string b)
+        {
+
+        }
+
     }
 }
