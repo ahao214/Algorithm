@@ -130,5 +130,35 @@ namespace Ahao.LeetCode.Medium.demo686
             }
             return -1;
         }
+
+
+        public int RepeatedStringMatch3(string a, string b)
+        {
+            if (a.Length >= b.Length)
+            {
+                if (a.Contains(b)) return 1;
+                a += a;
+                return a.Contains(b) ? 2 : -1;
+            }
+            //将b按照a分割
+            string[] s = b.Split(new string[] { a }, StringSplitOptions.None);
+            if (s.Length == 1) //b不包含a时无法分割，结果就是b本身
+            {
+                a += a;
+                return a.Contains(b) ? 2 : -1;
+            }
+            if (!a.EndsWith(s[0]) || !a.StartsWith(s[s.Length - 1]))
+            {
+                return -1;
+            }
+            for (int i = 1; i < s.Length - 1; i++)
+            {
+                if (s[i] != "") return -1;//分割后除了头尾都必是空字符
+            }
+            int ans = s.Length + 1;
+            if (s[0] == "") ans--; //特殊情况，b以a为开头
+            if (s[s.Length - 1] == "") ans--; //特殊情况，b以a为结尾
+            return ans;
+        }
     }
 }
