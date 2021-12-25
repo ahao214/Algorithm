@@ -64,5 +64,19 @@ namespace Ahao.LeetCode.Medium.demo120
             return m[0][0];
         }
 
+        public int MinimumTotal3(IList<IList<int>> triangle)
+        {
+            var v = triangle;
+            var m = v[v.Count - 1].ToArray();
+            for (int i = v.Count - 2; i >= 0; i--)
+            {
+                for (int j = 0; j <= i; j++)
+                {
+                    m[j] = Math.Min(m[j], m[j + 1]) + v[i][j];
+                }
+            }
+            return m[0];
+        }
+
     }
 }
