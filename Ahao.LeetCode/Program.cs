@@ -33,7 +33,7 @@ namespace Ahao.LeetCode
             int[] ages = { 20, 30, 100, 110, 120 };
             
             Class825 class825 = new Class825();
-            WriteLine(class825.NumFriendRequests1(ages));
+            WriteLine(class825.NumFriendRequests2(ages));
 
             #endregion
 

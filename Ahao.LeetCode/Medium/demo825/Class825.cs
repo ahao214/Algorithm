@@ -63,6 +63,31 @@ namespace Ahao.LeetCode.Medium.demo825
             return ans;
         }
 
+        public int NumFriendRequests2(int[] ages)
+        {
+            int n = ages.Length;
+            Array.Sort(ages);
+            int left = 0, right = 0, ans = 0;
+            foreach (int age in ages)
+            {
+                if (age < 15)
+                {
+                    continue;
+                }
+                while (ages[left] <= 0.5 * age + 7)
+                {
+                    ++left;
+                }
+                while (right + 1 < n && ages[right + 1] <= age)
+                {
+                    ++right;
+                }
+                ans += right - left;
+            }
+            return ans;
+        }
+
+
         //如果下述任意一个条件为真，那么用户 x 将不会向用户 y（x != y）发送好友请求
         public bool IsTrue(int x, int y)
         {
