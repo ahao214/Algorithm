@@ -74,7 +74,7 @@ namespace Ahao.Algorithm.LeetCode.Medium
                 else if (n % 4 == 1)
                 {
                     ans += 2;
-                    n / = 2;
+                    n = n / 2;
                 }
                 else
                 {

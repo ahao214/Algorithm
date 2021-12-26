@@ -1,4 +1,5 @@
 ﻿using Ahao.LeetCode.Medium;
+using Ahao.LeetCode.Medium.demo825;
 using Ahao.LeetCode.Simple;
 using System;
 using static System.Console;
@@ -21,15 +22,18 @@ namespace Ahao.LeetCode
 
             #region 1005. K 次取反后最大化的数组和
 
-            Class1005 class1005 = new Class1005();
-            int[] arr = { 2, -3, -1, 5, -4 };
-            int k = 2;
-            WriteLine(class1005.LargestSumAfterKNegations(arr, k));
+            //Class1005 class1005 = new Class1005();
+            //int[] arr = { 2, -3, -1, 5, -4 };
+            //int k = 2;
+            //WriteLine(class1005.LargestSumAfterKNegations(arr, k));
 
             #endregion
 
-            #region
-
+            #region 825. 适龄的朋友
+            int[] ages = { 20, 30, 100, 110, 120 };
+            
+            Class825 class825 = new Class825();
+            WriteLine(class825.NumFriendRequests1(ages));
 
             #endregion
 
