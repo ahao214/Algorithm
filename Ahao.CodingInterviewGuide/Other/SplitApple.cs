@@ -44,5 +44,49 @@ namespace Ahao.CodingInterviewGuide.Other
             return a + b;
         }
 
+        //动态规划方法
+        public int[,] map = new int[101, 101];
+        public int Ways(int apples, int plates)
+        {
+            for (int i = 0; i <= apples; i++)
+            {
+                for (int j = 0; j <= plates; j++)
+                {
+                    map[i, j] = -1;
+                }
+            }
+            return process(apples, plates);
+        }
+
+        private int process(int apples, int plates)
+        {
+            if (map[apples, plates] != -1)
+            {
+                return map[apples, plates];
+            }
+
+            int ans = 0;
+            if (apples == 0)
+            {
+                ans = 1;
+            }
+            else if (plates == 0)
+            {
+                ans = 0;
+            }
+            else if (apples < plates)
+            {
+                ans = Ways(apples, apples);
+            }
+            else
+            {
+                int a = Ways(apples - plates, plates);
+                int b = Ways(apples, plates - 1);
+                ans = a + b;
+            }
+            map[apples, plates] = ans;
+            return ans;
+        }
+
     }
 }
