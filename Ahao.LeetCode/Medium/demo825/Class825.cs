@@ -47,17 +47,17 @@ namespace Ahao.LeetCode.Medium.demo825
                 count[age]++;
             }
             int ans = 0;
-            for (int ageA = 0; ageA <= 120; ageA++)
+            for (int ageX = 0; ageX <= 120; ageX++)
             {
-                int countA = count[ageA];
-                for (int ageB = 0; ageB <= 120; ageB++)
+                int countX = count[ageX];
+                for (int ageY = 0; ageY <= 120; ageY++)
                 {
-                    int countB = count[ageB];
-                    if (ageA * 0.5 + 7 >= ageB) continue;
-                    if (ageA < ageB) continue;
-                    if (ageA < 100 && 100 < ageB) continue;
-                    ans += countA * countB;
-                    if (ageA == ageB) ans -= countA;
+                    int countY = count[ageY];
+                    if (ageX * 0.5 + 7 >= ageY) continue;
+                    if (ageX < ageY) continue;
+                    if (ageX < 100 && 100 < ageY) continue;
+                    ans += countX * countY;
+                    if (ageX == ageY) ans -= countX;
                 }
             }
             return ans;
