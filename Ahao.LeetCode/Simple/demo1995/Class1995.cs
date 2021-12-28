@@ -33,5 +33,39 @@ namespace Ahao.LeetCode.Simple.demo1995
             }
             return res;
         }
+
+
+        //使用哈希表存储nums[d]
+        public int CountQuadruplets1(int[] nums)
+        {
+            int n = nums.Length;
+            int res = 0;
+            Dictionary<int, int> cnt = new Dictionary<int, int>();
+            for (int c = n - 2; c >= 2; --c)
+            {
+                if (!cnt.ContainsKey(nums[c + 1]))
+                {
+                    cnt.Add(nums[c + 1], 1);
+                }
+                else
+                {
+                    ++cnt[nums[c + 1]];
+                }
+                for (int a = 0; a < c; ++a)
+                {
+                    for (int b = a + 1; b < c; ++b)
+                    {
+                        int sum = nums[a] + nums[b] + nums[c];
+                        if (cnt.ContainsKey(sum))
+                        {
+                            res += cnt[sum];
+                        }
+                    }
+                }
+            }
+            return res;
+        }
+
+
     }
 }
