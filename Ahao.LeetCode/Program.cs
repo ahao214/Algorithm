@@ -1,5 +1,6 @@
 ﻿using Ahao.LeetCode.Medium;
 using Ahao.LeetCode.Medium.demo825;
+using Ahao.LeetCode.Medium.demo846;
 using Ahao.LeetCode.Simple;
 using System;
 using static System.Console;
@@ -30,15 +31,20 @@ namespace Ahao.LeetCode
             #endregion
 
             #region 825. 适龄的朋友
-            int[] ages = { 20, 30, 100, 110, 120 };
-            
-            Class825 class825 = new Class825();
-            WriteLine(class825.NumFriendRequests2(ages));
+
+            //int[] ages = { 20, 30, 100, 110, 120 };
+
+            //Class825 class825 = new Class825();
+            //WriteLine(class825.NumFriendRequests2(ages));
 
             #endregion
 
             #region
 
+            int[] hand = { 1, 2, 3, 6, 2, 3, 4, 7, 8 };
+            int groupSize = 3;
+            Class846 class846 = new Class846();
+            WriteLine(class846.IsNStraightHand(hand, groupSize));
 
             #endregion
 
