@@ -9,7 +9,7 @@ namespace Ahao.LeetCode.Hard.demo5970
     /// <summary>
     /// 5970. 参加会议的最多员工数
     /// </summary>
-   public class Class5970
+    public class Class5970
     {
         public int MaximumInvitations(int[] favorite)
         {
@@ -22,6 +22,8 @@ namespace Ahao.LeetCode.Hard.demo5970
                 liked = cur;
 
             }
+
+            return 0;
         }
     }
 }
