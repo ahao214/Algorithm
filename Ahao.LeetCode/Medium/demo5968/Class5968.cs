@@ -13,14 +13,27 @@ namespace Ahao.LeetCode.Medium.demo5968
     {
         public int NumberOfBeams(string[] bank)
         {
-            int m = bank.Length;
-            int n = bank[0].Length;
-            if (m == 1)   //只有一行
+            int n = bank.Length;
+            int m = bank[0].Length;
+            int Ans = 0;
+            int last = 0;
+            for (int i = 0; i < n; ++i)
             {
-                return 0;
+                int cnt = 0;
+                for (int j = 0; j < m; ++j)
+                {
+                    if (bank[i][j] == '1')
+                    {
+                        cnt++;
+                    }
+                }
+                if (cnt != 0)
+                {
+                    Ans += last * cnt;
+                    last = cnt;
+                }
             }
-
-            return 0;
+            return Ans;
         }
     }
 }
