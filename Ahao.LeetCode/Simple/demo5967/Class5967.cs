@@ -44,5 +44,15 @@ namespace Ahao.LeetCode.Simple.demo5967
             }
             return count == 1 || count == 0;
         }
+
+        public bool CheckString2(string s)
+        {
+            for (int i = 1; i < s.Length; i++)
+            {
+                if (s[i] == 'a' && s[i - 1] == 'b')
+                    return false;
+            }
+            return true;
+        }
     }
 }
