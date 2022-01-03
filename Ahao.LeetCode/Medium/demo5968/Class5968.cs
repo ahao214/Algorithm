@@ -16,10 +16,11 @@ namespace Ahao.LeetCode.Medium.demo5968
             int n = bank.Length;
             int m = bank[0].Length;
             int Ans = 0;
-            int last = 0;
+            int last = 0; //上一行里面1的个数
             for (int i = 0; i < n; ++i)
             {
-                int cnt = 0;
+                int cnt = 0; //当前行里面1的个数
+                //遍历每一行,获取1的个数
                 for (int j = 0; j < m; ++j)
                 {
                     if (bank[i][j] == '1')
@@ -29,6 +30,7 @@ namespace Ahao.LeetCode.Medium.demo5968
                 }
                 if (cnt != 0)
                 {
+                    //当前行里面1的个数*上一行里面1的个数
                     Ans += last * cnt;
                     last = cnt;
                 }
