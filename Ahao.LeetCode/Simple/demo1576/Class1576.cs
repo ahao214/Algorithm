@@ -40,5 +40,27 @@ namespace Ahao.LeetCode.Simple.demo1576
             }
             return new String(chars);
         }
+
+        public string ModifyString1(string s)
+        {
+            int n = s.Length;
+            char[] arr = s.ToCharArray();
+            for (int i = 0; i < n; ++i)
+            {
+                if (arr[i] == '?')
+                {
+                    for (char ch = 'a'; ch <= 'c'; ++ch)
+                    {
+                        if ((i > 0 && arr[i - 1] == ch) || (i < n - 1 && arr[i + 1] == ch))
+                        {
+                            continue;
+                        }
+                        arr[i] = ch;
+                        break;
+                    }
+                }
+            }
+            return new String(arr);
+        }
     }
 }
