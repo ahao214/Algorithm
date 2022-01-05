@@ -44,5 +44,30 @@ namespace Ahao.LeetCode.Medium.demo71
             }
             return ans.ToString();
         }
+
+        public string SimplifyPath1(string path)
+        {
+            var parts = path.Split('/');
+            var list = new List<string>();
+            foreach (var part in parts)
+            {
+                switch (part)
+                {
+                    case "":
+                    case ".":
+                        break;
+                    case "..":
+                        if (list.Count > 0)
+                        {
+                            list.RemoveAt(list.Count - 1);
+                        }
+                        break;
+                    default:
+                        list.Add(part);
+                        break;
+                }
+            }
+            return "/" + string.Join("/", list);
+        }
     }
 }
