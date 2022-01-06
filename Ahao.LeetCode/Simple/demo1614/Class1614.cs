@@ -33,5 +33,23 @@ namespace Ahao.LeetCode.Simple.demo1614
             }
             return res;
         }
+
+        public int MaxDepth1(string s)
+        {
+            int ans = 0, size = 0;
+            foreach (char ch in s)
+            {
+                if (ch == '(')
+                {
+                    ++size;
+                    ans = Math.Max(ans, size);
+                }
+                else if (ch == ')')
+                {
+                    --size;
+                }
+            }
+            return ans;
+        }
     }
 }
