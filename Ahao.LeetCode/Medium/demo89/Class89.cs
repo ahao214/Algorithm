@@ -37,5 +37,17 @@ namespace Ahao.LeetCode.Medium.demo89
             }
             return result;
         }
+
+        public IList<int> GrayCode1(int n)
+        {
+            IList<int> ret = new List<int>();
+            for (int i = 0; i < 1 << n; i++)
+            {
+                ret.Add((i >> 1) ^ i);
+            }
+            return ret;
+        }
+
+
     }
 }
