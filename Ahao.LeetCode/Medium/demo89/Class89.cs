@@ -38,6 +38,11 @@ namespace Ahao.LeetCode.Medium.demo89
             return result;
         }
 
+        /// <summary>
+        /// 二进制数转格雷码
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public IList<int> GrayCode1(int n)
         {
             IList<int> ret = new List<int>();
@@ -48,6 +53,25 @@ namespace Ahao.LeetCode.Medium.demo89
             return ret;
         }
 
+        /// <summary>
+        /// 对称生成
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public IList<int> GrayCode2(int n)
+        {
+            IList<int> ret = new List<int>();
+            ret.Add(0);
+            for (int i = 0; i <= n; i++)
+            {
+                int m = ret.Count;
+                for (int j = m - 1; j >= 0; j--)
+                {
 
+                    ret.Add(ret[j] | (1 << (i - 1)));
+                }
+            }
+            return ret;
+        }
     }
 }
