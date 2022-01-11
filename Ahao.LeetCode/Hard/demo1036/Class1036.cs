@@ -200,6 +200,67 @@ namespace Ahao.LeetCode.Hard.demo1036
             return false;
         }
 
+
+        const int BDY = 1000000;
+        readonly int[] dir4 = { 0, 1, 0, -1, 1, 0, -1, 0 };
+        public bool IsEscapePossible3(int[][] blocked, int[] source, int[] target)//1036. 逃离大迷宫,离散以合并空格
+        {
+            List<int[]> blo = new List<int[]>(blocked) { source, target };//全部关键点
+            int n = blo.Count, k = blocked.Length, i, last;
+            if (k < 2) return true;
+            Dictionary<int, int> dr = new Dictionary<int, int>(), dc = new Dictionary<int, int>();//离散坐标对应字典
+
+            blo.Sort((a, b) => a[0] - b[0]);//行标排序
+            for (i = 0, last = -1; i < n; i++)
+            {
+                switch (blo[i][0] - last)
+                {
+                    case 0: continue;//相同
+                    case 1: break;//相邻
+                    default: dr[last + 1] = dr.Count; break;//相隔
+                }
+                dr[blo[i][0]] = dr.Count; last = blo[i][0];
+            }
+            if (last < BDY - 1) dr[last + 1] = dr.Count;//最后是否可加空行
+            blo.Sort((a, b) => a[1] - b[1]);//列标排序
+            for (i = 0, last = -1; i < n; i++)
+            {
+                switch (blo[i][1] - last)
+                {
+                    case 0: continue;//相同
+                    case 1: break;//相邻
+                    default: dc[last + 1] = dc.Count; break;//相隔
+                }
+                dc[blo[i][1]] = dc.Count; last = blo[i][1];
+            }
+            if (last < BDY - 1) dc[last + 1] = dc.Count;//最后是否可加空列
+            int r = dr.Count, c = dc.Count;
+            int[,] grid = new int[r, c];//准备保存离散化地图
+            foreach (int[] pos in blocked)//构建离散化地图（空地将只保留一格）
+            {
+                int xx = dr[pos[0]], yy = dc[pos[1]]; grid[xx, yy] = 1;
+            }//设为障碍
+            int sx = dr[source[0]], sy = dc[source[1]], tx = dr[target[0]], ty = dc[target[1]];//起点、终点
+            Queue<Tuple<int, int>> open = new Queue<Tuple<int, int>>();//二元组队列
+            open.Enqueue(new Tuple<int, int>(sx, sy));
+            grid[sx, sy] = 1;//状态设为障碍
+            while (open.Count > 0)//在离散地图上进行广度优先搜索
+            {
+                Tuple<int, int> tuple = open.Dequeue();
+                int x = tuple.Item1, y = tuple.Item2;
+                for (int d = 0; d < 4; ++d)
+                {
+                    int nx = x + dir4[d << 1], ny = y + dir4[d << 1 | 1];
+                    if (nx >= 0 && nx < r && ny >= 0 && ny < c && grid[nx, ny] < 1)
+                    {
+                        if (nx == tx && ny == ty) return true;//可达
+                        open.Enqueue(new Tuple<int, int>(nx, ny));
+                        grid[nx, ny] = 1;//状态设为障碍
+                    }
+                }
+            }
+            return false;//不可达
+        }
     }
 
 
