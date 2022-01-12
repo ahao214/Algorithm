@@ -1,4 +1,5 @@
 ﻿using Ahao.LeetCode.Medium;
+using Ahao.LeetCode.Medium.demo334;
 using Ahao.LeetCode.Medium.demo825;
 using Ahao.LeetCode.Medium.demo846;
 using Ahao.LeetCode.Simple;
@@ -55,6 +56,14 @@ namespace Ahao.LeetCode
 
             #region
 
+
+            #endregion
+
+            #region 334. 递增的三元子序列
+
+            Class334 class334 = new Class334();
+            int[] arr = { 20, 100, 10, 12, 5, 13 };
+            WriteLine(class334.IncreasingTriplet(arr));
 
             #endregion
 
