@@ -2,6 +2,7 @@
 using Ahao.LeetCode.Medium.demo334;
 using Ahao.LeetCode.Medium.demo825;
 using Ahao.LeetCode.Medium.demo846;
+using Ahao.LeetCode.Simple.demo1716;
 using Ahao.LeetCode.Simple;
 using System;
 using static System.Console;
@@ -61,9 +62,16 @@ namespace Ahao.LeetCode
 
             #region 334. 递增的三元子序列
 
-            Class334 class334 = new Class334();
-            int[] arr = { 20, 100, 10, 12, 5, 13 };
-            WriteLine(class334.IncreasingTriplet(arr));
+            //Class334 class334 = new Class334();
+            //int[] arr = { 20, 100, 10, 12, 5, 13 };
+            //WriteLine(class334.IncreasingTriplet(arr));
+
+            #endregion
+
+            #region 1716. 计算力扣银行的钱
+
+            //Class1716 class1716 = new Class1716();
+            //WriteLine(class1716.TotalMoney(10));
 
             #endregion
 
