@@ -4,6 +4,7 @@ using Ahao.LeetCode.Medium.demo825;
 using Ahao.LeetCode.Medium.demo846;
 using Ahao.LeetCode.Simple.demo1716;
 using Ahao.LeetCode.Simple.demo5908;
+using Ahao.LeetCode.Medium.demo5194;
 using Ahao.LeetCode.Simple;
 using System;
 using static System.Console;
@@ -83,6 +84,15 @@ namespace Ahao.LeetCode
             //int k = 8;
             //char c = 'n';
             //class5908.DivideString(s, k, c);
+
+            #endregion
+
+            #region 5194. 得到目标值的最少行动次数
+
+            Class5194 class5194 = new Class5194();
+            int target = 10;
+            int maxDoubles = 4;
+            WriteLine(class5194.MinMoves(target, maxDoubles));
 
             #endregion
 
