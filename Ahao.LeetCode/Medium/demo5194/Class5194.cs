@@ -50,5 +50,30 @@ namespace Ahao.LeetCode.Medium.demo5194
             }
             return count;
         }
+
+        public int MinMoves1(int target, int maxDoubles)
+        {
+            int res = 0;
+            while (target > 1)
+            {
+                if (maxDoubles > 0)
+                {
+                    if (target % 2 == 1)
+                    {
+                        res += 1;
+                        target -= 1;
+                    }
+                    res += 1;
+                    maxDoubles -= 1;
+                    target /= 2;
+                }
+                else
+                {
+                    res += target - 1;
+                    break;
+                }
+            }
+            return res;
+        }
     }
 }
