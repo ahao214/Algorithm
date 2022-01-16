@@ -3,6 +3,7 @@ using Ahao.LeetCode.Medium.demo334;
 using Ahao.LeetCode.Medium.demo825;
 using Ahao.LeetCode.Medium.demo846;
 using Ahao.LeetCode.Simple.demo1716;
+using Ahao.LeetCode.Simple.demo5908;
 using Ahao.LeetCode.Simple;
 using System;
 using static System.Console;
@@ -72,6 +73,16 @@ namespace Ahao.LeetCode
 
             //Class1716 class1716 = new Class1716();
             //WriteLine(class1716.TotalMoney(10));
+
+            #endregion
+
+            #region 5980. 将字符串拆分为若干长度为 k 的组
+
+            //Class5908 class5908 = new Class5908();
+            //string s = "ctoyjrwtngqwt";
+            //int k = 8;
+            //char c = 'n';
+            //class5908.DivideString(s, k, c);
 
             #endregion
 
