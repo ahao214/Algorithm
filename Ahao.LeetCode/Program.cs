@@ -89,10 +89,10 @@ namespace Ahao.LeetCode
 
             #region 5194. 得到目标值的最少行动次数
 
-            Class5194 class5194 = new Class5194();
-            int target = 10;
-            int maxDoubles = 4;
-            WriteLine(class5194.MinMoves(target, maxDoubles));
+            //Class5194 class5194 = new Class5194();
+            //int target = 10;
+            //int maxDoubles = 4;
+            //WriteLine(class5194.MinMoves(target, maxDoubles));
 
             #endregion
 
