@@ -21,37 +21,24 @@ namespace Ahao.LeetCode.Medium
     {
         public int[] RearrangeArray(int[] nums)
         {
-            int left = 0;
-            int right = 1;
-            while (left < nums.Length)
+            List<int> lstA = new List<int>();
+            List<int> lstB = new List<int>();
+            for (int i = 0; i < nums.Length; i++)
             {
-                if (nums[left] < 0 && nums[right] > 0)
-                {
-                    Swap(nums, left, right);
-                }
-                else if (nums[left] > 0 && nums[right] < 0)
-                {
-                    left += 2;
-                    right += 2;
-                }
-                else if (nums[left] > 0 && nums[right] > 0)
-                {
-                    left++;
-                    right++;
-                }
-                else if (nums[left] < 0 && nums[right] < 0)
-                {
-                    right++;
-                }
+                if (nums[i] > 0)
+                    lstA.Add(nums[i]);
+                else
+                    lstB.Add(nums[i]);
             }
-            return nums;
-        }
-
-        private void Swap(int[] nums, int i, int j)
-        {
-            int tmp = nums[i];
-            nums[i] = nums[j];
-            nums[j] = tmp;
-        }
+            int n = nums.Length;
+            n /= 2;
+            List<int> res = new List<int>();
+            for (int i = 0; i < n; i++)
+            {
+                res.Add(lstA[i]);
+                res.Add(lstB[i]);
+            }
+            return res.ToArray();
+        }       
     }
 }
