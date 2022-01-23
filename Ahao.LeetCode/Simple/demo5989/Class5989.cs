@@ -26,7 +26,7 @@ namespace Ahao.LeetCode.Simple.demo5989
             while (L < n && nums[L] == nums[0])
                 L++;
             int R = n - 1;
-            while (R >= 0 && nums[R] == nums[n - 1])
+            while (R > 0 && nums[R] == nums[n - 1])
                 R--;
             return Math.Max(0, R - L + 1);
         }
