@@ -107,9 +107,9 @@ namespace Ahao.LeetCode
 
             #region 5991. 按符号重排数组
 
-            Class5991 class5991 = new Class5991();
-            int[] nums = { 3, 1, -2, -5, 2, -4 };
-            class5991.RearrangeArray(nums);
+            //Class5991 class5991 = new Class5991();
+            //int[] nums = { 3, 1, -2, -5, 2, -4 };
+            //class5991.RearrangeArray(nums);
 
             #endregion
 
