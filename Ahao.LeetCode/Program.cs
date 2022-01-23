@@ -6,6 +6,7 @@ using Ahao.LeetCode.Simple.demo1716;
 using Ahao.LeetCode.Simple.demo5908;
 using Ahao.LeetCode.Medium.demo5194;
 using Ahao.LeetCode.Simple;
+using Ahao.LeetCode.Medium.demo5990;
 using System;
 using static System.Console;
 
@@ -95,6 +96,23 @@ namespace Ahao.LeetCode
             //WriteLine(class5194.MinMoves(target, maxDoubles));
 
             #endregion
+
+            #region 5990.找出数组中的所有孤独数字
+
+            //Class5990 class5990 = new Class5990();
+            //int[] nums = { 1, 3, 3, 5 };
+            //class5990.FindLonely(nums);
+
+            #endregion
+
+            #region 5991. 按符号重排数组
+
+            Class5991 class5991 = new Class5991();
+            int[] nums = { 3, 1, -2, -5, 2, -4 };
+            class5991.RearrangeArray(nums);
+
+            #endregion
+
 
             ReadLine();
         }
