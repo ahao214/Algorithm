@@ -7,6 +7,7 @@ using Ahao.LeetCode.Simple.demo5908;
 using Ahao.LeetCode.Medium.demo5194;
 using Ahao.LeetCode.Simple;
 using Ahao.LeetCode.Medium.demo5990;
+using Ahao.LeetCode.Medium.demo5981;
 using System;
 using static System.Console;
 
@@ -113,6 +114,13 @@ namespace Ahao.LeetCode
 
             #endregion
 
+            #region 
+
+            Class5981 class5981 = new Class5981();
+            int[] nums = { 0, 0, 1, 0 };
+            class5981.MaxScoreIndices(nums);
+
+            #endregion
 
             ReadLine();
         }
