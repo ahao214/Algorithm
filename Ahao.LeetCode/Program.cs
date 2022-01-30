@@ -114,11 +114,11 @@ namespace Ahao.LeetCode
 
             #endregion
 
-            #region 
+            #region 5981. 分组得分最高的所有下标
 
-            Class5981 class5981 = new Class5981();
-            int[] nums = { 0, 0, 1, 0 };
-            class5981.MaxScoreIndices(nums);
+            //Class5981 class5981 = new Class5981();
+            //int[] nums = { 0, 0, 1, 0 };
+            //class5981.MaxScoreIndices(nums);
 
             #endregion
 
