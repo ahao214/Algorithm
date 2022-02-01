@@ -8,7 +8,6 @@
   <ItemGroup>
     <Folder Include="Interview\" />
     <Folder Include="Offer\" />
-    <Folder Include="Simple\新文件夹\" />
   </ItemGroup>
 
 </Project>
