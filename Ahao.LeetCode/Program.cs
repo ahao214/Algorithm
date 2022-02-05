@@ -122,6 +122,9 @@ namespace Ahao.LeetCode
 
             #endregion
 
+
+            Class5984 class5984 = new Class5984();
+            class5984.MinimumSum(2932);
             ReadLine();
         }
     }
