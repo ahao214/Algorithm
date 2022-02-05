@@ -32,7 +32,24 @@ namespace Ahao.LeetCode.Simple
             num = num % 100;
             int third = num / 10;
             int four = num % 10;
-           
+            int[] nums = { first, second, third, four };
+            Array.Sort(nums);
+            if (countZero == 1)
+            {
+                res = Math.Min(nums[1] + nums[2] * 10 + nums[3], nums[1] * 10 + nums[2] + nums[3]);
+            }
+            if (countZero == 2)
+            {
+                res = nums[2] + nums[3];
+            }
+            if (countZero == 3)
+            {
+                res = nums[3];
+            }
+            if (countZero == 0)
+            {
+                res = nums[0] * 10 + nums[2] + nums[1] * 10 + nums[3];
+            }
 
             return res;
         }
