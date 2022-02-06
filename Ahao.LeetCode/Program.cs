@@ -123,8 +123,9 @@ namespace Ahao.LeetCode
             #endregion
 
 
-            Class5984 class5984 = new Class5984();
-            class5984.MinimumSum(2932);
+            Class6001 class6001 = new Class6001();
+            //class6001.SmallestNumber(3000000008970000);
+            class6001.SmallestNumber(0);
             ReadLine();
         }
     }
