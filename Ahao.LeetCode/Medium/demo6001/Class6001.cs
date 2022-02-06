@@ -18,12 +18,11 @@ namespace Ahao.LeetCode.Medium
     {
         public long SmallestNumber(long num)
         {
-            if (num >= -9 && num <= 9)
+            if (num ==0)
             {
-                return num;
+                return 0;
             }
-            long res = 0;
-            string str = null;
+            long res = 0;            
             long oldNum = num;
             if (oldNum < 0)
             {
@@ -40,10 +39,9 @@ namespace Ahao.LeetCode.Medium
             if (num < 0)
             {
                 for (int i = lst.Count - 1; i >= 0; i--)
-                {
-                    str += lst[i].ToString();
-                }
-                res = long.Parse(str);
+                {                   
+                    res = res * 10 + lst[i];
+                }                
                 res = -res;
             }
             else
@@ -62,12 +60,10 @@ namespace Ahao.LeetCode.Medium
                     }
                 }
                 for (int i = 0; i < lst.Count; i++)
-                {
-                    str += lst[i].ToString();
-                }
-                res = long.Parse(str);
+                {                  
+                    res = res * 10 + lst[i];
+                }                
             }
-
             return res;
         }
     }
