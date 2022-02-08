@@ -19,7 +19,7 @@ namespace Ahao.LeetCode.Hard.demo1001
 返回一个整数数组 ans 作为答案， ans[j] 应等于第 j 次查询 queries[j] 的结果，1 表示照亮，0 表示未照亮。
      */
     public class Class1001
-    {
+    {       
         public int[] GridIllumination(int n, int[][] lamps, int[][] queries)
         {
             Dictionary<int, int> row = new Dictionary<int, int>();
