@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <Folder Include="Interview\" />
+    <Folder Include="Medium\新文件夹\" />
     <Folder Include="Offer\" />
   </ItemGroup>
 
