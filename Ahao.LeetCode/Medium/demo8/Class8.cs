@@ -69,5 +69,47 @@ namespace Ahao.LeetCode.Medium.demo8
             else
                 return -n;
         }
+
+        public int MyAtoi1(string s)
+        {
+            s = s.Trim();
+            if (string.IsNullOrEmpty(s))
+                return 0;
+            char[] str = s.ToCharArray();
+            var i = 0;
+            while (str[i] == ' ' && i < s.Length)
+                i++;
+            var negatire = false;
+            if (i < s.Length && str[i] == '-')
+            {
+                negatire = true;
+                i++;
+            }
+            else if (i < s.Length && str[i] == '+')
+            {
+                i++;
+            }
+            var n = 0;
+            try
+            {
+                while (i < str.Length && char.IsDigit(str[i]))
+                {
+                    var d = str[i] - '0';
+                    checked
+                    {
+                        n = n * 10 - d;
+                    }
+                    i++;
+                }
+                checked
+                {
+                    return negatire ? n : -n;
+                }
+            }
+            catch (OverflowException)
+            {
+                return negatire ? int.MinValue : int.MaxValue;
+            }
+        }
     }
 }
