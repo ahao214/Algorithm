@@ -31,7 +31,7 @@ namespace Ahao.LeetCode.Medium.demo8
             if (string.IsNullOrEmpty(s))
                 return 0;
             var i = 0;
-            while (i < s.Length && s[i] == '  ')
+            while (i < s.Length && s[i] == ' ')
                 i++;
             var negatire = false;
             if (i < s.Length && s[i] == '-')
