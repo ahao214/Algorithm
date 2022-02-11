@@ -122,10 +122,12 @@ namespace Ahao.LeetCode
 
             #endregion
 
+            Class1984 class1984 = new Class1984();
+            int[] nums = { 9, 4, 1, 7 };
+            int k = 2;
+            class1984.MinimumDifference(nums, k);
 
-            Class6001 class6001 = new Class6001();
-            //class6001.SmallestNumber(3000000008970000);
-            class6001.SmallestNumber(0);
+
             ReadLine();
         }
     }
