@@ -122,10 +122,28 @@ namespace Ahao.LeetCode
 
             #endregion
 
-            Class1984 class1984 = new Class1984();
-            int[] nums = { 9, 4, 1, 7 };
-            int k = 2;
-            class1984.MinimumDifference(nums, k);
+            #region 1984. 学生分数的最小差值
+
+            //Class1984 class1984 = new Class1984();
+            //int[] nums = { 9, 4, 1, 7 };
+            //int k = 2;
+            //class1984.MinimumDifference(nums, k);
+
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
             ReadLine();
