@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.LeetCode.Medium.demo6006
+namespace Ahao.LeetCode.Medium
 {
     /*
      6006. 拿出最少数目的魔法豆 显示英文描述 
@@ -18,7 +18,16 @@ namespace Ahao.LeetCode.Medium.demo6006
     {
         public long MinimumRemoval(int[] beans)
         {
-            int res = 0;
+            long res = long.MaxValue;
+            Array.Sort(beans);
+            int sum = beans.Sum();
+            int leftSum = 0;
+            for (int i = 0; i < beans.Length-1; i++)
+            {                
+                res = Math.Min(res, sum-leftSum - beans[i] * (beans.Length-i));
+                leftSum += beans[i];
+            }
+            res = Math.Min(res, sum - beans[beans.Length - 1]);
             return res;
         }
     }
