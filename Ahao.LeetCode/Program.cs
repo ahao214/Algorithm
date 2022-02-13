@@ -131,7 +131,8 @@ namespace Ahao.LeetCode
 
             #endregion
 
-
+            Class6004 class6004 = new Class6004();
+            class6004.CountOperations(2, 3);
 
 
 
