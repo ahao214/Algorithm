@@ -22,7 +22,9 @@ nums[i - 1] != nums[i] ，其中 1 <= i <= n - 1 。
     {
         public int MinimumOperations(int[] nums)
         {
+            int res = 0;
 
+            return res;
         }
     }
 }
