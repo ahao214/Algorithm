@@ -18,16 +18,22 @@ namespace Ahao.LeetCode.Medium
     {
         public long MinimumRemoval(int[] beans)
         {
-            long res = long.MaxValue;
+            int n = beans.Length;
             Array.Sort(beans);
-            int sum = beans.Sum();
-            int leftSum = 0;
-            for (int i = 0; i < beans.Length-1; i++)
-            {                
-                res = Math.Min(res, sum-leftSum - beans[i] * (beans.Length-i));
-                leftSum += beans[i];
+            long sum = 0;
+            for (int i = 0; i < n; i++)
+            {
+                sum += beans[i];
             }
-            res = Math.Min(res, sum - beans[beans.Length - 1]);
+            long res = sum - n * beans[0];
+            long leftSum = 0;
+            for (int i = 0; i < n; i++)
+            {
+                leftSum += beans[i];
+                sum -= beans[i];
+                if (i != n - 1)
+                    res = Math.Min(res, leftSum + sum - (n - i - 1) * beans[i + 1]);
+            }
             return res;
         }
     }
