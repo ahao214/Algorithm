@@ -23,29 +23,29 @@ nums[i - 1] != nums[i] ，其中 1 <= i <= n - 1 。
         public int MinimumOperations(int[] nums)
         {
             int res = 0;
-            //偶数下标最小值
-            int minEven = int.MaxValue;
-            //奇数下标最下值
-            int minOdd = int.MaxValue;
-            int n = nums.Length;
-            for (int i = 0; i < n; i += 2)
-            {
-                minEven = Math.Min(nums[i], minEven);
-            }
-            for (int i = 1; i < n; i += 2)
-            {
-                minOdd = Math.Min(nums[i], minOdd);
-            }
-            for (int i = 0; i < n; i += 2)
-            {
-                if (nums[i] > minEven)
-                    res++;
-            }
-            for (int i = 1; i < n; i += 2)
-            {
-                if (nums[i] > minOdd)
-                    res++;
-            }
+            ////偶数下标最小值
+            //int minEven = int.MaxValue;
+            ////奇数下标最下值
+            //int minOdd = int.MaxValue;
+            //int n = nums.Length;
+            //for (int i = 0; i < n; i += 2)
+            //{
+            //    minEven = Math.Min(nums[i], minEven);
+            //}
+            //for (int i = 1; i < n; i += 2)
+            //{
+            //    minOdd = Math.Min(nums[i], minOdd);
+            //}
+            //for (int i = 0; i < n; i += 2)
+            //{
+            //    if (nums[i] > minEven)
+            //        res++;
+            //}
+            //for (int i = 1; i < n; i += 2)
+            //{
+            //    if (nums[i] > minOdd)
+            //        res++;
+            //}
 
             return res;
         }
