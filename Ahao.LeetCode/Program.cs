@@ -131,9 +131,7 @@ namespace Ahao.LeetCode
 
             #endregion
 
-            Class6006 class6006 = new Class6006();
-            int[] nums = { 4,1,6,5 };
-            class6006.MinimumRemoval(nums); 
+
 
 
 
