@@ -22,9 +22,20 @@ namespace Ahao.LeetCode.Medium.demo5998
             {
                 return res;
             }
-            else
+            long cur = 2;
+            while (finalSum >= cur)
             {
-            
+                if (finalSum - cur > cur)
+                {
+                    res.Add(cur);
+                    finalSum -= cur;
+                }
+                else
+                {
+                    res.Add(finalSum);
+                    finalSum = 0;
+                }
+                cur += 2;
             }
 
             return res;
