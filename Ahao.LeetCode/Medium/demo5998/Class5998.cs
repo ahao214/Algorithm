@@ -40,5 +40,27 @@ namespace Ahao.LeetCode.Medium.demo5998
 
             return res;
         }
+
+
+        public IList<long> MaximumEvenSplit1(long finalSum)
+        {
+            IList<long> res = new List<long>();
+            if (finalSum % 2 != 0)
+                return res;
+            for (int i = 2; ; i += 2)
+            {
+                if (i * 2 < finalSum)
+                {
+                    res.Add(i);
+                    finalSum -= i;
+                }
+                else
+                {
+                    res.Add(finalSum);
+                    break;
+                }
+            }
+            return res;
+        }
     }
 }
