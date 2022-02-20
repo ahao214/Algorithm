@@ -132,9 +132,9 @@ namespace Ahao.LeetCode
             #endregion
 
 
-            Class969 class969 = new Class969();
-            int[] arr = { 3, 2, 4, 1 };
-            class969.PancakeSort(arr);
+            Class6012 class969 = new Class6012();
+ 
+            class969.CountEven(30);
 
 
 
