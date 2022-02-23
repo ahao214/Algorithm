@@ -14,27 +14,32 @@ namespace Ahao.LeetCode.Hard.demo32
     {
         public int LongestValidParentheses(string s)
         {
-            if (string.IsNullOrEmpty(s))
+            int left = 0, right = 0, ans = 0;
+            int n = s.Length;
+            for (int i = 0; i < n; i++)
             {
-                return 0;
+                if (s[i] == '(')
+                    left++;
+                else
+                    right++;
+                if (left == right)
+                    ans = Math.Max(ans, right);
+                else if (right > left)
+                    left = right = 0;
             }
-            var lst = new List<Pair>(s.Length / 2 + 1);
-
-            return lst.Count == 0 ? 0 : lst.Max(t => t.Length);
-        }
-    }
-
-    struct Pair
-    {
-        public readonly int Left;
-        public readonly int Length;
-        public int BeforeLeft => Left - 1;
-        public int AfterRight => Left + Length;
-
-        public Pair(int left, int length)
-        {
-            Left = left;
-            Length = length;
+            left = right = 0;
+            for (int i = n - 1; i >= 0; i--)
+            {
+                if (s[i] == '(')
+                    left++;
+                else
+                    right++;
+                if (left == right)
+                    ans = Math.Max(ans, left);
+                else if (left > right)
+                    left = right = 0;
+            }
+            return ans * 2;
         }
     }
 
