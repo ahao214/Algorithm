@@ -33,5 +33,22 @@ namespace Ahao.LeetCode.Medium.demo48
                 }
             }
         }
+
+        public void Rotate1(int[][] matrix)
+        {
+            var n = matrix.Length;
+            var n1 = n - 1;
+            for (int row = 0; row <= n / 2 - 1; row++)
+            {
+                for (int col = row; col < n - 1 - row; col++)
+                {
+                    var tmp = matrix[row][col];
+                    matrix[row][col] = matrix[n1 - col][row];
+                    matrix[n1 - col][row] = matrix[n1 - row][n1 - col];
+                    matrix[n1 - row][n1 - col] = matrix[col][n1 - row];
+                    matrix[col][n1 - row] = tmp;
+                }
+            }
+        }
     }
 }
