@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Folder Include="Interview\" />
-    <Folder Include="Offer\" />
   </ItemGroup>
 
 </Project>
