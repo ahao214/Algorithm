@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.LeetCode.Medium.demo75
+namespace Ahao.LeetCode.Medium.demo1706
 {
     /*
 1706. 球会落何处
@@ -18,7 +18,7 @@ namespace Ahao.LeetCode.Medium.demo75
 
 返回一个大小为 n 的数组 answer ，其中 answer[i] 是球放在顶部的第 i 列后从底部掉出来的那一列对应的下标，如果球卡在盒子里，则返回 -1 。
 */
-    public class Class75
+    public class Class1706
     {
         public int[] FindBall(int[][] grid)
         {
