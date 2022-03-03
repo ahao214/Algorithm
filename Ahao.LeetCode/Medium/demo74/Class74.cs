@@ -64,5 +64,29 @@ namespace Ahao.LeetCode.Medium.demo74
             }
             return false;
         }
+
+
+        public bool SearchMatrix1(int[][] matrix, int target)
+        {
+            int rows = matrix.Length - 1;
+            int cols = 0;
+            while (rows >= 0 && cols < matrix[0].Length)
+            {
+                int num = matrix[rows][cols];
+                if (num == target)
+                {
+                    return true;
+                }
+                else if (num > target)
+                {
+                    rows--;
+                }
+                else
+                {
+                    cols++;
+                }
+            }
+            return false;
+        }
     }
 }
