@@ -132,9 +132,9 @@ namespace Ahao.LeetCode
             #endregion
 
 
-            Class6013 class969 = new Class6013();
-
-            class969.MergeNodes();
+            Class2104 class969 = new Class2104();
+            int[] arr = { 4, -2, -3, 4, 1 };
+            class969.SubArrayRanges(arr);
 
 
 
