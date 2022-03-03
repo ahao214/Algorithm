@@ -43,5 +43,24 @@ namespace Ahao.LeetCode.Medium
             }
             return res;
         }
+
+
+        public long SubArrayRanges1(int[] nums)
+        {
+            int n = nums.Length;
+            long ret = 0;
+            for (int i = 0; i < n; i++)
+            {
+                int minVal = int.MaxValue, maxVal = int.MinValue;
+                for (int j = i; j < n; j++)
+                {
+                    minVal = Math.Min(minVal, nums[j]);
+                    maxVal = Math.Max(maxVal, nums[j]);
+                    ret += maxVal - minVal;
+                }
+            }
+            return ret;
+        }
+
     }
 }
