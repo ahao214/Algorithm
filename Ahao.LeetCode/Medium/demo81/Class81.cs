@@ -27,7 +27,7 @@ namespace Ahao.LeetCode.Medium.demo81
 
         private bool Search(int[] nums, int low, int high, int target)
         {
-            while (low < high)
+            while (low <= high)
             {
                 var mid = low + (high - low) / 2;
                 if (nums[mid] == target)
