@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Hard.demo84
 {
-    /// <summary>
-    /// 84. 柱状图中最大的矩形
-    /// </summary>
+    /*
+     84. 柱状图中最大的矩形
+给定 n 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
+
+求在该柱状图中，能够勾勒出来的矩形的最大面积。
+     */
     public class Class84
     {
         /*
@@ -112,5 +115,38 @@ namespace Ahao.LeetCode.Hard.demo84
                 this.PreCount = preCount;
             }
         }
+
+
+
+
+        public int LargestRectangleArea3(int[] heights)
+        {
+            Stack<int> st = new Stack<int>();
+            int area = 0;
+
+            int[] exHeights = new int[heights.Length + 2];
+            for (int i = 1; i < exHeights.Length - 1; i++)
+            {
+                exHeights[i] = heights[i - 1];
+            }
+
+            st.Push(0);
+
+            for (int i = 1; i < exHeights.Length; i++)
+            {
+                while (exHeights[i] < exHeights[st.Peek()])
+                {
+                    // i前的，最高的柱子
+                    int mid = st.Pop();
+                    // mid能延伸的距离
+                    int distance = i - st.Peek() - 1;
+                    int h = exHeights[mid];
+                    area = Math.Max(area, h * distance);
+                }
+                st.Push(i);
+            }
+            return area;
+        }
+
     }
 }
