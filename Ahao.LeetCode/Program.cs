@@ -143,9 +143,6 @@ namespace Ahao.LeetCode
 
 
 
-
-
-
             ReadLine();
         }
     }
