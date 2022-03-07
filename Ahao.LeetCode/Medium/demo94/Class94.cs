@@ -60,8 +60,28 @@ namespace Ahao.LeetCode.Medium.demo94
             }
         }
 
-
-        
+        public IList<int> InorderTraversal2(TreeNode root)
+        {
+            if (root == null)
+                return Array.Empty<int>();
+            var stack = new Stack<TreeNode>();
+            var result = new List<int>();
+            while (root != null || stack.Count > 0)
+            {
+                if (root == null)
+                {
+                    root = stack.Pop();
+                    result.Add(root.val);
+                    root = root.right;
+                }
+                else
+                {
+                    stack.Push(root);
+                    root = root.left;
+                }
+            }
+            return result;
+        }
     }
 
     public class TreeNode
