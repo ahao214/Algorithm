@@ -10,6 +10,7 @@ using Ahao.LeetCode.Medium.demo5990;
 using Ahao.LeetCode.Medium.demo5981;
 using System;
 using static System.Console;
+using Ahao.LeetCode.Hard;
 
 namespace Ahao.LeetCode
 {
@@ -131,7 +132,9 @@ namespace Ahao.LeetCode
 
             #endregion
 
-
+            Class798 ckass798 = new Class798();
+            int[] nums = { 1, 2, 3 };
+            ckass798.BestRotation1(nums);
 
 
 
