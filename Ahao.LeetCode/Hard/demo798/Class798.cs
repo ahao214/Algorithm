@@ -50,6 +50,38 @@ namespace Ahao.LeetCode.Hard
 
         }
 
+        //超出时间限制
+        public int BestRotation1(int[] nums)
+        {
+            int maxSum = 0;
+            int result = 0;
+            int len = nums.Length;
+            int[] newNums = new int[len * 2];
+            Array.Copy(nums, newNums, len);
+            for (int i = 0; i < len; i++)
+            {
+                newNums[i + len] = nums[i];
+            }
+
+            for (int k = 0; k < len; k++)
+            {
+                //记录每次k的最大值
+                int num = 0;
+                for (int i = 0; i < len; i++)
+                {
+                    if (newNums[i + k] <= i)
+                        num++;
+                }
+                if (num > maxSum)
+                {
+                    result = k;
+                    maxSum = num;
+                }
+            }
+            return result;
+        }
+
+
 
     }
 }
