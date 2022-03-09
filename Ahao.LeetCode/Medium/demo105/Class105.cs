@@ -45,8 +45,7 @@ namespace Ahao.LeetCode.Medium.demo105
             var leftTreeSize = pn - ii;
             var rightTreeSize = count - leftTreeSize - 1;
 
-            return new TreeNode(preorder[pi])
-            {
+            return new TreeNode(preorder[pi]) {
                 left = BuildTree(preorder, pi + 1, inorder, ii, leftTreeSize, index),
                 right = BuildTree(preorder, pi + 1 + leftTreeSize, inorder, pn + 1, rightTreeSize, index)
             };
@@ -79,6 +78,35 @@ namespace Ahao.LeetCode.Medium.demo105
 
             public bool Contains(int n) => IndexOf(n) >= 0;
         }
+
+
+
+        public TreeNode BuildTree2(int[] preorder, int[] inorder)
+        {
+            return myBuild(preorder, 0, preorder.Length - 1, inorder, 0, inorder.Length - 1);
+        }
+        private TreeNode myBuild(int[] preorder, int preStart, int preEnd, int[] inorder, int inStart, int inEnd)
+        {
+            if (inStart > inEnd)
+                return null;
+            int rootVal = preorder[preStart];
+            int index = -1;
+            for (int i = inStart; i <= inEnd; i++)
+            {
+                if (inorder[i] == rootVal)
+                {
+                    index = i;
+                    break;
+                }
+            }
+            int inLeft = index - inStart - 1;
+            TreeNode root = new TreeNode(rootVal);
+            root.left = myBuild(preorder, preStart + 1, preStart + 1 + inLeft, inorder, inStart, index - 1);
+            root.right = myBuild(preorder, preStart + 2 + inLeft, preEnd, inorder, index + 1, inEnd);
+            return root;
+        }
+
+
     }
 
     public class TreeNode
