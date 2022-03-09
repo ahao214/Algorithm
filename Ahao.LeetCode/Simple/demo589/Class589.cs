@@ -38,6 +38,31 @@ namespace Ahao.LeetCode.Simple.demo589
                 Helper(ch, res);
             }
         }
+
+        /// <summary>
+        /// 迭代优化
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        public IList<int> Preorder1(Node root)
+        {
+            IList<int> res = new List<int>();
+            if (root == null)
+                return res;
+
+            Stack<Node> stk = new Stack<Node>();
+            stk.Push(root);
+            while (stk.Count > 0)
+            {
+                Node node = stk.Pop();
+                res.Add(node.val);
+                for (int i = node.children.Count - 1; i >= 0; i--)
+                {
+                    stk.Push(node.children[i]);
+                }
+            }
+            return res;
+        }
     }
 
     public class Node
