@@ -12,8 +12,26 @@ namespace Ahao.LeetCode.Medium.demo106
      */
     public class Class106
     {
+        public TreeNode BuildTree(int[] inorder, int[] postorder)
+        {
+            return BuildTree(inorder.AsSpan(), postorder.AsSpan());
+        }
 
+        private TreeNode BuildTree(Span<int> inorder, Span<int> postorder)
+        {
+            if (postorder.Length == 0)
+                return null;
+            var pn = inorder.IndexOf(postorder[postorder.Length - 1]);
+            var leftSize = pn;
+            var rightSize = postorder.Length - 1 - leftSize;
+            return new TreeNode(postorder[postorder.Length - 1]) {
+                left = BuildTree(inorder.Slice(0, leftSize), postorder.Slice(0, leftSize)),
+                right = BuildTree(inorder.Slice(pn + 1), postorder.Slice(leftSize, rightSize))
+            };
+        }
     }
+
+
 
     public class TreeNode
     {
