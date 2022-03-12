@@ -89,7 +89,40 @@ n 叉树 在输入中按层序遍历进行序列化表示，每组子节点由�
             return res;
         }
 
+        /// <summary>
+        /// 迭代优化
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        public IList<int> Postorder2(Node root)
+        {
+            IList<int> res = new List<int>();
+            if (root == null)
+            {
+                return res;
+            }
 
+            Stack<Node> stack = new Stack<Node>();
+            ISet<Node> visited = new HashSet<Node>();
+            stack.Push(root);
+            while (stack.Count > 0)
+            {
+                Node node = stack.Peek();
+                /* 如果当前节点为叶子节点或者当前节点的子节点已经遍历过 */
+                if (node.children.Count == 0 || visited.Contains(node))
+                {
+                    stack.Pop();
+                    res.Add(node.val);
+                    continue;
+                }
+                for (int i = node.children.Count - 1; i >= 0; i--)
+                {
+                    stack.Push(node.children[i]);
+                }
+                visited.Add(node);
+            }
+            return res;
+        }
     }
 
     // Definition for a Node.
