@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="0001-0099\" />
+    <Folder Include="0001-0099\demo0016\" />
     <Folder Include="0100-0199\" />
     <Folder Include="0200-0299\" />
     <Folder Include="0300-0399\" />
