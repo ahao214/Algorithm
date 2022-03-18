@@ -23,19 +23,26 @@
 */
 class Solution {
 public:
-	int duplicateInArray(vector<int>& nums) {
-		int len = nums.size();
-		unordered_set<int> nSet;
-		int res = 0;
-		for (int i = 0; i < len; i++) {
-			if (nSet.count(nums[i])) {
-				res = nums[i];
-				break;
-			}
-			else {
-				nSet.insert(nums[i]);
-			}
-		}
-		return res;
-	}
+    int duplicateInArray(vector<int>& nums) {
+        int len = nums.size();
+        for (auto& n : nums) {
+            if (n < 0 || n >= len)
+            {
+                return -1;
+            }
+        }
+
+        unordered_set<int> nSet;
+        int res = -1;
+        for (int i = 0; i < len; i++) {
+            if (nSet.count(nums[i])) {
+                res = nums[i];
+                break;
+            }
+            else {
+                nSet.insert(nums[i]);
+            }
+        }
+        return res;
+    }
 };
