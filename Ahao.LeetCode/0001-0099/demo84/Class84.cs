@@ -148,5 +148,22 @@ namespace Ahao.LeetCode.Hard.demo84
             return area;
         }
 
+        public int LargestRectangleArea4(int[] heights)
+        {
+            int n = heights.Length, max = 0;
+            Stack<int> stk = new Stack<int>();
+            for (int i = 0; i <= n; i++)
+            {
+                while (stk.Count != 0 && (i == n || heights[i] < heights[stk.Peek()]))
+                {
+                    int height = heights[stk.Pop()];
+                    int widht = stk.Count == 0 ? i : i - 1 - stk.Peek();
+                    max = Math.Max(max, widht * height);
+                }
+                stk.Push(i);
+            }
+            return max;
+        }
+
     }
 }
