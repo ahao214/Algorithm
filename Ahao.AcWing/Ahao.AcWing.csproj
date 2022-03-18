@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="0001-0099\" />
+    <Folder Include="0100-0199\" />
+    <Folder Include="0200-0299\" />
+    <Folder Include="0300-0399\" />
+    <Folder Include="0400-0499\" />
+    <Folder Include="0500-0599\" />
+    <Folder Include="0600-0699\" />
+    <Folder Include="0700-0799\" />
+    <Folder Include="0800-0899\" />
+    <Folder Include="0900-0999\" />
+    <Folder Include="1000-1099\" />
+    <Folder Include="1100-1199\" />
+    <Folder Include="1200-1299\" />
+    <Folder Include="1300-1399\" />
+    <Folder Include="1400-1499\" />
+    <Folder Include="1500-1599\" />
+    <Folder Include="1600-1699\" />
+    <Folder Include="1700-1799\" />
+    <Folder Include="1800-1899\" />
+    <Folder Include="1900-1999\" />
+    <Folder Include="2000-2099\" />
+    <Folder Include="2100-2199\" />
+    <Folder Include="2200-2299\" />
+    <Folder Include="2300-2399\" />
+    <Folder Include="2400-2499\" />
+    <Folder Include="2500-2599\" />
+    <Folder Include="2600-2699\" />
+    <Folder Include="2700-2799\" />
+  </ItemGroup>
+
+</Project>
