@@ -6,10 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="0800-0899\" />
     <Folder Include="1500-1599\" />
     <Folder Include="1800-1899\" />
-    <Folder Include="2100-2199\" />
     <Folder Include="2200-2299\" />
     <Folder Include="2300-2399\" />
     <Folder Include="2400-2499\" />
@@ -19,6 +17,7 @@
     <Folder Include="Interview\" />
     <Folder Include="Offer\Simple\" />
     <Folder Include="Offer\Hard\" />
+    <Folder Include="5000-5099\" />
   </ItemGroup>
 
 </Project>
