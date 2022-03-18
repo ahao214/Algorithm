@@ -27,5 +27,8 @@
     <ClCompile Include="15. 二维数组中的查找.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
+    <ClCompile Include="13. 找出数组中重复的数字.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
