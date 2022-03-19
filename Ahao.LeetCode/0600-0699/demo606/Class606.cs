@@ -74,7 +74,7 @@ namespace Ahao.LeetCode._0600_0699.demo606
         public int val;
         public TreeNode left;
         public TreeNode right;
-        public TreeNode(int val = 0, TreeNode left = null, TreeNode right  null)
+        public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
         {
             this.val = val;
             this.left = left;
