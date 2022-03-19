@@ -21,6 +21,52 @@ namespace Ahao.LeetCode._0600_0699.demo606
             }
             return sb.Append(root.val).Append("(").Append(Tree2str(root.left)).Append(")(").Append(Tree2str(root.right)).Append(")").ToString();
         }
+
+        /// <summary>
+        /// 迭代
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        public string TreeToStr(TreeNode root)
+        {
+            StringBuilder ans = new StringBuilder();
+            Stack<TreeNode> stk = new Stack<TreeNode>();
+            stk.Push(root);
+            ISet<TreeNode> visited = new HashSet<TreeNode>();
+            while (stk.Count > 0)
+            {
+                TreeNode node = stk.Peek();
+                if (!visited.Add(node))
+                {
+                    if (node != root)
+                    {
+                        ans.Append(")");
+                    }
+                    stk.Pop();
+                }
+                else
+                {
+                    if (node != root)
+                    {
+                        ans.Append("(");
+                    }
+                    ans.Append(node.val);
+                    if (node.left == null && node.right != null)
+                    {
+                        ans.Append("()");
+                    }
+                    if (node.right != null)
+                    {
+                        stk.Push(node.right);
+                    }
+                    if (node.left != null)
+                    {
+                        stk.Push(node.left);
+                    }
+                }
+            }
+            return ans.ToString();
+        }
     }
 
     public class TreeNode
