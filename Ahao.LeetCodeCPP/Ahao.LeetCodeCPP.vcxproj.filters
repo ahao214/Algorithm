@@ -19,6 +19,9 @@
     <Filter Include="源文件\0100-0199">
       <UniqueIdentifier>{b8772059-b499-4c85-be87-12d058890245}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0600-0699">
+      <UniqueIdentifier>{562c2a46-859d-4f76-ab76-754caff151ff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -26,6 +29,9 @@
     </ClCompile>
     <ClCompile Include="1. 两数之和.cpp">
       <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="606. 根据二叉树创建字符串.cpp">
+      <Filter>源文件\0600-0699</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
