@@ -1,5 +1,7 @@
 using namespace std;
 #include<string>
+#include<stack>
+#include<unordered_set>
 
 struct TreeNode {
 	int val;
@@ -23,5 +25,38 @@ public:
 			return to_string(root->val) + "(" + tree2str(root->left) + ")";
 		}
 		return to_string(root->val) + "(" + tree2str(root->left) + ")(" + tree2str(root->right) + ")";
+	}
+
+	string treeToStr(TreeNode* root) {
+		string ans = "";
+		stack<TreeNode*> st;
+		st.push(root);
+		unordered_set<TreeNode*> vis;
+		while (!st.empty()) {
+			auto node = st.top();
+			if (vis.count(node)) {
+				if (node != root) {
+					ans += ")";
+				}
+				st.pop();
+			}
+			else {
+				vis.insert(node);
+				if (node != root) {
+					ans += "(";
+				}
+				ans += to_string(node->val);
+				if (node->left == nullptr && node->right != nullptr) {
+					ans += "()";
+				}
+				if (node->right != nullptr) {
+					st.push(node->right);
+				}
+				if (node->left != nullptr) {
+					st.push(node->left);
+				}
+			}
+		}
+		return ans;
 	}
 };
