@@ -16,6 +16,9 @@
     <Filter Include="源文件\0001-0099">
       <UniqueIdentifier>{b617dec2-6175-4f14-a1a8-f5be4180161c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0600-0699">
+      <UniqueIdentifier>{e9ebae5e-9a21-4a76-bbc3-f0dec475283a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.AcWingCPP.cpp">
@@ -29,6 +32,9 @@
     </ClCompile>
     <ClCompile Include="13. 找出数组中重复的数字.cpp">
       <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="606. 根据二叉树创建字符串.cpp">
+      <Filter>源文件\0600-0699</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
