@@ -25,6 +25,9 @@
     <Filter Include="源文件\2000-2099">
       <UniqueIdentifier>{258bb381-fc35-4048-9c64-0ed675e958a1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\700-799">
+      <UniqueIdentifier>{732eb7af-af48-4fd4-9e89-2ba2cf8cb04e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -38,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="2039. 网络空闲的时刻.cpp">
       <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
+    <ClCompile Include="724. 寻找数组的中心下标.cpp">
+      <Filter>源文件\700-799</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
