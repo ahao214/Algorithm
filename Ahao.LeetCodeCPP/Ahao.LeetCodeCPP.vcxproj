@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1. 两数之和.cpp" />
+    <ClCompile Include="2038. 如果相邻两个颜色均相同则删除当前颜色.cpp" />
     <ClCompile Include="2039. 网络空闲的时刻.cpp" />
     <ClCompile Include="606. 根据二叉树创建字符串.cpp" />
     <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp" />

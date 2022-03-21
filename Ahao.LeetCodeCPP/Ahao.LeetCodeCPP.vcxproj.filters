@@ -48,5 +48,8 @@
     <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp">
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
+    <ClCompile Include="2038. 如果相邻两个颜色均相同则删除当前颜色.cpp">
+      <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
