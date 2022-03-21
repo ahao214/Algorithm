@@ -1,6 +1,7 @@
 using namespace std;
 #include<vector>
 #include<unordered_set>
+#include <queue>
 
 struct TreeNode {
 	int val;
@@ -61,5 +62,32 @@ public:
 		}
 		hashTable.insert(root->val);
 		return findTarget1(root->left, k) || findTarget1(root->right, k);
+	}
+
+	/// <summary>
+	/// 广度优先+哈希表
+	/// </summary>
+	/// <param name="root"></param>
+	/// <param name="k"></param>
+	/// <returns></returns>
+	bool findTarget2(TreeNode* root, int k) {
+		unordered_set<int> hashTable;
+		queue<TreeNode*> que;
+		que.push(root);
+		while (!que.empty()) {
+			TreeNode* node = que.front();
+			que.pop();
+			if (hashTable.count(k - node->val)) {
+				return true;
+			}
+			hashTable.insert(node->val);
+			if (node->left != nullptr) {
+				que.push(node->left);
+			}
+			if (node->right != nullptr) {
+				que.push(node->right);
+			}
+		}
+		return false;
 	}
 };
