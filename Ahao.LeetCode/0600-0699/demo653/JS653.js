@@ -25,3 +25,25 @@ var findTarget = function (root, k) {
     }
     return helper(root, k);
 };
+
+
+//广度优先+哈希表
+var findTarget1 = function (root, k) {
+    const set = new Set();
+    const q = [];
+    q.push(root);
+    while (q.length) {
+        const node = q.shift();
+        if (set.has(k - node.val)) {
+            return true;
+        }
+        set.add(node.val);
+        if (node.left) {
+            q.push(node.left);
+        }
+        if (node.right) {
+            q.push(node.right);
+        }
+    }
+    return false;
+};

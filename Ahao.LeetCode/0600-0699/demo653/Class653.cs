@@ -27,7 +27,36 @@ namespace Ahao.LeetCode._0600_0699.demo653
             return FindTarget(root.left, k) || FindTarget(root.right, k);
         }
 
-
+        /// <summary>
+        /// 广度优先+哈希表
+        /// </summary>
+        /// <param name="root"></param>
+        /// <param name="k"></param>
+        /// <returns></returns>
+        public bool FingTarget1(TreeNode root, int k)
+        {
+            ISet<int> set = new HashSet<int>();
+            Queue<TreeNode> q = new Queue<TreeNode>();
+            q.Enqueue(root);
+            while (q.Count > 0)
+            {
+                TreeNode node = q.Dequeue();
+                if (set.Contains(k - node.val))
+                {
+                    return true;
+                }
+                set.Add(node.val);
+                if (node.left != null)
+                {
+                    q.Enqueue(node.left);
+                }
+                if (node.right != null)
+                {
+                    q.Enqueue(node.right);
+                }
+            }
+            return false;
+        }
     }
 
 
