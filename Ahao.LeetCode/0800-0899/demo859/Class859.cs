@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Simple.LC859
 {
-    /// <summary>
-    /// 859. 亲密字符串
-    /// </summary>
     public class Class859
     {
         public bool BuddyStrings(string s, string goal)
