@@ -142,6 +142,7 @@
     <ClCompile Include="1. 两数之和.cpp" />
     <ClCompile Include="2039. 网络空闲的时刻.cpp" />
     <ClCompile Include="606. 根据二叉树创建字符串.cpp" />
+    <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp" />
     <ClCompile Include="724. 寻找数组的中心下标.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
   </ItemGroup>

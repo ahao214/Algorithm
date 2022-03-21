@@ -45,5 +45,8 @@
     <ClCompile Include="724. 寻找数组的中心下标.cpp">
       <Filter>源文件\700-799</Filter>
     </ClCompile>
+    <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
