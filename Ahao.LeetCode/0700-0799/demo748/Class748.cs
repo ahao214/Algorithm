@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Simple.demo748
 {
-    /// <summary>
-    /// 748. 最短补全词
-    /// </summary>
     public class Class748
     {
         public string ShortestCompletingWord(string licensePlate, string[] words)
@@ -38,7 +35,7 @@ namespace Ahao.LeetCode.Simple.demo748
                         break;
                     }
                 }
-                if (ok && (idx <=0 || words[i].Length < words[idx].Length))
+                if (ok && (idx <= 0 || words[i].Length < words[idx].Length))
                 {
                     idx = i;
                 }
