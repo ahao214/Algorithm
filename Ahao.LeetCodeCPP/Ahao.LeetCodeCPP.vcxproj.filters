@@ -28,6 +28,9 @@
     <Filter Include="源文件\700-799">
       <UniqueIdentifier>{732eb7af-af48-4fd4-9e89-2ba2cf8cb04e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499">
+      <UniqueIdentifier>{41099a46-6288-4275-831a-2671b069ef26}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="2038. 如果相邻两个颜色均相同则删除当前颜色.cpp">
       <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
+    <ClCompile Include="440. 字典序的第K小数字.cpp">
+      <Filter>源文件\0400-0499</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
