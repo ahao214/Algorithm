@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Simple.demo1446
 {
-    /// <summary>
-    /// 1446. 连续字符
-    /// </summary>
     public class Class1446
     {
         public int MaxPower(string s)
