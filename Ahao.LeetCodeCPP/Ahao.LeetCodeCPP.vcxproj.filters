@@ -57,5 +57,8 @@
     <ClCompile Include="440. 字典序的第K小数字.cpp">
       <Filter>源文件\0400-0499</Filter>
     </ClCompile>
+    <ClCompile Include="661. 图片平滑器.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
