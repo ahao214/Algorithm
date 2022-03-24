@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Simple.demo1614
 {
-    /// <summary>
-    /// 1614. 括号的最大嵌套深度
-    /// </summary>
     public class Class1614
     {
         public int MaxDepth(string s)
