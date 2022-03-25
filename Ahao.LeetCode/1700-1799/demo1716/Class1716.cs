@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Simple.demo1716
 {
-    /// <summary>
-    /// 1716. 计算力扣银行的钱
-    /// </summary>
     public class Class1716
     {
         public int TotalMoney(int n)
