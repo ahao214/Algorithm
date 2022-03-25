@@ -60,5 +60,8 @@
     <ClCompile Include="661. 图片平滑器.cpp">
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
+    <ClCompile Include="172. 阶乘后的零.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
