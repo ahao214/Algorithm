@@ -50,6 +50,28 @@ namespace Ahao.LeetCode.Medium.demo75
             }
         }
 
+        public void SortColors2(int[] nums)
+        {
+            int i = 0, left = 0;
+            int right = nums.Length - 1;
+            while (i <= right)
+            {
+                int v = nums[i];
+                if (v == 0)
+                {
+                    Swap(nums, i++, left++);
+                }
+                else if (v == 1)
+                {
+                    i++;
+                }
+                else
+                {
+                    Swap(nums, i, right--);
+                }
+            }
+        }
+
         private void Swap(int[] arr, int i, int j)
         {
             int tmp = arr[i];
