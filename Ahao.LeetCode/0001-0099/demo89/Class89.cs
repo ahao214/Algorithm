@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo89
 {
-    /// <summary>
-    /// 89. 格雷编码
-    /// </summary>
     public class Class89
     {
         public IList<int> GrayCode(int n)
