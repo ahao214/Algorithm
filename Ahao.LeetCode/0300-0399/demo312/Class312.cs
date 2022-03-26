@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Hard.demo312
 {
-    /// <summary>
-    /// 312. 戳气球
-    /// </summary>
     public class Class312
     {
         public int MaxCoins(int[] nums)
