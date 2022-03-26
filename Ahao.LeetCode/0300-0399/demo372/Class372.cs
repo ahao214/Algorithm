@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo372
 {
-    /// <summary>
-    /// 372. 超级次方
-    /// </summary>
     public class Class372
     {
         public int SuperPow(int a, int[] b)
