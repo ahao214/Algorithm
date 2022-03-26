@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo334
 {
-    /// <summary>
-    /// 334. 递增的三元子序列
-    /// </summary>
     public class Class334
     {
         public bool IncreasingTriplet(int[] nums)
