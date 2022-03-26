@@ -147,6 +147,7 @@
     <ClCompile Include="606. 根据二叉树创建字符串.cpp" />
     <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp" />
     <ClCompile Include="661. 图片平滑器.cpp" />
+    <ClCompile Include="682. 棒球比赛.cpp" />
     <ClCompile Include="724. 寻找数组的中心下标.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
   </ItemGroup>
