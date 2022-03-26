@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.LC384
 {
-    /// <summary>
-    /// 384. 打乱数组
-    /// </summary>   
     public class Class384
     {
         int[] nums;
