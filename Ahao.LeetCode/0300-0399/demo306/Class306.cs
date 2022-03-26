@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo306
 {
-    /// <summary>
-    /// 306. 累加数
-    /// </summary>
     public class Class306
     {
         public bool IsAdditiveNumber(string num)
@@ -125,7 +122,7 @@ namespace Ahao.LeetCode.Medium.demo306
                 sum.Insert(0, (char)(n + 48));
             }
             if (carry > 0)
-                sum.Insert(0, '1'); 
+                sum.Insert(0, '1');
             return sum.ToString();
         }
     }
