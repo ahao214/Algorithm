@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.LC438
 {
-    /// <summary>
-    /// 438. 找到字符串中所有字母异位词
-    /// </summary>
     public class Class438
     {
         public IList<int> FindAnagrams(string s, string p)
