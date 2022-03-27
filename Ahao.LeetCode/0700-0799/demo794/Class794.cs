@@ -12,11 +12,6 @@ public class Class794
         //
     }
 
-    /// <summary>
-    /// 794. 有效的井字游戏
-    /// </summary>
-    /// <param name="board"></param>
-    /// <returns></returns>
     public bool ValidTicTacToe(string[] board)
     {
         int xCount = 0, oCount = 0;
