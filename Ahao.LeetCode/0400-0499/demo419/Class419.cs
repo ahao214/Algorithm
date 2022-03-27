@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo419
 {
-    /// <summary>
-    /// 419.甲板上的战舰
-    /// </summary>
     public class Class419
     {
         //方法一：遍历扫描
