@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo423
 {
-    /// <summary>
-    /// 423. 从英文中重建数字
-    /// </summary>
     public class Class423
     {
         public string OriginalDigits(string s)
