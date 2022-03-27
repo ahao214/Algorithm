@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Hard.demo458
 {
-    /// <summary>
-    /// 458. 可怜的小猪
-    /// </summary>
     public class Class458
     {
         /// <summary>
