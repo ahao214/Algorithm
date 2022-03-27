@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Hard.demo472
 {
-    /// <summary>
-    /// 472. 连接词
-    /// </summary>
     public class Class472
     {
         Trie trie = new Trie();
