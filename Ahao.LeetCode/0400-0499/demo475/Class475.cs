@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo475
 {
-    /// <summary>
-    /// 475. 供暖器
-    /// </summary>
     public class Class475
     {
         public int FindRadius(int[] houses, int[] heaters)
