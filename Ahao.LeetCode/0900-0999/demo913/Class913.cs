@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Hard.demo913
 {
-    /// <summary>
-    /// 913. 猫和老鼠
-    /// </summary>
     public class Class913
     {
         const int MOUSE_WIN = 1;
