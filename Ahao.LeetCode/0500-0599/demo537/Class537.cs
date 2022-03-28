@@ -6,15 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo537
 {
-    /*
-     537. 复数乘法
-复数 可以用字符串表示，遵循 "实部+虚部i" 的形式，并满足下述条件：
-
-实部 是一个整数，取值范围是 [-100, 100]
-虚部 也是一个整数，取值范围是 [-100, 100]
-i2 == -1
-给你两个字符串表示的复数 num1 和 num2 ，请你遵循复数表示形式，返回表示它们乘积的字符
-     */
     public class Class537
     {
         public string ComplexNumberMultiply(string num1, string num2)
