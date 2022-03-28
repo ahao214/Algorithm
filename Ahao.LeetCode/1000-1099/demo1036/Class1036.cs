@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Hard.demo1036
 {
-    /// <summary>
-    /// 1036. 逃离大迷宫
-    /// </summary>
     public class Class1036
     {
         //方法一：有限步数的广度优先搜索
