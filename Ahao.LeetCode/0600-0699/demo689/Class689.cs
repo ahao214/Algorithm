@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Hard.demo689
 {
-    /// <summary>
-    /// 689. 三个无重叠子数组的最大和
-    /// </summary>
     public class Class689
     {
         public int[] MaxSumOfThreeSubarrays(int[] nums, int k)
