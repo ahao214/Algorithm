@@ -78,5 +78,8 @@
     <ClCompile Include="2028. 找出缺失的观测数据.cpp">
       <Filter>源文件\2000-2099</Filter>
     </ClCompile>
+    <ClCompile Include="693. 交替位二进制数.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
