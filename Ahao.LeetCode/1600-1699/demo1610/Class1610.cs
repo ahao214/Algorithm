@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Hard.demo1610
 {
-    /// <summary>
-    /// 1610. 可见点的最大数目
-    /// </summary>
     public class Class1610
     {
         //二分查找
