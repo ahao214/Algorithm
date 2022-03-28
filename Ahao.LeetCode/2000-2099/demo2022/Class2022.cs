@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Simple.demo2022
 {
-    /// <summary>
-    /// 2022. 将一维数组转变成二维数组
-    /// </summary>
     public class Class2022
     {
         /// <summary>
