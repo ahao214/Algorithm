@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo1143
 {
-    /// <summary>
-    /// 1143. 最长公共子序列
-    /// </summary>
     public class Class1143
     {
         public int LongestCommonSubsequence(string text1, string text2)
