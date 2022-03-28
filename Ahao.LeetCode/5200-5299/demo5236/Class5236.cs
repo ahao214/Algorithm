@@ -48,5 +48,27 @@ nums.length 为偶数
 
             return res;
         }
+
+
+        public int MinDeletion2(int[] nums)
+        {
+            int ans = 0;
+            int n = nums.Length;
+            int i = 0;
+            while (i < n)
+            {
+                int cur = nums[i++];
+                while (i < n && nums[i] == cur)
+                {
+                    ans += 1;
+                    i += 1;
+                }
+                if (i < n)
+                    ++i;
+                else
+                    ans += 1;
+            }
+            return ans;
+        }
     }
 }
