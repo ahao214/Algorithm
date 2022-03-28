@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo807
 {
-    /// <summary>
-    /// 807. 保持城市天际线
-    /// </summary>
     public class Class807
     {
         public int MaxIncreaseKeepingSkyline(int[][] grid)
