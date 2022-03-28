@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo911
 {
-    /// <summary>
-    /// 911. 在线选举
-    /// </summary>
     public class TopVotedCandidate
     {
         IList<int> tops;
