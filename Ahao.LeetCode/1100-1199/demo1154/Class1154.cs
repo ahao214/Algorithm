@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Simple.demo1154
 {
-    /// <summary>
-    /// 1154. 一年中的第几天
-    /// </summary>
     public class Class1154
     {
         public int DayOfYear(string date)
