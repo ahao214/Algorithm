@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Simple.demo1078
 {
-    /// <summary>
-    /// 1078. Bigram 分词
-    /// </summary>
     public class Class1078
     {
         public string[] FindOcurrences(string text, string first, string second)
