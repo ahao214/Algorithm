@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Hard.demo1044
 {
-    /// <summary>
-    /// 1044. 最长重复子串
-    /// </summary>
     public class Class1044
     {
         public string LongestDupSubstring(string s)
