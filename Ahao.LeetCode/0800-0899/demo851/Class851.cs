@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo851
 {
-    /// <summary>
-    /// 851. 喧闹和富有
-    /// </summary>
     public class Class851
     {
         //深度优先
