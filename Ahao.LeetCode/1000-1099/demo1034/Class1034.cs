@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo1034
 {
-    /// <summary>
-    /// 1034. 边界着色
-    /// </summary>
     public class Class1034
     {
         /// <summary>
