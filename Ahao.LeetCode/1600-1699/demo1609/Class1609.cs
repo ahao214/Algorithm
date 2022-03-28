@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo1609
 {
-    /// <summary>
-    ///1609. 奇偶树 
-    /// </summary>
     public class Class1609
     {
         public bool IsEvenOddTree(TreeNode root)
