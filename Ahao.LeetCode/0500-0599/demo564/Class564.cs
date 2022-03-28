@@ -6,12 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Hard.demo564
 {
-    /*
-    564. 寻找最近的回文数
-    给定一个表示整数的字符串 n ，返回与它最近的回文整数（不包括自身）。如果不止一个，返回较小的那个。
-
-“最近的”定义为两个整数差的绝对值最小。
-*/
     public class Class564
     {
         public string NearestPalindromic(string n)
@@ -81,8 +75,8 @@ namespace Ahao.LeetCode.Hard.demo564
                     else
                     {
                         imax = ihead + 1;
-                        if (smid == "9")                        
-                            smid = "0";                        
+                        if (smid == "9")
+                            smid = "0";
                         imax = Convert.ToInt64(imax.ToString() + smid + Reverse(imax));
                     }
                 }
