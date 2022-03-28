@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo539
 {
-    /*
-     539. 最小时间差
-    给定一个 24 小时制（小时:分钟 "HH:MM"）的时间列表，找出列表中任意两个时间的最小时间差并以分钟数表示。
-     */
     public class Class539
     {
         public int FindMinDifference(IList<string> timePoints)
