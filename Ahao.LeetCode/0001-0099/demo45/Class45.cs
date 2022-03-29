@@ -41,5 +41,25 @@ namespace Ahao.LeetCode.Medium.demo45
             }
             return step;
         }
+
+
+        public int Jump2(int[] nums)
+        {
+            if (nums == null || nums.Length == 0)
+                return 0;
+            int step = 0;
+            int cur = 0;
+            int next = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (cur < i)
+                {
+                    step++;
+                    cur = next;
+                }
+                next = Math.Max(next, i + nums[i]);
+            }
+            return step;
+        }
     }
 }
