@@ -34,5 +34,44 @@ namespace Ahao.LeetCode.Medium.demo50
                 result *= x;
             return result;
         }
+
+        public double MyPow2(double x, int n)
+        {
+            double ans = 1;
+            double t = x;
+            while (n != 0)
+            {
+                if ((n & 1) != 0)
+                {
+                    ans *= t;
+                }
+                t *= t; //x^2   x^4   x^8 
+                n >>= 1;
+            }
+            return ans;
+        }
+
+        //x的n次方，n可能是负数
+        public double pow(double x, int n)
+        {
+            if (n == 0)
+                return 1D;
+            int p = Math.Abs(n == int.MinValue ? n + 1 : n);
+            double t = x;
+            double ans = 1D;
+            while (p != 0)
+            {
+                if ((p & 1) != 0)
+                {
+                    ans *= t;
+                }
+                p >>= 1;
+                t = t * t;
+            }
+            if (n == int.MinValue)
+                ans *= x;
+            return n < 0 ? (1D / ans) : ans;
+
+        }
     }
 }
