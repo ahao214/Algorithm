@@ -50,5 +50,66 @@ namespace Ahao.LeetCode.Medium.demo73
                 }
             }
         }
+
+        public void SetZeroes2(int[][] matrix)
+        {
+            bool rowZero = false;
+            bool colZero = false;
+            int i = 0, j = 0;
+            //判断第一行是否有0
+            for (i = 0; i < matrix[0].Length; i++)
+            {
+                if (matrix[0][i] == 0)
+                {
+                    rowZero = true;
+                    break;
+                }
+            }
+
+            //判断第一列是否有0
+            for (i = 0; i < matrix.Length; i++)
+            {
+                if (matrix[i][0] == 0)
+                {
+                    colZero = true;
+                    break;
+                }
+            }
+
+            for (i = 1; i < matrix.Length; i++)
+            {
+                for (j = 1; j < matrix[0].Length; j++)
+                {
+                    if (matrix[i][j] == 0)
+                    {
+                        matrix[i][0] = 0;
+                        matrix[0][j] = 0;
+                    }
+                }
+            }
+
+            for (i = 1; i < matrix.Length; i++)
+            {
+                for (j = 1; j < matrix[0].Length; j++)
+                {
+                    if (matrix[i][0] == 0 || matrix[0][j] == 0)
+                        matrix[i][j] = 0;
+                }
+            }
+
+            //第一行设置为0
+            if (rowZero)
+            {
+                for (i = 0; i < matrix[0].Length; i++)
+                    matrix[0][i] = 0;
+            }
+
+            //第一列设置为0
+            if (colZero)
+            {
+                for (i = 0; i < matrix.Length; i++)
+                    matrix[i][0] = 0;
+            }
+        }
     }
 }
