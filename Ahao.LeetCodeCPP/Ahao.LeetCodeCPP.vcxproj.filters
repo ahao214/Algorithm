@@ -81,5 +81,8 @@
     <ClCompile Include="693. 交替位二进制数.cpp">
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
+    <ClCompile Include="728. 自除数.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
