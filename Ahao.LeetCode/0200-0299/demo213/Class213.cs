@@ -40,5 +40,44 @@ namespace Ahao.LeetCode.Medium.demo213
             }
             return second;
         }
+
+
+        public int Rob2(int[] nums)
+        {
+            int len = nums.Length;
+            if (len == 1)
+            {
+                return nums[0];
+            }
+            if (len == 2)
+            {
+                return Math.Max(nums[0], nums[1]);
+            }
+
+            int pre2 = nums[0];
+            int pre1 = Math.Max(nums[0], nums[1]);
+
+            //0到N-2上的最好
+            for (int i = 2; i < nums.Length - 1; i++)
+            {
+                int tmp = Math.Max(pre1, nums[i] + pre2);
+                pre2 = pre1;
+                pre1 = tmp;
+            }
+            int ans1 = pre1;
+            pre2 = nums[1];
+            pre1 = Math.Max(nums[1], nums[2]);
+
+
+            //1到N-1上的最好
+            for (int i = 3; i < len; i++)
+            {
+                int tmp = Math.Max(pre1, nums[i] + pre2);
+                pre2 = pre1;
+                pre1 = tmp;
+            }
+            int ans2 = pre1;
+            return Math.Max(ans1, ans2);
+        }
     }
 }
