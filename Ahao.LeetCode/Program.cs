@@ -136,9 +136,6 @@ namespace Ahao.LeetCode
 
 
 
-            Class954 class954 = new Class954();
-            int[] ar = { 1, 2, 4, 16, 8, 4 };
-            class954.CanReorderDoubled(ar);
 
 
 
