@@ -40,6 +40,9 @@
     <Filter Include="源文件\0700-0799">
       <UniqueIdentifier>{732eb7af-af48-4fd4-9e89-2ba2cf8cb04e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\900-999">
+      <UniqueIdentifier>{2e9bcac0-39ea-4f4f-b93d-be957a029e16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -83,6 +86,9 @@
     </ClCompile>
     <ClCompile Include="728. 自除数.cpp">
       <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="954. 二倍数对数组.cpp">
+      <Filter>源文件\900-999</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

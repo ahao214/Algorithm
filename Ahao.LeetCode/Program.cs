@@ -12,6 +12,7 @@ using System;
 using static System.Console;
 using Ahao.LeetCode.Hard;
 using Ahao.LeetCode._5200_5299.demo5236;
+using Ahao.LeetCode._0900_0999.demo954;
 
 namespace Ahao.LeetCode
 {
@@ -135,8 +136,9 @@ namespace Ahao.LeetCode
 
 
 
-
-
+            Class954 class954 = new Class954();
+            int[] ar = { 1, 2, 4, 16, 8, 4 };
+            class954.CanReorderDoubled(ar);
 
 
 
