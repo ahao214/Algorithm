@@ -2,9 +2,9 @@ using namespace std;
 #include<string>;
 #include<vector>;
 
-/*
-15. 二维数组中的查找
+#pragma region 15. 二维数组中的查找
 
+/*
 在一个二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。
 
 请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
@@ -27,6 +27,7 @@ using namespace std;
 */
 
 /*
+思路：
 我们可以从整个矩阵的右上角开始枚举，假设当前枚举的数是 xx：
 
 如果 xx 等于target，则说明我们找到了目标值，返回true；
@@ -39,6 +40,9 @@ using namespace std;
 每一步会排除一行或者一列，矩阵一共有 nn 行，mm 列，所以最多会进行 n+mn+m 步。
 所以时间复杂度是 O(n+m)O(n+m)。
 */
+
+#pragma endregion
+
 class Solution {
 public:
 	bool searchArray(vector<vector<int>> array, int target) {
