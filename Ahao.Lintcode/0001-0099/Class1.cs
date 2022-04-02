@@ -8,12 +8,15 @@ namespace Ahao.Lintcode.Easy
 {
     public class Class1
     {
-        /// <summary>
-        /// 1 · A + B 问题
-        /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
+        #region 1 · A + B 问题
+
+        /*                 
+        描述
+        给出两个整数 aa 和 bb , 求他们的和并以整数（int）的形式返回。
+        */
+
+        #endregion
+
         public int Aplusb(int a, int b)
         {
             if (a == b)
