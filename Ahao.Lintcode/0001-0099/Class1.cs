@@ -10,8 +10,7 @@ namespace Ahao.Lintcode.Easy
     {
         #region 1 · A + B 问题
 
-        /*                 
-        描述
+        /*                         
         给出两个整数 aa 和 bb , 求他们的和并以整数（int）的形式返回。
         */
 
