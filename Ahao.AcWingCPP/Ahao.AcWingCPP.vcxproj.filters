@@ -36,5 +36,8 @@
     <ClCompile Include="14. 不修改数组找出重复的数字.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
+    <ClCompile Include="17. 从尾到头打印链表.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
