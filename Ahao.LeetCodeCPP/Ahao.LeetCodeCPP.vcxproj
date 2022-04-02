@@ -155,6 +155,7 @@
     <ClCompile Include="693. 交替位二进制数.cpp" />
     <ClCompile Include="724. 寻找数组的中心下标.cpp" />
     <ClCompile Include="728. 自除数.cpp" />
+    <ClCompile Include="744. 寻找比目标字母大的最小字母.cpp" />
     <ClCompile Include="954. 二倍数对数组.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
   </ItemGroup>

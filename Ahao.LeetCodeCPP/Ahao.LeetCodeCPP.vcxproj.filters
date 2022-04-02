@@ -102,5 +102,8 @@
     <ClCompile Include="1622. 奇妙序列.cpp">
       <Filter>源文件\1600-1699</Filter>
     </ClCompile>
+    <ClCompile Include="744. 寻找比目标字母大的最小字母.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
