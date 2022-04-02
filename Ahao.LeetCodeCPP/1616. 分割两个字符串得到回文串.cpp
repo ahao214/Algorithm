@@ -1,4 +1,6 @@
 ﻿/*
+1616. 分割两个字符串得到回文串
+
 难度：中等
 
 给你两个字符串 a 和 b ，它们长度相同。请你选择一个下标，将两个字符串都在 相同的下标 分割开。由 a 可以得到两个字符串： aprefix 和 asuffix ，满足 a = aprefix + asuffix ，同理，由 b 可以得到两个字符串 bprefix 和 bsuffix ，满足 b = bprefix + bsuffix 。请你判断 aprefix + bsuffix 或者 bprefix + asuffix 能否构成回文串。
@@ -13,7 +15,31 @@ using namespace std;
 
 class Solution {
 public:
-    bool checkPalindromeFormation(string a, string b) {
+	bool checkPalindromeFormation(string a, string b) {
+		return check(a, b) || check(b, a);
+	}
 
-    }
+	bool check(string& a, string& b)
+	{
+		int i = 0, j = a.size() - 1;
+		while (i <= j && a[i] == b[j])
+		{
+			i++;
+			j--;
+		}
+		if (i > j)
+			return true;
+		return isPalindrome(a.substr(i, j - i + 1)) || isPalindrome(b.substr(i, j - i + 1));
+	}
+
+	bool isPalindrome(string s)
+	{
+		int i = 0, j = s.size() - 1;
+		while (i < j && s[i] == s[j])
+		{
+			i++;
+			j--;
+		}
+		return i >= j;
+	}
 };
