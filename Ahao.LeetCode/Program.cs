@@ -13,6 +13,7 @@ using static System.Console;
 using Ahao.LeetCode.Hard;
 using Ahao.LeetCode._5200_5299.demo5236;
 using Ahao.LeetCode._0900_0999.demo954;
+using Ahao.LeetCode._6000_6099.demo6034;
 
 namespace Ahao.LeetCode
 {
@@ -135,7 +136,9 @@ namespace Ahao.LeetCode
             #endregion
 
 
-
+            Class6034 dd = new Class6034();
+            int[] arr = { 1, 2, 3, 4, 5 };
+            dd.TriangularSum(arr);
 
 
 
