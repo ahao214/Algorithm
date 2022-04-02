@@ -40,7 +40,10 @@
     <Filter Include="源文件\0700-0799">
       <UniqueIdentifier>{732eb7af-af48-4fd4-9e89-2ba2cf8cb04e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\900-999">
+    <Filter Include="源文件\1600-1699">
+      <UniqueIdentifier>{d63aa47e-960f-4cf3-9a8b-50a1788ea37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0900-0999">
       <UniqueIdentifier>{2e9bcac0-39ea-4f4f-b93d-be957a029e16}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -88,10 +91,13 @@
       <Filter>源文件\0700-0799</Filter>
     </ClCompile>
     <ClCompile Include="954. 二倍数对数组.cpp">
-      <Filter>源文件\900-999</Filter>
+      <Filter>源文件\0900-0999</Filter>
     </ClCompile>
     <ClCompile Include="420. 强密码检验器.cpp">
       <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
+    <ClCompile Include="1616. 分割两个字符串得到回文串.cpp">
+      <Filter>源文件\1600-1699</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
