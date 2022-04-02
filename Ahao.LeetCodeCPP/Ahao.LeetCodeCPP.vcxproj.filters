@@ -90,5 +90,8 @@
     <ClCompile Include="954. 二倍数对数组.cpp">
       <Filter>源文件\900-999</Filter>
     </ClCompile>
+    <ClCompile Include="420. 强密码检验器.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
