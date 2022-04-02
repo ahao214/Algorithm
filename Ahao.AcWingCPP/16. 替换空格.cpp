@@ -1,9 +1,9 @@
 using namespace std;
 #include<string>;
 
-/*
-16. 替换空格
+#pragma region 16. 替换空格
 
+/*
 请实现一个函数，把字符串中的每个空格替换成"%20"。
 
 数据范围
@@ -25,6 +25,9 @@ using namespace std;
 时间复杂度分析
 原字符串只会被遍历常数次，所以总时间复杂度是 O(n)O(n)。
 */
+
+#pragma endregion
+
 class Solution {
 public:
 	string replaceSpaces(string& str) {
