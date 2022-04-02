@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="13. 找出数组中重复的数字.cpp" />
+    <ClCompile Include="14. 不修改数组找出重复的数字.cpp" />
     <ClCompile Include="15. 二维数组中的查找.cpp" />
     <ClCompile Include="16. 替换空格.cpp" />
     <ClCompile Include="Ahao.AcWingCPP.cpp" />

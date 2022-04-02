@@ -33,5 +33,8 @@
     <ClCompile Include="13. 找出数组中重复的数字.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
+    <ClCompile Include="14. 不修改数组找出重复的数字.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
