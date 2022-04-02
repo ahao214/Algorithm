@@ -99,5 +99,8 @@
     <ClCompile Include="1616. 分割两个字符串得到回文串.cpp">
       <Filter>源文件\1600-1699</Filter>
     </ClCompile>
+    <ClCompile Include="1622. 奇妙序列.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
