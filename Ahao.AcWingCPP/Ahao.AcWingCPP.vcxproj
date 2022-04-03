@@ -145,6 +145,7 @@
     <ClCompile Include="16. 替换空格.cpp" />
     <ClCompile Include="17. 从尾到头打印链表.cpp" />
     <ClCompile Include="21. 斐波那契数列.cpp" />
+    <ClCompile Include="29. 删除链表中重复的节点.cpp" />
     <ClCompile Include="Ahao.AcWingCPP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
