@@ -15,6 +15,7 @@ using Ahao.LeetCode._5200_5299.demo5236;
 using Ahao.LeetCode._0900_0999.demo954;
 using Ahao.LeetCode._6000_6099.demo6034;
 using Ahao.LeetCode._6000_6099.demo6035;
+using Ahao.LeetCode._6000_6099.demo6055;
 
 namespace Ahao.LeetCode
 {
@@ -137,9 +138,9 @@ namespace Ahao.LeetCode
             #endregion
 
 
-            Class6035 dd = new Class6035();
+            Class6055 dd = new Class6055();
 
-            dd.NumberOfWays("001101");
+            dd.ConvertTime("11:00", "11:01");
 
 
 
