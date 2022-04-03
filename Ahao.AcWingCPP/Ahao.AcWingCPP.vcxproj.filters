@@ -42,5 +42,8 @@
     <ClCompile Include="21. 斐波那契数列.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
+    <ClCompile Include="29. 删除链表中重复的节点.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
