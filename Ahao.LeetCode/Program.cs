@@ -139,12 +139,6 @@ namespace Ahao.LeetCode
             #endregion
 
 
-            Class5235 dd = new Class5235();
-
-            dd.FindWinners();
-
-
-
 
 
             ReadLine();
