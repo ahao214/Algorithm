@@ -144,6 +144,7 @@
     <ClCompile Include="15. 二维数组中的查找.cpp" />
     <ClCompile Include="16. 替换空格.cpp" />
     <ClCompile Include="17. 从尾到头打印链表.cpp" />
+    <ClCompile Include="18. 重建二叉树.cpp" />
     <ClCompile Include="21. 斐波那契数列.cpp" />
     <ClCompile Include="29. 删除链表中重复的节点.cpp" />
     <ClCompile Include="36. 合并两个排序的链表.cpp" />
