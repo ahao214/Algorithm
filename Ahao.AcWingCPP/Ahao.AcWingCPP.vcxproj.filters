@@ -48,5 +48,8 @@
     <ClCompile Include="36. 合并两个排序的链表.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
+    <ClCompile Include="68. 0到n-1中缺失的数字.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
