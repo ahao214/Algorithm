@@ -147,6 +147,7 @@
     <ClCompile Include="21. 斐波那契数列.cpp" />
     <ClCompile Include="29. 删除链表中重复的节点.cpp" />
     <ClCompile Include="36. 合并两个排序的链表.cpp" />
+    <ClCompile Include="68. 0到n-1中缺失的数字.cpp" />
     <ClCompile Include="Ahao.AcWingCPP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
