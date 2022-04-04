@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="剑指Offer%28专项突击版%29\" />
+    <Folder Include="剑指Offer%28第2版%29\" />
+  </ItemGroup>
+
+</Project>
