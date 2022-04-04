@@ -45,5 +45,8 @@
     <ClCompile Include="29. 删除链表中重复的节点.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
+    <ClCompile Include="36. 合并两个排序的链表.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
