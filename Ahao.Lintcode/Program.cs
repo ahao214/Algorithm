@@ -4,6 +4,10 @@ using static System.Console;
 
 namespace Ahao.Lintcode
 {
+    /// <summary>
+    /// https://www.lintcode.com/
+    /// 算法题目
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
