@@ -1,4 +1,5 @@
-﻿using Ahao.Lintcode.Easy;
+﻿using Ahao.Lintcode._0001_0099;
+using Ahao.Lintcode.Easy;
 using System;
 using static System.Console;
 
@@ -26,6 +27,12 @@ namespace Ahao.Lintcode
 
 
             #endregion
+
+            Class8 c = new Class8();
+            string s = "abcdefg";
+            char[] sa = s.ToCharArray();
+            int offset = 3;
+            c.RotateString(sa, offset);
 
 
             ReadLine();
