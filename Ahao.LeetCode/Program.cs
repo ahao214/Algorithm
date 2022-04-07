@@ -1,22 +1,6 @@
-﻿using Ahao.LeetCode.Medium;
-using Ahao.LeetCode.Medium.demo334;
-using Ahao.LeetCode.Medium.demo825;
+﻿using Ahao.LeetCode._0700_0799.demo796;
 using Ahao.LeetCode.Medium.demo846;
-using Ahao.LeetCode.Simple.demo1716;
-using Ahao.LeetCode.Simple.demo5908;
-using Ahao.LeetCode.Medium.demo5194;
-using Ahao.LeetCode.Simple;
-using Ahao.LeetCode.Medium.demo5990;
-using Ahao.LeetCode.Medium.demo5981;
-using System;
 using static System.Console;
-using Ahao.LeetCode.Hard;
-using Ahao.LeetCode._5200_5299.demo5236;
-using Ahao.LeetCode._0900_0999.demo954;
-using Ahao.LeetCode._6000_6099.demo6034;
-using Ahao.LeetCode._6000_6099.demo6035;
-using Ahao.LeetCode._6000_6099.demo6055;
-using Ahao.LeetCode._5200_5299.demo5235;
 
 namespace Ahao.LeetCode
 {
@@ -138,7 +122,8 @@ namespace Ahao.LeetCode
 
             #endregion
 
-
+            Class796 d = new Class796();
+            d.RotateString("abcde", "cdeab");
 
 
             ReadLine();
