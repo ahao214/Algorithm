@@ -159,6 +159,7 @@
     <ClCompile Include="728. 自除数.cpp" />
     <ClCompile Include="744. 寻找比目标字母大的最小字母.cpp" />
     <ClCompile Include="762. 二进制表示中质数个计算置位.cpp" />
+    <ClCompile Include="796. 旋转字符串.cpp" />
     <ClCompile Include="954. 二倍数对数组.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
   </ItemGroup>

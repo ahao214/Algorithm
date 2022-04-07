@@ -114,5 +114,8 @@
     <ClCompile Include="310. 最小高度树.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="796. 旋转字符串.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
