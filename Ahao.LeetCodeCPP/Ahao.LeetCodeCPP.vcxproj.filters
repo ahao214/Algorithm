@@ -117,5 +117,8 @@
     <ClCompile Include="796. 旋转字符串.cpp">
       <Filter>源文件\0700-0799</Filter>
     </ClCompile>
+    <ClCompile Include="429. N 叉树的层序遍历.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
