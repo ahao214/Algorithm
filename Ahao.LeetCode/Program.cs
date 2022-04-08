@@ -122,9 +122,7 @@ namespace Ahao.LeetCode
 
             #endregion
 
-            Class796 d = new Class796();
-            d.RotateString("abcde", "cdeab");
-
+  
 
             ReadLine();
         }
