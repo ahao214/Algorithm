@@ -46,6 +46,9 @@
     <Filter Include="源文件\0900-0999">
       <UniqueIdentifier>{2e9bcac0-39ea-4f4f-b93d-be957a029e16}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899">
+      <UniqueIdentifier>{643403bb-ae26-477d-9067-3df6ef8801ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -122,6 +125,9 @@
     </ClCompile>
     <ClCompile Include="780. 到达终点.cpp">
       <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="804. 唯一摩尔斯密码词.cpp">
+      <Filter>源文件\0800-0899</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
