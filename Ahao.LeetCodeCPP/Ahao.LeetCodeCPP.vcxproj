@@ -164,6 +164,7 @@
     <ClCompile Include="780. 到达终点.cpp" />
     <ClCompile Include="796. 旋转字符串.cpp" />
     <ClCompile Include="804. 唯一摩尔斯密码词.cpp" />
+    <ClCompile Include="806. 写字符串需要的行数.cpp" />
     <ClCompile Include="954. 二倍数对数组.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
   </ItemGroup>

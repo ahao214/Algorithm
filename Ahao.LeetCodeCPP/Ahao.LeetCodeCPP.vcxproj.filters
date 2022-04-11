@@ -132,5 +132,8 @@
     <ClCompile Include="357. 统计各位数字都不同的数字个数.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="806. 写字符串需要的行数.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
