@@ -135,5 +135,8 @@
     <ClCompile Include="806. 写字符串需要的行数.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="2.两数相加.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
