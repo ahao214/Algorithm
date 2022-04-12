@@ -138,5 +138,8 @@
     <ClCompile Include="2.两数相加.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
+    <ClCompile Include="3. 无重复字符的最长子串.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
