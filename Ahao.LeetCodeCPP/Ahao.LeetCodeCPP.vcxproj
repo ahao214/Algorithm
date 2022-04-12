@@ -151,6 +151,7 @@
     <ClCompile Include="307. 区域和检索 - 数组可修改.cpp" />
     <ClCompile Include="310. 最小高度树.cpp" />
     <ClCompile Include="357. 统计各位数字都不同的数字个数.cpp" />
+    <ClCompile Include="4. 寻找两个正序数组的中位数.cpp" />
     <ClCompile Include="420. 强密码检验器.cpp" />
     <ClCompile Include="429. N 叉树的层序遍历.cpp" />
     <ClCompile Include="440. 字典序的第K小数字.cpp" />
