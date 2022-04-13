@@ -173,6 +173,9 @@
     <ClCompile Include="954. 二倍数对数组.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="6. Z 字形变换.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
