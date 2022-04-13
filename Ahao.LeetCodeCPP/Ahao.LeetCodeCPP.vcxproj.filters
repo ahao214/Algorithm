@@ -150,6 +150,9 @@
     <ClCompile Include="380. O(1) 时间插入、删除和获取随机元素.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="7. 整数反转.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
