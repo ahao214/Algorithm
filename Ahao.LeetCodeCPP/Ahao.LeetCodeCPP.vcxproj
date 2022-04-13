@@ -169,6 +169,7 @@
     <ClCompile Include="762. 二进制表示中质数个计算置位.cpp" />
     <ClCompile Include="780. 到达终点.cpp" />
     <ClCompile Include="796. 旋转字符串.cpp" />
+    <ClCompile Include="8. 字符串转换整数 (atoi).cpp" />
     <ClCompile Include="804. 唯一摩尔斯密码词.cpp" />
     <ClCompile Include="806. 写字符串需要的行数.cpp" />
     <ClCompile Include="954. 二倍数对数组.cpp" />
