@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1. 两数之和.cpp" />
+    <ClCompile Include="10. 正则表达式匹配.cpp" />
     <ClCompile Include="1616. 分割两个字符串得到回文串.cpp" />
     <ClCompile Include="1622. 奇妙序列.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
