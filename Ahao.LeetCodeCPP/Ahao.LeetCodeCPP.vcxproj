@@ -146,6 +146,7 @@
     <ClCompile Include="13. 罗马数字转整数.cpp" />
     <ClCompile Include="1616. 分割两个字符串得到回文串.cpp" />
     <ClCompile Include="1622. 奇妙序列.cpp" />
+    <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="2.两数相加.cpp" />
     <ClCompile Include="2028. 找出缺失的观测数据.cpp" />
