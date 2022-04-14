@@ -144,6 +144,7 @@
     <ClCompile Include="11. 盛最多水的容器.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="13. 罗马数字转整数.cpp" />
+    <ClCompile Include="14. 最长公共前缀.cpp" />
     <ClCompile Include="1616. 分割两个字符串得到回文串.cpp" />
     <ClCompile Include="1622. 奇妙序列.cpp" />
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
