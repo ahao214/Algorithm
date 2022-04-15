@@ -162,6 +162,7 @@
     <ClCompile Include="21. 合并两个有序链表.cpp" />
     <ClCompile Include="22. 括号生成.cpp" />
     <ClCompile Include="23. 合并K个升序链表.cpp" />
+    <ClCompile Include="24. 两两交换链表中的节点.cpp" />
     <ClCompile Include="3. 无重复字符的最长子串.cpp" />
     <ClCompile Include="307. 区域和检索 - 数组可修改.cpp" />
     <ClCompile Include="310. 最小高度树.cpp" />
@@ -200,6 +201,7 @@
     <Text Include="20-题目描述和思路.txt" />
     <Text Include="22-题目描述和思路.txt" />
     <Text Include="23-题目描述和思路.txt" />
+    <Text Include="24-题目描述和思路.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
