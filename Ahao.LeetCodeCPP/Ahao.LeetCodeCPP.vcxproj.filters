@@ -367,8 +367,11 @@
     <Text Include="21-题目描述和思路.txt">
       <Filter>源文件\0001-0099\demo21</Filter>
     </Text>
-    <Text Include="题目描述和思路.txt">
+    <Text Include="22-题目描述和思路.txt">
       <Filter>源文件\0001-0099\demo22</Filter>
+    </Text>
+    <Text Include="23-题目描述和思路.txt">
+      <Filter>源文件\0001-0099\demo23</Filter>
     </Text>
   </ItemGroup>
 </Project>

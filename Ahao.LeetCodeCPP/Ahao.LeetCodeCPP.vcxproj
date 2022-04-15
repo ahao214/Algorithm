@@ -198,7 +198,8 @@
   <ItemGroup>
     <Text Include="21-题目描述和思路.txt" />
     <Text Include="20-题目描述和思路.txt" />
-    <Text Include="题目描述和思路.txt" />
+    <Text Include="22-题目描述和思路.txt" />
+    <Text Include="23-题目描述和思路.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
