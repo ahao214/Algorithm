@@ -202,6 +202,9 @@
     <Filter Include="源文件\0001-0099\demo25">
       <UniqueIdentifier>{f00ee42d-83df-48fe-ade5-3fdf7129d0ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo26">
+      <UniqueIdentifier>{478a1f26-b7a4-46ab-b2eb-7379c7ef031e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -366,6 +369,9 @@
     <ClCompile Include="25. K 个一组翻转链表.cpp">
       <Filter>源文件\0001-0099\demo25</Filter>
     </ClCompile>
+    <ClCompile Include="26. 删除有序数组中的重复项.cpp">
+      <Filter>源文件\0001-0099\demo26</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
@@ -390,6 +396,9 @@
     </Text>
     <Text Include="25-题目描述和思路.txt">
       <Filter>源文件\0001-0099\demo25</Filter>
+    </Text>
+    <Text Include="26-题目描述和思路.txt">
+      <Filter>源文件\0001-0099\demo26</Filter>
     </Text>
   </ItemGroup>
 </Project>
