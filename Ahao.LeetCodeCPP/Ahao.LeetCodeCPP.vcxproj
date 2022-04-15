@@ -159,6 +159,7 @@
     <ClCompile Include="2028. 找出缺失的观测数据.cpp" />
     <ClCompile Include="2038. 如果相邻两个颜色均相同则删除当前颜色.cpp" />
     <ClCompile Include="2039. 网络空闲的时刻.cpp" />
+    <ClCompile Include="21. 合并两个有序链表.cpp" />
     <ClCompile Include="3. 无重复字符的最长子串.cpp" />
     <ClCompile Include="307. 区域和检索 - 数组可修改.cpp" />
     <ClCompile Include="310. 最小高度树.cpp" />
@@ -193,7 +194,8 @@
     <None Include="6. Z 字形变换.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="题目描述和思路.txt" />
+    <Text Include="21-题目描述和思路.txt" />
+    <Text Include="20-题目描述和思路.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
