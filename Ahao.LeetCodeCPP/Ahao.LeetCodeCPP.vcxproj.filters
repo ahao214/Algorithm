@@ -199,6 +199,9 @@
     <Filter Include="源文件\0001-0099\demo24">
       <UniqueIdentifier>{a5425877-1374-4603-b39f-f2b7fd5a036e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo25">
+      <UniqueIdentifier>{f00ee42d-83df-48fe-ade5-3fdf7129d0ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -360,6 +363,9 @@
     <ClCompile Include="24. 两两交换链表中的节点.cpp">
       <Filter>源文件\0001-0099\demo24</Filter>
     </ClCompile>
+    <ClCompile Include="25. K 个一组翻转链表.cpp">
+      <Filter>源文件\0001-0099\demo25</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
@@ -381,6 +387,9 @@
     </Text>
     <Text Include="24-题目描述和思路.txt">
       <Filter>源文件\0001-0099\demo24</Filter>
+    </Text>
+    <Text Include="25-题目描述和思路.txt">
+      <Filter>源文件\0001-0099\demo25</Filter>
     </Text>
   </ItemGroup>
 </Project>
