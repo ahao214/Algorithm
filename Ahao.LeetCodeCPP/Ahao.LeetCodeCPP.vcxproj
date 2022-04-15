@@ -163,6 +163,7 @@
     <ClCompile Include="310. 最小高度树.cpp" />
     <ClCompile Include="357. 统计各位数字都不同的数字个数.cpp" />
     <ClCompile Include="380. O(1) 时间插入、删除和获取随机元素.cpp" />
+    <ClCompile Include="385. 迷你语法分析器.cpp" />
     <ClCompile Include="4. 寻找两个正序数组的中位数.cpp" />
     <ClCompile Include="420. 强密码检验器.cpp" />
     <ClCompile Include="429. N 叉树的层序遍历.cpp" />
