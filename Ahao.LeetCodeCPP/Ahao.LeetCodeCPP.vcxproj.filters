@@ -193,6 +193,9 @@
     <Filter Include="源文件\0001-0099\demo22">
       <UniqueIdentifier>{417c31bf-eaf9-49db-a220-b96d983b46df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo23">
+      <UniqueIdentifier>{eb26c609-7ba4-4cca-b14e-17390f98a085}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -347,6 +350,9 @@
     </ClCompile>
     <ClCompile Include="22. 括号生成.cpp">
       <Filter>源文件\0001-0099\demo22</Filter>
+    </ClCompile>
+    <ClCompile Include="23. 合并K个升序链表.cpp">
+      <Filter>源文件\0001-0099\demo23</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
