@@ -192,6 +192,7 @@
     <ClCompile Include="8. 字符串转换整数 (atoi).cpp" />
     <ClCompile Include="804. 唯一摩尔斯密码词.cpp" />
     <ClCompile Include="806. 写字符串需要的行数.cpp" />
+    <ClCompile Include="819. 最常见的单词.cpp" />
     <ClCompile Include="9. 回文数.cpp" />
     <ClCompile Include="954. 二倍数对数组.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
@@ -208,6 +209,7 @@
     <Text Include="25-题目描述和思路.txt" />
     <Text Include="26-题目描述和思路.txt" />
     <Text Include="479-题目描述和思路.txt" />
+    <Text Include="819-题目描述和思路.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

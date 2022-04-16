@@ -220,6 +220,9 @@
     <Filter Include="源文件\0400-0499\demo479">
       <UniqueIdentifier>{8594be0d-4420-4afb-b0da-aa4c627383d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo819">
+      <UniqueIdentifier>{a5f543b2-64ca-4b6a-8418-5afdc4563de8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -390,6 +393,9 @@
     <ClCompile Include="479. 最大回文数乘积.cpp">
       <Filter>源文件\0400-0499\demo479</Filter>
     </ClCompile>
+    <ClCompile Include="819. 最常见的单词.cpp">
+      <Filter>源文件\0800-0899\demo819</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
@@ -420,6 +426,9 @@
     </Text>
     <Text Include="479-题目描述和思路.txt">
       <Filter>源文件\0400-0499\demo479</Filter>
+    </Text>
+    <Text Include="819-题目描述和思路.txt">
+      <Filter>源文件\0800-0899\demo819</Filter>
     </Text>
   </ItemGroup>
 </Project>
