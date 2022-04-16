@@ -10,8 +10,6 @@ namespace Ahao.LeetCode._6000_6099
      6060. 找到最接近 0 的数字 显示英文描述 
 给你一个长度为 n 的整数数组 nums ，请你返回 nums 中最 接近 0 的数字。如果有多个答案，请你返回它们中的 最大值 。
 
- 
-
 示例 1：
 
 输入：nums = [-4,-2,1,4,8]
@@ -81,6 +79,17 @@ namespace Ahao.LeetCode._6000_6099
             }
             return res;
 
+        }
+
+        public int FindClosestNumber1(int[] nums)
+        {
+            int res = nums[0];
+            foreach (var item in nums)
+            {
+                if (Math.Abs(item) < Math.Abs(res) || (Math.Abs(item) == Math.Abs(res) && item > res))
+                    res = item;
+            }
+            return res;
         }
     }
 }
