@@ -205,6 +205,21 @@
     <Filter Include="源文件\0001-0099\demo26">
       <UniqueIdentifier>{478a1f26-b7a4-46ab-b2eb-7379c7ef031e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo27">
+      <UniqueIdentifier>{b64ae0c1-fbf2-463c-b2bd-1a5ed3f6e2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo28">
+      <UniqueIdentifier>{711a01dc-957d-4361-ba42-4c20635c42f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo29">
+      <UniqueIdentifier>{df395d06-18b3-41cb-869b-e343feaa38fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo30">
+      <UniqueIdentifier>{3f1060bd-0e36-4d29-9341-866ada1c8162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0400-0499\demo479">
+      <UniqueIdentifier>{8594be0d-4420-4afb-b0da-aa4c627383d0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -372,6 +387,9 @@
     <ClCompile Include="26. 删除有序数组中的重复项.cpp">
       <Filter>源文件\0001-0099\demo26</Filter>
     </ClCompile>
+    <ClCompile Include="479. 最大回文数乘积.cpp">
+      <Filter>源文件\0400-0499\demo479</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
@@ -399,6 +417,9 @@
     </Text>
     <Text Include="26-题目描述和思路.txt">
       <Filter>源文件\0001-0099\demo26</Filter>
+    </Text>
+    <Text Include="479-题目描述和思路.txt">
+      <Filter>源文件\0400-0499\demo479</Filter>
     </Text>
   </ItemGroup>
 </Project>

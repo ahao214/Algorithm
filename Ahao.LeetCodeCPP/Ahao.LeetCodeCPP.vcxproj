@@ -175,6 +175,7 @@
     <ClCompile Include="420. 强密码检验器.cpp" />
     <ClCompile Include="429. N 叉树的层序遍历.cpp" />
     <ClCompile Include="440. 字典序的第K小数字.cpp" />
+    <ClCompile Include="479. 最大回文数乘积.cpp" />
     <ClCompile Include="5. 最长回文子串.cpp" />
     <ClCompile Include="606. 根据二叉树创建字符串.cpp" />
     <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp" />
@@ -206,6 +207,7 @@
     <Text Include="24-题目描述和思路.txt" />
     <Text Include="25-题目描述和思路.txt" />
     <Text Include="26-题目描述和思路.txt" />
+    <Text Include="479-题目描述和思路.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
