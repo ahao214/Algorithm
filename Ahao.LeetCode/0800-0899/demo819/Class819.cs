@@ -22,22 +22,16 @@ namespace Ahao.LeetCode._0800_0899.demo819
             for (int i = 0; i <= length; i++)
             {
                 if (i < length && char.IsLetter(paragraph[i]))
-                {
                     sb.Append(char.ToLower(paragraph[i]));
-                }
                 else if (sb.Length > 0)
                 {
                     string word = sb.ToString();
                     if (!bannedSet.Contains(word))
                     {
                         if (!frequencies.ContainsKey(word))
-                        {
                             frequencies.Add(word, 1);
-                        }
                         else
-                        {
                             frequencies[word]++;
-                        }
                         maxFrequency = Math.Max(maxFrequency, frequencies[word]);
                     }
                     sb.Length = 0;
@@ -58,5 +52,5 @@ namespace Ahao.LeetCode._0800_0899.demo819
         }
     }
 
-}
+
 }
