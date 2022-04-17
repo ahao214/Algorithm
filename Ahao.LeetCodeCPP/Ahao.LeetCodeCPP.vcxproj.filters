@@ -405,6 +405,9 @@
     <ClCompile Include="28. 实现 strStr().cpp">
       <Filter>源文件\0001-0099\demo28</Filter>
     </ClCompile>
+    <ClCompile Include="29. 两数相除.cpp">
+      <Filter>源文件\0001-0099\demo29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

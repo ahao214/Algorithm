@@ -167,6 +167,7 @@
     <ClCompile Include="26. 删除有序数组中的重复项.cpp" />
     <ClCompile Include="27. 移除元素.cpp" />
     <ClCompile Include="28. 实现 strStr().cpp" />
+    <ClCompile Include="29. 两数相除.cpp" />
     <ClCompile Include="3. 无重复字符的最长子串.cpp" />
     <ClCompile Include="307. 区域和检索 - 数组可修改.cpp" />
     <ClCompile Include="310. 最小高度树.cpp" />
