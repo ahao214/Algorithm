@@ -223,6 +223,9 @@
     <Filter Include="源文件\0800-0899\demo819">
       <UniqueIdentifier>{a5f543b2-64ca-4b6a-8418-5afdc4563de8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo31">
+      <UniqueIdentifier>{443cb1a0-cb29-4581-a8c6-2cff4279c0f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -395,6 +398,9 @@
     </ClCompile>
     <ClCompile Include="819. 最常见的单词.cpp">
       <Filter>源文件\0800-0899\demo819</Filter>
+    </ClCompile>
+    <ClCompile Include="27. 移除元素.cpp">
+      <Filter>源文件\0001-0099\demo27</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
