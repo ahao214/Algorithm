@@ -1,5 +1,6 @@
 ﻿using Ahao.LeetCode._0700_0799.demo796;
 using Ahao.LeetCode._6000_6099;
+using Ahao.LeetCode._6000_6099.demo6071;
 using Ahao.LeetCode.Medium.demo846;
 using static System.Console;
 
@@ -124,6 +125,9 @@ namespace Ahao.LeetCode
             #endregion
 
 
+            Class6071 c = new Class6071();
+            int[] task= { 69,65,62,64,70,68,69,67,60,65,69,62,65,65,61,66,68,61,65,63,60,66,68,66,67,65,63,65,70,69,70,62,68,70,60,68,65,61,64,65,63,62,62,62,67,62,62,61,66,69 };
+            c.MinimumRounds(task);
         }
     }
 }
