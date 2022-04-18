@@ -226,6 +226,9 @@
     <Filter Include="源文件\0001-0099\demo31">
       <UniqueIdentifier>{443cb1a0-cb29-4581-a8c6-2cff4279c0f2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0300-0399\demo386">
+      <UniqueIdentifier>{681a05fa-acd7-48ae-9d1c-178614fb4c32}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -407,6 +410,9 @@
     </ClCompile>
     <ClCompile Include="29. 两数相除.cpp">
       <Filter>源文件\0001-0099\demo29</Filter>
+    </ClCompile>
+    <ClCompile Include="386. 字典序排数.cpp">
+      <Filter>源文件\0300-0399\demo386</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
