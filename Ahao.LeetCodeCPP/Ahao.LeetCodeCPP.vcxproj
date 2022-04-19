@@ -197,6 +197,7 @@
     <ClCompile Include="804. 唯一摩尔斯密码词.cpp" />
     <ClCompile Include="806. 写字符串需要的行数.cpp" />
     <ClCompile Include="819. 最常见的单词.cpp" />
+    <ClCompile Include="821. 字符的最短距离.cpp" />
     <ClCompile Include="9. 回文数.cpp" />
     <ClCompile Include="954. 二倍数对数组.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />

@@ -229,6 +229,9 @@
     <Filter Include="源文件\0300-0399\demo386">
       <UniqueIdentifier>{681a05fa-acd7-48ae-9d1c-178614fb4c32}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo821">
+      <UniqueIdentifier>{e8c22a9e-2b17-4aa3-b4bc-76b3a8b9e2ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -413,6 +416,9 @@
     </ClCompile>
     <ClCompile Include="386. 字典序排数.cpp">
       <Filter>源文件\0300-0399\demo386</Filter>
+    </ClCompile>
+    <ClCompile Include="821. 字符的最短距离.cpp">
+      <Filter>源文件\0800-0899\demo821</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
