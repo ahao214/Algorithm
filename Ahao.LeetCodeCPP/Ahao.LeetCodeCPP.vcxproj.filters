@@ -235,6 +235,9 @@
     <Filter Include="源文件\0300-0399\demo388">
       <UniqueIdentifier>{302aa6b2-7fae-45fe-b0ed-70521dc71bd8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo824">
+      <UniqueIdentifier>{20cb1c1e-2dfe-442f-8adf-3ffe02be4838}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -425,6 +428,9 @@
     </ClCompile>
     <ClCompile Include="388. 文件的最长绝对路径.cpp">
       <Filter>源文件\0300-0399\demo388</Filter>
+    </ClCompile>
+    <ClCompile Include="824. 山羊拉丁文.cpp">
+      <Filter>源文件\0800-0899\demo824</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
