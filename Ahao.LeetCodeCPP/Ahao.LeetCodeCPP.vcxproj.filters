@@ -238,6 +238,9 @@
     <Filter Include="源文件\0800-0899\demo824">
       <UniqueIdentifier>{20cb1c1e-2dfe-442f-8adf-3ffe02be4838}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0300-0399\demo396">
+      <UniqueIdentifier>{45c857d0-99d8-4544-81ea-37f670f94388}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -431,6 +434,9 @@
     </ClCompile>
     <ClCompile Include="824. 山羊拉丁文.cpp">
       <Filter>源文件\0800-0899\demo824</Filter>
+    </ClCompile>
+    <ClCompile Include="396. 旋转函数.cpp">
+      <Filter>源文件\0300-0399\demo396</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
