@@ -213,6 +213,7 @@
     <ClCompile Include="819. 最常见的单词.cpp" />
     <ClCompile Include="821. 字符的最短距离.cpp" />
     <ClCompile Include="824. 山羊拉丁文.cpp" />
+    <ClCompile Include="868. 二进制间距.cpp" />
     <ClCompile Include="9. 回文数.cpp" />
     <ClCompile Include="954. 二倍数对数组.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />

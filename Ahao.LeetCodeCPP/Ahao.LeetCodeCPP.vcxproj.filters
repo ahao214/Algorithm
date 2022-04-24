@@ -274,6 +274,9 @@
     <Filter Include="源文件\0500-0599\demo587">
       <UniqueIdentifier>{2e87e700-9fae-4884-8bd1-b817ba37df62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo868">
+      <UniqueIdentifier>{6ba6c8ad-1397-470a-bc3f-04d750900c1e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -506,6 +509,9 @@
     </ClCompile>
     <ClCompile Include="587. 安装栅栏.cpp">
       <Filter>源文件\0500-0599\demo587</Filter>
+    </ClCompile>
+    <ClCompile Include="868. 二进制间距.cpp">
+      <Filter>源文件\0800-0899\demo868</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
