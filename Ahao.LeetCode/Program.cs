@@ -1,5 +1,6 @@
 ﻿using Ahao.LeetCode._0700_0799.demo796;
 using Ahao.LeetCode._6000_6099;
+using Ahao.LeetCode._6000_6099.demo6041;
 using Ahao.LeetCode._6000_6099.demo6071;
 using Ahao.LeetCode.Medium.demo846;
 using static System.Console;
@@ -125,7 +126,11 @@ namespace Ahao.LeetCode
             #endregion
 
 
- 
+            //int[][] nums = new int[3][];
+            //nums[0] = new int[5] { 4, 1, 2, 3, 5 };
+            //nums[1] = new int[4] { 1, 3, 2, 4 };
+            //nums[2] = new int[4] { 3, 4, 5, 6 };
+
         }
     }
 }
