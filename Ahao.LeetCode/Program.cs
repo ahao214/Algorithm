@@ -131,6 +131,8 @@ namespace Ahao.LeetCode
             //nums[1] = new int[4] { 1, 3, 2, 4 };
             //nums[2] = new int[4] { 3, 4, 5, 6 };
 
+
+
         }
     }
 }
