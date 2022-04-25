@@ -187,6 +187,7 @@
     <ClCompile Include="388. 文件的最长绝对路径.cpp" />
     <ClCompile Include="39. 组合总和.cpp" />
     <ClCompile Include="396. 旋转函数.cpp" />
+    <ClCompile Include="398. 随机数索引.cpp" />
     <ClCompile Include="4. 寻找两个正序数组的中位数.cpp" />
     <ClCompile Include="40. 组合总和 II.cpp" />
     <ClCompile Include="420. 强密码检验器.cpp" />

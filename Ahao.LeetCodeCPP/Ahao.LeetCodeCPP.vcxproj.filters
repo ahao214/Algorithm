@@ -277,6 +277,9 @@
     <Filter Include="源文件\0800-0899\demo868">
       <UniqueIdentifier>{6ba6c8ad-1397-470a-bc3f-04d750900c1e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0300-0399\demo398">
+      <UniqueIdentifier>{4dbbf857-ddd8-4054-9ef7-b5dd17b79026}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -512,6 +515,9 @@
     </ClCompile>
     <ClCompile Include="868. 二进制间距.cpp">
       <Filter>源文件\0800-0899\demo868</Filter>
+    </ClCompile>
+    <ClCompile Include="398. 随机数索引.cpp">
+      <Filter>源文件\0300-0399\demo398</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
