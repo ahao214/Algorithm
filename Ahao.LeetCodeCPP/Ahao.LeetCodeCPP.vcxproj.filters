@@ -280,6 +280,9 @@
     <Filter Include="源文件\0300-0399\demo398">
       <UniqueIdentifier>{4dbbf857-ddd8-4054-9ef7-b5dd17b79026}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo883">
+      <UniqueIdentifier>{a8112e5e-36f4-458f-97c5-0e0bbc730941}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -518,6 +521,9 @@
     </ClCompile>
     <ClCompile Include="398. 随机数索引.cpp">
       <Filter>源文件\0300-0399\demo398</Filter>
+    </ClCompile>
+    <ClCompile Include="883. 三维形体投影面积.cpp">
+      <Filter>源文件\0800-0899\demo883</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
