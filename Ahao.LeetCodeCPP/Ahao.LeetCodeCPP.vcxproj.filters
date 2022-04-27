@@ -283,6 +283,9 @@
     <Filter Include="源文件\0800-0899\demo883">
       <UniqueIdentifier>{a8112e5e-36f4-458f-97c5-0e0bbc730941}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499\demo417">
+      <UniqueIdentifier>{bcd895ee-2cd9-4ed9-bb1f-2f4e5564b820}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -524,6 +527,9 @@
     </ClCompile>
     <ClCompile Include="883. 三维形体投影面积.cpp">
       <Filter>源文件\0800-0899\demo883</Filter>
+    </ClCompile>
+    <ClCompile Include="417. 太平洋大西洋水流问题.cpp">
+      <Filter>源文件\0400-0499\demo417</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
