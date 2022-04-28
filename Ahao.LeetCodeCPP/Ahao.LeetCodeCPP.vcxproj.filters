@@ -286,6 +286,9 @@
     <Filter Include="源文件\0400-0499\demo417">
       <UniqueIdentifier>{bcd895ee-2cd9-4ed9-bb1f-2f4e5564b820}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo905">
+      <UniqueIdentifier>{651b9c9b-c800-4b44-b86e-9f1c717dae5c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -530,6 +533,9 @@
     </ClCompile>
     <ClCompile Include="417. 太平洋大西洋水流问题.cpp">
       <Filter>源文件\0400-0499\demo417</Filter>
+    </ClCompile>
+    <ClCompile Include="905. 按奇偶排序数组.cpp">
+      <Filter>源文件\0900-0999\demo905</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
