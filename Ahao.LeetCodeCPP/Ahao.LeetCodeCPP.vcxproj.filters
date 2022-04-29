@@ -289,6 +289,9 @@
     <Filter Include="源文件\0900-0999\demo905">
       <UniqueIdentifier>{651b9c9b-c800-4b44-b86e-9f1c717dae5c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo41">
+      <UniqueIdentifier>{95bc68c5-5214-4db2-af51-53a7e0cc9311}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -536,6 +539,9 @@
     </ClCompile>
     <ClCompile Include="905. 按奇偶排序数组.cpp">
       <Filter>源文件\0900-0999\demo905</Filter>
+    </ClCompile>
+    <ClCompile Include="41. 缺失的第一个正数.cpp">
+      <Filter>源文件\0001-0099\demo41</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
