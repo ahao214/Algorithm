@@ -295,6 +295,18 @@
     <Filter Include="源文件\0001-0099\demo42">
       <UniqueIdentifier>{873b6a62-5a64-498b-af3f-388aba16e0dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo43">
+      <UniqueIdentifier>{27e1a4e0-27fd-4927-a1a2-588c81c5eb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo44">
+      <UniqueIdentifier>{8fc510a6-181d-44bb-92b3-2c9c50dbf808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo45">
+      <UniqueIdentifier>{93590713-78c1-46ff-b479-87142581bc72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0900-0999\demo908">
+      <UniqueIdentifier>{02bae1ed-525d-4677-94f5-8aae6b3acbf8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -548,6 +560,9 @@
     </ClCompile>
     <ClCompile Include="42. 接雨水.cpp">
       <Filter>源文件\0001-0099\demo42</Filter>
+    </ClCompile>
+    <ClCompile Include="908. 最小差值 I.cpp">
+      <Filter>源文件\0900-0999\demo908</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

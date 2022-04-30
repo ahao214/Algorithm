@@ -221,6 +221,7 @@
     <ClCompile Include="883. 三维形体投影面积.cpp" />
     <ClCompile Include="9. 回文数.cpp" />
     <ClCompile Include="905. 按奇偶排序数组.cpp" />
+    <ClCompile Include="908. 最小差值 I.cpp" />
     <ClCompile Include="954. 二倍数对数组.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
   </ItemGroup>
