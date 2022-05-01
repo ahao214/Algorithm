@@ -307,6 +307,12 @@
     <Filter Include="源文件\0900-0999\demo908">
       <UniqueIdentifier>{02bae1ed-525d-4677-94f5-8aae6b3acbf8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399">
+      <UniqueIdentifier>{5be9028e-89cd-4f97-9bbd-103b93c5d545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1300-1399\demo1305">
+      <UniqueIdentifier>{53736c40-bb7a-482d-af60-2b8c4ad5d539}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -563,6 +569,9 @@
     </ClCompile>
     <ClCompile Include="908. 最小差值 I.cpp">
       <Filter>源文件\0900-0999\demo908</Filter>
+    </ClCompile>
+    <ClCompile Include="1305. 两棵二叉搜索树中的所有元素.cpp">
+      <Filter>源文件\1300-1399\demo1305</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
