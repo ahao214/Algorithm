@@ -313,6 +313,9 @@
     <Filter Include="源文件\1300-1399\demo1305">
       <UniqueIdentifier>{53736c40-bb7a-482d-af60-2b8c4ad5d539}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0500-0599\demo591">
+      <UniqueIdentifier>{4d9a84a6-1074-4ffa-a0f9-919b5215fffc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -572,6 +575,9 @@
     </ClCompile>
     <ClCompile Include="1305. 两棵二叉搜索树中的所有元素.cpp">
       <Filter>源文件\1300-1399\demo1305</Filter>
+    </ClCompile>
+    <ClCompile Include="591. 标签验证器.cpp">
+      <Filter>源文件\0500-0599\demo591</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
