@@ -600,6 +600,9 @@
     <ClCompile Include="389. 找不同.cpp">
       <Filter>源文件\0300-0399\demo389</Filter>
     </ClCompile>
+    <ClCompile Include="43. 字符串相乘.cpp">
+      <Filter>源文件\0001-0099\demo43</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
