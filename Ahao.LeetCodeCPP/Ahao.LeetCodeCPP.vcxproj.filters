@@ -316,6 +316,9 @@
     <Filter Include="源文件\0500-0599\demo591">
       <UniqueIdentifier>{4d9a84a6-1074-4ffa-a0f9-919b5215fffc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo937">
+      <UniqueIdentifier>{f86d9160-adcb-4ac9-b5b2-74b896d45871}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -578,6 +581,9 @@
     </ClCompile>
     <ClCompile Include="591. 标签验证器.cpp">
       <Filter>源文件\0500-0599\demo591</Filter>
+    </ClCompile>
+    <ClCompile Include="937. 重新排列日志文件.cpp">
+      <Filter>源文件\0900-0999\demo937</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
