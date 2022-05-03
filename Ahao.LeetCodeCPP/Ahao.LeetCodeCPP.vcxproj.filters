@@ -319,6 +319,12 @@
     <Filter Include="源文件\0900-0999\demo937">
       <UniqueIdentifier>{f86d9160-adcb-4ac9-b5b2-74b896d45871}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1000-1099">
+      <UniqueIdentifier>{76180dfd-b511-4ffe-a528-0c15c47ce96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1000-1099\demo1009">
+      <UniqueIdentifier>{3b0c78b0-742c-4697-beb6-10a0ab0e4832}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -584,6 +590,9 @@
     </ClCompile>
     <ClCompile Include="937. 重新排列日志文件.cpp">
       <Filter>源文件\0900-0999\demo937</Filter>
+    </ClCompile>
+    <ClCompile Include="1009. 十进制整数的反码.cpp">
+      <Filter>源文件\1000-1099\demo1009</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
