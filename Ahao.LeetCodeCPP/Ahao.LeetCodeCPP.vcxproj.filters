@@ -325,6 +325,9 @@
     <Filter Include="源文件\1000-1099\demo1009">
       <UniqueIdentifier>{3b0c78b0-742c-4697-beb6-10a0ab0e4832}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0300-0399\demo389">
+      <UniqueIdentifier>{3eee02e2-bd65-4815-9a2a-aa1ff4e6e6a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -593,6 +596,9 @@
     </ClCompile>
     <ClCompile Include="1009. 十进制整数的反码.cpp">
       <Filter>源文件\1000-1099\demo1009</Filter>
+    </ClCompile>
+    <ClCompile Include="389. 找不同.cpp">
+      <Filter>源文件\0300-0399\demo389</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
