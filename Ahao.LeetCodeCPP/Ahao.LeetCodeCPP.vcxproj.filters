@@ -328,6 +328,27 @@
     <Filter Include="源文件\0300-0399\demo389">
       <UniqueIdentifier>{3eee02e2-bd65-4815-9a2a-aa1ff4e6e6a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo46">
+      <UniqueIdentifier>{0b033bbc-be40-42b5-91f4-2228b1c29666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo47">
+      <UniqueIdentifier>{18c0f2aa-f925-41b9-89c0-a10bdcc19d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo48">
+      <UniqueIdentifier>{1a6a3200-dd89-4efe-95b2-13e0bd97d2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo49">
+      <UniqueIdentifier>{6cb6fd13-b573-4ce6-a482-b986feafcb05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo50">
+      <UniqueIdentifier>{55260ad2-d97d-4fe5-a251-8950d8b5fa5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1800-1899">
+      <UniqueIdentifier>{40e40114-66bb-4a03-908c-366f7434b8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1800-1899\demo1823">
+      <UniqueIdentifier>{d743de68-77bb-4865-9a8f-1b322deb0de6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -608,6 +629,9 @@
     </ClCompile>
     <ClCompile Include="45. 跳跃游戏 II.cpp">
       <Filter>源文件\0001-0099\demo45</Filter>
+    </ClCompile>
+    <ClCompile Include="1823. 找出游戏的获胜者.cpp">
+      <Filter>源文件\1800-1899\demo1823</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

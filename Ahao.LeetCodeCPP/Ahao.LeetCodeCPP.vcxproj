@@ -155,6 +155,7 @@
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="18. 四数之和.cpp" />
+    <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
     <ClCompile Include="19. 删除链表的倒数第 N 个结点.cpp" />
     <ClCompile Include="2.两数相加.cpp" />
     <ClCompile Include="20. 有效的括号.cpp" />
