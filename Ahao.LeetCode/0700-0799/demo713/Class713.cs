@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.LC713
 {
-    /// <summary>
-    /// 713. 乘积小于K的子数组
-    /// </summary>
     public class Class713
     {
         public int NumSubarrayProductLessThanK(int[] nums, int k)
@@ -41,5 +38,65 @@ namespace Ahao.LeetCode.Medium.LC713
             }
             return res;
         }
+
+
+        //方法一：二分查找
+        public int NumSubarrayProductLessThanK2(int[] nums, int k)
+        {
+            if (k == 0)
+            {
+                return 0;
+            }
+            int n = nums.Length;
+            double[] logPrefix = new double[n + 1];
+            for (int i = 0; i < n; i++)
+            {
+                logPrefix[i + 1] = logPrefix[i] + Math.Log(nums[i]);
+            }
+            double logk = Math.Log(k);
+            int ret = 0;
+            for (int j = 0; j < n; j++)
+            {
+                int l = 0;
+                int r = j + 1;
+                int idx = j + 1;
+                double val = logPrefix[j + 1] - logk + 1e-10;
+                while (l <= r)
+                {
+                    int mid = (l + r) / 2;
+                    if (logPrefix[mid] > val)
+                    {
+                        idx = mid;
+                        r = mid - 1;
+                    }
+                    else
+                    {
+                        l = mid + 1;
+                    }
+                }
+                ret += j + 1 - idx;
+            }
+            return ret;
+        }
+
+
+        //方法二：滑动窗口   
+        public int NumSubarrayProductLessThanK3(int[] nums, int k)
+        {
+            int n = nums.Length, ret = 0;
+            int prod = 1, i = 0;
+            for (int j = 0; j < n; j++)
+            {
+                prod *= nums[j];
+                while (i <= j && prod >= k)
+                {
+                    prod /= nums[i];
+                    i++;
+                }
+                ret += j - i + 1;
+            }
+            return ret;
+        }
+
     }
 }
