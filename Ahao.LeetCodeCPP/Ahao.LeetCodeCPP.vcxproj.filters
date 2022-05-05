@@ -349,6 +349,9 @@
     <Filter Include="源文件\1800-1899\demo1823">
       <UniqueIdentifier>{d743de68-77bb-4865-9a8f-1b322deb0de6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo713">
+      <UniqueIdentifier>{41ece60d-0aa9-4875-af57-aa4d7abca98f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -632,6 +635,9 @@
     </ClCompile>
     <ClCompile Include="1823. 找出游戏的获胜者.cpp">
       <Filter>源文件\1800-1899\demo1823</Filter>
+    </ClCompile>
+    <ClCompile Include="713. 乘积小于 K 的子数组.cpp">
+      <Filter>源文件\0700-0799\demo713</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
