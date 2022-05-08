@@ -202,6 +202,7 @@
     <ClCompile Include="43. 字符串相乘.cpp" />
     <ClCompile Include="44. 通配符匹配.cpp" />
     <ClCompile Include="440. 字典序的第K小数字.cpp" />
+    <ClCompile Include="442. 数组中重复的数据.cpp" />
     <ClCompile Include="45. 跳跃游戏 II.cpp" />
     <ClCompile Include="479. 最大回文数乘积.cpp" />
     <ClCompile Include="5. 最长回文子串.cpp" />

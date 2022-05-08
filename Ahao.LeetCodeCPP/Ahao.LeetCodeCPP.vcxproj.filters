@@ -352,6 +352,9 @@
     <Filter Include="源文件\0700-0799\demo713">
       <UniqueIdentifier>{41ece60d-0aa9-4875-af57-aa4d7abca98f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499\demo442">
+      <UniqueIdentifier>{7d9c5181-218d-4886-b711-ae5e0b9ab733}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -638,6 +641,9 @@
     </ClCompile>
     <ClCompile Include="713. 乘积小于 K 的子数组.cpp">
       <Filter>源文件\0700-0799\demo713</Filter>
+    </ClCompile>
+    <ClCompile Include="442. 数组中重复的数据.cpp">
+      <Filter>源文件\0400-0499\demo442</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
