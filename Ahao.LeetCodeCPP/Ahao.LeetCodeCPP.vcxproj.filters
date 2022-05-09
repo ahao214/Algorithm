@@ -355,6 +355,9 @@
     <Filter Include="源文件\0400-0499\demo442">
       <UniqueIdentifier>{7d9c5181-218d-4886-b711-ae5e0b9ab733}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo942">
+      <UniqueIdentifier>{baa4fd52-746c-49e8-9473-e4d351f410bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -644,6 +647,9 @@
     </ClCompile>
     <ClCompile Include="442. 数组中重复的数据.cpp">
       <Filter>源文件\0400-0499\demo442</Filter>
+    </ClCompile>
+    <ClCompile Include="942. 增减字符串匹配.cpp">
+      <Filter>源文件\0900-0999\demo942</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
