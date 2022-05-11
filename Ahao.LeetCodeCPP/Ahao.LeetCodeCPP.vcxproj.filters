@@ -358,6 +358,9 @@
     <Filter Include="源文件\0900-0999\demo942">
       <UniqueIdentifier>{baa4fd52-746c-49e8-9473-e4d351f410bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499\demo449">
+      <UniqueIdentifier>{3c0ad269-a683-46b1-a68d-1d3f1f190737}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -650,6 +653,9 @@
     </ClCompile>
     <ClCompile Include="942. 增减字符串匹配.cpp">
       <Filter>源文件\0900-0999\demo942</Filter>
+    </ClCompile>
+    <ClCompile Include="449. 序列化和反序列化二叉搜索树.cpp">
+      <Filter>源文件\0400-0499\demo449</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
