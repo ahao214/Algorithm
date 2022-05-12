@@ -235,6 +235,7 @@
     <ClCompile Include="908. 最小差值 I.cpp" />
     <ClCompile Include="937. 重新排列日志文件.cpp" />
     <ClCompile Include="942. 增减字符串匹配.cpp" />
+    <ClCompile Include="944. 删列造序.cpp" />
     <ClCompile Include="954. 二倍数对数组.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
   </ItemGroup>
