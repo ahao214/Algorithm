@@ -364,6 +364,9 @@
     <Filter Include="源文件\0900-0999\demo944">
       <UniqueIdentifier>{d0bb0e6e-c1cb-4890-af63-0e15a5d58b62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0600-0699\demo691">
+      <UniqueIdentifier>{36795d1c-c06f-4e3a-9073-5ee2f0f98b03}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -662,6 +665,9 @@
     </ClCompile>
     <ClCompile Include="944. 删列造序.cpp">
       <Filter>源文件\0900-0999\demo944</Filter>
+    </ClCompile>
+    <ClCompile Include="691. 贴纸拼词.cpp">
+      <Filter>源文件\0600-0699\demo691</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

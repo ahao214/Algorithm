@@ -213,6 +213,7 @@
     <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp" />
     <ClCompile Include="661. 图片平滑器.cpp" />
     <ClCompile Include="682. 棒球比赛.cpp" />
+    <ClCompile Include="691. 贴纸拼词.cpp" />
     <ClCompile Include="693. 交替位二进制数.cpp" />
     <ClCompile Include="7. 整数反转.cpp" />
     <ClCompile Include="713. 乘积小于 K 的子数组.cpp" />
