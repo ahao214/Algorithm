@@ -226,6 +226,7 @@
     <ClCompile Include="8. 字符串转换整数 (atoi).cpp" />
     <ClCompile Include="804. 唯一摩尔斯密码词.cpp" />
     <ClCompile Include="806. 写字符串需要的行数.cpp" />
+    <ClCompile Include="812. 最大三角形面积.cpp" />
     <ClCompile Include="819. 最常见的单词.cpp" />
     <ClCompile Include="821. 字符的最短距离.cpp" />
     <ClCompile Include="824. 山羊拉丁文.cpp" />

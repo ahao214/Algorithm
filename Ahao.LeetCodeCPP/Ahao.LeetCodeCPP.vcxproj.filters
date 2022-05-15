@@ -367,6 +367,9 @@
     <Filter Include="源文件\0600-0699\demo691">
       <UniqueIdentifier>{36795d1c-c06f-4e3a-9073-5ee2f0f98b03}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo812">
+      <UniqueIdentifier>{07b920e7-a4e6-4455-878f-1a3f08b69a44}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -668,6 +671,9 @@
     </ClCompile>
     <ClCompile Include="691. 贴纸拼词.cpp">
       <Filter>源文件\0600-0699\demo691</Filter>
+    </ClCompile>
+    <ClCompile Include="812. 最大三角形面积.cpp">
+      <Filter>源文件\0800-0899\demo812</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
