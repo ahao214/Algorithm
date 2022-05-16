@@ -206,6 +206,7 @@
     <ClCompile Include="449. 序列化和反序列化二叉搜索树.cpp" />
     <ClCompile Include="45. 跳跃游戏 II.cpp" />
     <ClCompile Include="46. 全排列.cpp" />
+    <ClCompile Include="47. 全排列 II.cpp" />
     <ClCompile Include="479. 最大回文数乘积.cpp" />
     <ClCompile Include="5. 最长回文子串.cpp" />
     <ClCompile Include="587. 安装栅栏.cpp" />
