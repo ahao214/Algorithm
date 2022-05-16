@@ -675,6 +675,9 @@
     <ClCompile Include="812. 最大三角形面积.cpp">
       <Filter>源文件\0800-0899\demo812</Filter>
     </ClCompile>
+    <ClCompile Include="46. 全排列.cpp">
+      <Filter>源文件\0001-0099\demo46</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
