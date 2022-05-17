@@ -370,6 +370,21 @@
     <Filter Include="源文件\0800-0899\demo812">
       <UniqueIdentifier>{07b920e7-a4e6-4455-878f-1a3f08b69a44}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo51">
+      <UniqueIdentifier>{1548b2b8-d95b-477b-81b6-93c8a2b97765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo52">
+      <UniqueIdentifier>{372d5e7f-82ac-4be3-9d2a-a0ee5f040950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo53">
+      <UniqueIdentifier>{5080a1fe-b4eb-4dbb-a196-d27b07e706cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo54">
+      <UniqueIdentifier>{fb9872ec-575c-4845-9096-078ddd8e4648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0900-0999\demo953">
+      <UniqueIdentifier>{2f6ed4e6-5cc8-4676-b295-296298e4bbe6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -680,6 +695,9 @@
     </ClCompile>
     <ClCompile Include="47. 全排列 II.cpp">
       <Filter>源文件\0001-0099\demo47</Filter>
+    </ClCompile>
+    <ClCompile Include="953. 验证外星语词典.cpp">
+      <Filter>源文件\0900-0999\demo953</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
