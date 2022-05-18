@@ -385,6 +385,9 @@
     <Filter Include="源文件\0900-0999\demo953">
       <UniqueIdentifier>{2f6ed4e6-5cc8-4676-b295-296298e4bbe6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0600-0699\demo668">
+      <UniqueIdentifier>{587d8b10-b7c1-47e2-8e5e-b6d023066048}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -698,6 +701,9 @@
     </ClCompile>
     <ClCompile Include="953. 验证外星语词典.cpp">
       <Filter>源文件\0900-0999\demo953</Filter>
+    </ClCompile>
+    <ClCompile Include="668. 乘法表中第k小的数.cpp">
+      <Filter>源文件\0600-0699\demo668</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
