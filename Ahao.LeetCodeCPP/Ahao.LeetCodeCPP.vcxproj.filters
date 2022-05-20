@@ -403,6 +403,9 @@
     <Filter Include="源文件\0400-0499\demo462">
       <UniqueIdentifier>{6bac7af1-e617-40a3-9325-15e7f3e4ebf8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo961">
+      <UniqueIdentifier>{ac1df2fe-9049-4ea8-8e2a-2482a08b2d15}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -728,6 +731,9 @@
     </ClCompile>
     <ClCompile Include="462. 最少移动次数使数组元素相等 II.cpp">
       <Filter>源文件\0400-0499\demo462</Filter>
+    </ClCompile>
+    <ClCompile Include="961. 在长度 2N 的数组中找出重复 N 次的元素.cpp">
+      <Filter>源文件\0900-0999\demo961</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
