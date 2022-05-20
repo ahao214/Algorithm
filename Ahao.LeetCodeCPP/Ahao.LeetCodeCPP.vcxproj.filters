@@ -391,19 +391,19 @@
     <Filter Include="源文件\0400-0499\demo436">
       <UniqueIdentifier>{ef6a0f07-855b-4861-9034-706b22ea03bb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499\demo420">
+      <UniqueIdentifier>{ff88c4f6-6b44-4385-8fbe-e893cab057ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0400-0499\demo429">
+      <UniqueIdentifier>{93d98841-622e-4596-ad27-96900f42aaaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0400-0499\demo440">
+      <UniqueIdentifier>{4932d0f3-58f3-4357-85b5-c29923950a0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="440. 字典序的第K小数字.cpp">
-      <Filter>源文件\0400-0499</Filter>
-    </ClCompile>
-    <ClCompile Include="420. 强密码检验器.cpp">
-      <Filter>源文件\0400-0499</Filter>
-    </ClCompile>
-    <ClCompile Include="429. N 叉树的层序遍历.cpp">
-      <Filter>源文件\0400-0499</Filter>
     </ClCompile>
     <ClCompile Include="1. 两数之和.cpp">
       <Filter>源文件\0001-0099\demo01</Filter>
@@ -713,6 +713,15 @@
     </ClCompile>
     <ClCompile Include="436. 寻找右区间.cpp">
       <Filter>源文件\0400-0499\demo436</Filter>
+    </ClCompile>
+    <ClCompile Include="420. 强密码检验器.cpp">
+      <Filter>源文件\0400-0499\demo420</Filter>
+    </ClCompile>
+    <ClCompile Include="429. N 叉树的层序遍历.cpp">
+      <Filter>源文件\0400-0499\demo429</Filter>
+    </ClCompile>
+    <ClCompile Include="440. 字典序的第K小数字.cpp">
+      <Filter>源文件\0400-0499\demo440</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
