@@ -200,6 +200,7 @@
     <ClCompile Include="420. 强密码检验器.cpp" />
     <ClCompile Include="429. N 叉树的层序遍历.cpp" />
     <ClCompile Include="43. 字符串相乘.cpp" />
+    <ClCompile Include="436. 寻找右区间.cpp" />
     <ClCompile Include="44. 通配符匹配.cpp" />
     <ClCompile Include="440. 字典序的第K小数字.cpp" />
     <ClCompile Include="442. 数组中重复的数据.cpp" />

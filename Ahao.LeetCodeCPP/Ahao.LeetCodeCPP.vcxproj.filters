@@ -388,6 +388,9 @@
     <Filter Include="源文件\0600-0699\demo668">
       <UniqueIdentifier>{587d8b10-b7c1-47e2-8e5e-b6d023066048}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499\demo436">
+      <UniqueIdentifier>{ef6a0f07-855b-4861-9034-706b22ea03bb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -707,6 +710,9 @@
     </ClCompile>
     <ClCompile Include="48. 旋转图像.cpp">
       <Filter>源文件\0001-0099\demo48</Filter>
+    </ClCompile>
+    <ClCompile Include="436. 寻找右区间.cpp">
+      <Filter>源文件\0400-0499\demo436</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
