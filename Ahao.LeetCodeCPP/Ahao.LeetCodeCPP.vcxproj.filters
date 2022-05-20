@@ -400,6 +400,9 @@
     <Filter Include="源文件\0400-0499\demo440">
       <UniqueIdentifier>{4932d0f3-58f3-4357-85b5-c29923950a0e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499\demo462">
+      <UniqueIdentifier>{6bac7af1-e617-40a3-9325-15e7f3e4ebf8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -722,6 +725,9 @@
     </ClCompile>
     <ClCompile Include="440. 字典序的第K小数字.cpp">
       <Filter>源文件\0400-0499\demo440</Filter>
+    </ClCompile>
+    <ClCompile Include="462. 最少移动次数使数组元素相等 II.cpp">
+      <Filter>源文件\0400-0499\demo462</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
