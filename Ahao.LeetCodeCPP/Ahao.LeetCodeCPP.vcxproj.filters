@@ -738,6 +738,9 @@
     <ClCompile Include="49. 字母异位词分组.cpp">
       <Filter>源文件\0001-0099\demo49</Filter>
     </ClCompile>
+    <ClCompile Include="50. Pow(x, n).cpp">
+      <Filter>源文件\0001-0099\demo50</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
