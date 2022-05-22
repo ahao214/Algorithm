@@ -735,6 +735,9 @@
     <ClCompile Include="961. 在长度 2N 的数组中找出重复 N 次的元素.cpp">
       <Filter>源文件\0900-0999\demo961</Filter>
     </ClCompile>
+    <ClCompile Include="49. 字母异位词分组.cpp">
+      <Filter>源文件\0001-0099\demo49</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
