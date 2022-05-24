@@ -409,6 +409,9 @@
     <Filter Include="源文件\0600-0699\demo675">
       <UniqueIdentifier>{0b4c86f4-78db-46d6-88a4-a110bf71b80a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo965">
+      <UniqueIdentifier>{4b6389b5-4964-4a86-a0b9-92c14f25cf8a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -746,6 +749,9 @@
     </ClCompile>
     <ClCompile Include="675. 为高尔夫比赛砍树.cpp">
       <Filter>源文件\0600-0699\demo675</Filter>
+    </ClCompile>
+    <ClCompile Include="965. 单值二叉树.cpp">
+      <Filter>源文件\0900-0999\demo965</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
