@@ -412,6 +412,9 @@
     <Filter Include="源文件\0900-0999\demo965">
       <UniqueIdentifier>{4b6389b5-4964-4a86-a0b9-92c14f25cf8a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499\demo467">
+      <UniqueIdentifier>{6b90bbcd-836d-4cf4-b2c7-61b6e58ee664}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -752,6 +755,9 @@
     </ClCompile>
     <ClCompile Include="965. 单值二叉树.cpp">
       <Filter>源文件\0900-0999\demo965</Filter>
+    </ClCompile>
+    <ClCompile Include="467. 环绕字符串中唯一的子字符串.cpp">
+      <Filter>源文件\0400-0499\demo467</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
