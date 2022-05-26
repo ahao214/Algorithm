@@ -762,6 +762,9 @@
     <ClCompile Include="51. N 皇后.cpp">
       <Filter>源文件\0001-0099\demo51</Filter>
     </ClCompile>
+    <ClCompile Include="52. N皇后 II.cpp">
+      <Filter>源文件\0001-0099\demo52</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
