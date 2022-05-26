@@ -759,6 +759,9 @@
     <ClCompile Include="467. 环绕字符串中唯一的子字符串.cpp">
       <Filter>源文件\0400-0499\demo467</Filter>
     </ClCompile>
+    <ClCompile Include="51. N 皇后.cpp">
+      <Filter>源文件\0001-0099\demo51</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
