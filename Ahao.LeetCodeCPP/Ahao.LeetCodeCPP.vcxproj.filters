@@ -768,6 +768,9 @@
     <ClCompile Include="53. 最大子数组和.cpp">
       <Filter>源文件\0001-0099\demo53</Filter>
     </ClCompile>
+    <ClCompile Include="54. 螺旋矩阵.cpp">
+      <Filter>源文件\0001-0099\demo54</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
