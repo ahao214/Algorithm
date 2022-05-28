@@ -415,6 +415,27 @@
     <Filter Include="源文件\0400-0499\demo467">
       <UniqueIdentifier>{6b90bbcd-836d-4cf4-b2c7-61b6e58ee664}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo55">
+      <UniqueIdentifier>{9bf9e1fe-7c35-46b4-9dc1-84c98ec5b810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo56">
+      <UniqueIdentifier>{66687eaf-4ff3-43db-9936-5ea049a75e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo57">
+      <UniqueIdentifier>{0cb4d801-8701-4cdf-83e5-e8f958cb9c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo58">
+      <UniqueIdentifier>{d4afec67-c84e-44f5-ae75-b6ee265766bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo59">
+      <UniqueIdentifier>{fbbdefae-e6e7-4007-b48e-7b78dda40279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo60">
+      <UniqueIdentifier>{034a9405-590e-4cbf-99dc-100383997f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1000-1099\demo1021">
+      <UniqueIdentifier>{da542cfe-a69f-4537-8e9d-cede21b81011}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -770,6 +791,9 @@
     </ClCompile>
     <ClCompile Include="54. 螺旋矩阵.cpp">
       <Filter>源文件\0001-0099\demo54</Filter>
+    </ClCompile>
+    <ClCompile Include="1021. 删除最外层的括号.cpp">
+      <Filter>源文件\1000-1099\demo1021</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

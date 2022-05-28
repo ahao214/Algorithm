@@ -142,6 +142,7 @@
     <ClCompile Include="1. 两数之和.cpp" />
     <ClCompile Include="10. 正则表达式匹配.cpp" />
     <ClCompile Include="1009. 十进制整数的反码.cpp" />
+    <ClCompile Include="1021. 删除最外层的括号.cpp" />
     <ClCompile Include="11. 盛最多水的容器.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="13. 罗马数字转整数.cpp" />
