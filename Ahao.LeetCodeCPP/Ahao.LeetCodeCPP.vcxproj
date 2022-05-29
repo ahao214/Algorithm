@@ -210,6 +210,7 @@
     <ClCompile Include="46. 全排列.cpp" />
     <ClCompile Include="462. 最少移动次数使数组元素相等 II.cpp" />
     <ClCompile Include="467. 环绕字符串中唯一的子字符串.cpp" />
+    <ClCompile Include="468. 验证IP地址.cpp" />
     <ClCompile Include="47. 全排列 II.cpp" />
     <ClCompile Include="479. 最大回文数乘积.cpp" />
     <ClCompile Include="48. 旋转图像.cpp" />
