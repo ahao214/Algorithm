@@ -439,6 +439,12 @@
     <Filter Include="源文件\0400-0499\demo468">
       <UniqueIdentifier>{189c491a-08a9-4920-b15f-188e57c4b187}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo61">
+      <UniqueIdentifier>{98f3463d-faa3-463c-acd5-860aa9608719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1000-1099\demo1022">
+      <UniqueIdentifier>{0436007f-33ce-4b8e-838f-698e0433788a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -800,6 +806,9 @@
     </ClCompile>
     <ClCompile Include="468. 验证IP地址.cpp">
       <Filter>源文件\0400-0499\demo468</Filter>
+    </ClCompile>
+    <ClCompile Include="1022. 从根到叶的二进制数之和.cpp">
+      <Filter>源文件\1000-1099\demo1022</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
