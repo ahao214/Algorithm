@@ -445,6 +445,9 @@
     <Filter Include="源文件\1000-1099\demo1022">
       <UniqueIdentifier>{0436007f-33ce-4b8e-838f-698e0433788a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499\demo473">
+      <UniqueIdentifier>{c7b76b5a-c6ef-4b7d-8f30-e24a6d2c6f06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -809,6 +812,9 @@
     </ClCompile>
     <ClCompile Include="1022. 从根到叶的二进制数之和.cpp">
       <Filter>源文件\1000-1099\demo1022</Filter>
+    </ClCompile>
+    <ClCompile Include="473. 火柴拼正方形.cpp">
+      <Filter>源文件\0400-0499\demo473</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
