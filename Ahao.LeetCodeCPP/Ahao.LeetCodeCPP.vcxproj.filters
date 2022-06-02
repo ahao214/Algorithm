@@ -448,6 +448,9 @@
     <Filter Include="源文件\0400-0499\demo473">
       <UniqueIdentifier>{c7b76b5a-c6ef-4b7d-8f30-e24a6d2c6f06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499\demo450">
+      <UniqueIdentifier>{4084ad0f-ff90-45e1-9228-5e402518559a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -815,6 +818,9 @@
     </ClCompile>
     <ClCompile Include="473. 火柴拼正方形.cpp">
       <Filter>源文件\0400-0499\demo473</Filter>
+    </ClCompile>
+    <ClCompile Include="450. 删除二叉搜索树中的节点.cpp">
+      <Filter>源文件\0400-0499\demo450</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

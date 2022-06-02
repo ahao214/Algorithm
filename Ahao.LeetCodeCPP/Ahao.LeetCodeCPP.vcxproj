@@ -208,6 +208,7 @@
     <ClCompile Include="442. 数组中重复的数据.cpp" />
     <ClCompile Include="449. 序列化和反序列化二叉搜索树.cpp" />
     <ClCompile Include="45. 跳跃游戏 II.cpp" />
+    <ClCompile Include="450. 删除二叉搜索树中的节点.cpp" />
     <ClCompile Include="46. 全排列.cpp" />
     <ClCompile Include="462. 最少移动次数使数组元素相等 II.cpp" />
     <ClCompile Include="467. 环绕字符串中唯一的子字符串.cpp" />
