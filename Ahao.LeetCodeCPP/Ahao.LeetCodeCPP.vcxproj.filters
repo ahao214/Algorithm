@@ -451,6 +451,9 @@
     <Filter Include="源文件\0400-0499\demo450">
       <UniqueIdentifier>{4084ad0f-ff90-45e1-9228-5e402518559a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo829">
+      <UniqueIdentifier>{cd711077-78e3-4a73-b8c1-1386c48782b3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -821,6 +824,9 @@
     </ClCompile>
     <ClCompile Include="450. 删除二叉搜索树中的节点.cpp">
       <Filter>源文件\0400-0499\demo450</Filter>
+    </ClCompile>
+    <ClCompile Include="829. 连续整数求和.cpp">
+      <Filter>源文件\0800-0899\demo829</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
