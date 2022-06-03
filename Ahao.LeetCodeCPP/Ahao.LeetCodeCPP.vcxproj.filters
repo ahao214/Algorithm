@@ -454,6 +454,9 @@
     <Filter Include="源文件\0800-0899\demo829">
       <UniqueIdentifier>{cd711077-78e3-4a73-b8c1-1386c48782b3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo929">
+      <UniqueIdentifier>{a013b923-6475-4ad8-bcbe-807211aa2726}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -827,6 +830,9 @@
     </ClCompile>
     <ClCompile Include="829. 连续整数求和.cpp">
       <Filter>源文件\0800-0899\demo829</Filter>
+    </ClCompile>
+    <ClCompile Include="929. 独特的电子邮件地址.cpp">
+      <Filter>源文件\0900-0999\demo929</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
