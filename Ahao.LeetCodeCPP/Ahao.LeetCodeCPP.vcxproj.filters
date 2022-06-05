@@ -840,6 +840,9 @@
     <ClCompile Include="56. 合并区间.cpp">
       <Filter>源文件\0001-0099\demo56</Filter>
     </ClCompile>
+    <ClCompile Include="57. 插入区间.cpp">
+      <Filter>源文件\0001-0099\demo57</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
