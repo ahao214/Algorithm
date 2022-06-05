@@ -834,6 +834,9 @@
     <ClCompile Include="929. 独特的电子邮件地址.cpp">
       <Filter>源文件\0900-0999\demo929</Filter>
     </ClCompile>
+    <ClCompile Include="55. 跳跃游戏.cpp">
+      <Filter>源文件\0001-0099\demo55</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
