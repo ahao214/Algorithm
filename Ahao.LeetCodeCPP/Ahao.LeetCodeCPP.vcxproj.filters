@@ -858,6 +858,9 @@
     <ClCompile Include="58. 最后一个单词的长度.cpp">
       <Filter>源文件\0001-0099\demo58</Filter>
     </ClCompile>
+    <ClCompile Include="59. 螺旋矩阵 II.cpp">
+      <Filter>源文件\0001-0099\demo59</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
