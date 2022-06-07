@@ -231,6 +231,7 @@
     <ClCompile Include="587. 安装栅栏.cpp" />
     <ClCompile Include="59. 螺旋矩阵 II.cpp" />
     <ClCompile Include="591. 标签验证器.cpp" />
+    <ClCompile Include="60. 排列序列.cpp" />
     <ClCompile Include="606. 根据二叉树创建字符串.cpp" />
     <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp" />
     <ClCompile Include="661. 图片平滑器.cpp" />

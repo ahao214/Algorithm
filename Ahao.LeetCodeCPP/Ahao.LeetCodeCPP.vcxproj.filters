@@ -469,6 +469,21 @@
     <Filter Include="源文件\0001-0099\demo65">
       <UniqueIdentifier>{084b03c6-1f75-480a-8cd2-e4f751ec9cee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo66">
+      <UniqueIdentifier>{b5b62d02-ba14-4769-b413-79a21bf54650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo67">
+      <UniqueIdentifier>{1cc2799c-0ece-42bf-abaf-9edd7c2e20ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo68">
+      <UniqueIdentifier>{0b265c3a-8fda-4949-b9ed-f66c1e8af5d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo69">
+      <UniqueIdentifier>{ef6c3ede-393f-4599-95c5-1dcdf39e64b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo70">
+      <UniqueIdentifier>{e61fedad-994f-4519-a0c6-a8145463089f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -860,6 +875,9 @@
     </ClCompile>
     <ClCompile Include="59. 螺旋矩阵 II.cpp">
       <Filter>源文件\0001-0099\demo59</Filter>
+    </ClCompile>
+    <ClCompile Include="60. 排列序列.cpp">
+      <Filter>源文件\0001-0099\demo60</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
