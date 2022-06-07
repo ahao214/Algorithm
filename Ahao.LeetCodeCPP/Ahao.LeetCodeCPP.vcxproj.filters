@@ -879,6 +879,9 @@
     <ClCompile Include="60. 排列序列.cpp">
       <Filter>源文件\0001-0099\demo60</Filter>
     </ClCompile>
+    <ClCompile Include="61. 旋转链表.cpp">
+      <Filter>源文件\0001-0099\demo61</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
