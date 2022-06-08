@@ -484,6 +484,9 @@
     <Filter Include="源文件\0001-0099\demo70">
       <UniqueIdentifier>{e61fedad-994f-4519-a0c6-a8145463089f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1000-1099\demo1037">
+      <UniqueIdentifier>{af29a006-d74e-450e-82e5-c73102802d0b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -881,6 +884,12 @@
     </ClCompile>
     <ClCompile Include="61. 旋转链表.cpp">
       <Filter>源文件\0001-0099\demo61</Filter>
+    </ClCompile>
+    <ClCompile Include="62. 不同路径.cpp">
+      <Filter>源文件\0001-0099\demo62</Filter>
+    </ClCompile>
+    <ClCompile Include="1037. 有效的回旋镖.cpp">
+      <Filter>源文件\1000-1099\demo1037</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
