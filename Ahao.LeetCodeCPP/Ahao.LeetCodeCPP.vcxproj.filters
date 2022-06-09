@@ -903,6 +903,9 @@
     <ClCompile Include="64. 最小路径和.cpp">
       <Filter>源文件\0001-0099\demo64</Filter>
     </ClCompile>
+    <ClCompile Include="65. 有效数字.cpp">
+      <Filter>源文件\0001-0099\demo65</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
