@@ -487,6 +487,9 @@
     <Filter Include="源文件\1000-1099\demo1037">
       <UniqueIdentifier>{af29a006-d74e-450e-82e5-c73102802d0b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499\demo497">
+      <UniqueIdentifier>{e6bca641-f8e8-417e-b26c-676a169125bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -890,6 +893,9 @@
     </ClCompile>
     <ClCompile Include="1037. 有效的回旋镖.cpp">
       <Filter>源文件\1000-1099\demo1037</Filter>
+    </ClCompile>
+    <ClCompile Include="497. 非重叠矩形中的随机点.cpp">
+      <Filter>源文件\0400-0499\demo497</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
