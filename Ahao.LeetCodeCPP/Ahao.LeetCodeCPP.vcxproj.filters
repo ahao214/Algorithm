@@ -897,6 +897,9 @@
     <ClCompile Include="497. 非重叠矩形中的随机点.cpp">
       <Filter>源文件\0400-0499\demo497</Filter>
     </ClCompile>
+    <ClCompile Include="63. 不同路径 II.cpp">
+      <Filter>源文件\0001-0099\demo63</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

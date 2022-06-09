@@ -237,6 +237,7 @@
     <ClCompile Include="606. 根据二叉树创建字符串.cpp" />
     <ClCompile Include="61. 旋转链表.cpp" />
     <ClCompile Include="62. 不同路径.cpp" />
+    <ClCompile Include="63. 不同路径 II.cpp" />
     <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp" />
     <ClCompile Include="661. 图片平滑器.cpp" />
     <ClCompile Include="668. 乘法表中第k小的数.cpp" />
