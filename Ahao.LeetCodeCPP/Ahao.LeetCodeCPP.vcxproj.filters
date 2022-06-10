@@ -490,6 +490,9 @@
     <Filter Include="源文件\0400-0499\demo497">
       <UniqueIdentifier>{e6bca641-f8e8-417e-b26c-676a169125bc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo730">
+      <UniqueIdentifier>{3840858b-fd80-4754-98ee-f67938bdfb3c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -905,6 +908,9 @@
     </ClCompile>
     <ClCompile Include="65. 有效数字.cpp">
       <Filter>源文件\0001-0099\demo65</Filter>
+    </ClCompile>
+    <ClCompile Include="730. 统计不同回文子序列.cpp">
+      <Filter>源文件\0700-0799\demo730</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
