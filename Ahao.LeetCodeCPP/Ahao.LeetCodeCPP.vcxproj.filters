@@ -915,6 +915,9 @@
     <ClCompile Include="66. 加一.cpp">
       <Filter>源文件\0001-0099\demo66</Filter>
     </ClCompile>
+    <ClCompile Include="67. 二进制求和.cpp">
+      <Filter>源文件\0001-0099\demo67</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

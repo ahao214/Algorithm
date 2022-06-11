@@ -244,6 +244,7 @@
     <ClCompile Include="66. 加一.cpp" />
     <ClCompile Include="661. 图片平滑器.cpp" />
     <ClCompile Include="668. 乘法表中第k小的数.cpp" />
+    <ClCompile Include="67. 二进制求和.cpp" />
     <ClCompile Include="675. 为高尔夫比赛砍树.cpp" />
     <ClCompile Include="682. 棒球比赛.cpp" />
     <ClCompile Include="691. 贴纸拼词.cpp" />
