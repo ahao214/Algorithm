@@ -912,6 +912,9 @@
     <ClCompile Include="730. 统计不同回文子序列.cpp">
       <Filter>源文件\0700-0799\demo730</Filter>
     </ClCompile>
+    <ClCompile Include="66. 加一.cpp">
+      <Filter>源文件\0001-0099\demo66</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

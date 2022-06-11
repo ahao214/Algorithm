@@ -241,6 +241,7 @@
     <ClCompile Include="64. 最小路径和.cpp" />
     <ClCompile Include="65. 有效数字.cpp" />
     <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp" />
+    <ClCompile Include="66. 加一.cpp" />
     <ClCompile Include="661. 图片平滑器.cpp" />
     <ClCompile Include="668. 乘法表中第k小的数.cpp" />
     <ClCompile Include="675. 为高尔夫比赛砍树.cpp" />
