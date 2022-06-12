@@ -268,6 +268,7 @@
     <ClCompile Include="829. 连续整数求和.cpp" />
     <ClCompile Include="868. 二进制间距.cpp" />
     <ClCompile Include="883. 三维形体投影面积.cpp" />
+    <ClCompile Include="890. 查找和替换模式.cpp" />
     <ClCompile Include="9. 回文数.cpp" />
     <ClCompile Include="905. 按奇偶排序数组.cpp" />
     <ClCompile Include="908. 最小差值 I.cpp" />

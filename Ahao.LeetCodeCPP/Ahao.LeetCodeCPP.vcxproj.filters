@@ -502,6 +502,9 @@
     <Filter Include="源文件\0001-0099\demo73">
       <UniqueIdentifier>{5744f309-4279-438e-bf76-879b6201c953}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo890">
+      <UniqueIdentifier>{9863519a-9746-4c42-a531-83266be6af12}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -926,6 +929,9 @@
     </ClCompile>
     <ClCompile Include="67. 二进制求和.cpp">
       <Filter>源文件\0001-0099\demo67</Filter>
+    </ClCompile>
+    <ClCompile Include="890. 查找和替换模式.cpp">
+      <Filter>源文件\0800-0899\demo890</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
