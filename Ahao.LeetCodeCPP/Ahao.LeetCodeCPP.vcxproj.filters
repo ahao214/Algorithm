@@ -493,6 +493,15 @@
     <Filter Include="源文件\0700-0799\demo730">
       <UniqueIdentifier>{3840858b-fd80-4754-98ee-f67938bdfb3c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo71">
+      <UniqueIdentifier>{442556f5-7a0f-41a1-b7ab-41b548909e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo72">
+      <UniqueIdentifier>{73bd1552-1b51-4a8d-b4bc-c8dfa29eb150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo73">
+      <UniqueIdentifier>{5744f309-4279-438e-bf76-879b6201c953}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
