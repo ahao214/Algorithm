@@ -505,6 +505,9 @@
     <Filter Include="源文件\0800-0899\demo890">
       <UniqueIdentifier>{9863519a-9746-4c42-a531-83266be6af12}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1000-1099\demo1051">
+      <UniqueIdentifier>{dedc1ad3-699e-477e-881c-31c61aff2a24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -932,6 +935,9 @@
     </ClCompile>
     <ClCompile Include="890. 查找和替换模式.cpp">
       <Filter>源文件\0800-0899\demo890</Filter>
+    </ClCompile>
+    <ClCompile Include="1051. 高度检查器.cpp">
+      <Filter>源文件\1000-1099\demo1051</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

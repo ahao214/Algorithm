@@ -145,6 +145,7 @@
     <ClCompile Include="1021. 删除最外层的括号.cpp" />
     <ClCompile Include="1022. 从根到叶的二进制数之和.cpp" />
     <ClCompile Include="1037. 有效的回旋镖.cpp" />
+    <ClCompile Include="1051. 高度检查器.cpp" />
     <ClCompile Include="11. 盛最多水的容器.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="13. 罗马数字转整数.cpp" />
