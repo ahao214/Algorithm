@@ -221,6 +221,7 @@
     <ClCompile Include="48. 旋转图像.cpp" />
     <ClCompile Include="49. 字母异位词分组.cpp" />
     <ClCompile Include="497. 非重叠矩形中的随机点.cpp" />
+    <ClCompile Include="498. 对角线遍历.cpp" />
     <ClCompile Include="5. 最长回文子串.cpp" />
     <ClCompile Include="50. Pow(x, n).cpp" />
     <ClCompile Include="51. N 皇后.cpp" />
