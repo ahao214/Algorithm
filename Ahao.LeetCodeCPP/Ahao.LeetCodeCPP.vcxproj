@@ -227,6 +227,7 @@
     <ClCompile Include="51. N 皇后.cpp" />
     <ClCompile Include="52. N皇后 II.cpp" />
     <ClCompile Include="53. 最大子数组和.cpp" />
+    <ClCompile Include="532. 数组中的 k-diff 数对.cpp" />
     <ClCompile Include="54. 螺旋矩阵.cpp" />
     <ClCompile Include="55. 跳跃游戏.cpp" />
     <ClCompile Include="56. 合并区间.cpp" />

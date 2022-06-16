@@ -514,6 +514,9 @@
     <Filter Include="源文件\0700-0799\demo719">
       <UniqueIdentifier>{4d51c853-23b7-4de7-985c-0e74519a61e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0500-0599\demo532">
+      <UniqueIdentifier>{7ccbb3a1-a5b6-410c-8b8e-104805457848}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -950,6 +953,9 @@
     </ClCompile>
     <ClCompile Include="719. 找出第 K 小的数对距离.cpp">
       <Filter>源文件\0700-0799\demo719</Filter>
+    </ClCompile>
+    <ClCompile Include="532. 数组中的 k-diff 数对.cpp">
+      <Filter>源文件\0500-0599\demo532</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
