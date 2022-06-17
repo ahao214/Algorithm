@@ -517,6 +517,9 @@
     <Filter Include="源文件\0500-0599\demo532">
       <UniqueIdentifier>{7ccbb3a1-a5b6-410c-8b8e-104805457848}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1000-1099\demo1089">
+      <UniqueIdentifier>{85b08025-3382-441e-b5bb-2389a1413d22}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -956,6 +959,9 @@
     </ClCompile>
     <ClCompile Include="532. 数组中的 k-diff 数对.cpp">
       <Filter>源文件\0500-0599\demo532</Filter>
+    </ClCompile>
+    <ClCompile Include="1089. 复写零.cpp">
+      <Filter>源文件\1000-1099\demo1089</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
