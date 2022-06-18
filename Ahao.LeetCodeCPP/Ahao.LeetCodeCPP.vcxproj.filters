@@ -966,6 +966,9 @@
     <ClCompile Include="68. 文本左右对齐.cpp">
       <Filter>源文件\0001-0099\demo68</Filter>
     </ClCompile>
+    <ClCompile Include="69. x 的平方根.cpp">
+      <Filter>源文件\0001-0099\demo69</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
