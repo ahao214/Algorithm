@@ -228,6 +228,7 @@
     <ClCompile Include="50. Pow(x, n).cpp" />
     <ClCompile Include="508. 出现次数最多的子树元素和.cpp" />
     <ClCompile Include="51. N 皇后.cpp" />
+    <ClCompile Include="513. 找树左下角的值.cpp" />
     <ClCompile Include="52. N皇后 II.cpp" />
     <ClCompile Include="53. 最大子数组和.cpp" />
     <ClCompile Include="532. 数组中的 k-diff 数对.cpp" />

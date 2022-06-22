@@ -529,6 +529,9 @@
     <Filter Include="源文件\1100-1199\demo1108">
       <UniqueIdentifier>{aa866968-2dd7-433c-9b9d-9c4f1f951cc2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0500-0599\demo513">
+      <UniqueIdentifier>{889b511e-5e4e-4917-94c8-dfb601da756d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -983,6 +986,9 @@
     </ClCompile>
     <ClCompile Include="1108. IP 地址无效化.cpp">
       <Filter>源文件\1100-1199\demo1108</Filter>
+    </ClCompile>
+    <ClCompile Include="513. 找树左下角的值.cpp">
+      <Filter>源文件\0500-0599\demo513</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
