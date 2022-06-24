@@ -532,6 +532,9 @@
     <Filter Include="源文件\0500-0599\demo513">
       <UniqueIdentifier>{889b511e-5e4e-4917-94c8-dfb601da756d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0500-0599\demo515">
+      <UniqueIdentifier>{350eab45-25cb-43cc-93c8-f4dcff5d6545}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -989,6 +992,9 @@
     </ClCompile>
     <ClCompile Include="513. 找树左下角的值.cpp">
       <Filter>源文件\0500-0599\demo513</Filter>
+    </ClCompile>
+    <ClCompile Include="515. 在每个树行中找最大值.cpp">
+      <Filter>源文件\0500-0599\demo515</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
