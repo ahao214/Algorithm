@@ -996,6 +996,9 @@
     <ClCompile Include="515. 在每个树行中找最大值.cpp">
       <Filter>源文件\0500-0599\demo515</Filter>
     </ClCompile>
+    <ClCompile Include="70. 爬楼梯.cpp">
+      <Filter>源文件\0001-0099\demo70</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
