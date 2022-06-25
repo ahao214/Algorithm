@@ -261,6 +261,7 @@
     <ClCompile Include="693. 交替位二进制数.cpp" />
     <ClCompile Include="7. 整数反转.cpp" />
     <ClCompile Include="70. 爬楼梯.cpp" />
+    <ClCompile Include="71. 简化路径.cpp" />
     <ClCompile Include="713. 乘积小于 K 的子数组.cpp" />
     <ClCompile Include="719. 找出第 K 小的数对距离.cpp" />
     <ClCompile Include="724. 寻找数组的中心下标.cpp" />
