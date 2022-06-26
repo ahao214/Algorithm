@@ -1002,6 +1002,9 @@
     <ClCompile Include="71. 简化路径.cpp">
       <Filter>源文件\0001-0099\demo71</Filter>
     </ClCompile>
+    <ClCompile Include="72. 编辑距离.cpp">
+      <Filter>源文件\0001-0099\demo72</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

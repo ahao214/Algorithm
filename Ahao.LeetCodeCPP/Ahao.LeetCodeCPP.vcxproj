@@ -264,6 +264,7 @@
     <ClCompile Include="71. 简化路径.cpp" />
     <ClCompile Include="713. 乘积小于 K 的子数组.cpp" />
     <ClCompile Include="719. 找出第 K 小的数对距离.cpp" />
+    <ClCompile Include="72. 编辑距离.cpp" />
     <ClCompile Include="724. 寻找数组的中心下标.cpp" />
     <ClCompile Include="728. 自除数.cpp" />
     <ClCompile Include="730. 统计不同回文子序列.cpp" />
