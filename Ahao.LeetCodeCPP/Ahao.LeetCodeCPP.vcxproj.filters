@@ -535,6 +535,24 @@
     <Filter Include="源文件\0500-0599\demo515">
       <UniqueIdentifier>{350eab45-25cb-43cc-93c8-f4dcff5d6545}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo74">
+      <UniqueIdentifier>{2a2faa60-029a-4f6b-856c-6a1ad53e2352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo75">
+      <UniqueIdentifier>{5929ae0f-87d7-4899-a8e1-0ea929f57bbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo76">
+      <UniqueIdentifier>{d2dde8f4-0a8a-4518-8239-6393586702aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo77">
+      <UniqueIdentifier>{5b046a98-cbd1-486c-9b57-3fed3c631699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo78">
+      <UniqueIdentifier>{c299fc36-8189-4f8c-a2ed-6a4cad2d3caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo79">
+      <UniqueIdentifier>{4e50ae01-13ec-47ec-b4a6-9e04b000430e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1004,6 +1022,9 @@
     </ClCompile>
     <ClCompile Include="72. 编辑距离.cpp">
       <Filter>源文件\0001-0099\demo72</Filter>
+    </ClCompile>
+    <ClCompile Include="73. 矩阵置零.cpp">
+      <Filter>源文件\0001-0099\demo73</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
