@@ -553,6 +553,9 @@
     <Filter Include="源文件\0001-0099\demo79">
       <UniqueIdentifier>{4e50ae01-13ec-47ec-b4a6-9e04b000430e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0500-0599\demo522">
+      <UniqueIdentifier>{0f14cbe0-defc-4ba5-bd31-bf265ad94bcc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1025,6 +1028,9 @@
     </ClCompile>
     <ClCompile Include="73. 矩阵置零.cpp">
       <Filter>源文件\0001-0099\demo73</Filter>
+    </ClCompile>
+    <ClCompile Include="522. 最长特殊序列 II.cpp">
+      <Filter>源文件\0500-0599\demo522</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
