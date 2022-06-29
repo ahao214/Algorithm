@@ -1041,6 +1041,9 @@
     <ClCompile Include="74. 搜索二维矩阵.cpp">
       <Filter>源文件\0001-0099\demo74</Filter>
     </ClCompile>
+    <ClCompile Include="75. 颜色分类.cpp">
+      <Filter>源文件\0001-0099\demo75</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
