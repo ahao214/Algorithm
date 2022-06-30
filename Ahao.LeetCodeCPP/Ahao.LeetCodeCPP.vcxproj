@@ -149,6 +149,7 @@
     <ClCompile Include="1089. 复写零.cpp" />
     <ClCompile Include="11. 盛最多水的容器.cpp" />
     <ClCompile Include="1108. IP 地址无效化.cpp" />
+    <ClCompile Include="1175. 质数排列.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="13. 罗马数字转整数.cpp" />
     <ClCompile Include="1305. 两棵二叉搜索树中的所有元素.cpp" />

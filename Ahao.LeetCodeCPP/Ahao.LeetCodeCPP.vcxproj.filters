@@ -559,6 +559,9 @@
     <Filter Include="源文件\0300-0399\demo324">
       <UniqueIdentifier>{5c3680fe-3af5-4494-a80b-431f121a96dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1100-1199\demo1175">
+      <UniqueIdentifier>{7072bb8d-d506-4c66-a76c-33b1b145940e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1043,6 +1046,9 @@
     </ClCompile>
     <ClCompile Include="75. 颜色分类.cpp">
       <Filter>源文件\0001-0099\demo75</Filter>
+    </ClCompile>
+    <ClCompile Include="1175. 质数排列.cpp">
+      <Filter>源文件\1100-1199\demo1175</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
