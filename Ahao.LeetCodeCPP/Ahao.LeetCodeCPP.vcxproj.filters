@@ -1050,6 +1050,9 @@
     <ClCompile Include="1175. 质数排列.cpp">
       <Filter>源文件\1100-1199\demo1175</Filter>
     </ClCompile>
+    <ClCompile Include="76. 最小覆盖子串.cpp">
+      <Filter>源文件\0001-0099\demo76</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
