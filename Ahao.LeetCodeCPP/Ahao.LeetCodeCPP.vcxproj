@@ -173,6 +173,7 @@
     <ClCompile Include="22. 括号生成.cpp" />
     <ClCompile Include="23. 合并K个升序链表.cpp" />
     <ClCompile Include="24. 两两交换链表中的节点.cpp" />
+    <ClCompile Include="241. 为运算表达式设计优先级.cpp" />
     <ClCompile Include="25. K 个一组翻转链表.cpp" />
     <ClCompile Include="26. 删除有序数组中的重复项.cpp" />
     <ClCompile Include="27. 移除元素.cpp" />

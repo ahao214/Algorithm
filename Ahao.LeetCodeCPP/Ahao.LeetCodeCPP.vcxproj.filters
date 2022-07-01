@@ -562,6 +562,9 @@
     <Filter Include="源文件\1100-1199\demo1175">
       <UniqueIdentifier>{7072bb8d-d506-4c66-a76c-33b1b145940e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo241">
+      <UniqueIdentifier>{b61fc21d-1aea-4e93-84bc-86ecd126e5de}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1052,6 +1055,9 @@
     </ClCompile>
     <ClCompile Include="76. 最小覆盖子串.cpp">
       <Filter>源文件\0001-0099\demo76</Filter>
+    </ClCompile>
+    <ClCompile Include="241. 为运算表达式设计优先级.cpp">
+      <Filter>源文件\0200-0299\demo241</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
