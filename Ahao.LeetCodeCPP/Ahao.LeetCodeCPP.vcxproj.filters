@@ -574,6 +574,9 @@
     <Filter Include="源文件\1200-1299\demo1200">
       <UniqueIdentifier>{ca82f9c5-5867-4626-bad6-fcb4c005c72f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1200-1299\demo1217">
+      <UniqueIdentifier>{eef9c19b-f955-471e-a0e6-d2eca0f1cb0b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1079,6 +1082,9 @@
     </ClCompile>
     <ClCompile Include="78. 子集.cpp">
       <Filter>源文件\0001-0099\demo78</Filter>
+    </ClCompile>
+    <ClCompile Include="1217. 玩筹码.cpp">
+      <Filter>源文件\1200-1299\demo1217</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

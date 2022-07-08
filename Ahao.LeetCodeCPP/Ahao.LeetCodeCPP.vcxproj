@@ -152,6 +152,7 @@
     <ClCompile Include="1175. 质数排列.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="1200. 最小绝对差.cpp" />
+    <ClCompile Include="1217. 玩筹码.cpp" />
     <ClCompile Include="13. 罗马数字转整数.cpp" />
     <ClCompile Include="1305. 两棵二叉搜索树中的所有元素.cpp" />
     <ClCompile Include="14. 最长公共前缀.cpp" />
