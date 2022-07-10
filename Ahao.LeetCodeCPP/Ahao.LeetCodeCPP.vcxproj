@@ -277,6 +277,7 @@
     <ClCompile Include="73. 矩阵置零.cpp" />
     <ClCompile Include="730. 统计不同回文子序列.cpp" />
     <ClCompile Include="74. 搜索二维矩阵.cpp" />
+    <ClCompile Include="741. 摘樱桃.cpp" />
     <ClCompile Include="744. 寻找比目标字母大的最小字母.cpp" />
     <ClCompile Include="75. 颜色分类.cpp" />
     <ClCompile Include="76. 最小覆盖子串.cpp" />
