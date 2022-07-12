@@ -580,6 +580,9 @@
     <Filter Include="源文件\0700-0799\demo741">
       <UniqueIdentifier>{146d98a4-421f-44b4-877e-45b1ebc592cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1200-1299\demo1252">
+      <UniqueIdentifier>{2417b454-084f-4554-ae03-9dd565ec87f1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1091,6 +1094,9 @@
     </ClCompile>
     <ClCompile Include="741. 摘樱桃.cpp">
       <Filter>源文件\0700-0799\demo741</Filter>
+    </ClCompile>
+    <ClCompile Include="1252. 奇数值单元格的数目.cpp">
+      <Filter>源文件\1200-1299\demo1252</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
