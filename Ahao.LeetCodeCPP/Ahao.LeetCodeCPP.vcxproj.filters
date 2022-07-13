@@ -583,6 +583,9 @@
     <Filter Include="源文件\1200-1299\demo1252">
       <UniqueIdentifier>{2417b454-084f-4554-ae03-9dd565ec87f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo735">
+      <UniqueIdentifier>{5f936aaa-df7a-48a6-a438-4cb0a08748aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1097,6 +1100,9 @@
     </ClCompile>
     <ClCompile Include="1252. 奇数值单元格的数目.cpp">
       <Filter>源文件\1200-1299\demo1252</Filter>
+    </ClCompile>
+    <ClCompile Include="735. 行星碰撞.cpp">
+      <Filter>源文件\0700-0799\demo735</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
