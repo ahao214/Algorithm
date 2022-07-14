@@ -1104,6 +1104,9 @@
     <ClCompile Include="735. 行星碰撞.cpp">
       <Filter>源文件\0700-0799\demo735</Filter>
     </ClCompile>
+    <ClCompile Include="79. 单词搜索.cpp">
+      <Filter>源文件\0001-0099\demo79</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
