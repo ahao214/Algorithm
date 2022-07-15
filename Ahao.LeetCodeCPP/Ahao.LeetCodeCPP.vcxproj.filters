@@ -1128,6 +1128,9 @@
     <ClCompile Include="80. 删除有序数组中的重复项 II.cpp">
       <Filter>源文件\0001-0099\demo80</Filter>
     </ClCompile>
+    <ClCompile Include="81. 搜索旋转排序数组 II.cpp">
+      <Filter>源文件\0001-0099\demo81</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
