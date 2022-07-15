@@ -586,6 +586,24 @@
     <Filter Include="源文件\0700-0799\demo735">
       <UniqueIdentifier>{5f936aaa-df7a-48a6-a438-4cb0a08748aa}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0001-0099\demo80">
+      <UniqueIdentifier>{ad3bd6bf-49f1-442b-8b17-9e577fff35ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo81">
+      <UniqueIdentifier>{2ead3b94-3006-4e97-b6a7-c5798890307e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo82">
+      <UniqueIdentifier>{51ff6d87-0db7-4529-8e7c-b3ce0a4935b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo83">
+      <UniqueIdentifier>{9040d2aa-bf56-42fc-a244-47f2d6835f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo84">
+      <UniqueIdentifier>{6ea03c39-cdf3-4342-bc5d-856ff9520140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0001-0099\demo85">
+      <UniqueIdentifier>{664e4da4-9345-468c-91b7-f6dac61d84df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1106,6 +1124,9 @@
     </ClCompile>
     <ClCompile Include="79. 单词搜索.cpp">
       <Filter>源文件\0001-0099\demo79</Filter>
+    </ClCompile>
+    <ClCompile Include="80. 删除有序数组中的重复项 II.cpp">
+      <Filter>源文件\0001-0099\demo80</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

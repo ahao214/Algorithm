@@ -290,6 +290,7 @@
     <ClCompile Include="79. 单词搜索.cpp" />
     <ClCompile Include="796. 旋转字符串.cpp" />
     <ClCompile Include="8. 字符串转换整数 (atoi).cpp" />
+    <ClCompile Include="80. 删除有序数组中的重复项 II.cpp" />
     <ClCompile Include="804. 唯一摩尔斯密码词.cpp" />
     <ClCompile Include="806. 写字符串需要的行数.cpp" />
     <ClCompile Include="812. 最大三角形面积.cpp" />
