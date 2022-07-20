@@ -664,6 +664,9 @@
     <Filter Include="源文件\0500-0599\demo565">
       <UniqueIdentifier>{c5166fa7-7b2f-40aa-863b-18304939c140}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1200-1299\demo1260">
+      <UniqueIdentifier>{febf0812-debe-4c2a-a659-a4b957b762d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1193,6 +1196,9 @@
     </ClCompile>
     <ClCompile Include="565. 数组嵌套.cpp">
       <Filter>源文件\0500-0599\demo565</Filter>
+    </ClCompile>
+    <ClCompile Include="1260. 二维网格迁移.cpp">
+      <Filter>源文件\1200-1299\demo1260</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
