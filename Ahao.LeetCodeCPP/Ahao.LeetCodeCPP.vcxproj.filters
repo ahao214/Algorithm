@@ -679,6 +679,12 @@
     <Filter Include="源文件\1300-1399\demo1332">
       <UniqueIdentifier>{be68b4e6-5bdc-417b-9c78-c9d2922c3fc2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499">
+      <UniqueIdentifier>{cf1b7cce-7edf-4f8a-924d-daf1023a0322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1400-1499\demo1423">
+      <UniqueIdentifier>{b299578b-7dd4-4fbb-9b31-a31fc5e49ace}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1229,6 +1235,9 @@
     </ClCompile>
     <ClCompile Include="1332. 删除回文子序列.cpp">
       <Filter>源文件\1300-1399\demo1332</Filter>
+    </ClCompile>
+    <ClCompile Include="1423. 可获得的最大点数.cpp">
+      <Filter>源文件\1400-1499\demo1423</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
