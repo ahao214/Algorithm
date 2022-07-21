@@ -24,5 +24,14 @@
     <ClCompile Include="Ahao.OfferCPP.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="offer 79 判断是不是平衡二叉树.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
+    <ClCompile Include="offer 78 把二叉树打印成多行.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
+    <ClCompile Include="offer 77 之字形打印二叉树.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
