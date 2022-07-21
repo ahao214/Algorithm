@@ -1203,6 +1203,9 @@
     <ClCompile Include="82. 删除排序链表中的重复元素 II.cpp">
       <Filter>源文件\0001-0099\demo82</Filter>
     </ClCompile>
+    <ClCompile Include="83. 删除排序链表中的重复元素.cpp">
+      <Filter>源文件\0001-0099\demo83</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
