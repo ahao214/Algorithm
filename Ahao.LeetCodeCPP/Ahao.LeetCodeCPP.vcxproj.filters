@@ -694,6 +694,9 @@
     <Filter Include="源文件\1500-1599\demo1590">
       <UniqueIdentifier>{d410987e-023c-4f9f-bab2-7fe14234eccd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1608">
+      <UniqueIdentifier>{9b0aaf98-2631-4596-a1e0-c4854df5d50c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1253,6 +1256,9 @@
     </ClCompile>
     <ClCompile Include="1590. 使数组和能被 P 整除.cpp">
       <Filter>源文件\1500-1599\demo1590</Filter>
+    </ClCompile>
+    <ClCompile Include="1608. 特殊数组的特征值.cpp">
+      <Filter>源文件\1600-1699\demo1608</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

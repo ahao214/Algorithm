@@ -163,6 +163,7 @@
     <ClCompile Include="15. 三数之和.cpp" />
     <ClCompile Include="1590. 使数组和能被 P 整除.cpp" />
     <ClCompile Include="16. 最接近的三数之和.cpp" />
+    <ClCompile Include="1608. 特殊数组的特征值.cpp" />
     <ClCompile Include="1616. 分割两个字符串得到回文串.cpp" />
     <ClCompile Include="1617. 统计子树中城市之间最大距离.cpp" />
     <ClCompile Include="1622. 奇妙序列.cpp" />
