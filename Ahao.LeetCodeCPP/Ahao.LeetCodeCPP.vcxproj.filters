@@ -685,6 +685,9 @@
     <Filter Include="源文件\1400-1499\demo1423">
       <UniqueIdentifier>{b299578b-7dd4-4fbb-9b31-a31fc5e49ace}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1617">
+      <UniqueIdentifier>{2d67bd17-9d64-4c36-a4a2-c66fc830a05d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1238,6 +1241,9 @@
     </ClCompile>
     <ClCompile Include="1423. 可获得的最大点数.cpp">
       <Filter>源文件\1400-1499\demo1423</Filter>
+    </ClCompile>
+    <ClCompile Include="1617. 统计子树中城市之间最大距离.cpp">
+      <Filter>源文件\1600-1699\demo1617</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
