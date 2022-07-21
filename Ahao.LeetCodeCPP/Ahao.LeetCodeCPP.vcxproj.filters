@@ -676,6 +676,9 @@
     <Filter Include="源文件\0100-0199\demo173">
       <UniqueIdentifier>{1f193596-fb69-427f-b4a8-c55b913043a6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1332">
+      <UniqueIdentifier>{be68b4e6-5bdc-417b-9c78-c9d2922c3fc2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1223,6 +1226,9 @@
     </ClCompile>
     <ClCompile Include="1636. 按照频率将数组升序排序.cpp">
       <Filter>源文件\1600-1699\demo1636</Filter>
+    </ClCompile>
+    <ClCompile Include="1332. 删除回文子序列.cpp">
+      <Filter>源文件\1300-1399\demo1332</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
