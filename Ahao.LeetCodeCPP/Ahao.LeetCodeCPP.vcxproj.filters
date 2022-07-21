@@ -1200,6 +1200,9 @@
     <ClCompile Include="1260. 二维网格迁移.cpp">
       <Filter>源文件\1200-1299\demo1260</Filter>
     </ClCompile>
+    <ClCompile Include="82. 删除排序链表中的重复元素 II.cpp">
+      <Filter>源文件\0001-0099\demo82</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
