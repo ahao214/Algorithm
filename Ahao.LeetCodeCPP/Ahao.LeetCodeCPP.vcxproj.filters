@@ -670,6 +670,9 @@
     <Filter Include="源文件\0700-0799\demo746">
       <UniqueIdentifier>{100940e6-dd74-4803-866e-46e77c5de3e7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1636">
+      <UniqueIdentifier>{74273320-091e-41ef-8053-f68fcbb6a1ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1214,6 +1217,9 @@
     </ClCompile>
     <ClCompile Include="746. 使用最小花费爬楼梯.cpp">
       <Filter>源文件\0700-0799\demo746</Filter>
+    </ClCompile>
+    <ClCompile Include="1636. 按照频率将数组升序排序.cpp">
+      <Filter>源文件\1600-1699\demo1636</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
