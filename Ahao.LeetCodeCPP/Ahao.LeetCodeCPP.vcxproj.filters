@@ -697,6 +697,9 @@
     <Filter Include="源文件\1600-1699\demo1608">
       <UniqueIdentifier>{9b0aaf98-2631-4596-a1e0-c4854df5d50c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1611">
+      <UniqueIdentifier>{0ae5adbe-3028-4ddd-a0e5-a7bd5d900746}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1259,6 +1262,9 @@
     </ClCompile>
     <ClCompile Include="1608. 特殊数组的特征值.cpp">
       <Filter>源文件\1600-1699\demo1608</Filter>
+    </ClCompile>
+    <ClCompile Include="1611. 使整数变为 0 的最少操作次数.cpp">
+      <Filter>源文件\1600-1699\demo1611</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
