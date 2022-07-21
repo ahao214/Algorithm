@@ -26,3 +26,24 @@ public:
 		return n;
 	}
 };
+
+
+
+/*
+172. 阶乘后的零
+时间O(NLogN) 空间O(1)
+*/
+
+class Solution {
+public:
+	int trailingZeroes(int n) {
+		int res = 0;
+		int multiple = 5;
+		while (n >= multiple)
+		{
+			res += n / multiple;
+			multiple *= 5;
+		}
+		return res;
+	}
+};
