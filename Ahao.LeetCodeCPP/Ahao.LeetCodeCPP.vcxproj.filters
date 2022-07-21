@@ -667,6 +667,9 @@
     <Filter Include="源文件\1200-1299\demo1260">
       <UniqueIdentifier>{febf0812-debe-4c2a-a659-a4b957b762d3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo746">
+      <UniqueIdentifier>{100940e6-dd74-4803-866e-46e77c5de3e7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1208,6 +1211,9 @@
     </ClCompile>
     <ClCompile Include="84. 柱状图中最大的矩形.cpp">
       <Filter>源文件\0001-0099\demo84</Filter>
+    </ClCompile>
+    <ClCompile Include="746. 使用最小花费爬楼梯.cpp">
+      <Filter>源文件\0700-0799\demo746</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

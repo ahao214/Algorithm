@@ -283,6 +283,7 @@
     <ClCompile Include="74. 搜索二维矩阵.cpp" />
     <ClCompile Include="741. 摘樱桃.cpp" />
     <ClCompile Include="744. 寻找比目标字母大的最小字母.cpp" />
+    <ClCompile Include="746. 使用最小花费爬楼梯.cpp" />
     <ClCompile Include="75. 颜色分类.cpp" />
     <ClCompile Include="76. 最小覆盖子串.cpp" />
     <ClCompile Include="762. 二进制表示中质数个计算置位.cpp" />
