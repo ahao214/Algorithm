@@ -1206,6 +1206,9 @@
     <ClCompile Include="83. 删除排序链表中的重复元素.cpp">
       <Filter>源文件\0001-0099\demo83</Filter>
     </ClCompile>
+    <ClCompile Include="84. 柱状图中最大的矩形.cpp">
+      <Filter>源文件\0001-0099\demo84</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
