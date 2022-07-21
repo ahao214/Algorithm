@@ -703,6 +703,9 @@
     <Filter Include="源文件\1600-1699\demo1610">
       <UniqueIdentifier>{0c946f87-8bf4-4209-a36d-5f9ffe753574}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1658">
+      <UniqueIdentifier>{368854c2-2b00-44a0-a5ca-cbae7bd5ea3a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1271,6 +1274,9 @@
     </ClCompile>
     <ClCompile Include="1610. 可见点的最大数目.cpp">
       <Filter>源文件\1600-1699\demo1610</Filter>
+    </ClCompile>
+    <ClCompile Include="1658. 将 x 减到 0 的最小操作数.cpp">
+      <Filter>源文件\1600-1699\demo1658</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

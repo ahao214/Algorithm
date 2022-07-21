@@ -170,6 +170,7 @@
     <ClCompile Include="1617. 统计子树中城市之间最大距离.cpp" />
     <ClCompile Include="1622. 奇妙序列.cpp" />
     <ClCompile Include="1636. 按照频率将数组升序排序.cpp" />
+    <ClCompile Include="1658. 将 x 减到 0 的最小操作数.cpp" />
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
