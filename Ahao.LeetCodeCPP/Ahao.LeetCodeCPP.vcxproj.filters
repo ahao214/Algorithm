@@ -700,6 +700,9 @@
     <Filter Include="源文件\1600-1699\demo1611">
       <UniqueIdentifier>{0ae5adbe-3028-4ddd-a0e5-a7bd5d900746}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1610">
+      <UniqueIdentifier>{0c946f87-8bf4-4209-a36d-5f9ffe753574}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1265,6 +1268,9 @@
     </ClCompile>
     <ClCompile Include="1611. 使整数变为 0 的最少操作次数.cpp">
       <Filter>源文件\1600-1699\demo1611</Filter>
+    </ClCompile>
+    <ClCompile Include="1610. 可见点的最大数目.cpp">
+      <Filter>源文件\1600-1699\demo1610</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
