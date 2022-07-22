@@ -721,6 +721,9 @@
     <Filter Include="源文件\1600-1699\demo1621">
       <UniqueIdentifier>{e570abe7-4353-4e9f-a77a-d7faa506d3ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1625">
+      <UniqueIdentifier>{2a3fd9f0-480e-4023-af7b-76ae96632d4a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1304,6 +1307,9 @@
     </ClCompile>
     <ClCompile Include="1621. 大小为 K 的不重叠线段的数目.cpp">
       <Filter>源文件\1600-1699\demo1621</Filter>
+    </ClCompile>
+    <ClCompile Include="1625. 执行操作后字典序最小的字符串.cpp">
+      <Filter>源文件\1600-1699\demo1625</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
