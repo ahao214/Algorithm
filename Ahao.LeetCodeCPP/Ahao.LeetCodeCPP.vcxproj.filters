@@ -712,6 +712,9 @@
     <Filter Include="源文件\0700-0799\demo757">
       <UniqueIdentifier>{d4dcc2ff-1222-40a5-b84b-1ebc61e7fe46}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1606">
+      <UniqueIdentifier>{c8b57295-f6fb-423b-8b93-c85f45d7ba09}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1286,6 +1289,9 @@
     </ClCompile>
     <ClCompile Include="757. 设置交集大小至少为2.cpp">
       <Filter>源文件\0700-0799\demo757</Filter>
+    </ClCompile>
+    <ClCompile Include="1606. 找到处理最多请求的服务器.cpp">
+      <Filter>源文件\1600-1699\demo1606</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
