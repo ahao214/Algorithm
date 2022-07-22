@@ -724,6 +724,9 @@
     <Filter Include="源文件\1600-1699\demo1625">
       <UniqueIdentifier>{2a3fd9f0-480e-4023-af7b-76ae96632d4a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1627">
+      <UniqueIdentifier>{82e35be4-8eac-4b43-ab1b-5cc62500b40c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1310,6 +1313,9 @@
     </ClCompile>
     <ClCompile Include="1625. 执行操作后字典序最小的字符串.cpp">
       <Filter>源文件\1600-1699\demo1625</Filter>
+    </ClCompile>
+    <ClCompile Include="1627.带阈值的图连通性.cpp">
+      <Filter>源文件\1600-1699\demo1627</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
