@@ -1323,6 +1323,9 @@
     <ClCompile Include="188. 买卖股票的最佳时机 IV.cpp">
       <Filter>源文件\0100-0199\demo188</Filter>
     </ClCompile>
+    <ClCompile Include="1631. 最小体力消耗路径.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
