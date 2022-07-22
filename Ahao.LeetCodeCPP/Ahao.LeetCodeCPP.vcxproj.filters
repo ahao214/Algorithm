@@ -727,6 +727,9 @@
     <Filter Include="源文件\1600-1699\demo1627">
       <UniqueIdentifier>{82e35be4-8eac-4b43-ab1b-5cc62500b40c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0100-0199\demo188">
+      <UniqueIdentifier>{c3eef052-8155-4a72-a8f0-261f9f7c8acd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1316,6 +1319,9 @@
     </ClCompile>
     <ClCompile Include="1627.带阈值的图连通性.cpp">
       <Filter>源文件\1600-1699\demo1627</Filter>
+    </ClCompile>
+    <ClCompile Include="188. 买卖股票的最佳时机 IV.cpp">
+      <Filter>源文件\0100-0199\demo188</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
