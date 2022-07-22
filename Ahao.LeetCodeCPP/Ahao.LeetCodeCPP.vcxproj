@@ -163,6 +163,7 @@
     <ClCompile Include="15. 三数之和.cpp" />
     <ClCompile Include="1590. 使数组和能被 P 整除.cpp" />
     <ClCompile Include="16. 最接近的三数之和.cpp" />
+    <ClCompile Include="1605. 给定行和列的和求可行矩阵.cpp" />
     <ClCompile Include="1606. 找到处理最多请求的服务器.cpp" />
     <ClCompile Include="1608. 特殊数组的特征值.cpp" />
     <ClCompile Include="1610. 可见点的最大数目.cpp" />

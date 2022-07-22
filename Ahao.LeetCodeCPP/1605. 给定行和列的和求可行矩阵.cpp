@@ -1,0 +1,41 @@
+#include<vector>
+
+using namespace std;
+
+
+/*
+1605. 给定行和列的和求可行矩阵
+*/
+class Solution {
+	/*
+	k k k a
+	k k k b
+	k k k c
+	x y z
+
+	[a,b,c]表示行的和
+	[x,y,z]表示列的和
+
+	res为结果数组
+	res[0][0] = min(x,a)
+	res[0][1] = min(y,a - res[0][0])
+	res[0][2] = a - res[0][0] - res[0][1] = min(z,a - res[0][0] - res[0][1])
+	*/
+public:
+	vector<vector<int>> restoreMatrix(vector<int>& rowSum, vector<int>& colSum) {
+		int m = rowSum.size();
+		int n = colSum.size();
+		auto res = vector<vector<int>>(m, vector<int>(n));
+		for (int i = 0; i < m; i++)
+		{
+			for (int j = 0; j < n; j++)
+			{
+				int v = min(rowSum[i], colSum[j]);
+				res[i][j] = v;
+				rowSum[i] -= v;
+				colSum[j] -= v;
+			}
+		}
+		return res;
+	}
+};
