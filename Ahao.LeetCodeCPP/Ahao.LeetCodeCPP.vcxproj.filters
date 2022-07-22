@@ -706,6 +706,12 @@
     <Filter Include="源文件\1600-1699\demo1658">
       <UniqueIdentifier>{368854c2-2b00-44a0-a5ca-cbae7bd5ea3a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799">
+      <UniqueIdentifier>{c38d5659-a1cc-4861-89b7-10f9dadbbb7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0700-0799\demo757">
+      <UniqueIdentifier>{d4dcc2ff-1222-40a5-b84b-1ebc61e7fe46}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1277,6 +1283,9 @@
     </ClCompile>
     <ClCompile Include="1658. 将 x 减到 0 的最小操作数.cpp">
       <Filter>源文件\1600-1699\demo1658</Filter>
+    </ClCompile>
+    <ClCompile Include="757. 设置交集大小至少为2.cpp">
+      <Filter>源文件\0700-0799\demo757</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

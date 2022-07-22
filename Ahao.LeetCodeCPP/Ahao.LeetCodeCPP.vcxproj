@@ -294,6 +294,7 @@
     <ClCompile Include="744. 寻找比目标字母大的最小字母.cpp" />
     <ClCompile Include="746. 使用最小花费爬楼梯.cpp" />
     <ClCompile Include="75. 颜色分类.cpp" />
+    <ClCompile Include="757. 设置交集大小至少为2.cpp" />
     <ClCompile Include="76. 最小覆盖子串.cpp" />
     <ClCompile Include="762. 二进制表示中质数个计算置位.cpp" />
     <ClCompile Include="77. 组合.cpp" />
