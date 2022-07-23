@@ -730,6 +730,9 @@
     <Filter Include="源文件\0100-0199\demo188">
       <UniqueIdentifier>{c3eef052-8155-4a72-a8f0-261f9f7c8acd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1601">
+      <UniqueIdentifier>{adb6925d-8bb0-4495-be32-ab0bd49b0b06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1325,6 +1328,9 @@
     </ClCompile>
     <ClCompile Include="1631. 最小体力消耗路径.cpp">
       <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
+    <ClCompile Include="1601. 最多可达成的换楼请求数目.cpp">
+      <Filter>源文件\1600-1699\demo1601</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
