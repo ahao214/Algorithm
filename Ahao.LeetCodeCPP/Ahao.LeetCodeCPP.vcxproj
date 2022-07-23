@@ -177,6 +177,7 @@
     <ClCompile Include="1627.带阈值的图连通性.cpp" />
     <ClCompile Include="1631. 最小体力消耗路径.cpp" />
     <ClCompile Include="1636. 按照频率将数组升序排序.cpp" />
+    <ClCompile Include="1638. 统计只差一个字符的子串数目.cpp" />
     <ClCompile Include="1658. 将 x 减到 0 的最小操作数.cpp" />
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
