@@ -736,6 +736,9 @@
     <Filter Include="源文件\1600-1699\demo1638">
       <UniqueIdentifier>{c695ce99-93ca-413d-ba70-3f481524e558}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1639">
+      <UniqueIdentifier>{080c71a0-98c3-4185-8403-5025fcb33fc6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1337,6 +1340,9 @@
     </ClCompile>
     <ClCompile Include="1638. 统计只差一个字符的子串数目.cpp">
       <Filter>源文件\1600-1699\demo1638</Filter>
+    </ClCompile>
+    <ClCompile Include="1639. 通过给定词典构造目标字符串的方案数.cpp">
+      <Filter>源文件\1600-1699\demo1639</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
