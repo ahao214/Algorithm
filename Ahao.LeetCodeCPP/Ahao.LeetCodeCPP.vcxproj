@@ -150,6 +150,7 @@
     <ClCompile Include="11. 盛最多水的容器.cpp" />
     <ClCompile Include="1108. IP 地址无效化.cpp" />
     <ClCompile Include="1175. 质数排列.cpp" />
+    <ClCompile Include="1184. 公交站间的距离.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="1200. 最小绝对差.cpp" />
     <ClCompile Include="1217. 玩筹码.cpp" />
