@@ -745,6 +745,9 @@
     <Filter Include="源文件\1600-1699\demo1641">
       <UniqueIdentifier>{22449509-36b6-4ec2-aa88-7e3035483216}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1642">
+      <UniqueIdentifier>{05a74a04-f288-44ba-ad77-45eb76654797}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1355,6 +1358,9 @@
     </ClCompile>
     <ClCompile Include="1641. 统计字典序元音字符串的数目.cpp">
       <Filter>源文件\1600-1699\demo1641</Filter>
+    </ClCompile>
+    <ClCompile Include="1642. 可以到达的最远建筑.cpp">
+      <Filter>源文件\1600-1699\demo1642</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
