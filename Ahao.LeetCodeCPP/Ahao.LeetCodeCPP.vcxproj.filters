@@ -748,6 +748,9 @@
     <Filter Include="源文件\1600-1699\demo1642">
       <UniqueIdentifier>{05a74a04-f288-44ba-ad77-45eb76654797}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1631">
+      <UniqueIdentifier>{3d5b71f7-fe1e-4d48-9dfd-b19a0b07b844}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1341,9 +1344,6 @@
     <ClCompile Include="188. 买卖股票的最佳时机 IV.cpp">
       <Filter>源文件\0100-0199\demo188</Filter>
     </ClCompile>
-    <ClCompile Include="1631. 最小体力消耗路径.cpp">
-      <Filter>源文件\1600-1699</Filter>
-    </ClCompile>
     <ClCompile Include="1601. 最多可达成的换楼请求数目.cpp">
       <Filter>源文件\1600-1699\demo1601</Filter>
     </ClCompile>
@@ -1361,6 +1361,9 @@
     </ClCompile>
     <ClCompile Include="1642. 可以到达的最远建筑.cpp">
       <Filter>源文件\1600-1699\demo1642</Filter>
+    </ClCompile>
+    <ClCompile Include="1631. 最小体力消耗路径.cpp">
+      <Filter>源文件\1600-1699\demo1631</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
