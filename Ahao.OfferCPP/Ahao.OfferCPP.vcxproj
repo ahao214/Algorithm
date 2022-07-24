@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.OfferCPP.cpp" />
+    <ClCompile Include="offer 75 字符流中第一个不重复的字符.cpp" />
     <ClCompile Include="offer 77 之字形打印二叉树.cpp" />
     <ClCompile Include="offer 78 把二叉树打印成多行.cpp" />
     <ClCompile Include="offer 79 判断是不是平衡二叉树.cpp" />
