@@ -751,6 +751,9 @@
     <Filter Include="源文件\1600-1699\demo1631">
       <UniqueIdentifier>{3d5b71f7-fe1e-4d48-9dfd-b19a0b07b844}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1643">
+      <UniqueIdentifier>{88844186-303a-486c-a466-2fcae08a6c51}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1364,6 +1367,9 @@
     </ClCompile>
     <ClCompile Include="1631. 最小体力消耗路径.cpp">
       <Filter>源文件\1600-1699\demo1631</Filter>
+    </ClCompile>
+    <ClCompile Include="1643. 第 K 条最小指令.cpp">
+      <Filter>源文件\1600-1699\demo1643</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

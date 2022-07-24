@@ -182,6 +182,7 @@
     <ClCompile Include="1639. 通过给定词典构造目标字符串的方案数.cpp" />
     <ClCompile Include="1641. 统计字典序元音字符串的数目.cpp" />
     <ClCompile Include="1642. 可以到达的最远建筑.cpp" />
+    <ClCompile Include="1643. 第 K 条最小指令.cpp" />
     <ClCompile Include="1658. 将 x 减到 0 的最小操作数.cpp" />
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
