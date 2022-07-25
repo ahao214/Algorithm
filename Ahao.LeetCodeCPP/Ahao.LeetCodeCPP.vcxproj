@@ -330,6 +330,7 @@
     <ClCompile Include="83. 删除排序链表中的重复元素.cpp" />
     <ClCompile Include="84. 柱状图中最大的矩形.cpp" />
     <ClCompile Include="85. 最大矩形.cpp" />
+    <ClCompile Include="86. 分隔链表.cpp" />
     <ClCompile Include="868. 二进制间距.cpp" />
     <ClCompile Include="883. 三维形体投影面积.cpp" />
     <ClCompile Include="890. 查找和替换模式.cpp" />

@@ -1374,6 +1374,9 @@
     <ClCompile Include="85. 最大矩形.cpp">
       <Filter>源文件\0001-0099\demo85</Filter>
     </ClCompile>
+    <ClCompile Include="86. 分隔链表.cpp">
+      <Filter>源文件\0001-0099\demo86</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
