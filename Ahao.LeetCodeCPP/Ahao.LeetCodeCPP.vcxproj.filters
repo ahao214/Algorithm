@@ -1380,6 +1380,9 @@
     <ClCompile Include="87. 扰乱字符串.cpp">
       <Filter>源文件\0001-0099\demo87</Filter>
     </ClCompile>
+    <ClCompile Include="88. 合并两个有序数组.cpp">
+      <Filter>源文件\0001-0099\demo88</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
