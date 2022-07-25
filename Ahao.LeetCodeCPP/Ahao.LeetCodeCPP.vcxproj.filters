@@ -1371,6 +1371,9 @@
     <ClCompile Include="1643. 第 K 条最小指令.cpp">
       <Filter>源文件\1600-1699\demo1643</Filter>
     </ClCompile>
+    <ClCompile Include="85. 最大矩形.cpp">
+      <Filter>源文件\0001-0099\demo85</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
