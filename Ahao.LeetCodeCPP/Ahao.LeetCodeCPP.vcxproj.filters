@@ -760,6 +760,9 @@
     <Filter Include="源文件\0200-0299\demo240">
       <UniqueIdentifier>{efb1adb4-771c-4942-9445-15f62036aaec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo219">
+      <UniqueIdentifier>{30f191f6-c518-4c15-83ba-6b9ae872e9b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1394,6 +1397,9 @@
     </ClCompile>
     <ClCompile Include="240. 搜索二维矩阵 II.cpp">
       <Filter>源文件\0200-0299\demo240</Filter>
+    </ClCompile>
+    <ClCompile Include="219. 存在重复元素 II.cpp">
+      <Filter>源文件\0200-0299\demo219</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
