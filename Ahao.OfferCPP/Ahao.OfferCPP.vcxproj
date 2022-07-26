@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.OfferCPP.cpp" />
+    <ClCompile Include="offer 54 二叉搜索树的第k个节点.cpp" />
     <ClCompile Include="offer 55 二叉树的深度.cpp" />
     <ClCompile Include="offer 56 数组中只出现一次的两个数字.cpp" />
     <ClCompile Include="offer 57 和为S的两个数字.cpp" />

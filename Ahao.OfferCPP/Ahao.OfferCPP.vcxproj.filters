@@ -48,5 +48,8 @@
     <ClCompile Include="offer 55 二叉树的深度.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 54 二叉搜索树的第k个节点.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
