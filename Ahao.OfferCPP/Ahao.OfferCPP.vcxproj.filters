@@ -39,5 +39,8 @@
     <ClCompile Include="剑指 Offer 57 - II. 和为s的连续正数序列.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 57 和为S的两个数字.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
