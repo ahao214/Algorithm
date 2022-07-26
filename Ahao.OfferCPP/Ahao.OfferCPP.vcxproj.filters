@@ -45,5 +45,8 @@
     <ClCompile Include="offer 56 数组中只出现一次的两个数字.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 55 二叉树的深度.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
