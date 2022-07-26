@@ -153,6 +153,7 @@
     <ClCompile Include="1184. 公交站间的距离.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="1200. 最小绝对差.cpp" />
+    <ClCompile Include="1206. 设计跳表.cpp" />
     <ClCompile Include="1217. 玩筹码.cpp" />
     <ClCompile Include="1252. 奇数值单元格的数目.cpp" />
     <ClCompile Include="1260. 二维网格迁移.cpp" />

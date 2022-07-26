@@ -754,6 +754,9 @@
     <Filter Include="源文件\1600-1699\demo1643">
       <UniqueIdentifier>{88844186-303a-486c-a466-2fcae08a6c51}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1200-1299\demo1206">
+      <UniqueIdentifier>{d7ab7643-42b2-48f7-863d-4c3dd704370b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1382,6 +1385,9 @@
     </ClCompile>
     <ClCompile Include="88. 合并两个有序数组.cpp">
       <Filter>源文件\0001-0099\demo88</Filter>
+    </ClCompile>
+    <ClCompile Include="1206. 设计跳表.cpp">
+      <Filter>源文件\1200-1299\demo1206</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
