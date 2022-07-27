@@ -72,5 +72,8 @@
     <ClCompile Include="offer 48 最长不含重复字符的子字符串.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 47 礼物的最大价值.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
