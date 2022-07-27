@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.OfferCPP.cpp" />
+    <ClCompile Include="offer 48 最长不含重复字符的子字符串.cpp" />
     <ClCompile Include="offer 49 丑数.cpp" />
     <ClCompile Include="offer 50 第一个只出现一次的字符.cpp" />
     <ClCompile Include="offer 51 数组中的逆序对.cpp" />

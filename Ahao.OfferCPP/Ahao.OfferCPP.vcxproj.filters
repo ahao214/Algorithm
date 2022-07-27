@@ -69,5 +69,8 @@
     <ClCompile Include="offer 49 丑数.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 48 最长不含重复字符的子字符串.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
