@@ -54,5 +54,8 @@
     <ClCompile Include="offer 53 - II. 0～n-1中缺失的数字.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 53 数字在升序数组中出现的次数.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
