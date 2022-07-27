@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.OfferCPP.cpp" />
+    <ClCompile Include="offer 50 第一个只出现一次的字符.cpp" />
     <ClCompile Include="offer 51 数组中的逆序对.cpp" />
     <ClCompile Include="offer 52 两个链表的第一个公共结点.cpp" />
     <ClCompile Include="offer 53 数字在升序数组中出现的次数.cpp" />
