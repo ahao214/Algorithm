@@ -277,6 +277,7 @@
     <ClCompile Include="587. 安装栅栏.cpp" />
     <ClCompile Include="59. 螺旋矩阵 II.cpp" />
     <ClCompile Include="591. 标签验证器.cpp" />
+    <ClCompile Include="592. 分数加减运算.cpp" />
     <ClCompile Include="60. 排列序列.cpp" />
     <ClCompile Include="606. 根据二叉树创建字符串.cpp" />
     <ClCompile Include="61. 旋转链表.cpp" />

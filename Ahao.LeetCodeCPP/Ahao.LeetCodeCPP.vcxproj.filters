@@ -763,6 +763,9 @@
     <Filter Include="源文件\0200-0299\demo219">
       <UniqueIdentifier>{30f191f6-c518-4c15-83ba-6b9ae872e9b9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0500-0599\demo592">
+      <UniqueIdentifier>{f990dd22-ecd2-4035-b8db-e7d33531d401}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1400,6 +1403,9 @@
     </ClCompile>
     <ClCompile Include="219. 存在重复元素 II.cpp">
       <Filter>源文件\0200-0299\demo219</Filter>
+    </ClCompile>
+    <ClCompile Include="592. 分数加减运算.cpp">
+      <Filter>源文件\0500-0599\demo592</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
