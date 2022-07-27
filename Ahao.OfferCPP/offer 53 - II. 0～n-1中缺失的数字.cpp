@@ -4,7 +4,7 @@ using namespace std;
 
 
 /*
-剑指 Offer 53 - II. 0～n-1中缺失的数字
+offer 53 - II. 0～n-1中缺失的数字
 */
 class Solution {
 public:
