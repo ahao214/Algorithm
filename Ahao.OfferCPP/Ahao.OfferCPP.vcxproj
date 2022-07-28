@@ -140,6 +140,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.OfferCPP.cpp" />
+    <ClCompile Include="offer 42  连续子数组的最大和.cpp" />
+    <ClCompile Include="offer 43  整数中1出现的次数(从1到n整数中1出现的次数).cpp" />
     <ClCompile Include="offer 44 数字序列中某一位的数字.cpp" />
     <ClCompile Include="offer 45 把数组排成最小的数.cpp" />
     <ClCompile Include="offer 46 把数字翻译成字符串.cpp" />
