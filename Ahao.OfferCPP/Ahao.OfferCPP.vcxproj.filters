@@ -105,5 +105,8 @@
     <ClCompile Include="offer 37 序列化二叉树.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 36 二叉搜索树与双向链表.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
