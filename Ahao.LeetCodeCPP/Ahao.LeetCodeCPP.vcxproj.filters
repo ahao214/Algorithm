@@ -766,6 +766,9 @@
     <Filter Include="源文件\0500-0599\demo592">
       <UniqueIdentifier>{f990dd22-ecd2-4035-b8db-e7d33531d401}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1331">
+      <UniqueIdentifier>{d6146a8f-e199-4b74-be1c-8b3860b1d911}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1406,6 +1409,9 @@
     </ClCompile>
     <ClCompile Include="592. 分数加减运算.cpp">
       <Filter>源文件\0500-0599\demo592</Filter>
+    </ClCompile>
+    <ClCompile Include="1331. 数组序号转换.cpp">
+      <Filter>源文件\1300-1399\demo1331</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

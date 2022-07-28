@@ -159,6 +159,7 @@
     <ClCompile Include="1260. 二维网格迁移.cpp" />
     <ClCompile Include="13. 罗马数字转整数.cpp" />
     <ClCompile Include="1305. 两棵二叉搜索树中的所有元素.cpp" />
+    <ClCompile Include="1331. 数组序号转换.cpp" />
     <ClCompile Include="1332. 删除回文子序列.cpp" />
     <ClCompile Include="14. 最长公共前缀.cpp" />
     <ClCompile Include="1423. 可获得的最大点数.cpp" />
