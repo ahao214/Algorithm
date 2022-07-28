@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.OfferCPP.cpp" />
+    <ClCompile Include="offer 45 把数组排成最小的数.cpp" />
     <ClCompile Include="offer 46 把数字翻译成字符串.cpp" />
     <ClCompile Include="offer 47 礼物的最大价值.cpp" />
     <ClCompile Include="offer 48 最长不含重复字符的子字符串.cpp" />

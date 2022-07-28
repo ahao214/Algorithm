@@ -78,5 +78,8 @@
     <ClCompile Include="offer 46 把数字翻译成字符串.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 45 把数组排成最小的数.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
