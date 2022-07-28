@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.OfferCPP.cpp" />
+    <ClCompile Include="offer 35 复杂链表的复制.cpp" />
     <ClCompile Include="offer 36 二叉搜索树与双向链表.cpp" />
     <ClCompile Include="offer 37 序列化二叉树.cpp" />
     <ClCompile Include="offer 38 字符串的排列.cpp" />
