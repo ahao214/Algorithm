@@ -120,5 +120,8 @@
     <ClCompile Include="offer 32 不分行从上到下打印二叉树.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 31 栈的压入弹出序列.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
