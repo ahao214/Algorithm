@@ -114,5 +114,8 @@
     <ClCompile Include="offer 34 二叉树中和为某一值的路径.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 33 二叉搜索树的后续遍历序列.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
