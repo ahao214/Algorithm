@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.OfferCPP.cpp" />
+    <ClCompile Include="offer 27 二叉树的镜像.cpp" />
     <ClCompile Include="offer 28 对称二叉树.cpp" />
     <ClCompile Include="offer 29 顺时针打印矩阵.cpp" />
     <ClCompile Include="offer 30 包含min函数的栈.cpp" />
