@@ -123,5 +123,11 @@
     <ClCompile Include="offer 31 栈的压入弹出序列.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 30 包含min函数的栈.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
+    <ClCompile Include="offer 29 顺时针打印矩阵.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
