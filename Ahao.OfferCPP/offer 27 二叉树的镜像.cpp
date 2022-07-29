@@ -16,7 +16,6 @@ class Solution {
 	}
 };
 
-
 struct TreeNode {
 	int val;
 	TreeNode* left;
