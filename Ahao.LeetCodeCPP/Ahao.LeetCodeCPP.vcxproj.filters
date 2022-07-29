@@ -769,6 +769,9 @@
     <Filter Include="源文件\1300-1399\demo1331">
       <UniqueIdentifier>{d6146a8f-e199-4b74-be1c-8b3860b1d911}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0500-0599\demo593">
+      <UniqueIdentifier>{6ae61a95-9f82-4448-b5fe-21b576e2a2d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1412,6 +1415,9 @@
     </ClCompile>
     <ClCompile Include="1331. 数组序号转换.cpp">
       <Filter>源文件\1300-1399\demo1331</Filter>
+    </ClCompile>
+    <ClCompile Include="593. 有效的正方形.cpp">
+      <Filter>源文件\0500-0599\demo593</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
