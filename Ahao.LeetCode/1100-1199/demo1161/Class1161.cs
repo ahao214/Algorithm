@@ -48,6 +48,41 @@ namespace Ahao.LeetCode._1100_1199.demo1161
             }
         }
 
+        /// <summary>
+        /// 广度优先搜索
+        /// </summary>
+        /// <param name="root"></param>
+        /// <returns></returns>
+        public int MaxLevelSum2(TreeNode root)
+        {
+            int ans = 1, maxSum = root.val;
+            IList<TreeNode> q = new List<TreeNode>();
+            q.Add(root);
+            for (int level = 1; q.Count > 0; ++level)
+            {
+                IList<TreeNode> nq = new List<TreeNode>();
+                int sum = 0;
+                foreach (TreeNode node in q)
+                {
+                    sum += node.val;
+                    if (node.left != null)
+                    {
+                        nq.Add(node.left);
+                    }
+                    if (node.right != null)
+                    {
+                        nq.Add(node.right);
+                    }
+                }
+                if (sum > maxSum)
+                {
+                    maxSum = sum;
+                    ans = level;
+                }
+                q = nq;
+            }
+            return ans;
+        }
 
 
         public class TreeNode
