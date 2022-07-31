@@ -772,6 +772,9 @@
     <Filter Include="源文件\0500-0599\demo593">
       <UniqueIdentifier>{6ae61a95-9f82-4448-b5fe-21b576e2a2d3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1100-1199\demo1161">
+      <UniqueIdentifier>{97b63c37-06b5-4fdd-ab1c-deda1751c304}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1418,6 +1421,9 @@
     </ClCompile>
     <ClCompile Include="593. 有效的正方形.cpp">
       <Filter>源文件\0500-0599\demo593</Filter>
+    </ClCompile>
+    <ClCompile Include="1161. 最大层内元素和.cpp">
+      <Filter>源文件\1100-1199\demo1161</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
