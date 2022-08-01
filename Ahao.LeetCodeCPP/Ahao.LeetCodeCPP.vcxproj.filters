@@ -775,6 +775,9 @@
     <Filter Include="源文件\1100-1199\demo1161">
       <UniqueIdentifier>{97b63c37-06b5-4fdd-ab1c-deda1751c304}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1374">
+      <UniqueIdentifier>{bf24ed9d-7148-4a57-ac35-be4af3719162}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1424,6 +1427,9 @@
     </ClCompile>
     <ClCompile Include="1161. 最大层内元素和.cpp">
       <Filter>源文件\1100-1199\demo1161</Filter>
+    </ClCompile>
+    <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp">
+      <Filter>源文件\1300-1399\demo1374</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
