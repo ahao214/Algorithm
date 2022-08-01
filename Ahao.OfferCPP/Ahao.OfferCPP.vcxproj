@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.OfferCPP.cpp" />
+    <ClCompile Include="offer 20 表示数值的字符串.cpp" />
     <ClCompile Include="offer 21 调整数组顺序使奇数位于偶数前面(一).cpp" />
     <ClCompile Include="offer 22 链表中倒数第k个节点.cpp" />
     <ClCompile Include="offer 23 链表中环的入口节点.cpp" />
