@@ -150,5 +150,8 @@
     <ClCompile Include="offer 22 链表中倒数第k个节点.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 21 调整数组顺序使奇数位于偶数前面(一).cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
