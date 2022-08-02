@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.OfferCPP.cpp" />
+    <ClCompile Include="offer 11 旋转数组的最小数字.cpp" />
     <ClCompile Include="offer 12 矩阵中的路径.cpp" />
     <ClCompile Include="offer 13 机器人的运动范围.cpp" />
     <ClCompile Include="offer 14 剪绳子.cpp" />

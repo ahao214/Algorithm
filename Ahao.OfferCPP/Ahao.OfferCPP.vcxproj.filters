@@ -177,5 +177,8 @@
     <ClCompile Include="offer 12 矩阵中的路径.cpp">
       <Filter>源文件\剑指Offer%28第2版%29</Filter>
     </ClCompile>
+    <ClCompile Include="offer 11 旋转数组的最小数字.cpp">
+      <Filter>源文件\剑指Offer%28第2版%29</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
