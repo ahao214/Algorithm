@@ -781,6 +781,15 @@
     <Filter Include="源文件\0800-0899\demo899">
       <UniqueIdentifier>{825c6cee-466f-4fba-b508-40636df0ca7f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199">
+      <UniqueIdentifier>{770106bc-df14-4c30-9f4f-e0664290a671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2100-2199\demo2151">
+      <UniqueIdentifier>{4e0a1444-b1d8-45d4-b6a6-a4f36b244d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2100-2199\demo2150">
+      <UniqueIdentifier>{7d3a6f28-c5de-4ec4-9887-25109b02ef40}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1436,6 +1445,12 @@
     </ClCompile>
     <ClCompile Include="899.有序队列.cpp">
       <Filter>源文件\0800-0899\demo899</Filter>
+    </ClCompile>
+    <ClCompile Include="2151. 基于陈述统计最多好人数.cpp">
+      <Filter>源文件\2100-2199\demo2151</Filter>
+    </ClCompile>
+    <ClCompile Include="2150. 找出数组中的所有孤独数字.cpp">
+      <Filter>源文件\2100-2199\demo2150</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
