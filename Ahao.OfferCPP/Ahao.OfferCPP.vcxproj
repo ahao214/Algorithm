@@ -179,6 +179,7 @@
     <ClCompile Include="offer 47 礼物的最大价值.cpp" />
     <ClCompile Include="offer 48 最长不含重复字符的子字符串.cpp" />
     <ClCompile Include="offer 49 丑数.cpp" />
+    <ClCompile Include="offer 5 替换空格.cpp" />
     <ClCompile Include="offer 50 第一个只出现一次的字符.cpp" />
     <ClCompile Include="offer 51 数组中的逆序对.cpp" />
     <ClCompile Include="offer 52 两个链表的第一个公共结点.cpp" />
