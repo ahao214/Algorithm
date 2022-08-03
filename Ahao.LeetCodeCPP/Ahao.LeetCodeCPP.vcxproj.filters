@@ -796,6 +796,9 @@
     <Filter Include="源文件\2100-2199\demo2148">
       <UniqueIdentifier>{4e43d96c-3a19-454d-beff-577c21c53e43}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1537">
+      <UniqueIdentifier>{443506f5-4394-4537-8f82-b7b56b088cbf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1463,6 +1466,9 @@
     </ClCompile>
     <ClCompile Include="2148. 元素计数.cpp">
       <Filter>源文件\2100-2199\demo2148</Filter>
+    </ClCompile>
+    <ClCompile Include="1537. 最大得分.cpp">
+      <Filter>源文件\1500-1599\demo1537</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
