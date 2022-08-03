@@ -169,6 +169,7 @@
     <ClCompile Include="offer 37 序列化二叉树.cpp" />
     <ClCompile Include="offer 38 字符串的排列.cpp" />
     <ClCompile Include="offer 39 数组中出现次数超过一半的数字.cpp" />
+    <ClCompile Include="offer 4 二维数组中的查找.cpp" />
     <ClCompile Include="offer 40 最小的K个数.cpp" />
     <ClCompile Include="offer 41 数据流中的中位数.cpp" />
     <ClCompile Include="offer 42  连续子数组的最大和.cpp" />
