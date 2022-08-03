@@ -793,6 +793,9 @@
     <Filter Include="源文件\2100-2199\demo2149">
       <UniqueIdentifier>{186e8394-7ed8-49eb-a26a-435e1dea3741}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2148">
+      <UniqueIdentifier>{4e43d96c-3a19-454d-beff-577c21c53e43}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1457,6 +1460,9 @@
     </ClCompile>
     <ClCompile Include="2149. 按符号重排数组.cpp">
       <Filter>源文件\2100-2199\demo2149</Filter>
+    </ClCompile>
+    <ClCompile Include="2148. 元素计数.cpp">
+      <Filter>源文件\2100-2199\demo2148</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
