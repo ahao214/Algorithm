@@ -187,6 +187,7 @@
     <ClCompile Include="offer 55 二叉树的深度.cpp" />
     <ClCompile Include="offer 56 数组中只出现一次的两个数字.cpp" />
     <ClCompile Include="offer 57 和为S的两个数字.cpp" />
+    <ClCompile Include="offer 6 从尾到头打印链表.cpp" />
     <ClCompile Include="offer 7 重建二叉树.cpp" />
     <ClCompile Include="offer 75 字符流中第一个不重复的字符.cpp" />
     <ClCompile Include="offer 77 之字形打印二叉树.cpp" />
