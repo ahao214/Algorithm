@@ -799,6 +799,12 @@
     <Filter Include="源文件\1500-1599\demo1537">
       <UniqueIdentifier>{443506f5-4394-4537-8f82-b7b56b088cbf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2200-2299">
+      <UniqueIdentifier>{16bc25fa-baed-4cf4-8c71-83cf8b4854a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2300-2399">
+      <UniqueIdentifier>{70bcfc2e-2139-4cca-89a4-831e09b685eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1469,6 +1475,9 @@
     </ClCompile>
     <ClCompile Include="1537. 最大得分.cpp">
       <Filter>源文件\1500-1599\demo1537</Filter>
+    </ClCompile>
+    <ClCompile Include="198. 打家劫舍.cpp">
+      <Filter>源文件\0100-0199\demo198</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
