@@ -165,6 +165,7 @@
     <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp" />
     <ClCompile Include="14. 最长公共前缀.cpp" />
     <ClCompile Include="1423. 可获得的最大点数.cpp" />
+    <ClCompile Include="1449.数位成本和为目标值的最大数字.cpp" />
     <ClCompile Include="15. 三数之和.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />
     <ClCompile Include="1590. 使数组和能被 P 整除.cpp" />
@@ -196,6 +197,7 @@
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
     <ClCompile Include="188. 买卖股票的最佳时机 IV.cpp" />
     <ClCompile Include="19. 删除链表的倒数第 N 个结点.cpp" />
+    <ClCompile Include="198. 打家劫舍.cpp" />
     <ClCompile Include="2.两数相加.cpp" />
     <ClCompile Include="20. 有效的括号.cpp" />
     <ClCompile Include="2028. 找出缺失的观测数据.cpp" />
