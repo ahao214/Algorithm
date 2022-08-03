@@ -18,5 +18,8 @@
     <ClCompile Include="Ahao.LeetCodeLCPCPP.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LCP 01. 猜数字.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
