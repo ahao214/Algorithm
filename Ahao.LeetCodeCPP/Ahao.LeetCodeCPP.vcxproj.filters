@@ -832,6 +832,9 @@
     <Filter Include="源文件\1900-1999\demo1992">
       <UniqueIdentifier>{8f3f4ac8-f405-4acc-81d1-cf790f898cf8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1991">
+      <UniqueIdentifier>{7fde2d95-f2f1-4692-baf4-6914f293c9aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1529,6 +1532,9 @@
     </ClCompile>
     <ClCompile Include="1992. 找到所有的农场组.cpp">
       <Filter>源文件\1900-1999\demo1992</Filter>
+    </ClCompile>
+    <ClCompile Include="1991. 找到数组的中间位置.cpp">
+      <Filter>源文件\1900-1999\demo1991</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
