@@ -817,6 +817,12 @@
     <Filter Include="源文件\2000-2099\demo2055">
       <UniqueIdentifier>{a54805e8-7ff7-44d9-9c55-d8530d047dec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2000-2099\demo2054">
+      <UniqueIdentifier>{5488201e-4f65-4def-9b84-4a026d4f1f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2000-2099\demo2053">
+      <UniqueIdentifier>{a56e0507-4657-4cd6-9f0a-ae8fdaa294ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1502,6 +1508,12 @@
     </ClCompile>
     <ClCompile Include="2055. 蜡烛之间的盘子.cpp">
       <Filter>源文件\2000-2099\demo2055</Filter>
+    </ClCompile>
+    <ClCompile Include="2054. 两个最好的不重叠活动.cpp">
+      <Filter>源文件\2000-2099\demo2054</Filter>
+    </ClCompile>
+    <ClCompile Include="2053. 数组中第 K 个独一无二的字符串.cpp">
+      <Filter>源文件\2000-2099\demo2053</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
