@@ -808,6 +808,9 @@
     <Filter Include="源文件\1400-1499\demo1449">
       <UniqueIdentifier>{99cc1772-2b55-430b-a1df-0c09a4d00128}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1403">
+      <UniqueIdentifier>{31f0273f-40af-4d20-8f7d-66df38b1bd1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1484,6 +1487,9 @@
     </ClCompile>
     <ClCompile Include="1449.数位成本和为目标值的最大数字.cpp">
       <Filter>源文件\1400-1499\demo1449</Filter>
+    </ClCompile>
+    <ClCompile Include="1403. 非递增顺序的最小子序列.cpp">
+      <Filter>源文件\1400-1499\demo1403</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
