@@ -823,6 +823,15 @@
     <Filter Include="源文件\2000-2099\demo2053">
       <UniqueIdentifier>{a56e0507-4657-4cd6-9f0a-ae8fdaa294ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999">
+      <UniqueIdentifier>{efbe98c0-a721-428d-bf5c-699c81b543a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1900-1999\demo1994">
+      <UniqueIdentifier>{676e05bc-a340-4dad-887f-10e4d04fd761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1900-1999\demo1992">
+      <UniqueIdentifier>{8f3f4ac8-f405-4acc-81d1-cf790f898cf8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1514,6 +1523,12 @@
     </ClCompile>
     <ClCompile Include="2053. 数组中第 K 个独一无二的字符串.cpp">
       <Filter>源文件\2000-2099\demo2053</Filter>
+    </ClCompile>
+    <ClCompile Include="1994. 好子集的数目.cpp">
+      <Filter>源文件\1900-1999\demo1994</Filter>
+    </ClCompile>
+    <ClCompile Include="1992. 找到所有的农场组.cpp">
+      <Filter>源文件\1900-1999\demo1992</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
