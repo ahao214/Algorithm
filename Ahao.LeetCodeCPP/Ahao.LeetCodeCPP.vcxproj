@@ -198,6 +198,7 @@
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
     <ClCompile Include="188. 买卖股票的最佳时机 IV.cpp" />
     <ClCompile Include="19. 删除链表的倒数第 N 个结点.cpp" />
+    <ClCompile Include="1957. 删除字符使字符串变好.cpp" />
     <ClCompile Include="1958. 检查操作是否合法.cpp" />
     <ClCompile Include="1959. K 次调整数组大小浪费的最小总空间.cpp" />
     <ClCompile Include="198. 打家劫舍.cpp" />
@@ -303,6 +304,7 @@
     <ClCompile Include="606. 根据二叉树创建字符串.cpp" />
     <ClCompile Include="61. 旋转链表.cpp" />
     <ClCompile Include="62. 不同路径.cpp" />
+    <ClCompile Include="623. 在二叉树中增加一行.cpp" />
     <ClCompile Include="63. 不同路径 II.cpp" />
     <ClCompile Include="64. 最小路径和.cpp" />
     <ClCompile Include="65. 有效数字.cpp" />

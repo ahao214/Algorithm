@@ -841,6 +841,12 @@
     <Filter Include="源文件\1900-1999\demo1958">
       <UniqueIdentifier>{23eadf5d-0c0b-44e9-b28d-384e3a4b32ff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1957">
+      <UniqueIdentifier>{7d41f029-7e09-4938-9430-8d762f253098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0600-0699\demo623">
+      <UniqueIdentifier>{0757e8ff-48e9-4dbc-a752-3c46eed5423d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1547,6 +1553,12 @@
     </ClCompile>
     <ClCompile Include="1958. 检查操作是否合法.cpp">
       <Filter>源文件\1900-1999\demo1958</Filter>
+    </ClCompile>
+    <ClCompile Include="1957. 删除字符使字符串变好.cpp">
+      <Filter>源文件\1900-1999\demo1957</Filter>
+    </ClCompile>
+    <ClCompile Include="623. 在二叉树中增加一行.cpp">
+      <Filter>源文件\0600-0699\demo623</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
