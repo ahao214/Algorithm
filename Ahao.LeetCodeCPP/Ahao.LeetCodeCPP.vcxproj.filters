@@ -856,6 +856,9 @@
     <Filter Include="源文件\1900-1999\demo1926">
       <UniqueIdentifier>{cd3e1e4f-ccbb-40a8-9bf9-5cfc8c69e4a9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1925">
+      <UniqueIdentifier>{838a64a0-4393-4786-b15e-b9a414012c32}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1577,6 +1580,9 @@
     </ClCompile>
     <ClCompile Include="1926. 迷宫中离入口最近的出口.cpp">
       <Filter>源文件\1900-1999\demo1926</Filter>
+    </ClCompile>
+    <ClCompile Include="1925. 统计平方和三元组的数目.cpp">
+      <Filter>源文件\1900-1999\demo1925</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
