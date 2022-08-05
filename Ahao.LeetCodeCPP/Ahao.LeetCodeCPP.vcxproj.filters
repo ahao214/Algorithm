@@ -862,6 +862,9 @@
     <Filter Include="源文件\1900-1999\demo1911">
       <UniqueIdentifier>{37d4a427-b3f5-4a37-8b1e-7bf3ae92be24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1910">
+      <UniqueIdentifier>{249ccf20-9f8c-4e53-8471-e2d6310a015f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1589,6 +1592,9 @@
     </ClCompile>
     <ClCompile Include="1911. 最大子序列交替和.cpp">
       <Filter>源文件\1900-1999\demo1911</Filter>
+    </ClCompile>
+    <ClCompile Include="1910. 删除一个字符串中所有出现的给定子字符串.cpp">
+      <Filter>源文件\1900-1999\demo1910</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
