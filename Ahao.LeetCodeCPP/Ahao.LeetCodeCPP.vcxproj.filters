@@ -850,6 +850,9 @@
     <Filter Include="源文件\1900-1999\demo1928">
       <UniqueIdentifier>{12cb3725-7f74-4de9-b194-5e68a9a2ed8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1927">
+      <UniqueIdentifier>{137e493b-e850-4313-bc57-c40718b8a264}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1565,6 +1568,9 @@
     </ClCompile>
     <ClCompile Include="1928. 规定时间内到达终点的最小花费.cpp">
       <Filter>源文件\1900-1999\demo1928</Filter>
+    </ClCompile>
+    <ClCompile Include="1927. 求和游戏.cpp">
+      <Filter>源文件\1900-1999\demo1927</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

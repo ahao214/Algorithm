@@ -198,6 +198,7 @@
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
     <ClCompile Include="188. 买卖股票的最佳时机 IV.cpp" />
     <ClCompile Include="19. 删除链表的倒数第 N 个结点.cpp" />
+    <ClCompile Include="1927. 求和游戏.cpp" />
     <ClCompile Include="1928. 规定时间内到达终点的最小花费.cpp" />
     <ClCompile Include="1957. 删除字符使字符串变好.cpp" />
     <ClCompile Include="1958. 检查操作是否合法.cpp" />
