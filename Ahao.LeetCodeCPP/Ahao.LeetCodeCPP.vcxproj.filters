@@ -853,6 +853,9 @@
     <Filter Include="源文件\1900-1999\demo1927">
       <UniqueIdentifier>{137e493b-e850-4313-bc57-c40718b8a264}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1926">
+      <UniqueIdentifier>{cd3e1e4f-ccbb-40a8-9bf9-5cfc8c69e4a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1571,6 +1574,9 @@
     </ClCompile>
     <ClCompile Include="1927. 求和游戏.cpp">
       <Filter>源文件\1900-1999\demo1927</Filter>
+    </ClCompile>
+    <ClCompile Include="1926. 迷宫中离入口最近的出口.cpp">
+      <Filter>源文件\1900-1999\demo1926</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
