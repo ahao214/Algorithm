@@ -847,6 +847,9 @@
     <Filter Include="源文件\0600-0699\demo623">
       <UniqueIdentifier>{0757e8ff-48e9-4dbc-a752-3c46eed5423d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1928">
+      <UniqueIdentifier>{12cb3725-7f74-4de9-b194-5e68a9a2ed8e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1559,6 +1562,9 @@
     </ClCompile>
     <ClCompile Include="623. 在二叉树中增加一行.cpp">
       <Filter>源文件\0600-0699\demo623</Filter>
+    </ClCompile>
+    <ClCompile Include="1928. 规定时间内到达终点的最小花费.cpp">
+      <Filter>源文件\1900-1999\demo1928</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
