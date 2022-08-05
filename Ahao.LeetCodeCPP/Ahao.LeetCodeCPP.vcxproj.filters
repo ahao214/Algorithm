@@ -868,6 +868,9 @@
     <Filter Include="源文件\1900-1999\demo1909">
       <UniqueIdentifier>{e81e8cb6-6b3c-4902-be82-da4b636ac6d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1408">
+      <UniqueIdentifier>{7299892a-9004-4275-a61b-1cbab762b674}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1601,6 +1604,9 @@
     </ClCompile>
     <ClCompile Include="1909. 删除一个元素使数组严格递增.cpp">
       <Filter>源文件\1900-1999\demo1909</Filter>
+    </ClCompile>
+    <ClCompile Include="1408. 数组中的字符串匹配.cpp">
+      <Filter>源文件\1400-1499\demo1408</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
