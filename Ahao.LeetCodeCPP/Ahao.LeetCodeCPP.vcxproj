@@ -198,6 +198,7 @@
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
     <ClCompile Include="188. 买卖股票的最佳时机 IV.cpp" />
     <ClCompile Include="19. 删除链表的倒数第 N 个结点.cpp" />
+    <ClCompile Include="1911. 最大子序列交替和.cpp" />
     <ClCompile Include="1925. 统计平方和三元组的数目.cpp" />
     <ClCompile Include="1926. 迷宫中离入口最近的出口.cpp" />
     <ClCompile Include="1927. 求和游戏.cpp" />
