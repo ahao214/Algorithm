@@ -871,6 +871,12 @@
     <Filter Include="源文件\1400-1499\demo1408">
       <UniqueIdentifier>{7299892a-9004-4275-a61b-1cbab762b674}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1916">
+      <UniqueIdentifier>{2076a9aa-9117-429d-b12f-04756eb81d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1900-1999\demo1915">
+      <UniqueIdentifier>{8926a0ec-73f4-4599-9ff3-dfe96443043f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1607,6 +1613,12 @@
     </ClCompile>
     <ClCompile Include="1408. 数组中的字符串匹配.cpp">
       <Filter>源文件\1400-1499\demo1408</Filter>
+    </ClCompile>
+    <ClCompile Include="1916. 统计为蚁群构筑房间的不同顺序.cpp">
+      <Filter>源文件\1900-1999\demo1916</Filter>
+    </ClCompile>
+    <ClCompile Include="1915. 最美子字符串的数目.cpp">
+      <Filter>源文件\1900-1999\demo1915</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
