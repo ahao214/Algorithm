@@ -880,6 +880,9 @@
     <Filter Include="源文件\1900-1999\demo1914">
       <UniqueIdentifier>{3457061f-ef97-4173-abda-4c8f31c9fb03}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1913">
+      <UniqueIdentifier>{c53bb96e-130a-4cf2-969a-450e813662ee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1625,6 +1628,9 @@
     </ClCompile>
     <ClCompile Include="1914. 循环轮转矩阵.cpp">
       <Filter>源文件\1900-1999\demo1914</Filter>
+    </ClCompile>
+    <ClCompile Include="1913. 两个数对之间的最大乘积差.cpp">
+      <Filter>源文件\1900-1999\demo1913</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
