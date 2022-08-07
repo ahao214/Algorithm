@@ -202,6 +202,7 @@
     <ClCompile Include="1909. 删除一个元素使数组严格递增.cpp" />
     <ClCompile Include="1910. 删除一个字符串中所有出现的给定子字符串.cpp" />
     <ClCompile Include="1911. 最大子序列交替和.cpp" />
+    <ClCompile Include="1914. 循环轮转矩阵.cpp" />
     <ClCompile Include="1915. 最美子字符串的数目.cpp" />
     <ClCompile Include="1916. 统计为蚁群构筑房间的不同顺序.cpp" />
     <ClCompile Include="1925. 统计平方和三元组的数目.cpp" />

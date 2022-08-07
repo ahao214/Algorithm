@@ -877,6 +877,9 @@
     <Filter Include="源文件\1900-1999\demo1915">
       <UniqueIdentifier>{8926a0ec-73f4-4599-9ff3-dfe96443043f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1914">
+      <UniqueIdentifier>{3457061f-ef97-4173-abda-4c8f31c9fb03}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1619,6 +1622,9 @@
     </ClCompile>
     <ClCompile Include="1915. 最美子字符串的数目.cpp">
       <Filter>源文件\1900-1999\demo1915</Filter>
+    </ClCompile>
+    <ClCompile Include="1914. 循环轮转矩阵.cpp">
+      <Filter>源文件\1900-1999\demo1914</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
