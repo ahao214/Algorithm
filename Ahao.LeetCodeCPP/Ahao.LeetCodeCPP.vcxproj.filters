@@ -922,6 +922,9 @@
     <Filter Include="源文件\1800-1899\demo1889">
       <UniqueIdentifier>{d8141eb3-2483-4ce8-9676-e35ae87a555a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1888">
+      <UniqueIdentifier>{f4fe4f0f-8b03-44c0-b6b7-c592af602919}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1709,6 +1712,9 @@
     </ClCompile>
     <ClCompile Include="1889. 装包裹的最小浪费空间.cpp">
       <Filter>源文件\1800-1899\demo1889</Filter>
+    </ClCompile>
+    <ClCompile Include="1888. 使二进制字符串字符交替的最少反转次数.cpp">
+      <Filter>源文件\1800-1899\demo1888</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
