@@ -889,6 +889,12 @@
     <Filter Include="源文件\1900-1999\demo1905">
       <UniqueIdentifier>{f2c58f61-0214-4377-bba1-26aefc88c515}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1904">
+      <UniqueIdentifier>{2cf36993-d33a-4c40-9153-98262919360b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1900-1999\demo1903">
+      <UniqueIdentifier>{e769054f-57b2-432b-ad46-e2915eb6a1db}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1643,6 +1649,12 @@
     </ClCompile>
     <ClCompile Include="1905. 统计子岛屿.cpp">
       <Filter>源文件\1900-1999\demo1905</Filter>
+    </ClCompile>
+    <ClCompile Include="1904. 你完成的完整对局数.cpp">
+      <Filter>源文件\1900-1999\demo1904</Filter>
+    </ClCompile>
+    <ClCompile Include="1903. 字符串中的最大奇数.cpp">
+      <Filter>源文件\1900-1999\demo1903</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
