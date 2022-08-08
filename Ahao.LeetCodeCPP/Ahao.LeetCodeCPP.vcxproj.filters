@@ -910,6 +910,9 @@
     <Filter Include="源文件\1800-1899\demo1897">
       <UniqueIdentifier>{457c32ae-1281-4098-8173-2c99dd3fd42b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1895">
+      <UniqueIdentifier>{73587f45-6c94-4a5b-8e3e-e3bf08d422df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1685,6 +1688,9 @@
     </ClCompile>
     <ClCompile Include="1897. 重新分配字符使所有字符串都相等.cpp">
       <Filter>源文件\1800-1899\demo1897</Filter>
+    </ClCompile>
+    <ClCompile Include="1895. 最大的幻方.cpp">
+      <Filter>源文件\1800-1899\demo1895</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
