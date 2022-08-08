@@ -895,6 +895,9 @@
     <Filter Include="源文件\1900-1999\demo1903">
       <UniqueIdentifier>{e769054f-57b2-432b-ad46-e2915eb6a1db}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo761">
+      <UniqueIdentifier>{780aa2f3-5f0f-439b-86f1-169db40bf147}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1655,6 +1658,9 @@
     </ClCompile>
     <ClCompile Include="1903. 字符串中的最大奇数.cpp">
       <Filter>源文件\1900-1999\demo1903</Filter>
+    </ClCompile>
+    <ClCompile Include="761. 特殊的二进制序列.cpp">
+      <Filter>源文件\0700-0799\demo761</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
