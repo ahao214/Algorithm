@@ -925,6 +925,9 @@
     <Filter Include="源文件\1800-1899\demo1888">
       <UniqueIdentifier>{f4fe4f0f-8b03-44c0-b6b7-c592af602919}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1887">
+      <UniqueIdentifier>{1420af7a-b2e1-4c7a-92bf-18b70cfd08c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1715,6 +1718,9 @@
     </ClCompile>
     <ClCompile Include="1888. 使二进制字符串字符交替的最少反转次数.cpp">
       <Filter>源文件\1800-1899\demo1888</Filter>
+    </ClCompile>
+    <ClCompile Include="1887. 使数组元素相等的减少操作次数.cpp">
+      <Filter>源文件\1800-1899\demo1887</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
