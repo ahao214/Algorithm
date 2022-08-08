@@ -913,6 +913,12 @@
     <Filter Include="源文件\1800-1899\demo1895">
       <UniqueIdentifier>{73587f45-6c94-4a5b-8e3e-e3bf08d422df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1894">
+      <UniqueIdentifier>{e27c0b12-0320-493a-ad48-8ccde0e86bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1800-1899\demo1893">
+      <UniqueIdentifier>{f6e7ab61-dece-42f6-8d33-14206de5267f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1691,6 +1697,12 @@
     </ClCompile>
     <ClCompile Include="1895. 最大的幻方.cpp">
       <Filter>源文件\1800-1899\demo1895</Filter>
+    </ClCompile>
+    <ClCompile Include="1894. 找到需要补充粉笔的学生编号.cpp">
+      <Filter>源文件\1800-1899\demo1894</Filter>
+    </ClCompile>
+    <ClCompile Include="1893. 检查是否区域内所有整数都被覆盖.cpp">
+      <Filter>源文件\1800-1899\demo1893</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
