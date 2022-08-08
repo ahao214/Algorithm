@@ -898,6 +898,9 @@
     <Filter Include="源文件\0700-0799\demo761">
       <UniqueIdentifier>{780aa2f3-5f0f-439b-86f1-169db40bf147}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1900-1999\demo1900">
+      <UniqueIdentifier>{aaa37379-d879-4c73-b42c-8e3463cde658}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1661,6 +1664,9 @@
     </ClCompile>
     <ClCompile Include="761. 特殊的二进制序列.cpp">
       <Filter>源文件\0700-0799\demo761</Filter>
+    </ClCompile>
+    <ClCompile Include="1900. 最佳运动员的比拼回合.cpp">
+      <Filter>源文件\1900-1999\demo1900</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
