@@ -198,6 +198,7 @@
     <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
     <ClCompile Include="188. 买卖股票的最佳时机 IV.cpp" />
+    <ClCompile Include="1889. 装包裹的最小浪费空间.cpp" />
     <ClCompile Include="1893. 检查是否区域内所有整数都被覆盖.cpp" />
     <ClCompile Include="1894. 找到需要补充粉笔的学生编号.cpp" />
     <ClCompile Include="1895. 最大的幻方.cpp" />

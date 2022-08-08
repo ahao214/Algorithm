@@ -919,6 +919,9 @@
     <Filter Include="源文件\1800-1899\demo1893">
       <UniqueIdentifier>{f6e7ab61-dece-42f6-8d33-14206de5267f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1889">
+      <UniqueIdentifier>{d8141eb3-2483-4ce8-9676-e35ae87a555a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1703,6 +1706,9 @@
     </ClCompile>
     <ClCompile Include="1893. 检查是否区域内所有整数都被覆盖.cpp">
       <Filter>源文件\1800-1899\demo1893</Filter>
+    </ClCompile>
+    <ClCompile Include="1889. 装包裹的最小浪费空间.cpp">
+      <Filter>源文件\1800-1899\demo1889</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
