@@ -198,6 +198,7 @@
     <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
     <ClCompile Include="188. 买卖股票的最佳时机 IV.cpp" />
+    <ClCompile Include="1899. 合并若干三元组以形成目标三元组.cpp" />
     <ClCompile Include="19. 删除链表的倒数第 N 个结点.cpp" />
     <ClCompile Include="1900. 最佳运动员的比拼回合.cpp" />
     <ClCompile Include="1903. 字符串中的最大奇数.cpp" />
