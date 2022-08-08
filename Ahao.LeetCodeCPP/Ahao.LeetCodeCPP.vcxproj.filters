@@ -904,6 +904,12 @@
     <Filter Include="源文件\1800-1899\demo1899">
       <UniqueIdentifier>{06b20a51-4c94-477c-9e5d-8227cfaae409}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1898">
+      <UniqueIdentifier>{d1038140-6a13-493d-b3e6-472f9404b947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1800-1899\demo1897">
+      <UniqueIdentifier>{457c32ae-1281-4098-8173-2c99dd3fd42b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1673,6 +1679,12 @@
     </ClCompile>
     <ClCompile Include="1899. 合并若干三元组以形成目标三元组.cpp">
       <Filter>源文件\1800-1899\demo1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1898. 可移除字符的最大数目.cpp">
+      <Filter>源文件\1800-1899\demo1898</Filter>
+    </ClCompile>
+    <ClCompile Include="1897. 重新分配字符使所有字符串都相等.cpp">
+      <Filter>源文件\1800-1899\demo1897</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
