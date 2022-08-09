@@ -166,6 +166,7 @@
     <ClCompile Include="14. 最长公共前缀.cpp" />
     <ClCompile Include="1403. 非递增顺序的最小子序列.cpp" />
     <ClCompile Include="1408. 数组中的字符串匹配.cpp" />
+    <ClCompile Include="1413. 逐步求和得到正数的最小值.cpp" />
     <ClCompile Include="1423. 可获得的最大点数.cpp" />
     <ClCompile Include="1449.数位成本和为目标值的最大数字.cpp" />
     <ClCompile Include="15. 三数之和.cpp" />
@@ -198,6 +199,7 @@
     <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
     <ClCompile Include="188. 买卖股票的最佳时机 IV.cpp" />
+    <ClCompile Include="1886. 判断矩阵经轮转后是否一致.cpp" />
     <ClCompile Include="1887. 使数组元素相等的减少操作次数.cpp" />
     <ClCompile Include="1888. 使二进制字符串字符交替的最少反转次数.cpp" />
     <ClCompile Include="1889. 装包裹的最小浪费空间.cpp" />

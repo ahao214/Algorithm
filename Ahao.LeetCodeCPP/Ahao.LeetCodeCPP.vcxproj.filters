@@ -928,6 +928,12 @@
     <Filter Include="源文件\1800-1899\demo1887">
       <UniqueIdentifier>{1420af7a-b2e1-4c7a-92bf-18b70cfd08c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1886">
+      <UniqueIdentifier>{df81bad8-dd50-489d-8515-a7a0390d4784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1400-1499\demo1413">
+      <UniqueIdentifier>{60be2fec-0057-4fc4-a5b0-dbdd841b02b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1721,6 +1727,12 @@
     </ClCompile>
     <ClCompile Include="1887. 使数组元素相等的减少操作次数.cpp">
       <Filter>源文件\1800-1899\demo1887</Filter>
+    </ClCompile>
+    <ClCompile Include="1886. 判断矩阵经轮转后是否一致.cpp">
+      <Filter>源文件\1800-1899\demo1886</Filter>
+    </ClCompile>
+    <ClCompile Include="1413. 逐步求和得到正数的最小值.cpp">
+      <Filter>源文件\1400-1499\demo1413</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
