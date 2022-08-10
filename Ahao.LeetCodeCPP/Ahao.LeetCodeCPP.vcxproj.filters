@@ -946,6 +946,12 @@
     <Filter Include="源文件\0600-0699\demo640">
       <UniqueIdentifier>{ba456c8d-5e30-4e78-81f9-d02e9f042d13}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1880">
+      <UniqueIdentifier>{9ebf7714-166e-4824-a832-d2d8d74367e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1800-1899\demo1879">
+      <UniqueIdentifier>{94aa4259-6d61-40c9-b6c2-0a50e72c293b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1757,6 +1763,12 @@
     </ClCompile>
     <ClCompile Include="640. 求解方程.cpp">
       <Filter>源文件\0600-0699\demo640</Filter>
+    </ClCompile>
+    <ClCompile Include="1880. 检查某单词是否等于两单词之和.cpp">
+      <Filter>源文件\1800-1899\demo1880</Filter>
+    </ClCompile>
+    <ClCompile Include="1879. 两个数组最小的异或值之和.cpp">
+      <Filter>源文件\1800-1899\demo1879</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
