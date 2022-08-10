@@ -943,6 +943,9 @@
     <Filter Include="源文件\1800-1899\demo1881">
       <UniqueIdentifier>{d9736636-cb8a-45fd-89a4-b329a7161ee0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0600-0699\demo640">
+      <UniqueIdentifier>{ba456c8d-5e30-4e78-81f9-d02e9f042d13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1751,6 +1754,9 @@
     </ClCompile>
     <ClCompile Include="1881. 插入后的最大值.cpp">
       <Filter>源文件\1800-1899\demo1881</Filter>
+    </ClCompile>
+    <ClCompile Include="640. 求解方程.cpp">
+      <Filter>源文件\0600-0699\demo640</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
