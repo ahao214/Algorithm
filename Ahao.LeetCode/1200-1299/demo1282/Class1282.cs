@@ -38,5 +38,55 @@ namespace Ahao.LeetCode._1200_1299.demo1282
             return groupList;
         }
 
+
+
+        public IList<IList<int>> GroupThePeople2(int[] groupSizes)
+        {
+            IList<IList<int>> list = new List<IList<int>>();
+            Dictionary<int, List<int>> dic = new Dictionary<int, List<int>>();
+            int n = groupSizes.Length;
+            for (int i = 0; i < n; i++)
+            {
+                int size = groupSizes[i];
+                if (dic.ContainsKey(size))
+                    dic[size].Add(i);
+                else
+                    dic.Add(size, new List<int>() { i });
+
+                //分组容量已满，加入集合
+                if (size == dic[size].Count)
+                {
+                    list.Add(dic[size]);
+                    dic.Remove(size);
+                }
+            }
+            return list;
+        }
+
+        public IList<IList<int>> GroupThePeople3(int[] groupSizes)
+        {
+            IList<IList<int>> ilist = new List<IList<int>>();
+            List<int> list = new List<int>();
+            int[] arr = groupSizes.Distinct().ToArray();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                int j = i;
+                while (j < groupSizes.Length)
+                {
+                    if (arr[i] == groupSizes[j])
+                        list.Add(j);
+                    if (list.Count == arr[i] || j == groupSizes.Length - 1 && list.Count > 0)
+                    {
+                        ilist.Add(new List<int>(list));
+                        list.Clear();
+                    }
+                    j++;
+                }
+            }
+            return ilist;
+        }
+
+
+
     }
 }
