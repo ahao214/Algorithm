@@ -958,6 +958,9 @@
     <Filter Include="源文件\1200-1299\demo1282">
       <UniqueIdentifier>{392b8cf1-7725-4bcc-863a-947e29f4cbd1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\NewFilter1">
+      <UniqueIdentifier>{ab6b8284-ed18-4956-8ca7-226b4b307871}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
