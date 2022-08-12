@@ -158,6 +158,7 @@
     <ClCompile Include="1217. 玩筹码.cpp" />
     <ClCompile Include="1252. 奇数值单元格的数目.cpp" />
     <ClCompile Include="1260. 二维网格迁移.cpp" />
+    <ClCompile Include="1282. 用户分组.cpp" />
     <ClCompile Include="13. 罗马数字转整数.cpp" />
     <ClCompile Include="1305. 两棵二叉搜索树中的所有元素.cpp" />
     <ClCompile Include="1331. 数组序号转换.cpp" />

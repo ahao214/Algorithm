@@ -955,6 +955,9 @@
     <Filter Include="源文件\1400-1499\demo1417">
       <UniqueIdentifier>{b0a9988f-46e7-4d4d-b6c1-ca1f4d9d8906}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1200-1299\demo1282">
+      <UniqueIdentifier>{392b8cf1-7725-4bcc-863a-947e29f4cbd1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1775,6 +1778,9 @@
     </ClCompile>
     <ClCompile Include="1417. 重新格式化字符串.cpp">
       <Filter>源文件\1400-1499\demo1417</Filter>
+    </ClCompile>
+    <ClCompile Include="1282. 用户分组.cpp">
+      <Filter>源文件\1200-1299\demo1282</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
