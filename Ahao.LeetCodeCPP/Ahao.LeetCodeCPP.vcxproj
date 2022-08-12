@@ -200,6 +200,7 @@
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
+    <ClCompile Include="1878. 矩阵中最大的三个菱形和.cpp" />
     <ClCompile Include="1879. 两个数组最小的异或值之和.cpp" />
     <ClCompile Include="188. 买卖股票的最佳时机 IV.cpp" />
     <ClCompile Include="1880. 检查某单词是否等于两单词之和.cpp" />
