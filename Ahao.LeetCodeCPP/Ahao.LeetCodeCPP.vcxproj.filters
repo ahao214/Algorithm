@@ -964,6 +964,9 @@
     <Filter Include="源文件\0700-0799\demo768">
       <UniqueIdentifier>{6e4261f8-c4b1-43ca-b417-14854403cd91}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1877">
+      <UniqueIdentifier>{d96b9636-e37b-45b9-b26d-36ab24cfdb6e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1793,6 +1796,9 @@
     </ClCompile>
     <ClCompile Include="768. 最多能完成排序的块 II.cpp">
       <Filter>源文件\0700-0799\demo768</Filter>
+    </ClCompile>
+    <ClCompile Include="1877. 数组中最大数对和的最小值.cpp">
+      <Filter>源文件\1800-1899\demo1877</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
