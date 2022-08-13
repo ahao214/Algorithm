@@ -961,6 +961,9 @@
     <Filter Include="源文件\1800-1899\demo1878">
       <UniqueIdentifier>{ab6b8284-ed18-4956-8ca7-226b4b307871}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo768">
+      <UniqueIdentifier>{6e4261f8-c4b1-43ca-b417-14854403cd91}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1787,6 +1790,9 @@
     </ClCompile>
     <ClCompile Include="1878. 矩阵中最大的三个菱形和.cpp">
       <Filter>源文件\1800-1899\demo1878</Filter>
+    </ClCompile>
+    <ClCompile Include="768. 最多能完成排序的块 II.cpp">
+      <Filter>源文件\0700-0799\demo768</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
