@@ -967,6 +967,9 @@
     <Filter Include="源文件\1800-1899\demo1877">
       <UniqueIdentifier>{d96b9636-e37b-45b9-b26d-36ab24cfdb6e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1876">
+      <UniqueIdentifier>{b41b8066-fc98-425c-bd1e-a62444e8280c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1799,6 +1802,9 @@
     </ClCompile>
     <ClCompile Include="1877. 数组中最大数对和的最小值.cpp">
       <Filter>源文件\1800-1899\demo1877</Filter>
+    </ClCompile>
+    <ClCompile Include="1876. 长度为三且各字符不同的子字符串.cpp">
+      <Filter>源文件\1800-1899\demo1876</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
