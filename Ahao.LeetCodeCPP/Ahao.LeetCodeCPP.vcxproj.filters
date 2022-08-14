@@ -970,6 +970,9 @@
     <Filter Include="源文件\1800-1899\demo1876">
       <UniqueIdentifier>{b41b8066-fc98-425c-bd1e-a62444e8280c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1422">
+      <UniqueIdentifier>{92bc5991-3d80-4740-994e-db297fb1334b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1805,6 +1808,9 @@
     </ClCompile>
     <ClCompile Include="1876. 长度为三且各字符不同的子字符串.cpp">
       <Filter>源文件\1800-1899\demo1876</Filter>
+    </ClCompile>
+    <ClCompile Include="1422. 分割字符串的最大得分.cpp">
+      <Filter>源文件\1400-1499\demo1422</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
