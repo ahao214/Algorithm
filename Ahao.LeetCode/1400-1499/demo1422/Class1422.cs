@@ -10,7 +10,7 @@ namespace Ahao.LeetCode._1400_1499.demo1422
     {
         public int MaxScore(string s)
         {
-            int ans = 0;
+            int res = 0;
             int n = s.Length;
             for (int i = 1; i < n; i++)
             {
@@ -18,20 +18,16 @@ namespace Ahao.LeetCode._1400_1499.demo1422
                 for (int j = 0; j < i; j++)
                 {
                     if (s[j] == '0')
-                    {
                         score++;
-                    }
                 }
                 for (int j = i; j < n; j++)
                 {
                     if (s[j] == '1')
-                    {
                         score++;
-                    }
                 }
-                ans = Math.Max(ans, score);
+                res = Math.Max(res, score);
             }
-            return ans;
+            return res;
         }
 
 
