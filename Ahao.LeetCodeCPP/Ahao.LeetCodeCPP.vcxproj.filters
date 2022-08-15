@@ -982,6 +982,9 @@
     <Filter Include="源文件\1800-1899\demo1870">
       <UniqueIdentifier>{549ca8c7-2839-42cd-96a8-eaadf8f5abf2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1869">
+      <UniqueIdentifier>{1bb9b738-fa4d-41e8-a66a-1ed66686cbb6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1829,6 +1832,9 @@
     </ClCompile>
     <ClCompile Include="1870. 准时到达的列车最小时速.cpp">
       <Filter>源文件\1800-1899\demo1870</Filter>
+    </ClCompile>
+    <ClCompile Include="1869. 哪种连续子字符串更长.cpp">
+      <Filter>源文件\1800-1899\demo1869</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
