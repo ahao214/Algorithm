@@ -201,6 +201,7 @@
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
+    <ClCompile Include="1869. 哪种连续子字符串更长.cpp" />
     <ClCompile Include="1870. 准时到达的列车最小时速.cpp" />
     <ClCompile Include="1871. 跳跃游戏 VII.cpp" />
     <ClCompile Include="1872. 石子游戏 VIII.cpp" />
