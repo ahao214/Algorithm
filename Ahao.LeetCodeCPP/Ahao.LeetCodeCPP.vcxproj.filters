@@ -973,6 +973,9 @@
     <Filter Include="源文件\1400-1499\demo1422">
       <UniqueIdentifier>{92bc5991-3d80-4740-994e-db297fb1334b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1872">
+      <UniqueIdentifier>{e77ea2d2-7916-4d14-8f27-2a78cc098ee9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1811,6 +1814,9 @@
     </ClCompile>
     <ClCompile Include="1422. 分割字符串的最大得分.cpp">
       <Filter>源文件\1400-1499\demo1422</Filter>
+    </ClCompile>
+    <ClCompile Include="1872. 石子游戏 VIII.cpp">
+      <Filter>源文件\1800-1899\demo1872</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
