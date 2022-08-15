@@ -979,6 +979,9 @@
     <Filter Include="源文件\1800-1899\demo1871">
       <UniqueIdentifier>{66da8d3d-2b25-4eec-81f9-91c37f559826}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1870">
+      <UniqueIdentifier>{549ca8c7-2839-42cd-96a8-eaadf8f5abf2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1823,6 +1826,9 @@
     </ClCompile>
     <ClCompile Include="1871. 跳跃游戏 VII.cpp">
       <Filter>源文件\1800-1899\demo1871</Filter>
+    </ClCompile>
+    <ClCompile Include="1870. 准时到达的列车最小时速.cpp">
+      <Filter>源文件\1800-1899\demo1870</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
