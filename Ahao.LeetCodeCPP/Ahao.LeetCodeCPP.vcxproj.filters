@@ -985,6 +985,9 @@
     <Filter Include="源文件\1800-1899\demo1869">
       <UniqueIdentifier>{1bb9b738-fa4d-41e8-a66a-1ed66686cbb6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1866">
+      <UniqueIdentifier>{86c48591-6118-4559-9db8-43e6d9107750}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1835,6 +1838,9 @@
     </ClCompile>
     <ClCompile Include="1869. 哪种连续子字符串更长.cpp">
       <Filter>源文件\1800-1899\demo1869</Filter>
+    </ClCompile>
+    <ClCompile Include="1866. 恰有 K 根木棍可以看到的排列数目.cpp">
+      <Filter>源文件\1800-1899\demo1866</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
