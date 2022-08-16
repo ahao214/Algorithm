@@ -988,6 +988,9 @@
     <Filter Include="源文件\1800-1899\demo1866">
       <UniqueIdentifier>{86c48591-6118-4559-9db8-43e6d9107750}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1865">
+      <UniqueIdentifier>{60edf9b8-c0f2-4b0d-8263-89a550611e6a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1841,6 +1844,9 @@
     </ClCompile>
     <ClCompile Include="1866. 恰有 K 根木棍可以看到的排列数目.cpp">
       <Filter>源文件\1800-1899\demo1866</Filter>
+    </ClCompile>
+    <ClCompile Include="1865. 找出和为指定值的下标对.cpp">
+      <Filter>源文件\1800-1899\demo1865</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
