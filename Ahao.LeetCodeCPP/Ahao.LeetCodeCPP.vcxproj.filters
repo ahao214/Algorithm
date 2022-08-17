@@ -991,6 +991,9 @@
     <Filter Include="源文件\1800-1899\demo1865">
       <UniqueIdentifier>{60edf9b8-c0f2-4b0d-8263-89a550611e6a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1302">
+      <UniqueIdentifier>{003e1f77-d731-4194-b6b8-fc52c7255030}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1847,6 +1850,9 @@
     </ClCompile>
     <ClCompile Include="1865. 找出和为指定值的下标对.cpp">
       <Filter>源文件\1800-1899\demo1865</Filter>
+    </ClCompile>
+    <ClCompile Include="1302. 层数最深叶子节点的和.cpp">
+      <Filter>源文件\1300-1399\demo1302</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
