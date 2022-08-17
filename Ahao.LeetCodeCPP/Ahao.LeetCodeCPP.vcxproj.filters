@@ -994,6 +994,9 @@
     <Filter Include="源文件\1300-1399\demo1302">
       <UniqueIdentifier>{003e1f77-d731-4194-b6b8-fc52c7255030}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1864">
+      <UniqueIdentifier>{42dc8c17-ec40-41e7-9244-0d6494cec32d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1853,6 +1856,9 @@
     </ClCompile>
     <ClCompile Include="1302. 层数最深叶子节点的和.cpp">
       <Filter>源文件\1300-1399\demo1302</Filter>
+    </ClCompile>
+    <ClCompile Include="1864. 构成交替字符串需要的最小交换次数.cpp">
+      <Filter>源文件\1800-1899\demo1864</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

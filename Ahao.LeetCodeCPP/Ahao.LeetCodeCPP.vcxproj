@@ -202,6 +202,7 @@
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
+    <ClCompile Include="1864. 构成交替字符串需要的最小交换次数.cpp" />
     <ClCompile Include="1865. 找出和为指定值的下标对.cpp" />
     <ClCompile Include="1866. 恰有 K 根木棍可以看到的排列数目.cpp" />
     <ClCompile Include="1869. 哪种连续子字符串更长.cpp" />
