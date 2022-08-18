@@ -997,6 +997,9 @@
     <Filter Include="源文件\1800-1899\demo1864">
       <UniqueIdentifier>{42dc8c17-ec40-41e7-9244-0d6494cec32d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1200-1299\demo1224">
+      <UniqueIdentifier>{a6b12b0e-9f0d-4802-b34a-eda12f18dce1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1859,6 +1862,9 @@
     </ClCompile>
     <ClCompile Include="1864. 构成交替字符串需要的最小交换次数.cpp">
       <Filter>源文件\1800-1899\demo1864</Filter>
+    </ClCompile>
+    <ClCompile Include="1224. 最大相等频率.cpp">
+      <Filter>源文件\1200-1299\demo1224</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
