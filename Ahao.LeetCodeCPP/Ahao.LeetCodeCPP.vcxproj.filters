@@ -1009,6 +1009,9 @@
     <Filter Include="源文件\1800-1899\demo1862">
       <UniqueIdentifier>{6bc5029c-19dc-4519-956b-6c01d0f065b1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1861">
+      <UniqueIdentifier>{c3b4e3cb-ae83-42de-8f0f-2f4fc503a992}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1883,6 +1886,9 @@
     </ClCompile>
     <ClCompile Include="1862. 向下取整数对和.cpp">
       <Filter>源文件\1800-1899\demo1862</Filter>
+    </ClCompile>
+    <ClCompile Include="1861. 旋转盒子.cpp">
+      <Filter>源文件\1800-1899\demo1861</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
