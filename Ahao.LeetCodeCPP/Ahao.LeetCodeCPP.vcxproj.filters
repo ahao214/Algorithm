@@ -1015,6 +1015,9 @@
     <Filter Include="源文件\1800-1899\demo1860">
       <UniqueIdentifier>{43f053cb-60ad-4bb8-8611-81a73e2d8cda}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1859">
+      <UniqueIdentifier>{214ab1f2-8521-4643-8d38-849a028d9824}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1895,6 +1898,9 @@
     </ClCompile>
     <ClCompile Include="1860. 增长的内存泄露.cpp">
       <Filter>源文件\1800-1899\demo1860</Filter>
+    </ClCompile>
+    <ClCompile Include="1859. 将句子排序.cpp">
+      <Filter>源文件\1800-1899\demo1859</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
