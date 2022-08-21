@@ -1012,6 +1012,9 @@
     <Filter Include="源文件\1800-1899\demo1861">
       <UniqueIdentifier>{c3b4e3cb-ae83-42de-8f0f-2f4fc503a992}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1860">
+      <UniqueIdentifier>{43f053cb-60ad-4bb8-8611-81a73e2d8cda}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1889,6 +1892,9 @@
     </ClCompile>
     <ClCompile Include="1861. 旋转盒子.cpp">
       <Filter>源文件\1800-1899\demo1861</Filter>
+    </ClCompile>
+    <ClCompile Include="1860. 增长的内存泄露.cpp">
+      <Filter>源文件\1800-1899\demo1860</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

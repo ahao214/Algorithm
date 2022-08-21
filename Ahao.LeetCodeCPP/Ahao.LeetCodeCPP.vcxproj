@@ -204,6 +204,7 @@
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
+    <ClCompile Include="1860. 增长的内存泄露.cpp" />
     <ClCompile Include="1861. 旋转盒子.cpp" />
     <ClCompile Include="1862. 向下取整数对和.cpp" />
     <ClCompile Include="1863. 找出所有子集的异或总和再求和.cpp" />
