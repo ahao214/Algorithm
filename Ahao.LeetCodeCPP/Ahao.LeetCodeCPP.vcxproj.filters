@@ -1018,6 +1018,9 @@
     <Filter Include="源文件\1800-1899\demo1859">
       <UniqueIdentifier>{214ab1f2-8521-4643-8d38-849a028d9824}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1857">
+      <UniqueIdentifier>{42d25199-4f29-4ad9-9b86-0f8ff64d8b81}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1901,6 +1904,9 @@
     </ClCompile>
     <ClCompile Include="1859. 将句子排序.cpp">
       <Filter>源文件\1800-1899\demo1859</Filter>
+    </ClCompile>
+    <ClCompile Include="1857. 有向图中最大颜色值.cpp">
+      <Filter>源文件\1800-1899\demo1857</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
