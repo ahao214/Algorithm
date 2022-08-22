@@ -1021,6 +1021,9 @@
     <Filter Include="源文件\1800-1899\demo1857">
       <UniqueIdentifier>{42d25199-4f29-4ad9-9b86-0f8ff64d8b81}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1856">
+      <UniqueIdentifier>{01965ecb-c74c-4ce0-8275-9fe61040b26e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1907,6 +1910,9 @@
     </ClCompile>
     <ClCompile Include="1857. 有向图中最大颜色值.cpp">
       <Filter>源文件\1800-1899\demo1857</Filter>
+    </ClCompile>
+    <ClCompile Include="1856. 子数组最小乘积的最大值.cpp">
+      <Filter>源文件\1800-1899\demo1856</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
