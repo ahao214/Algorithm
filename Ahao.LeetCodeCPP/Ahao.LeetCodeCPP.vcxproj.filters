@@ -1024,6 +1024,9 @@
     <Filter Include="源文件\1800-1899\demo1856">
       <UniqueIdentifier>{01965ecb-c74c-4ce0-8275-9fe61040b26e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo782">
+      <UniqueIdentifier>{718550dd-4df1-418f-80c8-38c4bc99b7ac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1913,6 +1916,9 @@
     </ClCompile>
     <ClCompile Include="1856. 子数组最小乘积的最大值.cpp">
       <Filter>源文件\1800-1899\demo1856</Filter>
+    </ClCompile>
+    <ClCompile Include="782. 变为棋盘.cpp">
+      <Filter>源文件\0700-0799\demo782</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
