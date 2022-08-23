@@ -204,6 +204,7 @@
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
+    <ClCompile Include="1854. 人口最多的年份.cpp" />
     <ClCompile Include="1856. 子数组最小乘积的最大值.cpp" />
     <ClCompile Include="1857. 有向图中最大颜色值.cpp" />
     <ClCompile Include="1859. 将句子排序.cpp" />

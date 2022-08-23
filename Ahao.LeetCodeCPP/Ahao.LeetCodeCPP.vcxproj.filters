@@ -1027,6 +1027,9 @@
     <Filter Include="源文件\0700-0799\demo782">
       <UniqueIdentifier>{718550dd-4df1-418f-80c8-38c4bc99b7ac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1854">
+      <UniqueIdentifier>{d9481d2c-201b-427e-8b76-6dd289053610}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1919,6 +1922,9 @@
     </ClCompile>
     <ClCompile Include="782. 变为棋盘.cpp">
       <Filter>源文件\0700-0799\demo782</Filter>
+    </ClCompile>
+    <ClCompile Include="1854. 人口最多的年份.cpp">
+      <Filter>源文件\1800-1899\demo1854</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
