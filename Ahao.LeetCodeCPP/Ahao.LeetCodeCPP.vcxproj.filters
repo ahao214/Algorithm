@@ -1036,6 +1036,9 @@
     <Filter Include="源文件\1800-1899\demo1851">
       <UniqueIdentifier>{941dfe6a-8b2b-4674-b213-f0f07f77d0bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1850">
+      <UniqueIdentifier>{e96ec69c-dda4-4c9c-a067-46473c4bc407}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1937,6 +1940,9 @@
     </ClCompile>
     <ClCompile Include="1851. 包含每个查询的最小区间.cpp">
       <Filter>源文件\1800-1899\demo1851</Filter>
+    </ClCompile>
+    <ClCompile Include="1850. 邻位交换的最小次数.cpp">
+      <Filter>源文件\1800-1899\demo1850</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
