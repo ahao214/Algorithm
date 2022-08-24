@@ -204,6 +204,7 @@
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
+    <ClCompile Include="1851. 包含每个查询的最小区间.cpp" />
     <ClCompile Include="1854. 人口最多的年份.cpp" />
     <ClCompile Include="1855. 下标对中的最大距离.cpp" />
     <ClCompile Include="1856. 子数组最小乘积的最大值.cpp" />
