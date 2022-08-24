@@ -1039,6 +1039,9 @@
     <Filter Include="源文件\1800-1899\demo1850">
       <UniqueIdentifier>{e96ec69c-dda4-4c9c-a067-46473c4bc407}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1849">
+      <UniqueIdentifier>{9ec3f061-1ff1-47a9-b4c9-f4025062e8ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1943,6 +1946,9 @@
     </ClCompile>
     <ClCompile Include="1850. 邻位交换的最小次数.cpp">
       <Filter>源文件\1800-1899\demo1850</Filter>
+    </ClCompile>
+    <ClCompile Include="1849. 将字符串拆分为递减的连续值.cpp">
+      <Filter>源文件\1800-1899\demo1849</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
