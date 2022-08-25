@@ -1042,6 +1042,9 @@
     <Filter Include="源文件\1800-1899\demo1849">
       <UniqueIdentifier>{9ec3f061-1ff1-47a9-b4c9-f4025062e8ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1848">
+      <UniqueIdentifier>{8d5d0bde-e71c-449b-ad7b-ba2757ad7aef}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1949,6 +1952,9 @@
     </ClCompile>
     <ClCompile Include="1849. 将字符串拆分为递减的连续值.cpp">
       <Filter>源文件\1800-1899\demo1849</Filter>
+    </ClCompile>
+    <ClCompile Include="1848. 到目标元素的最小距离.cpp">
+      <Filter>源文件\1800-1899\demo1848</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
