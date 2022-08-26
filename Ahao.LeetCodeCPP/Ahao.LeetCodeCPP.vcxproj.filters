@@ -1045,6 +1045,9 @@
     <Filter Include="源文件\1800-1899\demo1848">
       <UniqueIdentifier>{8d5d0bde-e71c-449b-ad7b-ba2757ad7aef}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1847">
+      <UniqueIdentifier>{1f7eb962-7325-4fc9-ae02-04d40ceab7d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1955,6 +1958,9 @@
     </ClCompile>
     <ClCompile Include="1848. 到目标元素的最小距离.cpp">
       <Filter>源文件\1800-1899\demo1848</Filter>
+    </ClCompile>
+    <ClCompile Include="1847. 最近的房间.cpp">
+      <Filter>源文件\1800-1899\demo1847</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
