@@ -1051,6 +1051,9 @@
     <Filter Include="源文件\1400-1499\demo1464">
       <UniqueIdentifier>{9061048d-7d6c-4bf2-bc1c-01514cbbe0a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1846">
+      <UniqueIdentifier>{82b57434-2113-480f-94d6-dd60211bd4b3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1967,6 +1970,9 @@
     </ClCompile>
     <ClCompile Include="1464. 数组中两元素的最大乘积.cpp">
       <Filter>源文件\1400-1499\demo1464</Filter>
+    </ClCompile>
+    <ClCompile Include="1846. 减小和重新排列数组后的最大元素.cpp">
+      <Filter>源文件\1800-1899\demo1846</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

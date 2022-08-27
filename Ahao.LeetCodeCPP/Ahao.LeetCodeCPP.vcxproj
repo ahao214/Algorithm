@@ -205,6 +205,7 @@
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
+    <ClCompile Include="1846. 减小和重新排列数组后的最大元素.cpp" />
     <ClCompile Include="1847. 最近的房间.cpp" />
     <ClCompile Include="1848. 到目标元素的最小距离.cpp" />
     <ClCompile Include="1849. 将字符串拆分为递减的连续值.cpp" />
