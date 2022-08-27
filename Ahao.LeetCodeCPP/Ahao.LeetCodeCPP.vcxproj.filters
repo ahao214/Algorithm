@@ -1054,6 +1054,12 @@
     <Filter Include="源文件\1800-1899\demo1846">
       <UniqueIdentifier>{82b57434-2113-480f-94d6-dd60211bd4b3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1845">
+      <UniqueIdentifier>{0bc7e831-d1c1-40b0-aaed-e66a38e484f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1800-1899\demo1844">
+      <UniqueIdentifier>{a123ebda-b5a4-4ad9-8f66-97f367dadddc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1973,6 +1979,12 @@
     </ClCompile>
     <ClCompile Include="1846. 减小和重新排列数组后的最大元素.cpp">
       <Filter>源文件\1800-1899\demo1846</Filter>
+    </ClCompile>
+    <ClCompile Include="1845. 座位预约管理系统.cpp">
+      <Filter>源文件\1800-1899\demo1845</Filter>
+    </ClCompile>
+    <ClCompile Include="1844. 将所有数字用字符替换.cpp">
+      <Filter>源文件\1800-1899\demo1844</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
