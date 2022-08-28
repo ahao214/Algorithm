@@ -413,6 +413,7 @@
     <ClCompile Include="780. 到达终点.cpp" />
     <ClCompile Include="782. 变为棋盘.cpp" />
     <ClCompile Include="79. 单词搜索.cpp" />
+    <ClCompile Include="793. 阶乘函数后 K 个零.cpp" />
     <ClCompile Include="796. 旋转字符串.cpp" />
     <ClCompile Include="8. 字符串转换整数 (atoi).cpp" />
     <ClCompile Include="80. 删除有序数组中的重复项 II.cpp" />

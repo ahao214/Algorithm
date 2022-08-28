@@ -1060,6 +1060,9 @@
     <Filter Include="源文件\1800-1899\demo1844">
       <UniqueIdentifier>{a123ebda-b5a4-4ad9-8f66-97f367dadddc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo793">
+      <UniqueIdentifier>{8982e5a5-6c7c-49f8-9265-f732cf0e939f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1985,6 +1988,9 @@
     </ClCompile>
     <ClCompile Include="1844. 将所有数字用字符替换.cpp">
       <Filter>源文件\1800-1899\demo1844</Filter>
+    </ClCompile>
+    <ClCompile Include="793. 阶乘函数后 K 个零.cpp">
+      <Filter>源文件\0700-0799\demo793</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
