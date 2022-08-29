@@ -1063,6 +1063,9 @@
     <Filter Include="源文件\0700-0799\demo793">
       <UniqueIdentifier>{8982e5a5-6c7c-49f8-9265-f732cf0e939f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1470">
+      <UniqueIdentifier>{77fdece1-e839-4701-b828-1043fc182eb0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1991,6 +1994,9 @@
     </ClCompile>
     <ClCompile Include="793. 阶乘函数后 K 个零.cpp">
       <Filter>源文件\0700-0799\demo793</Filter>
+    </ClCompile>
+    <ClCompile Include="1470. 重新排列数组.cpp">
+      <Filter>源文件\1400-1499\demo1470</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
