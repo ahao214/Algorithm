@@ -1066,6 +1066,9 @@
     <Filter Include="源文件\1400-1499\demo1470">
       <UniqueIdentifier>{77fdece1-e839-4701-b828-1043fc182eb0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo998">
+      <UniqueIdentifier>{ff28803b-ee1d-40dc-9290-6a062cc43081}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -1997,6 +2000,9 @@
     </ClCompile>
     <ClCompile Include="1470. 重新排列数组.cpp">
       <Filter>源文件\1400-1499\demo1470</Filter>
+    </ClCompile>
+    <ClCompile Include="998. 最大二叉树 II.cpp">
+      <Filter>源文件\0900-0999\demo998</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

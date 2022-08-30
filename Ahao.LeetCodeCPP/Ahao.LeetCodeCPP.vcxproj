@@ -448,6 +448,7 @@
     <ClCompile Include="954. 二倍数对数组.cpp" />
     <ClCompile Include="961. 在长度 2N 的数组中找出重复 N 次的元素.cpp" />
     <ClCompile Include="965. 单值二叉树.cpp" />
+    <ClCompile Include="998. 最大二叉树 II.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
   </ItemGroup>
   <ItemGroup>
