@@ -1069,6 +1069,9 @@
     <Filter Include="源文件\0900-0999\demo998">
       <UniqueIdentifier>{ff28803b-ee1d-40dc-9290-6a062cc43081}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1840">
+      <UniqueIdentifier>{f824caa3-6a1a-4754-8042-2a2b0e161993}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2003,6 +2006,9 @@
     </ClCompile>
     <ClCompile Include="998. 最大二叉树 II.cpp">
       <Filter>源文件\0900-0999\demo998</Filter>
+    </ClCompile>
+    <ClCompile Include="1840. 最高建筑高度.cpp">
+      <Filter>源文件\1800-1899\demo1840</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
