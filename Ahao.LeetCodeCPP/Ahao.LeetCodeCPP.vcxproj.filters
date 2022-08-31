@@ -1075,6 +1075,9 @@
     <Filter Include="源文件\1800-1899\demo1839">
       <UniqueIdentifier>{b6e55433-8ba0-44ff-bafd-f66a47b29081}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1838">
+      <UniqueIdentifier>{8640d095-141e-4903-bde2-de578fa4214f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2015,6 +2018,9 @@
     </ClCompile>
     <ClCompile Include="1839. 所有元音按顺序排布的最长子字符串.cpp">
       <Filter>源文件\1800-1899\demo1839</Filter>
+    </ClCompile>
+    <ClCompile Include="1838. 最高频元素的频数.cpp">
+      <Filter>源文件\1800-1899\demo1838</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
