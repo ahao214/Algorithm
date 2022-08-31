@@ -1078,6 +1078,9 @@
     <Filter Include="源文件\1800-1899\demo1838">
       <UniqueIdentifier>{8640d095-141e-4903-bde2-de578fa4214f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1837">
+      <UniqueIdentifier>{2cf4af9b-f547-418e-933d-3bd378d7a862}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2021,6 +2024,9 @@
     </ClCompile>
     <ClCompile Include="1838. 最高频元素的频数.cpp">
       <Filter>源文件\1800-1899\demo1838</Filter>
+    </ClCompile>
+    <ClCompile Include="1837. K 进制表示下的各位数字总和.cpp">
+      <Filter>源文件\1800-1899\demo1837</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
