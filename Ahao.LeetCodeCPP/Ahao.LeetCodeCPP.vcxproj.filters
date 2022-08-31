@@ -1072,6 +1072,9 @@
     <Filter Include="源文件\1800-1899\demo1840">
       <UniqueIdentifier>{f824caa3-6a1a-4754-8042-2a2b0e161993}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1839">
+      <UniqueIdentifier>{b6e55433-8ba0-44ff-bafd-f66a47b29081}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2009,6 +2012,9 @@
     </ClCompile>
     <ClCompile Include="1840. 最高建筑高度.cpp">
       <Filter>源文件\1800-1899\demo1840</Filter>
+    </ClCompile>
+    <ClCompile Include="1839. 所有元音按顺序排布的最长子字符串.cpp">
+      <Filter>源文件\1800-1899\demo1839</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
