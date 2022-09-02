@@ -1081,6 +1081,9 @@
     <Filter Include="源文件\1800-1899\demo1837">
       <UniqueIdentifier>{2cf4af9b-f547-418e-933d-3bd378d7a862}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1824">
+      <UniqueIdentifier>{c621224f-eac4-4bf2-af36-17148a001f37}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2027,6 +2030,9 @@
     </ClCompile>
     <ClCompile Include="1837. K 进制表示下的各位数字总和.cpp">
       <Filter>源文件\1800-1899\demo1837</Filter>
+    </ClCompile>
+    <ClCompile Include="1824. 最少侧跳次数.cpp">
+      <Filter>源文件\1800-1899\demo1824</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

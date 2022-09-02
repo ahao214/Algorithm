@@ -206,6 +206,7 @@
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="18. 四数之和.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
+    <ClCompile Include="1824. 最少侧跳次数.cpp" />
     <ClCompile Include="1837. K 进制表示下的各位数字总和.cpp" />
     <ClCompile Include="1838. 最高频元素的频数.cpp" />
     <ClCompile Include="1839. 所有元音按顺序排布的最长子字符串.cpp" />
