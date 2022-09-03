@@ -142,6 +142,7 @@
     <ClCompile Include="Ahao.AlgorithmCompetition.cpp" />
     <ClCompile Include="half2.cpp" />
     <ClCompile Include="halfcpp.cpp" />
+    <ClCompile Include="rob.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
