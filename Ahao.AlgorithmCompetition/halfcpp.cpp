@@ -21,6 +21,9 @@
 */
 
 
+/*
+折半查找法——递归二分算法
+*/
 #include<iostream>
 #include<stdio.h>
 #include<stdlib.h>
