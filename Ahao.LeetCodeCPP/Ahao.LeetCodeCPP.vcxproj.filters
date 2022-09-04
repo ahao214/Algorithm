@@ -1087,6 +1087,9 @@
     <Filter Include="源文件\1800-1899\demo1822">
       <UniqueIdentifier>{7643785d-fe26-48b5-b92c-b8db0c94f96a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1582">
+      <UniqueIdentifier>{21af5ba8-3ad5-4564-96c2-db4fe5053b2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2039,6 +2042,9 @@
     </ClCompile>
     <ClCompile Include="1822. 数组元素积的符号.cpp">
       <Filter>源文件\1800-1899\demo1822</Filter>
+    </ClCompile>
+    <ClCompile Include="1582. 二进制矩阵中的特殊位置.cpp">
+      <Filter>源文件\1500-1599\demo1582</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -179,6 +179,7 @@
     <ClCompile Include="1470. 重新排列数组.cpp" />
     <ClCompile Include="15. 三数之和.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />
+    <ClCompile Include="1582. 二进制矩阵中的特殊位置.cpp" />
     <ClCompile Include="1590. 使数组和能被 P 整除.cpp" />
     <ClCompile Include="16. 最接近的三数之和.cpp" />
     <ClCompile Include="1601. 最多可达成的换楼请求数目.cpp" />
