@@ -1096,6 +1096,9 @@
     <Filter Include="源文件\1800-1899\demo1829">
       <UniqueIdentifier>{4768587b-56c8-4163-ad4a-d44c534e5969}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1828">
+      <UniqueIdentifier>{16771ba5-c127-4ea8-baf2-39f5f3f8a8f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2057,6 +2060,9 @@
     </ClCompile>
     <ClCompile Include="1829. 每个查询的最大异或值.cpp">
       <Filter>源文件\1800-1899\demo1829</Filter>
+    </ClCompile>
+    <ClCompile Include="1828. 统计一个圆中点的数目.cpp">
+      <Filter>源文件\1800-1899\demo1828</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
