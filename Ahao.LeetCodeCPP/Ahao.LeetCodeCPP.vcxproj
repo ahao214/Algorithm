@@ -209,6 +209,7 @@
     <ClCompile Include="1822. 数组元素积的符号.cpp" />
     <ClCompile Include="1823. 找出游戏的获胜者.cpp" />
     <ClCompile Include="1824. 最少侧跳次数.cpp" />
+    <ClCompile Include="1829. 每个查询的最大异或值.cpp" />
     <ClCompile Include="1830. 使字符串有序的最少操作次数.cpp" />
     <ClCompile Include="1837. K 进制表示下的各位数字总和.cpp" />
     <ClCompile Include="1838. 最高频元素的频数.cpp" />
