@@ -1090,6 +1090,9 @@
     <Filter Include="源文件\1500-1599\demo1582">
       <UniqueIdentifier>{21af5ba8-3ad5-4564-96c2-db4fe5053b2b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1830">
+      <UniqueIdentifier>{a0138365-3ab1-4509-8cfc-39048a844b95}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2045,6 +2048,9 @@
     </ClCompile>
     <ClCompile Include="1582. 二进制矩阵中的特殊位置.cpp">
       <Filter>源文件\1500-1599\demo1582</Filter>
+    </ClCompile>
+    <ClCompile Include="1830. 使字符串有序的最少操作次数.cpp">
+      <Filter>源文件\1800-1899\demo1830</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
