@@ -25,6 +25,9 @@
     <Filter Include="源文件\Chapter01-分治算法\02-魔法石的诱惑">
       <UniqueIdentifier>{8640dbf9-5f5d-4c10-a665-681b245c7906}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Chapter01-分治算法\03-逃亡">
+      <UniqueIdentifier>{73fba657-87c9-4368-84c7-48040f47189d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.AlgorithmCompetition.cpp">
@@ -38,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="rob.cpp">
       <Filter>源文件\Chapter01-分治算法\02-魔法石的诱惑</Filter>
+    </ClCompile>
+    <ClCompile Include="escape.cpp">
+      <Filter>源文件\Chapter01-分治算法\03-逃亡</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
