@@ -1099,6 +1099,9 @@
     <Filter Include="源文件\1800-1899\demo1828">
       <UniqueIdentifier>{16771ba5-c127-4ea8-baf2-39f5f3f8a8f9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1827">
+      <UniqueIdentifier>{11fb1f9b-5b9a-4f76-8126-a0c15597a084}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2063,6 +2066,9 @@
     </ClCompile>
     <ClCompile Include="1828. 统计一个圆中点的数目.cpp">
       <Filter>源文件\1800-1899\demo1828</Filter>
+    </ClCompile>
+    <ClCompile Include="1827. 最少操作使数组递增.cpp">
+      <Filter>源文件\1800-1899\demo1827</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
