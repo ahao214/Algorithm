@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.AlgorithmCompetition.cpp" />
+    <ClCompile Include="equation.cpp" />
     <ClCompile Include="competition.cpp" />
     <ClCompile Include="escape.cpp" />
     <ClCompile Include="half2.cpp" />
