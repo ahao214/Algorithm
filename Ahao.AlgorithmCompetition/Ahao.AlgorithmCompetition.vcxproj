@@ -143,6 +143,7 @@
     <ClCompile Include="escape.cpp" />
     <ClCompile Include="half2.cpp" />
     <ClCompile Include="halfcpp.cpp" />
+    <ClCompile Include="power.cpp" />
     <ClCompile Include="rob.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
