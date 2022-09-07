@@ -31,6 +31,9 @@
     <Filter Include="源文件\Chapter01-分治算法\04-快速幂运算">
       <UniqueIdentifier>{54c448f2-c543-4137-a346-78028ea0ce61}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Chapter01-分治算法\05-循环比赛">
+      <UniqueIdentifier>{dc1e4cb9-2e43-4cd9-ba45-efa728e2cb3d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.AlgorithmCompetition.cpp">
@@ -50,6 +53,9 @@
     </ClCompile>
     <ClCompile Include="power.cpp">
       <Filter>源文件\Chapter01-分治算法\04-快速幂运算</Filter>
+    </ClCompile>
+    <ClCompile Include="competition.cpp">
+      <Filter>源文件\Chapter01-分治算法\05-循环比赛</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
