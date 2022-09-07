@@ -1111,6 +1111,9 @@
     <Filter Include="源文件\1800-1899\demo1812">
       <UniqueIdentifier>{2836eb9f-bc0c-4e4c-9ab6-72536004f036}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1808">
+      <UniqueIdentifier>{806ef23e-2792-4bde-b1dc-ce307edb87e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2087,6 +2090,9 @@
     </ClCompile>
     <ClCompile Include="1812. 判断国际象棋棋盘中一个格子的颜色.cpp">
       <Filter>源文件\1800-1899\demo1812</Filter>
+    </ClCompile>
+    <ClCompile Include="1808. 好因子的最大数目.cpp">
+      <Filter>源文件\1800-1899\demo1808</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

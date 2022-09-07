@@ -206,6 +206,7 @@
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="18. 四数之和.cpp" />
+    <ClCompile Include="1808. 好因子的最大数目.cpp" />
     <ClCompile Include="1812. 判断国际象棋棋盘中一个格子的颜色.cpp" />
     <ClCompile Include="1813. 句子相似性 III.cpp" />
     <ClCompile Include="1814. 统计一个数组中好对子的数目.cpp" />
