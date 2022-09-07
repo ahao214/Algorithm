@@ -1105,6 +1105,9 @@
     <Filter Include="源文件\1800-1899\demo1814">
       <UniqueIdentifier>{1e37938e-cdad-4f7b-a670-9183bbad43ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1813">
+      <UniqueIdentifier>{5b129c01-112a-4247-88ab-cd52ad00a4c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2075,6 +2078,9 @@
     </ClCompile>
     <ClCompile Include="1814. 统计一个数组中好对子的数目.cpp">
       <Filter>源文件\1800-1899\demo1814</Filter>
+    </ClCompile>
+    <ClCompile Include="1813. 句子相似性 III.cpp">
+      <Filter>源文件\1800-1899\demo1813</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
