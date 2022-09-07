@@ -1108,6 +1108,9 @@
     <Filter Include="源文件\1800-1899\demo1813">
       <UniqueIdentifier>{5b129c01-112a-4247-88ab-cd52ad00a4c3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1812">
+      <UniqueIdentifier>{2836eb9f-bc0c-4e4c-9ab6-72536004f036}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2081,6 +2084,9 @@
     </ClCompile>
     <ClCompile Include="1813. 句子相似性 III.cpp">
       <Filter>源文件\1800-1899\demo1813</Filter>
+    </ClCompile>
+    <ClCompile Include="1812. 判断国际象棋棋盘中一个格子的颜色.cpp">
+      <Filter>源文件\1800-1899\demo1812</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
