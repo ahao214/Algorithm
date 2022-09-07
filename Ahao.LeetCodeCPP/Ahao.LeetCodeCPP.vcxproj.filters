@@ -1102,6 +1102,9 @@
     <Filter Include="源文件\1800-1899\demo1827">
       <UniqueIdentifier>{11fb1f9b-5b9a-4f76-8126-a0c15597a084}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1814">
+      <UniqueIdentifier>{1e37938e-cdad-4f7b-a670-9183bbad43ee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2069,6 +2072,9 @@
     </ClCompile>
     <ClCompile Include="1827. 最少操作使数组递增.cpp">
       <Filter>源文件\1800-1899\demo1827</Filter>
+    </ClCompile>
+    <ClCompile Include="1814. 统计一个数组中好对子的数目.cpp">
+      <Filter>源文件\1800-1899\demo1814</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
