@@ -1114,6 +1114,9 @@
     <Filter Include="源文件\1800-1899\demo1808">
       <UniqueIdentifier>{806ef23e-2792-4bde-b1dc-ce307edb87e5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0600-0699\demo667">
+      <UniqueIdentifier>{c5639e1e-b6d2-4414-9ad8-ca38b00611b5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2093,6 +2096,9 @@
     </ClCompile>
     <ClCompile Include="1808. 好因子的最大数目.cpp">
       <Filter>源文件\1800-1899\demo1808</Filter>
+    </ClCompile>
+    <ClCompile Include="667. 优美的排列 II.cpp">
+      <Filter>源文件\0600-0699\demo667</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
