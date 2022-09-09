@@ -1120,6 +1120,9 @@
     <Filter Include="源文件\1500-1599\demo1598">
       <UniqueIdentifier>{75b45ef5-def4-4a53-a6f3-cd9c322d8773}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1807">
+      <UniqueIdentifier>{15e33d11-4fd4-4f0b-bb6a-724d87bd7a52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2105,6 +2108,9 @@
     </ClCompile>
     <ClCompile Include="1598. 文件夹操作日志搜集器.cpp">
       <Filter>源文件\1500-1599\demo1598</Filter>
+    </ClCompile>
+    <ClCompile Include="1807. 替换字符串中的括号内容.cpp">
+      <Filter>源文件\1800-1899\demo1807</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
