@@ -1117,6 +1117,9 @@
     <Filter Include="源文件\0600-0699\demo667">
       <UniqueIdentifier>{c5639e1e-b6d2-4414-9ad8-ca38b00611b5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1598">
+      <UniqueIdentifier>{75b45ef5-def4-4a53-a6f3-cd9c322d8773}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2099,6 +2102,9 @@
     </ClCompile>
     <ClCompile Include="667. 优美的排列 II.cpp">
       <Filter>源文件\0600-0699\demo667</Filter>
+    </ClCompile>
+    <ClCompile Include="1598. 文件夹操作日志搜集器.cpp">
+      <Filter>源文件\1500-1599\demo1598</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
