@@ -1126,6 +1126,9 @@
     <Filter Include="源文件\1800-1899\demo1806">
       <UniqueIdentifier>{a9760a41-da0c-46d3-9471-95abdb742eb5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1805">
+      <UniqueIdentifier>{2927c59d-11f8-49dd-803d-c3967b69ec55}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2117,6 +2120,9 @@
     </ClCompile>
     <ClCompile Include="1806. 还原排列的最少操作步数.cpp">
       <Filter>源文件\1800-1899\demo1806</Filter>
+    </ClCompile>
+    <ClCompile Include="1805. 字符串中不同整数的数目.cpp">
+      <Filter>源文件\1800-1899\demo1805</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
