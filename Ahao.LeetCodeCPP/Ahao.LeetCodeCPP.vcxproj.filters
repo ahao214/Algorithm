@@ -1129,6 +1129,9 @@
     <Filter Include="源文件\1800-1899\demo1805">
       <UniqueIdentifier>{2927c59d-11f8-49dd-803d-c3967b69ec55}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1799">
+      <UniqueIdentifier>{8fa8e0d1-78f9-4f0a-89bd-c52d4c395063}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2123,6 +2126,9 @@
     </ClCompile>
     <ClCompile Include="1805. 字符串中不同整数的数目.cpp">
       <Filter>源文件\1800-1899\demo1805</Filter>
+    </ClCompile>
+    <ClCompile Include="1799. N 次操作后的最大分数和.cpp">
+      <Filter>源文件\1700-1799\demo1799</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
