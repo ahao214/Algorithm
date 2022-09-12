@@ -1135,6 +1135,9 @@
     <Filter Include="源文件\1700-1799\demo1798">
       <UniqueIdentifier>{34d7e522-a017-4989-bc37-e39b5cc6214d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1797">
+      <UniqueIdentifier>{2f7c64f3-10fe-4dde-a8eb-c7f63cabc57c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2135,6 +2138,9 @@
     </ClCompile>
     <ClCompile Include="1798. 你能构造出连续值的最大数目.cpp">
       <Filter>源文件\1700-1799\demo1798</Filter>
+    </ClCompile>
+    <ClCompile Include="1797. 设计一个验证系统.cpp">
+      <Filter>源文件\1700-1799\demo1797</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
