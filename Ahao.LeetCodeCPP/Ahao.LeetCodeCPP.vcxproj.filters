@@ -1138,6 +1138,9 @@
     <Filter Include="源文件\1700-1799\demo1797">
       <UniqueIdentifier>{2f7c64f3-10fe-4dde-a8eb-c7f63cabc57c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0600-0699\demo670">
+      <UniqueIdentifier>{674ba44d-1ce6-4cf2-a05c-bc4c6ba51891}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2141,6 +2144,9 @@
     </ClCompile>
     <ClCompile Include="1797. 设计一个验证系统.cpp">
       <Filter>源文件\1700-1799\demo1797</Filter>
+    </ClCompile>
+    <ClCompile Include="670. 最大交换.cpp">
+      <Filter>源文件\0600-0699\demo670</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
