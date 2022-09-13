@@ -1141,6 +1141,9 @@
     <Filter Include="源文件\0600-0699\demo670">
       <UniqueIdentifier>{674ba44d-1ce6-4cf2-a05c-bc4c6ba51891}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1796">
+      <UniqueIdentifier>{79ccdd05-e7fd-42e1-9a3f-163d304fd791}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2147,6 +2150,9 @@
     </ClCompile>
     <ClCompile Include="670. 最大交换.cpp">
       <Filter>源文件\0600-0699\demo670</Filter>
+    </ClCompile>
+    <ClCompile Include="1796. 字符串中第二大的数字.cpp">
+      <Filter>源文件\1700-1799\demo1796</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
