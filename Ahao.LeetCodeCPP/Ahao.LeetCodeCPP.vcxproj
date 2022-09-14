@@ -191,6 +191,7 @@
     <ClCompile Include="1611. 使整数变为 0 的最少操作次数.cpp" />
     <ClCompile Include="1616. 分割两个字符串得到回文串.cpp" />
     <ClCompile Include="1617. 统计子树中城市之间最大距离.cpp" />
+    <ClCompile Include="1619. 删除某些元素后的数组均值.cpp" />
     <ClCompile Include="1621. 大小为 K 的不重叠线段的数目.cpp" />
     <ClCompile Include="1622. 奇妙序列.cpp" />
     <ClCompile Include="1625. 执行操作后字典序最小的字符串.cpp" />

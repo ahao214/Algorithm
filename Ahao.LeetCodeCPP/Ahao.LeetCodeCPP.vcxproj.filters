@@ -1147,6 +1147,9 @@
     <Filter Include="源文件\1700-1799\demo1793">
       <UniqueIdentifier>{13429b7a-8e10-4ad3-83fb-498e40d73883}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1619">
+      <UniqueIdentifier>{9a387084-1d99-44d1-9ab1-87e938eb018e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2159,6 +2162,9 @@
     </ClCompile>
     <ClCompile Include="1793. 好子数组的最大分数.cpp">
       <Filter>源文件\1700-1799\demo1793</Filter>
+    </ClCompile>
+    <ClCompile Include="1619. 删除某些元素后的数组均值.cpp">
+      <Filter>源文件\1600-1699\demo1619</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
