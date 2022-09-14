@@ -1144,6 +1144,9 @@
     <Filter Include="源文件\1700-1799\demo1796">
       <UniqueIdentifier>{79ccdd05-e7fd-42e1-9a3f-163d304fd791}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1793">
+      <UniqueIdentifier>{13429b7a-8e10-4ad3-83fb-498e40d73883}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2153,6 +2156,9 @@
     </ClCompile>
     <ClCompile Include="1796. 字符串中第二大的数字.cpp">
       <Filter>源文件\1700-1799\demo1796</Filter>
+    </ClCompile>
+    <ClCompile Include="1793. 好子数组的最大分数.cpp">
+      <Filter>源文件\1700-1799\demo1793</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
