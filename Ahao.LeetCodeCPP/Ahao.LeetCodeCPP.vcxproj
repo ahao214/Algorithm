@@ -207,6 +207,7 @@
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
+    <ClCompile Include="1792. 最大平均通过率.cpp" />
     <ClCompile Include="1793. 好子数组的最大分数.cpp" />
     <ClCompile Include="1796. 字符串中第二大的数字.cpp" />
     <ClCompile Include="1797. 设计一个验证系统.cpp" />
