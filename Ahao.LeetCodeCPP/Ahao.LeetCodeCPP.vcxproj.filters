@@ -1162,6 +1162,9 @@
     <Filter Include="源文件\1700-1799\demo1790">
       <UniqueIdentifier>{aa71532d-68a7-4cb3-9588-74b1df090cac}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1787">
+      <UniqueIdentifier>{cdb2a3d8-5d84-4d8b-8881-b87acfd1d323}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2189,6 +2192,9 @@
     </ClCompile>
     <ClCompile Include="1790. 仅执行一次字符串交换能否使两个字符串相等.cpp">
       <Filter>源文件\1700-1799\demo1790</Filter>
+    </ClCompile>
+    <ClCompile Include="1787. 使所有区间的异或结果为零.cpp">
+      <Filter>源文件\1700-1799\demo1787</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
