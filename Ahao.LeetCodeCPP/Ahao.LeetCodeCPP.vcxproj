@@ -194,6 +194,7 @@
     <ClCompile Include="1619. 删除某些元素后的数组均值.cpp" />
     <ClCompile Include="1621. 大小为 K 的不重叠线段的数目.cpp" />
     <ClCompile Include="1622. 奇妙序列.cpp" />
+    <ClCompile Include="1624. 两个相同字符之间的最长子字符串.cpp" />
     <ClCompile Include="1625. 执行操作后字典序最小的字符串.cpp" />
     <ClCompile Include="1627.带阈值的图连通性.cpp" />
     <ClCompile Include="1631. 最小体力消耗路径.cpp" />

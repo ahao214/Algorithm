@@ -1153,6 +1153,9 @@
     <Filter Include="源文件\1700-1799\demo1792">
       <UniqueIdentifier>{7c9fc627-2e58-4cd1-b859-b47c31a5c325}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1624">
+      <UniqueIdentifier>{663dbecf-650a-4dc5-b351-162dbde7361b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2171,6 +2174,9 @@
     </ClCompile>
     <ClCompile Include="1792. 最大平均通过率.cpp">
       <Filter>源文件\1700-1799\demo1792</Filter>
+    </ClCompile>
+    <ClCompile Include="1624. 两个相同字符之间的最长子字符串.cpp">
+      <Filter>源文件\1600-1699\demo1624</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
