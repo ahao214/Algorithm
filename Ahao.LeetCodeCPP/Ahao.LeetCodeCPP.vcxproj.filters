@@ -1156,6 +1156,9 @@
     <Filter Include="源文件\1600-1699\demo1624">
       <UniqueIdentifier>{663dbecf-650a-4dc5-b351-162dbde7361b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1791">
+      <UniqueIdentifier>{18df28b3-69c3-4709-a86f-71a4e158d7f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2177,6 +2180,9 @@
     </ClCompile>
     <ClCompile Include="1624. 两个相同字符之间的最长子字符串.cpp">
       <Filter>源文件\1600-1699\demo1624</Filter>
+    </ClCompile>
+    <ClCompile Include="1791. 找出星型图的中心节点.cpp">
+      <Filter>源文件\1700-1799\demo1791</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
