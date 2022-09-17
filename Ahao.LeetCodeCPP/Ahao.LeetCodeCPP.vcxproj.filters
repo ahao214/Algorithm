@@ -1159,6 +1159,9 @@
     <Filter Include="源文件\1700-1799\demo1791">
       <UniqueIdentifier>{18df28b3-69c3-4709-a86f-71a4e158d7f5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1790">
+      <UniqueIdentifier>{aa71532d-68a7-4cb3-9588-74b1df090cac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2183,6 +2186,9 @@
     </ClCompile>
     <ClCompile Include="1791. 找出星型图的中心节点.cpp">
       <Filter>源文件\1700-1799\demo1791</Filter>
+    </ClCompile>
+    <ClCompile Include="1790. 仅执行一次字符串交换能否使两个字符串相等.cpp">
+      <Filter>源文件\1700-1799\demo1790</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
