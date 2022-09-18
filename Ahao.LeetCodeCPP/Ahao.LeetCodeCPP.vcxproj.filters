@@ -1165,6 +1165,9 @@
     <Filter Include="源文件\1700-1799\demo1787">
       <UniqueIdentifier>{cdb2a3d8-5d84-4d8b-8881-b87acfd1d323}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo827">
+      <UniqueIdentifier>{4f5daa6a-5498-4258-833f-dcfc7d0e8b75}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2195,6 +2198,9 @@
     </ClCompile>
     <ClCompile Include="1787. 使所有区间的异或结果为零.cpp">
       <Filter>源文件\1700-1799\demo1787</Filter>
+    </ClCompile>
+    <ClCompile Include="827. 最大人工岛.cpp">
+      <Filter>源文件\0800-0899\demo827</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
