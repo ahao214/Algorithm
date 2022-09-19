@@ -1168,6 +1168,9 @@
     <Filter Include="源文件\0800-0899\demo827">
       <UniqueIdentifier>{4f5daa6a-5498-4258-833f-dcfc7d0e8b75}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1786">
+      <UniqueIdentifier>{fe832f49-022f-43cb-8477-47948e84c226}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2201,6 +2204,9 @@
     </ClCompile>
     <ClCompile Include="827. 最大人工岛.cpp">
       <Filter>源文件\0800-0899\demo827</Filter>
+    </ClCompile>
+    <ClCompile Include="1786. 从第一个节点出发到最后一个节点的受限路径数.cpp">
+      <Filter>源文件\1700-1799\demo1786</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
