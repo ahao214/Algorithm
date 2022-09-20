@@ -1171,6 +1171,9 @@
     <Filter Include="源文件\1700-1799\demo1786">
       <UniqueIdentifier>{fe832f49-022f-43cb-8477-47948e84c226}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1785">
+      <UniqueIdentifier>{1e0cc910-6f83-4bbc-bded-75b0fe66ce5b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2207,6 +2210,9 @@
     </ClCompile>
     <ClCompile Include="1786. 从第一个节点出发到最后一个节点的受限路径数.cpp">
       <Filter>源文件\1700-1799\demo1786</Filter>
+    </ClCompile>
+    <ClCompile Include="1785. 构成特定和需要添加的最少元素.cpp">
+      <Filter>源文件\1700-1799\demo1785</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
