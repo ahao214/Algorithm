@@ -208,6 +208,7 @@
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
+    <ClCompile Include="1784. 检查二进制字符串字段.cpp" />
     <ClCompile Include="1785. 构成特定和需要添加的最少元素.cpp" />
     <ClCompile Include="1786. 从第一个节点出发到最后一个节点的受限路径数.cpp" />
     <ClCompile Include="1787. 使所有区间的异或结果为零.cpp" />
