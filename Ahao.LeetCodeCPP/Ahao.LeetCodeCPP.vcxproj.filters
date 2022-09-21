@@ -1180,6 +1180,9 @@
     <Filter Include="源文件\1700-1799\demo1782">
       <UniqueIdentifier>{3061d19a-2363-430b-aa62-97a1caed8911}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo854">
+      <UniqueIdentifier>{441cb993-deb8-4399-b2e4-b5b1dd042560}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2225,6 +2228,9 @@
     </ClCompile>
     <ClCompile Include="1782. 统计点对的数目.cpp">
       <Filter>源文件\1700-1799\demo1782</Filter>
+    </ClCompile>
+    <ClCompile Include="854. 相似度为 K 的字符串.cpp">
+      <Filter>源文件\0800-0899\demo854</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

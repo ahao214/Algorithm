@@ -467,6 +467,7 @@
     <ClCompile Include="83. 删除排序链表中的重复元素.cpp" />
     <ClCompile Include="84. 柱状图中最大的矩形.cpp" />
     <ClCompile Include="85. 最大矩形.cpp" />
+    <ClCompile Include="854. 相似度为 K 的字符串.cpp" />
     <ClCompile Include="86. 分隔链表.cpp" />
     <ClCompile Include="868. 二进制间距.cpp" />
     <ClCompile Include="87. 扰乱字符串.cpp" />
