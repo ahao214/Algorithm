@@ -1177,6 +1177,9 @@
     <Filter Include="源文件\1700-1799\demo1784">
       <UniqueIdentifier>{81ab220b-86dc-4efa-a0cb-d3b4f10dd786}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1782">
+      <UniqueIdentifier>{3061d19a-2363-430b-aa62-97a1caed8911}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2219,6 +2222,9 @@
     </ClCompile>
     <ClCompile Include="1784. 检查二进制字符串字段.cpp">
       <Filter>源文件\1700-1799\demo1784</Filter>
+    </ClCompile>
+    <ClCompile Include="1782. 统计点对的数目.cpp">
+      <Filter>源文件\1700-1799\demo1782</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
