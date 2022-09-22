@@ -201,6 +201,7 @@
     <ClCompile Include="1636. 按照频率将数组升序排序.cpp" />
     <ClCompile Include="1638. 统计只差一个字符的子串数目.cpp" />
     <ClCompile Include="1639. 通过给定词典构造目标字符串的方案数.cpp" />
+    <ClCompile Include="1640. 能否连接形成数组.cpp" />
     <ClCompile Include="1641. 统计字典序元音字符串的数目.cpp" />
     <ClCompile Include="1642. 可以到达的最远建筑.cpp" />
     <ClCompile Include="1643. 第 K 条最小指令.cpp" />

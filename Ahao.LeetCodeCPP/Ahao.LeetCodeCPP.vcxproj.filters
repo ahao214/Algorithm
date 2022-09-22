@@ -1186,6 +1186,9 @@
     <Filter Include="源文件\0600-0699\demo698">
       <UniqueIdentifier>{86448572-cd40-4f27-832f-390431ba19c0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1640">
+      <UniqueIdentifier>{26082b2f-9622-4693-a3f6-d34e4414aba9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2237,6 +2240,9 @@
     </ClCompile>
     <ClCompile Include="698. 划分为k个相等的子集.cpp">
       <Filter>源文件\0600-0699\demo698</Filter>
+    </ClCompile>
+    <ClCompile Include="1640. 能否连接形成数组.cpp">
+      <Filter>源文件\1600-1699\demo1640</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
