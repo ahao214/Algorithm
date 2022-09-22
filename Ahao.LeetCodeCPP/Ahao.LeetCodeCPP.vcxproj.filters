@@ -1189,6 +1189,9 @@
     <Filter Include="源文件\1600-1699\demo1640">
       <UniqueIdentifier>{26082b2f-9622-4693-a3f6-d34e4414aba9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1781">
+      <UniqueIdentifier>{6956b32f-f14a-442b-b20a-88cd343a2203}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2243,6 +2246,9 @@
     </ClCompile>
     <ClCompile Include="1640. 能否连接形成数组.cpp">
       <Filter>源文件\1600-1699\demo1640</Filter>
+    </ClCompile>
+    <ClCompile Include="1781. 所有子字符串美丽值之和.cpp">
+      <Filter>源文件\1700-1799\demo1781</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
