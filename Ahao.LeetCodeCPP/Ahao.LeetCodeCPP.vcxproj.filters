@@ -1198,6 +1198,9 @@
     <Filter Include="源文件\1700-1799\demo1779">
       <UniqueIdentifier>{5eaace55-60c0-43a1-a50a-176f6aaf221e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1775">
+      <UniqueIdentifier>{c70a09a5-44da-4879-bada-e71080917202}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2261,6 +2264,9 @@
     </ClCompile>
     <ClCompile Include="1779. 找到最近的有相同 X 或 Y 坐标的点.cpp">
       <Filter>源文件\1700-1799\demo1779</Filter>
+    </ClCompile>
+    <ClCompile Include="1775. 通过最少操作次数使数组的和相等.cpp">
+      <Filter>源文件\1700-1799\demo1775</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
