@@ -1204,6 +1204,9 @@
     <Filter Include="源文件\1600-1699\demo1652">
       <UniqueIdentifier>{d075e8c3-d7e7-4138-abd7-080cfea5502f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1776">
+      <UniqueIdentifier>{c7099cf8-70f9-4daf-a68e-c60bf3982f0a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2273,6 +2276,9 @@
     </ClCompile>
     <ClCompile Include="1652. 拆炸弹.cpp">
       <Filter>源文件\1600-1699\demo1652</Filter>
+    </ClCompile>
+    <ClCompile Include="1776. 车队 II.cpp">
+      <Filter>源文件\1700-1799\demo1776</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
