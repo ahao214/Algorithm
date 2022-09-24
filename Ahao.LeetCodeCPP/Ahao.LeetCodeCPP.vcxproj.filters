@@ -1201,6 +1201,9 @@
     <Filter Include="源文件\1700-1799\demo1775">
       <UniqueIdentifier>{c70a09a5-44da-4879-bada-e71080917202}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1652">
+      <UniqueIdentifier>{d075e8c3-d7e7-4138-abd7-080cfea5502f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2267,6 +2270,9 @@
     </ClCompile>
     <ClCompile Include="1775. 通过最少操作次数使数组的和相等.cpp">
       <Filter>源文件\1700-1799\demo1775</Filter>
+    </ClCompile>
+    <ClCompile Include="1652. 拆炸弹.cpp">
+      <Filter>源文件\1600-1699\demo1652</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
