@@ -210,6 +210,7 @@
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
+    <ClCompile Include="1774. 最接近目标价格的甜点成本.cpp" />
     <ClCompile Include="1775. 通过最少操作次数使数组的和相等.cpp" />
     <ClCompile Include="1776. 车队 II.cpp" />
     <ClCompile Include="1779. 找到最近的有相同 X 或 Y 坐标的点.cpp" />
