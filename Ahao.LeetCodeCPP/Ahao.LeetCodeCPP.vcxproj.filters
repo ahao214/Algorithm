@@ -1213,6 +1213,9 @@
     <Filter Include="源文件\1700-1799\demo1774">
       <UniqueIdentifier>{d6795b8b-c3a3-46f7-9db6-cd43655957b8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1773">
+      <UniqueIdentifier>{df4b65ed-bc8c-416d-8b61-4aac3731e987}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2291,6 +2294,9 @@
     </ClCompile>
     <ClCompile Include="1774. 最接近目标价格的甜点成本.cpp">
       <Filter>源文件\1700-1799\demo1774</Filter>
+    </ClCompile>
+    <ClCompile Include="1773. 统计匹配检索规则的物品数量.cpp">
+      <Filter>源文件\1700-1799\demo1773</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
