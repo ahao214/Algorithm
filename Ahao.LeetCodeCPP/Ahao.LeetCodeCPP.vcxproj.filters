@@ -1216,6 +1216,9 @@
     <Filter Include="源文件\1700-1799\demo1773">
       <UniqueIdentifier>{df4b65ed-bc8c-416d-8b61-4aac3731e987}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1771">
+      <UniqueIdentifier>{583f52f5-e2da-4bf2-9db5-cb5dc65abc13}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2297,6 +2300,9 @@
     </ClCompile>
     <ClCompile Include="1773. 统计匹配检索规则的物品数量.cpp">
       <Filter>源文件\1700-1799\demo1773</Filter>
+    </ClCompile>
+    <ClCompile Include="1771. 由子序列构造的最长回文串的长度.cpp">
+      <Filter>源文件\1700-1799\demo1771</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
