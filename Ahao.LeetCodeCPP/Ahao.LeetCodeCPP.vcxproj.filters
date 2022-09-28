@@ -1222,6 +1222,9 @@
     <Filter Include="源文件\1700-1799\demo1770">
       <UniqueIdentifier>{a194dfb0-44b4-4c1f-b37d-5dd87a8a5712}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1769">
+      <UniqueIdentifier>{be0eecd6-b34e-42e7-a141-bcd550426728}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2309,6 +2312,9 @@
     </ClCompile>
     <ClCompile Include="1770. 执行乘法运算的最大分数.cpp">
       <Filter>源文件\1700-1799\demo1770</Filter>
+    </ClCompile>
+    <ClCompile Include="1769. 移动所有球到每个盒子所需的最小操作数.cpp">
+      <Filter>源文件\1700-1799\demo1769</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
