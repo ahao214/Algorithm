@@ -1219,6 +1219,9 @@
     <Filter Include="源文件\1700-1799\demo1771">
       <UniqueIdentifier>{583f52f5-e2da-4bf2-9db5-cb5dc65abc13}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1770">
+      <UniqueIdentifier>{a194dfb0-44b4-4c1f-b37d-5dd87a8a5712}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2303,6 +2306,9 @@
     </ClCompile>
     <ClCompile Include="1771. 由子序列构造的最长回文串的长度.cpp">
       <Filter>源文件\1700-1799\demo1771</Filter>
+    </ClCompile>
+    <ClCompile Include="1770. 执行乘法运算的最大分数.cpp">
+      <Filter>源文件\1700-1799\demo1770</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
