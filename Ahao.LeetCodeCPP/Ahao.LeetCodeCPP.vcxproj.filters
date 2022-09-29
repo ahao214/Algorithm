@@ -1228,6 +1228,9 @@
     <Filter Include="源文件\1700-1799\demo1768">
       <UniqueIdentifier>{c72c8831-7965-457f-8b77-0efc522851ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1765">
+      <UniqueIdentifier>{beb539ab-dda7-4229-b8dc-cc3a40fe44d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2321,6 +2324,9 @@
     </ClCompile>
     <ClCompile Include="1768. 交替合并字符串.cpp">
       <Filter>源文件\1700-1799\demo1768</Filter>
+    </ClCompile>
+    <ClCompile Include="1765. 地图中的最高点.cpp">
+      <Filter>源文件\1700-1799\demo1765</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

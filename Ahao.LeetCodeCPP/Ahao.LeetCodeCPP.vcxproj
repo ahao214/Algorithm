@@ -210,6 +210,7 @@
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
+    <ClCompile Include="1765. 地图中的最高点.cpp" />
     <ClCompile Include="1768. 交替合并字符串.cpp" />
     <ClCompile Include="1769. 移动所有球到每个盒子所需的最小操作数.cpp" />
     <ClCompile Include="1770. 执行乘法运算的最大分数.cpp" />
