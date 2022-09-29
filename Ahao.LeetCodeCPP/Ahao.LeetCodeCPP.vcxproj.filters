@@ -1225,6 +1225,9 @@
     <Filter Include="源文件\1700-1799\demo1769">
       <UniqueIdentifier>{be0eecd6-b34e-42e7-a141-bcd550426728}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1768">
+      <UniqueIdentifier>{c72c8831-7965-457f-8b77-0efc522851ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2315,6 +2318,9 @@
     </ClCompile>
     <ClCompile Include="1769. 移动所有球到每个盒子所需的最小操作数.cpp">
       <Filter>源文件\1700-1799\demo1769</Filter>
+    </ClCompile>
+    <ClCompile Include="1768. 交替合并字符串.cpp">
+      <Filter>源文件\1700-1799\demo1768</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
