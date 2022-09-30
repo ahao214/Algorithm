@@ -210,6 +210,7 @@
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
+    <ClCompile Include="1761. 一个图中连通三元组的最小度数.cpp" />
     <ClCompile Include="1763. 最长的美好子字符串.cpp" />
     <ClCompile Include="1764. 通过连接另一个数组的子数组得到一个数组.cpp" />
     <ClCompile Include="1765. 地图中的最高点.cpp" />

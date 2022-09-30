@@ -1237,6 +1237,9 @@
     <Filter Include="源文件\1700-1799\demo1763">
       <UniqueIdentifier>{97e0dea6-faf0-4f75-bad6-1da6bef131dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1761">
+      <UniqueIdentifier>{e200bea3-603f-4146-98ac-5ce7a38f660d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2339,6 +2342,9 @@
     </ClCompile>
     <ClCompile Include="1763. 最长的美好子字符串.cpp">
       <Filter>源文件\1700-1799\demo1763</Filter>
+    </ClCompile>
+    <ClCompile Include="1761. 一个图中连通三元组的最小度数.cpp">
+      <Filter>源文件\1700-1799\demo1761</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
