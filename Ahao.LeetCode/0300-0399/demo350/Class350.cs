@@ -37,5 +37,31 @@ namespace Ahao.LeetCode._0300_0399.demo350
             }
             return list.ToArray();
         }
+
+        public int[] Intersect2(int[] nums1, int[] nums2)
+        {
+            List<int> lst = new List<int>();
+            int i = 0, j = 0;
+            Array.Sort(nums1);
+            Array.Sort(nums2);
+            while (i < nums1.Length && j < nums2.Length)
+            {
+                if (nums1[i] < nums2[j])
+                {
+                    i++;
+                }
+                else if (nums1[i] > nums2[j])
+                {
+                    j++;
+                }
+                else
+                {
+                    lst.Add(nums1[i]);
+                    i++;
+                    j++;
+                }
+            }
+            return lst.ToArray();
+        }
     }
 }
