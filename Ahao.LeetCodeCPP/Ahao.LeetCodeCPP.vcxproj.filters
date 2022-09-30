@@ -1243,6 +1243,9 @@
     <Filter Include="源文件\1700-1799\demo1760">
       <UniqueIdentifier>{1f2b341a-9e6a-40e7-be94-695c5ebe41bf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1759">
+      <UniqueIdentifier>{6a43f68d-b329-4f94-bd0d-cbd67a888968}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2351,6 +2354,9 @@
     </ClCompile>
     <ClCompile Include="1760. 袋子里最少数目的球.cpp">
       <Filter>源文件\1700-1799\demo1760</Filter>
+    </ClCompile>
+    <ClCompile Include="1759. 统计同构子字符串的数目.cpp">
+      <Filter>源文件\1700-1799\demo1759</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
