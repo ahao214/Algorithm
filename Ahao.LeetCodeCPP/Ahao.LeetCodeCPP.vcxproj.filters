@@ -1231,6 +1231,9 @@
     <Filter Include="源文件\1700-1799\demo1765">
       <UniqueIdentifier>{beb539ab-dda7-4229-b8dc-cc3a40fe44d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1764">
+      <UniqueIdentifier>{40f85d7b-64cc-405e-8bf2-e056b4d519ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2327,6 +2330,9 @@
     </ClCompile>
     <ClCompile Include="1765. 地图中的最高点.cpp">
       <Filter>源文件\1700-1799\demo1765</Filter>
+    </ClCompile>
+    <ClCompile Include="1764. 通过连接另一个数组的子数组得到一个数组.cpp">
+      <Filter>源文件\1700-1799\demo1764</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
