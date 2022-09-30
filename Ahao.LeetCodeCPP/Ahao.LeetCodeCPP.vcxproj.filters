@@ -1240,6 +1240,9 @@
     <Filter Include="源文件\1700-1799\demo1761">
       <UniqueIdentifier>{e200bea3-603f-4146-98ac-5ce7a38f660d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1760">
+      <UniqueIdentifier>{1f2b341a-9e6a-40e7-be94-695c5ebe41bf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2345,6 +2348,9 @@
     </ClCompile>
     <ClCompile Include="1761. 一个图中连通三元组的最小度数.cpp">
       <Filter>源文件\1700-1799\demo1761</Filter>
+    </ClCompile>
+    <ClCompile Include="1760. 袋子里最少数目的球.cpp">
+      <Filter>源文件\1700-1799\demo1760</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
