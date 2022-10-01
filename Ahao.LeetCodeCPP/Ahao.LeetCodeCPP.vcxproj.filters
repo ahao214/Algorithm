@@ -1246,6 +1246,9 @@
     <Filter Include="源文件\1700-1799\demo1759">
       <UniqueIdentifier>{6a43f68d-b329-4f94-bd0d-cbd67a888968}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1694">
+      <UniqueIdentifier>{65de8eff-e460-4218-85ab-22c2418d4700}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2357,6 +2360,9 @@
     </ClCompile>
     <ClCompile Include="1759. 统计同构子字符串的数目.cpp">
       <Filter>源文件\1700-1799\demo1759</Filter>
+    </ClCompile>
+    <ClCompile Include="1694. 重新格式化电话号码.cpp">
+      <Filter>源文件\1600-1699\demo1694</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

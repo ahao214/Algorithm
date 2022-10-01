@@ -208,6 +208,7 @@
     <ClCompile Include="1652. 拆炸弹.cpp" />
     <ClCompile Include="1658. 将 x 减到 0 的最小操作数.cpp" />
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
+    <ClCompile Include="1694. 重新格式化电话号码.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="1759. 统计同构子字符串的数目.cpp" />
