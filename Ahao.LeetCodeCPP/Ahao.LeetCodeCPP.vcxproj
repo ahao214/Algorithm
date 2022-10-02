@@ -211,6 +211,7 @@
     <ClCompile Include="1694. 重新格式化电话号码.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
+    <ClCompile Include="1758. 生成交替二进制字符串的最少操作数.cpp" />
     <ClCompile Include="1759. 统计同构子字符串的数目.cpp" />
     <ClCompile Include="1760. 袋子里最少数目的球.cpp" />
     <ClCompile Include="1761. 一个图中连通三元组的最小度数.cpp" />
