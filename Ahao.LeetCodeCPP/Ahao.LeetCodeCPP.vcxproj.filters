@@ -1255,6 +1255,9 @@
     <Filter Include="源文件\1700-1799\demo1758">
       <UniqueIdentifier>{049ec5f4-dd34-4bac-83e2-c3f7fe5cfb15}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1755">
+      <UniqueIdentifier>{a09c3739-b89a-4986-a3e9-3ee0b6335466}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2375,6 +2378,9 @@
     </ClCompile>
     <ClCompile Include="1758. 生成交替二进制字符串的最少操作数.cpp">
       <Filter>源文件\1700-1799\demo1758</Filter>
+    </ClCompile>
+    <ClCompile Include="1755. 最接近目标值的子序列和.cpp">
+      <Filter>源文件\1700-1799\demo1755</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
