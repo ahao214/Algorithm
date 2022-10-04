@@ -1258,6 +1258,9 @@
     <Filter Include="源文件\1700-1799\demo1755">
       <UniqueIdentifier>{a09c3739-b89a-4986-a3e9-3ee0b6335466}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo921">
+      <UniqueIdentifier>{1e8f5a00-e9a9-44c6-875d-30f658daa09f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2381,6 +2384,9 @@
     </ClCompile>
     <ClCompile Include="1755. 最接近目标值的子序列和.cpp">
       <Filter>源文件\1700-1799\demo1755</Filter>
+    </ClCompile>
+    <ClCompile Include="921. 使括号有效的最少添加.cpp">
+      <Filter>源文件\0900-0999\demo921</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
