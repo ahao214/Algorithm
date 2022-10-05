@@ -1261,6 +1261,9 @@
     <Filter Include="源文件\0900-0999\demo921">
       <UniqueIdentifier>{1e8f5a00-e9a9-44c6-875d-30f658daa09f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo811">
+      <UniqueIdentifier>{6318497a-87d7-47b9-adec-1b9dd363f12d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2387,6 +2390,9 @@
     </ClCompile>
     <ClCompile Include="921. 使括号有效的最少添加.cpp">
       <Filter>源文件\0900-0999\demo921</Filter>
+    </ClCompile>
+    <ClCompile Include="811. 子域名访问计数.cpp">
+      <Filter>源文件\0800-0899\demo811</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
