@@ -1264,6 +1264,9 @@
     <Filter Include="源文件\0800-0899\demo811">
       <UniqueIdentifier>{6318497a-87d7-47b9-adec-1b9dd363f12d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo927">
+      <UniqueIdentifier>{51577cb0-d2bb-4ef3-85a6-4d6cecc29df4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2393,6 +2396,9 @@
     </ClCompile>
     <ClCompile Include="811. 子域名访问计数.cpp">
       <Filter>源文件\0800-0899\demo811</Filter>
+    </ClCompile>
+    <ClCompile Include="927. 三等分.cpp">
+      <Filter>源文件\0900-0999\demo927</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
