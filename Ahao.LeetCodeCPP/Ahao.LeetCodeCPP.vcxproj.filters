@@ -1267,6 +1267,9 @@
     <Filter Include="源文件\0900-0999\demo927">
       <UniqueIdentifier>{51577cb0-d2bb-4ef3-85a6-4d6cecc29df4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1800-1899\demo1800">
+      <UniqueIdentifier>{81b46d4a-9b45-4bb2-93f9-cc8afecaaf2f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2399,6 +2402,9 @@
     </ClCompile>
     <ClCompile Include="927. 三等分.cpp">
       <Filter>源文件\0900-0999\demo927</Filter>
+    </ClCompile>
+    <ClCompile Include="1800. 最大升序子数组和.cpp">
+      <Filter>源文件\1800-1899\demo1800</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

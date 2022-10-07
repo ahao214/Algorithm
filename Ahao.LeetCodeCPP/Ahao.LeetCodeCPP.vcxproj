@@ -244,6 +244,7 @@
     <ClCompile Include="1798. 你能构造出连续值的最大数目.cpp" />
     <ClCompile Include="1799. N 次操作后的最大分数和.cpp" />
     <ClCompile Include="18. 四数之和.cpp" />
+    <ClCompile Include="1800. 最大升序子数组和.cpp" />
     <ClCompile Include="1805. 字符串中不同整数的数目.cpp" />
     <ClCompile Include="1806. 还原排列的最少操作步数.cpp" />
     <ClCompile Include="1807. 替换字符串中的括号内容.cpp" />
