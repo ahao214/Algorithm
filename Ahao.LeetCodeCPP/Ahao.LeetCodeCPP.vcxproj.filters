@@ -1273,6 +1273,9 @@
     <Filter Include="源文件\0800-0899\demo870">
       <UniqueIdentifier>{a9e3b7f2-0b78-451b-a1f5-0720bc27279c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1754">
+      <UniqueIdentifier>{da0e295f-b2cb-4517-b733-4c36533e4898}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2411,6 +2414,9 @@
     </ClCompile>
     <ClCompile Include="870. 优势洗牌.cpp">
       <Filter>源文件\0800-0899\demo870</Filter>
+    </ClCompile>
+    <ClCompile Include="1754. 构造字典序最大的合并字符串.cpp">
+      <Filter>源文件\1700-1799\demo1754</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
