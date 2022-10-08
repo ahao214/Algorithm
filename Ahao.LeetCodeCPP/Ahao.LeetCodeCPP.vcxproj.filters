@@ -1270,6 +1270,9 @@
     <Filter Include="源文件\1800-1899\demo1800">
       <UniqueIdentifier>{81b46d4a-9b45-4bb2-93f9-cc8afecaaf2f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo870">
+      <UniqueIdentifier>{a9e3b7f2-0b78-451b-a1f5-0720bc27279c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2405,6 +2408,9 @@
     </ClCompile>
     <ClCompile Include="1800. 最大升序子数组和.cpp">
       <Filter>源文件\1800-1899\demo1800</Filter>
+    </ClCompile>
+    <ClCompile Include="870. 优势洗牌.cpp">
+      <Filter>源文件\0800-0899\demo870</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
