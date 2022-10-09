@@ -1279,6 +1279,9 @@
     <Filter Include="源文件\0800-0899\demo856">
       <UniqueIdentifier>{16840f98-9222-42bc-a9bf-05d85d8ac39d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1753">
+      <UniqueIdentifier>{04dcfe5b-613d-4f9b-b81b-c97b3d800c52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2423,6 +2426,9 @@
     </ClCompile>
     <ClCompile Include="856. 括号的分数.cpp">
       <Filter>源文件\0800-0899\demo856</Filter>
+    </ClCompile>
+    <ClCompile Include="1753. 移除石子的最大得分.cpp">
+      <Filter>源文件\1700-1799\demo1753</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
