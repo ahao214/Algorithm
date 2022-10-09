@@ -1276,6 +1276,9 @@
     <Filter Include="源文件\1700-1799\demo1754">
       <UniqueIdentifier>{da0e295f-b2cb-4517-b733-4c36533e4898}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo856">
+      <UniqueIdentifier>{16840f98-9222-42bc-a9bf-05d85d8ac39d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2417,6 +2420,9 @@
     </ClCompile>
     <ClCompile Include="1754. 构造字典序最大的合并字符串.cpp">
       <Filter>源文件\1700-1799\demo1754</Filter>
+    </ClCompile>
+    <ClCompile Include="856. 括号的分数.cpp">
+      <Filter>源文件\0800-0899\demo856</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
