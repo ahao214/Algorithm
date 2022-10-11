@@ -1288,6 +1288,9 @@
     <Filter Include="源文件\1700-1799\demo1752">
       <UniqueIdentifier>{5ca6902b-037d-47bc-8856-70d91899d846}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1750">
+      <UniqueIdentifier>{df4a54a6-2f21-4613-91e9-4685f083a73f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2441,6 +2444,9 @@
     </ClCompile>
     <ClCompile Include="1752. 检查数组是否经排序和轮转得到.cpp">
       <Filter>源文件\1700-1799\demo1752</Filter>
+    </ClCompile>
+    <ClCompile Include="1750. 删除字符串两端相同字符后的最短长度.cpp">
+      <Filter>源文件\1700-1799\demo1750</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

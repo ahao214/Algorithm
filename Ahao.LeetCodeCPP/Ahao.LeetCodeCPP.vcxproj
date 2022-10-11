@@ -211,6 +211,7 @@
     <ClCompile Include="1694. 重新格式化电话号码.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
+    <ClCompile Include="1750. 删除字符串两端相同字符后的最短长度.cpp" />
     <ClCompile Include="1752. 检查数组是否经排序和轮转得到.cpp" />
     <ClCompile Include="1753. 移除石子的最大得分.cpp" />
     <ClCompile Include="1754. 构造字典序最大的合并字符串.cpp" />
