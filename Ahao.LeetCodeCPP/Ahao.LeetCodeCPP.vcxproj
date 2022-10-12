@@ -490,6 +490,7 @@
     <ClCompile Include="81. 搜索旋转排序数组 II.cpp" />
     <ClCompile Include="811. 子域名访问计数.cpp" />
     <ClCompile Include="812. 最大三角形面积.cpp" />
+    <ClCompile Include="817. 链表组件.cpp" />
     <ClCompile Include="819. 最常见的单词.cpp" />
     <ClCompile Include="82. 删除排序链表中的重复元素 II.cpp" />
     <ClCompile Include="821. 字符的最短距离.cpp" />
