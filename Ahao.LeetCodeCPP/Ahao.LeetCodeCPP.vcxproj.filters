@@ -1300,6 +1300,9 @@
     <Filter Include="源文件\1700-1799\demo1748">
       <UniqueIdentifier>{c9ee6616-f4cf-4a6e-8568-911b6ab26dc3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1745">
+      <UniqueIdentifier>{5a054386-7fc1-4a4e-9d7d-c74a5c2c4bed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2465,6 +2468,9 @@
     </ClCompile>
     <ClCompile Include="1748. 唯一元素的和.cpp">
       <Filter>源文件\1700-1799\demo1748</Filter>
+    </ClCompile>
+    <ClCompile Include="1745. 回文串分割 IV.cpp">
+      <Filter>源文件\1700-1799\demo1745</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
