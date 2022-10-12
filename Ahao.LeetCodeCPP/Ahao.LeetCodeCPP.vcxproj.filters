@@ -1294,6 +1294,9 @@
     <Filter Include="源文件\0800-0899\demo817">
       <UniqueIdentifier>{27572780-b726-4da6-a840-781e8faf7634}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1749">
+      <UniqueIdentifier>{13617638-0b34-4f39-9dbc-1dfda8381d2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2453,6 +2456,9 @@
     </ClCompile>
     <ClCompile Include="817. 链表组件.cpp">
       <Filter>源文件\0800-0899\demo817</Filter>
+    </ClCompile>
+    <ClCompile Include="1749. 任意子数组和的绝对值的最大值.cpp">
+      <Filter>源文件\1700-1799\demo1749</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
