@@ -1303,6 +1303,9 @@
     <Filter Include="源文件\1700-1799\demo1745">
       <UniqueIdentifier>{5a054386-7fc1-4a4e-9d7d-c74a5c2c4bed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo769">
+      <UniqueIdentifier>{a48175e0-7d29-4cd1-8af0-ad747d8b76c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2471,6 +2474,9 @@
     </ClCompile>
     <ClCompile Include="1745. 回文串分割 IV.cpp">
       <Filter>源文件\1700-1799\demo1745</Filter>
+    </ClCompile>
+    <ClCompile Include="769. 最多能完成排序的块.cpp">
+      <Filter>源文件\0700-0799\demo769</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
