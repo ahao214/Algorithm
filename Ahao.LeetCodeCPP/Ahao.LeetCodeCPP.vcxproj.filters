@@ -1306,6 +1306,9 @@
     <Filter Include="源文件\0700-0799\demo769">
       <UniqueIdentifier>{a48175e0-7d29-4cd1-8af0-ad747d8b76c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1744">
+      <UniqueIdentifier>{eb28e928-58b1-426e-b684-683f1e0c4869}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2477,6 +2480,9 @@
     </ClCompile>
     <ClCompile Include="769. 最多能完成排序的块.cpp">
       <Filter>源文件\0700-0799\demo769</Filter>
+    </ClCompile>
+    <ClCompile Include="1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？.cpp">
+      <Filter>源文件\1700-1799\demo1744</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
