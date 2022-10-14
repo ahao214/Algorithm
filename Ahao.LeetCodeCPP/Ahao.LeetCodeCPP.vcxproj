@@ -522,6 +522,7 @@
     <ClCompile Include="927. 三等分.cpp" />
     <ClCompile Include="929. 独特的电子邮件地址.cpp" />
     <ClCompile Include="937. 重新排列日志文件.cpp" />
+    <ClCompile Include="940. 不同的子序列 II.cpp" />
     <ClCompile Include="942. 增减字符串匹配.cpp" />
     <ClCompile Include="944. 删列造序.cpp" />
     <ClCompile Include="953. 验证外星语词典.cpp" />

@@ -1309,6 +1309,9 @@
     <Filter Include="源文件\1700-1799\demo1744">
       <UniqueIdentifier>{eb28e928-58b1-426e-b684-683f1e0c4869}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo940">
+      <UniqueIdentifier>{72485ef4-b2aa-4ad4-93df-4625a9190da8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2483,6 +2486,9 @@
     </ClCompile>
     <ClCompile Include="1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？.cpp">
       <Filter>源文件\1700-1799\demo1744</Filter>
+    </ClCompile>
+    <ClCompile Include="940. 不同的子序列 II.cpp">
+      <Filter>源文件\0900-0999\demo940</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
