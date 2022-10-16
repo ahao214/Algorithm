@@ -1318,6 +1318,9 @@
     <Filter Include="源文件\1400-1499\demo1441">
       <UniqueIdentifier>{bbc6b5fb-75f3-41bd-806c-071b4ccc03dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo886">
+      <UniqueIdentifier>{ce3d82bd-22e7-424d-96a7-e0bb8d3061fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2501,6 +2504,9 @@
     </ClCompile>
     <ClCompile Include="1441. 用栈操作构建数组.cpp">
       <Filter>源文件\1400-1499\demo1441</Filter>
+    </ClCompile>
+    <ClCompile Include="886. 可能的二分法.cpp">
+      <Filter>源文件\0800-0899\demo886</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

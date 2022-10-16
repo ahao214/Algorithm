@@ -515,6 +515,7 @@
     <ClCompile Include="870. 优势洗牌.cpp" />
     <ClCompile Include="88. 合并两个有序数组.cpp" />
     <ClCompile Include="883. 三维形体投影面积.cpp" />
+    <ClCompile Include="886. 可能的二分法.cpp" />
     <ClCompile Include="890. 查找和替换模式.cpp" />
     <ClCompile Include="899.有序队列.cpp" />
     <ClCompile Include="9. 回文数.cpp" />
