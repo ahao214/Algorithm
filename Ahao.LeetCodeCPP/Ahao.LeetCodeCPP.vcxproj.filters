@@ -1321,6 +1321,9 @@
     <Filter Include="源文件\0800-0899\demo886">
       <UniqueIdentifier>{ce3d82bd-22e7-424d-96a7-e0bb8d3061fb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo904">
+      <UniqueIdentifier>{71943a92-23f0-4584-9f23-90f83de946f8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2507,6 +2510,9 @@
     </ClCompile>
     <ClCompile Include="886. 可能的二分法.cpp">
       <Filter>源文件\0800-0899\demo886</Filter>
+    </ClCompile>
+    <ClCompile Include="904. 水果成篮.cpp">
+      <Filter>源文件\0900-0999\demo904</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
