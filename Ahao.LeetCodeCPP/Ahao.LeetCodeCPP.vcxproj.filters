@@ -1324,6 +1324,9 @@
     <Filter Include="源文件\0900-0999\demo904">
       <UniqueIdentifier>{71943a92-23f0-4584-9f23-90f83de946f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1742">
+      <UniqueIdentifier>{4816e847-93c9-4ba2-a0d9-401db36299a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2513,6 +2516,9 @@
     </ClCompile>
     <ClCompile Include="904. 水果成篮.cpp">
       <Filter>源文件\0900-0999\demo904</Filter>
+    </ClCompile>
+    <ClCompile Include="1742. 盒子中小球的最大数量.cpp">
+      <Filter>源文件\1700-1799\demo1742</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
