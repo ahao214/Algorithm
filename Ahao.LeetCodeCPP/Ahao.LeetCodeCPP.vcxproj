@@ -520,6 +520,7 @@
     <ClCompile Include="890. 查找和替换模式.cpp" />
     <ClCompile Include="899.有序队列.cpp" />
     <ClCompile Include="9. 回文数.cpp" />
+    <ClCompile Include="902. 最大为 N 的数字组合.cpp" />
     <ClCompile Include="904. 水果成篮.cpp" />
     <ClCompile Include="905. 按奇偶排序数组.cpp" />
     <ClCompile Include="908. 最小差值 I.cpp" />

@@ -1327,6 +1327,9 @@
     <Filter Include="源文件\1700-1799\demo1742">
       <UniqueIdentifier>{4816e847-93c9-4ba2-a0d9-401db36299a9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo902">
+      <UniqueIdentifier>{99cf86e6-39c4-45fc-adc4-b067f56fb39c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2519,6 +2522,9 @@
     </ClCompile>
     <ClCompile Include="1742. 盒子中小球的最大数量.cpp">
       <Filter>源文件\1700-1799\demo1742</Filter>
+    </ClCompile>
+    <ClCompile Include="902. 最大为 N 的数字组合.cpp">
+      <Filter>源文件\0900-0999\demo902</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
