@@ -1336,6 +1336,9 @@
     <Filter Include="源文件\1700-1799\demo1739">
       <UniqueIdentifier>{61dece15-5cff-46ad-aac1-40d14165d2c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1738">
+      <UniqueIdentifier>{08653d1d-d338-4a39-9d65-f499449ea4af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2537,6 +2540,9 @@
     </ClCompile>
     <ClCompile Include="1739. 放置盒子.cpp">
       <Filter>源文件\1700-1799\demo1739</Filter>
+    </ClCompile>
+    <ClCompile Include="1738. 找出第 K 大的异或坐标值.cpp">
+      <Filter>源文件\1700-1799\demo1738</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
