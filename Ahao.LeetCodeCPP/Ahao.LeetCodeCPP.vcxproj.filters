@@ -1333,6 +1333,9 @@
     <Filter Include="源文件\1700-1799\demo1700">
       <UniqueIdentifier>{5fded9bd-1ccd-400a-bab5-1f9c9ad8e60d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1739">
+      <UniqueIdentifier>{61dece15-5cff-46ad-aac1-40d14165d2c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2531,6 +2534,9 @@
     </ClCompile>
     <ClCompile Include="1700. 无法吃午餐的学生数量.cpp">
       <Filter>源文件\1700-1799\demo1700</Filter>
+    </ClCompile>
+    <ClCompile Include="1739. 放置盒子.cpp">
+      <Filter>源文件\1700-1799\demo1739</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
