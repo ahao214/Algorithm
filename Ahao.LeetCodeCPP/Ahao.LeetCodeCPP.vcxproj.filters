@@ -1330,6 +1330,9 @@
     <Filter Include="源文件\0900-0999\demo902">
       <UniqueIdentifier>{99cf86e6-39c4-45fc-adc4-b067f56fb39c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1700">
+      <UniqueIdentifier>{5fded9bd-1ccd-400a-bab5-1f9c9ad8e60d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2525,6 +2528,9 @@
     </ClCompile>
     <ClCompile Include="902. 最大为 N 的数字组合.cpp">
       <Filter>源文件\0900-0999\demo902</Filter>
+    </ClCompile>
+    <ClCompile Include="1700. 无法吃午餐的学生数量.cpp">
+      <Filter>源文件\1700-1799\demo1700</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

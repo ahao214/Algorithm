@@ -211,6 +211,7 @@
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="1694. 重新格式化电话号码.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
+    <ClCompile Include="1700. 无法吃午餐的学生数量.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
     <ClCompile Include="1742. 盒子中小球的最大数量.cpp" />
     <ClCompile Include="1743. 从相邻元素对还原数组.cpp" />
