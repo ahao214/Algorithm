@@ -1339,6 +1339,12 @@
     <Filter Include="源文件\1700-1799\demo1738">
       <UniqueIdentifier>{08653d1d-d338-4a39-9d65-f499449ea4af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo779">
+      <UniqueIdentifier>{44369082-f050-4ca4-9d7e-688bced63ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1700-1799\demo1737">
+      <UniqueIdentifier>{8b77beb7-4540-495c-be4d-ed1957a0da66}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2543,6 +2549,12 @@
     </ClCompile>
     <ClCompile Include="1738. 找出第 K 大的异或坐标值.cpp">
       <Filter>源文件\1700-1799\demo1738</Filter>
+    </ClCompile>
+    <ClCompile Include="779. 第K个语法符号.cpp">
+      <Filter>源文件\0700-0799\demo779</Filter>
+    </ClCompile>
+    <ClCompile Include="1737. 满足三条件之一需改变的最少字符数.cpp">
+      <Filter>源文件\1700-1799\demo1737</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
