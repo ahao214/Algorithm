@@ -1345,6 +1345,9 @@
     <Filter Include="源文件\1700-1799\demo1737">
       <UniqueIdentifier>{8b77beb7-4540-495c-be4d-ed1957a0da66}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo901">
+      <UniqueIdentifier>{b5101b4f-ac20-470e-9c08-884f77a41a6c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2555,6 +2558,9 @@
     </ClCompile>
     <ClCompile Include="1737. 满足三条件之一需改变的最少字符数.cpp">
       <Filter>源文件\1700-1799\demo1737</Filter>
+    </ClCompile>
+    <ClCompile Include="901. 股票价格跨度.cpp">
+      <Filter>源文件\0900-0999\demo901</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
