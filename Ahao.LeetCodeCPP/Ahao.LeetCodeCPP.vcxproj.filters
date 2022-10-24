@@ -1351,6 +1351,9 @@
     <Filter Include="源文件\1200-1299\demo1235">
       <UniqueIdentifier>{4cd730c5-49cd-4f3f-a902-096ff23eb1a4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo915">
+      <UniqueIdentifier>{b2209e21-d993-439a-8093-fe4272e60a5a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2567,6 +2570,9 @@
     </ClCompile>
     <ClCompile Include="1235. 规划兼职工作.cpp">
       <Filter>源文件\1200-1299\demo1235</Filter>
+    </ClCompile>
+    <ClCompile Include="915. 分割数组.cpp">
+      <Filter>源文件\0900-0999\demo915</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
