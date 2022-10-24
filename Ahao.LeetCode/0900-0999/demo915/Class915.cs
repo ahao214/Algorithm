@@ -46,5 +46,23 @@ namespace Ahao.LeetCode._0900_0999.demo915
             }
             return n - 1;
         }
+
+
+        public int PartitionDisjoint3(int[] nums)
+        {
+            int n = nums.Length;
+            int leftMax = nums[0], leftPos = 0, curMax = nums[0];
+            for (int i = 1; i < n - 1; i++)
+            {
+                curMax = Math.Max(curMax, nums[i]);
+                if (nums[i] < leftMax)
+                {
+                    leftMax = curMax;
+                    leftPos = i;
+                }
+            }
+            return leftPos + 1;
+        }
+
     }
 }
