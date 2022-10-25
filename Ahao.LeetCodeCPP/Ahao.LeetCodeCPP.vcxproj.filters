@@ -1357,6 +1357,9 @@
     <Filter Include="源文件\1700-1799\demo1736">
       <UniqueIdentifier>{872659fd-a83f-4cb1-a830-18d44c6231e7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo934">
+      <UniqueIdentifier>{eb4f9d92-0cd2-4fd7-b581-ad3132759059}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2579,6 +2582,9 @@
     </ClCompile>
     <ClCompile Include="1736. 替换隐藏数字得到的最晚时间.cpp">
       <Filter>源文件\1700-1799\demo1736</Filter>
+    </ClCompile>
+    <ClCompile Include="934. 最短的桥.cpp">
+      <Filter>源文件\0900-0999\demo934</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
