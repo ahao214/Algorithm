@@ -1360,6 +1360,9 @@
     <Filter Include="源文件\0900-0999\demo934">
       <UniqueIdentifier>{eb4f9d92-0cd2-4fd7-b581-ad3132759059}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo862">
+      <UniqueIdentifier>{169cc8d8-fe90-444e-9a36-aa86f63c392a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2585,6 +2588,9 @@
     </ClCompile>
     <ClCompile Include="934. 最短的桥.cpp">
       <Filter>源文件\0900-0999\demo934</Filter>
+    </ClCompile>
+    <ClCompile Include="862. 和至少为 K 的最短子数组.cpp">
+      <Filter>源文件\0800-0899\demo862</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
