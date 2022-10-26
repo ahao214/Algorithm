@@ -1363,6 +1363,9 @@
     <Filter Include="源文件\0800-0899\demo862">
       <UniqueIdentifier>{169cc8d8-fe90-444e-9a36-aa86f63c392a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1728">
+      <UniqueIdentifier>{7655e0a4-1fcf-4f4a-b098-e14ffb4f0819}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2591,6 +2594,9 @@
     </ClCompile>
     <ClCompile Include="862. 和至少为 K 的最短子数组.cpp">
       <Filter>源文件\0800-0899\demo862</Filter>
+    </ClCompile>
+    <ClCompile Include="1728. 猫和老鼠 II.cpp">
+      <Filter>源文件\1700-1799\demo1728</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
