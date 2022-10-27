@@ -1366,6 +1366,9 @@
     <Filter Include="源文件\1700-1799\demo1728">
       <UniqueIdentifier>{7655e0a4-1fcf-4f4a-b098-e14ffb4f0819}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1726">
+      <UniqueIdentifier>{40de8444-6957-4b7f-a1c9-4b6ef7c7febb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2597,6 +2600,9 @@
     </ClCompile>
     <ClCompile Include="1728. 猫和老鼠 II.cpp">
       <Filter>源文件\1700-1799\demo1728</Filter>
+    </ClCompile>
+    <ClCompile Include="1726. 同积元组.cpp">
+      <Filter>源文件\1700-1799\demo1726</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

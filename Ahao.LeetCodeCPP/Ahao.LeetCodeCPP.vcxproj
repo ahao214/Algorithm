@@ -214,6 +214,7 @@
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="1700. 无法吃午餐的学生数量.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
+    <ClCompile Include="1726. 同积元组.cpp" />
     <ClCompile Include="1728. 猫和老鼠 II.cpp" />
     <ClCompile Include="1736. 替换隐藏数字得到的最晚时间.cpp" />
     <ClCompile Include="1737. 满足三条件之一需改变的最少字符数.cpp" />
