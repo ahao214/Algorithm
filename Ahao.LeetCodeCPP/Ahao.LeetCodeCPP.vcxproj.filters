@@ -1369,6 +1369,9 @@
     <Filter Include="源文件\1700-1799\demo1726">
       <UniqueIdentifier>{40de8444-6957-4b7f-a1c9-4b6ef7c7febb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1725">
+      <UniqueIdentifier>{be24008c-5de1-472c-b771-ce67320709b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2603,6 +2606,9 @@
     </ClCompile>
     <ClCompile Include="1726. 同积元组.cpp">
       <Filter>源文件\1700-1799\demo1726</Filter>
+    </ClCompile>
+    <ClCompile Include="1725. 可以形成最大正方形的矩形数目.cpp">
+      <Filter>源文件\1700-1799\demo1725</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
