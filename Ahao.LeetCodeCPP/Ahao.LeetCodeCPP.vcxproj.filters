@@ -1378,6 +1378,9 @@
     <Filter Include="源文件\1700-1799\demo1723">
       <UniqueIdentifier>{33ee76c8-01f3-4766-b8cd-28a10beabc73}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1722">
+      <UniqueIdentifier>{34a47a5c-9d39-463a-b5bc-648d3d0446f0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2621,6 +2624,9 @@
     </ClCompile>
     <ClCompile Include="1723. 完成所有工作的最短时间.cpp">
       <Filter>源文件\1700-1799\demo1723</Filter>
+    </ClCompile>
+    <ClCompile Include="1722. 执行交换操作后的最小汉明距离.cpp">
+      <Filter>源文件\1700-1799\demo1722</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
