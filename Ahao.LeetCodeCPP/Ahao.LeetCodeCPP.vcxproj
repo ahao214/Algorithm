@@ -534,6 +534,7 @@
     <ClCompile Include="902. 最大为 N 的数字组合.cpp" />
     <ClCompile Include="904. 水果成篮.cpp" />
     <ClCompile Include="905. 按奇偶排序数组.cpp" />
+    <ClCompile Include="907. 子数组的最小值之和.cpp" />
     <ClCompile Include="908. 最小差值 I.cpp" />
     <ClCompile Include="915. 分割数组.cpp" />
     <ClCompile Include="921. 使括号有效的最少添加.cpp" />

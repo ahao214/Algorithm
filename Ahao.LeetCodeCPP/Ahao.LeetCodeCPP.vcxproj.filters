@@ -1372,6 +1372,9 @@
     <Filter Include="源文件\1700-1799\demo1725">
       <UniqueIdentifier>{be24008c-5de1-472c-b771-ce67320709b0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo907">
+      <UniqueIdentifier>{3a00bcd7-f75c-4628-a047-9f57408cc4ee}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2609,6 +2612,9 @@
     </ClCompile>
     <ClCompile Include="1725. 可以形成最大正方形的矩形数目.cpp">
       <Filter>源文件\1700-1799\demo1725</Filter>
+    </ClCompile>
+    <ClCompile Include="907. 子数组的最小值之和.cpp">
+      <Filter>源文件\0900-0999\demo907</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
