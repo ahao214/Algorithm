@@ -1375,6 +1375,9 @@
     <Filter Include="源文件\0900-0999\demo907">
       <UniqueIdentifier>{3a00bcd7-f75c-4628-a047-9f57408cc4ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1723">
+      <UniqueIdentifier>{33ee76c8-01f3-4766-b8cd-28a10beabc73}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2615,6 +2618,9 @@
     </ClCompile>
     <ClCompile Include="907. 子数组的最小值之和.cpp">
       <Filter>源文件\0900-0999\demo907</Filter>
+    </ClCompile>
+    <ClCompile Include="1723. 完成所有工作的最短时间.cpp">
+      <Filter>源文件\1700-1799\demo1723</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
