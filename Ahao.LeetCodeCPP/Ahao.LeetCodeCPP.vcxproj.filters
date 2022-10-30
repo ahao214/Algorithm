@@ -1381,6 +1381,9 @@
     <Filter Include="源文件\1700-1799\demo1722">
       <UniqueIdentifier>{34a47a5c-9d39-463a-b5bc-648d3d0446f0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo784">
+      <UniqueIdentifier>{a6c3c893-10f4-4b65-9bd9-42488cd85197}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2627,6 +2630,9 @@
     </ClCompile>
     <ClCompile Include="1722. 执行交换操作后的最小汉明距离.cpp">
       <Filter>源文件\1700-1799\demo1722</Filter>
+    </ClCompile>
+    <ClCompile Include="784. 字母大小写全排列.cpp">
+      <Filter>源文件\0700-0799\demo784</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
