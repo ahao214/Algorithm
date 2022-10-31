@@ -1384,6 +1384,9 @@
     <Filter Include="源文件\0700-0799\demo784">
       <UniqueIdentifier>{a6c3c893-10f4-4b65-9bd9-42488cd85197}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0400-0499\demo481">
+      <UniqueIdentifier>{5bcaccf0-5c7a-4f40-9061-411266590f5b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2633,6 +2636,9 @@
     </ClCompile>
     <ClCompile Include="784. 字母大小写全排列.cpp">
       <Filter>源文件\0700-0799\demo784</Filter>
+    </ClCompile>
+    <ClCompile Include="481. 神奇字符串.cpp">
+      <Filter>源文件\0400-0499\demo481</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
