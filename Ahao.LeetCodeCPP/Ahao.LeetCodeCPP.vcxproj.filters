@@ -1390,6 +1390,9 @@
     <Filter Include="源文件\1600-1699\demo1662">
       <UniqueIdentifier>{1ae6b832-f9fd-4743-a524-6f4e28ad640b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1721">
+      <UniqueIdentifier>{30c639e0-2b18-46ea-9142-2258203c5349}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2645,6 +2648,9 @@
     </ClCompile>
     <ClCompile Include="1662. 检查两个字符串数组是否相等.cpp">
       <Filter>源文件\1600-1699\demo1662</Filter>
+    </ClCompile>
+    <ClCompile Include="1721. 交换链表中的节点.cpp">
+      <Filter>源文件\1700-1799\demo1721</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
