@@ -1387,6 +1387,9 @@
     <Filter Include="源文件\0400-0499\demo481">
       <UniqueIdentifier>{5bcaccf0-5c7a-4f40-9061-411266590f5b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1662">
+      <UniqueIdentifier>{1ae6b832-f9fd-4743-a524-6f4e28ad640b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2639,6 +2642,9 @@
     </ClCompile>
     <ClCompile Include="481. 神奇字符串.cpp">
       <Filter>源文件\0400-0499\demo481</Filter>
+    </ClCompile>
+    <ClCompile Include="1662. 检查两个字符串数组是否相等.cpp">
+      <Filter>源文件\1600-1699\demo1662</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
