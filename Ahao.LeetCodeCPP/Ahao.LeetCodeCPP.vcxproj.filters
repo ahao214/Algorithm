@@ -1393,6 +1393,9 @@
     <Filter Include="源文件\1700-1799\demo1721">
       <UniqueIdentifier>{30c639e0-2b18-46ea-9142-2258203c5349}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1620">
+      <UniqueIdentifier>{92d4e302-6ffc-4224-8fee-5b27da493b9e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2651,6 +2654,9 @@
     </ClCompile>
     <ClCompile Include="1721. 交换链表中的节点.cpp">
       <Filter>源文件\1700-1799\demo1721</Filter>
+    </ClCompile>
+    <ClCompile Include="1620. 网络信号最好的坐标.cpp">
+      <Filter>源文件\1600-1699\demo1620</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
