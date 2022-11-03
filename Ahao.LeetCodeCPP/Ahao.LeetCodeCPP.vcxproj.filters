@@ -1405,6 +1405,9 @@
     <Filter Include="源文件\1700-1799\demo1735">
       <UniqueIdentifier>{38dbea1a-9eee-40e5-8965-9ddacf1e6806}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1734">
+      <UniqueIdentifier>{c2971fe5-0466-465e-b460-e5cb3dff8726}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2675,6 +2678,9 @@
     </ClCompile>
     <ClCompile Include="1735. 生成乘积数组的方案数.cpp">
       <Filter>源文件\1700-1799\demo1735</Filter>
+    </ClCompile>
+    <ClCompile Include="1734. 解码异或后的排列.cpp">
+      <Filter>源文件\1700-1799\demo1734</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
