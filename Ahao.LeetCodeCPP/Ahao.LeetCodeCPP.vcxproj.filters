@@ -1399,6 +1399,9 @@
     <Filter Include="源文件\1600-1699\demo1668">
       <UniqueIdentifier>{05e2ec66-98c7-4deb-b81b-5c842152b4d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1720">
+      <UniqueIdentifier>{f395d0e6-0043-46da-90c5-bcfd9e38feb1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2663,6 +2666,9 @@
     </ClCompile>
     <ClCompile Include="1668. 最大重复子字符串.cpp">
       <Filter>源文件\1600-1699\demo1668</Filter>
+    </ClCompile>
+    <ClCompile Include="1720. 解码异或后的数组.cpp">
+      <Filter>源文件\1700-1799\demo1720</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

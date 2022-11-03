@@ -217,6 +217,7 @@
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="1700. 无法吃午餐的学生数量.cpp" />
     <ClCompile Include="172. 阶乘后的零.cpp" />
+    <ClCompile Include="1720. 解码异或后的数组.cpp" />
     <ClCompile Include="1721. 交换链表中的节点.cpp" />
     <ClCompile Include="1722. 执行交换操作后的最小汉明距离.cpp" />
     <ClCompile Include="1723. 完成所有工作的最短时间.cpp" />
