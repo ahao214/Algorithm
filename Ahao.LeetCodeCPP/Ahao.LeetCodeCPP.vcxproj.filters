@@ -1417,6 +1417,9 @@
     <Filter Include="源文件\1700-1799\demo1732">
       <UniqueIdentifier>{37137a59-d35c-4d34-acbd-9054a3c84a49}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1718">
+      <UniqueIdentifier>{eda1ad4d-d3a0-47c9-9a51-c61b747dfe6b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2699,6 +2702,9 @@
     </ClCompile>
     <ClCompile Include="1732. 找到最高海拔.cpp">
       <Filter>源文件\1700-1799\demo1732</Filter>
+    </ClCompile>
+    <ClCompile Include="1718. 构建字典序最大的可行序列.cpp">
+      <Filter>源文件\1700-1799\demo1718</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
