@@ -1414,6 +1414,9 @@
     <Filter Include="源文件\1700-1799\demo1733">
       <UniqueIdentifier>{56850276-77de-40f1-8a83-de9178817d15}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1732">
+      <UniqueIdentifier>{37137a59-d35c-4d34-acbd-9054a3c84a49}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2693,6 +2696,9 @@
     </ClCompile>
     <ClCompile Include="1733. 需要教语言的最少人数.cpp">
       <Filter>源文件\1700-1799\demo1733</Filter>
+    </ClCompile>
+    <ClCompile Include="1732. 找到最高海拔.cpp">
+      <Filter>源文件\1700-1799\demo1732</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
