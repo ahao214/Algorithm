@@ -1408,6 +1408,9 @@
     <Filter Include="源文件\1700-1799\demo1734">
       <UniqueIdentifier>{c2971fe5-0466-465e-b460-e5cb3dff8726}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo754">
+      <UniqueIdentifier>{8b33d112-776b-4d71-8f19-a9470340953b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2681,6 +2684,9 @@
     </ClCompile>
     <ClCompile Include="1734. 解码异或后的排列.cpp">
       <Filter>源文件\1700-1799\demo1734</Filter>
+    </ClCompile>
+    <ClCompile Include="754. 到达终点数字.cpp">
+      <Filter>源文件\0700-0799\demo754</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
