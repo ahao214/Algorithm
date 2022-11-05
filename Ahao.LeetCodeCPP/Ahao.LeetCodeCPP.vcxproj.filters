@@ -1423,6 +1423,9 @@
     <Filter Include="源文件\1100-1199\demo1106">
       <UniqueIdentifier>{8cb6eead-db3d-47ea-b569-a32ed9ecb5a7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1717">
+      <UniqueIdentifier>{8f2042a6-1f82-4e34-b360-028810edcc52}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2711,6 +2714,9 @@
     </ClCompile>
     <ClCompile Include="1106. 解析布尔表达式.cpp">
       <Filter>源文件\1100-1199\demo1106</Filter>
+    </ClCompile>
+    <ClCompile Include="1717. 删除子字符串的最大得分.cpp">
+      <Filter>源文件\1700-1799\demo1717</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
