@@ -1420,6 +1420,9 @@
     <Filter Include="源文件\1700-1799\demo1718">
       <UniqueIdentifier>{eda1ad4d-d3a0-47c9-9a51-c61b747dfe6b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1100-1199\demo1106">
+      <UniqueIdentifier>{8cb6eead-db3d-47ea-b569-a32ed9ecb5a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2705,6 +2708,9 @@
     </ClCompile>
     <ClCompile Include="1718. 构建字典序最大的可行序列.cpp">
       <Filter>源文件\1700-1799\demo1718</Filter>
+    </ClCompile>
+    <ClCompile Include="1106. 解析布尔表达式.cpp">
+      <Filter>源文件\1100-1199\demo1106</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
