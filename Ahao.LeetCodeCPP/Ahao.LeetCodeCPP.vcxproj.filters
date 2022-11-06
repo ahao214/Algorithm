@@ -1426,6 +1426,9 @@
     <Filter Include="源文件\1700-1799\demo1717">
       <UniqueIdentifier>{8f2042a6-1f82-4e34-b360-028810edcc52}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1678">
+      <UniqueIdentifier>{ee742e75-1289-4d79-ab41-961112bc6800}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2717,6 +2720,9 @@
     </ClCompile>
     <ClCompile Include="1717. 删除子字符串的最大得分.cpp">
       <Filter>源文件\1700-1799\demo1717</Filter>
+    </ClCompile>
+    <ClCompile Include="1678. 设计 Goal 解析器.cpp">
+      <Filter>源文件\1600-1699\demo1678</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
