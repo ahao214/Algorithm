@@ -218,6 +218,7 @@
     <ClCompile Include="1694. 重新格式化电话号码.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="1700. 无法吃午餐的学生数量.cpp" />
+    <ClCompile Include="1710. 卡车上的最大单元数.cpp" />
     <ClCompile Include="1711. 大餐计数.cpp" />
     <ClCompile Include="1712. 将数组分成三个子数组的方案数.cpp" />
     <ClCompile Include="1713. 得到子序列的最少操作次数.cpp" />

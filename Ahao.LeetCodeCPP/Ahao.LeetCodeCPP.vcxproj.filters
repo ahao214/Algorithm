@@ -1444,6 +1444,9 @@
     <Filter Include="源文件\1700-1799\demo1711">
       <UniqueIdentifier>{1839f032-1f4a-42f6-8a92-2d7b2f18fae5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1710">
+      <UniqueIdentifier>{24a86f04-7548-44fb-ba02-0b25870b36fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2753,6 +2756,9 @@
     </ClCompile>
     <ClCompile Include="1711. 大餐计数.cpp">
       <Filter>源文件\1700-1799\demo1711</Filter>
+    </ClCompile>
+    <ClCompile Include="1710. 卡车上的最大单元数.cpp">
+      <Filter>源文件\1700-1799\demo1710</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
