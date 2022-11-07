@@ -1441,6 +1441,9 @@
     <Filter Include="源文件\1700-1799\demo1712">
       <UniqueIdentifier>{8fb290e9-7977-4a57-8f56-10258df65fed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1711">
+      <UniqueIdentifier>{1839f032-1f4a-42f6-8a92-2d7b2f18fae5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2747,6 +2750,9 @@
     </ClCompile>
     <ClCompile Include="1712. 将数组分成三个子数组的方案数.cpp">
       <Filter>源文件\1700-1799\demo1712</Filter>
+    </ClCompile>
+    <ClCompile Include="1711. 大餐计数.cpp">
+      <Filter>源文件\1700-1799\demo1711</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
