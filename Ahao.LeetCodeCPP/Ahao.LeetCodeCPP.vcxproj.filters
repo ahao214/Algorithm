@@ -1429,6 +1429,9 @@
     <Filter Include="源文件\1600-1699\demo1678">
       <UniqueIdentifier>{ee742e75-1289-4d79-ab41-961112bc6800}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo816">
+      <UniqueIdentifier>{5b57ea37-2aad-4372-85a0-a5b61b25a616}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2723,6 +2726,9 @@
     </ClCompile>
     <ClCompile Include="1678. 设计 Goal 解析器.cpp">
       <Filter>源文件\1600-1699\demo1678</Filter>
+    </ClCompile>
+    <ClCompile Include="816. 模糊坐标.cpp">
+      <Filter>源文件\0800-0899\demo816</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
