@@ -1438,6 +1438,9 @@
     <Filter Include="源文件\1700-1799\demo1713">
       <UniqueIdentifier>{a02e9b40-daa6-4f08-b9bc-9172f3f5d5ee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1712">
+      <UniqueIdentifier>{8fb290e9-7977-4a57-8f56-10258df65fed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2741,6 +2744,9 @@
     </ClCompile>
     <ClCompile Include="1713. 得到子序列的最少操作次数.cpp">
       <Filter>源文件\1700-1799\demo1713</Filter>
+    </ClCompile>
+    <ClCompile Include="1712. 将数组分成三个子数组的方案数.cpp">
+      <Filter>源文件\1700-1799\demo1712</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
