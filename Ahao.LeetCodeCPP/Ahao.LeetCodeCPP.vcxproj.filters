@@ -1450,6 +1450,9 @@
     <Filter Include="源文件\1600-1699\demo1684">
       <UniqueIdentifier>{dcb15059-d107-4bab-b131-0afa24ed1ed8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1706">
+      <UniqueIdentifier>{57a82310-a2dd-47c3-b666-067743fa61b6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2765,6 +2768,9 @@
     </ClCompile>
     <ClCompile Include="1684. 统计一致字符串的数目.cpp">
       <Filter>源文件\1600-1699\demo1684</Filter>
+    </ClCompile>
+    <ClCompile Include="1706. 球会落何处.cpp">
+      <Filter>源文件\1700-1799\demo1706</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
