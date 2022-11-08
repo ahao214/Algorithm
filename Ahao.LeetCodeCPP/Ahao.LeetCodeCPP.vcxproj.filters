@@ -1453,6 +1453,9 @@
     <Filter Include="源文件\1700-1799\demo1706">
       <UniqueIdentifier>{57a82310-a2dd-47c3-b666-067743fa61b6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1705">
+      <UniqueIdentifier>{42c1c0c2-de95-4d22-95ae-1e27094a8bec}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2771,6 +2774,9 @@
     </ClCompile>
     <ClCompile Include="1706. 球会落何处.cpp">
       <Filter>源文件\1700-1799\demo1706</Filter>
+    </ClCompile>
+    <ClCompile Include="1705. 吃苹果的最大数目.cpp">
+      <Filter>源文件\1700-1799\demo1705</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
