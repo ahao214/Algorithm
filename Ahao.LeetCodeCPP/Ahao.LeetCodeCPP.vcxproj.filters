@@ -1459,6 +1459,9 @@
     <Filter Include="源文件\1700-1799\demo1704">
       <UniqueIdentifier>{fa00482e-ba71-44d8-81cd-b70525550480}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1703">
+      <UniqueIdentifier>{8fd01844-942d-4568-8439-7f360572e7e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2783,6 +2786,9 @@
     </ClCompile>
     <ClCompile Include="1704. 判断字符串的两半是否相似.cpp">
       <Filter>源文件\1700-1799\demo1704</Filter>
+    </ClCompile>
+    <ClCompile Include="1703. 得到连续 K 个 1 的最少相邻交换次数.cpp">
+      <Filter>源文件\1700-1799\demo1703</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
