@@ -1456,6 +1456,9 @@
     <Filter Include="源文件\1700-1799\demo1705">
       <UniqueIdentifier>{42c1c0c2-de95-4d22-95ae-1e27094a8bec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1704">
+      <UniqueIdentifier>{fa00482e-ba71-44d8-81cd-b70525550480}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2777,6 +2780,9 @@
     </ClCompile>
     <ClCompile Include="1705. 吃苹果的最大数目.cpp">
       <Filter>源文件\1700-1799\demo1705</Filter>
+    </ClCompile>
+    <ClCompile Include="1704. 判断字符串的两半是否相似.cpp">
+      <Filter>源文件\1700-1799\demo1704</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
