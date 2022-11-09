@@ -217,6 +217,7 @@
     <ClCompile Include="1678. 设计 Goal 解析器.cpp" />
     <ClCompile Include="1684. 统计一致字符串的数目.cpp" />
     <ClCompile Include="1694. 重新格式化电话号码.cpp" />
+    <ClCompile Include="1696. 跳跃游戏 VI.cpp" />
     <ClCompile Include="1697. 检查边长度限制的路径是否存在.cpp" />
     <ClCompile Include="17. 电话号码的字母组合.cpp" />
     <ClCompile Include="1700. 无法吃午餐的学生数量.cpp" />

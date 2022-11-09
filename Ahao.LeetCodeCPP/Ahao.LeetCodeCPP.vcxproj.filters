@@ -1474,6 +1474,9 @@
     <Filter Include="源文件\1600-1699\demo1697">
       <UniqueIdentifier>{8a9a5161-8198-4de9-a68b-b113b619b4f9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1696">
+      <UniqueIdentifier>{6c490923-10fa-4e0f-b233-e2a61b41ec69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2813,6 +2816,9 @@
     </ClCompile>
     <ClCompile Include="1697. 检查边长度限制的路径是否存在.cpp">
       <Filter>源文件\1600-1699\demo1697</Filter>
+    </ClCompile>
+    <ClCompile Include="1696. 跳跃游戏 VI.cpp">
+      <Filter>源文件\1600-1699\demo1696</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
