@@ -1471,6 +1471,9 @@
     <Filter Include="源文件\1700-1799\demo1701">
       <UniqueIdentifier>{947db2ad-e7d7-4030-bc60-149d22b1162e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1697">
+      <UniqueIdentifier>{8a9a5161-8198-4de9-a68b-b113b619b4f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2807,6 +2810,9 @@
     </ClCompile>
     <ClCompile Include="1701. 平均等待时间.cpp">
       <Filter>源文件\1700-1799\demo1701</Filter>
+    </ClCompile>
+    <ClCompile Include="1697. 检查边长度限制的路径是否存在.cpp">
+      <Filter>源文件\1600-1699\demo1697</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
