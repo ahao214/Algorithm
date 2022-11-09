@@ -1465,6 +1465,9 @@
     <Filter Include="源文件\0700-0799\demo764">
       <UniqueIdentifier>{54d60bb3-69f3-46be-9f91-c3805569c580}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1700-1799\demo1702">
+      <UniqueIdentifier>{124ef5f9-f836-4589-b3bd-2b8812a81ef1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2795,6 +2798,9 @@
     </ClCompile>
     <ClCompile Include="764. 最大加号标志.cpp">
       <Filter>源文件\0700-0799\demo764</Filter>
+    </ClCompile>
+    <ClCompile Include="1702. 修改后的最大二进制字符串.cpp">
+      <Filter>源文件\1700-1799\demo1702</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
