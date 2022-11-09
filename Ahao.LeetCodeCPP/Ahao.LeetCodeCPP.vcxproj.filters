@@ -1462,6 +1462,9 @@
     <Filter Include="源文件\1700-1799\demo1703">
       <UniqueIdentifier>{8fd01844-942d-4568-8439-7f360572e7e1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo764">
+      <UniqueIdentifier>{54d60bb3-69f3-46be-9f91-c3805569c580}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2789,6 +2792,9 @@
     </ClCompile>
     <ClCompile Include="1703. 得到连续 K 个 1 的最少相邻交换次数.cpp">
       <Filter>源文件\1700-1799\demo1703</Filter>
+    </ClCompile>
+    <ClCompile Include="764. 最大加号标志.cpp">
+      <Filter>源文件\0700-0799\demo764</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
