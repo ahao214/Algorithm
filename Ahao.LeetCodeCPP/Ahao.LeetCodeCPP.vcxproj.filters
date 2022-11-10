@@ -1498,6 +1498,9 @@
     <Filter Include="源文件\1600-1699\demo1680">
       <UniqueIdentifier>{6c8b4b43-09b2-4483-b912-3dc45881a856}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1679">
+      <UniqueIdentifier>{ed2c7054-edb4-401d-a3be-13a2b5221e49}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2861,6 +2864,9 @@
     </ClCompile>
     <ClCompile Include="1680. 连接连续二进制数字.cpp">
       <Filter>源文件\1600-1699\demo1680</Filter>
+    </ClCompile>
+    <ClCompile Include="1679. K 和数对的最大数目.cpp">
+      <Filter>源文件\1600-1699\demo1679</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
