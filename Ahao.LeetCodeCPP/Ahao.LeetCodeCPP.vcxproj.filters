@@ -1486,6 +1486,9 @@
     <Filter Include="源文件\1600-1699\demo1691">
       <UniqueIdentifier>{e7033566-0857-48b7-af3d-2a2d9f940c18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1690">
+      <UniqueIdentifier>{2a64a504-747a-4dc6-996f-9c6465b36269}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2837,6 +2840,9 @@
     </ClCompile>
     <ClCompile Include="1691. 堆叠长方体的最大高度.cpp">
       <Filter>源文件\1600-1699\demo1691</Filter>
+    </ClCompile>
+    <ClCompile Include="1690. 石子游戏 VII.cpp">
+      <Filter>源文件\1600-1699\demo1690</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
