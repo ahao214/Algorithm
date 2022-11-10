@@ -215,6 +215,7 @@
     <ClCompile Include="1668. 最大重复子字符串.cpp" />
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="1678. 设计 Goal 解析器.cpp" />
+    <ClCompile Include="1680. 连接连续二进制数字.cpp" />
     <ClCompile Include="1684. 统计一致字符串的数目.cpp" />
     <ClCompile Include="1688. 比赛中的配对次数.cpp" />
     <ClCompile Include="1689. 十-二进制数的最少数目.cpp" />
