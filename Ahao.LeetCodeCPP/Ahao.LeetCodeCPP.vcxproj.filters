@@ -1492,6 +1492,9 @@
     <Filter Include="源文件\1600-1699\demo1689">
       <UniqueIdentifier>{383668f6-f0bd-41aa-8d46-5168d65c7a3c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1688">
+      <UniqueIdentifier>{f1af8201-ee3c-4c80-a37e-017c985ff4e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2849,6 +2852,9 @@
     </ClCompile>
     <ClCompile Include="1689. 十-二进制数的最少数目.cpp">
       <Filter>源文件\1600-1699\demo1689</Filter>
+    </ClCompile>
+    <ClCompile Include="1688. 比赛中的配对次数.cpp">
+      <Filter>源文件\1600-1699\demo1688</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
