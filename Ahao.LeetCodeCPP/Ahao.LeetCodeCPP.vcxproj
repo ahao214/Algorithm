@@ -216,6 +216,7 @@
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
     <ClCompile Include="1678. 设计 Goal 解析器.cpp" />
     <ClCompile Include="1684. 统计一致字符串的数目.cpp" />
+    <ClCompile Include="1691. 堆叠长方体的最大高度.cpp" />
     <ClCompile Include="1694. 重新格式化电话号码.cpp" />
     <ClCompile Include="1695. 删除子数组的最大得分.cpp" />
     <ClCompile Include="1696. 跳跃游戏 VI.cpp" />
