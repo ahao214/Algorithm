@@ -1489,6 +1489,9 @@
     <Filter Include="源文件\1600-1699\demo1690">
       <UniqueIdentifier>{2a64a504-747a-4dc6-996f-9c6465b36269}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1689">
+      <UniqueIdentifier>{383668f6-f0bd-41aa-8d46-5168d65c7a3c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2843,6 +2846,9 @@
     </ClCompile>
     <ClCompile Include="1690. 石子游戏 VII.cpp">
       <Filter>源文件\1600-1699\demo1690</Filter>
+    </ClCompile>
+    <ClCompile Include="1689. 十-二进制数的最少数目.cpp">
+      <Filter>源文件\1600-1699\demo1689</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
