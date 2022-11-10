@@ -1480,6 +1480,9 @@
     <Filter Include="源文件\1600-1699\demo1695">
       <UniqueIdentifier>{05efe23f-aa8f-4f05-9e29-9182fc0c47f1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo864">
+      <UniqueIdentifier>{1deade8b-e7bf-4163-92d6-1e0961ee5d07}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2825,6 +2828,9 @@
     </ClCompile>
     <ClCompile Include="1695. 删除子数组的最大得分.cpp">
       <Filter>源文件\1600-1699\demo1695</Filter>
+    </ClCompile>
+    <ClCompile Include="864. 获取所有钥匙的最短路径.cpp">
+      <Filter>源文件\0800-0899\demo864</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

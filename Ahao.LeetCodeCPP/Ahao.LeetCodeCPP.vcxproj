@@ -556,6 +556,7 @@
     <ClCompile Include="856. 括号的分数.cpp" />
     <ClCompile Include="86. 分隔链表.cpp" />
     <ClCompile Include="862. 和至少为 K 的最短子数组.cpp" />
+    <ClCompile Include="864. 获取所有钥匙的最短路径.cpp" />
     <ClCompile Include="868. 二进制间距.cpp" />
     <ClCompile Include="87. 扰乱字符串.cpp" />
     <ClCompile Include="870. 优势洗牌.cpp" />
