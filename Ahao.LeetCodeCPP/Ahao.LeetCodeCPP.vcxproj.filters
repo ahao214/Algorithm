@@ -1504,6 +1504,9 @@
     <Filter Include="源文件\1600-1699\demo1687">
       <UniqueIdentifier>{aa336518-d4df-428b-8206-5d43f65e3f11}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1686">
+      <UniqueIdentifier>{e4f3167e-2a90-4889-af95-10f7a52da45b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2873,6 +2876,9 @@
     </ClCompile>
     <ClCompile Include="1687. 从仓库到码头运输箱子.cpp">
       <Filter>源文件\1600-1699\demo1687</Filter>
+    </ClCompile>
+    <ClCompile Include="1686. 石子游戏 VI.cpp">
+      <Filter>源文件\1600-1699\demo1686</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
