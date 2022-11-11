@@ -1507,6 +1507,9 @@
     <Filter Include="源文件\1600-1699\demo1686">
       <UniqueIdentifier>{e4f3167e-2a90-4889-af95-10f7a52da45b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1685">
+      <UniqueIdentifier>{892cdc53-ed93-420f-ac78-7851072b3aa5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2879,6 +2882,9 @@
     </ClCompile>
     <ClCompile Include="1686. 石子游戏 VI.cpp">
       <Filter>源文件\1600-1699\demo1686</Filter>
+    </ClCompile>
+    <ClCompile Include="1685. 有序数组中差绝对值之和.cpp">
+      <Filter>源文件\1600-1699\demo1685</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
