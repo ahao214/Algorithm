@@ -1513,6 +1513,9 @@
     <Filter Include="源文件\1600-1699\demo1671">
       <UniqueIdentifier>{7a0c4401-1bc5-420b-a1f2-e7bcc2493d97}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1670">
+      <UniqueIdentifier>{91978bb0-95cd-4307-8ede-a6b927b65209}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2891,6 +2894,9 @@
     </ClCompile>
     <ClCompile Include="1671. 得到山形数组的最少删除次数.cpp">
       <Filter>源文件\1600-1699\demo1671</Filter>
+    </ClCompile>
+    <ClCompile Include="1670. 设计前中后队列.cpp">
+      <Filter>源文件\1600-1699\demo1670</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
