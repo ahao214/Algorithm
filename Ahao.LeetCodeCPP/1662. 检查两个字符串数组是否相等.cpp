@@ -43,3 +43,20 @@ public:
     }
 };
 
+
+
+/*
+1662. 检查两个字符串数组是否相等
+给你两个字符串数组 word1 和 word2 。如果两个数组表示的字符串相同，返回 true ；否则，返回 false 。
+
+数组表示的字符串 是由数组中的所有元素 按顺序 连接形成的字符串。
+*/
+class Solution {
+public:
+    bool arrayStringsAreEqual(vector<string>& word1, vector<string>& word2) {
+        string a, b;
+        for (auto& w : word1) a += w;
+        for (auto& w : word2) b += w;
+        return a == b;
+    }
+};
