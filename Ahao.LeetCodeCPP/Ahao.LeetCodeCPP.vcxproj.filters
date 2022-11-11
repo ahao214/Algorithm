@@ -1519,6 +1519,9 @@
     <Filter Include="源文件\1600-1699\demo1669">
       <UniqueIdentifier>{9de65e47-bb92-487d-b57a-05d269feefb8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1665">
+      <UniqueIdentifier>{7ca08a8f-2fed-47ff-b494-9c819e0216e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2903,6 +2906,9 @@
     </ClCompile>
     <ClCompile Include="1669. 合并两个链表.cpp">
       <Filter>源文件\1600-1699\demo1669</Filter>
+    </ClCompile>
+    <ClCompile Include="1665. 完成所有任务的最少初始能量.cpp">
+      <Filter>源文件\1600-1699\demo1665</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
