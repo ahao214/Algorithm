@@ -33,3 +33,25 @@ public:
         return res;
     }
 };
+
+
+class Solution {
+public:
+    int countConsistentStrings(string allowed, vector<string>& words) {
+        int res = 0;
+        for (auto& word : words)
+        {
+            bool flag = true;
+            for (auto c : word)
+            {
+                if (allowed.find(c) == -1)
+                {
+                    flag = false;
+                    break;
+                }
+            }
+            if (flag) res++;
+        }
+        return res;
+    }
+};
