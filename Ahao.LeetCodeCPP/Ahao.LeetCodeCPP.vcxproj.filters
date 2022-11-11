@@ -1516,6 +1516,9 @@
     <Filter Include="源文件\1600-1699\demo1670">
       <UniqueIdentifier>{91978bb0-95cd-4307-8ede-a6b927b65209}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1669">
+      <UniqueIdentifier>{9de65e47-bb92-487d-b57a-05d269feefb8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2897,6 +2900,9 @@
     </ClCompile>
     <ClCompile Include="1670. 设计前中后队列.cpp">
       <Filter>源文件\1600-1699\demo1670</Filter>
+    </ClCompile>
+    <ClCompile Include="1669. 合并两个链表.cpp">
+      <Filter>源文件\1600-1699\demo1669</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
