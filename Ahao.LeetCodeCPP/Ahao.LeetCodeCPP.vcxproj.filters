@@ -1510,6 +1510,9 @@
     <Filter Include="源文件\1600-1699\demo1685">
       <UniqueIdentifier>{892cdc53-ed93-420f-ac78-7851072b3aa5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1671">
+      <UniqueIdentifier>{7a0c4401-1bc5-420b-a1f2-e7bcc2493d97}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2885,6 +2888,9 @@
     </ClCompile>
     <ClCompile Include="1685. 有序数组中差绝对值之和.cpp">
       <Filter>源文件\1600-1699\demo1685</Filter>
+    </ClCompile>
+    <ClCompile Include="1671. 得到山形数组的最少删除次数.cpp">
+      <Filter>源文件\1600-1699\demo1671</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
