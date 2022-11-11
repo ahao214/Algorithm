@@ -1501,6 +1501,9 @@
     <Filter Include="源文件\1600-1699\demo1679">
       <UniqueIdentifier>{ed2c7054-edb4-401d-a3be-13a2b5221e49}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1687">
+      <UniqueIdentifier>{aa336518-d4df-428b-8206-5d43f65e3f11}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2867,6 +2870,9 @@
     </ClCompile>
     <ClCompile Include="1679. K 和数对的最大数目.cpp">
       <Filter>源文件\1600-1699\demo1679</Filter>
+    </ClCompile>
+    <ClCompile Include="1687. 从仓库到码头运输箱子.cpp">
+      <Filter>源文件\1600-1699\demo1687</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
