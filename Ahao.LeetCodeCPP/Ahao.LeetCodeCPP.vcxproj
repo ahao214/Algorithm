@@ -212,6 +212,7 @@
     <ClCompile Include="1652. 拆炸弹.cpp" />
     <ClCompile Include="1658. 将 x 减到 0 的最小操作数.cpp" />
     <ClCompile Include="1662. 检查两个字符串数组是否相等.cpp" />
+    <ClCompile Include="1663. 具有给定数值的最小字符串.cpp" />
     <ClCompile Include="1664. 生成平衡数组的方案数.cpp" />
     <ClCompile Include="1665. 完成所有任务的最少初始能量.cpp" />
     <ClCompile Include="1668. 最大重复子字符串.cpp" />

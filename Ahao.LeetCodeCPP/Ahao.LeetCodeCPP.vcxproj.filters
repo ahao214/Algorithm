@@ -1525,6 +1525,9 @@
     <Filter Include="源文件\1600-1699\demo1664">
       <UniqueIdentifier>{75e0d542-248c-4c7c-92f5-5b86ef418bf0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1663">
+      <UniqueIdentifier>{0ff55777-2298-474a-ba1b-d7004d0e40ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2915,6 +2918,9 @@
     </ClCompile>
     <ClCompile Include="1664. 生成平衡数组的方案数.cpp">
       <Filter>源文件\1600-1699\demo1664</Filter>
+    </ClCompile>
+    <ClCompile Include="1663. 具有给定数值的最小字符串.cpp">
+      <Filter>源文件\1600-1699\demo1663</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
