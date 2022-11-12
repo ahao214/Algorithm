@@ -408,6 +408,7 @@
     <ClCompile Include="2149. 按符号重排数组.cpp" />
     <ClCompile Include="2150. 找出数组中的所有孤独数字.cpp" />
     <ClCompile Include="2151. 基于陈述统计最多好人数.cpp" />
+    <ClCompile Include="2180. 统计各位数字之和为偶数的整数个数.cpp" />
     <ClCompile Include="2181. 合并零之间的节点.cpp" />
     <ClCompile Include="2182. 构造限制重复的字符串.cpp" />
     <ClCompile Include="2183. 统计可以被 K 整除的下标对数目.cpp" />
