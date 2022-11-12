@@ -1528,6 +1528,9 @@
     <Filter Include="源文件\1600-1699\demo1663">
       <UniqueIdentifier>{0ff55777-2298-474a-ba1b-d7004d0e40ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo790">
+      <UniqueIdentifier>{188a69fc-d708-4fb8-9acd-17bfc29e7316}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2921,6 +2924,9 @@
     </ClCompile>
     <ClCompile Include="1663. 具有给定数值的最小字符串.cpp">
       <Filter>源文件\1600-1699\demo1663</Filter>
+    </ClCompile>
+    <ClCompile Include="790. 多米诺和托米诺平铺.cpp">
+      <Filter>源文件\0700-0799\demo790</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
