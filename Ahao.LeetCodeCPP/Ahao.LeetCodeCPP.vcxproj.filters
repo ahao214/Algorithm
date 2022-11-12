@@ -1537,6 +1537,9 @@
     <Filter Include="源文件\2100-2199\demo2182">
       <UniqueIdentifier>{990d9a40-705d-4cba-a00c-6036f98e2b68}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2181">
+      <UniqueIdentifier>{0467cd81-52e8-4fd2-8847-03b3c6050f03}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2939,6 +2942,9 @@
     </ClCompile>
     <ClCompile Include="2182. 构造限制重复的字符串.cpp">
       <Filter>源文件\2100-2199\demo2182</Filter>
+    </ClCompile>
+    <ClCompile Include="2181. 合并零之间的节点.cpp">
+      <Filter>源文件\2100-2199\demo2181</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
