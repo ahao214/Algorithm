@@ -1543,6 +1543,9 @@
     <Filter Include="源文件\2100-2199\demo2180">
       <UniqueIdentifier>{dedbf1d1-c218-4159-938e-ff96e2f12980}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo791">
+      <UniqueIdentifier>{1dc6d906-2562-4f4a-82c0-8245c79ef03e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2951,6 +2954,9 @@
     </ClCompile>
     <ClCompile Include="2180. 统计各位数字之和为偶数的整数个数.cpp">
       <Filter>源文件\2100-2199\demo2180</Filter>
+    </ClCompile>
+    <ClCompile Include="791. 自定义字符串排序.cpp">
+      <Filter>源文件\0700-0799\demo791</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
