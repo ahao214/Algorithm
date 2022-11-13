@@ -1546,6 +1546,9 @@
     <Filter Include="源文件\0700-0799\demo791">
       <UniqueIdentifier>{1dc6d906-2562-4f4a-82c0-8245c79ef03e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2172">
+      <UniqueIdentifier>{e17e71f6-6b4d-4ad5-8089-52f2d374a242}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2957,6 +2960,9 @@
     </ClCompile>
     <ClCompile Include="791. 自定义字符串排序.cpp">
       <Filter>源文件\0700-0799\demo791</Filter>
+    </ClCompile>
+    <ClCompile Include="2172. 数组的最大与和.cpp">
+      <Filter>源文件\2100-2199\demo2172</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
