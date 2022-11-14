@@ -1588,6 +1588,9 @@
     <Filter Include="源文件\1500-1599\demo1569">
       <UniqueIdentifier>{7657af7f-ea21-442c-85ad-68b644d2dd42}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1510">
+      <UniqueIdentifier>{8b23e07f-c131-4f67-a8d4-9d47aa146e78}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3041,6 +3044,9 @@
     </ClCompile>
     <ClCompile Include="1569. 将子数组重新排序得到同一个二叉查找树的方案数.cpp">
       <Filter>源文件\1500-1599\demo1569</Filter>
+    </ClCompile>
+    <ClCompile Include="1510. 石子游戏 IV.cpp">
+      <Filter>源文件\1500-1599\demo1510</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -183,6 +183,7 @@
     <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp" />
     <ClCompile Include="1478. 安排邮筒.cpp" />
     <ClCompile Include="15. 三数之和.cpp" />
+    <ClCompile Include="1510. 石子游戏 IV.cpp" />
     <ClCompile Include="1518. 换酒问题.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />
     <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp" />
