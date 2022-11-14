@@ -186,6 +186,7 @@
     <ClCompile Include="1518. 换酒问题.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />
     <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp" />
+    <ClCompile Include="1567. 乘积为正数的最长子数组长度.cpp" />
     <ClCompile Include="1582. 二进制矩阵中的特殊位置.cpp" />
     <ClCompile Include="1590. 使数组和能被 P 整除.cpp" />
     <ClCompile Include="1598. 文件夹操作日志搜集器.cpp" />

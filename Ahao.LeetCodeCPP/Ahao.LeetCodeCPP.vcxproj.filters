@@ -1579,6 +1579,9 @@
     <Filter Include="源文件\1500-1599\demo1518">
       <UniqueIdentifier>{eef1f4be-c9e9-42b9-bdf4-3229bf9986a1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1567">
+      <UniqueIdentifier>{837d3987-9dd7-4ff8-ac00-9341b9342504}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3023,6 +3026,9 @@
     </ClCompile>
     <ClCompile Include="1518. 换酒问题.cpp">
       <Filter>源文件\1500-1599\demo1518</Filter>
+    </ClCompile>
+    <ClCompile Include="1567. 乘积为正数的最长子数组长度.cpp">
+      <Filter>源文件\1500-1599\demo1567</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
