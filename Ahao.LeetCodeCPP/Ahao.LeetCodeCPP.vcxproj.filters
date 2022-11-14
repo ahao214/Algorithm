@@ -1573,6 +1573,9 @@
     <Filter Include="源文件\1600-1699\demo1653">
       <UniqueIdentifier>{2f72cf53-2ca6-421c-89d8-eb7f54c19a53}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1553">
+      <UniqueIdentifier>{8d5b444e-331a-4e00-bc8d-6da0fffad508}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3011,6 +3014,9 @@
     </ClCompile>
     <ClCompile Include="1653. 使字符串平衡的最少删除次数.cpp">
       <Filter>源文件\1600-1699\demo1653</Filter>
+    </ClCompile>
+    <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp">
+      <Filter>源文件\1500-1599\demo1553</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
