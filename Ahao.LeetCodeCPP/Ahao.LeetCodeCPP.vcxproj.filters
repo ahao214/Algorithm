@@ -1603,6 +1603,9 @@
     <Filter Include="源文件\1400-1499\demo1494">
       <UniqueIdentifier>{ea7b90c3-c734-49bd-9fbd-5231f5210cc8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2167">
+      <UniqueIdentifier>{7592c203-7147-41c9-b2c9-16b5ff97b483}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3071,6 +3074,9 @@
     </ClCompile>
     <ClCompile Include="1494. 并行课程 II.cpp">
       <Filter>源文件\1400-1499\demo1494</Filter>
+    </ClCompile>
+    <ClCompile Include="2167. 移除所有载有违禁货物车厢所需的最少时间.cpp">
+      <Filter>源文件\2100-2199\demo2167</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
