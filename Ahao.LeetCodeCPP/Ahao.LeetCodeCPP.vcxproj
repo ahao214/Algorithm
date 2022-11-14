@@ -559,6 +559,7 @@
     <ClCompile Include="80. 删除有序数组中的重复项 II.cpp" />
     <ClCompile Include="801. 使序列递增的最小交换次数.cpp" />
     <ClCompile Include="804. 唯一摩尔斯密码词.cpp" />
+    <ClCompile Include="805. 数组的均值分割.cpp" />
     <ClCompile Include="806. 写字符串需要的行数.cpp" />
     <ClCompile Include="81. 搜索旋转排序数组 II.cpp" />
     <ClCompile Include="811. 子域名访问计数.cpp" />

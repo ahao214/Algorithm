@@ -1549,6 +1549,9 @@
     <Filter Include="源文件\2100-2199\demo2172">
       <UniqueIdentifier>{e17e71f6-6b4d-4ad5-8089-52f2d374a242}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo805">
+      <UniqueIdentifier>{35a0c3d0-03da-4082-ac60-9997a751b3b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2963,6 +2966,9 @@
     </ClCompile>
     <ClCompile Include="2172. 数组的最大与和.cpp">
       <Filter>源文件\2100-2199\demo2172</Filter>
+    </ClCompile>
+    <ClCompile Include="805. 数组的均值分割.cpp">
+      <Filter>源文件\0800-0899\demo805</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
