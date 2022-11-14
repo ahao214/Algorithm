@@ -1594,6 +1594,9 @@
     <Filter Include="源文件\1500-1599\demo1507">
       <UniqueIdentifier>{ad90629f-65cb-42ce-90ac-66e0d3e1c22b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1508">
+      <UniqueIdentifier>{3bf92f58-7d4d-41fb-b547-c10d3ca2696c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3053,6 +3056,9 @@
     </ClCompile>
     <ClCompile Include="1507. 转变日期格式.cpp">
       <Filter>源文件\1500-1599\demo1507</Filter>
+    </ClCompile>
+    <ClCompile Include="1508. 子数组和排序后的区间和.cpp">
+      <Filter>源文件\1500-1599\demo1508</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
