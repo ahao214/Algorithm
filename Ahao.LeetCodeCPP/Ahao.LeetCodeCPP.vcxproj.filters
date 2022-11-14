@@ -1564,6 +1564,9 @@
     <Filter Include="源文件\1400-1499\demo1478">
       <UniqueIdentifier>{2f1a9be3-4ca7-4ddd-af45-4b6b13636d34}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1477">
+      <UniqueIdentifier>{cc83e47a-1f11-4163-97c6-626bdecd9c24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2993,6 +2996,9 @@
     </ClCompile>
     <ClCompile Include="1478. 安排邮筒.cpp">
       <Filter>源文件\1400-1499\demo1478</Filter>
+    </ClCompile>
+    <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp">
+      <Filter>源文件\1400-1499\demo1477</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

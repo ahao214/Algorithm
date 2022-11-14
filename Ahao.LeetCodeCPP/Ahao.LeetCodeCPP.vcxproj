@@ -180,6 +180,7 @@
     <ClCompile Include="1450. 在既定时间做作业的学生人数.cpp" />
     <ClCompile Include="1464. 数组中两元素的最大乘积.cpp" />
     <ClCompile Include="1470. 重新排列数组.cpp" />
+    <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp" />
     <ClCompile Include="1478. 安排邮筒.cpp" />
     <ClCompile Include="15. 三数之和.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />
