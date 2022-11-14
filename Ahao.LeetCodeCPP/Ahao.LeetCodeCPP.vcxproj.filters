@@ -1558,6 +1558,9 @@
     <Filter Include="源文件\2100-2199\demo2170">
       <UniqueIdentifier>{40bde8d1-0960-4477-bff6-6880c1199756}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2169">
+      <UniqueIdentifier>{305b0185-acf9-4b76-a8a5-824447795889}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2981,6 +2984,9 @@
     </ClCompile>
     <ClCompile Include="2170. 使数组变成交替数组的最少操作数.cpp">
       <Filter>源文件\2100-2199\demo2170</Filter>
+    </ClCompile>
+    <ClCompile Include="2169. 得到 0 的操作数.cpp">
+      <Filter>源文件\2100-2199\demo2169</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
