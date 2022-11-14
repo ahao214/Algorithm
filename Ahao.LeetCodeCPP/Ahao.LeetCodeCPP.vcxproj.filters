@@ -1618,6 +1618,9 @@
     <Filter Include="源文件\2100-2199\demo2163">
       <UniqueIdentifier>{67834626-61ba-4516-a001-68dbd7192c31}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2162">
+      <UniqueIdentifier>{a5d3f440-4167-4c4e-8792-47223f36ffed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3101,6 +3104,9 @@
     </ClCompile>
     <ClCompile Include="2163. 删除元素后和的最小差值.cpp">
       <Filter>源文件\2100-2199\demo2163</Filter>
+    </ClCompile>
+    <ClCompile Include="2162. 设置时间的最少代价.cpp">
+      <Filter>源文件\2100-2199\demo2162</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
