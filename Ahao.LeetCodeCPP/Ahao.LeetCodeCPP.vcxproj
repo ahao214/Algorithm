@@ -422,6 +422,7 @@
     <ClCompile Include="2149. 按符号重排数组.cpp" />
     <ClCompile Include="2150. 找出数组中的所有孤独数字.cpp" />
     <ClCompile Include="2151. 基于陈述统计最多好人数.cpp" />
+    <ClCompile Include="2166. 设计位集.cpp" />
     <ClCompile Include="2167. 移除所有载有违禁货物车厢所需的最少时间.cpp" />
     <ClCompile Include="2169. 得到 0 的操作数.cpp" />
     <ClCompile Include="2170. 使数组变成交替数组的最少操作数.cpp" />

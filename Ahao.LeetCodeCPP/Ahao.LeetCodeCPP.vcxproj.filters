@@ -1606,6 +1606,9 @@
     <Filter Include="源文件\2100-2199\demo2167">
       <UniqueIdentifier>{7592c203-7147-41c9-b2c9-16b5ff97b483}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2166">
+      <UniqueIdentifier>{d9789557-7c32-4f6c-b81e-99b0e6a3942d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3077,6 +3080,9 @@
     </ClCompile>
     <ClCompile Include="2167. 移除所有载有违禁货物车厢所需的最少时间.cpp">
       <Filter>源文件\2100-2199\demo2167</Filter>
+    </ClCompile>
+    <ClCompile Include="2166. 设计位集.cpp">
+      <Filter>源文件\2100-2199\demo2166</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
