@@ -1621,6 +1621,9 @@
     <Filter Include="源文件\2100-2199\demo2162">
       <UniqueIdentifier>{a5d3f440-4167-4c4e-8792-47223f36ffed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2161">
+      <UniqueIdentifier>{923b26f6-8bdc-4700-8443-1e45d3879b9d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3107,6 +3110,9 @@
     </ClCompile>
     <ClCompile Include="2162. 设置时间的最少代价.cpp">
       <Filter>源文件\2100-2199\demo2162</Filter>
+    </ClCompile>
+    <ClCompile Include="2161. 根据给定数字划分数组.cpp">
+      <Filter>源文件\2100-2199\demo2161</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
