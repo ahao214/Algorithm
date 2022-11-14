@@ -1615,6 +1615,9 @@
     <Filter Include="源文件\2100-2199\demo2164">
       <UniqueIdentifier>{e6359c10-8e42-4075-90b0-306918ee9235}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2163">
+      <UniqueIdentifier>{67834626-61ba-4516-a001-68dbd7192c31}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3095,6 +3098,9 @@
     </ClCompile>
     <ClCompile Include="2164. 对奇偶下标分别排序.cpp">
       <Filter>源文件\2100-2199\demo2164</Filter>
+    </ClCompile>
+    <ClCompile Include="2163. 删除元素后和的最小差值.cpp">
+      <Filter>源文件\2100-2199\demo2163</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
