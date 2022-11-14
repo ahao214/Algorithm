@@ -1561,6 +1561,9 @@
     <Filter Include="源文件\2100-2199\demo2169">
       <UniqueIdentifier>{305b0185-acf9-4b76-a8a5-824447795889}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1478">
+      <UniqueIdentifier>{2f1a9be3-4ca7-4ddd-af45-4b6b13636d34}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2987,6 +2990,9 @@
     </ClCompile>
     <ClCompile Include="2169. 得到 0 的操作数.cpp">
       <Filter>源文件\2100-2199\demo2169</Filter>
+    </ClCompile>
+    <ClCompile Include="1478. 安排邮筒.cpp">
+      <Filter>源文件\1400-1499\demo1478</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
