@@ -185,6 +185,7 @@
     <ClCompile Include="15. 三数之和.cpp" />
     <ClCompile Include="1507. 转变日期格式.cpp" />
     <ClCompile Include="1508. 子数组和排序后的区间和.cpp" />
+    <ClCompile Include="1509. 三次操作后最大值与最小值的最小差.cpp" />
     <ClCompile Include="1510. 石子游戏 IV.cpp" />
     <ClCompile Include="1518. 换酒问题.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />

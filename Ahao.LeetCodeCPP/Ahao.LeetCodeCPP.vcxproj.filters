@@ -1597,6 +1597,9 @@
     <Filter Include="源文件\1500-1599\demo1508">
       <UniqueIdentifier>{3bf92f58-7d4d-41fb-b547-c10d3ca2696c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1509">
+      <UniqueIdentifier>{3ef32664-c89a-422f-adb8-f24c5c5f3436}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3059,6 +3062,9 @@
     </ClCompile>
     <ClCompile Include="1508. 子数组和排序后的区间和.cpp">
       <Filter>源文件\1500-1599\demo1508</Filter>
+    </ClCompile>
+    <ClCompile Include="1509. 三次操作后最大值与最小值的最小差.cpp">
+      <Filter>源文件\1500-1599\demo1509</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
