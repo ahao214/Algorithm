@@ -1555,6 +1555,9 @@
     <Filter Include="源文件\2100-2199\demo2171">
       <UniqueIdentifier>{2afefbd7-dc48-4390-ad55-b9765d190213}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2170">
+      <UniqueIdentifier>{40bde8d1-0960-4477-bff6-6880c1199756}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2975,6 +2978,9 @@
     </ClCompile>
     <ClCompile Include="2171. 拿出最少数目的魔法豆.cpp">
       <Filter>源文件\2100-2199\demo2171</Filter>
+    </ClCompile>
+    <ClCompile Include="2170. 使数组变成交替数组的最少操作数.cpp">
+      <Filter>源文件\2100-2199\demo2170</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
