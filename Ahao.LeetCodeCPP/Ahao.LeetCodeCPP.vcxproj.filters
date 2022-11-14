@@ -1585,6 +1585,9 @@
     <Filter Include="源文件\1500-1599\demo1568">
       <UniqueIdentifier>{e4983a35-129b-4e87-beed-ee71c326446c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1569">
+      <UniqueIdentifier>{7657af7f-ea21-442c-85ad-68b644d2dd42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3035,6 +3038,9 @@
     </ClCompile>
     <ClCompile Include="1568. 使陆地分离的最少天数.cpp">
       <Filter>源文件\1500-1599\demo1568</Filter>
+    </ClCompile>
+    <ClCompile Include="1569. 将子数组重新排序得到同一个二叉查找树的方案数.cpp">
+      <Filter>源文件\1500-1599\demo1569</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
