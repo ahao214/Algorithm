@@ -1552,6 +1552,9 @@
     <Filter Include="源文件\0800-0899\demo805">
       <UniqueIdentifier>{35a0c3d0-03da-4082-ac60-9997a751b3b2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2171">
+      <UniqueIdentifier>{2afefbd7-dc48-4390-ad55-b9765d190213}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2969,6 +2972,9 @@
     </ClCompile>
     <ClCompile Include="805. 数组的均值分割.cpp">
       <Filter>源文件\0800-0899\demo805</Filter>
+    </ClCompile>
+    <ClCompile Include="2171. 拿出最少数目的魔法豆.cpp">
+      <Filter>源文件\2100-2199\demo2171</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
