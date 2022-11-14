@@ -1591,6 +1591,9 @@
     <Filter Include="源文件\1500-1599\demo1510">
       <UniqueIdentifier>{8b23e07f-c131-4f67-a8d4-9d47aa146e78}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1507">
+      <UniqueIdentifier>{ad90629f-65cb-42ce-90ac-66e0d3e1c22b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3047,6 +3050,9 @@
     </ClCompile>
     <ClCompile Include="1510. 石子游戏 IV.cpp">
       <Filter>源文件\1500-1599\demo1510</Filter>
+    </ClCompile>
+    <ClCompile Include="1507. 转变日期格式.cpp">
+      <Filter>源文件\1500-1599\demo1507</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
