@@ -1567,6 +1567,9 @@
     <Filter Include="源文件\1400-1499\demo1477">
       <UniqueIdentifier>{cc83e47a-1f11-4163-97c6-626bdecd9c24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1654">
+      <UniqueIdentifier>{3c3cfdc3-6a56-4b5e-80bf-706f986561c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2999,6 +3002,9 @@
     </ClCompile>
     <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp">
       <Filter>源文件\1400-1499\demo1477</Filter>
+    </ClCompile>
+    <ClCompile Include="1654. 到家的最少跳跃次数.cpp">
+      <Filter>源文件\1600-1699\demo1654</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
