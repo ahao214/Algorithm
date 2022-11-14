@@ -1600,6 +1600,9 @@
     <Filter Include="源文件\1500-1599\demo1509">
       <UniqueIdentifier>{3ef32664-c89a-422f-adb8-f24c5c5f3436}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1494">
+      <UniqueIdentifier>{ea7b90c3-c734-49bd-9fbd-5231f5210cc8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3065,6 +3068,9 @@
     </ClCompile>
     <ClCompile Include="1509. 三次操作后最大值与最小值的最小差.cpp">
       <Filter>源文件\1500-1599\demo1509</Filter>
+    </ClCompile>
+    <ClCompile Include="1494. 并行课程 II.cpp">
+      <Filter>源文件\1400-1499\demo1494</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
