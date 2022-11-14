@@ -54,7 +54,7 @@ public:
 			}
 		}
 		sort(num1.begin(), num1.end());
-		sor(num2.begin(), num2.end());
+		sort(num2.begin(), num2.end());
 		reverse(num2.begin(), num2.end());
 		for (int i = 0; i < N; i++) {
 			if ((i & 1) == 0) {
