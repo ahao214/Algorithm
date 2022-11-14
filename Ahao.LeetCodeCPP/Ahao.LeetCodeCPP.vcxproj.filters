@@ -1570,6 +1570,9 @@
     <Filter Include="源文件\1600-1699\demo1654">
       <UniqueIdentifier>{3c3cfdc3-6a56-4b5e-80bf-706f986561c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1653">
+      <UniqueIdentifier>{2f72cf53-2ca6-421c-89d8-eb7f54c19a53}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3005,6 +3008,9 @@
     </ClCompile>
     <ClCompile Include="1654. 到家的最少跳跃次数.cpp">
       <Filter>源文件\1600-1699\demo1654</Filter>
+    </ClCompile>
+    <ClCompile Include="1653. 使字符串平衡的最少删除次数.cpp">
+      <Filter>源文件\1600-1699\demo1653</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
