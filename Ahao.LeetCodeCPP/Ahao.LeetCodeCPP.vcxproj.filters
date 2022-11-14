@@ -1576,6 +1576,9 @@
     <Filter Include="源文件\1500-1599\demo1553">
       <UniqueIdentifier>{8d5b444e-331a-4e00-bc8d-6da0fffad508}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1518">
+      <UniqueIdentifier>{eef1f4be-c9e9-42b9-bdf4-3229bf9986a1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3017,6 +3020,9 @@
     </ClCompile>
     <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp">
       <Filter>源文件\1500-1599\demo1553</Filter>
+    </ClCompile>
+    <ClCompile Include="1518. 换酒问题.cpp">
+      <Filter>源文件\1500-1599\demo1518</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
