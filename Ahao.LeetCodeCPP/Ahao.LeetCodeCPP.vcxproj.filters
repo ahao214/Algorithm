@@ -1609,6 +1609,9 @@
     <Filter Include="源文件\2100-2199\demo2166">
       <UniqueIdentifier>{d9789557-7c32-4f6c-b81e-99b0e6a3942d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2165">
+      <UniqueIdentifier>{d823a476-1953-4785-92a1-ed6e0b8951a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3083,6 +3086,9 @@
     </ClCompile>
     <ClCompile Include="2166. 设计位集.cpp">
       <Filter>源文件\2100-2199\demo2166</Filter>
+    </ClCompile>
+    <ClCompile Include="2165. 重排数字的最小值.cpp">
+      <Filter>源文件\2100-2199\demo2165</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
