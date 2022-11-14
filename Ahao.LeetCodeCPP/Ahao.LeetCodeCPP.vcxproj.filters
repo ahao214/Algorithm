@@ -1582,6 +1582,9 @@
     <Filter Include="源文件\1500-1599\demo1567">
       <UniqueIdentifier>{837d3987-9dd7-4ff8-ac00-9341b9342504}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1568">
+      <UniqueIdentifier>{e4983a35-129b-4e87-beed-ee71c326446c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3029,6 +3032,9 @@
     </ClCompile>
     <ClCompile Include="1567. 乘积为正数的最长子数组长度.cpp">
       <Filter>源文件\1500-1599\demo1567</Filter>
+    </ClCompile>
+    <ClCompile Include="1568. 使陆地分离的最少天数.cpp">
+      <Filter>源文件\1500-1599\demo1568</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
