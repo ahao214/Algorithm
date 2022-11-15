@@ -1630,6 +1630,9 @@
     <Filter Include="源文件\2100-2199\demo2160">
       <UniqueIdentifier>{a5741084-6f16-4dec-8fac-682c83f5f5f6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1493">
+      <UniqueIdentifier>{ccba5bc8-09a4-4787-b98e-299b11a20498}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3125,6 +3128,9 @@
     </ClCompile>
     <ClCompile Include="2160. 拆分数位后四位数字的最小和.cpp">
       <Filter>源文件\2100-2199\demo2160</Filter>
+    </ClCompile>
+    <ClCompile Include="1493. 删掉一个元素以后全为 1 的最长子数组.cpp">
+      <Filter>源文件\1400-1499\demo1493</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
