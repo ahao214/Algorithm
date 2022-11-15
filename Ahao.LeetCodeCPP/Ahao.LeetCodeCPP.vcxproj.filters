@@ -1633,6 +1633,9 @@
     <Filter Include="源文件\1400-1499\demo1493">
       <UniqueIdentifier>{ccba5bc8-09a4-4787-b98e-299b11a20498}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1492">
+      <UniqueIdentifier>{b03c201e-3499-4120-a61e-a11731a9b131}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3131,6 +3134,9 @@
     </ClCompile>
     <ClCompile Include="1493. 删掉一个元素以后全为 1 的最长子数组.cpp">
       <Filter>源文件\1400-1499\demo1493</Filter>
+    </ClCompile>
+    <ClCompile Include="1492. n 的第 k 个因子.cpp">
+      <Filter>源文件\1400-1499\demo1492</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

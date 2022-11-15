@@ -182,6 +182,7 @@
     <ClCompile Include="1470. 重新排列数组.cpp" />
     <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp" />
     <ClCompile Include="1478. 安排邮筒.cpp" />
+    <ClCompile Include="1492. n 的第 k 个因子.cpp" />
     <ClCompile Include="1493. 删掉一个元素以后全为 1 的最长子数组.cpp" />
     <ClCompile Include="1494. 并行课程 II.cpp" />
     <ClCompile Include="15. 三数之和.cpp" />
