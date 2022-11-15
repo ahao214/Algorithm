@@ -1624,6 +1624,9 @@
     <Filter Include="源文件\2100-2199\demo2161">
       <UniqueIdentifier>{923b26f6-8bdc-4700-8443-1e45d3879b9d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2200-2299\demo2221">
+      <UniqueIdentifier>{08ccbfae-8389-4010-b992-5d1478645a37}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3113,6 +3116,9 @@
     </ClCompile>
     <ClCompile Include="2161. 根据给定数字划分数组.cpp">
       <Filter>源文件\2100-2199\demo2161</Filter>
+    </ClCompile>
+    <ClCompile Include="2221. 数组的三角和.cpp">
+      <Filter>源文件\2200-2299\demo2221</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
