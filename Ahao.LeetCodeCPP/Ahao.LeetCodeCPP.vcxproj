@@ -176,6 +176,7 @@
     <ClCompile Include="1422. 分割字符串的最大得分.cpp" />
     <ClCompile Include="1423. 可获得的最大点数.cpp" />
     <ClCompile Include="1441. 用栈操作构建数组.cpp" />
+    <ClCompile Include="1448. 统计二叉树中好节点的数目.cpp" />
     <ClCompile Include="1449.数位成本和为目标值的最大数字.cpp" />
     <ClCompile Include="1450. 在既定时间做作业的学生人数.cpp" />
     <ClCompile Include="1460. 通过翻转子数组使两个数组相等.cpp" />
