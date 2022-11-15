@@ -1654,6 +1654,9 @@
     <Filter Include="源文件\1400-1499\demo1461">
       <UniqueIdentifier>{7e5c4855-e8f9-4dc1-9cb6-f460ea9325bc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1460">
+      <UniqueIdentifier>{3b4ffbb8-336f-4439-8304-44cf5c22c533}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3173,6 +3176,9 @@
     </ClCompile>
     <ClCompile Include="1461. 检查一个字符串是否包含所有长度为 K 的二进制子串.cpp">
       <Filter>源文件\1400-1499\demo1461</Filter>
+    </ClCompile>
+    <ClCompile Include="1460. 通过翻转子数组使两个数组相等.cpp">
+      <Filter>源文件\1400-1499\demo1460</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
