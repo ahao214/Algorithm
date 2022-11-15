@@ -1642,6 +1642,9 @@
     <Filter Include="源文件\1400-1499\demo1476">
       <UniqueIdentifier>{a1d89c08-3245-49db-862b-405451baa43e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1475">
+      <UniqueIdentifier>{61a4911b-3905-46a8-befc-5a3aac16c5c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3149,6 +3152,9 @@
     </ClCompile>
     <ClCompile Include="1476. 子矩形查询.cpp">
       <Filter>源文件\1400-1499\demo1476</Filter>
+    </ClCompile>
+    <ClCompile Include="1475. 商品折扣后的最终价格.cpp">
+      <Filter>源文件\1400-1499\demo1475</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
