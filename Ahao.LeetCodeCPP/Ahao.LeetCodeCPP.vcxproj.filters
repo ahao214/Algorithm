@@ -1627,6 +1627,9 @@
     <Filter Include="源文件\2200-2299\demo2221">
       <UniqueIdentifier>{08ccbfae-8389-4010-b992-5d1478645a37}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2160">
+      <UniqueIdentifier>{a5741084-6f16-4dec-8fac-682c83f5f5f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3119,6 +3122,9 @@
     </ClCompile>
     <ClCompile Include="2221. 数组的三角和.cpp">
       <Filter>源文件\2200-2299\demo2221</Filter>
+    </ClCompile>
+    <ClCompile Include="2160. 拆分数位后四位数字的最小和.cpp">
+      <Filter>源文件\2100-2199\demo2160</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
