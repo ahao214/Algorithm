@@ -1645,6 +1645,9 @@
     <Filter Include="源文件\1400-1499\demo1475">
       <UniqueIdentifier>{61a4911b-3905-46a8-befc-5a3aac16c5c4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1463">
+      <UniqueIdentifier>{b0abd5ef-ead8-4a58-9747-a9b922cba898}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3155,6 +3158,9 @@
     </ClCompile>
     <ClCompile Include="1475. 商品折扣后的最终价格.cpp">
       <Filter>源文件\1400-1499\demo1475</Filter>
+    </ClCompile>
+    <ClCompile Include="1463. 摘樱桃 II.cpp">
+      <Filter>源文件\1400-1499\demo1463</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
