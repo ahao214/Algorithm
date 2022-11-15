@@ -1636,6 +1636,12 @@
     <Filter Include="源文件\1400-1499\demo1492">
       <UniqueIdentifier>{b03c201e-3499-4120-a61e-a11731a9b131}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1491">
+      <UniqueIdentifier>{6d26f84c-a75a-4b8b-a19c-93d450a6ebb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1400-1499\demo1476">
+      <UniqueIdentifier>{a1d89c08-3245-49db-862b-405451baa43e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3137,6 +3143,12 @@
     </ClCompile>
     <ClCompile Include="1492. n 的第 k 个因子.cpp">
       <Filter>源文件\1400-1499\demo1492</Filter>
+    </ClCompile>
+    <ClCompile Include="1491. 去掉最低工资和最高工资后的工资平均值.cpp">
+      <Filter>源文件\1400-1499\demo1491</Filter>
+    </ClCompile>
+    <ClCompile Include="1476. 子矩形查询.cpp">
+      <Filter>源文件\1400-1499\demo1476</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

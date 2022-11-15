@@ -180,8 +180,10 @@
     <ClCompile Include="1450. 在既定时间做作业的学生人数.cpp" />
     <ClCompile Include="1464. 数组中两元素的最大乘积.cpp" />
     <ClCompile Include="1470. 重新排列数组.cpp" />
+    <ClCompile Include="1476. 子矩形查询.cpp" />
     <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp" />
     <ClCompile Include="1478. 安排邮筒.cpp" />
+    <ClCompile Include="1491. 去掉最低工资和最高工资后的工资平均值.cpp" />
     <ClCompile Include="1492. n 的第 k 个因子.cpp" />
     <ClCompile Include="1493. 删掉一个元素以后全为 1 的最长子数组.cpp" />
     <ClCompile Include="1494. 并行课程 II.cpp" />
