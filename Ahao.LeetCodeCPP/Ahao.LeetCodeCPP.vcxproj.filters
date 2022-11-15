@@ -1663,6 +1663,9 @@
     <Filter Include="源文件\1400-1499\demo1447">
       <UniqueIdentifier>{dafb7ed5-8681-4a63-a779-792d354b4b14}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1446">
+      <UniqueIdentifier>{c97e83f6-ed3f-429a-89c2-b1ace60bfb2b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3191,6 +3194,9 @@
     </ClCompile>
     <ClCompile Include="1447. 最简分数.cpp">
       <Filter>源文件\1400-1499\demo1447</Filter>
+    </ClCompile>
+    <ClCompile Include="1446. 连续字符.cpp">
+      <Filter>源文件\1400-1499\demo1446</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
