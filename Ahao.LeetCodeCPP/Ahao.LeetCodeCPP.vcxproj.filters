@@ -1651,6 +1651,9 @@
     <Filter Include="源文件\1400-1499\demo1462">
       <UniqueIdentifier>{23daa216-ad09-42e9-912a-a3c8149bbee3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1461">
+      <UniqueIdentifier>{7e5c4855-e8f9-4dc1-9cb6-f460ea9325bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3167,6 +3170,9 @@
     </ClCompile>
     <ClCompile Include="1462. 课程表 IV.cpp">
       <Filter>源文件\1400-1499\demo1462</Filter>
+    </ClCompile>
+    <ClCompile Include="1461. 检查一个字符串是否包含所有长度为 K 的二进制子串.cpp">
+      <Filter>源文件\1400-1499\demo1461</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
