@@ -1657,6 +1657,9 @@
     <Filter Include="源文件\1400-1499\demo1460">
       <UniqueIdentifier>{3b4ffbb8-336f-4439-8304-44cf5c22c533}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\NewFilter1">
+      <UniqueIdentifier>{5e3c6468-2c26-4bc2-ab52-3fdee219f2ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
