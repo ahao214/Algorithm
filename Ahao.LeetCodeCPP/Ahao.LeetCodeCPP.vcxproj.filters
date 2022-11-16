@@ -1666,6 +1666,9 @@
     <Filter Include="源文件\1400-1499\demo1446">
       <UniqueIdentifier>{c97e83f6-ed3f-429a-89c2-b1ace60bfb2b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo775">
+      <UniqueIdentifier>{85c32e60-ec0c-430a-8d4c-2aabc8adbb77}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3197,6 +3200,9 @@
     </ClCompile>
     <ClCompile Include="1446. 连续字符.cpp">
       <Filter>源文件\1400-1499\demo1446</Filter>
+    </ClCompile>
+    <ClCompile Include="775. 全局倒置与局部倒置.cpp">
+      <Filter>源文件\0700-0799\demo775</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -581,6 +581,7 @@
     <ClCompile Include="768. 最多能完成排序的块 II.cpp" />
     <ClCompile Include="769. 最多能完成排序的块.cpp" />
     <ClCompile Include="77. 组合.cpp" />
+    <ClCompile Include="775. 全局倒置与局部倒置.cpp" />
     <ClCompile Include="777. 在LR字符串中交换相邻字符.cpp" />
     <ClCompile Include="779. 第K个语法符号.cpp" />
     <ClCompile Include="78. 子集.cpp" />
