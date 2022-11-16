@@ -228,6 +228,7 @@
     <ClCompile Include="1622. 奇妙序列.cpp" />
     <ClCompile Include="1624. 两个相同字符之间的最长子字符串.cpp" />
     <ClCompile Include="1625. 执行操作后字典序最小的字符串.cpp" />
+    <ClCompile Include="1626. 无矛盾的最佳球队.cpp" />
     <ClCompile Include="1627.带阈值的图连通性.cpp" />
     <ClCompile Include="1631. 最小体力消耗路径.cpp" />
     <ClCompile Include="1636. 按照频率将数组升序排序.cpp" />

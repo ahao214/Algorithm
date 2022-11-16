@@ -1687,6 +1687,9 @@
     <Filter Include="源文件\1600-1699\demo1655">
       <UniqueIdentifier>{8df9ba96-ab23-4c6b-b793-8c4427f411e6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1600-1699\demo1626">
+      <UniqueIdentifier>{60a8335c-45c2-4c75-bf8e-13e96cc1759c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3239,6 +3242,9 @@
     </ClCompile>
     <ClCompile Include="1655. 分配重复整数.cpp">
       <Filter>源文件\1600-1699\demo1655</Filter>
+    </ClCompile>
+    <ClCompile Include="1626. 无矛盾的最佳球队.cpp">
+      <Filter>源文件\1600-1699\demo1626</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
