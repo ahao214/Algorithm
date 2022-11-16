@@ -1681,6 +1681,9 @@
     <Filter Include="源文件\1500-1599\demo1557">
       <UniqueIdentifier>{dd696475-eea4-46fa-92ef-e577b60f0fdd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1556">
+      <UniqueIdentifier>{2ad1d3ef-3df4-48ba-ae57-3968efbaf139}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3227,6 +3230,9 @@
     </ClCompile>
     <ClCompile Include="1557. 可以到达所有点的最少点数目.cpp">
       <Filter>源文件\1500-1599\demo1557</Filter>
+    </ClCompile>
+    <ClCompile Include="1556. 千位分隔数.cpp">
+      <Filter>源文件\1500-1599\demo1556</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

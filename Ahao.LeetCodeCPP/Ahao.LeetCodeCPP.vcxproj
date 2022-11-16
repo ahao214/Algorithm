@@ -203,6 +203,7 @@
     <ClCompile Include="1518. 换酒问题.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />
     <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp" />
+    <ClCompile Include="1556. 千位分隔数.cpp" />
     <ClCompile Include="1557. 可以到达所有点的最少点数目.cpp" />
     <ClCompile Include="1558. 得到目标数组的最少函数调用次数.cpp" />
     <ClCompile Include="1559. 二维网格图中探测环.cpp" />
