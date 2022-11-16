@@ -1690,6 +1690,9 @@
     <Filter Include="源文件\1600-1699\demo1626">
       <UniqueIdentifier>{60a8335c-45c2-4c75-bf8e-13e96cc1759c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1579">
+      <UniqueIdentifier>{74f2942c-7b08-4bbf-ad9e-4acb0be47189}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3245,6 +3248,9 @@
     </ClCompile>
     <ClCompile Include="1626. 无矛盾的最佳球队.cpp">
       <Filter>源文件\1600-1699\demo1626</Filter>
+    </ClCompile>
+    <ClCompile Include="1579. 保证图可完全遍历.cpp">
+      <Filter>源文件\1500-1599\demo1579</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
