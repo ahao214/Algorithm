@@ -1693,6 +1693,9 @@
     <Filter Include="源文件\1500-1599\demo1579">
       <UniqueIdentifier>{74f2942c-7b08-4bbf-ad9e-4acb0be47189}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1577">
+      <UniqueIdentifier>{1e94b1ef-3807-4c5a-bbf2-a70aa0cad380}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3251,6 +3254,9 @@
     </ClCompile>
     <ClCompile Include="1579. 保证图可完全遍历.cpp">
       <Filter>源文件\1500-1599\demo1579</Filter>
+    </ClCompile>
+    <ClCompile Include="1577. 数的平方等于两数乘积的方法数.cpp">
+      <Filter>源文件\1500-1599\demo1577</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
