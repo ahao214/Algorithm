@@ -643,6 +643,7 @@
     <ClCompile Include="940. 不同的子序列 II.cpp" />
     <ClCompile Include="942. 增减字符串匹配.cpp" />
     <ClCompile Include="944. 删列造序.cpp" />
+    <ClCompile Include="947. 移除最多的同行或同列石头.cpp" />
     <ClCompile Include="953. 验证外星语词典.cpp" />
     <ClCompile Include="954. 二倍数对数组.cpp" />
     <ClCompile Include="961. 在长度 2N 的数组中找出重复 N 次的元素.cpp" />

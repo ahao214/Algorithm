@@ -1669,6 +1669,9 @@
     <Filter Include="源文件\0700-0799\demo775">
       <UniqueIdentifier>{85c32e60-ec0c-430a-8d4c-2aabc8adbb77}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo947">
+      <UniqueIdentifier>{cf975c45-90fa-4cd8-90af-4232ac58e736}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3203,6 +3206,9 @@
     </ClCompile>
     <ClCompile Include="775. 全局倒置与局部倒置.cpp">
       <Filter>源文件\0700-0799\demo775</Filter>
+    </ClCompile>
+    <ClCompile Include="947. 移除最多的同行或同列石头.cpp">
+      <Filter>源文件\0900-0999\demo947</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
