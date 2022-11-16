@@ -203,6 +203,7 @@
     <ClCompile Include="1518. 换酒问题.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />
     <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp" />
+    <ClCompile Include="1559. 二维网格图中探测环.cpp" />
     <ClCompile Include="1567. 乘积为正数的最长子数组长度.cpp" />
     <ClCompile Include="1568. 使陆地分离的最少天数.cpp" />
     <ClCompile Include="1569. 将子数组重新排序得到同一个二叉查找树的方案数.cpp" />

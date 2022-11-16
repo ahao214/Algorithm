@@ -1672,6 +1672,9 @@
     <Filter Include="源文件\0900-0999\demo947">
       <UniqueIdentifier>{cf975c45-90fa-4cd8-90af-4232ac58e736}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1559">
+      <UniqueIdentifier>{4ff694c9-044f-45ff-96e3-4e3849e5ed7c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3209,6 +3212,9 @@
     </ClCompile>
     <ClCompile Include="947. 移除最多的同行或同列石头.cpp">
       <Filter>源文件\0900-0999\demo947</Filter>
+    </ClCompile>
+    <ClCompile Include="1559. 二维网格图中探测环.cpp">
+      <Filter>源文件\1500-1599\demo1559</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
