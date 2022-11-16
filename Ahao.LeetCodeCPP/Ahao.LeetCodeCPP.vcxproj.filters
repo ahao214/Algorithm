@@ -1678,6 +1678,9 @@
     <Filter Include="源文件\1500-1599\demo1558">
       <UniqueIdentifier>{46de89d2-b395-46f6-b897-1179a7408e49}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1557">
+      <UniqueIdentifier>{dd696475-eea4-46fa-92ef-e577b60f0fdd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3221,6 +3224,9 @@
     </ClCompile>
     <ClCompile Include="1558. 得到目标数组的最少函数调用次数.cpp">
       <Filter>源文件\1500-1599\demo1558</Filter>
+    </ClCompile>
+    <ClCompile Include="1557. 可以到达所有点的最少点数目.cpp">
+      <Filter>源文件\1500-1599\demo1557</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
