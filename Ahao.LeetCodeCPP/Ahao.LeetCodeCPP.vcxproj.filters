@@ -1720,6 +1720,9 @@
     <Filter Include="源文件\1500-1599\demo1552">
       <UniqueIdentifier>{3e3bb5bb-d748-4173-a045-901a22595d60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1551">
+      <UniqueIdentifier>{2a86b0da-6707-4c88-b08f-7b7aa045057a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3305,6 +3308,9 @@
     </ClCompile>
     <ClCompile Include="1552. 两球之间的磁力.cpp">
       <Filter>源文件\1500-1599\demo1552</Filter>
+    </ClCompile>
+    <ClCompile Include="1551. 使数组中所有元素相等的最小操作数.cpp">
+      <Filter>源文件\1500-1599\demo1551</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
