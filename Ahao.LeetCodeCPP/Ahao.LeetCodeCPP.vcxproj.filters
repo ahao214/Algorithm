@@ -1711,6 +1711,9 @@
     <Filter Include="源文件\1500-1599\demo1562">
       <UniqueIdentifier>{c787b788-0e15-4d77-ad55-12c579f848d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1561">
+      <UniqueIdentifier>{01403a8d-784e-4f92-8967-45dc1445c9fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3287,6 +3290,9 @@
     </ClCompile>
     <ClCompile Include="1562. 查找大小为 M 的最新分组.cpp">
       <Filter>源文件\1500-1599\demo1562</Filter>
+    </ClCompile>
+    <ClCompile Include="1561. 你可以获得的最大硬币数目.cpp">
+      <Filter>源文件\1500-1599\demo1561</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

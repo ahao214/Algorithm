@@ -207,6 +207,7 @@
     <ClCompile Include="1557. 可以到达所有点的最少点数目.cpp" />
     <ClCompile Include="1558. 得到目标数组的最少函数调用次数.cpp" />
     <ClCompile Include="1559. 二维网格图中探测环.cpp" />
+    <ClCompile Include="1561. 你可以获得的最大硬币数目.cpp" />
     <ClCompile Include="1562. 查找大小为 M 的最新分组.cpp" />
     <ClCompile Include="1563. 石子游戏 V.cpp" />
     <ClCompile Include="1566. 重复至少 K 次且长度为 M 的模式.cpp" />
