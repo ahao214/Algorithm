@@ -201,6 +201,7 @@
     <ClCompile Include="1509. 三次操作后最大值与最小值的最小差.cpp" />
     <ClCompile Include="1510. 石子游戏 IV.cpp" />
     <ClCompile Include="1518. 换酒问题.cpp" />
+    <ClCompile Include="1521. 找到最接近目标值的函数值.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />
     <ClCompile Include="1550. 存在连续三个奇数的数组.cpp" />
     <ClCompile Include="1551. 使数组中所有元素相等的最小操作数.cpp" />
