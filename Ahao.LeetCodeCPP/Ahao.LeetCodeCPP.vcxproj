@@ -202,6 +202,7 @@
     <ClCompile Include="1510. 石子游戏 IV.cpp" />
     <ClCompile Include="1518. 换酒问题.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />
+    <ClCompile Include="1552. 两球之间的磁力.cpp" />
     <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp" />
     <ClCompile Include="1556. 千位分隔数.cpp" />
     <ClCompile Include="1557. 可以到达所有点的最少点数目.cpp" />

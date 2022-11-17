@@ -1717,6 +1717,9 @@
     <Filter Include="源文件\1500-1599\demo1560">
       <UniqueIdentifier>{498e453a-5ba1-42f0-b01f-91db4d04a4f3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1552">
+      <UniqueIdentifier>{3e3bb5bb-d748-4173-a045-901a22595d60}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3299,6 +3302,9 @@
     </ClCompile>
     <ClCompile Include="1560. 圆形赛道上经过次数最多的扇区.cpp">
       <Filter>源文件\1500-1599\demo1560</Filter>
+    </ClCompile>
+    <ClCompile Include="1552. 两球之间的磁力.cpp">
+      <Filter>源文件\1500-1599\demo1552</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
