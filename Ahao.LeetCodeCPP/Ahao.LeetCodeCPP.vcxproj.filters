@@ -1705,6 +1705,9 @@
     <Filter Include="源文件\1500-1599\demo1566">
       <UniqueIdentifier>{85c20105-8d98-429a-a004-a7f35fff262f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1563">
+      <UniqueIdentifier>{262e07fe-2f99-419a-9c52-408bd23c82c4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3275,6 +3278,9 @@
     </ClCompile>
     <ClCompile Include="1566. 重复至少 K 次且长度为 M 的模式.cpp">
       <Filter>源文件\1500-1599\demo1566</Filter>
+    </ClCompile>
+    <ClCompile Include="1563. 石子游戏 V.cpp">
+      <Filter>源文件\1500-1599\demo1563</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
