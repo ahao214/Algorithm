@@ -1723,6 +1723,9 @@
     <Filter Include="源文件\1500-1599\demo1551">
       <UniqueIdentifier>{2a86b0da-6707-4c88-b08f-7b7aa045057a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1550">
+      <UniqueIdentifier>{d5a033db-58f0-4481-89c7-58a7ea072069}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3311,6 +3314,9 @@
     </ClCompile>
     <ClCompile Include="1551. 使数组中所有元素相等的最小操作数.cpp">
       <Filter>源文件\1500-1599\demo1551</Filter>
+    </ClCompile>
+    <ClCompile Include="1550. 存在连续三个奇数的数组.cpp">
+      <Filter>源文件\1500-1599\demo1550</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -202,6 +202,7 @@
     <ClCompile Include="1510. 石子游戏 IV.cpp" />
     <ClCompile Include="1518. 换酒问题.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />
+    <ClCompile Include="1550. 存在连续三个奇数的数组.cpp" />
     <ClCompile Include="1551. 使数组中所有元素相等的最小操作数.cpp" />
     <ClCompile Include="1552. 两球之间的磁力.cpp" />
     <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp" />
