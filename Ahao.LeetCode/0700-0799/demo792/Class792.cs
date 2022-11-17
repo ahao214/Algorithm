@@ -67,5 +67,45 @@ namespace Ahao.LeetCode._0700_0799.demo792
         }
 
 
+        /// <summary>
+        /// 多指针
+        /// </summary>
+        /// <param name="s"></param>
+        /// <param name="words"></param>
+        /// <returns></returns>
+        public int NumMatchingSubseq2(string s, string[] words)
+        {
+            Queue<int[]>[] p = new Queue<int[]>[26];
+            for (int i = 0; i < 26; ++i)
+            {
+                p[i] = new Queue<int[]>();
+            }
+            for (int i = 0; i < words.Length; ++i)
+            {
+                p[words[i][0] - 'a'].Enqueue(new int[] { i, 0 });
+            }
+            int res = 0;
+            for (int i = 0; i < s.Length; ++i)
+            {
+                char c = s[i];
+                int len = p[c - 'a'].Count;
+                while (len > 0)
+                {
+                    int[] t = p[c - 'a'].Dequeue();
+                    if (t[1] == words[t[0]].Length - 1)
+                    {
+                        ++res;
+                    }
+                    else
+                    {
+                        ++t[1];
+                        p[words[t[0]][t[1]] - 'a'].Enqueue(t);
+                    }
+                    --len;
+                }
+            }
+            return res;
+        }
+
     }
 }
