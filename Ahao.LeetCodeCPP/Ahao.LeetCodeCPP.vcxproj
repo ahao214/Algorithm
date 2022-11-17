@@ -207,9 +207,11 @@
     <ClCompile Include="1557. 可以到达所有点的最少点数目.cpp" />
     <ClCompile Include="1558. 得到目标数组的最少函数调用次数.cpp" />
     <ClCompile Include="1559. 二维网格图中探测环.cpp" />
+    <ClCompile Include="1566. 重复至少 K 次且长度为 M 的模式.cpp" />
     <ClCompile Include="1567. 乘积为正数的最长子数组长度.cpp" />
     <ClCompile Include="1568. 使陆地分离的最少天数.cpp" />
     <ClCompile Include="1569. 将子数组重新排序得到同一个二叉查找树的方案数.cpp" />
+    <ClCompile Include="1576. 替换所有的问号.cpp" />
     <ClCompile Include="1577. 数的平方等于两数乘积的方法数.cpp" />
     <ClCompile Include="1579. 保证图可完全遍历.cpp" />
     <ClCompile Include="1582. 二进制矩阵中的特殊位置.cpp" />

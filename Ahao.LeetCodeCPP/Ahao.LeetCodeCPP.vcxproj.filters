@@ -1699,6 +1699,12 @@
     <Filter Include="源文件\0700-0799\demo792">
       <UniqueIdentifier>{0030f4da-1725-460d-ab5a-e4613f684d1b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1576">
+      <UniqueIdentifier>{aed7668d-497b-4528-8256-2430836ae1a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1500-1599\demo1566">
+      <UniqueIdentifier>{85c20105-8d98-429a-a004-a7f35fff262f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3263,6 +3269,12 @@
     </ClCompile>
     <ClCompile Include="792. 匹配子序列的单词数.cpp">
       <Filter>源文件\0700-0799\demo792</Filter>
+    </ClCompile>
+    <ClCompile Include="1576. 替换所有的问号.cpp">
+      <Filter>源文件\1500-1599\demo1576</Filter>
+    </ClCompile>
+    <ClCompile Include="1566. 重复至少 K 次且长度为 M 的模式.cpp">
+      <Filter>源文件\1500-1599\demo1566</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
