@@ -1696,6 +1696,9 @@
     <Filter Include="源文件\1500-1599\demo1577">
       <UniqueIdentifier>{1e94b1ef-3807-4c5a-bbf2-a70aa0cad380}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0700-0799\demo792">
+      <UniqueIdentifier>{0030f4da-1725-460d-ab5a-e4613f684d1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3257,6 +3260,9 @@
     </ClCompile>
     <ClCompile Include="1577. 数的平方等于两数乘积的方法数.cpp">
       <Filter>源文件\1500-1599\demo1577</Filter>
+    </ClCompile>
+    <ClCompile Include="792. 匹配子序列的单词数.cpp">
+      <Filter>源文件\0700-0799\demo792</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
