@@ -29,3 +29,22 @@ public:
         return (res + mod) % mod;
     }
 };
+
+
+
+
+class Solution {
+public:
+    int mod = 1000000007;
+    int sumSubseqWidths(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+        long long res = 0, p = 1, sum = 0;
+        for (auto x : nums)
+        {
+            res = (res + x * (p - 1) - sum) % mod;
+            sum = (sum * 2 + x) % mod;
+            p = p * 2 % mod;
+        }
+        return (res + mod) % mod;
+    }
+};
