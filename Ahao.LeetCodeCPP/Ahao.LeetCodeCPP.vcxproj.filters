@@ -1732,6 +1732,9 @@
     <Filter Include="源文件\0800-0899\demo891">
       <UniqueIdentifier>{e6fe434e-f722-4648-a48e-cb60effce81a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0300-0399\demo327">
+      <UniqueIdentifier>{d40ba56b-dfd9-4ce4-b2c1-518004debd0c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3332,6 +3335,9 @@
     </ClCompile>
     <ClCompile Include="173. 二叉搜索树迭代器.cpp">
       <Filter>源文件\0100-0199\demo173</Filter>
+    </ClCompile>
+    <ClCompile Include="327. 区间和的个数.cpp">
+      <Filter>源文件\0300-0399\demo327</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
