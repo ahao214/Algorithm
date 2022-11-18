@@ -1735,6 +1735,9 @@
     <Filter Include="源文件\0300-0399\demo327">
       <UniqueIdentifier>{d40ba56b-dfd9-4ce4-b2c1-518004debd0c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2100-2199\demo2197">
+      <UniqueIdentifier>{905ba5a3-58c0-4290-ba57-8243b2113e18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3338,6 +3341,9 @@
     </ClCompile>
     <ClCompile Include="327. 区间和的个数.cpp">
       <Filter>源文件\0300-0399\demo327</Filter>
+    </ClCompile>
+    <ClCompile Include="2197. 替换数组中的非互质数.cpp">
+      <Filter>源文件\2100-2199\demo2197</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
