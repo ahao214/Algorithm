@@ -3330,6 +3330,9 @@
     <ClCompile Include="891. 子序列宽度之和.cpp">
       <Filter>源文件\0800-0899\demo891</Filter>
     </ClCompile>
+    <ClCompile Include="173. 二叉搜索树迭代器.cpp">
+      <Filter>源文件\0100-0199\demo173</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
