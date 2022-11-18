@@ -2,13 +2,42 @@ using namespace std;
 #include<vector>
 #include <queue>
 
-class Solution {
-	/*
-	23. 合并K个升序链表
-	给你一个链表数组，每个链表都已经按升序排列。
 
-	请你将所有链表合并到一个升序链表中，返回合并后的链表。
-	*/
+
+
+/*
+23. 合并K个升序链表
+给你一个链表数组，每个链表都已经按升序排列。
+
+请你将所有链表合并到一个升序链表中，返回合并后的链表。
+*/
+class Solution {
+public:
+	ListNode* mergeKLists(vector<ListNode*>& lists) {
+		priority_queue<pair<int, ListNode*>> heap;
+		for (auto list : lists)
+		{
+			if (list) heap.push({ -list->val,list });
+		}
+		ListNode* dummy = new ListNode(-1);
+		auto cur = dummy;
+		while (heap.size())
+		{
+			auto t = heap.top();
+			heap.pop();
+			if (t.second->next) heap.push({ -t.second->next->val,t.second->next });
+
+			cur->next = t.second;
+			cur = cur->next;
+		}
+		cur->next = NULL;
+		return dummy->next;
+	}
+};
+
+
+
+class Solution {
 public:
 	struct Cmp {
 		bool operator() (ListNode* a, ListNode* b) {
