@@ -1729,6 +1729,9 @@
     <Filter Include="源文件\1500-1599\demo1521">
       <UniqueIdentifier>{9e3d23e8-51fc-453d-a1a6-30b5e2159955}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo891">
+      <UniqueIdentifier>{e6fe434e-f722-4648-a48e-cb60effce81a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3323,6 +3326,9 @@
     </ClCompile>
     <ClCompile Include="1521. 找到最接近目标值的函数值.cpp">
       <Filter>源文件\1500-1599\demo1521</Filter>
+    </ClCompile>
+    <ClCompile Include="891. 子序列宽度之和.cpp">
+      <Filter>源文件\0800-0899\demo891</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
