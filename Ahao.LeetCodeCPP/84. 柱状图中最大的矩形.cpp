@@ -5,13 +5,13 @@
 using namespace std;
 
 
-class Solution {
-	/*
-	84. 柱状图中最大的矩形
-	给定 n 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
+/*
+84. 柱状图中最大的矩形
+给定 n 个非负整数，用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 1 。
 
-	求在该柱状图中，能够勾勒出来的矩形的最大面积。
-	*/
+求在该柱状图中，能够勾勒出来的矩形的最大面积。
+*/
+class Solution {
 public:
 	/*
 	Times:O(n^2)
@@ -36,5 +36,50 @@ public:
 		}
 
 		return ans;
+	}
+};
+
+
+
+
+class Solution {
+public:
+	int largestRectangleArea(vector<int>& heights) {
+		int n = heights.size();
+		stack<int> stk;
+		vector<int>nextSmaller(n, n);
+		for (int i = 0; i < heights.size(); i++)
+		{
+			while (!stk.empty() && heights[stk.top()] > heights[i])
+			{
+				nextSmaller[stk.top()] = i;
+				stk.pop();
+			}
+			stk.push(i);
+		}
+
+		while (!stk.empty())
+			stk.pop();
+		vector<int>prevSmaller(n, -1);
+		for (int i = 0; i < heights.size(); i++)
+		{
+			while (!stk.empty() && heights[stk.top()] > heights[i])
+			{
+				stk.pop();
+			}
+			if (!stk.empty())
+			{
+				prevSmaller[i] = stk.top();
+			}
+			stk.push(i);
+		}
+
+		int res = 0;
+		for (int i = 0; i < n; i++)
+		{
+			int area = heights[i] * (nextSmaller[i] - prevSmaller[i] - 1);
+			res = max(res, area);
+		}
+		return res;
 	}
 };
