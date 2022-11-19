@@ -1738,6 +1738,9 @@
     <Filter Include="源文件\2100-2199\demo2197">
       <UniqueIdentifier>{905ba5a3-58c0-4290-ba57-8243b2113e18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2000-2099\demo2007">
+      <UniqueIdentifier>{2e794410-dddc-4cb8-b4f2-568fe9ae46f1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3344,6 +3347,9 @@
     </ClCompile>
     <ClCompile Include="2197. 替换数组中的非互质数.cpp">
       <Filter>源文件\2100-2199\demo2197</Filter>
+    </ClCompile>
+    <ClCompile Include="2007. 从双倍数组中还原原数组.cpp">
+      <Filter>源文件\2000-2099\demo2007</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
