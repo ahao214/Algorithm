@@ -1747,6 +1747,9 @@
     <Filter Include="源文件\0800-0899\demo808">
       <UniqueIdentifier>{776a397c-0ab8-43db-90d3-4252b03e480d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1520">
+      <UniqueIdentifier>{95661a89-ef75-4445-917d-d95a839408ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3362,6 +3365,9 @@
     </ClCompile>
     <ClCompile Include="808. 分汤.cpp">
       <Filter>源文件\0800-0899\demo808</Filter>
+    </ClCompile>
+    <ClCompile Include="1520. 最多的不重叠子字符串.cpp">
+      <Filter>源文件\1500-1599\demo1520</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
