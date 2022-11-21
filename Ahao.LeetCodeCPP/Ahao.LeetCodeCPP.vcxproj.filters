@@ -1750,6 +1750,9 @@
     <Filter Include="源文件\1500-1599\demo1520">
       <UniqueIdentifier>{95661a89-ef75-4445-917d-d95a839408ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1519">
+      <UniqueIdentifier>{3b0cd765-2aeb-428c-bae6-f6b8eb3b1e35}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3368,6 +3371,9 @@
     </ClCompile>
     <ClCompile Include="1520. 最多的不重叠子字符串.cpp">
       <Filter>源文件\1500-1599\demo1520</Filter>
+    </ClCompile>
+    <ClCompile Include="1519. 子树中标签相同的节点数.cpp">
+      <Filter>源文件\1500-1599\demo1519</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
