@@ -42,6 +42,47 @@ namespace Ahao.LeetCode._0800_0899.demo808
 
 
 
+        private double[][] memo;
+        /// <summary>
+        /// 记忆化搜索
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public double SoupServings2(int n)
+        {
+            n = (int)Math.Ceiling((double)n / 25);
+            if (n >= 179)
+            {
+                return 1.0;
+            }
+            memo = new double[n + 1][];
+            for (int i = 0; i <= n; i++)
+            {
+                memo[i] = new double[n + 1];
+            }
+            return DFS(n, n);
+        }
+
+        public double DFS(int a, int b)
+        {
+            if (a <= 0 && b <= 0)
+            {
+                return 0.5;
+            }
+            else if (a <= 0)
+            {
+                return 1;
+            }
+            else if (b <= 0)
+            {
+                return 0;
+            }
+            if (memo[a][b] == 0)
+            {
+                memo[a][b] = 0.25 * (DFS(a - 4, b) + DFS(a - 3, b - 1) + DFS(a - 2, b - 2) + DFS(a - 1, b - 3));
+            }
+            return memo[a][b];
+        }
 
     }
 }
