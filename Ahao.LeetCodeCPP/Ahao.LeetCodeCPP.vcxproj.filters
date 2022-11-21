@@ -1744,6 +1744,9 @@
     <Filter Include="源文件\0700-0799\demo799">
       <UniqueIdentifier>{df5abfba-ca55-4216-94dd-6cf4abd18049}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo808">
+      <UniqueIdentifier>{776a397c-0ab8-43db-90d3-4252b03e480d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3356,6 +3359,9 @@
     </ClCompile>
     <ClCompile Include="799. 香槟塔.cpp">
       <Filter>源文件\0700-0799\demo799</Filter>
+    </ClCompile>
+    <ClCompile Include="808. 分汤.cpp">
+      <Filter>源文件\0800-0899\demo808</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
