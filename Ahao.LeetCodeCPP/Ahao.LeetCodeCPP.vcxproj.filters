@@ -1777,6 +1777,9 @@
     <Filter Include="源文件\1500-1599\demo1503">
       <UniqueIdentifier>{716b015b-5891-42f2-8b66-35b9253b87ba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1502">
+      <UniqueIdentifier>{05a6bfc1-c522-442e-8d89-95d2c58d9dcc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3422,6 +3425,9 @@
     </ClCompile>
     <ClCompile Include="1503. 所有蚂蚁掉下来前的最后一刻.cpp">
       <Filter>源文件\1500-1599\demo1503</Filter>
+    </ClCompile>
+    <ClCompile Include="1502. 判断能否形成等差数列.cpp">
+      <Filter>源文件\1500-1599\demo1502</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
