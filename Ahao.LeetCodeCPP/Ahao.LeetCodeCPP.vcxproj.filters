@@ -1774,6 +1774,9 @@
     <Filter Include="源文件\1500-1599\demo1504">
       <UniqueIdentifier>{0401da6f-7318-4419-ba27-0d52e959bdc8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1503">
+      <UniqueIdentifier>{716b015b-5891-42f2-8b66-35b9253b87ba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3416,6 +3419,9 @@
     </ClCompile>
     <ClCompile Include="1504. 统计全 1 子矩形.cpp">
       <Filter>源文件\1500-1599\demo1504</Filter>
+    </ClCompile>
+    <ClCompile Include="1503. 所有蚂蚁掉下来前的最后一刻.cpp">
+      <Filter>源文件\1500-1599\demo1503</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
