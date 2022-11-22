@@ -1765,6 +1765,9 @@
     <Filter Include="源文件\1500-1599\demo1513">
       <UniqueIdentifier>{bbe84200-7576-41b6-95de-415da70af87c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1512">
+      <UniqueIdentifier>{992cdec0-c9d6-4e4c-bd19-bbbebd15df33}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3398,6 +3401,9 @@
     </ClCompile>
     <ClCompile Include="1513. 仅含 1 的子串数.cpp">
       <Filter>源文件\1500-1599\demo1513</Filter>
+    </ClCompile>
+    <ClCompile Include="1512. 好数对的数目.cpp">
+      <Filter>源文件\1500-1599\demo1512</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
