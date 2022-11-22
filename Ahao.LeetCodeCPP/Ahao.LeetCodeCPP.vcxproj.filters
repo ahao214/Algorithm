@@ -1759,6 +1759,9 @@
     <Filter Include="源文件\1500-1599\demo1515">
       <UniqueIdentifier>{e375add4-f931-489e-9f99-a22047af011a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1514">
+      <UniqueIdentifier>{90a6b279-b0e6-402c-86df-4e3f4f565273}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3386,6 +3389,9 @@
     </ClCompile>
     <ClCompile Include="1515. 服务中心的最佳位置.cpp">
       <Filter>源文件\1500-1599\demo1515</Filter>
+    </ClCompile>
+    <ClCompile Include="1514. 概率最大的路径.cpp">
+      <Filter>源文件\1500-1599\demo1514</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
