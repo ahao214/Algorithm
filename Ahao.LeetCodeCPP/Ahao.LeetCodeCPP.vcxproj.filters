@@ -1762,6 +1762,9 @@
     <Filter Include="源文件\1500-1599\demo1514">
       <UniqueIdentifier>{90a6b279-b0e6-402c-86df-4e3f4f565273}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1513">
+      <UniqueIdentifier>{bbe84200-7576-41b6-95de-415da70af87c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3392,6 +3395,9 @@
     </ClCompile>
     <ClCompile Include="1514. 概率最大的路径.cpp">
       <Filter>源文件\1500-1599\demo1514</Filter>
+    </ClCompile>
+    <ClCompile Include="1513. 仅含 1 的子串数.cpp">
+      <Filter>源文件\1500-1599\demo1513</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
