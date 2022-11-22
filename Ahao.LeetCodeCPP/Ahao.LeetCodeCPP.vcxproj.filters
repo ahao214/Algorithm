@@ -1771,6 +1771,9 @@
     <Filter Include="源文件\1500-1599\demo1505">
       <UniqueIdentifier>{0698a342-a462-43e6-a52a-e328da3cd994}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1504">
+      <UniqueIdentifier>{0401da6f-7318-4419-ba27-0d52e959bdc8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3410,6 +3413,9 @@
     </ClCompile>
     <ClCompile Include="1505. 最多 K 次交换相邻数位后得到的最小整数.cpp">
       <Filter>源文件\1500-1599\demo1505</Filter>
+    </ClCompile>
+    <ClCompile Include="1504. 统计全 1 子矩形.cpp">
+      <Filter>源文件\1500-1599\demo1504</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
