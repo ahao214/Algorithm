@@ -1783,6 +1783,9 @@
     <Filter Include="源文件\1400-1499\demo1499">
       <UniqueIdentifier>{6a520ebd-5869-457e-ac70-e90fbb5c47f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1489">
+      <UniqueIdentifier>{1f7c1178-4cae-4057-ae29-c7bdbc2785d3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3434,6 +3437,9 @@
     </ClCompile>
     <ClCompile Include="1499. 满足不等式的最大值.cpp">
       <Filter>源文件\1400-1499\demo1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1489. 找到最小生成树里的关键边和伪关键边.cpp">
+      <Filter>源文件\1400-1499\demo1489</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
