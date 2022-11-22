@@ -1753,6 +1753,9 @@
     <Filter Include="源文件\1500-1599\demo1519">
       <UniqueIdentifier>{3b0cd765-2aeb-428c-bae6-f6b8eb3b1e35}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo878">
+      <UniqueIdentifier>{0ff3f1a6-d454-4439-8524-fd2e45a22d56}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3374,6 +3377,9 @@
     </ClCompile>
     <ClCompile Include="1519. 子树中标签相同的节点数.cpp">
       <Filter>源文件\1500-1599\demo1519</Filter>
+    </ClCompile>
+    <ClCompile Include="878. 第 N 个神奇数字.cpp">
+      <Filter>源文件\0800-0899\demo878</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
