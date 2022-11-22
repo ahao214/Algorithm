@@ -197,6 +197,7 @@
     <ClCompile Include="1493. 删掉一个元素以后全为 1 的最长子数组.cpp" />
     <ClCompile Include="1494. 并行课程 II.cpp" />
     <ClCompile Include="1496. 判断路径是否相交.cpp" />
+    <ClCompile Include="1497. 检查数组对是否可以被 k 整除.cpp" />
     <ClCompile Include="1499. 满足不等式的最大值.cpp" />
     <ClCompile Include="15. 三数之和.cpp" />
     <ClCompile Include="1502. 判断能否形成等差数列.cpp" />

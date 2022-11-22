@@ -1789,6 +1789,9 @@
     <Filter Include="源文件\1400-1499\demo1496">
       <UniqueIdentifier>{66245341-8047-4b8c-9f4e-abc2b710db76}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1497">
+      <UniqueIdentifier>{aeecc6bc-4678-457f-ba14-44a30a727f49}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3446,6 +3449,9 @@
     </ClCompile>
     <ClCompile Include="1496. 判断路径是否相交.cpp">
       <Filter>源文件\1400-1499\demo1496</Filter>
+    </ClCompile>
+    <ClCompile Include="1497. 检查数组对是否可以被 k 整除.cpp">
+      <Filter>源文件\1400-1499\demo1497</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
