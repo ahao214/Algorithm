@@ -195,6 +195,7 @@
     <ClCompile Include="1492. n 的第 k 个因子.cpp" />
     <ClCompile Include="1493. 删掉一个元素以后全为 1 的最长子数组.cpp" />
     <ClCompile Include="1494. 并行课程 II.cpp" />
+    <ClCompile Include="1499. 满足不等式的最大值.cpp" />
     <ClCompile Include="15. 三数之和.cpp" />
     <ClCompile Include="1502. 判断能否形成等差数列.cpp" />
     <ClCompile Include="1503. 所有蚂蚁掉下来前的最后一刻.cpp" />

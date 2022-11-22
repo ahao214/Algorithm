@@ -1780,6 +1780,9 @@
     <Filter Include="源文件\1500-1599\demo1502">
       <UniqueIdentifier>{05a6bfc1-c522-442e-8d89-95d2c58d9dcc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1499">
+      <UniqueIdentifier>{6a520ebd-5869-457e-ac70-e90fbb5c47f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3428,6 +3431,9 @@
     </ClCompile>
     <ClCompile Include="1502. 判断能否形成等差数列.cpp">
       <Filter>源文件\1500-1599\demo1502</Filter>
+    </ClCompile>
+    <ClCompile Include="1499. 满足不等式的最大值.cpp">
+      <Filter>源文件\1400-1499\demo1499</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
