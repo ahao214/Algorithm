@@ -200,6 +200,7 @@
     <ClCompile Include="1508. 子数组和排序后的区间和.cpp" />
     <ClCompile Include="1509. 三次操作后最大值与最小值的最小差.cpp" />
     <ClCompile Include="1510. 石子游戏 IV.cpp" />
+    <ClCompile Include="1515. 服务中心的最佳位置.cpp" />
     <ClCompile Include="1518. 换酒问题.cpp" />
     <ClCompile Include="1519. 子树中标签相同的节点数.cpp" />
     <ClCompile Include="1520. 最多的不重叠子字符串.cpp" />

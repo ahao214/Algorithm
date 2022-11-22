@@ -1756,6 +1756,9 @@
     <Filter Include="源文件\0800-0899\demo878">
       <UniqueIdentifier>{0ff3f1a6-d454-4439-8524-fd2e45a22d56}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1500-1599\demo1515">
+      <UniqueIdentifier>{e375add4-f931-489e-9f99-a22047af011a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3380,6 +3383,9 @@
     </ClCompile>
     <ClCompile Include="878. 第 N 个神奇数字.cpp">
       <Filter>源文件\0800-0899\demo878</Filter>
+    </ClCompile>
+    <ClCompile Include="1515. 服务中心的最佳位置.cpp">
+      <Filter>源文件\1500-1599\demo1515</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
