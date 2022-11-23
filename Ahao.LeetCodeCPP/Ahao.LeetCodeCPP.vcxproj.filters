@@ -1801,6 +1801,9 @@
     <Filter Include="源文件\1400-1499\demo1487">
       <UniqueIdentifier>{bab28747-5bda-4708-bc0f-c48a6f96475b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1486">
+      <UniqueIdentifier>{b5be7850-1d1f-4c31-8f6f-fb2d70af4455}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3470,6 +3473,9 @@
     </ClCompile>
     <ClCompile Include="1487. 保证文件名唯一.cpp">
       <Filter>源文件\1400-1499\demo1487</Filter>
+    </ClCompile>
+    <ClCompile Include="1486. 数组异或操作.cpp">
+      <Filter>源文件\1400-1499\demo1486</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
