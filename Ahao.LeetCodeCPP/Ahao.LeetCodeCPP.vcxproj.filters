@@ -1813,6 +1813,9 @@
     <Filter Include="源文件\1400-1499\demo1481">
       <UniqueIdentifier>{0bd6a0f7-3d70-4d3d-8623-f93e1655fa2a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1480">
+      <UniqueIdentifier>{fcbe44de-6259-4c0f-a4ca-731d1fe6f2ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3494,6 +3497,9 @@
     </ClCompile>
     <ClCompile Include="1481. 不同整数的最少数目.cpp">
       <Filter>源文件\1400-1499\demo1481</Filter>
+    </ClCompile>
+    <ClCompile Include="1480. 一维数组的动态和.cpp">
+      <Filter>源文件\1400-1499\demo1480</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

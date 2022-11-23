@@ -191,6 +191,7 @@
     <ClCompile Include="1476. 子矩形查询.cpp" />
     <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp" />
     <ClCompile Include="1478. 安排邮筒.cpp" />
+    <ClCompile Include="1480. 一维数组的动态和.cpp" />
     <ClCompile Include="1481. 不同整数的最少数目.cpp" />
     <ClCompile Include="1482. 制作 m 束花所需的最少天数.cpp" />
     <ClCompile Include="1483. 树节点的第 K 个祖先.cpp" />
