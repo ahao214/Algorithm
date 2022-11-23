@@ -1828,6 +1828,9 @@
     <Filter Include="源文件\1400-1499\demo1467">
       <UniqueIdentifier>{35a39c96-a6ee-4342-ba69-a7f2950f57f7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1466">
+      <UniqueIdentifier>{d3dfeb76-c440-4862-b06a-ceea0043307a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3524,6 +3527,9 @@
     </ClCompile>
     <ClCompile Include="1467. 两个盒子中球的颜色数相同的概率.cpp">
       <Filter>源文件\1400-1499\demo1467</Filter>
+    </ClCompile>
+    <ClCompile Include="1466. 重新规划路线.cpp">
+      <Filter>源文件\1400-1499\demo1466</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
