@@ -1819,6 +1819,9 @@
     <Filter Include="源文件\1400-1499\demo1473">
       <UniqueIdentifier>{46249a07-a3e1-499a-88e0-420ffa8c4ecd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1472">
+      <UniqueIdentifier>{3bc3c416-f199-4832-bd54-a069e01d6f28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3506,6 +3509,9 @@
     </ClCompile>
     <ClCompile Include="1473. 粉刷房子 III.cpp">
       <Filter>源文件\1400-1499\demo1473</Filter>
+    </ClCompile>
+    <ClCompile Include="1472. 设计浏览器历史记录.cpp">
+      <Filter>源文件\1400-1499\demo1472</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
