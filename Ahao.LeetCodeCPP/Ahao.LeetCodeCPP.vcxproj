@@ -187,6 +187,7 @@
     <ClCompile Include="1463. 摘樱桃 II.cpp" />
     <ClCompile Include="1464. 数组中两元素的最大乘积.cpp" />
     <ClCompile Include="1470. 重新排列数组.cpp" />
+    <ClCompile Include="1473. 粉刷房子 III.cpp" />
     <ClCompile Include="1475. 商品折扣后的最终价格.cpp" />
     <ClCompile Include="1476. 子矩形查询.cpp" />
     <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp" />

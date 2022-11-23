@@ -1816,6 +1816,9 @@
     <Filter Include="源文件\1400-1499\demo1480">
       <UniqueIdentifier>{fcbe44de-6259-4c0f-a4ca-731d1fe6f2ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1473">
+      <UniqueIdentifier>{46249a07-a3e1-499a-88e0-420ffa8c4ecd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3500,6 +3503,9 @@
     </ClCompile>
     <ClCompile Include="1480. 一维数组的动态和.cpp">
       <Filter>源文件\1400-1499\demo1480</Filter>
+    </ClCompile>
+    <ClCompile Include="1473. 粉刷房子 III.cpp">
+      <Filter>源文件\1400-1499\demo1473</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
