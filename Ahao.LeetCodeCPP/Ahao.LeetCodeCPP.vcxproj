@@ -191,6 +191,7 @@
     <ClCompile Include="1476. 子矩形查询.cpp" />
     <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp" />
     <ClCompile Include="1478. 安排邮筒.cpp" />
+    <ClCompile Include="1487. 保证文件名唯一.cpp" />
     <ClCompile Include="1488. 避免洪水泛滥.cpp" />
     <ClCompile Include="1489. 找到最小生成树里的关键边和伪关键边.cpp" />
     <ClCompile Include="1491. 去掉最低工资和最高工资后的工资平均值.cpp" />

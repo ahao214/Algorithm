@@ -1798,6 +1798,9 @@
     <Filter Include="源文件\1400-1499\demo1488">
       <UniqueIdentifier>{0b20e941-ecbe-431a-a18d-d8523e78e54a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1487">
+      <UniqueIdentifier>{bab28747-5bda-4708-bc0f-c48a6f96475b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3464,6 +3467,9 @@
     </ClCompile>
     <ClCompile Include="1488. 避免洪水泛滥.cpp">
       <Filter>源文件\1400-1499\demo1488</Filter>
+    </ClCompile>
+    <ClCompile Include="1487. 保证文件名唯一.cpp">
+      <Filter>源文件\1400-1499\demo1487</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
