@@ -1810,6 +1810,9 @@
     <Filter Include="源文件\1400-1499\demo1482">
       <UniqueIdentifier>{35ace758-8b93-4958-a20c-8b12f31fa761}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1481">
+      <UniqueIdentifier>{0bd6a0f7-3d70-4d3d-8623-f93e1655fa2a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3488,6 +3491,9 @@
     </ClCompile>
     <ClCompile Include="1482. 制作 m 束花所需的最少天数.cpp">
       <Filter>源文件\1400-1499\demo1482</Filter>
+    </ClCompile>
+    <ClCompile Include="1481. 不同整数的最少数目.cpp">
+      <Filter>源文件\1400-1499\demo1481</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
