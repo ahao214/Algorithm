@@ -1807,6 +1807,9 @@
     <Filter Include="源文件\1400-1499\demo1483">
       <UniqueIdentifier>{744a3457-e96f-49d2-b9a6-ce431bde85df}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1482">
+      <UniqueIdentifier>{35ace758-8b93-4958-a20c-8b12f31fa761}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3482,6 +3485,9 @@
     </ClCompile>
     <ClCompile Include="1483. 树节点的第 K 个祖先.cpp">
       <Filter>源文件\1400-1499\demo1483</Filter>
+    </ClCompile>
+    <ClCompile Include="1482. 制作 m 束花所需的最少天数.cpp">
+      <Filter>源文件\1400-1499\demo1482</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
