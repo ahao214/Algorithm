@@ -1804,6 +1804,9 @@
     <Filter Include="源文件\1400-1499\demo1486">
       <UniqueIdentifier>{b5be7850-1d1f-4c31-8f6f-fb2d70af4455}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1483">
+      <UniqueIdentifier>{744a3457-e96f-49d2-b9a6-ce431bde85df}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3476,6 +3479,9 @@
     </ClCompile>
     <ClCompile Include="1486. 数组异或操作.cpp">
       <Filter>源文件\1400-1499\demo1486</Filter>
+    </ClCompile>
+    <ClCompile Include="1483. 树节点的第 K 个祖先.cpp">
+      <Filter>源文件\1400-1499\demo1483</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

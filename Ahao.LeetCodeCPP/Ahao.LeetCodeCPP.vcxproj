@@ -191,6 +191,7 @@
     <ClCompile Include="1476. 子矩形查询.cpp" />
     <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp" />
     <ClCompile Include="1478. 安排邮筒.cpp" />
+    <ClCompile Include="1483. 树节点的第 K 个祖先.cpp" />
     <ClCompile Include="1486. 数组异或操作.cpp" />
     <ClCompile Include="1487. 保证文件名唯一.cpp" />
     <ClCompile Include="1488. 避免洪水泛滥.cpp" />
