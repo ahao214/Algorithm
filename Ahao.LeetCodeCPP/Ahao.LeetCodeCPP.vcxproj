@@ -186,6 +186,7 @@
     <ClCompile Include="1462. 课程表 IV.cpp" />
     <ClCompile Include="1463. 摘樱桃 II.cpp" />
     <ClCompile Include="1464. 数组中两元素的最大乘积.cpp" />
+    <ClCompile Include="1465. 切割后面积最大的蛋糕.cpp" />
     <ClCompile Include="1466. 重新规划路线.cpp" />
     <ClCompile Include="1467. 两个盒子中球的颜色数相同的概率.cpp" />
     <ClCompile Include="1470. 重新排列数组.cpp" />
