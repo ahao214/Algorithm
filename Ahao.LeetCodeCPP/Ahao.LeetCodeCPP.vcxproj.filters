@@ -1792,6 +1792,9 @@
     <Filter Include="源文件\1400-1499\demo1497">
       <UniqueIdentifier>{aeecc6bc-4678-457f-ba14-44a30a727f49}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1498">
+      <UniqueIdentifier>{381a9abf-bc1c-4597-8ee8-496b80c3217d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3452,6 +3455,9 @@
     </ClCompile>
     <ClCompile Include="1497. 检查数组对是否可以被 k 整除.cpp">
       <Filter>源文件\1400-1499\demo1497</Filter>
+    </ClCompile>
+    <ClCompile Include="1498. 满足条件的子序列数目.cpp">
+      <Filter>源文件\1400-1499\demo1498</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
