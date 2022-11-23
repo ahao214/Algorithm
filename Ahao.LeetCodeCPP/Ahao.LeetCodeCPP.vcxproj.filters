@@ -1822,6 +1822,9 @@
     <Filter Include="源文件\1400-1499\demo1472">
       <UniqueIdentifier>{3bc3c416-f199-4832-bd54-a069e01d6f28}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1471">
+      <UniqueIdentifier>{e8a02332-d65c-4138-9373-d73cdc3c24a9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3512,6 +3515,9 @@
     </ClCompile>
     <ClCompile Include="1472. 设计浏览器历史记录.cpp">
       <Filter>源文件\1400-1499\demo1472</Filter>
+    </ClCompile>
+    <ClCompile Include="1471. 数组中的 k 个最强值.cpp">
+      <Filter>源文件\1400-1499\demo1471</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
