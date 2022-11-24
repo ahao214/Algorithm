@@ -1858,6 +1858,9 @@
     <Filter Include="源文件\1400-1499\demo1451">
       <UniqueIdentifier>{67e75e62-f26a-4a3a-90c2-e9e7c442b998}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1392">
+      <UniqueIdentifier>{db627d2a-49b5-4fbd-8c57-57dcb2bb2758}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3584,6 +3587,9 @@
     </ClCompile>
     <ClCompile Include="1451. 重新排列句子中的单词.cpp">
       <Filter>源文件\1400-1499\demo1451</Filter>
+    </ClCompile>
+    <ClCompile Include="1392. 最长快乐前缀.cpp">
+      <Filter>源文件\1300-1399\demo1392</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
