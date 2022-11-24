@@ -1855,6 +1855,9 @@
     <Filter Include="源文件\1400-1499\demo1452">
       <UniqueIdentifier>{192311f2-c356-46b8-960c-a1ad346c5ae3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1451">
+      <UniqueIdentifier>{67e75e62-f26a-4a3a-90c2-e9e7c442b998}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3578,6 +3581,9 @@
     </ClCompile>
     <ClCompile Include="1452. 收藏清单.cpp">
       <Filter>源文件\1400-1499\demo1452</Filter>
+    </ClCompile>
+    <ClCompile Include="1451. 重新排列句子中的单词.cpp">
+      <Filter>源文件\1400-1499\demo1451</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
