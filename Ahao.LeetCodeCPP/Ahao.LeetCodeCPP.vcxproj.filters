@@ -1852,6 +1852,9 @@
     <Filter Include="源文件\1400-1499\demo1453">
       <UniqueIdentifier>{c35520a2-c7f6-4a0c-b7cf-70b43beaefb2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1452">
+      <UniqueIdentifier>{192311f2-c356-46b8-960c-a1ad346c5ae3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3572,6 +3575,9 @@
     </ClCompile>
     <ClCompile Include="1453. 圆形靶内的最大飞镖数量.cpp">
       <Filter>源文件\1400-1499\demo1453</Filter>
+    </ClCompile>
+    <ClCompile Include="1452. 收藏清单.cpp">
+      <Filter>源文件\1400-1499\demo1452</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
