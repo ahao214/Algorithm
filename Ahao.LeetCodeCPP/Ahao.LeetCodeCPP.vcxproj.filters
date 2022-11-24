@@ -1840,6 +1840,9 @@
     <Filter Include="源文件\1400-1499\demo1458">
       <UniqueIdentifier>{f1b58a9d-86a8-4b8b-8edc-23709d48d9a0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1457">
+      <UniqueIdentifier>{e65e3454-a5a5-4abb-b9b8-9a3ac1f01ac2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3548,6 +3551,9 @@
     </ClCompile>
     <ClCompile Include="1458. 两个子序列的最大点积.cpp">
       <Filter>源文件\1400-1499\demo1458</Filter>
+    </ClCompile>
+    <ClCompile Include="1457. 二叉树中的伪回文路径.cpp">
+      <Filter>源文件\1400-1499\demo1457</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
