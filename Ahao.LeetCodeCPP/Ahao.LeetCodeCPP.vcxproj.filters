@@ -1837,6 +1837,9 @@
     <Filter Include="源文件\0700-0799\demo795">
       <UniqueIdentifier>{4c2917d0-1c7e-497d-80c8-531c72874fed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1400-1499\demo1458">
+      <UniqueIdentifier>{f1b58a9d-86a8-4b8b-8edc-23709d48d9a0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3542,6 +3545,9 @@
     </ClCompile>
     <ClCompile Include="795. 区间子数组个数.cpp">
       <Filter>源文件\0700-0799\demo795</Filter>
+    </ClCompile>
+    <ClCompile Include="1458. 两个子序列的最大点积.cpp">
+      <Filter>源文件\1400-1499\demo1458</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
