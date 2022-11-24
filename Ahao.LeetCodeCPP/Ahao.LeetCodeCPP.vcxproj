@@ -644,6 +644,7 @@
     <ClCompile Include="791. 自定义字符串排序.cpp" />
     <ClCompile Include="792. 匹配子序列的单词数.cpp" />
     <ClCompile Include="793. 阶乘函数后 K 个零.cpp" />
+    <ClCompile Include="795. 区间子数组个数.cpp" />
     <ClCompile Include="796. 旋转字符串.cpp" />
     <ClCompile Include="799. 香槟塔.cpp" />
     <ClCompile Include="8. 字符串转换整数 (atoi).cpp" />
