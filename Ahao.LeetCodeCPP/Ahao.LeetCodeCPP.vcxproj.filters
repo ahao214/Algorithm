@@ -1861,6 +1861,9 @@
     <Filter Include="源文件\1300-1399\demo1392">
       <UniqueIdentifier>{db627d2a-49b5-4fbd-8c57-57dcb2bb2758}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo233">
+      <UniqueIdentifier>{50cbe9d6-bf1c-4d14-924f-2df43f8e613c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3590,6 +3593,9 @@
     </ClCompile>
     <ClCompile Include="1392. 最长快乐前缀.cpp">
       <Filter>源文件\1300-1399\demo1392</Filter>
+    </ClCompile>
+    <ClCompile Include="233. 数字 1 的个数.cpp">
+      <Filter>源文件\0200-0299\demo233</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
