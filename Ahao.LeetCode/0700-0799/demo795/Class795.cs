@@ -36,5 +36,30 @@ namespace Ahao.LeetCode._0700_0799.demo795
             }
             return res;
         }
+
+
+        /// <summary>
+        /// 计数
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <param name="left"></param>
+        /// <param name="right"></param>
+        /// <returns></returns>
+        public int NumSubarrayBoundedMax2(int[] nums, int left, int right)
+        {
+            return Count(nums, right) - Count(nums, left - 1);
+        }
+
+        public int Count(int[] nums, int lower)
+        {
+            int res = 0, cur = 0;
+            foreach (int x in nums)
+            {
+                cur = x <= lower ? cur + 1 : 0;
+                res += cur;
+            }
+            return res;
+        }
+
     }
 }
