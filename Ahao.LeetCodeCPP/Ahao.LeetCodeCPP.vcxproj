@@ -510,6 +510,7 @@
     <ClCompile Include="2197. 替换数组中的非互质数.cpp" />
     <ClCompile Include="22. 括号生成.cpp" />
     <ClCompile Include="2221. 数组的三角和.cpp" />
+    <ClCompile Include="2222. 选择建筑的方案数.cpp" />
     <ClCompile Include="23. 合并K个升序链表.cpp" />
     <ClCompile Include="233. 数字 1 的个数.cpp" />
     <ClCompile Include="24. 两两交换链表中的节点.cpp" />

@@ -1864,6 +1864,9 @@
     <Filter Include="源文件\0200-0299\demo233">
       <UniqueIdentifier>{50cbe9d6-bf1c-4d14-924f-2df43f8e613c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2200-2299\demo2222">
+      <UniqueIdentifier>{841cc59c-59ba-408b-b566-b7f12bb314d7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3596,6 +3599,9 @@
     </ClCompile>
     <ClCompile Include="233. 数字 1 的个数.cpp">
       <Filter>源文件\0200-0299\demo233</Filter>
+    </ClCompile>
+    <ClCompile Include="2222. 选择建筑的方案数.cpp">
+      <Filter>源文件\2200-2299\demo2222</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
