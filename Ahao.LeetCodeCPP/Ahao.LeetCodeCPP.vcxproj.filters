@@ -1891,6 +1891,9 @@
     <Filter Include="源文件\1300-1399\demo1380">
       <UniqueIdentifier>{fe7b6f47-d03c-4bf7-bad3-73cd97f4f6b2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1377">
+      <UniqueIdentifier>{0fcd70f6-5624-4987-8b13-16cec8b492ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3650,6 +3653,9 @@
     </ClCompile>
     <ClCompile Include="1380. 矩阵中的幸运数.cpp">
       <Filter>源文件\1300-1399\demo1380</Filter>
+    </ClCompile>
+    <ClCompile Include="1377. T 秒后青蛙的位置.cpp">
+      <Filter>源文件\1300-1399\demo1377</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
