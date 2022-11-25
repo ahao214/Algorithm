@@ -1879,6 +1879,9 @@
     <Filter Include="源文件\1300-1399\demo1389">
       <UniqueIdentifier>{c10828fb-5656-490f-8c7e-043db46dd670}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1383">
+      <UniqueIdentifier>{c0ea6de5-be90-46cf-a6c2-305e901e90a5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3626,6 +3629,9 @@
     </ClCompile>
     <ClCompile Include="1389. 按既定顺序创建目标数组.cpp">
       <Filter>源文件\1300-1399\demo1389</Filter>
+    </ClCompile>
+    <ClCompile Include="1383. 最大的团队表现值.cpp">
+      <Filter>源文件\1300-1399\demo1383</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
