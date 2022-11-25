@@ -1873,6 +1873,9 @@
     <Filter Include="源文件\1300-1399\demo1391">
       <UniqueIdentifier>{5d8ee4e7-531e-4ed7-b0a2-94a967ba8851}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1390">
+      <UniqueIdentifier>{e8b8aa3e-0f71-4742-9d1f-345308501c99}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3614,6 +3617,9 @@
     </ClCompile>
     <ClCompile Include="1391. 检查网格中是否存在有效路径.cpp">
       <Filter>源文件\1300-1399\demo1391</Filter>
+    </ClCompile>
+    <ClCompile Include="1390. 四因数.cpp">
+      <Filter>源文件\1300-1399\demo1390</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

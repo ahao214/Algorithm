@@ -168,6 +168,7 @@
     <ClCompile Include="1331. 数组序号转换.cpp" />
     <ClCompile Include="1332. 删除回文子序列.cpp" />
     <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp" />
+    <ClCompile Include="1390. 四因数.cpp" />
     <ClCompile Include="1391. 检查网格中是否存在有效路径.cpp" />
     <ClCompile Include="1392. 最长快乐前缀.cpp" />
     <ClCompile Include="14. 最长公共前缀.cpp" />
