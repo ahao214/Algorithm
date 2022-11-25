@@ -1900,6 +1900,9 @@
     <Filter Include="源文件\1300-1399\demo1368">
       <UniqueIdentifier>{1542a7d0-cdb6-4f91-b740-347e9eed8628}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1367">
+      <UniqueIdentifier>{d031ace3-500b-4a87-864e-2ab4455e60b4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3668,6 +3671,9 @@
     </ClCompile>
     <ClCompile Include="1368. 使网格图至少有一条有效路径的最小代价.cpp">
       <Filter>源文件\1300-1399\demo1368</Filter>
+    </ClCompile>
+    <ClCompile Include="1367. 二叉树中的列表.cpp">
+      <Filter>源文件\1300-1399\demo1367</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
