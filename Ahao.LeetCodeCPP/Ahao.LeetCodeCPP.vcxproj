@@ -167,6 +167,7 @@
     <ClCompile Include="1305. 两棵二叉搜索树中的所有元素.cpp" />
     <ClCompile Include="1331. 数组序号转换.cpp" />
     <ClCompile Include="1332. 删除回文子序列.cpp" />
+    <ClCompile Include="1366. 通过投票对团队排名.cpp" />
     <ClCompile Include="1367. 二叉树中的列表.cpp" />
     <ClCompile Include="1368. 使网格图至少有一条有效路径的最小代价.cpp" />
     <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp" />

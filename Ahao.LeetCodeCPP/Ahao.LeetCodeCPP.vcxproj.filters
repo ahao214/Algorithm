@@ -1903,6 +1903,9 @@
     <Filter Include="源文件\1300-1399\demo1367">
       <UniqueIdentifier>{d031ace3-500b-4a87-864e-2ab4455e60b4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1366">
+      <UniqueIdentifier>{3c2ba26f-8d1f-44bb-ae62-4433d4b90e33}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3674,6 +3677,9 @@
     </ClCompile>
     <ClCompile Include="1367. 二叉树中的列表.cpp">
       <Filter>源文件\1300-1399\demo1367</Filter>
+    </ClCompile>
+    <ClCompile Include="1366. 通过投票对团队排名.cpp">
+      <Filter>源文件\1300-1399\demo1366</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
