@@ -1888,6 +1888,9 @@
     <Filter Include="源文件\1300-1399\demo1381">
       <UniqueIdentifier>{3f032b2e-06a8-43ee-b77e-e227e7c7aede}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1380">
+      <UniqueIdentifier>{fe7b6f47-d03c-4bf7-bad3-73cd97f4f6b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3644,6 +3647,9 @@
     </ClCompile>
     <ClCompile Include="1381. 设计一个支持增量操作的栈.cpp">
       <Filter>源文件\1300-1399\demo1381</Filter>
+    </ClCompile>
+    <ClCompile Include="1380. 矩阵中的幸运数.cpp">
+      <Filter>源文件\1300-1399\demo1380</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
