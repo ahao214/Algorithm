@@ -1867,6 +1867,9 @@
     <Filter Include="源文件\2200-2299\demo2222">
       <UniqueIdentifier>{841cc59c-59ba-408b-b566-b7f12bb314d7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo809">
+      <UniqueIdentifier>{59823cf0-be10-4522-8624-5c26d246cef3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3602,6 +3605,9 @@
     </ClCompile>
     <ClCompile Include="2222. 选择建筑的方案数.cpp">
       <Filter>源文件\2200-2299\demo2222</Filter>
+    </ClCompile>
+    <ClCompile Include="809. 情感丰富的文字.cpp">
+      <Filter>源文件\0800-0899\demo809</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

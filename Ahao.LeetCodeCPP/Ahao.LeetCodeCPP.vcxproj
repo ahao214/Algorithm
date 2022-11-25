@@ -664,6 +664,7 @@
     <ClCompile Include="805. 数组的均值分割.cpp" />
     <ClCompile Include="806. 写字符串需要的行数.cpp" />
     <ClCompile Include="808. 分汤.cpp" />
+    <ClCompile Include="809. 情感丰富的文字.cpp" />
     <ClCompile Include="81. 搜索旋转排序数组 II.cpp" />
     <ClCompile Include="811. 子域名访问计数.cpp" />
     <ClCompile Include="812. 最大三角形面积.cpp" />
