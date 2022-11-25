@@ -1894,6 +1894,9 @@
     <Filter Include="源文件\1300-1399\demo1377">
       <UniqueIdentifier>{0fcd70f6-5624-4987-8b13-16cec8b492ea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1376">
+      <UniqueIdentifier>{a3c21a7e-c7da-4071-a5c2-2b7d51f58e3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3656,6 +3659,9 @@
     </ClCompile>
     <ClCompile Include="1377. T 秒后青蛙的位置.cpp">
       <Filter>源文件\1300-1399\demo1377</Filter>
+    </ClCompile>
+    <ClCompile Include="1376. 通知所有员工所需的时间.cpp">
+      <Filter>源文件\1300-1399\demo1376</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

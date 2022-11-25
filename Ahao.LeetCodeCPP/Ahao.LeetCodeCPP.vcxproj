@@ -168,6 +168,7 @@
     <ClCompile Include="1331. 数组序号转换.cpp" />
     <ClCompile Include="1332. 删除回文子序列.cpp" />
     <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp" />
+    <ClCompile Include="1376. 通知所有员工所需的时间.cpp" />
     <ClCompile Include="1377. T 秒后青蛙的位置.cpp" />
     <ClCompile Include="1380. 矩阵中的幸运数.cpp" />
     <ClCompile Include="1381. 设计一个支持增量操作的栈.cpp" />
