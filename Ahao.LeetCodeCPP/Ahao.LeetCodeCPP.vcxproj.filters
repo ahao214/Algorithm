@@ -1897,6 +1897,9 @@
     <Filter Include="源文件\1300-1399\demo1376">
       <UniqueIdentifier>{a3c21a7e-c7da-4071-a5c2-2b7d51f58e3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1368">
+      <UniqueIdentifier>{1542a7d0-cdb6-4f91-b740-347e9eed8628}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3662,6 +3665,9 @@
     </ClCompile>
     <ClCompile Include="1376. 通知所有员工所需的时间.cpp">
       <Filter>源文件\1300-1399\demo1376</Filter>
+    </ClCompile>
+    <ClCompile Include="1368. 使网格图至少有一条有效路径的最小代价.cpp">
+      <Filter>源文件\1300-1399\demo1368</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
