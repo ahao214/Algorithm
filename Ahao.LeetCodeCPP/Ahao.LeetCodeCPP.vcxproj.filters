@@ -1882,6 +1882,9 @@
     <Filter Include="源文件\1300-1399\demo1383">
       <UniqueIdentifier>{c0ea6de5-be90-46cf-a6c2-305e901e90a5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1382">
+      <UniqueIdentifier>{8ed50991-4bd3-4d77-82fa-28b932636aa3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3632,6 +3635,9 @@
     </ClCompile>
     <ClCompile Include="1383. 最大的团队表现值.cpp">
       <Filter>源文件\1300-1399\demo1383</Filter>
+    </ClCompile>
+    <ClCompile Include="1382. 将二叉搜索树变平衡.cpp">
+      <Filter>源文件\1300-1399\demo1382</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
