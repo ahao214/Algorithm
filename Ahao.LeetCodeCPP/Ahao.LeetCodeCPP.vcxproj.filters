@@ -1870,6 +1870,9 @@
     <Filter Include="源文件\0800-0899\demo809">
       <UniqueIdentifier>{59823cf0-be10-4522-8624-5c26d246cef3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1391">
+      <UniqueIdentifier>{5d8ee4e7-531e-4ed7-b0a2-94a967ba8851}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3608,6 +3611,9 @@
     </ClCompile>
     <ClCompile Include="809. 情感丰富的文字.cpp">
       <Filter>源文件\0800-0899\demo809</Filter>
+    </ClCompile>
+    <ClCompile Include="1391. 检查网格中是否存在有效路径.cpp">
+      <Filter>源文件\1300-1399\demo1391</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
