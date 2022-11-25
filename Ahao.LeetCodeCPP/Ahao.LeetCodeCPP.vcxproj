@@ -168,6 +168,7 @@
     <ClCompile Include="1331. 数组序号转换.cpp" />
     <ClCompile Include="1332. 删除回文子序列.cpp" />
     <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp" />
+    <ClCompile Include="1381. 设计一个支持增量操作的栈.cpp" />
     <ClCompile Include="1382. 将二叉搜索树变平衡.cpp" />
     <ClCompile Include="1383. 最大的团队表现值.cpp" />
     <ClCompile Include="1389. 按既定顺序创建目标数组.cpp" />

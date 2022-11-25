@@ -1885,6 +1885,9 @@
     <Filter Include="源文件\1300-1399\demo1382">
       <UniqueIdentifier>{8ed50991-4bd3-4d77-82fa-28b932636aa3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1381">
+      <UniqueIdentifier>{3f032b2e-06a8-43ee-b77e-e227e7c7aede}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3638,6 +3641,9 @@
     </ClCompile>
     <ClCompile Include="1382. 将二叉搜索树变平衡.cpp">
       <Filter>源文件\1300-1399\demo1382</Filter>
+    </ClCompile>
+    <ClCompile Include="1381. 设计一个支持增量操作的栈.cpp">
+      <Filter>源文件\1300-1399\demo1381</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
