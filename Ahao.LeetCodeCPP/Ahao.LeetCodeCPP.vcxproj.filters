@@ -1909,6 +1909,12 @@
     <Filter Include="源文件\0800-0899\demo882">
       <UniqueIdentifier>{a2724f36-e32a-4008-a291-7a57379bc984}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2400-2499">
+      <UniqueIdentifier>{3bca2155-3686-47f5-874c-13fffe215c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2400-2499\demo2471">
+      <UniqueIdentifier>{86b6dbed-d032-49bd-a9a8-ad58e797830c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3686,6 +3692,9 @@
     </ClCompile>
     <ClCompile Include="882. 细分图中的可到达节点.cpp">
       <Filter>源文件\0800-0899\demo882</Filter>
+    </ClCompile>
+    <ClCompile Include="2471. 逐层排序二叉树所需的最少操作数目.cpp">
+      <Filter>源文件\2400-2499\demo2471</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

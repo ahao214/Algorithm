@@ -528,6 +528,7 @@
     <ClCompile Include="24. 两两交换链表中的节点.cpp" />
     <ClCompile Include="240. 搜索二维矩阵 II.cpp" />
     <ClCompile Include="241. 为运算表达式设计优先级.cpp" />
+    <ClCompile Include="2471. 逐层排序二叉树所需的最少操作数目.cpp" />
     <ClCompile Include="25. K 个一组翻转链表.cpp" />
     <ClCompile Include="26. 删除有序数组中的重复项.cpp" />
     <ClCompile Include="27. 移除元素.cpp" />
