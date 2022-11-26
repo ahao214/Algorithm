@@ -1915,6 +1915,9 @@
     <Filter Include="源文件\2400-2499\demo2471">
       <UniqueIdentifier>{86b6dbed-d032-49bd-a9a8-ad58e797830c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1365">
+      <UniqueIdentifier>{62d18a77-56c9-4fb4-a308-fa4a52c0ce3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3695,6 +3698,9 @@
     </ClCompile>
     <ClCompile Include="2471. 逐层排序二叉树所需的最少操作数目.cpp">
       <Filter>源文件\2400-2499\demo2471</Filter>
+    </ClCompile>
+    <ClCompile Include="1365. 有多少小于当前数字的数字.cpp">
+      <Filter>源文件\1300-1399\demo1365</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
