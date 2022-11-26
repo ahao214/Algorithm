@@ -1918,6 +1918,9 @@
     <Filter Include="源文件\1300-1399\demo1365">
       <UniqueIdentifier>{62d18a77-56c9-4fb4-a308-fa4a52c0ce3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1363">
+      <UniqueIdentifier>{2d030eaf-f8ac-42d5-a73a-fc9460c4c5cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3701,6 +3704,9 @@
     </ClCompile>
     <ClCompile Include="1365. 有多少小于当前数字的数字.cpp">
       <Filter>源文件\1300-1399\demo1365</Filter>
+    </ClCompile>
+    <ClCompile Include="1363. 形成三的最大倍数.cpp">
+      <Filter>源文件\1300-1399\demo1363</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
