@@ -1921,6 +1921,9 @@
     <Filter Include="源文件\1300-1399\demo1363">
       <UniqueIdentifier>{2d030eaf-f8ac-42d5-a73a-fc9460c4c5cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1360">
+      <UniqueIdentifier>{77237f9a-e489-47ef-9a39-815d122d7dbc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3707,6 +3710,9 @@
     </ClCompile>
     <ClCompile Include="1363. 形成三的最大倍数.cpp">
       <Filter>源文件\1300-1399\demo1363</Filter>
+    </ClCompile>
+    <ClCompile Include="1360. 日期之间隔几天.cpp">
+      <Filter>源文件\1300-1399\demo1360</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
