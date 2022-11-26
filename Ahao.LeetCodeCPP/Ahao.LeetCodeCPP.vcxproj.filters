@@ -1927,6 +1927,9 @@
     <Filter Include="源文件\1300-1399\demo1361">
       <UniqueIdentifier>{fd79bc64-52e0-4fc1-8104-ce084f885538}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1362">
+      <UniqueIdentifier>{c25c8ee0-03c8-4f34-925f-d7297bf3b8e3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3719,6 +3722,9 @@
     </ClCompile>
     <ClCompile Include="1361. 验证二叉树.cpp">
       <Filter>源文件\1300-1399\demo1361</Filter>
+    </ClCompile>
+    <ClCompile Include="1362. 最接近的因数.cpp">
+      <Filter>源文件\1300-1399\demo1362</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -169,6 +169,7 @@
     <ClCompile Include="1332. 删除回文子序列.cpp" />
     <ClCompile Include="1360. 日期之间隔几天.cpp" />
     <ClCompile Include="1361. 验证二叉树.cpp" />
+    <ClCompile Include="1362. 最接近的因数.cpp" />
     <ClCompile Include="1363. 形成三的最大倍数.cpp" />
     <ClCompile Include="1365. 有多少小于当前数字的数字.cpp" />
     <ClCompile Include="1366. 通过投票对团队排名.cpp" />
