@@ -1924,6 +1924,9 @@
     <Filter Include="源文件\1300-1399\demo1360">
       <UniqueIdentifier>{77237f9a-e489-47ef-9a39-815d122d7dbc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\1300-1399\demo1361">
+      <UniqueIdentifier>{fd79bc64-52e0-4fc1-8104-ce084f885538}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3713,6 +3716,9 @@
     </ClCompile>
     <ClCompile Include="1360. 日期之间隔几天.cpp">
       <Filter>源文件\1300-1399\demo1360</Filter>
+    </ClCompile>
+    <ClCompile Include="1361. 验证二叉树.cpp">
+      <Filter>源文件\1300-1399\demo1361</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
