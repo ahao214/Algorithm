@@ -1906,6 +1906,9 @@
     <Filter Include="源文件\1300-1399\demo1366">
       <UniqueIdentifier>{3c2ba26f-8d1f-44bb-ae62-4433d4b90e33}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo882">
+      <UniqueIdentifier>{a2724f36-e32a-4008-a291-7a57379bc984}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3680,6 +3683,9 @@
     </ClCompile>
     <ClCompile Include="1366. 通过投票对团队排名.cpp">
       <Filter>源文件\1300-1399\demo1366</Filter>
+    </ClCompile>
+    <ClCompile Include="882. 细分图中的可到达节点.cpp">
+      <Filter>源文件\0800-0899\demo882</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
