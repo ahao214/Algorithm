@@ -1936,6 +1936,9 @@
     <Filter Include="源文件\2400-2499\demo2400">
       <UniqueIdentifier>{99d9d792-2b09-4a76-a0f7-75e6e94f4d34}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo228">
+      <UniqueIdentifier>{e9782d49-f707-4a35-bc8f-f35ae5bcaeb6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3737,6 +3740,9 @@
     </ClCompile>
     <ClCompile Include="2400. 恰好移动 k 步到达某一位置的方法数目.cpp">
       <Filter>源文件\2400-2499\demo2400</Filter>
+    </ClCompile>
+    <ClCompile Include="228. 汇总区间.cpp">
+      <Filter>源文件\0200-0299\demo228</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
