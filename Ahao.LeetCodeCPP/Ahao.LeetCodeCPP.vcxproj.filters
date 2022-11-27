@@ -1930,6 +1930,9 @@
     <Filter Include="源文件\1300-1399\demo1362">
       <UniqueIdentifier>{c25c8ee0-03c8-4f34-925f-d7297bf3b8e3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0300-0399\demo338">
+      <UniqueIdentifier>{9595e641-955f-415c-adc9-705814031959}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3725,6 +3728,9 @@
     </ClCompile>
     <ClCompile Include="1362. 最接近的因数.cpp">
       <Filter>源文件\1300-1399\demo1362</Filter>
+    </ClCompile>
+    <ClCompile Include="338. 比特位计数.cpp">
+      <Filter>源文件\0300-0399\demo338</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

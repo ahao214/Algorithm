@@ -548,6 +548,7 @@
     <ClCompile Include="324. 摆动排序 II.cpp" />
     <ClCompile Include="327. 区间和的个数.cpp" />
     <ClCompile Include="33. 搜索旋转排序数组.cpp" />
+    <ClCompile Include="338. 比特位计数.cpp" />
     <ClCompile Include="34. 在排序数组中查找元素的第一个和最后一个位置.cpp" />
     <ClCompile Include="35. 搜索插入位置.cpp" />
     <ClCompile Include="357. 统计各位数字都不同的数字个数.cpp" />
