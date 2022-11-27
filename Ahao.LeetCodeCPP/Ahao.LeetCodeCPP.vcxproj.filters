@@ -1933,6 +1933,9 @@
     <Filter Include="源文件\0300-0399\demo338">
       <UniqueIdentifier>{9595e641-955f-415c-adc9-705814031959}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2400-2499\demo2400">
+      <UniqueIdentifier>{99d9d792-2b09-4a76-a0f7-75e6e94f4d34}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3731,6 +3734,9 @@
     </ClCompile>
     <ClCompile Include="338. 比特位计数.cpp">
       <Filter>源文件\0300-0399\demo338</Filter>
+    </ClCompile>
+    <ClCompile Include="2400. 恰好移动 k 步到达某一位置的方法数目.cpp">
+      <Filter>源文件\2400-2499\demo2400</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
