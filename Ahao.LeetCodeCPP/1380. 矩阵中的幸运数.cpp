@@ -45,3 +45,44 @@ public:
 		return res;
 	}
 };
+
+
+
+
+
+/*
+1380. 矩阵中的幸运数
+给你一个 m * n 的矩阵，矩阵中的数字 各不相同 。请你按 任意 顺序返回矩阵中的所有幸运数。
+
+幸运数是指矩阵中满足同时下列两个条件的元素：
+
+在同一行的所有元素中最小
+在同一列的所有元素中最大
+*/
+class Solution {
+public:
+	vector<int> luckyNumbers(vector<vector<int>>& matrix) {
+		int m = matrix.size(), n = matrix[0].size();
+		vector<int> row(m, INT_MAX), col(n, INT_MIN);
+		vector<int> ans;
+		for (int i = 0; i < m; ++i)
+		{
+			for (int j = 0; j < n; ++j)
+			{
+				row[i] = min(row[i], matrix[i][j]);
+				col[j] = max(col[j], matrix[i][j]);
+			}
+		}
+		for (int i = 0; i < m; ++i)
+		{
+			for (int j = 0; j < n; ++j)
+			{
+				if (matrix[i][j] == row[i] && matrix[i][j] == col[j])
+				{
+					ans.push_back(matrix[i][j]);
+				}
+			}
+		}
+		return ans;
+	}
+};
