@@ -1957,6 +1957,9 @@
     <Filter Include="源文件\0500-0599\demo547">
       <UniqueIdentifier>{eb5178d6-d843-4c50-b42e-764129ca6e75}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0900-0999\demo918">
+      <UniqueIdentifier>{adbc5f64-feb0-4b3f-9c4f-ec8026b6365b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3779,6 +3782,9 @@
     </ClCompile>
     <ClCompile Include="547. 省份数量.cpp">
       <Filter>源文件\0500-0599\demo547</Filter>
+    </ClCompile>
+    <ClCompile Include="918. 环形子数组的最大和.cpp">
+      <Filter>源文件\0900-0999\demo918</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
