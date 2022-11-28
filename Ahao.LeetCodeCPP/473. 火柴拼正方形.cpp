@@ -62,3 +62,45 @@ public:
 	}
 };
 
+
+/*
+473. 火柴拼正方形
+你将得到一个整数数组 matchsticks ，其中 matchsticks[i] 是第 i 个火柴棒的长度。你要用 所有的火柴棍 拼成一个正方形。你 不能折断 任何一根火柴棒，但你可以把它们连在一起，而且每根火柴棒必须 使用一次 。
+
+如果你能使这个正方形，则返回 true ，否则返回 false
+*/
+class Solution {
+public:
+	vector<bool> st;
+
+	bool makesquare(vector<int>& matchsticks) {
+		int sum = 0;
+		for (auto u : matchsticks) sum += u;
+		if (!sum || sum % 4) return false;
+
+		sort(matchsticks.begin(), matchsticks.end());
+		reverse(matchsticks.begin(), matchsticks.end());
+
+		st = vector<bool>(matchsticks.size());
+		return dfs(matchsticks, 0, 0, sum / 4);
+	}
+
+	bool dfs(vector<int>& nums, int u, int cur, int length)
+	{
+		if (cur == length) u++, cur = 0;
+		if (u == 4) return true;
+		for (int i = 0; i < nums.size(); i++)
+		{
+			if (!st[i] && cur + nums[i] <= length)
+			{
+				st[i] = true;
+				if (dfs(nums, u, cur + nums[i], length)) return true;
+				st[i] = false;
+				if (!cur) return false;
+				if (cur + nums[i] == length) return false;
+				while (i + 1 < nums.size() && nums[i + 1] == nums[i]) i++;
+			}
+		}
+		return false;
+	}
+};
