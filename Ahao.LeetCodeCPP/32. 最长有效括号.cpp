@@ -36,3 +36,35 @@ public:
 		return ans;
 	}
 };
+
+
+
+class Solution {
+public:
+	int work(string s)
+	{
+		int res = 0;
+		for (int i = 0, start = 0, cnt = 0; i < s.size(); i++)
+		{
+			if (s[i] == '(') cnt++;
+			else
+			{
+				cnt--;
+				if (!cnt) res = max(res, i - start + 1);
+				else if (cnt < 0)
+				{
+					start = i + 1;
+					cnt = 0;
+				}
+			}
+		}
+		return res;
+	}
+
+	int longestValidParentheses(string s) {
+		int res = work(s);
+		reverse(s.begin(), s.end());
+		for (auto& c : s) c ^= 1; //×óÀ¨ºÅ»»³ÉÓÒÀ¨ºÅ ÓÒÀ¨ºÅ»»³É×óÀ¨ºÅ
+		return max(res, work(s));
+	}
+};
