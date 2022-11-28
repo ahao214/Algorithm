@@ -314,6 +314,7 @@
     <ClCompile Include="1665. 完成所有任务的最少初始能量.cpp" />
     <ClCompile Include="1668. 最大重复子字符串.cpp" />
     <ClCompile Include="1669. 合并两个链表.cpp" />
+    <ClCompile Include="167. 两数之和 II - 输入有序数组.cpp" />
     <ClCompile Include="1670. 设计前中后队列.cpp" />
     <ClCompile Include="1671. 得到山形数组的最少删除次数.cpp" />
     <ClCompile Include="1672. 最富有客户的资产总量.cpp" />
