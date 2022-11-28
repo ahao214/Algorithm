@@ -1942,6 +1942,9 @@
     <Filter Include="源文件\0800-0899\demo813">
       <UniqueIdentifier>{c02cc49d-02a8-4782-bc2c-c5c18ce5d5e2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0300-0399\demo352">
+      <UniqueIdentifier>{aca6b430-a9cb-40c3-8465-3780783e215e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3749,6 +3752,9 @@
     </ClCompile>
     <ClCompile Include="813. 最大平均值和的分组.cpp">
       <Filter>源文件\0800-0899\demo813</Filter>
+    </ClCompile>
+    <ClCompile Include="352. 将数据流变为多个不相交区间.cpp">
+      <Filter>源文件\0300-0399\demo352</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

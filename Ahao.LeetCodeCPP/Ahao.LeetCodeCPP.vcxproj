@@ -553,6 +553,7 @@
     <ClCompile Include="338. 比特位计数.cpp" />
     <ClCompile Include="34. 在排序数组中查找元素的第一个和最后一个位置.cpp" />
     <ClCompile Include="35. 搜索插入位置.cpp" />
+    <ClCompile Include="352. 将数据流变为多个不相交区间.cpp" />
     <ClCompile Include="357. 统计各位数字都不同的数字个数.cpp" />
     <ClCompile Include="36. 有效的数独.cpp" />
     <ClCompile Include="37. 解数独.cpp" />
