@@ -635,6 +635,7 @@
     <ClCompile Include="675. 为高尔夫比赛砍树.cpp" />
     <ClCompile Include="68. 文本左右对齐.cpp" />
     <ClCompile Include="682. 棒球比赛.cpp" />
+    <ClCompile Include="684. 冗余连接.cpp" />
     <ClCompile Include="69. x 的平方根.cpp" />
     <ClCompile Include="691. 贴纸拼词.cpp" />
     <ClCompile Include="692. 前K个高频单词.cpp" />

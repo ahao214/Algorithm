@@ -1951,6 +1951,9 @@
     <Filter Include="源文件\0600-0699\demo692">
       <UniqueIdentifier>{de8fe5ca-2cbf-48c7-b213-5333de159c61}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0600-0699\demo684">
+      <UniqueIdentifier>{44a0ab7a-92d6-402c-ba10-ed074ca2e313}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3767,6 +3770,9 @@
     </ClCompile>
     <ClCompile Include="692. 前K个高频单词.cpp">
       <Filter>源文件\0600-0699\demo692</Filter>
+    </ClCompile>
+    <ClCompile Include="684. 冗余连接.cpp">
+      <Filter>源文件\0600-0699\demo684</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
