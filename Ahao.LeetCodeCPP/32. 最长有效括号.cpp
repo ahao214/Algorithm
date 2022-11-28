@@ -3,12 +3,13 @@ using namespace std;
 #include<stack>
 
 
+/*
+32. 最长有效括号
+给你一个只包含 '(' 和 ')' 的字符串，
+找出最长有效（格式正确且连续）括号子串的长度。
+*/
+
 class Solution {
-	/*
-	32. 最长有效括号
-	给你一个只包含 '(' 和 ')' 的字符串，
-	找出最长有效（格式正确且连续）括号子串的长度。
-	*/
 public:
 	int longestValidParentheses(string s) {
 		stack<int> stk;
