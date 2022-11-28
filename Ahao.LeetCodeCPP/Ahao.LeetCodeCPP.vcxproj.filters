@@ -1948,6 +1948,9 @@
     <Filter Include="源文件\0200-0299\demo295">
       <UniqueIdentifier>{4b251be0-d020-4b9d-8d13-b0558880f925}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0600-0699\demo692">
+      <UniqueIdentifier>{de8fe5ca-2cbf-48c7-b213-5333de159c61}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3761,6 +3764,9 @@
     </ClCompile>
     <ClCompile Include="295. 数据流的中位数.cpp">
       <Filter>源文件\0200-0299\demo295</Filter>
+    </ClCompile>
+    <ClCompile Include="692. 前K个高频单词.cpp">
+      <Filter>源文件\0600-0699\demo692</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

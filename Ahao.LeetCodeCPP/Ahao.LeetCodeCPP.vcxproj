@@ -637,6 +637,7 @@
     <ClCompile Include="682. 棒球比赛.cpp" />
     <ClCompile Include="69. x 的平方根.cpp" />
     <ClCompile Include="691. 贴纸拼词.cpp" />
+    <ClCompile Include="692. 前K个高频单词.cpp" />
     <ClCompile Include="693. 交替位二进制数.cpp" />
     <ClCompile Include="698. 划分为k个相等的子集.cpp" />
     <ClCompile Include="7. 整数反转.cpp" />
