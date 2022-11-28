@@ -689,6 +689,7 @@
     <ClCompile Include="81. 搜索旋转排序数组 II.cpp" />
     <ClCompile Include="811. 子域名访问计数.cpp" />
     <ClCompile Include="812. 最大三角形面积.cpp" />
+    <ClCompile Include="813. 最大平均值和的分组.cpp" />
     <ClCompile Include="816. 模糊坐标.cpp" />
     <ClCompile Include="817. 链表组件.cpp" />
     <ClCompile Include="819. 最常见的单词.cpp" />

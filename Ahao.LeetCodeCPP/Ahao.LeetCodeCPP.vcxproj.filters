@@ -1939,6 +1939,9 @@
     <Filter Include="源文件\0200-0299\demo228">
       <UniqueIdentifier>{e9782d49-f707-4a35-bc8f-f35ae5bcaeb6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo813">
+      <UniqueIdentifier>{c02cc49d-02a8-4782-bc2c-c5c18ce5d5e2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3743,6 +3746,9 @@
     </ClCompile>
     <ClCompile Include="228. 汇总区间.cpp">
       <Filter>源文件\0200-0299\demo228</Filter>
+    </ClCompile>
+    <ClCompile Include="813. 最大平均值和的分组.cpp">
+      <Filter>源文件\0800-0899\demo813</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
