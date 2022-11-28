@@ -541,6 +541,7 @@
     <ClCompile Include="27. 移除元素.cpp" />
     <ClCompile Include="28. 实现 strStr().cpp" />
     <ClCompile Include="29. 两数相除.cpp" />
+    <ClCompile Include="295. 数据流的中位数.cpp" />
     <ClCompile Include="3. 无重复字符的最长子串.cpp" />
     <ClCompile Include="30. 串联所有单词的子串.cpp" />
     <ClCompile Include="307. 区域和检索 - 数组可修改.cpp" />

@@ -1945,6 +1945,9 @@
     <Filter Include="源文件\0300-0399\demo352">
       <UniqueIdentifier>{aca6b430-a9cb-40c3-8465-3780783e215e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo295">
+      <UniqueIdentifier>{4b251be0-d020-4b9d-8d13-b0558880f925}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3755,6 +3758,9 @@
     </ClCompile>
     <ClCompile Include="352. 将数据流变为多个不相交区间.cpp">
       <Filter>源文件\0300-0399\demo352</Filter>
+    </ClCompile>
+    <ClCompile Include="295. 数据流的中位数.cpp">
+      <Filter>源文件\0200-0299\demo295</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
