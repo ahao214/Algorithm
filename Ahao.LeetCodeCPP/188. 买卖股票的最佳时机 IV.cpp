@@ -57,3 +57,36 @@ public:
 		return { sold[n], count0 };
 	}
 };
+
+
+
+
+/*
+188. 买卖股票的最佳时机 IV
+给定一个整数数组 prices ，它的第 i 个元素 prices[i] 是一支给定的股票在第 i 天的价格。
+
+设计一个算法来计算你所能获取的最大利润。你最多可以完成 k 笔交易。
+
+注意：你不能同时参与多笔交易（你必须在再次购买前出售掉之前的股票）。
+*/
+class Solution {
+	int f[1010][110][2];
+public:
+	int maxProfit(int k, vector<int>& prices) {
+		int n = prices.size();
+		memset(f, -0x3f, sizeof(f));
+		for (int i = 0; i <= n; i++) {
+			f[i][0][0] = 0;
+		}
+		for (int i = 1; i <= n; i++) {
+			for (int j = 1; j <= k; j++) {
+				f[i][j][0] = max(f[i - 1][j][0], f[i - 1][j][1] + prices[i - 1]);
+				f[i][j][1] = max(f[i - 1][j][1], f[i - 1][j - 1][0] - prices[i - 1]);
+			}
+		}
+		int res = 0;
+		for (int i = 0; i <= k; i++)
+			res = max(res, f[n][i][0]);
+		return res;
+	}
+};
