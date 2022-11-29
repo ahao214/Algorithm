@@ -1963,6 +1963,9 @@
     <Filter Include="源文件\0100-0199\demo167">
       <UniqueIdentifier>{66c2eaf8-bf90-439b-b5e5-713cecf77e88}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo216">
+      <UniqueIdentifier>{2151360b-037c-43b3-8bdc-710f3cdbb046}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3791,6 +3794,9 @@
     </ClCompile>
     <ClCompile Include="167. 两数之和 II - 输入有序数组.cpp">
       <Filter>源文件\0100-0199\demo167</Filter>
+    </ClCompile>
+    <ClCompile Include="216. 组合总和 III.cpp">
+      <Filter>源文件\0200-0299\demo216</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
