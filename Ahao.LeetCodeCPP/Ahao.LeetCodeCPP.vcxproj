@@ -726,6 +726,7 @@
     <ClCompile Include="895. 最大频率栈.cpp" />
     <ClCompile Include="899.有序队列.cpp" />
     <ClCompile Include="9. 回文数.cpp" />
+    <ClCompile Include="90. 子集 II.cpp" />
     <ClCompile Include="901. 股票价格跨度.cpp" />
     <ClCompile Include="902. 最大为 N 的数字组合.cpp" />
     <ClCompile Include="904. 水果成篮.cpp" />

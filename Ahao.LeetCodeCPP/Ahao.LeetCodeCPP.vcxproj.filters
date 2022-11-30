@@ -3804,6 +3804,9 @@
     <ClCompile Include="895. 最大频率栈.cpp">
       <Filter>源文件\0800-0899\demo895</Filter>
     </ClCompile>
+    <ClCompile Include="90. 子集 II.cpp">
+      <Filter>源文件\0001-0099\demo90</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
