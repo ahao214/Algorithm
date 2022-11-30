@@ -1966,6 +1966,9 @@
     <Filter Include="源文件\0200-0299\demo216">
       <UniqueIdentifier>{2151360b-037c-43b3-8bdc-710f3cdbb046}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo895">
+      <UniqueIdentifier>{3c957a31-4915-4d2e-81a5-e96d51490db3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3797,6 +3800,9 @@
     </ClCompile>
     <ClCompile Include="216. 组合总和 III.cpp">
       <Filter>源文件\0200-0299\demo216</Filter>
+    </ClCompile>
+    <ClCompile Include="895. 最大频率栈.cpp">
+      <Filter>源文件\0800-0899\demo895</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
