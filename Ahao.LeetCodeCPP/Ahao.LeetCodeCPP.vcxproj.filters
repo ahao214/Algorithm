@@ -1969,6 +1969,9 @@
     <Filter Include="源文件\0800-0899\demo895">
       <UniqueIdentifier>{3c957a31-4915-4d2e-81a5-e96d51490db3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0800-0899\demo857">
+      <UniqueIdentifier>{761bcc61-7946-455b-b231-78d437263ce3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3806,6 +3809,9 @@
     </ClCompile>
     <ClCompile Include="90. 子集 II.cpp">
       <Filter>源文件\0001-0099\demo90</Filter>
+    </ClCompile>
+    <ClCompile Include="857. 雇佣 K 名工人的最低成本.cpp">
+      <Filter>源文件\0800-0899\demo857</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
