@@ -183,6 +183,7 @@
     <ClCompile Include="1382. 将二叉搜索树变平衡.cpp" />
     <ClCompile Include="1383. 最大的团队表现值.cpp" />
     <ClCompile Include="1389. 按既定顺序创建目标数组.cpp" />
+    <ClCompile Include="139. 单词拆分.cpp" />
     <ClCompile Include="1390. 四因数.cpp" />
     <ClCompile Include="1391. 检查网格中是否存在有效路径.cpp" />
     <ClCompile Include="1392. 最长快乐前缀.cpp" />

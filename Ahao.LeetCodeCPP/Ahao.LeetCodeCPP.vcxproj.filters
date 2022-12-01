@@ -1978,6 +1978,9 @@
     <Filter Include="源文件\0900-0999\demo930">
       <UniqueIdentifier>{5043ee21-ffdc-4d03-89cb-173ebae460fc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0100-0199\demo139">
+      <UniqueIdentifier>{c58e2f47-a0d5-42ed-8783-4055be8ec045}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3824,6 +3827,9 @@
     </ClCompile>
     <ClCompile Include="930. 和相同的二元子数组.cpp">
       <Filter>源文件\0900-0999\demo930</Filter>
+    </ClCompile>
+    <ClCompile Include="139. 单词拆分.cpp">
+      <Filter>源文件\0100-0199\demo139</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
