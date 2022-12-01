@@ -534,6 +534,7 @@
     <ClCompile Include="224. 基本计算器.cpp" />
     <ClCompile Include="228. 汇总区间.cpp" />
     <ClCompile Include="23. 合并K个升序链表.cpp" />
+    <ClCompile Include="230. 二叉搜索树中第K小的元素.cpp" />
     <ClCompile Include="233. 数字 1 的个数.cpp" />
     <ClCompile Include="24. 两两交换链表中的节点.cpp" />
     <ClCompile Include="240. 搜索二维矩阵 II.cpp" />

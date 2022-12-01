@@ -1981,6 +1981,9 @@
     <Filter Include="源文件\0100-0199\demo139">
       <UniqueIdentifier>{c58e2f47-a0d5-42ed-8783-4055be8ec045}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo230">
+      <UniqueIdentifier>{e27842cc-a06e-4b89-afe3-6b42a541c9f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3830,6 +3833,9 @@
     </ClCompile>
     <ClCompile Include="139. 单词拆分.cpp">
       <Filter>源文件\0100-0199\demo139</Filter>
+    </ClCompile>
+    <ClCompile Include="230. 二叉搜索树中第K小的元素.cpp">
+      <Filter>源文件\0200-0299\demo230</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
