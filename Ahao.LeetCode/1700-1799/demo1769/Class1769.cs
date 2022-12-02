@@ -28,5 +28,34 @@ namespace Ahao.LeetCode._1700_1799.demo1769
             return res;
         }
 
+
+
+        public int[] MinOperations2(string boxes)
+        {
+            int left = boxes[0] - '0', right = 0, operations = 0;
+            int n = boxes.Length;
+            for (int i = 1; i < n; i++)
+            {
+                if (boxes[i] == '1')
+                {
+                    right++;
+                    operations += i;
+                }
+            }
+            int[] res = new int[n];
+            res[0] = operations;
+            for (int i = 1; i < n; i++)
+            {
+                operations += left - right;
+                if (boxes[i] == '1')
+                {
+                    left++;
+                    right--;
+                }
+                res[i] = operations;
+            }
+            return res;
+        }
+
     }
 }
