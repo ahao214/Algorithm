@@ -1987,6 +1987,9 @@
     <Filter Include="源文件\0300-0399\demo326">
       <UniqueIdentifier>{fcfb6f68-db78-4f82-a3d7-8c4d20d9e63f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo238">
+      <UniqueIdentifier>{a9d83161-6598-4c4f-8cd2-ac9956983cba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3842,6 +3845,9 @@
     </ClCompile>
     <ClCompile Include="326. 3 的幂.cpp">
       <Filter>源文件\0300-0399\demo326</Filter>
+    </ClCompile>
+    <ClCompile Include="238. 除自身以外数组的乘积.cpp">
+      <Filter>源文件\0200-0299\demo238</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
