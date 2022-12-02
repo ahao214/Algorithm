@@ -1990,6 +1990,9 @@
     <Filter Include="源文件\0200-0299\demo238">
       <UniqueIdentifier>{a9d83161-6598-4c4f-8cd2-ac9956983cba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo278">
+      <UniqueIdentifier>{8b353bad-b453-4c90-b46d-1ae3d2294d3e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3851,6 +3854,9 @@
     </ClCompile>
     <ClCompile Include="98. 验证二叉搜索树.cpp">
       <Filter>源文件\0001-0099\demo98</Filter>
+    </ClCompile>
+    <ClCompile Include="278. 第一个错误的版本.cpp">
+      <Filter>源文件\0200-0299\demo278</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
