@@ -1993,6 +1993,9 @@
     <Filter Include="源文件\0200-0299\demo278">
       <UniqueIdentifier>{8b353bad-b453-4c90-b46d-1ae3d2294d3e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0100-0199\demo125">
+      <UniqueIdentifier>{e19666fa-d44d-4265-a15e-bd6e50f6a37c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3857,6 +3860,9 @@
     </ClCompile>
     <ClCompile Include="278. 第一个错误的版本.cpp">
       <Filter>源文件\0200-0299\demo278</Filter>
+    </ClCompile>
+    <ClCompile Include="125. 验证回文串.cpp">
+      <Filter>源文件\0100-0199\demo125</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
