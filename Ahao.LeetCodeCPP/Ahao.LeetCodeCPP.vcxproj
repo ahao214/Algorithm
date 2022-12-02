@@ -554,6 +554,7 @@
     <ClCompile Include="310. 最小高度树.cpp" />
     <ClCompile Include="32. 最长有效括号.cpp" />
     <ClCompile Include="324. 摆动排序 II.cpp" />
+    <ClCompile Include="326. 3 的幂.cpp" />
     <ClCompile Include="327. 区间和的个数.cpp" />
     <ClCompile Include="33. 搜索旋转排序数组.cpp" />
     <ClCompile Include="338. 比特位计数.cpp" />
