@@ -3849,6 +3849,9 @@
     <ClCompile Include="238. 除自身以外数组的乘积.cpp">
       <Filter>源文件\0200-0299\demo238</Filter>
     </ClCompile>
+    <ClCompile Include="98. 验证二叉搜索树.cpp">
+      <Filter>源文件\0001-0099\demo98</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
