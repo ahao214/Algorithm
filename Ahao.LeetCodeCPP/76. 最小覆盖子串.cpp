@@ -63,3 +63,35 @@ public:
 		return res;
 	}
 };
+
+
+
+
+/*
+76. 最小覆盖子串
+给你一个字符串 s 、一个字符串 t 。返回 s 中涵盖 t 所有字符的最小子串。如果 s 中不存在涵盖 t 所有字符的子串，则返回空字符串 "" 。
+*/
+class Solution {
+public:
+	string minWindow(string s, string t) {
+		string res;
+		unordered_map<char, int> S, T;
+		for (auto c : t) T[c]++;
+		int total = T.size();
+		int satisfy = 0;
+		for (int i = 0, j = 0; i < s.size(); i++)
+		{
+			S[s[i]]++;
+			if (S[s[i]] == T[s[i]]) satisfy++;
+			while (S[s[j]] > T[s[j]])
+			{
+				S[s[j++]]--;
+			}
+			if (satisfy == total && (res.empty() || i - j + 1 < res.size()))
+			{
+				res = s.substr(j, i - j + 1);
+			}
+		}
+		return res;
+	}
+};
