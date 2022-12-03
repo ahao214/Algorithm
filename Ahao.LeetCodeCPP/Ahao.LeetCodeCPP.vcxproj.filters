@@ -2002,6 +2002,9 @@
     <Filter Include="源文件\0600-0699\demo650">
       <UniqueIdentifier>{7370b407-b53d-4534-bcd2-9408a0a84560}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0300-0399\demo343">
+      <UniqueIdentifier>{f8c27d96-042a-488d-b491-f083cbf1be68}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3875,6 +3878,9 @@
     </ClCompile>
     <ClCompile Include="650. 只有两个键的键盘.cpp">
       <Filter>源文件\0600-0699\demo650</Filter>
+    </ClCompile>
+    <ClCompile Include="343. 整数拆分.cpp">
+      <Filter>源文件\0300-0399\demo343</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
