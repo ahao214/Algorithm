@@ -556,6 +556,7 @@
     <ClCompile Include="307. 区域和检索 - 数组可修改.cpp" />
     <ClCompile Include="31. 下一个排列.cpp" />
     <ClCompile Include="310. 最小高度树.cpp" />
+    <ClCompile Include="319. 灯泡开关.cpp" />
     <ClCompile Include="32. 最长有效括号.cpp" />
     <ClCompile Include="324. 摆动排序 II.cpp" />
     <ClCompile Include="326. 3 的幂.cpp" />

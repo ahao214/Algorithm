@@ -2005,6 +2005,9 @@
     <Filter Include="源文件\0300-0399\demo343">
       <UniqueIdentifier>{f8c27d96-042a-488d-b491-f083cbf1be68}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0300-0399\demo319">
+      <UniqueIdentifier>{b212da83-917c-48b4-8367-c6b00a80efd4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3881,6 +3884,9 @@
     </ClCompile>
     <ClCompile Include="343. 整数拆分.cpp">
       <Filter>源文件\0300-0399\demo343</Filter>
+    </ClCompile>
+    <ClCompile Include="319. 灯泡开关.cpp">
+      <Filter>源文件\0300-0399\demo319</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
