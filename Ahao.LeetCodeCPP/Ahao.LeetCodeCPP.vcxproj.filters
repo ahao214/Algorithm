@@ -1996,6 +1996,9 @@
     <Filter Include="源文件\0100-0199\demo125">
       <UniqueIdentifier>{e19666fa-d44d-4265-a15e-bd6e50f6a37c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo223">
+      <UniqueIdentifier>{a0b896a8-f22a-46fc-8e44-57e6e2f84784}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3863,6 +3866,9 @@
     </ClCompile>
     <ClCompile Include="125. 验证回文串.cpp">
       <Filter>源文件\0100-0199\demo125</Filter>
+    </ClCompile>
+    <ClCompile Include="223. 矩形面积.cpp">
+      <Filter>源文件\0200-0299\demo223</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
