@@ -2011,6 +2011,9 @@
     <Filter Include="源文件\0400-0499\demo458">
       <UniqueIdentifier>{52590629-db78-477e-8ba7-aded5fd3afbf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo268">
+      <UniqueIdentifier>{07a3a8ae-272b-44c5-a71f-ce741d95668d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3893,6 +3896,9 @@
     </ClCompile>
     <ClCompile Include="458. 可怜的小猪.cpp">
       <Filter>源文件\0400-0499\demo458</Filter>
+    </ClCompile>
+    <ClCompile Include="268. 丢失的数字.cpp">
+      <Filter>源文件\0200-0299\demo268</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
