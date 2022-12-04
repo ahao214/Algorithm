@@ -1,5 +1,7 @@
 using namespace std;
 #include<vector>
+#include <algorithm>
+#include <xiosbase>
 
 
 //排序
@@ -56,3 +58,20 @@ public:
 	}
 };
 
+
+
+
+/*
+462. 最少移动次数使数组元素相等 II
+给定一个非空整数数组，找到使所有数组元素相等所需的最小移动数，其中每次移动可将选定的一个元素加1或减1。 您可以假设数组的长度最多为10000。
+*/
+class Solution {
+public:
+	int minMoves2(vector<int>& nums) {
+		int n = nums.size();
+		nth_element(nums.begin(), nums.begin() + n / 2, nums.end());
+		int res = 0;
+		for (auto x : nums) res += abs(x - nums[n / 2]);
+		return res;
+	}
+};
