@@ -2014,6 +2014,9 @@
     <Filter Include="源文件\0200-0299\demo268">
       <UniqueIdentifier>{07a3a8ae-272b-44c5-a71f-ce741d95668d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo214">
+      <UniqueIdentifier>{cf8adc12-fcdb-4a7c-8379-88518bef2f11}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3899,6 +3902,9 @@
     </ClCompile>
     <ClCompile Include="268. 丢失的数字.cpp">
       <Filter>源文件\0200-0299\demo268</Filter>
+    </ClCompile>
+    <ClCompile Include="214. 最短回文串.cpp">
+      <Filter>源文件\0200-0299\demo214</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

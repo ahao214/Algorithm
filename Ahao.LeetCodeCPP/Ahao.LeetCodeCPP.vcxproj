@@ -506,6 +506,7 @@
     <ClCompile Include="2055. 蜡烛之间的盘子.cpp" />
     <ClCompile Include="2056. 棋盘上有效移动组合的数目.cpp" />
     <ClCompile Include="21. 合并两个有序链表.cpp" />
+    <ClCompile Include="214. 最短回文串.cpp" />
     <ClCompile Include="2148. 元素计数.cpp" />
     <ClCompile Include="2149. 按符号重排数组.cpp" />
     <ClCompile Include="2150. 找出数组中的所有孤独数字.cpp" />
