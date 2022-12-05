@@ -2029,6 +2029,9 @@
     <Filter Include="源文件\0100-0199\demo166">
       <UniqueIdentifier>{b4766904-8529-4695-86ad-0b07eaff2741}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo273">
+      <UniqueIdentifier>{b4b39a2e-5557-479b-b653-33ef91a0de75}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3929,6 +3932,9 @@
     </ClCompile>
     <ClCompile Include="166. 分数到小数.cpp">
       <Filter>源文件\0100-0199\demo166</Filter>
+    </ClCompile>
+    <ClCompile Include="273. 整数转换英文表示.cpp">
+      <Filter>源文件\0200-0299\demo273</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
