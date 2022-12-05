@@ -2020,6 +2020,9 @@
     <Filter Include="源文件\0200-0299\demo227">
       <UniqueIdentifier>{dc5475ed-0a74-468b-a32a-737703460975}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0100-0199\demo131">
+      <UniqueIdentifier>{7aa30b7f-b84a-4588-80fe-15717e33d50c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3911,6 +3914,9 @@
     </ClCompile>
     <ClCompile Include="227. 基本计算器 II.cpp">
       <Filter>源文件\0200-0299\demo227</Filter>
+    </ClCompile>
+    <ClCompile Include="131. 分割回文串.cpp">
+      <Filter>源文件\0100-0199\demo131</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
