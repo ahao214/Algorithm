@@ -2017,6 +2017,9 @@
     <Filter Include="源文件\0200-0299\demo214">
       <UniqueIdentifier>{cf8adc12-fcdb-4a7c-8379-88518bef2f11}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo227">
+      <UniqueIdentifier>{dc5475ed-0a74-468b-a32a-737703460975}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3905,6 +3908,9 @@
     </ClCompile>
     <ClCompile Include="214. 最短回文串.cpp">
       <Filter>源文件\0200-0299\demo214</Filter>
+    </ClCompile>
+    <ClCompile Include="227. 基本计算器 II.cpp">
+      <Filter>源文件\0200-0299\demo227</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

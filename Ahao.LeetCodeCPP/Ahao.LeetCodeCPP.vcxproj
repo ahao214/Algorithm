@@ -535,6 +535,7 @@
     <ClCompile Include="2222. 选择建筑的方案数.cpp" />
     <ClCompile Include="223. 矩形面积.cpp" />
     <ClCompile Include="224. 基本计算器.cpp" />
+    <ClCompile Include="227. 基本计算器 II.cpp" />
     <ClCompile Include="228. 汇总区间.cpp" />
     <ClCompile Include="23. 合并K个升序链表.cpp" />
     <ClCompile Include="230. 二叉搜索树中第K小的元素.cpp" />
