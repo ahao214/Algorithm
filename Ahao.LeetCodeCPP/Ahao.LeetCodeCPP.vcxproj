@@ -311,6 +311,7 @@
     <ClCompile Include="1654. 到家的最少跳跃次数.cpp" />
     <ClCompile Include="1655. 分配重复整数.cpp" />
     <ClCompile Include="1658. 将 x 减到 0 的最小操作数.cpp" />
+    <ClCompile Include="166. 分数到小数.cpp" />
     <ClCompile Include="1662. 检查两个字符串数组是否相等.cpp" />
     <ClCompile Include="1663. 具有给定数值的最小字符串.cpp" />
     <ClCompile Include="1664. 生成平衡数组的方案数.cpp" />
@@ -506,6 +507,7 @@
     <ClCompile Include="2054. 两个最好的不重叠活动.cpp" />
     <ClCompile Include="2055. 蜡烛之间的盘子.cpp" />
     <ClCompile Include="2056. 棋盘上有效移动组合的数目.cpp" />
+    <ClCompile Include="208. 实现 Trie (前缀树).cpp" />
     <ClCompile Include="21. 合并两个有序链表.cpp" />
     <ClCompile Include="214. 最短回文串.cpp" />
     <ClCompile Include="2148. 元素计数.cpp" />

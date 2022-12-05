@@ -2023,6 +2023,12 @@
     <Filter Include="源文件\0100-0199\demo131">
       <UniqueIdentifier>{7aa30b7f-b84a-4588-80fe-15717e33d50c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo208">
+      <UniqueIdentifier>{934f0a67-12e9-4d48-bb29-ff34dbbe61e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0100-0199\demo166">
+      <UniqueIdentifier>{b4766904-8529-4695-86ad-0b07eaff2741}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3917,6 +3923,12 @@
     </ClCompile>
     <ClCompile Include="131. 分割回文串.cpp">
       <Filter>源文件\0100-0199\demo131</Filter>
+    </ClCompile>
+    <ClCompile Include="208. 实现 Trie (前缀树).cpp">
+      <Filter>源文件\0200-0299\demo208</Filter>
+    </ClCompile>
+    <ClCompile Include="166. 分数到小数.cpp">
+      <Filter>源文件\0100-0199\demo166</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
