@@ -2,11 +2,11 @@ using namespace std;
 
 #include<string>
 
+/*
+5. 最长回文子串
+给你一个字符串 s，找到 s 中最长的回文子串。
+*/
 class Solution {
-	/*
-	5. 最长回文子串
-	给你一个字符串 s，找到 s 中最长的回文子串。
-	*/
 public:
 	string longestPalindrome(string s) {
 		string res = "";
