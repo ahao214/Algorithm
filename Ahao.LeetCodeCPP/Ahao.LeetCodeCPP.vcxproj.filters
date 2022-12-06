@@ -2035,6 +2035,9 @@
     <Filter Include="源文件\0100-0199\demo165">
       <UniqueIdentifier>{d9c5562d-6c60-4758-8b6b-ff915be5e346}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0100-0199\demo151">
+      <UniqueIdentifier>{477f12f4-f858-41a3-95d3-bbf591314233}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3941,6 +3944,9 @@
     </ClCompile>
     <ClCompile Include="165. 比较版本号.cpp">
       <Filter>源文件\0100-0199\demo165</Filter>
+    </ClCompile>
+    <ClCompile Include="151. 翻转字符串里的单词.cpp">
+      <Filter>源文件\0100-0199\demo151</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
