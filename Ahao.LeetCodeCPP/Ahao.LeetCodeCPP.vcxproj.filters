@@ -2032,6 +2032,9 @@
     <Filter Include="源文件\0200-0299\demo273">
       <UniqueIdentifier>{b4b39a2e-5557-479b-b653-33ef91a0de75}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0100-0199\demo165">
+      <UniqueIdentifier>{d9c5562d-6c60-4758-8b6b-ff915be5e346}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3935,6 +3938,9 @@
     </ClCompile>
     <ClCompile Include="273. 整数转换英文表示.cpp">
       <Filter>源文件\0200-0299\demo273</Filter>
+    </ClCompile>
+    <ClCompile Include="165. 比较版本号.cpp">
+      <Filter>源文件\0100-0199\demo165</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

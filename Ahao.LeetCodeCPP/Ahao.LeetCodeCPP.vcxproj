@@ -306,6 +306,7 @@
     <ClCompile Include="1641. 统计字典序元音字符串的数目.cpp" />
     <ClCompile Include="1642. 可以到达的最远建筑.cpp" />
     <ClCompile Include="1643. 第 K 条最小指令.cpp" />
+    <ClCompile Include="165. 比较版本号.cpp" />
     <ClCompile Include="1652. 拆炸弹.cpp" />
     <ClCompile Include="1653. 使字符串平衡的最少删除次数.cpp" />
     <ClCompile Include="1654. 到家的最少跳跃次数.cpp" />
