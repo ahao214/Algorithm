@@ -2047,6 +2047,9 @@
     <Filter Include="源文件\0200-0299\demo297">
       <UniqueIdentifier>{57fff68c-e3b1-4658-80db-20cb85478ad5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo236">
+      <UniqueIdentifier>{caa26404-95d1-4f45-9dee-b8ce1edd7576}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3965,6 +3968,9 @@
     </ClCompile>
     <ClCompile Include="297. 二叉树的序列化与反序列化.cpp">
       <Filter>源文件\0200-0299\demo297</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>源文件\0200-0299\demo236</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -778,6 +778,7 @@
     <ClCompile Include="998. 最大二叉树 II.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
     <ClCompile Include="1738. 找出第 K 大的异或坐标值.cpp" />
+    <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp" />
