@@ -2044,6 +2044,9 @@
     <Filter Include="源文件\0500-0599\demo543">
       <UniqueIdentifier>{813dec00-c119-400c-85c2-d98c1c8917ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0200-0299\demo297">
+      <UniqueIdentifier>{57fff68c-e3b1-4658-80db-20cb85478ad5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3959,6 +3962,9 @@
     </ClCompile>
     <ClCompile Include="543. 二叉树的直径.cpp">
       <Filter>源文件\0500-0599\demo543</Filter>
+    </ClCompile>
+    <ClCompile Include="297. 二叉树的序列化与反序列化.cpp">
+      <Filter>源文件\0200-0299\demo297</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
