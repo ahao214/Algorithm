@@ -2041,6 +2041,9 @@
     <Filter Include="源文件\0100-0199\demo124">
       <UniqueIdentifier>{2bc86ff3-55c4-43f6-8d6f-46f149f275cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0500-0599\demo543">
+      <UniqueIdentifier>{813dec00-c119-400c-85c2-d98c1c8917ca}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3953,6 +3956,9 @@
     </ClCompile>
     <ClCompile Include="124. 二叉树中的最大路径和.cpp">
       <Filter>源文件\0100-0199\demo124</Filter>
+    </ClCompile>
+    <ClCompile Include="543. 二叉树的直径.cpp">
+      <Filter>源文件\0500-0599\demo543</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
