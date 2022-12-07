@@ -2038,6 +2038,9 @@
     <Filter Include="源文件\0100-0199\demo151">
       <UniqueIdentifier>{477f12f4-f858-41a3-95d3-bbf591314233}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0100-0199\demo124">
+      <UniqueIdentifier>{2bc86ff3-55c4-43f6-8d6f-46f149f275cf}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3947,6 +3950,9 @@
     </ClCompile>
     <ClCompile Include="151. 翻转字符串里的单词.cpp">
       <Filter>源文件\0100-0199\demo151</Filter>
+    </ClCompile>
+    <ClCompile Include="124. 二叉树中的最大路径和.cpp">
+      <Filter>源文件\0100-0199\demo124</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
