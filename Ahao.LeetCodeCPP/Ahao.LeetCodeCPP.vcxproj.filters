@@ -2059,6 +2059,9 @@
     <Filter Include="源文件\0100-0199\demo128">
       <UniqueIdentifier>{dc93a223-5606-4118-9349-d170c8ce744c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0100-0199\demo149">
+      <UniqueIdentifier>{8264eaf2-e9cc-4b8c-886c-f1a8ba193e80}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3995,6 +3998,9 @@
     </ClCompile>
     <ClCompile Include="128. 最长连续序列.cpp">
       <Filter>源文件\0100-0199\demo128</Filter>
+    </ClCompile>
+    <ClCompile Include="149. 直线上最多的点数.cpp">
+      <Filter>源文件\0100-0199\demo149</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
