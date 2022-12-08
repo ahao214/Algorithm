@@ -768,6 +768,7 @@
     <ClCompile Include="930. 和相同的二元子数组.cpp" />
     <ClCompile Include="934. 最短的桥.cpp" />
     <ClCompile Include="937. 重新排列日志文件.cpp" />
+    <ClCompile Include="94. 二叉树的中序遍历.cpp" />
     <ClCompile Include="940. 不同的子序列 II.cpp" />
     <ClCompile Include="942. 增减字符串匹配.cpp" />
     <ClCompile Include="944. 删列造序.cpp" />

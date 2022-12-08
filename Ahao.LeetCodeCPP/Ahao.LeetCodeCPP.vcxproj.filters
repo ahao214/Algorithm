@@ -3984,6 +3984,9 @@
     <ClCompile Include="105. 从前序与中序遍历序列构造二叉树.cpp">
       <Filter>源文件\0100-0199\demo105</Filter>
     </ClCompile>
+    <ClCompile Include="94. 二叉树的中序遍历.cpp">
+      <Filter>源文件\0001-0099\demo94</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
