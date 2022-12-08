@@ -2056,6 +2056,9 @@
     <Filter Include="源文件\0100-0199\demo105">
       <UniqueIdentifier>{eecdf856-e438-4f4d-b929-da0e28766017}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0100-0199\demo128">
+      <UniqueIdentifier>{dc93a223-5606-4118-9349-d170c8ce744c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3989,6 +3992,9 @@
     </ClCompile>
     <ClCompile Include="101. 对称二叉树.cpp">
       <Filter>源文件\0100-0199\demo101</Filter>
+    </ClCompile>
+    <ClCompile Include="128. 最长连续序列.cpp">
+      <Filter>源文件\0100-0199\demo128</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
