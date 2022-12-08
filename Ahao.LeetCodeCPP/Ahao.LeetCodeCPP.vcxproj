@@ -637,6 +637,7 @@
     <ClCompile Include="543. 二叉树的直径.cpp" />
     <ClCompile Include="547. 省份数量.cpp" />
     <ClCompile Include="55. 跳跃游戏.cpp" />
+    <ClCompile Include="554. 砖墙.cpp" />
     <ClCompile Include="556. 下一个更大元素 III.cpp" />
     <ClCompile Include="56. 合并区间.cpp" />
     <ClCompile Include="565. 数组嵌套.cpp" />

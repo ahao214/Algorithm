@@ -2062,6 +2062,9 @@
     <Filter Include="源文件\0100-0199\demo149">
       <UniqueIdentifier>{8264eaf2-e9cc-4b8c-886c-f1a8ba193e80}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\0500-0599\demo554">
+      <UniqueIdentifier>{377d6884-5490-495d-a339-123606b6963a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -4001,6 +4004,9 @@
     </ClCompile>
     <ClCompile Include="149. 直线上最多的点数.cpp">
       <Filter>源文件\0100-0199\demo149</Filter>
+    </ClCompile>
+    <ClCompile Include="554. 砖墙.cpp">
+      <Filter>源文件\0500-0599\demo554</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
