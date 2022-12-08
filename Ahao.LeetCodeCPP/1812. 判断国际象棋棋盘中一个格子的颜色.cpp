@@ -3,7 +3,6 @@
 using namespace std;
 
 
-
 /*
 1812. 判断国际象棋棋盘中一个格子的颜色
 给你一个坐标 coordinates ，它是一个字符串，表示国际象棋棋盘中一个格子的坐标。下图是国际象棋棋盘示意图。
@@ -16,5 +15,14 @@ class Solution {
 public:
 	bool squareIsWhite(string coordinates) {
 		return (coordinates[0] + coordinates[1]) % 2;
+	}
+};
+
+
+
+class Solution {
+public:
+	bool squareIsWhite(string coordinates) {
+		return ((coordinates[0] - 'a' + 1) + (coordinates[1] - '0')) % 2 == 1;
 	}
 };
