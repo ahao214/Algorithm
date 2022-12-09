@@ -635,6 +635,7 @@
     <ClCompile Include="515. 在每个树行中找最大值.cpp" />
     <ClCompile Include="52. N皇后 II.cpp" />
     <ClCompile Include="522. 最长特殊序列 II.cpp" />
+    <ClCompile Include="525. 连续数组.cpp" />
     <ClCompile Include="53. 最大子数组和.cpp" />
     <ClCompile Include="532. 数组中的 k-diff 数对.cpp" />
     <ClCompile Include="54. 螺旋矩阵.cpp" />
