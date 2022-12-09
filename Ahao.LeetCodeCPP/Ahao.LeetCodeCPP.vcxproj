@@ -678,6 +678,7 @@
     <ClCompile Include="698. 划分为k个相等的子集.cpp" />
     <ClCompile Include="7. 整数反转.cpp" />
     <ClCompile Include="70. 爬楼梯.cpp" />
+    <ClCompile Include="706. 设计哈希映射.cpp" />
     <ClCompile Include="71. 简化路径.cpp" />
     <ClCompile Include="713. 乘积小于 K 的子数组.cpp" />
     <ClCompile Include="719. 找出第 K 小的数对距离.cpp" />
