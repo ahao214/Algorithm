@@ -4020,6 +4020,9 @@
     <ClCompile Include="350. 两个数组的交集 II.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="347. 前 K 个高频元素.cpp">
+      <Filter>源文件\0300-0399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
