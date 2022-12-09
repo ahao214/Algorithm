@@ -4023,6 +4023,9 @@
     <ClCompile Include="347. 前 K 个高频元素.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="187. 重复的DNA序列.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

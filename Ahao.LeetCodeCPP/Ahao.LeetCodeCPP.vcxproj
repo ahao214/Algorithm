@@ -459,6 +459,7 @@
     <ClCompile Include="1865. 找出和为指定值的下标对.cpp" />
     <ClCompile Include="1866. 恰有 K 根木棍可以看到的排列数目.cpp" />
     <ClCompile Include="1869. 哪种连续子字符串更长.cpp" />
+    <ClCompile Include="187. 重复的DNA序列.cpp" />
     <ClCompile Include="1870. 准时到达的列车最小时速.cpp" />
     <ClCompile Include="1871. 跳跃游戏 VII.cpp" />
     <ClCompile Include="1872. 石子游戏 VIII.cpp" />
