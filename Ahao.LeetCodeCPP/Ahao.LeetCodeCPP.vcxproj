@@ -565,6 +565,7 @@
     <ClCompile Include="278. 第一个错误的版本.cpp" />
     <ClCompile Include="28. 实现 strStr().cpp" />
     <ClCompile Include="29. 两数相除.cpp" />
+    <ClCompile Include="290. 单词规律.cpp" />
     <ClCompile Include="295. 数据流的中位数.cpp" />
     <ClCompile Include="297. 二叉树的序列化与反序列化.cpp" />
     <ClCompile Include="3. 无重复字符的最长子串.cpp" />

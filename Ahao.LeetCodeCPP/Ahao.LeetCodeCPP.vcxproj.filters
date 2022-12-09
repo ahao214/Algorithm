@@ -4008,6 +4008,9 @@
     <ClCompile Include="554. 砖墙.cpp">
       <Filter>源文件\0500-0599\demo554</Filter>
     </ClCompile>
+    <ClCompile Include="290. 单词规律.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
