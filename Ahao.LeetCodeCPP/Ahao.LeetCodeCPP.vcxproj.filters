@@ -4029,6 +4029,9 @@
     <ClCompile Include="525. 连续数组.cpp">
       <Filter>源文件\0500-0599</Filter>
     </ClCompile>
+    <ClCompile Include="560. 和为 K 的子数组.cpp">
+      <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
