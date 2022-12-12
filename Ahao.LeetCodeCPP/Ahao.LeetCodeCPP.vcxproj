@@ -291,6 +291,7 @@
     <ClCompile Include="1590. 使数组和能被 P 整除.cpp" />
     <ClCompile Include="1598. 文件夹操作日志搜集器.cpp" />
     <ClCompile Include="16. 最接近的三数之和.cpp" />
+    <ClCompile Include="160. 相交链表.cpp" />
     <ClCompile Include="1601. 最多可达成的换楼请求数目.cpp" />
     <ClCompile Include="1605. 给定行和列的和求可行矩阵.cpp" />
     <ClCompile Include="1606. 找到处理最多请求的服务器.cpp" />
