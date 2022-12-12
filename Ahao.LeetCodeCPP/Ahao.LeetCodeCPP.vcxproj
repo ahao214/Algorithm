@@ -519,6 +519,7 @@
     <ClCompile Include="2054. 两个最好的不重叠活动.cpp" />
     <ClCompile Include="2055. 蜡烛之间的盘子.cpp" />
     <ClCompile Include="2056. 棋盘上有效移动组合的数目.cpp" />
+    <ClCompile Include="206. 反转链表.cpp" />
     <ClCompile Include="208. 实现 Trie (前缀树).cpp" />
     <ClCompile Include="21. 合并两个有序链表.cpp" />
     <ClCompile Include="214. 最短回文串.cpp" />
