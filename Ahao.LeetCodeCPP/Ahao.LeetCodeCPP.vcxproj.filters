@@ -4044,6 +4044,9 @@
     <ClCompile Include="160. 相交链表.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="92. 反转链表 II.cpp">
+      <Filter>源文件\0001-0099\demo92</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
