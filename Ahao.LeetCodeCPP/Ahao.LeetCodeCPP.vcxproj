@@ -199,6 +199,7 @@
     <ClCompile Include="1408. 数组中的字符串匹配.cpp" />
     <ClCompile Include="1413. 逐步求和得到正数的最小值.cpp" />
     <ClCompile Include="1417. 重新格式化字符串.cpp" />
+    <ClCompile Include="142. 环形链表 II.cpp" />
     <ClCompile Include="1422. 分割字符串的最大得分.cpp" />
     <ClCompile Include="1423. 可获得的最大点数.cpp" />
     <ClCompile Include="1441. 用栈操作构建数组.cpp" />
