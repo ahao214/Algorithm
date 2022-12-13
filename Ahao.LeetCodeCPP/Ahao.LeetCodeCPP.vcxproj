@@ -437,6 +437,7 @@
     <ClCompile Include="1828. 统计一个圆中点的数目.cpp" />
     <ClCompile Include="1829. 每个查询的最大异或值.cpp" />
     <ClCompile Include="1830. 使字符串有序的最少操作次数.cpp" />
+    <ClCompile Include="1832. 判断句子是否为全字母句.cpp" />
     <ClCompile Include="1837. K 进制表示下的各位数字总和.cpp" />
     <ClCompile Include="1838. 最高频元素的频数.cpp" />
     <ClCompile Include="1839. 所有元音按顺序排布的最长子字符串.cpp" />
