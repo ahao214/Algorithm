@@ -1,3 +1,4 @@
+#include <cstddef>
 using namespace std;
 
 
@@ -45,5 +46,37 @@ public:
 
 		return head;
 	}
+};
 
+
+
+/*
+61. 旋转链表
+给你一个链表的头节点 head ，旋转链表，将链表每个节点向右移动 k 个位置。
+*/
+class Solution {
+public:
+	//1.k %= n
+	//2.first指针从头往后走K步
+	//3.second和first同时往后走，当first走到尾部的时候，停止
+	ListNode* rotateRight(ListNode* head, int k) {
+		if (!head) return NULL;
+		int n = 0;
+		for (auto p = head; p; p = p->next)
+			n++;
+
+		k %= n;
+		auto first = head, second = head;
+		while (k--) first = first->next;
+		while (first->next)
+		{
+			first = first->next;
+			second = second->next;
+		}
+
+		first->next = head;
+		head = second->next;
+		second->next = NULL;
+		return head;
+	}
 };
