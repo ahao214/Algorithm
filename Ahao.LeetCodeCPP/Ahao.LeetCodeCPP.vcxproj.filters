@@ -4053,6 +4053,9 @@
     <ClCompile Include="1832. 判断句子是否为全字母句.cpp">
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
+    <ClCompile Include="237. 删除链表中的节点.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
