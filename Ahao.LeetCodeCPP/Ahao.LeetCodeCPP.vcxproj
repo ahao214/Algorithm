@@ -573,6 +573,7 @@
     <ClCompile Include="275. H 指数 II.cpp" />
     <ClCompile Include="278. 第一个错误的版本.cpp" />
     <ClCompile Include="28. 实现 strStr().cpp" />
+    <ClCompile Include="287. 寻找重复数.cpp" />
     <ClCompile Include="29. 两数相除.cpp" />
     <ClCompile Include="290. 单词规律.cpp" />
     <ClCompile Include="295. 数据流的中位数.cpp" />
