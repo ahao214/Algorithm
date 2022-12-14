@@ -4065,6 +4065,9 @@
     <ClCompile Include="287. 寻找重复数.cpp">
       <Filter>源文件\0200-0299</Filter>
     </ClCompile>
+    <ClCompile Include="456. 132 模式.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

@@ -624,6 +624,7 @@
     <ClCompile Include="45. 跳跃游戏 II.cpp" />
     <ClCompile Include="450. 删除二叉搜索树中的节点.cpp" />
     <ClCompile Include="454. 四数相加 II.cpp" />
+    <ClCompile Include="456. 132 模式.cpp" />
     <ClCompile Include="458. 可怜的小猪.cpp" />
     <ClCompile Include="46. 全排列.cpp" />
     <ClCompile Include="462. 最少移动次数使数组元素相等 II.cpp" />
