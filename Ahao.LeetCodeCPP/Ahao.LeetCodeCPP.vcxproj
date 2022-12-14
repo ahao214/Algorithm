@@ -559,6 +559,7 @@
     <ClCompile Include="233. 数字 1 的个数.cpp" />
     <ClCompile Include="237. 删除链表中的节点.cpp" />
     <ClCompile Include="238. 除自身以外数组的乘积.cpp" />
+    <ClCompile Include="239. 滑动窗口最大值.cpp" />
     <ClCompile Include="24. 两两交换链表中的节点.cpp" />
     <ClCompile Include="240. 搜索二维矩阵 II.cpp" />
     <ClCompile Include="2400. 恰好移动 k 步到达某一位置的方法数目.cpp" />
