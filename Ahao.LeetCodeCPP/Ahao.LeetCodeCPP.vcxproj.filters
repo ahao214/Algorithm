@@ -4056,6 +4056,12 @@
     <ClCompile Include="237. 删除链表中的节点.cpp">
       <Filter>源文件\0200-0299</Filter>
     </ClCompile>
+    <ClCompile Include="2430. 对字母串可执行的最大删除数.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
+    <ClCompile Include="275. H 指数 II.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

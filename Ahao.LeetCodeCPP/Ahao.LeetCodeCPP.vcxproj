@@ -563,12 +563,14 @@
     <ClCompile Include="240. 搜索二维矩阵 II.cpp" />
     <ClCompile Include="2400. 恰好移动 k 步到达某一位置的方法数目.cpp" />
     <ClCompile Include="241. 为运算表达式设计优先级.cpp" />
+    <ClCompile Include="2430. 对字母串可执行的最大删除数.cpp" />
     <ClCompile Include="2471. 逐层排序二叉树所需的最少操作数目.cpp" />
     <ClCompile Include="25. K 个一组翻转链表.cpp" />
     <ClCompile Include="26. 删除有序数组中的重复项.cpp" />
     <ClCompile Include="268. 丢失的数字.cpp" />
     <ClCompile Include="27. 移除元素.cpp" />
     <ClCompile Include="273. 整数转换英文表示.cpp" />
+    <ClCompile Include="275. H 指数 II.cpp" />
     <ClCompile Include="278. 第一个错误的版本.cpp" />
     <ClCompile Include="28. 实现 strStr().cpp" />
     <ClCompile Include="29. 两数相除.cpp" />
