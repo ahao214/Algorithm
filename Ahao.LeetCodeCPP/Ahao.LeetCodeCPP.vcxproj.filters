@@ -4077,6 +4077,9 @@
     <ClCompile Include="475. 供暖器.cpp">
       <Filter>源文件\0400-0499</Filter>
     </ClCompile>
+    <ClCompile Include="496. 下一个更大元素 I.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
