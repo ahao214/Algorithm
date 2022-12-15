@@ -634,6 +634,7 @@
     <ClCompile Include="468. 验证IP地址.cpp" />
     <ClCompile Include="47. 全排列 II.cpp" />
     <ClCompile Include="473. 火柴拼正方形.cpp" />
+    <ClCompile Include="475. 供暖器.cpp" />
     <ClCompile Include="479. 最大回文数乘积.cpp" />
     <ClCompile Include="48. 旋转图像.cpp" />
     <ClCompile Include="481. 神奇字符串.cpp" />
