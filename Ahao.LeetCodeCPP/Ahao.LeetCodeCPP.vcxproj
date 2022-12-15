@@ -503,6 +503,7 @@
     <ClCompile Include="1926. 迷宫中离入口最近的出口.cpp" />
     <ClCompile Include="1927. 求和游戏.cpp" />
     <ClCompile Include="1928. 规定时间内到达终点的最小花费.cpp" />
+    <ClCompile Include="1945. 字符串转化后的各位数字之和.cpp" />
     <ClCompile Include="1957. 删除字符使字符串变好.cpp" />
     <ClCompile Include="1958. 检查操作是否合法.cpp" />
     <ClCompile Include="1959. K 次调整数组大小浪费的最小总空间.cpp" />

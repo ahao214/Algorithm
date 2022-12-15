@@ -4071,6 +4071,9 @@
     <ClCompile Include="239. 滑动窗口最大值.cpp">
       <Filter>源文件\0200-0299</Filter>
     </ClCompile>
+    <ClCompile Include="1945. 字符串转化后的各位数字之和.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
