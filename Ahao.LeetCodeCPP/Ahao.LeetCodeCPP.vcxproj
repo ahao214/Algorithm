@@ -267,6 +267,7 @@
     <ClCompile Include="1519. 子树中标签相同的节点数.cpp" />
     <ClCompile Include="1520. 最多的不重叠子字符串.cpp" />
     <ClCompile Include="1521. 找到最接近目标值的函数值.cpp" />
+    <ClCompile Include="153. 寻找旋转排序数组中的最小值.cpp" />
     <ClCompile Include="1537. 最大得分.cpp" />
     <ClCompile Include="155. 最小栈.cpp" />
     <ClCompile Include="1550. 存在连续三个奇数的数组.cpp" />
