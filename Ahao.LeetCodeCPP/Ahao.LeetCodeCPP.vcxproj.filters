@@ -4083,6 +4083,9 @@
     <ClCompile Include="155. 最小栈.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="162. 寻找峰值.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
