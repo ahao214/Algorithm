@@ -38,3 +38,46 @@ public:
 };
 
 
+
+/*
+34. 在排序数组中查找元素的第一个和最后一个位置
+给定一个按照升序排列的整数数组 nums，和一个目标值 target。找出给定目标值在数组中的开始位置和结束位置。
+
+如果数组中不存在目标值 target，返回 [-1, -1]。
+*/
+class Solution {
+public:
+	vector<int> searchRange(vector<int>& nums, int target) {
+		if (nums.empty()) return vector<int>({ -1,-1 });
+
+		vector<int> res;
+		int left = 0, right = nums.size() - 1;
+		while (left < right)
+		{
+			int mid = (left + right) >> 1;
+			if (nums[mid] >= target)
+			{
+				right = mid;
+			}
+			else
+			{
+				left = mid + 1;
+			}
+		}
+		if (nums[right] != target)
+			return vector<int>({ -1,-1 });
+		res.push_back(right);
+
+		left = 0, right = nums.size() - 1;
+		while (left < right)
+		{
+			int mid = (left + right + 1) >> 1;
+			if (nums[mid] <= target)
+				left = mid;
+			else
+				right = mid - 1;
+		}
+		res.push_back(right);
+		return res;
+	}
+};
