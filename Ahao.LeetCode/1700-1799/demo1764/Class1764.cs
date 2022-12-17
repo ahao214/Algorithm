@@ -8,6 +8,12 @@ namespace Ahao.LeetCode._1700_1799.demo1764
 {
     public class Class1764
     {
+        /// <summary>
+        /// 贪心+双指针
+        /// </summary>
+        /// <param name="groups"></param>
+        /// <param name="nums"></param>
+        /// <returns></returns>
         public bool CanChoose(int[][] groups, int[] nums)
         {
             int i = 0;
