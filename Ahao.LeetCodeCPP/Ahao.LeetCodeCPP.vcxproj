@@ -510,6 +510,7 @@
     <ClCompile Include="1957. 删除字符使字符串变好.cpp" />
     <ClCompile Include="1958. 检查操作是否合法.cpp" />
     <ClCompile Include="1959. K 次调整数组大小浪费的最小总空间.cpp" />
+    <ClCompile Include="1971. 寻找图中是否存在路径.cpp" />
     <ClCompile Include="198. 打家劫舍.cpp" />
     <ClCompile Include="1991. 找到数组的中间位置.cpp" />
     <ClCompile Include="1992. 找到所有的农场组.cpp" />
