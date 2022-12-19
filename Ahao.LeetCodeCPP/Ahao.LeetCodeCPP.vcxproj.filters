@@ -4098,6 +4098,9 @@
     <ClCompile Include="664. 奇怪的打印机.cpp">
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
+    <ClCompile Include="518. 零钱兑换 II.cpp">
+      <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

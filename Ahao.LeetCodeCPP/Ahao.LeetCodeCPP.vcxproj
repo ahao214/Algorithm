@@ -653,6 +653,7 @@
     <ClCompile Include="51. N 皇后.cpp" />
     <ClCompile Include="513. 找树左下角的值.cpp" />
     <ClCompile Include="515. 在每个树行中找最大值.cpp" />
+    <ClCompile Include="518. 零钱兑换 II.cpp" />
     <ClCompile Include="52. N皇后 II.cpp" />
     <ClCompile Include="522. 最长特殊序列 II.cpp" />
     <ClCompile Include="525. 连续数组.cpp" />
