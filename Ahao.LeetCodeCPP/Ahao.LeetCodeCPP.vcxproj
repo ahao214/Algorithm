@@ -594,6 +594,7 @@
     <ClCompile Include="324. 摆动排序 II.cpp" />
     <ClCompile Include="326. 3 的幂.cpp" />
     <ClCompile Include="327. 区间和的个数.cpp" />
+    <ClCompile Include="329. 矩阵中的最长递增路径.cpp" />
     <ClCompile Include="33. 搜索旋转排序数组.cpp" />
     <ClCompile Include="338. 比特位计数.cpp" />
     <ClCompile Include="34. 在排序数组中查找元素的第一个和最后一个位置.cpp" />

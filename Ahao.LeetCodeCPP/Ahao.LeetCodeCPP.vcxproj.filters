@@ -4092,6 +4092,9 @@
     <ClCompile Include="1971. 寻找图中是否存在路径.cpp">
       <Filter>源文件\1900-1999</Filter>
     </ClCompile>
+    <ClCompile Include="329. 矩阵中的最长递增路径.cpp">
+      <Filter>源文件\0300-0399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
