@@ -586,6 +586,7 @@
     <ClCompile Include="297. 二叉树的序列化与反序列化.cpp" />
     <ClCompile Include="3. 无重复字符的最长子串.cpp" />
     <ClCompile Include="30. 串联所有单词的子串.cpp" />
+    <ClCompile Include="300. 最长递增子序列.cpp" />
     <ClCompile Include="307. 区域和检索 - 数组可修改.cpp" />
     <ClCompile Include="31. 下一个排列.cpp" />
     <ClCompile Include="310. 最小高度树.cpp" />
