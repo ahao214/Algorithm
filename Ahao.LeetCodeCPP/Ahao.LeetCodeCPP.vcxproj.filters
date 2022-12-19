@@ -4095,6 +4095,9 @@
     <ClCompile Include="329. 矩阵中的最长递增路径.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="664. 奇怪的打印机.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
