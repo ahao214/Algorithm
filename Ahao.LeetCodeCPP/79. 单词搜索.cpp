@@ -93,3 +93,60 @@ public:
 		return false;
 	}
 };
+
+
+
+
+/*
+79. 单词搜索
+给定一个 m x n 二维字符网格 board 和一个字符串单词 word 。如果 word 存在于网格中，返回 true ；否则，返回 false 。
+
+单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
+*/
+class Solution {
+public:
+	vector<vector<char>> board;
+	vector<vector<bool>> st;
+	string word;
+	int n, m;
+
+	bool exist(vector<vector<char>>& _board, string _word) {
+		board = _board, word = _word;
+		n = board.size(), m = board[0].size();
+		st = vector<vector<bool>>(n, vector<bool>(m));
+
+		for (int i = 0; i < n; i++)
+		{
+			for (int j = 0; j < m; j++)
+			{
+				if (board[i][j] == word[0])
+				{
+					if (dfs(i, j, 1))
+						return true;
+				}
+			}
+		}
+		return false;
+	}
+
+	bool dfs(int x, int y, int u)
+	{
+		if (u == word.size()) return true;
+
+		st[x][y] = true;
+
+		int dx[4] = { -1,0,1,0 };
+		int dy[4] = { 0,1,0,-1 };
+		for (int i = 0; i < 4; i++)
+		{
+			int a = x + dx[i], b = y + dy[i];
+			if (a >= 0 && a < n && b >= 0 && b < m && !st[a][b] && board[a][b] == word[u])
+			{
+				if (dfs(a, b, u + 1)) return true;
+			}
+		}
+		st[x][y] = false;
+		return false;
+	}
+};
+
