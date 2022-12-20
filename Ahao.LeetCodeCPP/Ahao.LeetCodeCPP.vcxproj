@@ -795,6 +795,7 @@
     <ClCompile Include="905. 按奇偶排序数组.cpp" />
     <ClCompile Include="907. 子数组的最小值之和.cpp" />
     <ClCompile Include="908. 最小差值 I.cpp" />
+    <ClCompile Include="91. 解码方法.cpp" />
     <ClCompile Include="915. 分割数组.cpp" />
     <ClCompile Include="918. 环形子数组的最大和.cpp" />
     <ClCompile Include="92. 反转链表 II.cpp" />
