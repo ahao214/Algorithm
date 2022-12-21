@@ -4113,6 +4113,9 @@
     <ClCompile Include="464. 我能赢吗.cpp">
       <Filter>源文件\0400-0499</Filter>
     </ClCompile>
+    <ClCompile Include="756. 金字塔转换矩阵.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

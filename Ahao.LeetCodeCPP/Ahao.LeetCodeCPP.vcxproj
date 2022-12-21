@@ -724,6 +724,7 @@
     <ClCompile Include="746. 使用最小花费爬楼梯.cpp" />
     <ClCompile Include="75. 颜色分类.cpp" />
     <ClCompile Include="754. 到达终点数字.cpp" />
+    <ClCompile Include="756. 金字塔转换矩阵.cpp" />
     <ClCompile Include="757. 设置交集大小至少为2.cpp" />
     <ClCompile Include="76. 最小覆盖子串.cpp" />
     <ClCompile Include="761. 特殊的二进制序列.cpp" />
