@@ -4122,6 +4122,9 @@
     <ClCompile Include="394. 字符串解码.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="95. 不同的二叉搜索树 II.cpp">
+      <Filter>源文件\0001-0099\demo95</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
