@@ -59,3 +59,37 @@ public:
 		}
 	}
 };
+
+
+
+
+/*
+77. 组合
+给定两个整数 n 和 k，返回范围 [1, n] 中所有可能的 k 个数的组合。
+
+你可以按 任何顺序 返回答案。
+*/
+class Solution {
+public:
+	vector<vector<int>> res;
+	vector<vector<int>> combine(int n, int k) {
+		vector<int> path;
+		dfs(path, 1, n, k);
+		return res;
+	}
+
+	void dfs(vector<int>& path, int start, int n, int k)
+	{
+		if (!k)
+		{
+			res.push_back(path);
+			return;
+		}
+		for (int i = start; i <= n; i++)
+		{
+			path.push_back(i);
+			dfs(path, i + 1, n, k - 1);
+			path.pop_back();
+		}
+	}
+};
