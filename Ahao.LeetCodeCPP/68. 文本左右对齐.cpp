@@ -3,9 +3,7 @@
 
 using namespace std;
 
-
-class Solution {
-	/*
+/*
 	68. 文本左右对齐
 	给定一个单词数组 words 和一个长度 maxWidth ，重新排版单词，使其成为每行恰好有 maxWidth 个字符，且左右两端对齐的文本。
 
@@ -21,6 +19,7 @@ class Solution {
 	每个单词的长度大于 0，小于等于 maxWidth。
 	输入单词数组 words 至少包含一个单词。
 	*/
+class Solution {
 public:
 	/*
 	Times:O(n*m)
