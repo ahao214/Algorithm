@@ -4116,6 +4116,12 @@
     <ClCompile Include="756. 金字塔转换矩阵.cpp">
       <Filter>源文件\0700-0799</Filter>
     </ClCompile>
+    <ClCompile Include="341. 扁平化嵌套列表迭代器.cpp">
+      <Filter>源文件\0300-0399</Filter>
+    </ClCompile>
+    <ClCompile Include="394. 字符串解码.cpp">
+      <Filter>源文件\0300-0399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

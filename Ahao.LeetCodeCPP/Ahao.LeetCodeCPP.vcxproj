@@ -600,6 +600,7 @@
     <ClCompile Include="33. 搜索旋转排序数组.cpp" />
     <ClCompile Include="338. 比特位计数.cpp" />
     <ClCompile Include="34. 在排序数组中查找元素的第一个和最后一个位置.cpp" />
+    <ClCompile Include="341. 扁平化嵌套列表迭代器.cpp" />
     <ClCompile Include="343. 整数拆分.cpp" />
     <ClCompile Include="347. 前 K 个高频元素.cpp" />
     <ClCompile Include="35. 搜索插入位置.cpp" />
@@ -615,6 +616,7 @@
     <ClCompile Include="388. 文件的最长绝对路径.cpp" />
     <ClCompile Include="389. 找不同.cpp" />
     <ClCompile Include="39. 组合总和.cpp" />
+    <ClCompile Include="394. 字符串解码.cpp" />
     <ClCompile Include="396. 旋转函数.cpp" />
     <ClCompile Include="398. 随机数索引.cpp" />
     <ClCompile Include="4. 寻找两个正序数组的中位数.cpp" />
