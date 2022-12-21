@@ -4128,6 +4128,9 @@
     <ClCompile Include="93. 复原 IP 地址.cpp">
       <Filter>源文件\0001-0099\demo93</Filter>
     </ClCompile>
+    <ClCompile Include="257. 二叉树的所有路径.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
