@@ -74,3 +74,74 @@ public:
 		return ans;
 	}
 };
+
+
+
+
+/*
+68. 文本左右对齐
+给定一个单词数组 words 和一个长度 maxWidth ，重新排版单词，使其成为每行恰好有 maxWidth 个字符，且左右两端对齐的文本。
+
+你应该使用 “贪心算法” 来放置给定的单词；也就是说，尽可能多地往每行中放置单词。必要时可用空格 ' ' 填充，使得每行恰好有 maxWidth 个字符。
+
+要求尽可能均匀分配单词间的空格数量。如果某一行单词间的空格不能均匀分配，则左侧放置的空格数要多于右侧的空格数。
+
+文本的最后一行应为左对齐，且单词之间不插入额外的空格。
+
+注意:
+
+单词是指由非空格字符组成的字符序列。
+每个单词的长度大于 0，小于等于 maxWidth。
+输入单词数组 words 至少包含一个单词。
+*/
+class Solution {
+public:
+	//生成空格
+	string space(int x)
+	{
+		string res;
+		while (x--) res += ' ';
+		return res;
+	}
+	vector<string> fullJustify(vector<string>& words, int maxWidth) {
+		vector<string> res;
+		for (int i = 0; i < words.size();)
+		{
+			int j = i + 1, s = words[i].size(), rs = words[i].size();
+
+			while (j < words.size() && s + 1 + words[j].size() <= maxWidth)
+			{
+				s += words[j].size() + 1;
+				rs += words[j].size();
+				j++;
+			}
+			rs = maxWidth - rs;
+			string line = words[i];
+			if (j == words.size())
+			{
+				for (int k = i + 1; k < j; k++)
+				{
+					line += ' ' + words[k];
+				}
+				line += space(maxWidth - line.size());
+			}
+			else if (j - i == 1)
+			{
+				line += space(maxWidth - line.size());
+			}
+			else
+			{
+				int base = rs / (j - i - 1);
+				int rem = rs % (j - i - 1);
+				i++;
+				for (int k = 0; i < j; i++, k++)
+				{
+					line += space(base + (k < rem)) + words[i];
+				}
+			}
+			i = j;
+			res.push_back(line);
+		}
+		return res;
+	}
+};
