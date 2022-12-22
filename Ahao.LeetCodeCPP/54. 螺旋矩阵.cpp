@@ -34,3 +34,37 @@ public:
 		return ans;
 	}
 };
+
+
+
+
+/*
+54. 螺旋矩阵
+给你一个 m 行 n 列的矩阵 matrix ，请按照 顺时针螺旋顺序 ，返回矩阵中的所有元素。
+*/
+class Solution {
+public:
+	vector<int> spiralOrder(vector<vector<int>>& matrix) {
+		vector<int> res;
+		if (matrix.empty()) return res;
+		int n = matrix.size(), m = matrix[0].size();
+		vector<vector<bool>> visited(n, vector<bool>(m));
+
+		int dx[4] = { -1,0,1,0 }, dy[4] = { 0,1,0,-1 };
+
+		int x = 0, y = 0, d = 1;
+		for (int k = 0; k < n * m; k++)
+		{
+			res.push_back(matrix[x][y]);
+			visited[x][y] = true;
+			int a = x + dx[d], b = y + dy[d];
+			if (a < 0 || a >= n || b < 0 || b >= m || visited[a][b])
+			{
+				d = (d + 1) % 4;
+				a = x + dx[d], b = y + dy[d];
+			}
+			x = a, y = b;
+		}
+		return res;
+	}
+};
