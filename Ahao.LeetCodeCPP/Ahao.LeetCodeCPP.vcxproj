@@ -586,6 +586,7 @@
     <ClCompile Include="290. 单词规律.cpp" />
     <ClCompile Include="295. 数据流的中位数.cpp" />
     <ClCompile Include="297. 二叉树的序列化与反序列化.cpp" />
+    <ClCompile Include="299. 猜数字游戏.cpp" />
     <ClCompile Include="3. 无重复字符的最长子串.cpp" />
     <ClCompile Include="30. 串联所有单词的子串.cpp" />
     <ClCompile Include="300. 最长递增子序列.cpp" />
