@@ -656,6 +656,7 @@
     <ClCompile Include="498. 对角线遍历.cpp" />
     <ClCompile Include="5. 最长回文子串.cpp" />
     <ClCompile Include="50. Pow(x, n).cpp" />
+    <ClCompile Include="504. 七进制数.cpp" />
     <ClCompile Include="508. 出现次数最多的子树元素和.cpp" />
     <ClCompile Include="51. N 皇后.cpp" />
     <ClCompile Include="513. 找树左下角的值.cpp" />
