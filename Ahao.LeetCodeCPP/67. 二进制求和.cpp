@@ -2,14 +2,13 @@ using namespace std;
 
 #include<string>
 
+/*
+67. 二进制求和
+给你两个二进制字符串，返回它们的和（用二进制表示）。
 
+输入为 非空 字符串且只包含数字 1 和 0。
+*/
 class Solution {
-	/*
-	67. 二进制求和
-	给你两个二进制字符串，返回它们的和（用二进制表示）。
-
-	输入为 非空 字符串且只包含数字 1 和 0。
-	*/
 public:
 	/*
 	Times:O(n)
@@ -29,5 +28,32 @@ public:
 		}
 		return ans;
 	}
+};
 
+
+
+
+/*
+67. 二进制求和
+给你两个二进制字符串，返回它们的和（用二进制表示）
+输入为 非空 字符串且只包含数字 1 和 0。
+*/
+class Solution {
+public:
+	string addBinary(string a, string b) {
+		reverse(a.begin(), a.end());
+		reverse(b.begin(), b.end());
+		int carry = 0;
+		string res;
+		for (int i = 0; i < a.size() || i < b.size(); i++)
+		{
+			int va = i >= a.size() ? 0 : a[i] - '0';
+			int vb = i >= b.size() ? 0 : b[i] - '0';
+			int s = va + vb + carry;
+			carry = s / 2, s %= 2;
+			res += to_string(s);
+		}
+		if (carry) res += "1";
+		return string(res.rbegin(), res.rend());
+	}
 };
