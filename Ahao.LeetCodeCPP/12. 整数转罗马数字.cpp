@@ -32,3 +32,37 @@ public:
 		return thousands[num / 1000] + hundreds[num % 1000 / 100] + tens[num % 100 / 10] + ones[num % 10];
 	}
 };
+
+
+
+/*
+12. 整数转罗马数字
+罗马数字包含以下七种字符： I， V， X， L，C，D 和 M。
+字符          数值
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
+*/
+class Solution {
+public:
+	string intToRoman(int num) {
+		int values[] = { 1000,900,500,400,100,90,50,40,10,9,5,4,1 };
+		string reps[] = { "M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I" };
+
+		string res;
+		for (int i = 0; i < 13; i++)
+		{
+			while (num >= values[i])
+			{
+				num -= values[i];
+				res += reps[i];
+			}
+		}
+		return res;
+	}
+};
+
