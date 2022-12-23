@@ -629,6 +629,7 @@
     <ClCompile Include="4. 寻找两个正序数组的中位数.cpp" />
     <ClCompile Include="40. 组合总和 II.cpp" />
     <ClCompile Include="402. 移掉 K 位数字.cpp" />
+    <ClCompile Include="406. 根据身高重建队列.cpp" />
     <ClCompile Include="41. 缺失的第一个正数.cpp" />
     <ClCompile Include="417. 太平洋大西洋水流问题.cpp" />
     <ClCompile Include="42. 接雨水.cpp" />
