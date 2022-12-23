@@ -642,6 +642,7 @@
     <ClCompile Include="449. 序列化和反序列化二叉搜索树.cpp" />
     <ClCompile Include="45. 跳跃游戏 II.cpp" />
     <ClCompile Include="450. 删除二叉搜索树中的节点.cpp" />
+    <ClCompile Include="452. 用最少数量的箭引爆气球.cpp" />
     <ClCompile Include="454. 四数相加 II.cpp" />
     <ClCompile Include="456. 132 模式.cpp" />
     <ClCompile Include="458. 可怜的小猪.cpp" />
