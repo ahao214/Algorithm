@@ -4143,6 +4143,12 @@
     <ClCompile Include="371. 两整数之和.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="201. 数字范围按位与.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
+    <ClCompile Include="263. 丑数.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
