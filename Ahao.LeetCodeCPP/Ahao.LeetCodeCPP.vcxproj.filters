@@ -4161,6 +4161,9 @@
     <ClCompile Include="406. 根据身高重建队列.cpp">
       <Filter>源文件\0400-0499</Filter>
     </ClCompile>
+    <ClCompile Include="376. 摆动序列.cpp">
+      <Filter>源文件\0300-0399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
