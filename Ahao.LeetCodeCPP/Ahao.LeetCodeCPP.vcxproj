@@ -612,6 +612,7 @@
     <ClCompile Include="357. 统计各位数字都不同的数字个数.cpp" />
     <ClCompile Include="36. 有效的数独.cpp" />
     <ClCompile Include="37. 解数独.cpp" />
+    <ClCompile Include="371. 两整数之和.cpp" />
     <ClCompile Include="38. 外观数列.cpp" />
     <ClCompile Include="380. O(1) 时间插入、删除和获取随机元素.cpp" />
     <ClCompile Include="385. 迷你语法分析器.cpp" />
