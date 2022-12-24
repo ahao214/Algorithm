@@ -713,6 +713,7 @@
     <ClCompile Include="670. 最大交换.cpp" />
     <ClCompile Include="675. 为高尔夫比赛砍树.cpp" />
     <ClCompile Include="68. 文本左右对齐.cpp" />
+    <ClCompile Include="680. 验证回文字符串 Ⅱ.cpp" />
     <ClCompile Include="682. 棒球比赛.cpp" />
     <ClCompile Include="684. 冗余连接.cpp" />
     <ClCompile Include="69. x 的平方根.cpp" />
