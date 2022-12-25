@@ -8,7 +8,11 @@ namespace Ahao.LeetCode._1700_1799.demo1739
 {
     public class Class1739
     {
-
+        /// <summary>
+        /// 二分查找
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
         public int MinimumBoxes(int n)
         {
             int i = 0, j = 0;
