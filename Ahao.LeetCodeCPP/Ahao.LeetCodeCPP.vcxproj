@@ -624,6 +624,7 @@
     <ClCompile Include="388. 文件的最长绝对路径.cpp" />
     <ClCompile Include="389. 找不同.cpp" />
     <ClCompile Include="39. 组合总和.cpp" />
+    <ClCompile Include="392. 判断子序列.cpp" />
     <ClCompile Include="394. 字符串解码.cpp" />
     <ClCompile Include="396. 旋转函数.cpp" />
     <ClCompile Include="398. 随机数索引.cpp" />

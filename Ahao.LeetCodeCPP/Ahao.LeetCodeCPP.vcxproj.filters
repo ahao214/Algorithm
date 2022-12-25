@@ -4170,6 +4170,9 @@
     <ClCompile Include="455. 分发饼干.cpp">
       <Filter>源文件\0400-0499</Filter>
     </ClCompile>
+    <ClCompile Include="392. 判断子序列.cpp">
+      <Filter>源文件\0300-0399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
