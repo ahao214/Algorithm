@@ -793,6 +793,7 @@
     <ClCompile Include="856. 括号的分数.cpp" />
     <ClCompile Include="857. 雇佣 K 名工人的最低成本.cpp" />
     <ClCompile Include="86. 分隔链表.cpp" />
+    <ClCompile Include="860. 柠檬水找零.cpp" />
     <ClCompile Include="862. 和至少为 K 的最短子数组.cpp" />
     <ClCompile Include="864. 获取所有钥匙的最短路径.cpp" />
     <ClCompile Include="868. 二进制间距.cpp" />
