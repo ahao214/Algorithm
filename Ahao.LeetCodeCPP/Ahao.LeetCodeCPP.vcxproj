@@ -664,6 +664,7 @@
     <ClCompile Include="47. 全排列 II.cpp" />
     <ClCompile Include="473. 火柴拼正方形.cpp" />
     <ClCompile Include="475. 供暖器.cpp" />
+    <ClCompile Include="476. 数字的补数.cpp" />
     <ClCompile Include="477. 汉明距离总和.cpp" />
     <ClCompile Include="479. 最大回文数乘积.cpp" />
     <ClCompile Include="48. 旋转图像.cpp" />
