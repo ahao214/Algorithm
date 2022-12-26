@@ -580,6 +580,7 @@
     <ClCompile Include="25. K 个一组翻转链表.cpp" />
     <ClCompile Include="257. 二叉树的所有路径.cpp" />
     <ClCompile Include="26. 删除有序数组中的重复项.cpp" />
+    <ClCompile Include="260. 只出现一次的数字 III.cpp" />
     <ClCompile Include="263. 丑数.cpp" />
     <ClCompile Include="268. 丢失的数字.cpp" />
     <ClCompile Include="27. 移除元素.cpp" />
