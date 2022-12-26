@@ -185,6 +185,7 @@
     <ClCompile Include="1366. 通过投票对团队排名.cpp" />
     <ClCompile Include="1367. 二叉树中的列表.cpp" />
     <ClCompile Include="1368. 使网格图至少有一条有效路径的最小代价.cpp" />
+    <ClCompile Include="137. 只出现一次的数字 II.cpp" />
     <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp" />
     <ClCompile Include="1376. 通知所有员工所需的时间.cpp" />
     <ClCompile Include="1377. T 秒后青蛙的位置.cpp" />
