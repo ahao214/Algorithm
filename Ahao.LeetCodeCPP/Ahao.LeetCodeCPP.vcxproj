@@ -585,6 +585,7 @@
     <ClCompile Include="273. 整数转换英文表示.cpp" />
     <ClCompile Include="275. H 指数 II.cpp" />
     <ClCompile Include="278. 第一个错误的版本.cpp" />
+    <ClCompile Include="279. 完全平方数.cpp" />
     <ClCompile Include="28. 实现 strStr().cpp" />
     <ClCompile Include="287. 寻找重复数.cpp" />
     <ClCompile Include="29. 两数相除.cpp" />

@@ -4182,6 +4182,9 @@
     <ClCompile Include="733. 图像渲染.cpp">
       <Filter>源文件\0700-0799</Filter>
     </ClCompile>
+    <ClCompile Include="279. 完全平方数.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
