@@ -177,6 +177,7 @@
     <ClCompile Include="1331. 数组序号转换.cpp" />
     <ClCompile Include="1332. 删除回文子序列.cpp" />
     <ClCompile Include="134. 加油站.cpp" />
+    <ClCompile Include="136. 只出现一次的数字.cpp" />
     <ClCompile Include="1360. 日期之间隔几天.cpp" />
     <ClCompile Include="1361. 验证二叉树.cpp" />
     <ClCompile Include="1362. 最接近的因数.cpp" />
