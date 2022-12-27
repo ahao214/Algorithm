@@ -570,6 +570,7 @@
     <ClCompile Include="228. 汇总区间.cpp" />
     <ClCompile Include="23. 合并K个升序链表.cpp" />
     <ClCompile Include="230. 二叉搜索树中第K小的元素.cpp" />
+    <ClCompile Include="231. 2 的幂.cpp" />
     <ClCompile Include="233. 数字 1 的个数.cpp" />
     <ClCompile Include="237. 删除链表中的节点.cpp" />
     <ClCompile Include="238. 除自身以外数组的乘积.cpp" />
