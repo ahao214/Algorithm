@@ -4221,6 +4221,9 @@
     <ClCompile Include="207. 课程表.cpp">
       <Filter>源文件\0200-0299</Filter>
     </ClCompile>
+    <ClCompile Include="133. 克隆图.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
