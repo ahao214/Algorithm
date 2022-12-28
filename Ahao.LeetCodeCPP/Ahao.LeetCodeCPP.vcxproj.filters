@@ -1735,9 +1735,6 @@
     <Filter Include="源文件\2100-2199\demo2197">
       <UniqueIdentifier>{905ba5a3-58c0-4290-ba57-8243b2113e18}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\2000-2099\demo2007">
-      <UniqueIdentifier>{2e794410-dddc-4cb8-b4f2-568fe9ae46f1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0700-0799\demo799">
       <UniqueIdentifier>{df5abfba-ca55-4216-94dd-6cf4abd18049}</UniqueIdentifier>
     </Filter>
@@ -3666,9 +3663,6 @@
     <ClCompile Include="2197. 替换数组中的非互质数.cpp">
       <Filter>源文件\2100-2199\demo2197</Filter>
     </ClCompile>
-    <ClCompile Include="2007. 从双倍数组中还原原数组.cpp">
-      <Filter>源文件\2000-2099\demo2007</Filter>
-    </ClCompile>
     <ClCompile Include="799. 香槟塔.cpp">
       <Filter>源文件\0700-0799\demo799</Filter>
     </ClCompile>
@@ -4234,6 +4228,9 @@
       <Filter>源文件\2000-2099</Filter>
     </ClCompile>
     <ClCompile Include="2056. 棋盘上有效移动组合的数目.cpp">
+      <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
+    <ClCompile Include="2007. 从双倍数组中还原原数组.cpp">
       <Filter>源文件\2000-2099</Filter>
     </ClCompile>
   </ItemGroup>
