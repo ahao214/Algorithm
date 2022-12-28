@@ -170,6 +170,7 @@
     <ClCompile Include="1260. 二维网格迁移.cpp" />
     <ClCompile Include="128. 最长连续序列.cpp" />
     <ClCompile Include="1282. 用户分组.cpp" />
+    <ClCompile Include="1288. 删除被覆盖区间.cpp" />
     <ClCompile Include="13. 罗马数字转整数.cpp" />
     <ClCompile Include="1302. 层数最深叶子节点的和.cpp" />
     <ClCompile Include="1305. 两棵二叉搜索树中的所有元素.cpp" />
