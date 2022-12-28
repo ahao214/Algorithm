@@ -811,9 +811,6 @@
     <Filter Include="源文件\1400-1499\demo1403">
       <UniqueIdentifier>{31f0273f-40af-4d20-8f7d-66df38b1bd1b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\2000-2099\demo2056">
-      <UniqueIdentifier>{c90f0a10-79b2-46a8-a5ef-92d83b30dbb0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\2000-2099\demo2055">
       <UniqueIdentifier>{a54805e8-7ff7-44d9-9c55-d8530d047dec}</UniqueIdentifier>
     </Filter>
@@ -2745,9 +2742,6 @@
     <ClCompile Include="1403. 非递增顺序的最小子序列.cpp">
       <Filter>源文件\1400-1499\demo1403</Filter>
     </ClCompile>
-    <ClCompile Include="2056. 棋盘上有效移动组合的数目.cpp">
-      <Filter>源文件\2000-2099\demo2056</Filter>
-    </ClCompile>
     <ClCompile Include="2055. 蜡烛之间的盘子.cpp">
       <Filter>源文件\2000-2099\demo2055</Filter>
     </ClCompile>
@@ -4237,6 +4231,9 @@
       <Filter>源文件\2100-2199</Filter>
     </ClCompile>
     <ClCompile Include="2006 差的绝对值为K的数对数目.cpp">
+      <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
+    <ClCompile Include="2056. 棋盘上有效移动组合的数目.cpp">
       <Filter>源文件\2000-2099</Filter>
     </ClCompile>
   </ItemGroup>
