@@ -168,6 +168,7 @@
     <ClCompile Include="125. 验证回文串.cpp" />
     <ClCompile Include="1252. 奇数值单元格的数目.cpp" />
     <ClCompile Include="1260. 二维网格迁移.cpp" />
+    <ClCompile Include="127. 单词接龙.cpp" />
     <ClCompile Include="128. 最长连续序列.cpp" />
     <ClCompile Include="1282. 用户分组.cpp" />
     <ClCompile Include="1288. 删除被覆盖区间.cpp" />
