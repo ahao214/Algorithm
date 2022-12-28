@@ -541,6 +541,7 @@
     <ClCompile Include="214. 最短回文串.cpp" />
     <ClCompile Include="2148. 元素计数.cpp" />
     <ClCompile Include="2149. 按符号重排数组.cpp" />
+    <ClCompile Include="215. 数组中的第K个最大元素.cpp" />
     <ClCompile Include="2150. 找出数组中的所有孤独数字.cpp" />
     <ClCompile Include="2151. 基于陈述统计最多好人数.cpp" />
     <ClCompile Include="216. 组合总和 III.cpp" />
