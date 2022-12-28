@@ -526,6 +526,7 @@
     <ClCompile Include="2.两数相加.cpp" />
     <ClCompile Include="20. 有效的括号.cpp" />
     <ClCompile Include="200. 岛屿数量.cpp" />
+    <ClCompile Include="2006 差的绝对值为K的数对数目.cpp" />
     <ClCompile Include="2007. 从双倍数组中还原原数组.cpp" />
     <ClCompile Include="201. 数字范围按位与.cpp" />
     <ClCompile Include="2011. 执行操作后的变量值.cpp" />
