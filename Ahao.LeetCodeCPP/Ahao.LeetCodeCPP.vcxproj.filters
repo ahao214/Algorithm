@@ -781,9 +781,6 @@
     <Filter Include="源文件\2100-2199\demo2150">
       <UniqueIdentifier>{7d3a6f28-c5de-4ec4-9887-25109b02ef40}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\2100-2199\demo2149">
-      <UniqueIdentifier>{186e8394-7ed8-49eb-a26a-435e1dea3741}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1500-1599\demo1537">
       <UniqueIdentifier>{443506f5-4394-4537-8f82-b7b56b088cbf}</UniqueIdentifier>
     </Filter>
@@ -2685,9 +2682,6 @@
     <ClCompile Include="2150. 找出数组中的所有孤独数字.cpp">
       <Filter>源文件\2100-2199\demo2150</Filter>
     </ClCompile>
-    <ClCompile Include="2149. 按符号重排数组.cpp">
-      <Filter>源文件\2100-2199\demo2149</Filter>
-    </ClCompile>
     <ClCompile Include="1537. 最大得分.cpp">
       <Filter>源文件\1500-1599\demo1537</Filter>
     </ClCompile>
@@ -4207,6 +4201,9 @@
       <Filter>源文件\2100-2199</Filter>
     </ClCompile>
     <ClCompile Include="2148. 元素计数.cpp">
+      <Filter>源文件\2100-2199</Filter>
+    </ClCompile>
+    <ClCompile Include="2149. 按符号重排数组.cpp">
       <Filter>源文件\2100-2199</Filter>
     </ClCompile>
   </ItemGroup>
