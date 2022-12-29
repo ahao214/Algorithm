@@ -811,9 +811,6 @@
     <Filter Include="源文件\1400-1499\demo1403">
       <UniqueIdentifier>{31f0273f-40af-4d20-8f7d-66df38b1bd1b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\2000-2099\demo2053">
-      <UniqueIdentifier>{a56e0507-4657-4cd6-9f0a-ae8fdaa294ae}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1900-1999">
       <UniqueIdentifier>{efbe98c0-a721-428d-bf5c-699c81b543a8}</UniqueIdentifier>
     </Filter>
@@ -2733,9 +2730,6 @@
     <ClCompile Include="1403. 非递增顺序的最小子序列.cpp">
       <Filter>源文件\1400-1499\demo1403</Filter>
     </ClCompile>
-    <ClCompile Include="2053. 数组中第 K 个独一无二的字符串.cpp">
-      <Filter>源文件\2000-2099\demo2053</Filter>
-    </ClCompile>
     <ClCompile Include="1994. 好子集的数目.cpp">
       <Filter>源文件\1900-1999\demo1994</Filter>
     </ClCompile>
@@ -4228,6 +4222,9 @@
       <Filter>源文件\2000-2099</Filter>
     </ClCompile>
     <ClCompile Include="2054. 两个最好的不重叠活动.cpp">
+      <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
+    <ClCompile Include="2053. 数组中第 K 个独一无二的字符串.cpp">
       <Filter>源文件\2000-2099</Filter>
     </ClCompile>
   </ItemGroup>
