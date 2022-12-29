@@ -1501,9 +1501,6 @@
     <Filter Include="源文件\0700-0799\demo790">
       <UniqueIdentifier>{188a69fc-d708-4fb8-9acd-17bfc29e7316}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\2100-2199\demo2183">
-      <UniqueIdentifier>{d3bfefe1-b0b4-4bcf-b79d-9c305dc4b786}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\2100-2199\demo2182">
       <UniqueIdentifier>{990d9a40-705d-4cba-a00c-6036f98e2b68}</UniqueIdentifier>
     </Filter>
@@ -3396,9 +3393,6 @@
     <ClCompile Include="790. 多米诺和托米诺平铺.cpp">
       <Filter>源文件\0700-0799\demo790</Filter>
     </ClCompile>
-    <ClCompile Include="2183. 统计可以被 K 整除的下标对数目.cpp">
-      <Filter>源文件\2100-2199\demo2183</Filter>
-    </ClCompile>
     <ClCompile Include="2182. 构造限制重复的字符串.cpp">
       <Filter>源文件\2100-2199\demo2182</Filter>
     </ClCompile>
@@ -4204,6 +4198,9 @@
       <Filter>源文件\2100-2199</Filter>
     </ClCompile>
     <ClCompile Include="2149. 按符号重排数组.cpp">
+      <Filter>源文件\2100-2199</Filter>
+    </ClCompile>
+    <ClCompile Include="2183. 统计可以被 K 整除的下标对数目.cpp">
       <Filter>源文件\2100-2199</Filter>
     </ClCompile>
   </ItemGroup>
