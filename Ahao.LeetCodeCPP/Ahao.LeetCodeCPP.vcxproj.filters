@@ -1711,9 +1711,6 @@
     <Filter Include="源文件\0300-0399\demo327">
       <UniqueIdentifier>{d40ba56b-dfd9-4ce4-b2c1-518004debd0c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\2100-2199\demo2197">
-      <UniqueIdentifier>{905ba5a3-58c0-4290-ba57-8243b2113e18}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0700-0799\demo799">
       <UniqueIdentifier>{df5abfba-ca55-4216-94dd-6cf4abd18049}</UniqueIdentifier>
     </Filter>
@@ -3618,9 +3615,6 @@
     <ClCompile Include="327. 区间和的个数.cpp">
       <Filter>源文件\0300-0399\demo327</Filter>
     </ClCompile>
-    <ClCompile Include="2197. 替换数组中的非互质数.cpp">
-      <Filter>源文件\2100-2199\demo2197</Filter>
-    </ClCompile>
     <ClCompile Include="799. 香槟塔.cpp">
       <Filter>源文件\0700-0799\demo799</Filter>
     </ClCompile>
@@ -4214,6 +4208,9 @@
     </ClCompile>
     <ClCompile Include="1900. 最佳运动员的比拼回合.cpp">
       <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="2197. 替换数组中的非互质数.cpp">
+      <Filter>源文件\2100-2199</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
