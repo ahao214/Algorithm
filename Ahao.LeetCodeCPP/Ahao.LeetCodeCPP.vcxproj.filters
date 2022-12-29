@@ -826,12 +826,6 @@
     <Filter Include="源文件\1900-1999\demo1925">
       <UniqueIdentifier>{838a64a0-4393-4786-b15e-b9a414012c32}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1900-1999\demo1911">
-      <UniqueIdentifier>{37d4a427-b3f5-4a37-8b1e-7bf3ae92be24}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1910">
-      <UniqueIdentifier>{249ccf20-9f8c-4e53-8471-e2d6310a015f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1408">
       <UniqueIdentifier>{7299892a-9004-4275-a61b-1cbab762b674}</UniqueIdentifier>
     </Filter>
@@ -840,12 +834,6 @@
     </Filter>
     <Filter Include="源文件\1900-1999\demo1915">
       <UniqueIdentifier>{8926a0ec-73f4-4599-9ff3-dfe96443043f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1914">
-      <UniqueIdentifier>{3457061f-ef97-4173-abda-4c8f31c9fb03}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1913">
-      <UniqueIdentifier>{c53bb96e-130a-4cf2-969a-450e813662ee}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0700-0799\demo761">
       <UniqueIdentifier>{780aa2f3-5f0f-439b-86f1-169db40bf147}</UniqueIdentifier>
@@ -2640,12 +2628,6 @@
     <ClCompile Include="1925. 统计平方和三元组的数目.cpp">
       <Filter>源文件\1900-1999\demo1925</Filter>
     </ClCompile>
-    <ClCompile Include="1911. 最大子序列交替和.cpp">
-      <Filter>源文件\1900-1999\demo1911</Filter>
-    </ClCompile>
-    <ClCompile Include="1910. 删除一个字符串中所有出现的给定子字符串.cpp">
-      <Filter>源文件\1900-1999\demo1910</Filter>
-    </ClCompile>
     <ClCompile Include="1408. 数组中的字符串匹配.cpp">
       <Filter>源文件\1400-1499\demo1408</Filter>
     </ClCompile>
@@ -2654,12 +2636,6 @@
     </ClCompile>
     <ClCompile Include="1915. 最美子字符串的数目.cpp">
       <Filter>源文件\1900-1999\demo1915</Filter>
-    </ClCompile>
-    <ClCompile Include="1914. 循环轮转矩阵.cpp">
-      <Filter>源文件\1900-1999\demo1914</Filter>
-    </ClCompile>
-    <ClCompile Include="1913. 两个数对之间的最大乘积差.cpp">
-      <Filter>源文件\1900-1999\demo1913</Filter>
     </ClCompile>
     <ClCompile Include="761. 特殊的二进制序列.cpp">
       <Filter>源文件\0700-0799\demo761</Filter>
@@ -4123,6 +4099,18 @@
       <Filter>源文件\1900-1999</Filter>
     </ClCompile>
     <ClCompile Include="1909. 删除一个元素使数组严格递增.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1910. 删除一个字符串中所有出现的给定子字符串.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1911. 最大子序列交替和.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1913. 两个数对之间的最大乘积差.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1914. 循环轮转矩阵.cpp">
       <Filter>源文件\1900-1999</Filter>
     </ClCompile>
   </ItemGroup>
