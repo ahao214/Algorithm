@@ -1501,9 +1501,6 @@
     <Filter Include="源文件\0700-0799\demo790">
       <UniqueIdentifier>{188a69fc-d708-4fb8-9acd-17bfc29e7316}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\2100-2199\demo2182">
-      <UniqueIdentifier>{990d9a40-705d-4cba-a00c-6036f98e2b68}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\2100-2199\demo2181">
       <UniqueIdentifier>{0467cd81-52e8-4fd2-8847-03b3c6050f03}</UniqueIdentifier>
     </Filter>
@@ -3381,9 +3378,6 @@
     <ClCompile Include="790. 多米诺和托米诺平铺.cpp">
       <Filter>源文件\0700-0799\demo790</Filter>
     </ClCompile>
-    <ClCompile Include="2182. 构造限制重复的字符串.cpp">
-      <Filter>源文件\2100-2199\demo2182</Filter>
-    </ClCompile>
     <ClCompile Include="2181. 合并零之间的节点.cpp">
       <Filter>源文件\2100-2199\demo2181</Filter>
     </ClCompile>
@@ -4190,6 +4184,9 @@
     </ClCompile>
     <ClCompile Include="2221. 数组的三角和.cpp">
       <Filter>源文件\2200-2299</Filter>
+    </ClCompile>
+    <ClCompile Include="2182. 构造限制重复的字符串.cpp">
+      <Filter>源文件\2100-2199</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
