@@ -3714,9 +3714,6 @@
     <ClCompile Include="233. 数字 1 的个数.cpp">
       <Filter>源文件\0200-0299\demo233</Filter>
     </ClCompile>
-    <ClCompile Include="2222. 选择建筑的方案数.cpp">
-      <Filter>源文件\2200-2299\demo2222</Filter>
-    </ClCompile>
     <ClCompile Include="809. 情感丰富的文字.cpp">
       <Filter>源文件\0800-0899\demo809</Filter>
     </ClCompile>
@@ -4196,6 +4193,9 @@
     </ClCompile>
     <ClCompile Include="2400. 恰好移动 k 步到达某一位置的方法数目.cpp">
       <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
+    <ClCompile Include="2222. 选择建筑的方案数.cpp">
+      <Filter>源文件\2200-2299</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
