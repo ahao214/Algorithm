@@ -1873,9 +1873,6 @@
     <Filter Include="源文件\2400-2499">
       <UniqueIdentifier>{3bca2155-3686-47f5-874c-13fffe215c8d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\2400-2499\demo2471">
-      <UniqueIdentifier>{86b6dbed-d032-49bd-a9a8-ad58e797830c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1300-1399\demo1365">
       <UniqueIdentifier>{62d18a77-56c9-4fb4-a308-fa4a52c0ce3e}</UniqueIdentifier>
     </Filter>
@@ -3765,9 +3762,6 @@
     <ClCompile Include="882. 细分图中的可到达节点.cpp">
       <Filter>源文件\0800-0899\demo882</Filter>
     </ClCompile>
-    <ClCompile Include="2471. 逐层排序二叉树所需的最少操作数目.cpp">
-      <Filter>源文件\2400-2499\demo2471</Filter>
-    </ClCompile>
     <ClCompile Include="1365. 有多少小于当前数字的数字.cpp">
       <Filter>源文件\1300-1399\demo1365</Filter>
     </ClCompile>
@@ -4202,6 +4196,9 @@
     </ClCompile>
     <ClCompile Include="2183. 统计可以被 K 整除的下标对数目.cpp">
       <Filter>源文件\2100-2199</Filter>
+    </ClCompile>
+    <ClCompile Include="2471. 逐层排序二叉树所需的最少操作数目.cpp">
+      <Filter>源文件\2400-2499</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
