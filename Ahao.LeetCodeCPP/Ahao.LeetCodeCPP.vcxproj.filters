@@ -109,9 +109,6 @@
     <Filter Include="源文件\0100-0199\demo172">
       <UniqueIdentifier>{0abd9148-9854-46cd-a659-84b56a12b319}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\2000-2099\demo2028">
-      <UniqueIdentifier>{176802b2-7275-47a6-ac88-ec44df21ad93}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1600-1699\demo1616">
       <UniqueIdentifier>{7c5845e7-46f6-4a4a-965f-c476470475e9}</UniqueIdentifier>
     </Filter>
@@ -2105,9 +2102,6 @@
     </ClCompile>
     <ClCompile Include="172. 阶乘后的零.cpp">
       <Filter>源文件\0100-0199\demo172</Filter>
-    </ClCompile>
-    <ClCompile Include="2028. 找出缺失的观测数据.cpp">
-      <Filter>源文件\2000-2099\demo2028</Filter>
     </ClCompile>
     <ClCompile Include="1616. 分割两个字符串得到回文串.cpp">
       <Filter>源文件\1600-1699\demo1616</Filter>
@@ -4219,6 +4213,9 @@
       <Filter>源文件\2000-2099</Filter>
     </ClCompile>
     <ClCompile Include="2038. 如果相邻两个颜色均相同则删除当前颜色.cpp">
+      <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
+    <ClCompile Include="2028. 找出缺失的观测数据.cpp">
       <Filter>源文件\2000-2099</Filter>
     </ClCompile>
   </ItemGroup>
