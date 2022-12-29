@@ -832,9 +832,6 @@
     <Filter Include="源文件\1900-1999\demo1910">
       <UniqueIdentifier>{249ccf20-9f8c-4e53-8471-e2d6310a015f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1900-1999\demo1909">
-      <UniqueIdentifier>{e81e8cb6-6b3c-4902-be82-da4b636ac6d0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1408">
       <UniqueIdentifier>{7299892a-9004-4275-a61b-1cbab762b674}</UniqueIdentifier>
     </Filter>
@@ -849,18 +846,6 @@
     </Filter>
     <Filter Include="源文件\1900-1999\demo1913">
       <UniqueIdentifier>{c53bb96e-130a-4cf2-969a-450e813662ee}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1906">
-      <UniqueIdentifier>{355c5e9d-be5e-425b-9b38-4811bde787de}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1905">
-      <UniqueIdentifier>{f2c58f61-0214-4377-bba1-26aefc88c515}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1904">
-      <UniqueIdentifier>{2cf36993-d33a-4c40-9153-98262919360b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1903">
-      <UniqueIdentifier>{e769054f-57b2-432b-ad46-e2915eb6a1db}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0700-0799\demo761">
       <UniqueIdentifier>{780aa2f3-5f0f-439b-86f1-169db40bf147}</UniqueIdentifier>
@@ -2661,9 +2646,6 @@
     <ClCompile Include="1910. 删除一个字符串中所有出现的给定子字符串.cpp">
       <Filter>源文件\1900-1999\demo1910</Filter>
     </ClCompile>
-    <ClCompile Include="1909. 删除一个元素使数组严格递增.cpp">
-      <Filter>源文件\1900-1999\demo1909</Filter>
-    </ClCompile>
     <ClCompile Include="1408. 数组中的字符串匹配.cpp">
       <Filter>源文件\1400-1499\demo1408</Filter>
     </ClCompile>
@@ -2678,18 +2660,6 @@
     </ClCompile>
     <ClCompile Include="1913. 两个数对之间的最大乘积差.cpp">
       <Filter>源文件\1900-1999\demo1913</Filter>
-    </ClCompile>
-    <ClCompile Include="1906. 查询差绝对值的最小值.cpp">
-      <Filter>源文件\1900-1999\demo1906</Filter>
-    </ClCompile>
-    <ClCompile Include="1905. 统计子岛屿.cpp">
-      <Filter>源文件\1900-1999\demo1905</Filter>
-    </ClCompile>
-    <ClCompile Include="1904. 你完成的完整对局数.cpp">
-      <Filter>源文件\1900-1999\demo1904</Filter>
-    </ClCompile>
-    <ClCompile Include="1903. 字符串中的最大奇数.cpp">
-      <Filter>源文件\1900-1999\demo1903</Filter>
     </ClCompile>
     <ClCompile Include="761. 特殊的二进制序列.cpp">
       <Filter>源文件\0700-0799\demo761</Filter>
@@ -4139,6 +4109,21 @@
     </ClCompile>
     <ClCompile Include="2172. 数组的最大与和.cpp">
       <Filter>源文件\2100-2199</Filter>
+    </ClCompile>
+    <ClCompile Include="1903. 字符串中的最大奇数.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1904. 你完成的完整对局数.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1905. 统计子岛屿.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1906. 查询差绝对值的最小值.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1909. 删除一个元素使数组严格递增.cpp">
+      <Filter>源文件\1900-1999</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
