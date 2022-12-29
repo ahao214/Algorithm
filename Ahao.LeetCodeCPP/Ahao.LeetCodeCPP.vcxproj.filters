@@ -793,15 +793,6 @@
     <Filter Include="源文件\1900-1999">
       <UniqueIdentifier>{efbe98c0-a721-428d-bf5c-699c81b543a8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1900-1999\demo1994">
-      <UniqueIdentifier>{676e05bc-a340-4dad-887f-10e4d04fd761}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1992">
-      <UniqueIdentifier>{8f3f4ac8-f405-4acc-81d1-cf790f898cf8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1991">
-      <UniqueIdentifier>{7fde2d95-f2f1-4692-baf4-6914f293c9aa}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1900-1999\demo1959">
       <UniqueIdentifier>{718e541e-c2f0-438e-bf76-d5ded90fd4d7}</UniqueIdentifier>
     </Filter>
@@ -2595,15 +2586,6 @@
     <ClCompile Include="1403. 非递增顺序的最小子序列.cpp">
       <Filter>源文件\1400-1499\demo1403</Filter>
     </ClCompile>
-    <ClCompile Include="1994. 好子集的数目.cpp">
-      <Filter>源文件\1900-1999\demo1994</Filter>
-    </ClCompile>
-    <ClCompile Include="1992. 找到所有的农场组.cpp">
-      <Filter>源文件\1900-1999\demo1992</Filter>
-    </ClCompile>
-    <ClCompile Include="1991. 找到数组的中间位置.cpp">
-      <Filter>源文件\1900-1999\demo1991</Filter>
-    </ClCompile>
     <ClCompile Include="1959. K 次调整数组大小浪费的最小总空间.cpp">
       <Filter>源文件\1900-1999\demo1959</Filter>
     </ClCompile>
@@ -4111,6 +4093,15 @@
       <Filter>源文件\1900-1999</Filter>
     </ClCompile>
     <ClCompile Include="1914. 循环轮转矩阵.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1994. 好子集的数目.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1992. 找到所有的农场组.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1991. 找到数组的中间位置.cpp">
       <Filter>源文件\1900-1999</Filter>
     </ClCompile>
   </ItemGroup>
