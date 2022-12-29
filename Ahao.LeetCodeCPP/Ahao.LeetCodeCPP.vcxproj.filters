@@ -877,9 +877,6 @@
     <Filter Include="源文件\0700-0799\demo761">
       <UniqueIdentifier>{780aa2f3-5f0f-439b-86f1-169db40bf147}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1900-1999\demo1900">
-      <UniqueIdentifier>{aaa37379-d879-4c73-b42c-8e3463cde658}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1800-1899\demo1899">
       <UniqueIdentifier>{06b20a51-4c94-477c-9e5d-8227cfaae409}</UniqueIdentifier>
     </Filter>
@@ -2784,9 +2781,6 @@
     <ClCompile Include="761. 特殊的二进制序列.cpp">
       <Filter>源文件\0700-0799\demo761</Filter>
     </ClCompile>
-    <ClCompile Include="1900. 最佳运动员的比拼回合.cpp">
-      <Filter>源文件\1900-1999\demo1900</Filter>
-    </ClCompile>
     <ClCompile Include="1899. 合并若干三元组以形成目标三元组.cpp">
       <Filter>源文件\1800-1899\demo1899</Filter>
     </ClCompile>
@@ -4217,6 +4211,9 @@
     </ClCompile>
     <ClCompile Include="2028. 找出缺失的观测数据.cpp">
       <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
+    <ClCompile Include="1900. 最佳运动员的比拼回合.cpp">
+      <Filter>源文件\1900-1999</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
