@@ -3477,9 +3477,6 @@
     <ClCompile Include="2161. 根据给定数字划分数组.cpp">
       <Filter>源文件\2100-2199\demo2161</Filter>
     </ClCompile>
-    <ClCompile Include="2221. 数组的三角和.cpp">
-      <Filter>源文件\2200-2299\demo2221</Filter>
-    </ClCompile>
     <ClCompile Include="2160. 拆分数位后四位数字的最小和.cpp">
       <Filter>源文件\2100-2199\demo2160</Filter>
     </ClCompile>
@@ -4195,6 +4192,9 @@
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
     <ClCompile Include="2222. 选择建筑的方案数.cpp">
+      <Filter>源文件\2200-2299</Filter>
+    </ClCompile>
+    <ClCompile Include="2221. 数组的三角和.cpp">
       <Filter>源文件\2200-2299</Filter>
     </ClCompile>
   </ItemGroup>
