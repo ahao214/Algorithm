@@ -505,9 +505,6 @@
     <Filter Include="源文件\1100-1199">
       <UniqueIdentifier>{9e788f1e-f209-4f57-91e5-d71bff514184}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1100-1199\demo1108">
-      <UniqueIdentifier>{aa866968-2dd7-433c-9b9d-9c4f1f951cc2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0001-0099\demo74">
       <UniqueIdentifier>{2a2faa60-029a-4f6b-856c-6a1ad53e2352}</UniqueIdentifier>
     </Filter>
@@ -528,9 +525,6 @@
     </Filter>
     <Filter Include="源文件\0300-0399\demo324">
       <UniqueIdentifier>{5c3680fe-3af5-4494-a80b-431f121a96dd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1100-1199\demo1175">
-      <UniqueIdentifier>{7072bb8d-d506-4c66-a76c-33b1b145940e}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0200-0299\demo241">
       <UniqueIdentifier>{b61fc21d-1aea-4e93-84bc-86ecd126e5de}</UniqueIdentifier>
@@ -703,9 +697,6 @@
     <Filter Include="源文件\1600-1699\demo1639">
       <UniqueIdentifier>{080c71a0-98c3-4185-8403-5025fcb33fc6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1100-1199\demo1184">
-      <UniqueIdentifier>{eb2c9b50-804e-4902-9541-56846d18ddac}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1600-1699\demo1641">
       <UniqueIdentifier>{22449509-36b6-4ec2-aa88-7e3035483216}</UniqueIdentifier>
     </Filter>
@@ -729,9 +720,6 @@
     </Filter>
     <Filter Include="源文件\1300-1399\demo1331">
       <UniqueIdentifier>{d6146a8f-e199-4b74-be1c-8b3860b1d911}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1100-1199\demo1161">
-      <UniqueIdentifier>{97b63c37-06b5-4fdd-ab1c-deda1751c304}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1300-1399\demo1374">
       <UniqueIdentifier>{bf24ed9d-7148-4a57-ac35-be4af3719162}</UniqueIdentifier>
@@ -1287,9 +1275,6 @@
     </Filter>
     <Filter Include="源文件\1700-1799\demo1718">
       <UniqueIdentifier>{eda1ad4d-d3a0-47c9-9a51-c61b747dfe6b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1100-1199\demo1106">
-      <UniqueIdentifier>{8cb6eead-db3d-47ea-b569-a32ed9ecb5a7}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1700-1799\demo1717">
       <UniqueIdentifier>{8f2042a6-1f82-4e34-b360-028810edcc52}</UniqueIdentifier>
@@ -2289,9 +2274,6 @@
     <ClCompile Include="69. x 的平方根.cpp">
       <Filter>源文件\0001-0099\demo69</Filter>
     </ClCompile>
-    <ClCompile Include="1108. IP 地址无效化.cpp">
-      <Filter>源文件\1100-1199\demo1108</Filter>
-    </ClCompile>
     <ClCompile Include="70. 爬楼梯.cpp">
       <Filter>源文件\0001-0099\demo70</Filter>
     </ClCompile>
@@ -2312,9 +2294,6 @@
     </ClCompile>
     <ClCompile Include="75. 颜色分类.cpp">
       <Filter>源文件\0001-0099\demo75</Filter>
-    </ClCompile>
-    <ClCompile Include="1175. 质数排列.cpp">
-      <Filter>源文件\1100-1199\demo1175</Filter>
     </ClCompile>
     <ClCompile Include="76. 最小覆盖子串.cpp">
       <Filter>源文件\0001-0099\demo76</Filter>
@@ -2424,9 +2403,6 @@
     <ClCompile Include="1639. 通过给定词典构造目标字符串的方案数.cpp">
       <Filter>源文件\1600-1699\demo1639</Filter>
     </ClCompile>
-    <ClCompile Include="1184. 公交站间的距离.cpp">
-      <Filter>源文件\1100-1199\demo1184</Filter>
-    </ClCompile>
     <ClCompile Include="1641. 统计字典序元音字符串的数目.cpp">
       <Filter>源文件\1600-1699\demo1641</Filter>
     </ClCompile>
@@ -2462,9 +2438,6 @@
     </ClCompile>
     <ClCompile Include="1331. 数组序号转换.cpp">
       <Filter>源文件\1300-1399\demo1331</Filter>
-    </ClCompile>
-    <ClCompile Include="1161. 最大层内元素和.cpp">
-      <Filter>源文件\1100-1199\demo1161</Filter>
     </ClCompile>
     <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp">
       <Filter>源文件\1300-1399\demo1374</Filter>
@@ -3011,9 +2984,6 @@
     </ClCompile>
     <ClCompile Include="1718. 构建字典序最大的可行序列.cpp">
       <Filter>源文件\1700-1799\demo1718</Filter>
-    </ClCompile>
-    <ClCompile Include="1106. 解析布尔表达式.cpp">
-      <Filter>源文件\1100-1199\demo1106</Filter>
     </ClCompile>
     <ClCompile Include="1717. 删除子字符串的最大得分.cpp">
       <Filter>源文件\1700-1799\demo1717</Filter>
@@ -4040,6 +4010,21 @@
     </ClCompile>
     <ClCompile Include="593. 有效的正方形.cpp">
       <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
+    <ClCompile Include="1106. 解析布尔表达式.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
+    <ClCompile Include="1108. IP 地址无效化.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
+    <ClCompile Include="1161. 最大层内元素和.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
+    <ClCompile Include="1175. 质数排列.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
+    <ClCompile Include="1184. 公交站间的距离.cpp">
+      <Filter>源文件\1100-1199</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
