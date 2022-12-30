@@ -256,9 +256,6 @@
     <Filter Include="源文件\0800-0899\demo883">
       <UniqueIdentifier>{a8112e5e-36f4-458f-97c5-0e0bbc730941}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0400-0499\demo417">
-      <UniqueIdentifier>{bcd895ee-2cd9-4ed9-bb1f-2f4e5564b820}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0900-0999\demo905">
       <UniqueIdentifier>{651b9c9b-c800-4b44-b86e-9f1c717dae5c}</UniqueIdentifier>
     </Filter>
@@ -348,9 +345,6 @@
     </Filter>
     <Filter Include="源文件\0400-0499\demo436">
       <UniqueIdentifier>{ef6a0f07-855b-4861-9034-706b22ea03bb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0400-0499\demo420">
-      <UniqueIdentifier>{ff88c4f6-6b44-4385-8fbe-e893cab057ba}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0400-0499\demo429">
       <UniqueIdentifier>{93d98841-622e-4596-ad27-96900f42aaaf}</UniqueIdentifier>
@@ -1920,9 +1914,6 @@
     <ClCompile Include="883. 三维形体投影面积.cpp">
       <Filter>源文件\0800-0899\demo883</Filter>
     </ClCompile>
-    <ClCompile Include="417. 太平洋大西洋水流问题.cpp">
-      <Filter>源文件\0400-0499\demo417</Filter>
-    </ClCompile>
     <ClCompile Include="905. 按奇偶排序数组.cpp">
       <Filter>源文件\0900-0999\demo905</Filter>
     </ClCompile>
@@ -1985,9 +1976,6 @@
     </ClCompile>
     <ClCompile Include="436. 寻找右区间.cpp">
       <Filter>源文件\0400-0499\demo436</Filter>
-    </ClCompile>
-    <ClCompile Include="420. 强密码检验器.cpp">
-      <Filter>源文件\0400-0499\demo420</Filter>
     </ClCompile>
     <ClCompile Include="429. N 叉树的层序遍历.cpp">
       <Filter>源文件\0400-0499\demo429</Filter>
@@ -3905,6 +3893,12 @@
     </ClCompile>
     <ClCompile Include="682. 棒球比赛.cpp">
       <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
+    <ClCompile Include="420. 强密码检验器.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
+    <ClCompile Include="417. 太平洋大西洋水流问题.cpp">
+      <Filter>源文件\0400-0499</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
