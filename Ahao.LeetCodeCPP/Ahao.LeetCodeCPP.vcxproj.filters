@@ -2058,9 +2058,6 @@
     <ClCompile Include="70. 爬楼梯.cpp">
       <Filter>源文件\0001-0099\demo70</Filter>
     </ClCompile>
-    <ClCompile Include="71. 简化路径.cpp">
-      <Filter>源文件\0001-0099\demo71</Filter>
-    </ClCompile>
     <ClCompile Include="72. 编辑距离.cpp">
       <Filter>源文件\0001-0099\demo72</Filter>
     </ClCompile>
@@ -3881,6 +3878,9 @@
     </ClCompile>
     <ClCompile Include="730. 统计不同回文子序列.cpp">
       <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="71. 简化路径.cpp">
+      <Filter>源文件\0001-0099</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
