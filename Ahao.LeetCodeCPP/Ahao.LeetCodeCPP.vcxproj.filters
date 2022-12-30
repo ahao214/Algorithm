@@ -304,9 +304,6 @@
     <Filter Include="源文件\1000-1099">
       <UniqueIdentifier>{76180dfd-b511-4ffe-a528-0c15c47ce96f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1000-1099\demo1009">
-      <UniqueIdentifier>{3b0c78b0-742c-4697-beb6-10a0ab0e4832}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0300-0399\demo389">
       <UniqueIdentifier>{3eee02e2-bd65-4815-9a2a-aa1ff4e6e6a0}</UniqueIdentifier>
     </Filter>
@@ -415,17 +412,11 @@
     <Filter Include="源文件\0001-0099\demo60">
       <UniqueIdentifier>{034a9405-590e-4cbf-99dc-100383997f74}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1000-1099\demo1021">
-      <UniqueIdentifier>{da542cfe-a69f-4537-8e9d-cede21b81011}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0400-0499\demo468">
       <UniqueIdentifier>{189c491a-08a9-4920-b15f-188e57c4b187}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0001-0099\demo61">
       <UniqueIdentifier>{98f3463d-faa3-463c-acd5-860aa9608719}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1000-1099\demo1022">
-      <UniqueIdentifier>{0436007f-33ce-4b8e-838f-698e0433788a}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0400-0499\demo473">
       <UniqueIdentifier>{c7b76b5a-c6ef-4b7d-8f30-e24a6d2c6f06}</UniqueIdentifier>
@@ -466,9 +457,6 @@
     <Filter Include="源文件\0001-0099\demo70">
       <UniqueIdentifier>{e61fedad-994f-4519-a0c6-a8145463089f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1000-1099\demo1037">
-      <UniqueIdentifier>{af29a006-d74e-450e-82e5-c73102802d0b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0400-0499\demo497">
       <UniqueIdentifier>{e6bca641-f8e8-417e-b26c-676a169125bc}</UniqueIdentifier>
     </Filter>
@@ -487,17 +475,11 @@
     <Filter Include="源文件\0800-0899\demo890">
       <UniqueIdentifier>{9863519a-9746-4c42-a531-83266be6af12}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1000-1099\demo1051">
-      <UniqueIdentifier>{dedc1ad3-699e-477e-881c-31c61aff2a24}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0400-0499\demo498">
       <UniqueIdentifier>{61f3b95c-d14c-4e9b-b15e-7e1680c7641a}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0700-0799\demo719">
       <UniqueIdentifier>{4d51c853-23b7-4de7-985c-0e74519a61e2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1000-1099\demo1089">
-      <UniqueIdentifier>{85b08025-3382-441e-b5bb-2389a1413d22}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1100-1199">
       <UniqueIdentifier>{9e788f1e-f209-4f57-91e5-d71bff514184}</UniqueIdentifier>
@@ -939,9 +921,6 @@
     </Filter>
     <Filter Include="源文件\1500-1599\demo1598">
       <UniqueIdentifier>{75b45ef5-def4-4a53-a6f3-cd9c322d8773}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1807">
-      <UniqueIdentifier>{15e33d11-4fd4-4f0b-bb6a-724d87bd7a52}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1700-1799\demo1799">
       <UniqueIdentifier>{8fa8e0d1-78f9-4f0a-89bd-c52d4c395063}</UniqueIdentifier>
@@ -2031,9 +2010,6 @@
     <ClCompile Include="937. 重新排列日志文件.cpp">
       <Filter>源文件\0900-0999\demo937</Filter>
     </ClCompile>
-    <ClCompile Include="1009. 十进制整数的反码.cpp">
-      <Filter>源文件\1000-1099\demo1009</Filter>
-    </ClCompile>
     <ClCompile Include="389. 找不同.cpp">
       <Filter>源文件\0300-0399\demo389</Filter>
     </ClCompile>
@@ -2130,14 +2106,8 @@
     <ClCompile Include="54. 螺旋矩阵.cpp">
       <Filter>源文件\0001-0099\demo54</Filter>
     </ClCompile>
-    <ClCompile Include="1021. 删除最外层的括号.cpp">
-      <Filter>源文件\1000-1099\demo1021</Filter>
-    </ClCompile>
     <ClCompile Include="468. 验证IP地址.cpp">
       <Filter>源文件\0400-0499\demo468</Filter>
-    </ClCompile>
-    <ClCompile Include="1022. 从根到叶的二进制数之和.cpp">
-      <Filter>源文件\1000-1099\demo1022</Filter>
     </ClCompile>
     <ClCompile Include="473. 火柴拼正方形.cpp">
       <Filter>源文件\0400-0499\demo473</Filter>
@@ -2175,9 +2145,6 @@
     <ClCompile Include="62. 不同路径.cpp">
       <Filter>源文件\0001-0099\demo62</Filter>
     </ClCompile>
-    <ClCompile Include="1037. 有效的回旋镖.cpp">
-      <Filter>源文件\1000-1099\demo1037</Filter>
-    </ClCompile>
     <ClCompile Include="497. 非重叠矩形中的随机点.cpp">
       <Filter>源文件\0400-0499\demo497</Filter>
     </ClCompile>
@@ -2202,17 +2169,11 @@
     <ClCompile Include="890. 查找和替换模式.cpp">
       <Filter>源文件\0800-0899\demo890</Filter>
     </ClCompile>
-    <ClCompile Include="1051. 高度检查器.cpp">
-      <Filter>源文件\1000-1099\demo1051</Filter>
-    </ClCompile>
     <ClCompile Include="498. 对角线遍历.cpp">
       <Filter>源文件\0400-0499\demo498</Filter>
     </ClCompile>
     <ClCompile Include="719. 找出第 K 小的数对距离.cpp">
       <Filter>源文件\0700-0799\demo719</Filter>
-    </ClCompile>
-    <ClCompile Include="1089. 复写零.cpp">
-      <Filter>源文件\1000-1099\demo1089</Filter>
     </ClCompile>
     <ClCompile Include="68. 文本左右对齐.cpp">
       <Filter>源文件\0001-0099\demo68</Filter>
@@ -2597,9 +2558,6 @@
     </ClCompile>
     <ClCompile Include="1598. 文件夹操作日志搜集器.cpp">
       <Filter>源文件\1500-1599\demo1598</Filter>
-    </ClCompile>
-    <ClCompile Include="1807. 替换字符串中的括号内容.cpp">
-      <Filter>源文件\1800-1899\demo1807</Filter>
     </ClCompile>
     <ClCompile Include="1799. N 次操作后的最大分数和.cpp">
       <Filter>源文件\1700-1799\demo1799</Filter>
@@ -3980,6 +3938,27 @@
     </ClCompile>
     <ClCompile Include="1305. 两棵二叉搜索树中的所有元素.cpp">
       <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1807. 替换字符串中的括号内容.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1009. 十进制整数的反码.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
+    <ClCompile Include="1021. 删除最外层的括号.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
+    <ClCompile Include="1022. 从根到叶的二进制数之和.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
+    <ClCompile Include="1037. 有效的回旋镖.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
+    <ClCompile Include="1051. 高度检查器.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
+    <ClCompile Include="1089. 复写零.cpp">
+      <Filter>源文件\1000-1099</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
