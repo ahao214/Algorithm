@@ -304,9 +304,6 @@
     <Filter Include="源文件\1800-1899\demo1823">
       <UniqueIdentifier>{d743de68-77bb-4865-9a8f-1b322deb0de6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0400-0499\demo442">
-      <UniqueIdentifier>{7d9c5181-218d-4886-b711-ae5e0b9ab733}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0900-0999\demo942">
       <UniqueIdentifier>{baa4fd52-746c-49e8-9473-e4d351f410bf}</UniqueIdentifier>
     </Filter>
@@ -1910,9 +1907,6 @@
     </ClCompile>
     <ClCompile Include="1823. 找出游戏的获胜者.cpp">
       <Filter>源文件\1800-1899\demo1823</Filter>
-    </ClCompile>
-    <ClCompile Include="442. 数组中重复的数据.cpp">
-      <Filter>源文件\0400-0499\demo442</Filter>
     </ClCompile>
     <ClCompile Include="942. 增减字符串匹配.cpp">
       <Filter>源文件\0900-0999\demo942</Filter>
@@ -3871,6 +3865,9 @@
       <Filter>源文件\0400-0499</Filter>
     </ClCompile>
     <ClCompile Include="440. 字典序的第K小数字.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
+    <ClCompile Include="442. 数组中重复的数据.cpp">
       <Filter>源文件\0400-0499</Filter>
     </ClCompile>
   </ItemGroup>
