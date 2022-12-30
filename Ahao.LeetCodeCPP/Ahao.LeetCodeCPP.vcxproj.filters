@@ -793,38 +793,11 @@
     <Filter Include="源文件\1900-1999">
       <UniqueIdentifier>{efbe98c0-a721-428d-bf5c-699c81b543a8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1900-1999\demo1959">
-      <UniqueIdentifier>{718e541e-c2f0-438e-bf76-d5ded90fd4d7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1958">
-      <UniqueIdentifier>{23eadf5d-0c0b-44e9-b28d-384e3a4b32ff}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1957">
-      <UniqueIdentifier>{7d41f029-7e09-4938-9430-8d762f253098}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0600-0699\demo623">
       <UniqueIdentifier>{0757e8ff-48e9-4dbc-a752-3c46eed5423d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1900-1999\demo1928">
-      <UniqueIdentifier>{12cb3725-7f74-4de9-b194-5e68a9a2ed8e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1927">
-      <UniqueIdentifier>{137e493b-e850-4313-bc57-c40718b8a264}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1926">
-      <UniqueIdentifier>{cd3e1e4f-ccbb-40a8-9bf9-5cfc8c69e4a9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1925">
-      <UniqueIdentifier>{838a64a0-4393-4786-b15e-b9a414012c32}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1408">
       <UniqueIdentifier>{7299892a-9004-4275-a61b-1cbab762b674}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1916">
-      <UniqueIdentifier>{2076a9aa-9117-429d-b12f-04756eb81d1d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1900-1999\demo1915">
-      <UniqueIdentifier>{8926a0ec-73f4-4599-9ff3-dfe96443043f}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0700-0799\demo761">
       <UniqueIdentifier>{780aa2f3-5f0f-439b-86f1-169db40bf147}</UniqueIdentifier>
@@ -2586,38 +2559,11 @@
     <ClCompile Include="1403. 非递增顺序的最小子序列.cpp">
       <Filter>源文件\1400-1499\demo1403</Filter>
     </ClCompile>
-    <ClCompile Include="1959. K 次调整数组大小浪费的最小总空间.cpp">
-      <Filter>源文件\1900-1999\demo1959</Filter>
-    </ClCompile>
-    <ClCompile Include="1958. 检查操作是否合法.cpp">
-      <Filter>源文件\1900-1999\demo1958</Filter>
-    </ClCompile>
-    <ClCompile Include="1957. 删除字符使字符串变好.cpp">
-      <Filter>源文件\1900-1999\demo1957</Filter>
-    </ClCompile>
     <ClCompile Include="623. 在二叉树中增加一行.cpp">
       <Filter>源文件\0600-0699\demo623</Filter>
     </ClCompile>
-    <ClCompile Include="1928. 规定时间内到达终点的最小花费.cpp">
-      <Filter>源文件\1900-1999\demo1928</Filter>
-    </ClCompile>
-    <ClCompile Include="1927. 求和游戏.cpp">
-      <Filter>源文件\1900-1999\demo1927</Filter>
-    </ClCompile>
-    <ClCompile Include="1926. 迷宫中离入口最近的出口.cpp">
-      <Filter>源文件\1900-1999\demo1926</Filter>
-    </ClCompile>
-    <ClCompile Include="1925. 统计平方和三元组的数目.cpp">
-      <Filter>源文件\1900-1999\demo1925</Filter>
-    </ClCompile>
     <ClCompile Include="1408. 数组中的字符串匹配.cpp">
       <Filter>源文件\1400-1499\demo1408</Filter>
-    </ClCompile>
-    <ClCompile Include="1916. 统计为蚁群构筑房间的不同顺序.cpp">
-      <Filter>源文件\1900-1999\demo1916</Filter>
-    </ClCompile>
-    <ClCompile Include="1915. 最美子字符串的数目.cpp">
-      <Filter>源文件\1900-1999\demo1915</Filter>
     </ClCompile>
     <ClCompile Include="761. 特殊的二进制序列.cpp">
       <Filter>源文件\0700-0799\demo761</Filter>
@@ -4106,6 +4052,33 @@
     </ClCompile>
     <ClCompile Include="855. 考场就座.cpp">
       <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
+    <ClCompile Include="1915. 最美子字符串的数目.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1916. 统计为蚁群构筑房间的不同顺序.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1925. 统计平方和三元组的数目.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1926. 迷宫中离入口最近的出口.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1927. 求和游戏.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1928. 规定时间内到达终点的最小花费.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1957. 删除字符使字符串变好.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1958. 检查操作是否合法.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
+    <ClCompile Include="1959. K 次调整数组大小浪费的最小总空间.cpp">
+      <Filter>源文件\1900-1999</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
