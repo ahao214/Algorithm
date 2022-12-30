@@ -505,26 +505,14 @@
     <Filter Include="源文件\0700-0799\demo719">
       <UniqueIdentifier>{4d51c853-23b7-4de7-985c-0e74519a61e2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0500-0599\demo532">
-      <UniqueIdentifier>{7ccbb3a1-a5b6-410c-8b8e-104805457848}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1000-1099\demo1089">
       <UniqueIdentifier>{85b08025-3382-441e-b5bb-2389a1413d22}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0500-0599\demo508">
-      <UniqueIdentifier>{f71c899c-a7c1-4675-b86d-735a273f5750}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1100-1199">
       <UniqueIdentifier>{9e788f1e-f209-4f57-91e5-d71bff514184}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1100-1199\demo1108">
       <UniqueIdentifier>{aa866968-2dd7-433c-9b9d-9c4f1f951cc2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0500-0599\demo513">
-      <UniqueIdentifier>{889b511e-5e4e-4917-94c8-dfb601da756d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0500-0599\demo515">
-      <UniqueIdentifier>{350eab45-25cb-43cc-93c8-f4dcff5d6545}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0001-0099\demo74">
       <UniqueIdentifier>{2a2faa60-029a-4f6b-856c-6a1ad53e2352}</UniqueIdentifier>
@@ -543,9 +531,6 @@
     </Filter>
     <Filter Include="源文件\0001-0099\demo79">
       <UniqueIdentifier>{4e50ae01-13ec-47ec-b4a6-9e04b000430e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0500-0599\demo522">
-      <UniqueIdentifier>{0f14cbe0-defc-4ba5-bd31-bf265ad94bcc}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0300-0399\demo324">
       <UniqueIdentifier>{5c3680fe-3af5-4494-a80b-431f121a96dd}</UniqueIdentifier>
@@ -1789,9 +1774,6 @@
     <Filter Include="源文件\0600-0699\demo684">
       <UniqueIdentifier>{44a0ab7a-92d6-402c-ba10-ed074ca2e313}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0500-0599\demo547">
-      <UniqueIdentifier>{eb5178d6-d843-4c50-b42e-764129ca6e75}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0900-0999\demo918">
       <UniqueIdentifier>{adbc5f64-feb0-4b3f-9c4f-ec8026b6365b}</UniqueIdentifier>
     </Filter>
@@ -1875,9 +1857,6 @@
     </Filter>
     <Filter Include="源文件\0100-0199\demo124">
       <UniqueIdentifier>{2bc86ff3-55c4-43f6-8d6f-46f149f275cf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0500-0599\demo543">
-      <UniqueIdentifier>{813dec00-c119-400c-85c2-d98c1c8917ca}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0200-0299\demo297">
       <UniqueIdentifier>{57fff68c-e3b1-4658-80db-20cb85478ad5}</UniqueIdentifier>
@@ -2328,9 +2307,6 @@
     <ClCompile Include="719. 找出第 K 小的数对距离.cpp">
       <Filter>源文件\0700-0799\demo719</Filter>
     </ClCompile>
-    <ClCompile Include="532. 数组中的 k-diff 数对.cpp">
-      <Filter>源文件\0500-0599\demo532</Filter>
-    </ClCompile>
     <ClCompile Include="1089. 复写零.cpp">
       <Filter>源文件\1000-1099\demo1089</Filter>
     </ClCompile>
@@ -2340,17 +2316,8 @@
     <ClCompile Include="69. x 的平方根.cpp">
       <Filter>源文件\0001-0099\demo69</Filter>
     </ClCompile>
-    <ClCompile Include="508. 出现次数最多的子树元素和.cpp">
-      <Filter>源文件\0500-0599\demo508</Filter>
-    </ClCompile>
     <ClCompile Include="1108. IP 地址无效化.cpp">
       <Filter>源文件\1100-1199\demo1108</Filter>
-    </ClCompile>
-    <ClCompile Include="513. 找树左下角的值.cpp">
-      <Filter>源文件\0500-0599\demo513</Filter>
-    </ClCompile>
-    <ClCompile Include="515. 在每个树行中找最大值.cpp">
-      <Filter>源文件\0500-0599\demo515</Filter>
     </ClCompile>
     <ClCompile Include="70. 爬楼梯.cpp">
       <Filter>源文件\0001-0099\demo70</Filter>
@@ -2363,9 +2330,6 @@
     </ClCompile>
     <ClCompile Include="73. 矩阵置零.cpp">
       <Filter>源文件\0001-0099\demo73</Filter>
-    </ClCompile>
-    <ClCompile Include="522. 最长特殊序列 II.cpp">
-      <Filter>源文件\0500-0599\demo522</Filter>
     </ClCompile>
     <ClCompile Include="324. 摆动排序 II.cpp">
       <Filter>源文件\0300-0399\demo324</Filter>
@@ -3555,9 +3519,6 @@
     <ClCompile Include="684. 冗余连接.cpp">
       <Filter>源文件\0600-0699\demo684</Filter>
     </ClCompile>
-    <ClCompile Include="547. 省份数量.cpp">
-      <Filter>源文件\0500-0599\demo547</Filter>
-    </ClCompile>
     <ClCompile Include="918. 环形子数组的最大和.cpp">
       <Filter>源文件\0900-0999\demo918</Filter>
     </ClCompile>
@@ -3647,9 +3608,6 @@
     </ClCompile>
     <ClCompile Include="124. 二叉树中的最大路径和.cpp">
       <Filter>源文件\0100-0199\demo124</Filter>
-    </ClCompile>
-    <ClCompile Include="543. 二叉树的直径.cpp">
-      <Filter>源文件\0500-0599\demo543</Filter>
     </ClCompile>
     <ClCompile Include="297. 二叉树的序列化与反序列化.cpp">
       <Filter>源文件\0200-0299\demo297</Filter>
@@ -4082,6 +4040,27 @@
     </ClCompile>
     <ClCompile Include="1135 最小生成树.cpp">
       <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
+    <ClCompile Include="508. 出现次数最多的子树元素和.cpp">
+      <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
+    <ClCompile Include="513. 找树左下角的值.cpp">
+      <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
+    <ClCompile Include="515. 在每个树行中找最大值.cpp">
+      <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
+    <ClCompile Include="522. 最长特殊序列 II.cpp">
+      <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
+    <ClCompile Include="532. 数组中的 k-diff 数对.cpp">
+      <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
+    <ClCompile Include="543. 二叉树的直径.cpp">
+      <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
+    <ClCompile Include="547. 省份数量.cpp">
+      <Filter>源文件\0500-0599</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
