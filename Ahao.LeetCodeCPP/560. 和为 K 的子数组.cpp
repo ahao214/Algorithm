@@ -23,3 +23,22 @@ public:
 		return res;
 	}
 };
+
+
+
+class Solution {
+public:
+	int subarraySum(vector<int>& nums, int k) {
+		int res = 0, sum = 0;
+		unordered_map<int, int> dict;
+		dict[0] = 1;
+		for (int n : nums) {
+			sum += n;
+			if (dict.count(sum - k)) {
+				res += dict[sum - k];
+			}
+			dict[sum]++;
+		}
+		return res;
+	}
+};
