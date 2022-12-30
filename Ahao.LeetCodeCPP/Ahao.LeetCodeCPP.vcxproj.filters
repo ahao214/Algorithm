@@ -298,9 +298,6 @@
     <Filter Include="源文件\1300-1399">
       <UniqueIdentifier>{5be9028e-89cd-4f97-9bbd-103b93c5d545}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1300-1399\demo1305">
-      <UniqueIdentifier>{53736c40-bb7a-482d-af60-2b8c4ad5d539}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0900-0999\demo937">
       <UniqueIdentifier>{f86d9160-adcb-4ac9-b5b2-74b896d45871}</UniqueIdentifier>
     </Filter>
@@ -535,9 +532,6 @@
     <Filter Include="源文件\0700-0799\demo741">
       <UniqueIdentifier>{146d98a4-421f-44b4-877e-45b1ebc592cc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1200-1299\demo1252">
-      <UniqueIdentifier>{2417b454-084f-4554-ae03-9dd565ec87f1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0700-0799\demo735">
       <UniqueIdentifier>{5f936aaa-df7a-48a6-a438-4cb0a08748aa}</UniqueIdentifier>
     </Filter>
@@ -616,9 +610,6 @@
     <Filter Include="源文件\0100-0199\demo196">
       <UniqueIdentifier>{c2d29dc8-80f6-4c49-8239-36c5651d9401}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1200-1299\demo1260">
-      <UniqueIdentifier>{febf0812-debe-4c2a-a659-a4b957b762d3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0700-0799\demo746">
       <UniqueIdentifier>{100940e6-dd74-4803-866e-46e77c5de3e7}</UniqueIdentifier>
     </Filter>
@@ -627,9 +618,6 @@
     </Filter>
     <Filter Include="源文件\0100-0199\demo173">
       <UniqueIdentifier>{1f193596-fb69-427f-b4a8-c55b913043a6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1332">
-      <UniqueIdentifier>{be68b4e6-5bdc-417b-9c78-c9d2922c3fc2}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499">
       <UniqueIdentifier>{cf1b7cce-7edf-4f8a-924d-daf1023a0322}</UniqueIdentifier>
@@ -705,9 +693,6 @@
     </Filter>
     <Filter Include="源文件\0200-0299\demo219">
       <UniqueIdentifier>{30f191f6-c518-4c15-83ba-6b9ae872e9b9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1331">
-      <UniqueIdentifier>{d6146a8f-e199-4b74-be1c-8b3860b1d911}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1300-1399\demo1374">
       <UniqueIdentifier>{bf24ed9d-7148-4a57-ac35-be4af3719162}</UniqueIdentifier>
@@ -799,9 +784,6 @@
     <Filter Include="源文件\1400-1499\demo1417">
       <UniqueIdentifier>{b0a9988f-46e7-4d4d-b6c1-ca1f4d9d8906}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1200-1299\demo1282">
-      <UniqueIdentifier>{392b8cf1-7725-4bcc-863a-947e29f4cbd1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1800-1899\demo1878">
       <UniqueIdentifier>{ab6b8284-ed18-4956-8ca7-226b4b307871}</UniqueIdentifier>
     </Filter>
@@ -834,9 +816,6 @@
     </Filter>
     <Filter Include="源文件\1800-1899\demo1865">
       <UniqueIdentifier>{60edf9b8-c0f2-4b0d-8263-89a550611e6a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1302">
-      <UniqueIdentifier>{003e1f77-d731-4194-b6b8-fc52c7255030}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1800-1899\demo1864">
       <UniqueIdentifier>{42dc8c17-ec40-41e7-9244-0d6494cec32d}</UniqueIdentifier>
@@ -1176,9 +1155,6 @@
     </Filter>
     <Filter Include="源文件\0900-0999\demo901">
       <UniqueIdentifier>{b5101b4f-ac20-470e-9c08-884f77a41a6c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1200-1299\demo1235">
-      <UniqueIdentifier>{4cd730c5-49cd-4f3f-a902-096ff23eb1a4}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0900-0999\demo915">
       <UniqueIdentifier>{b2209e21-d993-439a-8093-fe4272e60a5a}</UniqueIdentifier>
@@ -2052,9 +2028,6 @@
     <ClCompile Include="908. 最小差值 I.cpp">
       <Filter>源文件\0900-0999\demo908</Filter>
     </ClCompile>
-    <ClCompile Include="1305. 两棵二叉搜索树中的所有元素.cpp">
-      <Filter>源文件\1300-1399\demo1305</Filter>
-    </ClCompile>
     <ClCompile Include="937. 重新排列日志文件.cpp">
       <Filter>源文件\0900-0999\demo937</Filter>
     </ClCompile>
@@ -2283,9 +2256,6 @@
     <ClCompile Include="741. 摘樱桃.cpp">
       <Filter>源文件\0700-0799\demo741</Filter>
     </ClCompile>
-    <ClCompile Include="1252. 奇数值单元格的数目.cpp">
-      <Filter>源文件\1200-1299\demo1252</Filter>
-    </ClCompile>
     <ClCompile Include="735. 行星碰撞.cpp">
       <Filter>源文件\0700-0799\demo735</Filter>
     </ClCompile>
@@ -2297,9 +2267,6 @@
     </ClCompile>
     <ClCompile Include="81. 搜索旋转排序数组 II.cpp">
       <Filter>源文件\0001-0099\demo81</Filter>
-    </ClCompile>
-    <ClCompile Include="1260. 二维网格迁移.cpp">
-      <Filter>源文件\1200-1299\demo1260</Filter>
     </ClCompile>
     <ClCompile Include="82. 删除排序链表中的重复元素 II.cpp">
       <Filter>源文件\0001-0099\demo82</Filter>
@@ -2315,9 +2282,6 @@
     </ClCompile>
     <ClCompile Include="1636. 按照频率将数组升序排序.cpp">
       <Filter>源文件\1600-1699\demo1636</Filter>
-    </ClCompile>
-    <ClCompile Include="1332. 删除回文子序列.cpp">
-      <Filter>源文件\1300-1399\demo1332</Filter>
     </ClCompile>
     <ClCompile Include="1423. 可获得的最大点数.cpp">
       <Filter>源文件\1400-1499\demo1423</Filter>
@@ -2396,9 +2360,6 @@
     </ClCompile>
     <ClCompile Include="219. 存在重复元素 II.cpp">
       <Filter>源文件\0200-0299\demo219</Filter>
-    </ClCompile>
-    <ClCompile Include="1331. 数组序号转换.cpp">
-      <Filter>源文件\1300-1399\demo1331</Filter>
     </ClCompile>
     <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp">
       <Filter>源文件\1300-1399\demo1374</Filter>
@@ -2481,9 +2442,6 @@
     <ClCompile Include="1417. 重新格式化字符串.cpp">
       <Filter>源文件\1400-1499\demo1417</Filter>
     </ClCompile>
-    <ClCompile Include="1282. 用户分组.cpp">
-      <Filter>源文件\1200-1299\demo1282</Filter>
-    </ClCompile>
     <ClCompile Include="1878. 矩阵中最大的三个菱形和.cpp">
       <Filter>源文件\1800-1899\demo1878</Filter>
     </ClCompile>
@@ -2516,9 +2474,6 @@
     </ClCompile>
     <ClCompile Include="1865. 找出和为指定值的下标对.cpp">
       <Filter>源文件\1800-1899\demo1865</Filter>
-    </ClCompile>
-    <ClCompile Include="1302. 层数最深叶子节点的和.cpp">
-      <Filter>源文件\1300-1399\demo1302</Filter>
     </ClCompile>
     <ClCompile Include="1864. 构成交替字符串需要的最小交换次数.cpp">
       <Filter>源文件\1800-1899\demo1864</Filter>
@@ -2858,9 +2813,6 @@
     </ClCompile>
     <ClCompile Include="901. 股票价格跨度.cpp">
       <Filter>源文件\0900-0999\demo901</Filter>
-    </ClCompile>
-    <ClCompile Include="1235. 规划兼职工作.cpp">
-      <Filter>源文件\1200-1299\demo1235</Filter>
     </ClCompile>
     <ClCompile Include="915. 分割数组.cpp">
       <Filter>源文件\0900-0999\demo915</Filter>
@@ -4004,6 +3956,30 @@
     </ClCompile>
     <ClCompile Include="1224. 最大相等频率.cpp">
       <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
+    <ClCompile Include="1235. 规划兼职工作.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
+    <ClCompile Include="1252. 奇数值单元格的数目.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
+    <ClCompile Include="1260. 二维网格迁移.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
+    <ClCompile Include="1282. 用户分组.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
+    <ClCompile Include="1332. 删除回文子序列.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1302. 层数最深叶子节点的和.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1331. 数组序号转换.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1305. 两棵二叉搜索树中的所有元素.cpp">
+      <Filter>源文件\1300-1399</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
