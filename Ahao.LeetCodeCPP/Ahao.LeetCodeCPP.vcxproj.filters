@@ -145,12 +145,6 @@
     <Filter Include="源文件\0700-0799\demo796">
       <UniqueIdentifier>{ca9837ec-3b30-40f8-89ae-003100eae454}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0600-0699\demo653">
-      <UniqueIdentifier>{776a4dd4-b539-4791-986b-5f24d5a5bc1b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0600-0699\demo661">
-      <UniqueIdentifier>{0f8ac805-31d2-4785-931d-f8e3cbd93f4f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0600-0699\demo682">
       <UniqueIdentifier>{aff2acdb-dbe0-4cc9-ac0c-6f010b8e6454}</UniqueIdentifier>
     </Filter>
@@ -748,9 +742,6 @@
     <Filter Include="源文件\1800-1899\demo1881">
       <UniqueIdentifier>{d9736636-cb8a-45fd-89a4-b329a7161ee0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0600-0699\demo640">
-      <UniqueIdentifier>{ba456c8d-5e30-4e78-81f9-d02e9f042d13}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1800-1899\demo1880">
       <UniqueIdentifier>{9ebf7714-166e-4824-a832-d2d8d74367e2}</UniqueIdentifier>
     </Filter>
@@ -900,9 +891,6 @@
     </Filter>
     <Filter Include="源文件\1800-1899\demo1814">
       <UniqueIdentifier>{1e37938e-cdad-4f7b-a670-9183bbad43ee}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0600-0699\demo667">
-      <UniqueIdentifier>{c5639e1e-b6d2-4414-9ad8-ca38b00611b5}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1500-1599\demo1598">
       <UniqueIdentifier>{75b45ef5-def4-4a53-a6f3-cd9c322d8773}</UniqueIdentifier>
@@ -1693,9 +1681,6 @@
     <Filter Include="源文件\0200-0299\demo223">
       <UniqueIdentifier>{a0b896a8-f22a-46fc-8e44-57e6e2f84784}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0600-0699\demo650">
-      <UniqueIdentifier>{7370b407-b53d-4534-bcd2-9408a0a84560}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0300-0399\demo343">
       <UniqueIdentifier>{f8c27d96-042a-488d-b491-f083cbf1be68}</UniqueIdentifier>
     </Filter>
@@ -1850,12 +1835,6 @@
     </ClCompile>
     <ClCompile Include="796. 旋转字符串.cpp">
       <Filter>源文件\0700-0799\demo796</Filter>
-    </ClCompile>
-    <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp">
-      <Filter>源文件\0600-0699\demo653</Filter>
-    </ClCompile>
-    <ClCompile Include="661. 图片平滑器.cpp">
-      <Filter>源文件\0600-0699\demo661</Filter>
     </ClCompile>
     <ClCompile Include="682. 棒球比赛.cpp">
       <Filter>源文件\0600-0699\demo682</Filter>
@@ -2367,9 +2346,6 @@
     <ClCompile Include="1881. 插入后的最大值.cpp">
       <Filter>源文件\1800-1899\demo1881</Filter>
     </ClCompile>
-    <ClCompile Include="640. 求解方程.cpp">
-      <Filter>源文件\0600-0699\demo640</Filter>
-    </ClCompile>
     <ClCompile Include="1880. 检查某单词是否等于两单词之和.cpp">
       <Filter>源文件\1800-1899\demo1880</Filter>
     </ClCompile>
@@ -2519,9 +2495,6 @@
     </ClCompile>
     <ClCompile Include="1814. 统计一个数组中好对子的数目.cpp">
       <Filter>源文件\1800-1899\demo1814</Filter>
-    </ClCompile>
-    <ClCompile Include="667. 优美的排列 II.cpp">
-      <Filter>源文件\0600-0699\demo667</Filter>
     </ClCompile>
     <ClCompile Include="1598. 文件夹操作日志搜集器.cpp">
       <Filter>源文件\1500-1599\demo1598</Filter>
@@ -3318,9 +3291,6 @@
     <ClCompile Include="223. 矩形面积.cpp">
       <Filter>源文件\0200-0299\demo223</Filter>
     </ClCompile>
-    <ClCompile Include="650. 只有两个键的键盘.cpp">
-      <Filter>源文件\0600-0699\demo650</Filter>
-    </ClCompile>
     <ClCompile Include="343. 整数拆分.cpp">
       <Filter>源文件\0300-0399\demo343</Filter>
     </ClCompile>
@@ -3944,6 +3914,21 @@
     </ClCompile>
     <ClCompile Include="1071. 字符串的最大公因子.cpp">
       <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
+    <ClCompile Include="640. 求解方程.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
+    <ClCompile Include="650. 只有两个键的键盘.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
+    <ClCompile Include="667. 优美的排列 II.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
+    <ClCompile Include="661. 图片平滑器.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
+    <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp">
+      <Filter>源文件\0600-0699</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
