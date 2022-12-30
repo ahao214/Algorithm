@@ -907,15 +907,6 @@
     <Filter Include="源文件\1800-1899\demo1814">
       <UniqueIdentifier>{1e37938e-cdad-4f7b-a670-9183bbad43ee}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1800-1899\demo1813">
-      <UniqueIdentifier>{5b129c01-112a-4247-88ab-cd52ad00a4c3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1812">
-      <UniqueIdentifier>{2836eb9f-bc0c-4e4c-9ab6-72536004f036}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1808">
-      <UniqueIdentifier>{806ef23e-2792-4bde-b1dc-ce307edb87e5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0600-0699\demo667">
       <UniqueIdentifier>{c5639e1e-b6d2-4414-9ad8-ca38b00611b5}</UniqueIdentifier>
     </Filter>
@@ -2544,15 +2535,6 @@
     <ClCompile Include="1814. 统计一个数组中好对子的数目.cpp">
       <Filter>源文件\1800-1899\demo1814</Filter>
     </ClCompile>
-    <ClCompile Include="1813. 句子相似性 III.cpp">
-      <Filter>源文件\1800-1899\demo1813</Filter>
-    </ClCompile>
-    <ClCompile Include="1812. 判断国际象棋棋盘中一个格子的颜色.cpp">
-      <Filter>源文件\1800-1899\demo1812</Filter>
-    </ClCompile>
-    <ClCompile Include="1808. 好因子的最大数目.cpp">
-      <Filter>源文件\1800-1899\demo1808</Filter>
-    </ClCompile>
     <ClCompile Include="667. 优美的排列 II.cpp">
       <Filter>源文件\0600-0699\demo667</Filter>
     </ClCompile>
@@ -3959,6 +3941,15 @@
     </ClCompile>
     <ClCompile Include="1089. 复写零.cpp">
       <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
+    <ClCompile Include="1813. 句子相似性 III.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1808. 好因子的最大数目.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1812. 判断国际象棋棋盘中一个格子的颜色.cpp">
+      <Filter>源文件\1800-1899</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
