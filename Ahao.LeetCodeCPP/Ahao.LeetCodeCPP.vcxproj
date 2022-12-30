@@ -149,6 +149,7 @@
     <ClCompile Include="1037. 有效的回旋镖.cpp" />
     <ClCompile Include="105. 从前序与中序遍历序列构造二叉树.cpp" />
     <ClCompile Include="1051. 高度检查器.cpp" />
+    <ClCompile Include="1071. 字符串的最大公因子.cpp" />
     <ClCompile Include="1089. 复写零.cpp" />
     <ClCompile Include="11. 盛最多水的容器.cpp" />
     <ClCompile Include="1101. 彼此熟识的最早时间.cpp" />

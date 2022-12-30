@@ -3942,6 +3942,9 @@
     <ClCompile Include="623. 在二叉树中增加一行.cpp">
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
+    <ClCompile Include="1071. 字符串的最大公因子.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
