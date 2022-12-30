@@ -145,9 +145,6 @@
     <Filter Include="源文件\0700-0799\demo796">
       <UniqueIdentifier>{ca9837ec-3b30-40f8-89ae-003100eae454}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0600-0699\demo606">
-      <UniqueIdentifier>{535381a9-fc30-4df0-a17e-058ecf45896a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0600-0699\demo653">
       <UniqueIdentifier>{776a4dd4-b539-4791-986b-5f24d5a5bc1b}</UniqueIdentifier>
     </Filter>
@@ -703,9 +700,6 @@
     <Filter Include="源文件\1900-1999">
       <UniqueIdentifier>{efbe98c0-a721-428d-bf5c-699c81b543a8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0600-0699\demo623">
-      <UniqueIdentifier>{0757e8ff-48e9-4dbc-a752-3c46eed5423d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1408">
       <UniqueIdentifier>{7299892a-9004-4275-a61b-1cbab762b674}</UniqueIdentifier>
     </Filter>
@@ -966,9 +960,6 @@
     </Filter>
     <Filter Include="源文件\0800-0899\demo854">
       <UniqueIdentifier>{441cb993-deb8-4399-b2e4-b5b1dd042560}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0600-0699\demo698">
-      <UniqueIdentifier>{86448572-cd40-4f27-832f-390431ba19c0}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1600-1699\demo1640">
       <UniqueIdentifier>{26082b2f-9622-4693-a3f6-d34e4414aba9}</UniqueIdentifier>
@@ -1860,9 +1851,6 @@
     <ClCompile Include="796. 旋转字符串.cpp">
       <Filter>源文件\0700-0799\demo796</Filter>
     </ClCompile>
-    <ClCompile Include="606. 根据二叉树创建字符串.cpp">
-      <Filter>源文件\0600-0699\demo606</Filter>
-    </ClCompile>
     <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp">
       <Filter>源文件\0600-0699\demo653</Filter>
     </ClCompile>
@@ -2331,9 +2319,6 @@
     <ClCompile Include="1403. 非递增顺序的最小子序列.cpp">
       <Filter>源文件\1400-1499\demo1403</Filter>
     </ClCompile>
-    <ClCompile Include="623. 在二叉树中增加一行.cpp">
-      <Filter>源文件\0600-0699\demo623</Filter>
-    </ClCompile>
     <ClCompile Include="1408. 数组中的字符串匹配.cpp">
       <Filter>源文件\1400-1499\demo1408</Filter>
     </ClCompile>
@@ -2594,9 +2579,6 @@
     </ClCompile>
     <ClCompile Include="854. 相似度为 K 的字符串.cpp">
       <Filter>源文件\0800-0899\demo854</Filter>
-    </ClCompile>
-    <ClCompile Include="698. 划分为k个相等的子集.cpp">
-      <Filter>源文件\0600-0699\demo698</Filter>
     </ClCompile>
     <ClCompile Include="1640. 能否连接形成数组.cpp">
       <Filter>源文件\1600-1699\demo1640</Filter>
@@ -3950,6 +3932,15 @@
     </ClCompile>
     <ClCompile Include="1812. 判断国际象棋棋盘中一个格子的颜色.cpp">
       <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="698. 划分为k个相等的子集.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
+    <ClCompile Include="606. 根据二叉树创建字符串.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
+    <ClCompile Include="623. 在二叉树中增加一行.cpp">
+      <Filter>源文件\0600-0699</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
