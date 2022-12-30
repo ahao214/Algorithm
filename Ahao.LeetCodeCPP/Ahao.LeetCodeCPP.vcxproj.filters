@@ -334,15 +334,6 @@
     <Filter Include="源文件\0900-0999\demo953">
       <UniqueIdentifier>{2f6ed4e6-5cc8-4676-b295-296298e4bbe6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0400-0499\demo436">
-      <UniqueIdentifier>{ef6a0f07-855b-4861-9034-706b22ea03bb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0400-0499\demo429">
-      <UniqueIdentifier>{93d98841-622e-4596-ad27-96900f42aaaf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0400-0499\demo440">
-      <UniqueIdentifier>{4932d0f3-58f3-4357-85b5-c29923950a0e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0400-0499\demo462">
       <UniqueIdentifier>{6bac7af1-e617-40a3-9325-15e7f3e4ebf8}</UniqueIdentifier>
     </Filter>
@@ -1946,15 +1937,6 @@
     </ClCompile>
     <ClCompile Include="48. 旋转图像.cpp">
       <Filter>源文件\0001-0099\demo48</Filter>
-    </ClCompile>
-    <ClCompile Include="436. 寻找右区间.cpp">
-      <Filter>源文件\0400-0499\demo436</Filter>
-    </ClCompile>
-    <ClCompile Include="429. N 叉树的层序遍历.cpp">
-      <Filter>源文件\0400-0499\demo429</Filter>
-    </ClCompile>
-    <ClCompile Include="440. 字典序的第K小数字.cpp">
-      <Filter>源文件\0400-0499\demo440</Filter>
     </ClCompile>
     <ClCompile Include="462. 最少移动次数使数组元素相等 II.cpp">
       <Filter>源文件\0400-0499\demo462</Filter>
@@ -3881,6 +3863,15 @@
     </ClCompile>
     <ClCompile Include="71. 简化路径.cpp">
       <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="429. N 叉树的层序遍历.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
+    <ClCompile Include="436. 寻找右区间.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
+    <ClCompile Include="440. 字典序的第K小数字.cpp">
+      <Filter>源文件\0400-0499</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
