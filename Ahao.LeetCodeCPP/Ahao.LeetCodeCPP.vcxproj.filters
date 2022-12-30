@@ -355,9 +355,6 @@
     <Filter Include="源文件\0900-0999\demo953">
       <UniqueIdentifier>{2f6ed4e6-5cc8-4676-b295-296298e4bbe6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0600-0699\demo668">
-      <UniqueIdentifier>{587d8b10-b7c1-47e2-8e5e-b6d023066048}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0400-0499\demo436">
       <UniqueIdentifier>{ef6a0f07-855b-4861-9034-706b22ea03bb}</UniqueIdentifier>
     </Filter>
@@ -375,9 +372,6 @@
     </Filter>
     <Filter Include="源文件\0900-0999\demo961">
       <UniqueIdentifier>{ac1df2fe-9049-4ea8-8e2a-2482a08b2d15}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0600-0699\demo675">
-      <UniqueIdentifier>{0b4c86f4-78db-46d6-88a4-a110bf71b80a}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0900-0999\demo965">
       <UniqueIdentifier>{4b6389b5-4964-4a86-a0b9-92c14f25cf8a}</UniqueIdentifier>
@@ -903,9 +897,6 @@
     </Filter>
     <Filter Include="源文件\1700-1799\demo1797">
       <UniqueIdentifier>{2f7c64f3-10fe-4dde-a8eb-c7f63cabc57c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0600-0699\demo670">
-      <UniqueIdentifier>{674ba44d-1ce6-4cf2-a05c-bc4c6ba51891}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1700-1799\demo1796">
       <UniqueIdentifier>{79ccdd05-e7fd-42e1-9a3f-163d304fd791}</UniqueIdentifier>
@@ -2013,9 +2004,6 @@
     <ClCompile Include="953. 验证外星语词典.cpp">
       <Filter>源文件\0900-0999\demo953</Filter>
     </ClCompile>
-    <ClCompile Include="668. 乘法表中第k小的数.cpp">
-      <Filter>源文件\0600-0699\demo668</Filter>
-    </ClCompile>
     <ClCompile Include="48. 旋转图像.cpp">
       <Filter>源文件\0001-0099\demo48</Filter>
     </ClCompile>
@@ -2042,9 +2030,6 @@
     </ClCompile>
     <ClCompile Include="50. Pow(x, n).cpp">
       <Filter>源文件\0001-0099\demo50</Filter>
-    </ClCompile>
-    <ClCompile Include="675. 为高尔夫比赛砍树.cpp">
-      <Filter>源文件\0600-0699\demo675</Filter>
     </ClCompile>
     <ClCompile Include="965. 单值二叉树.cpp">
       <Filter>源文件\0900-0999\demo965</Filter>
@@ -2507,9 +2492,6 @@
     </ClCompile>
     <ClCompile Include="1797. 设计一个验证系统.cpp">
       <Filter>源文件\1700-1799\demo1797</Filter>
-    </ClCompile>
-    <ClCompile Include="670. 最大交换.cpp">
-      <Filter>源文件\0600-0699\demo670</Filter>
     </ClCompile>
     <ClCompile Include="1796. 字符串中第二大的数字.cpp">
       <Filter>源文件\1700-1799\demo1796</Filter>
@@ -3928,6 +3910,15 @@
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
     <ClCompile Include="653. 两数之和 IV - 输入 BST.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
+    <ClCompile Include="675. 为高尔夫比赛砍树.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
+    <ClCompile Include="668. 乘法表中第k小的数.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
+    <ClCompile Include="670. 最大交换.cpp">
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
   </ItemGroup>
