@@ -91,3 +91,44 @@ public:
 		return false;
 	}
 };
+
+
+
+/*
+653. 两数之和 IV - 输入 BST
+给定一个二叉搜索树 root 和一个目标结果 k，如果 BST 中存在两个元素且它们的和等于给定的目标结果，则返回 true。
+*/
+class Solution {
+public:
+	void inorder(TreeNode* root, vector<int>& vec)
+	{
+		if (!root)
+			return;
+		inorder(root->left, vec);
+		vec.push_back(root->val);
+		inorder(root->right, vec);
+	}
+
+	bool findTarget(TreeNode* root, int k) {
+		vector<int> vec;
+		inorder(root, vec);
+		int left = 0, right = vec.size() - 1;
+		while (left < right)
+		{
+			int sum = vec[left] + vec[right];
+			if (sum == k)
+			{
+				return true;
+			}
+			if (sum < k)
+			{
+				left++;
+			}
+			else
+			{
+				right--;
+			}
+		}
+		return false;
+	}
+};
