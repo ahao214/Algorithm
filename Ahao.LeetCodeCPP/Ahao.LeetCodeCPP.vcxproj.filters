@@ -127,12 +127,6 @@
     <Filter Include="源文件\0800-0899\demo806">
       <UniqueIdentifier>{d6ad2207-6087-40f2-aa0a-0855baac7068}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0700-0799\demo724">
-      <UniqueIdentifier>{a3104b60-750e-419e-be46-950753f8fb40}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0700-0799\demo728">
-      <UniqueIdentifier>{67b9c01f-a006-4189-a4c6-25e97f84c984}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0700-0799\demo744">
       <UniqueIdentifier>{b4e62d69-0ab3-42af-8b7d-968f9a00bebf}</UniqueIdentifier>
     </Filter>
@@ -310,9 +304,6 @@
     <Filter Include="源文件\1800-1899\demo1823">
       <UniqueIdentifier>{d743de68-77bb-4865-9a8f-1b322deb0de6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0700-0799\demo713">
-      <UniqueIdentifier>{41ece60d-0aa9-4875-af57-aa4d7abca98f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0400-0499\demo442">
       <UniqueIdentifier>{7d9c5181-218d-4886-b711-ae5e0b9ab733}</UniqueIdentifier>
     </Filter>
@@ -430,9 +421,6 @@
     <Filter Include="源文件\0400-0499\demo497">
       <UniqueIdentifier>{e6bca641-f8e8-417e-b26c-676a169125bc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0700-0799\demo730">
-      <UniqueIdentifier>{3840858b-fd80-4754-98ee-f67938bdfb3c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0001-0099\demo71">
       <UniqueIdentifier>{442556f5-7a0f-41a1-b7ab-41b548909e1a}</UniqueIdentifier>
     </Filter>
@@ -447,9 +435,6 @@
     </Filter>
     <Filter Include="源文件\0400-0499\demo498">
       <UniqueIdentifier>{61f3b95c-d14c-4e9b-b15e-7e1680c7641a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0700-0799\demo719">
-      <UniqueIdentifier>{4d51c853-23b7-4de7-985c-0e74519a61e2}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1100-1199">
       <UniqueIdentifier>{9e788f1e-f209-4f57-91e5-d71bff514184}</UniqueIdentifier>
@@ -483,9 +468,6 @@
     </Filter>
     <Filter Include="源文件\0700-0799\demo741">
       <UniqueIdentifier>{146d98a4-421f-44b4-877e-45b1ebc592cc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0700-0799\demo735">
-      <UniqueIdentifier>{5f936aaa-df7a-48a6-a438-4cb0a08748aa}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0001-0099\demo80">
       <UniqueIdentifier>{ad3bd6bf-49f1-442b-8b17-9e577fff35ce}</UniqueIdentifier>
@@ -1788,12 +1770,6 @@
     <ClCompile Include="804. 唯一摩尔斯密码词.cpp">
       <Filter>源文件\0800-0899\demo804</Filter>
     </ClCompile>
-    <ClCompile Include="728. 自除数.cpp">
-      <Filter>源文件\0700-0799\demo728</Filter>
-    </ClCompile>
-    <ClCompile Include="724. 寻找数组的中心下标.cpp">
-      <Filter>源文件\0700-0799\demo724</Filter>
-    </ClCompile>
     <ClCompile Include="744. 寻找比目标字母大的最小字母.cpp">
       <Filter>源文件\0700-0799\demo744</Filter>
     </ClCompile>
@@ -1944,9 +1920,6 @@
     <ClCompile Include="1823. 找出游戏的获胜者.cpp">
       <Filter>源文件\1800-1899\demo1823</Filter>
     </ClCompile>
-    <ClCompile Include="713. 乘积小于 K 的子数组.cpp">
-      <Filter>源文件\0700-0799\demo713</Filter>
-    </ClCompile>
     <ClCompile Include="442. 数组中重复的数据.cpp">
       <Filter>源文件\0400-0499\demo442</Filter>
     </ClCompile>
@@ -2064,9 +2037,6 @@
     <ClCompile Include="65. 有效数字.cpp">
       <Filter>源文件\0001-0099\demo65</Filter>
     </ClCompile>
-    <ClCompile Include="730. 统计不同回文子序列.cpp">
-      <Filter>源文件\0700-0799\demo730</Filter>
-    </ClCompile>
     <ClCompile Include="66. 加一.cpp">
       <Filter>源文件\0001-0099\demo66</Filter>
     </ClCompile>
@@ -2078,9 +2048,6 @@
     </ClCompile>
     <ClCompile Include="498. 对角线遍历.cpp">
       <Filter>源文件\0400-0499\demo498</Filter>
-    </ClCompile>
-    <ClCompile Include="719. 找出第 K 小的数对距离.cpp">
-      <Filter>源文件\0700-0799\demo719</Filter>
     </ClCompile>
     <ClCompile Include="68. 文本左右对齐.cpp">
       <Filter>源文件\0001-0099\demo68</Filter>
@@ -2123,9 +2090,6 @@
     </ClCompile>
     <ClCompile Include="741. 摘樱桃.cpp">
       <Filter>源文件\0700-0799\demo741</Filter>
-    </ClCompile>
-    <ClCompile Include="735. 行星碰撞.cpp">
-      <Filter>源文件\0700-0799\demo735</Filter>
     </ClCompile>
     <ClCompile Include="79. 单词搜索.cpp">
       <Filter>源文件\0001-0099\demo79</Filter>
@@ -3899,6 +3863,24 @@
     </ClCompile>
     <ClCompile Include="417. 太平洋大西洋水流问题.cpp">
       <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
+    <ClCompile Include="713. 乘积小于 K 的子数组.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="719. 找出第 K 小的数对距离.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="735. 行星碰撞.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="724. 寻找数组的中心下标.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="728. 自除数.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="730. 统计不同回文子序列.cpp">
+      <Filter>源文件\0700-0799</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
