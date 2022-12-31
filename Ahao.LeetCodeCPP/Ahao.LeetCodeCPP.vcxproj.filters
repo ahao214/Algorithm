@@ -97,23 +97,11 @@
     <Filter Include="源文件\0300-0399\demo385">
       <UniqueIdentifier>{5dcc866c-4800-4f4f-861d-e1ac9bbe8a15}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0001-0099\demo28">
-      <UniqueIdentifier>{711a01dc-957d-4361-ba42-4c20635c42f1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo29">
-      <UniqueIdentifier>{df395d06-18b3-41cb-869b-e343feaa38fe}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo30">
-      <UniqueIdentifier>{3f1060bd-0e36-4d29-9341-866ada1c8162}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0400-0499\demo479">
       <UniqueIdentifier>{8594be0d-4420-4afb-b0da-aa4c627383d0}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0800-0899\demo819">
       <UniqueIdentifier>{a5f543b2-64ca-4b6a-8418-5afdc4563de8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo31">
-      <UniqueIdentifier>{443cb1a0-cb29-4581-a8c6-2cff4279c0f2}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0300-0399\demo386">
       <UniqueIdentifier>{681a05fa-acd7-48ae-9d1c-178614fb4c32}</UniqueIdentifier>
@@ -130,35 +118,8 @@
     <Filter Include="源文件\0300-0399\demo396">
       <UniqueIdentifier>{45c857d0-99d8-4544-81ea-37f670f94388}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0001-0099\demo32">
-      <UniqueIdentifier>{5c348693-ac1f-4948-8ff9-95bd00ee883e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo33">
-      <UniqueIdentifier>{e2eb60eb-f4da-4a9c-8d5a-92c569d150ca}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo34">
-      <UniqueIdentifier>{687dcda1-c663-4c20-93ec-d5a3c3b5a4ac}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo35">
-      <UniqueIdentifier>{48dfd9c1-63ae-4604-8721-ed272fabdfbe}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0100-0199\demo100">
       <UniqueIdentifier>{a73feeae-7b2d-4b1a-8e8b-f8ed6f9dfe58}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo36">
-      <UniqueIdentifier>{f22e50bd-8d74-467b-887c-6b05ed659c31}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo37">
-      <UniqueIdentifier>{b7d4f08d-4ef7-4e2f-af20-0cb612871145}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo38">
-      <UniqueIdentifier>{993c2141-b914-4a19-80cb-f1bbddd41046}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo39">
-      <UniqueIdentifier>{421682e2-5b3c-44ef-b903-55e25ee1b9ed}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo40">
-      <UniqueIdentifier>{8761ad41-2ca8-4e83-81b5-114a14c134e5}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0800-0899\demo868">
       <UniqueIdentifier>{6ba6c8ad-1397-470a-bc3f-04d750900c1e}</UniqueIdentifier>
@@ -171,21 +132,6 @@
     </Filter>
     <Filter Include="源文件\0900-0999\demo905">
       <UniqueIdentifier>{651b9c9b-c800-4b44-b86e-9f1c717dae5c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo41">
-      <UniqueIdentifier>{95bc68c5-5214-4db2-af51-53a7e0cc9311}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo42">
-      <UniqueIdentifier>{873b6a62-5a64-498b-af3f-388aba16e0dd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo43">
-      <UniqueIdentifier>{27e1a4e0-27fd-4927-a1a2-588c81c5eb4c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo44">
-      <UniqueIdentifier>{8fc510a6-181d-44bb-92b3-2c9c50dbf808}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo45">
-      <UniqueIdentifier>{93590713-78c1-46ff-b479-87142581bc72}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0900-0999\demo908">
       <UniqueIdentifier>{02bae1ed-525d-4677-94f5-8aae6b3acbf8}</UniqueIdentifier>
@@ -202,21 +148,6 @@
     <Filter Include="源文件\0300-0399\demo389">
       <UniqueIdentifier>{3eee02e2-bd65-4815-9a2a-aa1ff4e6e6a0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0001-0099\demo46">
-      <UniqueIdentifier>{0b033bbc-be40-42b5-91f4-2228b1c29666}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo47">
-      <UniqueIdentifier>{18c0f2aa-f925-41b9-89c0-a10bdcc19d71}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo48">
-      <UniqueIdentifier>{1a6a3200-dd89-4efe-95b2-13e0bd97d2ef}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo49">
-      <UniqueIdentifier>{6cb6fd13-b573-4ce6-a482-b986feafcb05}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo50">
-      <UniqueIdentifier>{55260ad2-d97d-4fe5-a251-8950d8b5fa5a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1800-1899">
       <UniqueIdentifier>{40e40114-66bb-4a03-908c-366f7434b8f6}</UniqueIdentifier>
     </Filter>
@@ -231,18 +162,6 @@
     </Filter>
     <Filter Include="源文件\0800-0899\demo812">
       <UniqueIdentifier>{07b920e7-a4e6-4455-878f-1a3f08b69a44}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo51">
-      <UniqueIdentifier>{1548b2b8-d95b-477b-81b6-93c8a2b97765}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo52">
-      <UniqueIdentifier>{372d5e7f-82ac-4be3-9d2a-a0ee5f040950}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo53">
-      <UniqueIdentifier>{5080a1fe-b4eb-4dbb-a196-d27b07e706cd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo54">
-      <UniqueIdentifier>{fb9872ec-575c-4845-9096-078ddd8e4648}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0900-0999\demo953">
       <UniqueIdentifier>{2f6ed4e6-5cc8-4676-b295-296298e4bbe6}</UniqueIdentifier>
@@ -259,29 +178,8 @@
     <Filter Include="源文件\0400-0499\demo467">
       <UniqueIdentifier>{6b90bbcd-836d-4cf4-b2c7-61b6e58ee664}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0001-0099\demo55">
-      <UniqueIdentifier>{9bf9e1fe-7c35-46b4-9dc1-84c98ec5b810}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo56">
-      <UniqueIdentifier>{66687eaf-4ff3-43db-9936-5ea049a75e13}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo57">
-      <UniqueIdentifier>{0cb4d801-8701-4cdf-83e5-e8f958cb9c02}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo58">
-      <UniqueIdentifier>{d4afec67-c84e-44f5-ae75-b6ee265766bc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo59">
-      <UniqueIdentifier>{fbbdefae-e6e7-4007-b48e-7b78dda40279}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo60">
-      <UniqueIdentifier>{034a9405-590e-4cbf-99dc-100383997f74}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0400-0499\demo468">
       <UniqueIdentifier>{189c491a-08a9-4920-b15f-188e57c4b187}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo61">
-      <UniqueIdentifier>{98f3463d-faa3-463c-acd5-860aa9608719}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0400-0499\demo473">
       <UniqueIdentifier>{c7b76b5a-c6ef-4b7d-8f30-e24a6d2c6f06}</UniqueIdentifier>
@@ -295,41 +193,8 @@
     <Filter Include="源文件\0900-0999\demo929">
       <UniqueIdentifier>{a013b923-6475-4ad8-bcbe-807211aa2726}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0001-0099\demo62">
-      <UniqueIdentifier>{e13bf54f-bed7-4316-a427-67698ec1bc69}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo63">
-      <UniqueIdentifier>{7828ccb4-c6ac-4cfb-b98c-93a039885b68}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo64">
-      <UniqueIdentifier>{bd672f78-f941-48b7-b16f-b1a610f5735d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo65">
-      <UniqueIdentifier>{084b03c6-1f75-480a-8cd2-e4f751ec9cee}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo66">
-      <UniqueIdentifier>{b5b62d02-ba14-4769-b413-79a21bf54650}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo67">
-      <UniqueIdentifier>{1cc2799c-0ece-42bf-abaf-9edd7c2e20ac}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo68">
-      <UniqueIdentifier>{0b265c3a-8fda-4949-b9ed-f66c1e8af5d0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo69">
-      <UniqueIdentifier>{ef6c3ede-393f-4599-95c5-1dcdf39e64b6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo70">
-      <UniqueIdentifier>{e61fedad-994f-4519-a0c6-a8145463089f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0400-0499\demo497">
       <UniqueIdentifier>{e6bca641-f8e8-417e-b26c-676a169125bc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo72">
-      <UniqueIdentifier>{73bd1552-1b51-4a8d-b4bc-c8dfa29eb150}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo73">
-      <UniqueIdentifier>{5744f309-4279-438e-bf76-879b6201c953}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0800-0899\demo890">
       <UniqueIdentifier>{9863519a-9746-4c42-a531-83266be6af12}</UniqueIdentifier>
@@ -339,15 +204,6 @@
     </Filter>
     <Filter Include="源文件\1100-1199">
       <UniqueIdentifier>{9e788f1e-f209-4f57-91e5-d71bff514184}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo74">
-      <UniqueIdentifier>{2a2faa60-029a-4f6b-856c-6a1ad53e2352}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo75">
-      <UniqueIdentifier>{5929ae0f-87d7-4899-a8e1-0ea929f57bbe}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo76">
-      <UniqueIdentifier>{d2dde8f4-0a8a-4518-8239-6393586702aa}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0300-0399\demo324">
       <UniqueIdentifier>{5c3680fe-3af5-4494-a80b-431f121a96dd}</UniqueIdentifier>
@@ -1545,12 +1401,6 @@
     <ClCompile Include="819. 最常见的单词.cpp">
       <Filter>源文件\0800-0899\demo819</Filter>
     </ClCompile>
-    <ClCompile Include="28. 实现 strStr().cpp">
-      <Filter>源文件\0001-0099\demo28</Filter>
-    </ClCompile>
-    <ClCompile Include="29. 两数相除.cpp">
-      <Filter>源文件\0001-0099\demo29</Filter>
-    </ClCompile>
     <ClCompile Include="386. 字典序排数.cpp">
       <Filter>源文件\0300-0399\demo386</Filter>
     </ClCompile>
@@ -1566,39 +1416,6 @@
     <ClCompile Include="396. 旋转函数.cpp">
       <Filter>源文件\0300-0399\demo396</Filter>
     </ClCompile>
-    <ClCompile Include="30. 串联所有单词的子串.cpp">
-      <Filter>源文件\0001-0099\demo30</Filter>
-    </ClCompile>
-    <ClCompile Include="31. 下一个排列.cpp">
-      <Filter>源文件\0001-0099\demo31</Filter>
-    </ClCompile>
-    <ClCompile Include="32. 最长有效括号.cpp">
-      <Filter>源文件\0001-0099\demo32</Filter>
-    </ClCompile>
-    <ClCompile Include="33. 搜索旋转排序数组.cpp">
-      <Filter>源文件\0001-0099\demo33</Filter>
-    </ClCompile>
-    <ClCompile Include="34. 在排序数组中查找元素的第一个和最后一个位置.cpp">
-      <Filter>源文件\0001-0099\demo34</Filter>
-    </ClCompile>
-    <ClCompile Include="35. 搜索插入位置.cpp">
-      <Filter>源文件\0001-0099\demo35</Filter>
-    </ClCompile>
-    <ClCompile Include="36. 有效的数独.cpp">
-      <Filter>源文件\0001-0099\demo36</Filter>
-    </ClCompile>
-    <ClCompile Include="37. 解数独.cpp">
-      <Filter>源文件\0001-0099\demo37</Filter>
-    </ClCompile>
-    <ClCompile Include="38. 外观数列.cpp">
-      <Filter>源文件\0001-0099\demo38</Filter>
-    </ClCompile>
-    <ClCompile Include="39. 组合总和.cpp">
-      <Filter>源文件\0001-0099\demo39</Filter>
-    </ClCompile>
-    <ClCompile Include="40. 组合总和 II.cpp">
-      <Filter>源文件\0001-0099\demo40</Filter>
-    </ClCompile>
     <ClCompile Include="868. 二进制间距.cpp">
       <Filter>源文件\0800-0899\demo868</Filter>
     </ClCompile>
@@ -1611,12 +1428,6 @@
     <ClCompile Include="905. 按奇偶排序数组.cpp">
       <Filter>源文件\0900-0999\demo905</Filter>
     </ClCompile>
-    <ClCompile Include="41. 缺失的第一个正数.cpp">
-      <Filter>源文件\0001-0099\demo41</Filter>
-    </ClCompile>
-    <ClCompile Include="42. 接雨水.cpp">
-      <Filter>源文件\0001-0099\demo42</Filter>
-    </ClCompile>
     <ClCompile Include="908. 最小差值 I.cpp">
       <Filter>源文件\0900-0999\demo908</Filter>
     </ClCompile>
@@ -1625,15 +1436,6 @@
     </ClCompile>
     <ClCompile Include="389. 找不同.cpp">
       <Filter>源文件\0300-0399\demo389</Filter>
-    </ClCompile>
-    <ClCompile Include="43. 字符串相乘.cpp">
-      <Filter>源文件\0001-0099\demo43</Filter>
-    </ClCompile>
-    <ClCompile Include="44. 通配符匹配.cpp">
-      <Filter>源文件\0001-0099\demo44</Filter>
-    </ClCompile>
-    <ClCompile Include="45. 跳跃游戏 II.cpp">
-      <Filter>源文件\0001-0099\demo45</Filter>
     </ClCompile>
     <ClCompile Include="942. 增减字符串匹配.cpp">
       <Filter>源文件\0900-0999\demo942</Filter>
@@ -1647,17 +1449,8 @@
     <ClCompile Include="812. 最大三角形面积.cpp">
       <Filter>源文件\0800-0899\demo812</Filter>
     </ClCompile>
-    <ClCompile Include="46. 全排列.cpp">
-      <Filter>源文件\0001-0099\demo46</Filter>
-    </ClCompile>
-    <ClCompile Include="47. 全排列 II.cpp">
-      <Filter>源文件\0001-0099\demo47</Filter>
-    </ClCompile>
     <ClCompile Include="953. 验证外星语词典.cpp">
       <Filter>源文件\0900-0999\demo953</Filter>
-    </ClCompile>
-    <ClCompile Include="48. 旋转图像.cpp">
-      <Filter>源文件\0001-0099\demo48</Filter>
     </ClCompile>
     <ClCompile Include="462. 最少移动次数使数组元素相等 II.cpp">
       <Filter>源文件\0400-0499\demo462</Filter>
@@ -1665,29 +1458,11 @@
     <ClCompile Include="961. 在长度 2N 的数组中找出重复 N 次的元素.cpp">
       <Filter>源文件\0900-0999\demo961</Filter>
     </ClCompile>
-    <ClCompile Include="49. 字母异位词分组.cpp">
-      <Filter>源文件\0001-0099\demo49</Filter>
-    </ClCompile>
-    <ClCompile Include="50. Pow(x, n).cpp">
-      <Filter>源文件\0001-0099\demo50</Filter>
-    </ClCompile>
     <ClCompile Include="965. 单值二叉树.cpp">
       <Filter>源文件\0900-0999\demo965</Filter>
     </ClCompile>
     <ClCompile Include="467. 环绕字符串中唯一的子字符串.cpp">
       <Filter>源文件\0400-0499\demo467</Filter>
-    </ClCompile>
-    <ClCompile Include="51. N 皇后.cpp">
-      <Filter>源文件\0001-0099\demo51</Filter>
-    </ClCompile>
-    <ClCompile Include="52. N皇后 II.cpp">
-      <Filter>源文件\0001-0099\demo52</Filter>
-    </ClCompile>
-    <ClCompile Include="53. 最大子数组和.cpp">
-      <Filter>源文件\0001-0099\demo53</Filter>
-    </ClCompile>
-    <ClCompile Include="54. 螺旋矩阵.cpp">
-      <Filter>源文件\0001-0099\demo54</Filter>
     </ClCompile>
     <ClCompile Include="468. 验证IP地址.cpp">
       <Filter>源文件\0400-0499\demo468</Filter>
@@ -1704,47 +1479,8 @@
     <ClCompile Include="929. 独特的电子邮件地址.cpp">
       <Filter>源文件\0900-0999\demo929</Filter>
     </ClCompile>
-    <ClCompile Include="55. 跳跃游戏.cpp">
-      <Filter>源文件\0001-0099\demo55</Filter>
-    </ClCompile>
-    <ClCompile Include="56. 合并区间.cpp">
-      <Filter>源文件\0001-0099\demo56</Filter>
-    </ClCompile>
-    <ClCompile Include="57. 插入区间.cpp">
-      <Filter>源文件\0001-0099\demo57</Filter>
-    </ClCompile>
-    <ClCompile Include="58. 最后一个单词的长度.cpp">
-      <Filter>源文件\0001-0099\demo58</Filter>
-    </ClCompile>
-    <ClCompile Include="59. 螺旋矩阵 II.cpp">
-      <Filter>源文件\0001-0099\demo59</Filter>
-    </ClCompile>
-    <ClCompile Include="60. 排列序列.cpp">
-      <Filter>源文件\0001-0099\demo60</Filter>
-    </ClCompile>
-    <ClCompile Include="61. 旋转链表.cpp">
-      <Filter>源文件\0001-0099\demo61</Filter>
-    </ClCompile>
-    <ClCompile Include="62. 不同路径.cpp">
-      <Filter>源文件\0001-0099\demo62</Filter>
-    </ClCompile>
     <ClCompile Include="497. 非重叠矩形中的随机点.cpp">
       <Filter>源文件\0400-0499\demo497</Filter>
-    </ClCompile>
-    <ClCompile Include="63. 不同路径 II.cpp">
-      <Filter>源文件\0001-0099\demo63</Filter>
-    </ClCompile>
-    <ClCompile Include="64. 最小路径和.cpp">
-      <Filter>源文件\0001-0099\demo64</Filter>
-    </ClCompile>
-    <ClCompile Include="65. 有效数字.cpp">
-      <Filter>源文件\0001-0099\demo65</Filter>
-    </ClCompile>
-    <ClCompile Include="66. 加一.cpp">
-      <Filter>源文件\0001-0099\demo66</Filter>
-    </ClCompile>
-    <ClCompile Include="67. 二进制求和.cpp">
-      <Filter>源文件\0001-0099\demo67</Filter>
     </ClCompile>
     <ClCompile Include="890. 查找和替换模式.cpp">
       <Filter>源文件\0800-0899\demo890</Filter>
@@ -1752,32 +1488,8 @@
     <ClCompile Include="498. 对角线遍历.cpp">
       <Filter>源文件\0400-0499\demo498</Filter>
     </ClCompile>
-    <ClCompile Include="68. 文本左右对齐.cpp">
-      <Filter>源文件\0001-0099\demo68</Filter>
-    </ClCompile>
-    <ClCompile Include="69. x 的平方根.cpp">
-      <Filter>源文件\0001-0099\demo69</Filter>
-    </ClCompile>
-    <ClCompile Include="70. 爬楼梯.cpp">
-      <Filter>源文件\0001-0099\demo70</Filter>
-    </ClCompile>
-    <ClCompile Include="72. 编辑距离.cpp">
-      <Filter>源文件\0001-0099\demo72</Filter>
-    </ClCompile>
-    <ClCompile Include="73. 矩阵置零.cpp">
-      <Filter>源文件\0001-0099\demo73</Filter>
-    </ClCompile>
     <ClCompile Include="324. 摆动排序 II.cpp">
       <Filter>源文件\0300-0399\demo324</Filter>
-    </ClCompile>
-    <ClCompile Include="74. 搜索二维矩阵.cpp">
-      <Filter>源文件\0001-0099\demo74</Filter>
-    </ClCompile>
-    <ClCompile Include="75. 颜色分类.cpp">
-      <Filter>源文件\0001-0099\demo75</Filter>
-    </ClCompile>
-    <ClCompile Include="76. 最小覆盖子串.cpp">
-      <Filter>源文件\0001-0099\demo76</Filter>
     </ClCompile>
     <ClCompile Include="241. 为运算表达式设计优先级.cpp">
       <Filter>源文件\0200-0299\demo241</Filter>
@@ -3645,30 +3357,6 @@
     <ClCompile Include="22. 括号生成.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
-    <ClCompile Include="77. 组合.cpp">
-      <Filter>源文件\0001-0099\demo76</Filter>
-    </ClCompile>
-    <ClCompile Include="78. 子集.cpp">
-      <Filter>源文件\0001-0099\demo76</Filter>
-    </ClCompile>
-    <ClCompile Include="81. 搜索旋转排序数组 II.cpp">
-      <Filter>源文件\0001-0099\demo76</Filter>
-    </ClCompile>
-    <ClCompile Include="79. 单词搜索.cpp">
-      <Filter>源文件\0001-0099\demo76</Filter>
-    </ClCompile>
-    <ClCompile Include="80. 删除有序数组中的重复项 II.cpp">
-      <Filter>源文件\0001-0099\demo76</Filter>
-    </ClCompile>
-    <ClCompile Include="82. 删除排序链表中的重复元素 II.cpp">
-      <Filter>源文件\0001-0099\demo76</Filter>
-    </ClCompile>
-    <ClCompile Include="83. 删除排序链表中的重复元素.cpp">
-      <Filter>源文件\0001-0099\demo76</Filter>
-    </ClCompile>
-    <ClCompile Include="84. 柱状图中最大的矩形.cpp">
-      <Filter>源文件\0001-0099\demo76</Filter>
-    </ClCompile>
     <ClCompile Include="24. 两两交换链表中的节点.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
@@ -3679,6 +3367,174 @@
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
     <ClCompile Include="26. 删除有序数组中的重复项.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="37. 解数独.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="38. 外观数列.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="39. 组合总和.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="28. 实现 strStr().cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="29. 两数相除.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="30. 串联所有单词的子串.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="31. 下一个排列.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="32. 最长有效括号.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="33. 搜索旋转排序数组.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="34. 在排序数组中查找元素的第一个和最后一个位置.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="35. 搜索插入位置.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="36. 有效的数独.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="40. 组合总和 II.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="76. 最小覆盖子串.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="77. 组合.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="78. 子集.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="79. 单词搜索.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="80. 删除有序数组中的重复项 II.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="81. 搜索旋转排序数组 II.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="82. 删除排序链表中的重复元素 II.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="83. 删除排序链表中的重复元素.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="84. 柱状图中最大的矩形.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="41. 缺失的第一个正数.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="42. 接雨水.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="43. 字符串相乘.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="44. 通配符匹配.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="45. 跳跃游戏 II.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="46. 全排列.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="47. 全排列 II.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="48. 旋转图像.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="56. 合并区间.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="49. 字母异位词分组.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="50. Pow(x, n).cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="51. N 皇后.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="52. N皇后 II.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="53. 最大子数组和.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="54. 螺旋矩阵.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="55. 跳跃游戏.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="57. 插入区间.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="58. 最后一个单词的长度.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="59. 螺旋矩阵 II.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="67. 二进制求和.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="60. 排列序列.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="61. 旋转链表.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="62. 不同路径.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="63. 不同路径 II.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="64. 最小路径和.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="65. 有效数字.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="66. 加一.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="68. 文本左右对齐.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="69. x 的平方根.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="70. 爬楼梯.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="72. 编辑距离.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="73. 矩阵置零.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="74. 搜索二维矩阵.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="75. 颜色分类.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
   </ItemGroup>
