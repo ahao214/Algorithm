@@ -97,21 +97,6 @@
     <Filter Include="源文件\0300-0399\demo385">
       <UniqueIdentifier>{5dcc866c-4800-4f4f-861d-e1ac9bbe8a15}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0001-0099\demo22">
-      <UniqueIdentifier>{417c31bf-eaf9-49db-a220-b96d983b46df}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo24">
-      <UniqueIdentifier>{a5425877-1374-4603-b39f-f2b7fd5a036e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo25">
-      <UniqueIdentifier>{f00ee42d-83df-48fe-ade5-3fdf7129d0ce}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo26">
-      <UniqueIdentifier>{478a1f26-b7a4-46ab-b2eb-7379c7ef031e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo27">
-      <UniqueIdentifier>{b64ae0c1-fbf2-463c-b2bd-1a5ed3f6e2cd}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0001-0099\demo28">
       <UniqueIdentifier>{711a01dc-957d-4361-ba42-4c20635c42f1}</UniqueIdentifier>
     </Filter>
@@ -364,15 +349,6 @@
     <Filter Include="源文件\0001-0099\demo76">
       <UniqueIdentifier>{d2dde8f4-0a8a-4518-8239-6393586702aa}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0001-0099\demo77">
-      <UniqueIdentifier>{5b046a98-cbd1-486c-9b57-3fed3c631699}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo78">
-      <UniqueIdentifier>{c299fc36-8189-4f8c-a2ed-6a4cad2d3caf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo79">
-      <UniqueIdentifier>{4e50ae01-13ec-47ec-b4a6-9e04b000430e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0300-0399\demo324">
       <UniqueIdentifier>{5c3680fe-3af5-4494-a80b-431f121a96dd}</UniqueIdentifier>
     </Filter>
@@ -384,21 +360,6 @@
     </Filter>
     <Filter Include="源文件\0700-0799\demo741">
       <UniqueIdentifier>{146d98a4-421f-44b4-877e-45b1ebc592cc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo80">
-      <UniqueIdentifier>{ad3bd6bf-49f1-442b-8b17-9e577fff35ce}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo81">
-      <UniqueIdentifier>{2ead3b94-3006-4e97-b6a7-c5798890307e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo82">
-      <UniqueIdentifier>{51ff6d87-0db7-4529-8e7c-b3ce0a4935b4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo83">
-      <UniqueIdentifier>{9040d2aa-bf56-42fc-a244-47f2d6835f53}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo84">
-      <UniqueIdentifier>{6ea03c39-cdf3-4342-bc5d-856ff9520140}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0100-0199\demo101">
       <UniqueIdentifier>{17a97918-e432-4b5d-a590-485302d56b55}</UniqueIdentifier>
@@ -1578,26 +1539,11 @@
     <ClCompile Include="357. 统计各位数字都不同的数字个数.cpp">
       <Filter>源文件\0300-0399\demo357</Filter>
     </ClCompile>
-    <ClCompile Include="22. 括号生成.cpp">
-      <Filter>源文件\0001-0099\demo22</Filter>
-    </ClCompile>
-    <ClCompile Include="24. 两两交换链表中的节点.cpp">
-      <Filter>源文件\0001-0099\demo24</Filter>
-    </ClCompile>
-    <ClCompile Include="25. K 个一组翻转链表.cpp">
-      <Filter>源文件\0001-0099\demo25</Filter>
-    </ClCompile>
-    <ClCompile Include="26. 删除有序数组中的重复项.cpp">
-      <Filter>源文件\0001-0099\demo26</Filter>
-    </ClCompile>
     <ClCompile Include="479. 最大回文数乘积.cpp">
       <Filter>源文件\0400-0499\demo479</Filter>
     </ClCompile>
     <ClCompile Include="819. 最常见的单词.cpp">
       <Filter>源文件\0800-0899\demo819</Filter>
-    </ClCompile>
-    <ClCompile Include="27. 移除元素.cpp">
-      <Filter>源文件\0001-0099\demo27</Filter>
     </ClCompile>
     <ClCompile Include="28. 实现 strStr().cpp">
       <Filter>源文件\0001-0099\demo28</Filter>
@@ -1836,32 +1782,8 @@
     <ClCompile Include="241. 为运算表达式设计优先级.cpp">
       <Filter>源文件\0200-0299\demo241</Filter>
     </ClCompile>
-    <ClCompile Include="77. 组合.cpp">
-      <Filter>源文件\0001-0099\demo77</Filter>
-    </ClCompile>
-    <ClCompile Include="78. 子集.cpp">
-      <Filter>源文件\0001-0099\demo78</Filter>
-    </ClCompile>
     <ClCompile Include="741. 摘樱桃.cpp">
       <Filter>源文件\0700-0799\demo741</Filter>
-    </ClCompile>
-    <ClCompile Include="79. 单词搜索.cpp">
-      <Filter>源文件\0001-0099\demo79</Filter>
-    </ClCompile>
-    <ClCompile Include="80. 删除有序数组中的重复项 II.cpp">
-      <Filter>源文件\0001-0099\demo80</Filter>
-    </ClCompile>
-    <ClCompile Include="81. 搜索旋转排序数组 II.cpp">
-      <Filter>源文件\0001-0099\demo81</Filter>
-    </ClCompile>
-    <ClCompile Include="82. 删除排序链表中的重复元素 II.cpp">
-      <Filter>源文件\0001-0099\demo82</Filter>
-    </ClCompile>
-    <ClCompile Include="83. 删除排序链表中的重复元素.cpp">
-      <Filter>源文件\0001-0099\demo83</Filter>
-    </ClCompile>
-    <ClCompile Include="84. 柱状图中最大的矩形.cpp">
-      <Filter>源文件\0001-0099\demo84</Filter>
     </ClCompile>
     <ClCompile Include="746. 使用最小花费爬楼梯.cpp">
       <Filter>源文件\0700-0799\demo746</Filter>
@@ -3720,20 +3642,47 @@
     <ClCompile Include="20. 有效的括号.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
+    <ClCompile Include="22. 括号生成.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="77. 组合.cpp">
+      <Filter>源文件\0001-0099\demo76</Filter>
+    </ClCompile>
+    <ClCompile Include="78. 子集.cpp">
+      <Filter>源文件\0001-0099\demo76</Filter>
+    </ClCompile>
+    <ClCompile Include="81. 搜索旋转排序数组 II.cpp">
+      <Filter>源文件\0001-0099\demo76</Filter>
+    </ClCompile>
+    <ClCompile Include="79. 单词搜索.cpp">
+      <Filter>源文件\0001-0099\demo76</Filter>
+    </ClCompile>
+    <ClCompile Include="80. 删除有序数组中的重复项 II.cpp">
+      <Filter>源文件\0001-0099\demo76</Filter>
+    </ClCompile>
+    <ClCompile Include="82. 删除排序链表中的重复元素 II.cpp">
+      <Filter>源文件\0001-0099\demo76</Filter>
+    </ClCompile>
+    <ClCompile Include="83. 删除排序链表中的重复元素.cpp">
+      <Filter>源文件\0001-0099\demo76</Filter>
+    </ClCompile>
+    <ClCompile Include="84. 柱状图中最大的矩形.cpp">
+      <Filter>源文件\0001-0099\demo76</Filter>
+    </ClCompile>
+    <ClCompile Include="24. 两两交换链表中的节点.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="27. 移除元素.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="25. K 个一组翻转链表.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="26. 删除有序数组中的重复项.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="22-题目描述和思路.txt">
-      <Filter>源文件\0001-0099\demo22</Filter>
-    </Text>
-    <Text Include="24-题目描述和思路.txt">
-      <Filter>源文件\0001-0099\demo24</Filter>
-    </Text>
-    <Text Include="25-题目描述和思路.txt">
-      <Filter>源文件\0001-0099\demo25</Filter>
-    </Text>
-    <Text Include="26-题目描述和思路.txt">
-      <Filter>源文件\0001-0099\demo26</Filter>
-    </Text>
     <Text Include="479-题目描述和思路.txt">
       <Filter>源文件\0400-0499\demo479</Filter>
     </Text>

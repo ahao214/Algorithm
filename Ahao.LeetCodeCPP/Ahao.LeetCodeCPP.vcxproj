@@ -875,10 +875,6 @@
     <None Include="6. Z 字形变换.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="22-题目描述和思路.txt" />
-    <Text Include="24-题目描述和思路.txt" />
-    <Text Include="25-题目描述和思路.txt" />
-    <Text Include="26-题目描述和思路.txt" />
     <Text Include="479-题目描述和思路.txt" />
     <Text Include="819-题目描述和思路.txt" />
   </ItemGroup>
