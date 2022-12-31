@@ -49,12 +49,6 @@
     <Filter Include="源文件\0800-0899">
       <UniqueIdentifier>{643403bb-ae26-477d-9067-3df6ef8801ca}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0001-0099\demo20">
-      <UniqueIdentifier>{de58a786-ac45-48c2-b555-8a9bbab2c8d8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo19">
-      <UniqueIdentifier>{da04b701-5fac-4f97-946d-dbb02ec4b28d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0100-0199\demo172">
       <UniqueIdentifier>{0abd9148-9854-46cd-a659-84b56a12b319}</UniqueIdentifier>
     </Filter>
@@ -102,9 +96,6 @@
     </Filter>
     <Filter Include="源文件\0300-0399\demo385">
       <UniqueIdentifier>{5dcc866c-4800-4f4f-861d-e1ac9bbe8a15}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0001-0099\demo21">
-      <UniqueIdentifier>{eb32a49f-7f77-4496-9e5d-3fa0127751f2}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0001-0099\demo22">
       <UniqueIdentifier>{417c31bf-eaf9-49db-a220-b96d983b46df}</UniqueIdentifier>
@@ -1539,9 +1530,6 @@
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="19. 删除链表的倒数第 N 个结点.cpp">
-      <Filter>源文件\0001-0099\demo19</Filter>
-    </ClCompile>
     <ClCompile Include="172. 阶乘后的零.cpp">
       <Filter>源文件\0100-0199\demo172</Filter>
     </ClCompile>
@@ -1589,12 +1577,6 @@
     </ClCompile>
     <ClCompile Include="357. 统计各位数字都不同的数字个数.cpp">
       <Filter>源文件\0300-0399\demo357</Filter>
-    </ClCompile>
-    <ClCompile Include="20. 有效的括号.cpp">
-      <Filter>源文件\0001-0099\demo20</Filter>
-    </ClCompile>
-    <ClCompile Include="21. 合并两个有序链表.cpp">
-      <Filter>源文件\0001-0099\demo21</Filter>
     </ClCompile>
     <ClCompile Include="22. 括号生成.cpp">
       <Filter>源文件\0001-0099\demo22</Filter>
@@ -3729,11 +3711,17 @@
     <ClCompile Include="88. 合并两个有序数组.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
+    <ClCompile Include="21. 合并两个有序链表.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="19. 删除链表的倒数第 N 个结点.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
+    <ClCompile Include="20. 有效的括号.cpp">
+      <Filter>源文件\0001-0099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="20-题目描述和思路.txt">
-      <Filter>源文件\0001-0099\demo20</Filter>
-    </Text>
     <Text Include="22-题目描述和思路.txt">
       <Filter>源文件\0001-0099\demo22</Filter>
     </Text>
