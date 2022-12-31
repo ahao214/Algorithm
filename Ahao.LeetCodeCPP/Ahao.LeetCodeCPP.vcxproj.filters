@@ -745,17 +745,8 @@
     <Filter Include="源文件\1800-1899\demo1838">
       <UniqueIdentifier>{8640d095-141e-4903-bde2-de578fa4214f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1800-1899\demo1837">
-      <UniqueIdentifier>{2cf4af9b-f547-418e-933d-3bd378d7a862}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1500-1599\demo1582">
       <UniqueIdentifier>{21af5ba8-3ad5-4564-96c2-db4fe5053b2b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1830">
-      <UniqueIdentifier>{a0138365-3ab1-4509-8cfc-39048a844b95}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1829">
-      <UniqueIdentifier>{4768587b-56c8-4163-ad4a-d44c534e5969}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1500-1599\demo1598">
       <UniqueIdentifier>{75b45ef5-def4-4a53-a6f3-cd9c322d8773}</UniqueIdentifier>
@@ -1077,12 +1068,6 @@
     </Filter>
     <Filter Include="源文件\0700-0799\demo764">
       <UniqueIdentifier>{54d60bb3-69f3-46be-9f91-c3805569c580}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1702">
-      <UniqueIdentifier>{124ef5f9-f836-4589-b3bd-2b8812a81ef1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1701">
-      <UniqueIdentifier>{947db2ad-e7d7-4030-bc60-149d22b1162e}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1600-1699\demo1697">
       <UniqueIdentifier>{8a9a5161-8198-4de9-a68b-b113b619b4f9}</UniqueIdentifier>
@@ -2238,17 +2223,8 @@
     <ClCompile Include="1838. 最高频元素的频数.cpp">
       <Filter>源文件\1800-1899\demo1838</Filter>
     </ClCompile>
-    <ClCompile Include="1837. K 进制表示下的各位数字总和.cpp">
-      <Filter>源文件\1800-1899\demo1837</Filter>
-    </ClCompile>
     <ClCompile Include="1582. 二进制矩阵中的特殊位置.cpp">
       <Filter>源文件\1500-1599\demo1582</Filter>
-    </ClCompile>
-    <ClCompile Include="1830. 使字符串有序的最少操作次数.cpp">
-      <Filter>源文件\1800-1899\demo1830</Filter>
-    </ClCompile>
-    <ClCompile Include="1829. 每个查询的最大异或值.cpp">
-      <Filter>源文件\1800-1899\demo1829</Filter>
     </ClCompile>
     <ClCompile Include="1598. 文件夹操作日志搜集器.cpp">
       <Filter>源文件\1500-1599\demo1598</Filter>
@@ -2570,12 +2546,6 @@
     </ClCompile>
     <ClCompile Include="764. 最大加号标志.cpp">
       <Filter>源文件\0700-0799\demo764</Filter>
-    </ClCompile>
-    <ClCompile Include="1702. 修改后的最大二进制字符串.cpp">
-      <Filter>源文件\1700-1799\demo1702</Filter>
-    </ClCompile>
-    <ClCompile Include="1701. 平均等待时间.cpp">
-      <Filter>源文件\1700-1799\demo1701</Filter>
     </ClCompile>
     <ClCompile Include="1697. 检查边长度限制的路径是否存在.cpp">
       <Filter>源文件\1600-1699\demo1697</Filter>
@@ -3788,6 +3758,21 @@
     </ClCompile>
     <ClCompile Include="1828. 统计一个圆中点的数目.cpp">
       <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1829. 每个查询的最大异或值.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1830. 使字符串有序的最少操作次数.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1837. K 进制表示下的各位数字总和.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1701. 平均等待时间.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1702. 修改后的最大二进制字符串.cpp">
+      <Filter>源文件\1700-1799</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
