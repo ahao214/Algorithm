@@ -536,6 +536,7 @@
     <ClCompile Include="2027. 转换字符串的最少操作次数.cpp" />
     <ClCompile Include="2028. 找出缺失的观测数据.cpp" />
     <ClCompile Include="2032. 至少在两个数组中出现的值.cpp" />
+    <ClCompile Include="2037. 使每位学生都有座位的最少移动次数.cpp" />
     <ClCompile Include="2038. 如果相邻两个颜色均相同则删除当前颜色.cpp" />
     <ClCompile Include="2039. 网络空闲的时刻.cpp" />
     <ClCompile Include="2045. 到达目的地的第二短时间.cpp" />

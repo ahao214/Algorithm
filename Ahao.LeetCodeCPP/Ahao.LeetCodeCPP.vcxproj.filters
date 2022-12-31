@@ -3870,6 +3870,9 @@
     <ClCompile Include="442. 数组中重复的数据.cpp">
       <Filter>源文件\0400-0499</Filter>
     </ClCompile>
+    <ClCompile Include="2037. 使每位学生都有座位的最少移动次数.cpp">
+      <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
