@@ -21,5 +21,20 @@ namespace Ahao.LeetCode._2300_2399.demo2351
             }
             return ' ';
         }
+
+
+        public char RepeatedCharacter2(string s)
+        {
+            ISet<char> seen = new HashSet<char>();
+            foreach (char ch in s)
+            {
+                if (!seen.Add(ch))
+                {
+                    return ch;
+                }
+            }
+            // impossible
+            return ' ';
+        }
     }
 }
