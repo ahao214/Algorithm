@@ -3537,6 +3537,9 @@
     <ClCompile Include="75. 颜色分类.cpp">
       <Filter>源文件\0001-0099</Filter>
     </ClCompile>
+    <ClCompile Include="2351. 第一个出现两次的字母.cpp">
+      <Filter>源文件\2300-2399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="479-题目描述和思路.txt">

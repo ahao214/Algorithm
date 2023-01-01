@@ -585,6 +585,7 @@
     <ClCompile Include="230. 二叉搜索树中第K小的元素.cpp" />
     <ClCompile Include="231. 2 的幂.cpp" />
     <ClCompile Include="233. 数字 1 的个数.cpp" />
+    <ClCompile Include="2351. 第一个出现两次的字母.cpp" />
     <ClCompile Include="237. 删除链表中的节点.cpp" />
     <ClCompile Include="238. 除自身以外数组的乘积.cpp" />
     <ClCompile Include="239. 滑动窗口最大值.cpp" />
