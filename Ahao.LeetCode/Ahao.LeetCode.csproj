@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <Folder Include="2200-2299\" />
-    <Folder Include="2300-2399\" />
     <Folder Include="2400-2499\" />
     <Folder Include="2500-2599\" />
     <Folder Include="2600-2699\" />
