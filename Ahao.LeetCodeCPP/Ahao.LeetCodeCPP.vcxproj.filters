@@ -118,9 +118,6 @@
     <Filter Include="源文件\0300-0399\demo396">
       <UniqueIdentifier>{45c857d0-99d8-4544-81ea-37f670f94388}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0100-0199\demo100">
-      <UniqueIdentifier>{a73feeae-7b2d-4b1a-8e8b-f8ed6f9dfe58}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0800-0899\demo868">
       <UniqueIdentifier>{6ba6c8ad-1397-470a-bc3f-04d750900c1e}</UniqueIdentifier>
     </Filter>
@@ -216,21 +213,6 @@
     </Filter>
     <Filter Include="源文件\0700-0799\demo741">
       <UniqueIdentifier>{146d98a4-421f-44b4-877e-45b1ebc592cc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0100-0199\demo101">
-      <UniqueIdentifier>{17a97918-e432-4b5d-a590-485302d56b55}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0100-0199\demo199">
-      <UniqueIdentifier>{569fcb69-3773-48ca-a763-d54fa81d713c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0100-0199\demo198">
-      <UniqueIdentifier>{ea6cbdf3-98aa-4140-85d4-4c30cb5532ce}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0100-0199\demo197">
-      <UniqueIdentifier>{64d97e0e-af4e-464a-9b93-b4c72ce78b8a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0100-0199\demo196">
-      <UniqueIdentifier>{c2d29dc8-80f6-4c49-8239-36c5651d9401}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0700-0799\demo746">
       <UniqueIdentifier>{100940e6-dd74-4803-866e-46e77c5de3e7}</UniqueIdentifier>
@@ -1330,12 +1312,6 @@
     <Filter Include="源文件\0200-0299\demo236">
       <UniqueIdentifier>{caa26404-95d1-4f45-9dee-b8ce1edd7576}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0100-0199\demo102">
-      <UniqueIdentifier>{2ecc1172-08bc-434f-b145-9dfadd46f831}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0100-0199\demo105">
-      <UniqueIdentifier>{eecdf856-e438-4f4d-b929-da0e28766017}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0100-0199\demo128">
       <UniqueIdentifier>{dc93a223-5606-4118-9349-d170c8ce744c}</UniqueIdentifier>
     </Filter>
@@ -1577,9 +1553,6 @@
     </ClCompile>
     <ClCompile Include="1537. 最大得分.cpp">
       <Filter>源文件\1500-1599\demo1537</Filter>
-    </ClCompile>
-    <ClCompile Include="198. 打家劫舍.cpp">
-      <Filter>源文件\0100-0199\demo198</Filter>
     </ClCompile>
     <ClCompile Include="1449.数位成本和为目标值的最大数字.cpp">
       <Filter>源文件\1400-1499\demo1449</Filter>
@@ -2574,15 +2547,6 @@
     <ClCompile Include="236. 二叉树的最近公共祖先.cpp">
       <Filter>源文件\0200-0299\demo236</Filter>
     </ClCompile>
-    <ClCompile Include="102. 二叉树的层序遍历.cpp">
-      <Filter>源文件\0100-0199\demo102</Filter>
-    </ClCompile>
-    <ClCompile Include="105. 从前序与中序遍历序列构造二叉树.cpp">
-      <Filter>源文件\0100-0199\demo105</Filter>
-    </ClCompile>
-    <ClCompile Include="101. 对称二叉树.cpp">
-      <Filter>源文件\0100-0199\demo101</Filter>
-    </ClCompile>
     <ClCompile Include="128. 最长连续序列.cpp">
       <Filter>源文件\0100-0199\demo128</Filter>
     </ClCompile>
@@ -3539,6 +3503,18 @@
     </ClCompile>
     <ClCompile Include="2351. 第一个出现两次的字母.cpp">
       <Filter>源文件\2300-2399</Filter>
+    </ClCompile>
+    <ClCompile Include="101. 对称二叉树.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
+    <ClCompile Include="105. 从前序与中序遍历序列构造二叉树.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
+    <ClCompile Include="102. 二叉树的层序遍历.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
+    <ClCompile Include="198. 打家劫舍.cpp">
+      <Filter>源文件\0100-0199</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
