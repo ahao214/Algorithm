@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.LeetCode._6000_6099.demo6278
+namespace Ahao.LeetCode._6200_6299.demo6278
 {
     public class Class6278
     {
