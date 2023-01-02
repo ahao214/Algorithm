@@ -1261,9 +1261,6 @@
     <Filter Include="源文件\0200-0299\demo278">
       <UniqueIdentifier>{8b353bad-b453-4c90-b46d-1ae3d2294d3e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0100-0199\demo125">
-      <UniqueIdentifier>{e19666fa-d44d-4265-a15e-bd6e50f6a37c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0200-0299\demo223">
       <UniqueIdentifier>{a0b896a8-f22a-46fc-8e44-57e6e2f84784}</UniqueIdentifier>
     </Filter>
@@ -1303,17 +1300,11 @@
     <Filter Include="源文件\0100-0199\demo151">
       <UniqueIdentifier>{477f12f4-f858-41a3-95d3-bbf591314233}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0100-0199\demo124">
-      <UniqueIdentifier>{2bc86ff3-55c4-43f6-8d6f-46f149f275cf}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0200-0299\demo297">
       <UniqueIdentifier>{57fff68c-e3b1-4658-80db-20cb85478ad5}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0200-0299\demo236">
       <UniqueIdentifier>{caa26404-95d1-4f45-9dee-b8ce1edd7576}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0100-0199\demo128">
-      <UniqueIdentifier>{dc93a223-5606-4118-9349-d170c8ce744c}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0100-0199\demo149">
       <UniqueIdentifier>{8264eaf2-e9cc-4b8c-886c-f1a8ba193e80}</UniqueIdentifier>
@@ -2496,9 +2487,6 @@
     <ClCompile Include="278. 第一个错误的版本.cpp">
       <Filter>源文件\0200-0299\demo278</Filter>
     </ClCompile>
-    <ClCompile Include="125. 验证回文串.cpp">
-      <Filter>源文件\0100-0199\demo125</Filter>
-    </ClCompile>
     <ClCompile Include="223. 矩形面积.cpp">
       <Filter>源文件\0200-0299\demo223</Filter>
     </ClCompile>
@@ -2538,17 +2526,11 @@
     <ClCompile Include="151. 翻转字符串里的单词.cpp">
       <Filter>源文件\0100-0199\demo151</Filter>
     </ClCompile>
-    <ClCompile Include="124. 二叉树中的最大路径和.cpp">
-      <Filter>源文件\0100-0199\demo124</Filter>
-    </ClCompile>
     <ClCompile Include="297. 二叉树的序列化与反序列化.cpp">
       <Filter>源文件\0200-0299\demo297</Filter>
     </ClCompile>
     <ClCompile Include="236. 二叉树的最近公共祖先.cpp">
       <Filter>源文件\0200-0299\demo236</Filter>
-    </ClCompile>
-    <ClCompile Include="128. 最长连续序列.cpp">
-      <Filter>源文件\0100-0199\demo128</Filter>
     </ClCompile>
     <ClCompile Include="149. 直线上最多的点数.cpp">
       <Filter>源文件\0100-0199\demo149</Filter>
@@ -3524,6 +3506,15 @@
     </ClCompile>
     <ClCompile Include="2000. 反转单词前缀.cpp">
       <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
+    <ClCompile Include="124. 二叉树中的最大路径和.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
+    <ClCompile Include="128. 最长连续序列.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
+    <ClCompile Include="125. 验证回文串.cpp">
+      <Filter>源文件\0100-0199</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
