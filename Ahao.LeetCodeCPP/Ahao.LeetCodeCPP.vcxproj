@@ -183,6 +183,7 @@
     <ClCompile Include="1331. 数组序号转换.cpp" />
     <ClCompile Include="1332. 删除回文子序列.cpp" />
     <ClCompile Include="134. 加油站.cpp" />
+    <ClCompile Include="1342. 将数字变成 0 的操作次数.cpp" />
     <ClCompile Include="136. 只出现一次的数字.cpp" />
     <ClCompile Include="1360. 日期之间隔几天.cpp" />
     <ClCompile Include="1361. 验证二叉树.cpp" />
@@ -530,6 +531,7 @@
     <ClCompile Include="2.两数相加.cpp" />
     <ClCompile Include="20. 有效的括号.cpp" />
     <ClCompile Include="200. 岛屿数量.cpp" />
+    <ClCompile Include="2000. 反转单词前缀.cpp" />
     <ClCompile Include="2006 差的绝对值为K的数对数目.cpp" />
     <ClCompile Include="2007. 从双倍数组中还原原数组.cpp" />
     <ClCompile Include="201. 数字范围按位与.cpp" />

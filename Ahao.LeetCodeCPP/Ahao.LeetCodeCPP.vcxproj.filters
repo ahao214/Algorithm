@@ -3519,6 +3519,12 @@
     <ClCompile Include="1801. 积压订单中的订单总数.cpp">
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
+    <ClCompile Include="1342. 将数字变成 0 的操作次数.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="2000. 反转单词前缀.cpp">
+      <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="479-题目描述和思路.txt">
