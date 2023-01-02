@@ -3516,6 +3516,9 @@
     <ClCompile Include="125. 验证回文串.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="232. 用栈实现队列.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="479-题目描述和思路.txt">
