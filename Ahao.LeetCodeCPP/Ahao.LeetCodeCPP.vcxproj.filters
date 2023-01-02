@@ -3516,6 +3516,9 @@
     <ClCompile Include="198. 打家劫舍.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="1801. 积压订单中的订单总数.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="479-题目描述和思路.txt">
