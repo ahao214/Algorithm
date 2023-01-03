@@ -3249,6 +3249,9 @@
     <ClCompile Include="799. 香槟塔.cpp">
       <Filter>源文件\0700-0799</Filter>
     </ClCompile>
+    <ClCompile Include="416. 分割等和子集.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="819-题目描述和思路.txt">

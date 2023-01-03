@@ -161,6 +161,7 @@
     <ClCompile Include="1161. 最大层内元素和.cpp" />
     <ClCompile Include="1175. 质数排列.cpp" />
     <ClCompile Include="1184. 公交站间的距离.cpp" />
+    <ClCompile Include="416. 分割等和子集.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="120. 三角形最小路径和.cpp" />
     <ClCompile Include="1200. 最小绝对差.cpp" />
