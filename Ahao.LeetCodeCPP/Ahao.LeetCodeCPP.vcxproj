@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\ahao.leetcode\interview\380. o(1) 时间插入、删除和获取随机元素.cpp" />
     <ClCompile Include="1. 两数之和.cpp" />
     <ClCompile Include="10. 正则表达式匹配.cpp" />
     <ClCompile Include="1009. 十进制整数的反码.cpp" />
