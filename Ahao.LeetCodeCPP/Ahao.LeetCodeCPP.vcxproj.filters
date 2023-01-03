@@ -451,17 +451,8 @@
     <Filter Include="源文件\1800-1899\demo1849">
       <UniqueIdentifier>{9ec3f061-1ff1-47a9-b4c9-f4025062e8ae}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1800-1899\demo1848">
-      <UniqueIdentifier>{8d5d0bde-e71c-449b-ad7b-ba2757ad7aef}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1847">
-      <UniqueIdentifier>{1f7eb962-7325-4fc9-ae02-04d40ceab7d3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1464">
       <UniqueIdentifier>{9061048d-7d6c-4bf2-bc1c-01514cbbe0a2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1844">
-      <UniqueIdentifier>{a123ebda-b5a4-4ad9-8f66-97f367dadddc}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0700-0799\demo793">
       <UniqueIdentifier>{8982e5a5-6c7c-49f8-9265-f732cf0e939f}</UniqueIdentifier>
@@ -471,15 +462,6 @@
     </Filter>
     <Filter Include="源文件\0900-0999\demo998">
       <UniqueIdentifier>{ff28803b-ee1d-40dc-9290-6a062cc43081}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1840">
-      <UniqueIdentifier>{f824caa3-6a1a-4754-8042-2a2b0e161993}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1839">
-      <UniqueIdentifier>{b6e55433-8ba0-44ff-bafd-f66a47b29081}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1838">
-      <UniqueIdentifier>{8640d095-141e-4903-bde2-de578fa4214f}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1500-1599\demo1582">
       <UniqueIdentifier>{21af5ba8-3ad5-4564-96c2-db4fe5053b2b}</UniqueIdentifier>
@@ -1650,17 +1632,8 @@
     <ClCompile Include="1849. 将字符串拆分为递减的连续值.cpp">
       <Filter>源文件\1800-1899\demo1849</Filter>
     </ClCompile>
-    <ClCompile Include="1848. 到目标元素的最小距离.cpp">
-      <Filter>源文件\1800-1899\demo1848</Filter>
-    </ClCompile>
-    <ClCompile Include="1847. 最近的房间.cpp">
-      <Filter>源文件\1800-1899\demo1847</Filter>
-    </ClCompile>
     <ClCompile Include="1464. 数组中两元素的最大乘积.cpp">
       <Filter>源文件\1400-1499\demo1464</Filter>
-    </ClCompile>
-    <ClCompile Include="1844. 将所有数字用字符替换.cpp">
-      <Filter>源文件\1800-1899\demo1844</Filter>
     </ClCompile>
     <ClCompile Include="793. 阶乘函数后 K 个零.cpp">
       <Filter>源文件\0700-0799\demo793</Filter>
@@ -1670,15 +1643,6 @@
     </ClCompile>
     <ClCompile Include="998. 最大二叉树 II.cpp">
       <Filter>源文件\0900-0999\demo998</Filter>
-    </ClCompile>
-    <ClCompile Include="1840. 最高建筑高度.cpp">
-      <Filter>源文件\1800-1899\demo1840</Filter>
-    </ClCompile>
-    <ClCompile Include="1839. 所有元音按顺序排布的最长子字符串.cpp">
-      <Filter>源文件\1800-1899\demo1839</Filter>
-    </ClCompile>
-    <ClCompile Include="1838. 最高频元素的频数.cpp">
-      <Filter>源文件\1800-1899\demo1838</Filter>
     </ClCompile>
     <ClCompile Include="1582. 二进制矩阵中的特殊位置.cpp">
       <Filter>源文件\1500-1599\demo1582</Filter>
@@ -3491,6 +3455,24 @@
     </ClCompile>
     <ClCompile Include="173. 二叉搜索树迭代器.cpp">
       <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
+    <ClCompile Include="1838. 最高频元素的频数.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1839. 所有元音按顺序排布的最长子字符串.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1840. 最高建筑高度.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1844. 将所有数字用字符替换.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1848. 到目标元素的最小距离.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1847. 最近的房间.cpp">
+      <Filter>源文件\1800-1899</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
