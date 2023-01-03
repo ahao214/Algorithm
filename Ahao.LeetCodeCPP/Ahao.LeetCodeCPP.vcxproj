@@ -882,7 +882,6 @@
     <None Include="6. Z 字形变换.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="479-题目描述和思路.txt" />
     <Text Include="819-题目描述和思路.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
