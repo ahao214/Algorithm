@@ -67,9 +67,6 @@
     <Filter Include="源文件\0800-0899\demo806">
       <UniqueIdentifier>{d6ad2207-6087-40f2-aa0a-0855baac7068}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0700-0799\demo744">
-      <UniqueIdentifier>{b4e62d69-0ab3-42af-8b7d-968f9a00bebf}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0700-0799\demo762">
       <UniqueIdentifier>{74427c62-a3c1-4fe0-95a2-27cead0cfd65}</UniqueIdentifier>
     </Filter>
@@ -145,12 +142,6 @@
     <Filter Include="源文件\1200-1299">
       <UniqueIdentifier>{3ec0be52-f952-4688-954f-e8ba04c50e64}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0700-0799\demo741">
-      <UniqueIdentifier>{146d98a4-421f-44b4-877e-45b1ebc592cc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0700-0799\demo746">
-      <UniqueIdentifier>{100940e6-dd74-4803-866e-46e77c5de3e7}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1600-1699\demo1636">
       <UniqueIdentifier>{74273320-091e-41ef-8053-f68fcbb6a1ca}</UniqueIdentifier>
     </Filter>
@@ -183,9 +174,6 @@
     </Filter>
     <Filter Include="源文件\1700-1799">
       <UniqueIdentifier>{c38d5659-a1cc-4861-89b7-10f9dadbbb7d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0700-0799\demo757">
-      <UniqueIdentifier>{d4dcc2ff-1222-40a5-b84b-1ebc61e7fe46}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1600-1699\demo1606">
       <UniqueIdentifier>{c8b57295-f6fb-423b-8b93-c85f45d7ba09}</UniqueIdentifier>
@@ -661,9 +649,6 @@
     <Filter Include="源文件\1700-1799\demo1734">
       <UniqueIdentifier>{c2971fe5-0466-465e-b460-e5cb3dff8726}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0700-0799\demo754">
-      <UniqueIdentifier>{8b33d112-776b-4d71-8f19-a9470340953b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1700-1799\demo1733">
       <UniqueIdentifier>{56850276-77de-40f1-8a83-de9178817d15}</UniqueIdentifier>
     </Filter>
@@ -1137,9 +1122,6 @@
     <ClCompile Include="804. 唯一摩尔斯密码词.cpp">
       <Filter>源文件\0800-0899\demo804</Filter>
     </ClCompile>
-    <ClCompile Include="744. 寻找比目标字母大的最小字母.cpp">
-      <Filter>源文件\0700-0799\demo744</Filter>
-    </ClCompile>
     <ClCompile Include="762. 二进制表示中质数个计算置位.cpp">
       <Filter>源文件\0700-0799\demo762</Filter>
     </ClCompile>
@@ -1200,12 +1182,6 @@
     <ClCompile Include="890. 查找和替换模式.cpp">
       <Filter>源文件\0800-0899\demo890</Filter>
     </ClCompile>
-    <ClCompile Include="741. 摘樱桃.cpp">
-      <Filter>源文件\0700-0799\demo741</Filter>
-    </ClCompile>
-    <ClCompile Include="746. 使用最小花费爬楼梯.cpp">
-      <Filter>源文件\0700-0799\demo746</Filter>
-    </ClCompile>
     <ClCompile Include="1636. 按照频率将数组升序排序.cpp">
       <Filter>源文件\1600-1699\demo1636</Filter>
     </ClCompile>
@@ -1229,9 +1205,6 @@
     </ClCompile>
     <ClCompile Include="1658. 将 x 减到 0 的最小操作数.cpp">
       <Filter>源文件\1600-1699\demo1658</Filter>
-    </ClCompile>
-    <ClCompile Include="757. 设置交集大小至少为2.cpp">
-      <Filter>源文件\0700-0799\demo757</Filter>
     </ClCompile>
     <ClCompile Include="1606. 找到处理最多请求的服务器.cpp">
       <Filter>源文件\1600-1699\demo1606</Filter>
@@ -1694,9 +1667,6 @@
     </ClCompile>
     <ClCompile Include="1734. 解码异或后的排列.cpp">
       <Filter>源文件\1700-1799\demo1734</Filter>
-    </ClCompile>
-    <ClCompile Include="754. 到达终点数字.cpp">
-      <Filter>源文件\0700-0799\demo754</Filter>
     </ClCompile>
     <ClCompile Include="1733. 需要教语言的最少人数.cpp">
       <Filter>源文件\1700-1799\demo1733</Filter>
@@ -3329,6 +3299,21 @@
     </ClCompile>
     <ClCompile Include="479. 最大回文数乘积.cpp">
       <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
+    <ClCompile Include="741. 摘樱桃.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="744. 寻找比目标字母大的最小字母.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="746. 使用最小花费爬楼梯.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="754. 到达终点数字.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="757. 设置交集大小至少为2.cpp">
+      <Filter>源文件\0700-0799</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
