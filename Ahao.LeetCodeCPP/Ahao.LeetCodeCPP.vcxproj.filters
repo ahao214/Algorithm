@@ -286,9 +286,6 @@
     <Filter Include="源文件\0200-0299\demo240">
       <UniqueIdentifier>{efb1adb4-771c-4942-9445-15f62036aaec}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0200-0299\demo219">
-      <UniqueIdentifier>{30f191f6-c518-4c15-83ba-6b9ae872e9b9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1300-1399\demo1374">
       <UniqueIdentifier>{bf24ed9d-7148-4a57-ac35-be4af3719162}</UniqueIdentifier>
     </Filter>
@@ -778,12 +775,6 @@
     <Filter Include="源文件\1700-1799\demo1705">
       <UniqueIdentifier>{42c1c0c2-de95-4d22-95ae-1e27094a8bec}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1700-1799\demo1704">
-      <UniqueIdentifier>{fa00482e-ba71-44d8-81cd-b70525550480}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1703">
-      <UniqueIdentifier>{8fd01844-942d-4568-8439-7f360572e7e1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0700-0799\demo764">
       <UniqueIdentifier>{54d60bb3-69f3-46be-9f91-c3805569c580}</UniqueIdentifier>
     </Filter>
@@ -1201,17 +1192,11 @@
     <Filter Include="源文件\0900-0999\demo918">
       <UniqueIdentifier>{adbc5f64-feb0-4b3f-9c4f-ec8026b6365b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0200-0299\demo216">
-      <UniqueIdentifier>{2151360b-037c-43b3-8bdc-710f3cdbb046}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0800-0899\demo895">
       <UniqueIdentifier>{3c957a31-4915-4d2e-81a5-e96d51490db3}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0800-0899\demo857">
       <UniqueIdentifier>{761bcc61-7946-455b-b231-78d437263ce3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0200-0299\demo224">
-      <UniqueIdentifier>{e3c44ff1-853e-4f5f-88c9-2f85b89ef733}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0900-0999\demo930">
       <UniqueIdentifier>{5043ee21-ffdc-4d03-89cb-173ebae460fc}</UniqueIdentifier>
@@ -1228,9 +1213,6 @@
     <Filter Include="源文件\0200-0299\demo278">
       <UniqueIdentifier>{8b353bad-b453-4c90-b46d-1ae3d2294d3e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0200-0299\demo223">
-      <UniqueIdentifier>{a0b896a8-f22a-46fc-8e44-57e6e2f84784}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0300-0399\demo343">
       <UniqueIdentifier>{f8c27d96-042a-488d-b491-f083cbf1be68}</UniqueIdentifier>
     </Filter>
@@ -1242,15 +1224,6 @@
     </Filter>
     <Filter Include="源文件\0200-0299\demo268">
       <UniqueIdentifier>{07a3a8ae-272b-44c5-a71f-ce741d95668d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0200-0299\demo214">
-      <UniqueIdentifier>{cf8adc12-fcdb-4a7c-8379-88518bef2f11}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0200-0299\demo227">
-      <UniqueIdentifier>{dc5475ed-0a74-468b-a32a-737703460975}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0200-0299\demo208">
-      <UniqueIdentifier>{934f0a67-12e9-4d48-bb29-ff34dbbe61e7}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0200-0299\demo273">
       <UniqueIdentifier>{b4b39a2e-5557-479b-b653-33ef91a0de75}</UniqueIdentifier>
@@ -1478,9 +1451,6 @@
     </ClCompile>
     <ClCompile Include="240. 搜索二维矩阵 II.cpp">
       <Filter>源文件\0200-0299\demo240</Filter>
-    </ClCompile>
-    <ClCompile Include="219. 存在重复元素 II.cpp">
-      <Filter>源文件\0200-0299\demo219</Filter>
     </ClCompile>
     <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp">
       <Filter>源文件\1300-1399\demo1374</Filter>
@@ -1959,12 +1929,6 @@
     <ClCompile Include="1705. 吃苹果的最大数目.cpp">
       <Filter>源文件\1700-1799\demo1705</Filter>
     </ClCompile>
-    <ClCompile Include="1704. 判断字符串的两半是否相似.cpp">
-      <Filter>源文件\1700-1799\demo1704</Filter>
-    </ClCompile>
-    <ClCompile Include="1703. 得到连续 K 个 1 的最少相邻交换次数.cpp">
-      <Filter>源文件\1700-1799\demo1703</Filter>
-    </ClCompile>
     <ClCompile Include="764. 最大加号标志.cpp">
       <Filter>源文件\0700-0799\demo764</Filter>
     </ClCompile>
@@ -2379,17 +2343,11 @@
     <ClCompile Include="918. 环形子数组的最大和.cpp">
       <Filter>源文件\0900-0999\demo918</Filter>
     </ClCompile>
-    <ClCompile Include="216. 组合总和 III.cpp">
-      <Filter>源文件\0200-0299\demo216</Filter>
-    </ClCompile>
     <ClCompile Include="895. 最大频率栈.cpp">
       <Filter>源文件\0800-0899\demo895</Filter>
     </ClCompile>
     <ClCompile Include="857. 雇佣 K 名工人的最低成本.cpp">
       <Filter>源文件\0800-0899\demo857</Filter>
-    </ClCompile>
-    <ClCompile Include="224. 基本计算器.cpp">
-      <Filter>源文件\0200-0299\demo224</Filter>
     </ClCompile>
     <ClCompile Include="930. 和相同的二元子数组.cpp">
       <Filter>源文件\0900-0999\demo930</Filter>
@@ -2406,9 +2364,6 @@
     <ClCompile Include="278. 第一个错误的版本.cpp">
       <Filter>源文件\0200-0299\demo278</Filter>
     </ClCompile>
-    <ClCompile Include="223. 矩形面积.cpp">
-      <Filter>源文件\0200-0299\demo223</Filter>
-    </ClCompile>
     <ClCompile Include="343. 整数拆分.cpp">
       <Filter>源文件\0300-0399\demo343</Filter>
     </ClCompile>
@@ -2420,15 +2375,6 @@
     </ClCompile>
     <ClCompile Include="268. 丢失的数字.cpp">
       <Filter>源文件\0200-0299\demo268</Filter>
-    </ClCompile>
-    <ClCompile Include="214. 最短回文串.cpp">
-      <Filter>源文件\0200-0299\demo214</Filter>
-    </ClCompile>
-    <ClCompile Include="227. 基本计算器 II.cpp">
-      <Filter>源文件\0200-0299\demo227</Filter>
-    </ClCompile>
-    <ClCompile Include="208. 实现 Trie (前缀树).cpp">
-      <Filter>源文件\0200-0299\demo208</Filter>
     </ClCompile>
     <ClCompile Include="273. 整数转换英文表示.cpp">
       <Filter>源文件\0200-0299\demo273</Filter>
@@ -3473,6 +3419,33 @@
     </ClCompile>
     <ClCompile Include="1847. 最近的房间.cpp">
       <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1703. 得到连续 K 个 1 的最少相邻交换次数.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1704. 判断字符串的两半是否相似.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="208. 实现 Trie (前缀树).cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
+    <ClCompile Include="214. 最短回文串.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
+    <ClCompile Include="216. 组合总和 III.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
+    <ClCompile Include="219. 存在重复元素 II.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
+    <ClCompile Include="223. 矩形面积.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
+    <ClCompile Include="224. 基本计算器.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
+    <ClCompile Include="227. 基本计算器 II.cpp">
+      <Filter>源文件\0200-0299</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
