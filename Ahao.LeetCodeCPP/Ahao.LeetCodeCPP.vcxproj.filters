@@ -61,9 +61,6 @@
     <Filter Include="源文件\0900-0999\demo954">
       <UniqueIdentifier>{05bad4cf-97ca-4b4f-8bbb-ee476a7854ab}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0800-0899\demo804">
-      <UniqueIdentifier>{a23a1222-3b55-49e7-9f9e-acdbcbc04bfa}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0800-0899\demo806">
       <UniqueIdentifier>{d6ad2207-6087-40f2-aa0a-0855baac7068}</UniqueIdentifier>
     </Filter>
@@ -532,9 +529,6 @@
     <Filter Include="源文件\1700-1799\demo1753">
       <UniqueIdentifier>{04dcfe5b-613d-4f9b-b81b-c97b3d800c52}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0800-0899\demo801">
-      <UniqueIdentifier>{e0691fd3-35c9-4298-bb95-f0e2c0547e94}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1700-1799\demo1752">
       <UniqueIdentifier>{5ca6902b-037d-47bc-8856-70d91899d846}</UniqueIdentifier>
     </Filter>
@@ -756,9 +750,6 @@
     </Filter>
     <Filter Include="源文件\0700-0799\demo791">
       <UniqueIdentifier>{1dc6d906-2562-4f4a-82c0-8245c79ef03e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\0800-0899\demo805">
-      <UniqueIdentifier>{35a0c3d0-03da-4082-ac60-9997a751b3b2}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499\demo1478">
       <UniqueIdentifier>{2f1a9be3-4ca7-4ddd-af45-4b6b13636d34}</UniqueIdentifier>
@@ -1118,9 +1109,6 @@
     </ClCompile>
     <ClCompile Include="806. 写字符串需要的行数.cpp">
       <Filter>源文件\0800-0899\demo806</Filter>
-    </ClCompile>
-    <ClCompile Include="804. 唯一摩尔斯密码词.cpp">
-      <Filter>源文件\0800-0899\demo804</Filter>
     </ClCompile>
     <ClCompile Include="762. 二进制表示中质数个计算置位.cpp">
       <Filter>源文件\0700-0799\demo762</Filter>
@@ -1551,9 +1539,6 @@
     <ClCompile Include="1753. 移除石子的最大得分.cpp">
       <Filter>源文件\1700-1799\demo1753</Filter>
     </ClCompile>
-    <ClCompile Include="801. 使序列递增的最小交换次数.cpp">
-      <Filter>源文件\0800-0899\demo801</Filter>
-    </ClCompile>
     <ClCompile Include="1752. 检查数组是否经排序和轮转得到.cpp">
       <Filter>源文件\1700-1799\demo1752</Filter>
     </ClCompile>
@@ -1775,9 +1760,6 @@
     </ClCompile>
     <ClCompile Include="791. 自定义字符串排序.cpp">
       <Filter>源文件\0700-0799\demo791</Filter>
-    </ClCompile>
-    <ClCompile Include="805. 数组的均值分割.cpp">
-      <Filter>源文件\0800-0899\demo805</Filter>
     </ClCompile>
     <ClCompile Include="1478. 安排邮筒.cpp">
       <Filter>源文件\1400-1499\demo1478</Filter>
@@ -3314,6 +3296,15 @@
     </ClCompile>
     <ClCompile Include="757. 设置交集大小至少为2.cpp">
       <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="801. 使序列递增的最小交换次数.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
+    <ClCompile Include="804. 唯一摩尔斯密码词.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
+    <ClCompile Include="805. 数组的均值分割.cpp">
+      <Filter>源文件\0800-0899</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
