@@ -34,5 +34,33 @@ namespace Ahao.LeetCode._2000_2099.demo2042
             }
             return true;
         }
+
+
+        public bool AreNumbersAscending2(string s)
+        {
+            string[] strArr = s.Split(' ');
+            int errorTemp = -2;
+            int tmp= -1;
+
+            for (int i = 0; i < strArr.Length; i++)
+            {
+                try
+                {
+                    errorTemp = int.Parse(strArr[i]);
+                }
+                catch
+                {
+                    errorTemp = -2;
+                }
+
+                if (errorTemp == -2)
+                    continue;
+                if (errorTemp > tmp)
+                    tmp = errorTemp;
+                else
+                    return false;
+            }
+            return true;
+        }
     }
 }
