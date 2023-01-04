@@ -247,41 +247,11 @@
     <Filter Include="源文件\1800-1899\demo1881">
       <UniqueIdentifier>{d9736636-cb8a-45fd-89a4-b329a7161ee0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1800-1899\demo1880">
-      <UniqueIdentifier>{9ebf7714-166e-4824-a832-d2d8d74367e2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1879">
-      <UniqueIdentifier>{94aa4259-6d61-40c9-b6c2-0a50e72c293b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1417">
       <UniqueIdentifier>{b0a9988f-46e7-4d4d-b6c1-ca1f4d9d8906}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1800-1899\demo1878">
-      <UniqueIdentifier>{ab6b8284-ed18-4956-8ca7-226b4b307871}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1877">
-      <UniqueIdentifier>{d96b9636-e37b-45b9-b26d-36ab24cfdb6e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1876">
-      <UniqueIdentifier>{b41b8066-fc98-425c-bd1e-a62444e8280c}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1422">
       <UniqueIdentifier>{92bc5991-3d80-4740-994e-db297fb1334b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1872">
-      <UniqueIdentifier>{e77ea2d2-7916-4d14-8f27-2a78cc098ee9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1871">
-      <UniqueIdentifier>{66da8d3d-2b25-4eec-81f9-91c37f559826}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1870">
-      <UniqueIdentifier>{549ca8c7-2839-42cd-96a8-eaadf8f5abf2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1869">
-      <UniqueIdentifier>{1bb9b738-fa4d-41e8-a66a-1ed66686cbb6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1866">
-      <UniqueIdentifier>{86c48591-6118-4559-9db8-43e6d9107750}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499\demo1450">
       <UniqueIdentifier>{99caf549-7091-4221-b1d1-61d0febba554}</UniqueIdentifier>
@@ -1098,41 +1068,11 @@
     <ClCompile Include="1881. 插入后的最大值.cpp">
       <Filter>源文件\1800-1899\demo1881</Filter>
     </ClCompile>
-    <ClCompile Include="1880. 检查某单词是否等于两单词之和.cpp">
-      <Filter>源文件\1800-1899\demo1880</Filter>
-    </ClCompile>
-    <ClCompile Include="1879. 两个数组最小的异或值之和.cpp">
-      <Filter>源文件\1800-1899\demo1879</Filter>
-    </ClCompile>
     <ClCompile Include="1417. 重新格式化字符串.cpp">
       <Filter>源文件\1400-1499\demo1417</Filter>
     </ClCompile>
-    <ClCompile Include="1878. 矩阵中最大的三个菱形和.cpp">
-      <Filter>源文件\1800-1899\demo1878</Filter>
-    </ClCompile>
-    <ClCompile Include="1877. 数组中最大数对和的最小值.cpp">
-      <Filter>源文件\1800-1899\demo1877</Filter>
-    </ClCompile>
-    <ClCompile Include="1876. 长度为三且各字符不同的子字符串.cpp">
-      <Filter>源文件\1800-1899\demo1876</Filter>
-    </ClCompile>
     <ClCompile Include="1422. 分割字符串的最大得分.cpp">
       <Filter>源文件\1400-1499\demo1422</Filter>
-    </ClCompile>
-    <ClCompile Include="1872. 石子游戏 VIII.cpp">
-      <Filter>源文件\1800-1899\demo1872</Filter>
-    </ClCompile>
-    <ClCompile Include="1871. 跳跃游戏 VII.cpp">
-      <Filter>源文件\1800-1899\demo1871</Filter>
-    </ClCompile>
-    <ClCompile Include="1870. 准时到达的列车最小时速.cpp">
-      <Filter>源文件\1800-1899\demo1870</Filter>
-    </ClCompile>
-    <ClCompile Include="1869. 哪种连续子字符串更长.cpp">
-      <Filter>源文件\1800-1899\demo1869</Filter>
-    </ClCompile>
-    <ClCompile Include="1866. 恰有 K 根木棍可以看到的排列数目.cpp">
-      <Filter>源文件\1800-1899\demo1866</Filter>
     </ClCompile>
     <ClCompile Include="1450. 在既定时间做作业的学生人数.cpp">
       <Filter>源文件\1400-1499\demo1450</Filter>
@@ -3151,6 +3091,36 @@
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
     <ClCompile Include="1865. 找出和为指定值的下标对.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1866. 恰有 K 根木棍可以看到的排列数目.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1869. 哪种连续子字符串更长.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1870. 准时到达的列车最小时速.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1871. 跳跃游戏 VII.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1872. 石子游戏 VIII.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1876. 长度为三且各字符不同的子字符串.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1877. 数组中最大数对和的最小值.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1880. 检查某单词是否等于两单词之和.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1879. 两个数组最小的异或值之和.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1878. 矩阵中最大的三个菱形和.cpp">
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
   </ItemGroup>
