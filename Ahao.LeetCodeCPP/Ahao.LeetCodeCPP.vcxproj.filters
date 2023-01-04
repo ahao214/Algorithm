@@ -415,29 +415,11 @@
     <Filter Include="源文件\0900-0999\demo934">
       <UniqueIdentifier>{eb4f9d92-0cd2-4fd7-b581-ad3132759059}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1700-1799\demo1728">
-      <UniqueIdentifier>{7655e0a4-1fcf-4f4a-b098-e14ffb4f0819}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1726">
-      <UniqueIdentifier>{40de8444-6957-4b7f-a1c9-4b6ef7c7febb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1725">
-      <UniqueIdentifier>{be24008c-5de1-472c-b771-ce67320709b0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0900-0999\demo907">
       <UniqueIdentifier>{3a00bcd7-f75c-4628-a047-9f57408cc4ee}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1700-1799\demo1723">
-      <UniqueIdentifier>{33ee76c8-01f3-4766-b8cd-28a10beabc73}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1722">
-      <UniqueIdentifier>{34a47a5c-9d39-463a-b5bc-648d3d0446f0}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1600-1699\demo1662">
       <UniqueIdentifier>{1ae6b832-f9fd-4743-a524-6f4e28ad640b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1721">
-      <UniqueIdentifier>{30c639e0-2b18-46ea-9142-2258203c5349}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1600-1699\demo1620">
       <UniqueIdentifier>{92d4e302-6ffc-4224-8fee-5b27da493b9e}</UniqueIdentifier>
@@ -1167,29 +1149,11 @@
     <ClCompile Include="934. 最短的桥.cpp">
       <Filter>源文件\0900-0999\demo934</Filter>
     </ClCompile>
-    <ClCompile Include="1728. 猫和老鼠 II.cpp">
-      <Filter>源文件\1700-1799\demo1728</Filter>
-    </ClCompile>
-    <ClCompile Include="1726. 同积元组.cpp">
-      <Filter>源文件\1700-1799\demo1726</Filter>
-    </ClCompile>
-    <ClCompile Include="1725. 可以形成最大正方形的矩形数目.cpp">
-      <Filter>源文件\1700-1799\demo1725</Filter>
-    </ClCompile>
     <ClCompile Include="907. 子数组的最小值之和.cpp">
       <Filter>源文件\0900-0999\demo907</Filter>
     </ClCompile>
-    <ClCompile Include="1723. 完成所有工作的最短时间.cpp">
-      <Filter>源文件\1700-1799\demo1723</Filter>
-    </ClCompile>
-    <ClCompile Include="1722. 执行交换操作后的最小汉明距离.cpp">
-      <Filter>源文件\1700-1799\demo1722</Filter>
-    </ClCompile>
     <ClCompile Include="1662. 检查两个字符串数组是否相等.cpp">
       <Filter>源文件\1600-1699\demo1662</Filter>
-    </ClCompile>
-    <ClCompile Include="1721. 交换链表中的节点.cpp">
-      <Filter>源文件\1700-1799\demo1721</Filter>
     </ClCompile>
     <ClCompile Include="1620. 网络信号最好的坐标.cpp">
       <Filter>源文件\1600-1699\demo1620</Filter>
@@ -3052,6 +3016,24 @@
       <Filter>源文件\1700-1799</Filter>
     </ClCompile>
     <ClCompile Include="1720. 解码异或后的数组.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1721. 交换链表中的节点.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1722. 执行交换操作后的最小汉明距离.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1723. 完成所有工作的最短时间.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1725. 可以形成最大正方形的矩形数目.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1728. 猫和老鼠 II.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1726. 同积元组.cpp">
       <Filter>源文件\1700-1799</Filter>
     </ClCompile>
   </ItemGroup>
