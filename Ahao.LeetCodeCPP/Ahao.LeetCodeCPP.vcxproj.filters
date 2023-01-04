@@ -310,24 +310,6 @@
     <Filter Include="源文件\1800-1899\demo1857">
       <UniqueIdentifier>{42d25199-4f29-4ad9-9b86-0f8ff64d8b81}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1800-1899\demo1856">
-      <UniqueIdentifier>{01965ecb-c74c-4ce0-8275-9fe61040b26e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1854">
-      <UniqueIdentifier>{d9481d2c-201b-427e-8b76-6dd289053610}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1855">
-      <UniqueIdentifier>{eefc4774-4cbe-4538-8029-6d5cb96cdf2f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1851">
-      <UniqueIdentifier>{941dfe6a-8b2b-4674-b213-f0f07f77d0bf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1850">
-      <UniqueIdentifier>{e96ec69c-dda4-4c9c-a067-46473c4bc407}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1849">
-      <UniqueIdentifier>{9ec3f061-1ff1-47a9-b4c9-f4025062e8ae}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1464">
       <UniqueIdentifier>{9061048d-7d6c-4bf2-bc1c-01514cbbe0a2}</UniqueIdentifier>
     </Filter>
@@ -1202,24 +1184,6 @@
     </ClCompile>
     <ClCompile Include="1857. 有向图中最大颜色值.cpp">
       <Filter>源文件\1800-1899\demo1857</Filter>
-    </ClCompile>
-    <ClCompile Include="1856. 子数组最小乘积的最大值.cpp">
-      <Filter>源文件\1800-1899\demo1856</Filter>
-    </ClCompile>
-    <ClCompile Include="1854. 人口最多的年份.cpp">
-      <Filter>源文件\1800-1899\demo1854</Filter>
-    </ClCompile>
-    <ClCompile Include="1855. 下标对中的最大距离.cpp">
-      <Filter>源文件\1800-1899\demo1855</Filter>
-    </ClCompile>
-    <ClCompile Include="1851. 包含每个查询的最小区间.cpp">
-      <Filter>源文件\1800-1899\demo1851</Filter>
-    </ClCompile>
-    <ClCompile Include="1850. 邻位交换的最小次数.cpp">
-      <Filter>源文件\1800-1899\demo1850</Filter>
-    </ClCompile>
-    <ClCompile Include="1849. 将字符串拆分为递减的连续值.cpp">
-      <Filter>源文件\1800-1899\demo1849</Filter>
     </ClCompile>
     <ClCompile Include="1464. 数组中两元素的最大乘积.cpp">
       <Filter>源文件\1400-1499\demo1464</Filter>
@@ -3193,6 +3157,24 @@
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
     <ClCompile Include="1802. 有界数组中指定下标处的最大值.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1849. 将字符串拆分为递减的连续值.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1850. 邻位交换的最小次数.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1851. 包含每个查询的最小区间.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1854. 人口最多的年份.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1855. 下标对中的最大距离.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1856. 子数组最小乘积的最大值.cpp">
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
   </ItemGroup>
