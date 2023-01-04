@@ -283,32 +283,8 @@
     <Filter Include="源文件\1800-1899\demo1866">
       <UniqueIdentifier>{86c48591-6118-4559-9db8-43e6d9107750}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1800-1899\demo1865">
-      <UniqueIdentifier>{60edf9b8-c0f2-4b0d-8263-89a550611e6a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1864">
-      <UniqueIdentifier>{42dc8c17-ec40-41e7-9244-0d6494cec32d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1863">
-      <UniqueIdentifier>{62b2e2e2-a40d-4440-b423-6242e287398d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1450">
       <UniqueIdentifier>{99caf549-7091-4221-b1d1-61d0febba554}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1862">
-      <UniqueIdentifier>{6bc5029c-19dc-4519-956b-6c01d0f065b1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1861">
-      <UniqueIdentifier>{c3b4e3cb-ae83-42de-8f0f-2f4fc503a992}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1860">
-      <UniqueIdentifier>{43f053cb-60ad-4bb8-8611-81a73e2d8cda}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1859">
-      <UniqueIdentifier>{214ab1f2-8521-4643-8d38-849a028d9824}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1857">
-      <UniqueIdentifier>{42d25199-4f29-4ad9-9b86-0f8ff64d8b81}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499\demo1464">
       <UniqueIdentifier>{9061048d-7d6c-4bf2-bc1c-01514cbbe0a2}</UniqueIdentifier>
@@ -1158,32 +1134,8 @@
     <ClCompile Include="1866. 恰有 K 根木棍可以看到的排列数目.cpp">
       <Filter>源文件\1800-1899\demo1866</Filter>
     </ClCompile>
-    <ClCompile Include="1865. 找出和为指定值的下标对.cpp">
-      <Filter>源文件\1800-1899\demo1865</Filter>
-    </ClCompile>
-    <ClCompile Include="1864. 构成交替字符串需要的最小交换次数.cpp">
-      <Filter>源文件\1800-1899\demo1864</Filter>
-    </ClCompile>
-    <ClCompile Include="1863. 找出所有子集的异或总和再求和.cpp">
-      <Filter>源文件\1800-1899\demo1863</Filter>
-    </ClCompile>
     <ClCompile Include="1450. 在既定时间做作业的学生人数.cpp">
       <Filter>源文件\1400-1499\demo1450</Filter>
-    </ClCompile>
-    <ClCompile Include="1862. 向下取整数对和.cpp">
-      <Filter>源文件\1800-1899\demo1862</Filter>
-    </ClCompile>
-    <ClCompile Include="1861. 旋转盒子.cpp">
-      <Filter>源文件\1800-1899\demo1861</Filter>
-    </ClCompile>
-    <ClCompile Include="1860. 增长的内存泄露.cpp">
-      <Filter>源文件\1800-1899\demo1860</Filter>
-    </ClCompile>
-    <ClCompile Include="1859. 将句子排序.cpp">
-      <Filter>源文件\1800-1899\demo1859</Filter>
-    </ClCompile>
-    <ClCompile Include="1857. 有向图中最大颜色值.cpp">
-      <Filter>源文件\1800-1899\demo1857</Filter>
     </ClCompile>
     <ClCompile Include="1464. 数组中两元素的最大乘积.cpp">
       <Filter>源文件\1400-1499\demo1464</Filter>
@@ -3175,6 +3127,30 @@
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
     <ClCompile Include="1856. 子数组最小乘积的最大值.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1864. 构成交替字符串需要的最小交换次数.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1857. 有向图中最大颜色值.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1859. 将句子排序.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1860. 增长的内存泄露.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1861. 旋转盒子.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1862. 向下取整数对和.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1863. 找出所有子集的异或总和再求和.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1865. 找出和为指定值的下标对.cpp">
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
   </ItemGroup>
