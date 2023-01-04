@@ -3192,6 +3192,9 @@
     <ClCompile Include="868. 二进制间距.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="1802. 有界数组中指定下标处的最大值.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
