@@ -205,47 +205,8 @@
     <Filter Include="源文件\1400-1499\demo1408">
       <UniqueIdentifier>{7299892a-9004-4275-a61b-1cbab762b674}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1800-1899\demo1899">
-      <UniqueIdentifier>{06b20a51-4c94-477c-9e5d-8227cfaae409}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1898">
-      <UniqueIdentifier>{d1038140-6a13-493d-b3e6-472f9404b947}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1897">
-      <UniqueIdentifier>{457c32ae-1281-4098-8173-2c99dd3fd42b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1895">
-      <UniqueIdentifier>{73587f45-6c94-4a5b-8e3e-e3bf08d422df}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1894">
-      <UniqueIdentifier>{e27c0b12-0320-493a-ad48-8ccde0e86bfa}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1893">
-      <UniqueIdentifier>{f6e7ab61-dece-42f6-8d33-14206de5267f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1889">
-      <UniqueIdentifier>{d8141eb3-2483-4ce8-9676-e35ae87a555a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1888">
-      <UniqueIdentifier>{f4fe4f0f-8b03-44c0-b6b7-c592af602919}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1887">
-      <UniqueIdentifier>{1420af7a-b2e1-4c7a-92bf-18b70cfd08c5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1886">
-      <UniqueIdentifier>{df81bad8-dd50-489d-8515-a7a0390d4784}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1413">
       <UniqueIdentifier>{60be2fec-0057-4fc4-a5b0-dbdd841b02b9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1883">
-      <UniqueIdentifier>{9be984c3-40a2-4c9d-91e9-0874b37bc71e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1882">
-      <UniqueIdentifier>{c5b82cab-3082-471d-830e-b5380a32ee2b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1800-1899\demo1881">
-      <UniqueIdentifier>{d9736636-cb8a-45fd-89a4-b329a7161ee0}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499\demo1417">
       <UniqueIdentifier>{b0a9988f-46e7-4d4d-b6c1-ca1f4d9d8906}</UniqueIdentifier>
@@ -1026,47 +987,8 @@
     <ClCompile Include="1408. 数组中的字符串匹配.cpp">
       <Filter>源文件\1400-1499\demo1408</Filter>
     </ClCompile>
-    <ClCompile Include="1899. 合并若干三元组以形成目标三元组.cpp">
-      <Filter>源文件\1800-1899\demo1899</Filter>
-    </ClCompile>
-    <ClCompile Include="1898. 可移除字符的最大数目.cpp">
-      <Filter>源文件\1800-1899\demo1898</Filter>
-    </ClCompile>
-    <ClCompile Include="1897. 重新分配字符使所有字符串都相等.cpp">
-      <Filter>源文件\1800-1899\demo1897</Filter>
-    </ClCompile>
-    <ClCompile Include="1895. 最大的幻方.cpp">
-      <Filter>源文件\1800-1899\demo1895</Filter>
-    </ClCompile>
-    <ClCompile Include="1894. 找到需要补充粉笔的学生编号.cpp">
-      <Filter>源文件\1800-1899\demo1894</Filter>
-    </ClCompile>
-    <ClCompile Include="1893. 检查是否区域内所有整数都被覆盖.cpp">
-      <Filter>源文件\1800-1899\demo1893</Filter>
-    </ClCompile>
-    <ClCompile Include="1889. 装包裹的最小浪费空间.cpp">
-      <Filter>源文件\1800-1899\demo1889</Filter>
-    </ClCompile>
-    <ClCompile Include="1888. 使二进制字符串字符交替的最少反转次数.cpp">
-      <Filter>源文件\1800-1899\demo1888</Filter>
-    </ClCompile>
-    <ClCompile Include="1887. 使数组元素相等的减少操作次数.cpp">
-      <Filter>源文件\1800-1899\demo1887</Filter>
-    </ClCompile>
-    <ClCompile Include="1886. 判断矩阵经轮转后是否一致.cpp">
-      <Filter>源文件\1800-1899\demo1886</Filter>
-    </ClCompile>
     <ClCompile Include="1413. 逐步求和得到正数的最小值.cpp">
       <Filter>源文件\1400-1499\demo1413</Filter>
-    </ClCompile>
-    <ClCompile Include="1883. 准时抵达会议现场的最小跳过休息次数.cpp">
-      <Filter>源文件\1800-1899\demo1883</Filter>
-    </ClCompile>
-    <ClCompile Include="1882. 使用服务器处理任务.cpp">
-      <Filter>源文件\1800-1899\demo1882</Filter>
-    </ClCompile>
-    <ClCompile Include="1881. 插入后的最大值.cpp">
-      <Filter>源文件\1800-1899\demo1881</Filter>
     </ClCompile>
     <ClCompile Include="1417. 重新格式化字符串.cpp">
       <Filter>源文件\1400-1499\demo1417</Filter>
@@ -3121,6 +3043,45 @@
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
     <ClCompile Include="1878. 矩阵中最大的三个菱形和.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1883. 准时抵达会议现场的最小跳过休息次数.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1882. 使用服务器处理任务.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1881. 插入后的最大值.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1886. 判断矩阵经轮转后是否一致.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1887. 使数组元素相等的减少操作次数.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1888. 使二进制字符串字符交替的最少反转次数.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1889. 装包裹的最小浪费空间.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1893. 检查是否区域内所有整数都被覆盖.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1894. 找到需要补充粉笔的学生编号.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1895. 最大的幻方.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1897. 重新分配字符使所有字符串都相等.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1898. 可移除字符的最大数目.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
+    <ClCompile Include="1899. 合并若干三元组以形成目标三元组.cpp">
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
   </ItemGroup>
