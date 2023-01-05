@@ -133,9 +133,6 @@
     <Filter Include="源文件\1300-1399\demo1374">
       <UniqueIdentifier>{bf24ed9d-7148-4a57-ac35-be4af3719162}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0800-0899\demo899">
-      <UniqueIdentifier>{825c6cee-466f-4fba-b508-40636df0ca7f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\2100-2199">
       <UniqueIdentifier>{770106bc-df14-4c30-9f4f-e0664290a671}</UniqueIdentifier>
     </Filter>
@@ -424,9 +421,6 @@
     <Filter Include="源文件\1500-1599\demo1521">
       <UniqueIdentifier>{9e3d23e8-51fc-453d-a1a6-30b5e2159955}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0800-0899\demo891">
-      <UniqueIdentifier>{e6fe434e-f722-4648-a48e-cb60effce81a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1500-1599\demo1520">
       <UniqueIdentifier>{95661a89-ef75-4445-917d-d95a839408ba}</UniqueIdentifier>
     </Filter>
@@ -598,9 +592,6 @@
     <Filter Include="源文件\0900-0999\demo918">
       <UniqueIdentifier>{adbc5f64-feb0-4b3f-9c4f-ec8026b6365b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\0800-0899\demo895">
-      <UniqueIdentifier>{3c957a31-4915-4d2e-81a5-e96d51490db3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0900-0999\demo930">
       <UniqueIdentifier>{5043ee21-ffdc-4d03-89cb-173ebae460fc}</UniqueIdentifier>
     </Filter>
@@ -668,9 +659,6 @@
     </ClCompile>
     <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp">
       <Filter>源文件\1300-1399\demo1374</Filter>
-    </ClCompile>
-    <ClCompile Include="899.有序队列.cpp">
-      <Filter>源文件\0800-0899\demo899</Filter>
     </ClCompile>
     <ClCompile Include="1537. 最大得分.cpp">
       <Filter>源文件\1500-1599\demo1537</Filter>
@@ -948,9 +936,6 @@
     <ClCompile Include="1521. 找到最接近目标值的函数值.cpp">
       <Filter>源文件\1500-1599\demo1521</Filter>
     </ClCompile>
-    <ClCompile Include="891. 子序列宽度之和.cpp">
-      <Filter>源文件\0800-0899\demo891</Filter>
-    </ClCompile>
     <ClCompile Include="1520. 最多的不重叠子字符串.cpp">
       <Filter>源文件\1500-1599\demo1520</Filter>
     </ClCompile>
@@ -1118,9 +1103,6 @@
     </ClCompile>
     <ClCompile Include="918. 环形子数组的最大和.cpp">
       <Filter>源文件\0900-0999\demo918</Filter>
-    </ClCompile>
-    <ClCompile Include="895. 最大频率栈.cpp">
-      <Filter>源文件\0800-0899\demo895</Filter>
     </ClCompile>
     <ClCompile Include="930. 和相同的二元子数组.cpp">
       <Filter>源文件\0900-0999\demo930</Filter>
@@ -2828,6 +2810,15 @@
     </ClCompile>
     <ClCompile Include="1640. 能否连接形成数组.cpp">
       <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
+    <ClCompile Include="899.有序队列.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
+    <ClCompile Include="895. 最大频率栈.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
+    <ClCompile Include="891. 子序列宽度之和.cpp">
+      <Filter>源文件\0800-0899</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
