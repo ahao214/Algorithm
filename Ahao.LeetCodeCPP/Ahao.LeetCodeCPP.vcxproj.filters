@@ -3036,6 +3036,9 @@
     <ClCompile Include="1726. 同积元组.cpp">
       <Filter>源文件\1700-1799</Filter>
     </ClCompile>
+    <ClCompile Include="1803. 统计异或值在范围内的数对有多少.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
