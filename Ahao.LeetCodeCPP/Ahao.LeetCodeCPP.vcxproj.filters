@@ -358,26 +358,8 @@
     <Filter Include="源文件\1700-1799\demo1752">
       <UniqueIdentifier>{5ca6902b-037d-47bc-8856-70d91899d846}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1700-1799\demo1750">
-      <UniqueIdentifier>{df4a54a6-2f21-4613-91e9-4685f083a73f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1749">
-      <UniqueIdentifier>{13617638-0b34-4f39-9dbc-1dfda8381d2b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1748">
-      <UniqueIdentifier>{c9ee6616-f4cf-4a6e-8568-911b6ab26dc3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1745">
-      <UniqueIdentifier>{5a054386-7fc1-4a4e-9d7d-c74a5c2c4bed}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1744">
-      <UniqueIdentifier>{eb28e928-58b1-426e-b684-683f1e0c4869}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\0900-0999\demo940">
       <UniqueIdentifier>{72485ef4-b2aa-4ad4-93df-4625a9190da8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1743">
-      <UniqueIdentifier>{ca3a7bcd-4a9a-4238-a488-515fc66f5d67}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499\demo1441">
       <UniqueIdentifier>{bbc6b5fb-75f3-41bd-806c-071b4ccc03dd}</UniqueIdentifier>
@@ -1065,26 +1047,8 @@
     <ClCompile Include="1752. 检查数组是否经排序和轮转得到.cpp">
       <Filter>源文件\1700-1799\demo1752</Filter>
     </ClCompile>
-    <ClCompile Include="1750. 删除字符串两端相同字符后的最短长度.cpp">
-      <Filter>源文件\1700-1799\demo1750</Filter>
-    </ClCompile>
-    <ClCompile Include="1749. 任意子数组和的绝对值的最大值.cpp">
-      <Filter>源文件\1700-1799\demo1749</Filter>
-    </ClCompile>
-    <ClCompile Include="1748. 唯一元素的和.cpp">
-      <Filter>源文件\1700-1799\demo1748</Filter>
-    </ClCompile>
-    <ClCompile Include="1745. 回文串分割 IV.cpp">
-      <Filter>源文件\1700-1799\demo1745</Filter>
-    </ClCompile>
-    <ClCompile Include="1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？.cpp">
-      <Filter>源文件\1700-1799\demo1744</Filter>
-    </ClCompile>
     <ClCompile Include="940. 不同的子序列 II.cpp">
       <Filter>源文件\0900-0999\demo940</Filter>
-    </ClCompile>
-    <ClCompile Include="1743. 从相邻元素对还原数组.cpp">
-      <Filter>源文件\1700-1799\demo1743</Filter>
     </ClCompile>
     <ClCompile Include="1441. 用栈操作构建数组.cpp">
       <Filter>源文件\1400-1499\demo1441</Filter>
@@ -3010,6 +2974,24 @@
       <Filter>源文件\1700-1799</Filter>
     </ClCompile>
     <ClCompile Include="1742. 盒子中小球的最大数量.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1743. 从相邻元素对还原数组.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1745. 回文串分割 IV.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1748. 唯一元素的和.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1749. 任意子数组和的绝对值的最大值.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1750. 删除字符串两端相同字符后的最短长度.cpp">
       <Filter>源文件\1700-1799</Filter>
     </ClCompile>
   </ItemGroup>
