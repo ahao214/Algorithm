@@ -232,59 +232,14 @@
     <Filter Include="源文件\1500-1599\demo1598">
       <UniqueIdentifier>{75b45ef5-def4-4a53-a6f3-cd9c322d8773}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1700-1799\demo1799">
-      <UniqueIdentifier>{8fa8e0d1-78f9-4f0a-89bd-c52d4c395063}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1798">
-      <UniqueIdentifier>{34d7e522-a017-4989-bc37-e39b5cc6214d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1797">
-      <UniqueIdentifier>{2f7c64f3-10fe-4dde-a8eb-c7f63cabc57c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1796">
-      <UniqueIdentifier>{79ccdd05-e7fd-42e1-9a3f-163d304fd791}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1793">
-      <UniqueIdentifier>{13429b7a-8e10-4ad3-83fb-498e40d73883}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1600-1699\demo1619">
       <UniqueIdentifier>{9a387084-1d99-44d1-9ab1-87e938eb018e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1792">
-      <UniqueIdentifier>{7c9fc627-2e58-4cd1-b859-b47c31a5c325}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1600-1699\demo1624">
       <UniqueIdentifier>{663dbecf-650a-4dc5-b351-162dbde7361b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1700-1799\demo1791">
-      <UniqueIdentifier>{18df28b3-69c3-4709-a86f-71a4e158d7f5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1790">
-      <UniqueIdentifier>{aa71532d-68a7-4cb3-9588-74b1df090cac}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1787">
-      <UniqueIdentifier>{cdb2a3d8-5d84-4d8b-8881-b87acfd1d323}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1786">
-      <UniqueIdentifier>{fe832f49-022f-43cb-8477-47948e84c226}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1785">
-      <UniqueIdentifier>{1e0cc910-6f83-4bbc-bded-75b0fe66ce5b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1784">
-      <UniqueIdentifier>{81ab220b-86dc-4efa-a0cb-d3b4f10dd786}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1782">
-      <UniqueIdentifier>{3061d19a-2363-430b-aa62-97a1caed8911}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1600-1699\demo1640">
       <UniqueIdentifier>{26082b2f-9622-4693-a3f6-d34e4414aba9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1781">
-      <UniqueIdentifier>{6956b32f-f14a-442b-b20a-88cd343a2203}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1780">
-      <UniqueIdentifier>{22054586-16d8-4a69-8342-35e2c4dee230}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1700-1799\demo1779">
       <UniqueIdentifier>{5eaace55-60c0-43a1-a50a-176f6aaf221e}</UniqueIdentifier>
@@ -331,32 +286,14 @@
     <Filter Include="源文件\1700-1799\demo1760">
       <UniqueIdentifier>{1f2b341a-9e6a-40e7-be94-695c5ebe41bf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1700-1799\demo1759">
-      <UniqueIdentifier>{6a43f68d-b329-4f94-bd0d-cbd67a888968}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1600-1699\demo1694">
       <UniqueIdentifier>{65de8eff-e460-4218-85ab-22c2418d4700}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1758">
-      <UniqueIdentifier>{049ec5f4-dd34-4bac-83e2-c3f7fe5cfb15}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1755">
-      <UniqueIdentifier>{a09c3739-b89a-4986-a3e9-3ee0b6335466}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0900-0999\demo921">
       <UniqueIdentifier>{1e8f5a00-e9a9-44c6-875d-30f658daa09f}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0900-0999\demo927">
       <UniqueIdentifier>{51577cb0-d2bb-4ef3-85a6-4d6cecc29df4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1754">
-      <UniqueIdentifier>{da0e295f-b2cb-4517-b733-4c36533e4898}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1753">
-      <UniqueIdentifier>{04dcfe5b-613d-4f9b-b81b-c97b3d800c52}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1752">
-      <UniqueIdentifier>{5ca6902b-037d-47bc-8856-70d91899d846}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0900-0999\demo940">
       <UniqueIdentifier>{72485ef4-b2aa-4ad4-93df-4625a9190da8}</UniqueIdentifier>
@@ -921,59 +858,14 @@
     <ClCompile Include="1598. 文件夹操作日志搜集器.cpp">
       <Filter>源文件\1500-1599\demo1598</Filter>
     </ClCompile>
-    <ClCompile Include="1799. N 次操作后的最大分数和.cpp">
-      <Filter>源文件\1700-1799\demo1799</Filter>
-    </ClCompile>
-    <ClCompile Include="1798. 你能构造出连续值的最大数目.cpp">
-      <Filter>源文件\1700-1799\demo1798</Filter>
-    </ClCompile>
-    <ClCompile Include="1797. 设计一个验证系统.cpp">
-      <Filter>源文件\1700-1799\demo1797</Filter>
-    </ClCompile>
-    <ClCompile Include="1796. 字符串中第二大的数字.cpp">
-      <Filter>源文件\1700-1799\demo1796</Filter>
-    </ClCompile>
-    <ClCompile Include="1793. 好子数组的最大分数.cpp">
-      <Filter>源文件\1700-1799\demo1793</Filter>
-    </ClCompile>
     <ClCompile Include="1619. 删除某些元素后的数组均值.cpp">
       <Filter>源文件\1600-1699\demo1619</Filter>
-    </ClCompile>
-    <ClCompile Include="1792. 最大平均通过率.cpp">
-      <Filter>源文件\1700-1799\demo1792</Filter>
     </ClCompile>
     <ClCompile Include="1624. 两个相同字符之间的最长子字符串.cpp">
       <Filter>源文件\1600-1699\demo1624</Filter>
     </ClCompile>
-    <ClCompile Include="1791. 找出星型图的中心节点.cpp">
-      <Filter>源文件\1700-1799\demo1791</Filter>
-    </ClCompile>
-    <ClCompile Include="1790. 仅执行一次字符串交换能否使两个字符串相等.cpp">
-      <Filter>源文件\1700-1799\demo1790</Filter>
-    </ClCompile>
-    <ClCompile Include="1787. 使所有区间的异或结果为零.cpp">
-      <Filter>源文件\1700-1799\demo1787</Filter>
-    </ClCompile>
-    <ClCompile Include="1786. 从第一个节点出发到最后一个节点的受限路径数.cpp">
-      <Filter>源文件\1700-1799\demo1786</Filter>
-    </ClCompile>
-    <ClCompile Include="1785. 构成特定和需要添加的最少元素.cpp">
-      <Filter>源文件\1700-1799\demo1785</Filter>
-    </ClCompile>
-    <ClCompile Include="1784. 检查二进制字符串字段.cpp">
-      <Filter>源文件\1700-1799\demo1784</Filter>
-    </ClCompile>
-    <ClCompile Include="1782. 统计点对的数目.cpp">
-      <Filter>源文件\1700-1799\demo1782</Filter>
-    </ClCompile>
     <ClCompile Include="1640. 能否连接形成数组.cpp">
       <Filter>源文件\1600-1699\demo1640</Filter>
-    </ClCompile>
-    <ClCompile Include="1781. 所有子字符串美丽值之和.cpp">
-      <Filter>源文件\1700-1799\demo1781</Filter>
-    </ClCompile>
-    <ClCompile Include="1780. 判断一个数字是否可以表示成三的幂的和.cpp">
-      <Filter>源文件\1700-1799\demo1780</Filter>
     </ClCompile>
     <ClCompile Include="1779. 找到最近的有相同 X 或 Y 坐标的点.cpp">
       <Filter>源文件\1700-1799\demo1779</Filter>
@@ -1020,32 +912,14 @@
     <ClCompile Include="1760. 袋子里最少数目的球.cpp">
       <Filter>源文件\1700-1799\demo1760</Filter>
     </ClCompile>
-    <ClCompile Include="1759. 统计同构子字符串的数目.cpp">
-      <Filter>源文件\1700-1799\demo1759</Filter>
-    </ClCompile>
     <ClCompile Include="1694. 重新格式化电话号码.cpp">
       <Filter>源文件\1600-1699\demo1694</Filter>
-    </ClCompile>
-    <ClCompile Include="1758. 生成交替二进制字符串的最少操作数.cpp">
-      <Filter>源文件\1700-1799\demo1758</Filter>
-    </ClCompile>
-    <ClCompile Include="1755. 最接近目标值的子序列和.cpp">
-      <Filter>源文件\1700-1799\demo1755</Filter>
     </ClCompile>
     <ClCompile Include="921. 使括号有效的最少添加.cpp">
       <Filter>源文件\0900-0999\demo921</Filter>
     </ClCompile>
     <ClCompile Include="927. 三等分.cpp">
       <Filter>源文件\0900-0999\demo927</Filter>
-    </ClCompile>
-    <ClCompile Include="1754. 构造字典序最大的合并字符串.cpp">
-      <Filter>源文件\1700-1799\demo1754</Filter>
-    </ClCompile>
-    <ClCompile Include="1753. 移除石子的最大得分.cpp">
-      <Filter>源文件\1700-1799\demo1753</Filter>
-    </ClCompile>
-    <ClCompile Include="1752. 检查数组是否经排序和轮转得到.cpp">
-      <Filter>源文件\1700-1799\demo1752</Filter>
     </ClCompile>
     <ClCompile Include="940. 不同的子序列 II.cpp">
       <Filter>源文件\0900-0999\demo940</Filter>
@@ -2992,6 +2866,69 @@
       <Filter>源文件\1700-1799</Filter>
     </ClCompile>
     <ClCompile Include="1750. 删除字符串两端相同字符后的最短长度.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1752. 检查数组是否经排序和轮转得到.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1753. 移除石子的最大得分.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1754. 构造字典序最大的合并字符串.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1755. 最接近目标值的子序列和.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1758. 生成交替二进制字符串的最少操作数.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1759. 统计同构子字符串的数目.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1799. N 次操作后的最大分数和.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1780. 判断一个数字是否可以表示成三的幂的和.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1781. 所有子字符串美丽值之和.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1782. 统计点对的数目.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1784. 检查二进制字符串字段.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1785. 构成特定和需要添加的最少元素.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1786. 从第一个节点出发到最后一个节点的受限路径数.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1787. 使所有区间的异或结果为零.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1790. 仅执行一次字符串交换能否使两个字符串相等.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1791. 找出星型图的中心节点.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1792. 最大平均通过率.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1793. 好子数组的最大分数.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1796. 字符串中第二大的数字.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1797. 设计一个验证系统.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1798. 你能构造出连续值的最大数目.cpp">
       <Filter>源文件\1700-1799</Filter>
     </ClCompile>
   </ItemGroup>
