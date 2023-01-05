@@ -241,50 +241,8 @@
     <Filter Include="源文件\1600-1699\demo1640">
       <UniqueIdentifier>{26082b2f-9622-4693-a3f6-d34e4414aba9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1700-1799\demo1779">
-      <UniqueIdentifier>{5eaace55-60c0-43a1-a50a-176f6aaf221e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1775">
-      <UniqueIdentifier>{c70a09a5-44da-4879-bada-e71080917202}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1600-1699\demo1652">
       <UniqueIdentifier>{d075e8c3-d7e7-4138-abd7-080cfea5502f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1776">
-      <UniqueIdentifier>{c7099cf8-70f9-4daf-a68e-c60bf3982f0a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1774">
-      <UniqueIdentifier>{d6795b8b-c3a3-46f7-9db6-cd43655957b8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1773">
-      <UniqueIdentifier>{df4b65ed-bc8c-416d-8b61-4aac3731e987}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1771">
-      <UniqueIdentifier>{583f52f5-e2da-4bf2-9db5-cb5dc65abc13}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1770">
-      <UniqueIdentifier>{a194dfb0-44b4-4c1f-b37d-5dd87a8a5712}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1769">
-      <UniqueIdentifier>{be0eecd6-b34e-42e7-a141-bcd550426728}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1768">
-      <UniqueIdentifier>{c72c8831-7965-457f-8b77-0efc522851ca}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1765">
-      <UniqueIdentifier>{beb539ab-dda7-4229-b8dc-cc3a40fe44d1}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1764">
-      <UniqueIdentifier>{40f85d7b-64cc-405e-8bf2-e056b4d519ea}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1763">
-      <UniqueIdentifier>{97e0dea6-faf0-4f75-bad6-1da6bef131dd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1761">
-      <UniqueIdentifier>{e200bea3-603f-4146-98ac-5ce7a38f660d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1700-1799\demo1760">
-      <UniqueIdentifier>{1f2b341a-9e6a-40e7-be94-695c5ebe41bf}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1600-1699\demo1694">
       <UniqueIdentifier>{65de8eff-e460-4218-85ab-22c2418d4700}</UniqueIdentifier>
@@ -867,50 +825,8 @@
     <ClCompile Include="1640. 能否连接形成数组.cpp">
       <Filter>源文件\1600-1699\demo1640</Filter>
     </ClCompile>
-    <ClCompile Include="1779. 找到最近的有相同 X 或 Y 坐标的点.cpp">
-      <Filter>源文件\1700-1799\demo1779</Filter>
-    </ClCompile>
-    <ClCompile Include="1775. 通过最少操作次数使数组的和相等.cpp">
-      <Filter>源文件\1700-1799\demo1775</Filter>
-    </ClCompile>
     <ClCompile Include="1652. 拆炸弹.cpp">
       <Filter>源文件\1600-1699\demo1652</Filter>
-    </ClCompile>
-    <ClCompile Include="1776. 车队 II.cpp">
-      <Filter>源文件\1700-1799\demo1776</Filter>
-    </ClCompile>
-    <ClCompile Include="1774. 最接近目标价格的甜点成本.cpp">
-      <Filter>源文件\1700-1799\demo1774</Filter>
-    </ClCompile>
-    <ClCompile Include="1773. 统计匹配检索规则的物品数量.cpp">
-      <Filter>源文件\1700-1799\demo1773</Filter>
-    </ClCompile>
-    <ClCompile Include="1771. 由子序列构造的最长回文串的长度.cpp">
-      <Filter>源文件\1700-1799\demo1771</Filter>
-    </ClCompile>
-    <ClCompile Include="1770. 执行乘法运算的最大分数.cpp">
-      <Filter>源文件\1700-1799\demo1770</Filter>
-    </ClCompile>
-    <ClCompile Include="1769. 移动所有球到每个盒子所需的最小操作数.cpp">
-      <Filter>源文件\1700-1799\demo1769</Filter>
-    </ClCompile>
-    <ClCompile Include="1768. 交替合并字符串.cpp">
-      <Filter>源文件\1700-1799\demo1768</Filter>
-    </ClCompile>
-    <ClCompile Include="1765. 地图中的最高点.cpp">
-      <Filter>源文件\1700-1799\demo1765</Filter>
-    </ClCompile>
-    <ClCompile Include="1764. 通过连接另一个数组的子数组得到一个数组.cpp">
-      <Filter>源文件\1700-1799\demo1764</Filter>
-    </ClCompile>
-    <ClCompile Include="1763. 最长的美好子字符串.cpp">
-      <Filter>源文件\1700-1799\demo1763</Filter>
-    </ClCompile>
-    <ClCompile Include="1761. 一个图中连通三元组的最小度数.cpp">
-      <Filter>源文件\1700-1799\demo1761</Filter>
-    </ClCompile>
-    <ClCompile Include="1760. 袋子里最少数目的球.cpp">
-      <Filter>源文件\1700-1799\demo1760</Filter>
     </ClCompile>
     <ClCompile Include="1694. 重新格式化电话号码.cpp">
       <Filter>源文件\1600-1699\demo1694</Filter>
@@ -2929,6 +2845,48 @@
       <Filter>源文件\1700-1799</Filter>
     </ClCompile>
     <ClCompile Include="1798. 你能构造出连续值的最大数目.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1763. 最长的美好子字符串.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1761. 一个图中连通三元组的最小度数.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1760. 袋子里最少数目的球.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1768. 交替合并字符串.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1764. 通过连接另一个数组的子数组得到一个数组.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1765. 地图中的最高点.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1779. 找到最近的有相同 X 或 Y 坐标的点.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1775. 通过最少操作次数使数组的和相等.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1776. 车队 II.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1769. 移动所有球到每个盒子所需的最小操作数.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1770. 执行乘法运算的最大分数.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1771. 由子序列构造的最长回文串的长度.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1773. 统计匹配检索规则的物品数量.cpp">
+      <Filter>源文件\1700-1799</Filter>
+    </ClCompile>
+    <ClCompile Include="1774. 最接近目标价格的甜点成本.cpp">
       <Filter>源文件\1700-1799</Filter>
     </ClCompile>
   </ItemGroup>
