@@ -139,9 +139,6 @@
     <Filter Include="源文件\1500-1599\demo1553">
       <UniqueIdentifier>{8d5b444e-331a-4e00-bc8d-6da0fffad508}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1500-1599\demo1518">
-      <UniqueIdentifier>{eef1f4be-c9e9-42b9-bdf4-3229bf9986a1}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1500-1599\demo1567">
       <UniqueIdentifier>{837d3987-9dd7-4ff8-ac00-9341b9342504}</UniqueIdentifier>
     </Filter>
@@ -380,9 +377,6 @@
     </ClCompile>
     <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp">
       <Filter>源文件\1500-1599\demo1553</Filter>
-    </ClCompile>
-    <ClCompile Include="1518. 换酒问题.cpp">
-      <Filter>源文件\1500-1599\demo1518</Filter>
     </ClCompile>
     <ClCompile Include="1567. 乘积为正数的最长子数组长度.cpp">
       <Filter>源文件\1500-1599\demo1567</Filter>
@@ -2548,6 +2542,9 @@
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
     <ClCompile Include="1515. 服务中心的最佳位置.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1518. 换酒问题.cpp">
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
   </ItemGroup>
