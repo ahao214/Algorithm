@@ -112,15 +112,6 @@
     <Filter Include="源文件\1700-1799">
       <UniqueIdentifier>{c38d5659-a1cc-4861-89b7-10f9dadbbb7d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1600-1699\demo1641">
-      <UniqueIdentifier>{22449509-36b6-4ec2-aa88-7e3035483216}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1600-1699\demo1642">
-      <UniqueIdentifier>{05a74a04-f288-44ba-ad77-45eb76654797}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1600-1699\demo1643">
-      <UniqueIdentifier>{88844186-303a-486c-a466-2fcae08a6c51}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1300-1399\demo1374">
       <UniqueIdentifier>{bf24ed9d-7148-4a57-ac35-be4af3719162}</UniqueIdentifier>
     </Filter>
@@ -174,9 +165,6 @@
     </Filter>
     <Filter Include="源文件\1500-1599\demo1598">
       <UniqueIdentifier>{75b45ef5-def4-4a53-a6f3-cd9c322d8773}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1600-1699\demo1652">
-      <UniqueIdentifier>{d075e8c3-d7e7-4138-abd7-080cfea5502f}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1600-1699\demo1694">
       <UniqueIdentifier>{65de8eff-e460-4218-85ab-22c2418d4700}</UniqueIdentifier>
@@ -274,12 +262,6 @@
     <Filter Include="源文件\1400-1499\demo1477">
       <UniqueIdentifier>{cc83e47a-1f11-4163-97c6-626bdecd9c24}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1600-1699\demo1654">
-      <UniqueIdentifier>{3c3cfdc3-6a56-4b5e-80bf-706f986561c2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1600-1699\demo1653">
-      <UniqueIdentifier>{2f72cf53-2ca6-421c-89d8-eb7f54c19a53}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1500-1599\demo1553">
       <UniqueIdentifier>{8d5b444e-331a-4e00-bc8d-6da0fffad508}</UniqueIdentifier>
     </Filter>
@@ -360,9 +342,6 @@
     </Filter>
     <Filter Include="源文件\1500-1599\demo1556">
       <UniqueIdentifier>{2ad1d3ef-3df4-48ba-ae57-3968efbaf139}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1600-1699\demo1655">
-      <UniqueIdentifier>{8df9ba96-ab23-4c6b-b793-8c4427f411e6}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1500-1599\demo1579">
       <UniqueIdentifier>{74f2942c-7b08-4bbf-ad9e-4acb0be47189}</UniqueIdentifier>
@@ -612,15 +591,6 @@
     <ClCompile Include="1658. 将 x 减到 0 的最小操作数.cpp">
       <Filter>源文件\1600-1699\demo1658</Filter>
     </ClCompile>
-    <ClCompile Include="1641. 统计字典序元音字符串的数目.cpp">
-      <Filter>源文件\1600-1699\demo1641</Filter>
-    </ClCompile>
-    <ClCompile Include="1642. 可以到达的最远建筑.cpp">
-      <Filter>源文件\1600-1699\demo1642</Filter>
-    </ClCompile>
-    <ClCompile Include="1643. 第 K 条最小指令.cpp">
-      <Filter>源文件\1600-1699\demo1643</Filter>
-    </ClCompile>
     <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp">
       <Filter>源文件\1300-1399\demo1374</Filter>
     </ClCompile>
@@ -662,9 +632,6 @@
     </ClCompile>
     <ClCompile Include="1598. 文件夹操作日志搜集器.cpp">
       <Filter>源文件\1500-1599\demo1598</Filter>
-    </ClCompile>
-    <ClCompile Include="1652. 拆炸弹.cpp">
-      <Filter>源文件\1600-1699\demo1652</Filter>
     </ClCompile>
     <ClCompile Include="1694. 重新格式化电话号码.cpp">
       <Filter>源文件\1600-1699\demo1694</Filter>
@@ -762,12 +729,6 @@
     <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp">
       <Filter>源文件\1400-1499\demo1477</Filter>
     </ClCompile>
-    <ClCompile Include="1654. 到家的最少跳跃次数.cpp">
-      <Filter>源文件\1600-1699\demo1654</Filter>
-    </ClCompile>
-    <ClCompile Include="1653. 使字符串平衡的最少删除次数.cpp">
-      <Filter>源文件\1600-1699\demo1653</Filter>
-    </ClCompile>
     <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp">
       <Filter>源文件\1500-1599\demo1553</Filter>
     </ClCompile>
@@ -848,9 +809,6 @@
     </ClCompile>
     <ClCompile Include="1556. 千位分隔数.cpp">
       <Filter>源文件\1500-1599\demo1556</Filter>
-    </ClCompile>
-    <ClCompile Include="1655. 分配重复整数.cpp">
-      <Filter>源文件\1600-1699\demo1655</Filter>
     </ClCompile>
     <ClCompile Include="1579. 保证图可完全遍历.cpp">
       <Filter>源文件\1500-1599\demo1579</Filter>
@@ -2795,6 +2753,27 @@
     </ClCompile>
     <ClCompile Include="905. 按奇偶排序数组.cpp">
       <Filter>源文件\0900-0999</Filter>
+    </ClCompile>
+    <ClCompile Include="1641. 统计字典序元音字符串的数目.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
+    <ClCompile Include="1642. 可以到达的最远建筑.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
+    <ClCompile Include="1643. 第 K 条最小指令.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
+    <ClCompile Include="1653. 使字符串平衡的最少删除次数.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
+    <ClCompile Include="1652. 拆炸弹.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
+    <ClCompile Include="1655. 分配重复整数.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
+    <ClCompile Include="1654. 到家的最少跳跃次数.cpp">
+      <Filter>源文件\1600-1699</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
