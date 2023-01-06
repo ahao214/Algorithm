@@ -106,9 +106,6 @@
     <Filter Include="源文件\1700-1799">
       <UniqueIdentifier>{c38d5659-a1cc-4861-89b7-10f9dadbbb7d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1300-1399\demo1374">
-      <UniqueIdentifier>{bf24ed9d-7148-4a57-ac35-be4af3719162}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\2100-2199">
       <UniqueIdentifier>{770106bc-df14-4c30-9f4f-e0664290a671}</UniqueIdentifier>
     </Filter>
@@ -409,62 +406,8 @@
     <Filter Include="源文件\1400-1499\demo1451">
       <UniqueIdentifier>{67e75e62-f26a-4a3a-90c2-e9e7c442b998}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1300-1399\demo1392">
-      <UniqueIdentifier>{db627d2a-49b5-4fbd-8c57-57dcb2bb2758}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1391">
-      <UniqueIdentifier>{5d8ee4e7-531e-4ed7-b0a2-94a967ba8851}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1390">
-      <UniqueIdentifier>{e8b8aa3e-0f71-4742-9d1f-345308501c99}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1389">
-      <UniqueIdentifier>{c10828fb-5656-490f-8c7e-043db46dd670}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1383">
-      <UniqueIdentifier>{c0ea6de5-be90-46cf-a6c2-305e901e90a5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1382">
-      <UniqueIdentifier>{8ed50991-4bd3-4d77-82fa-28b932636aa3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1381">
-      <UniqueIdentifier>{3f032b2e-06a8-43ee-b77e-e227e7c7aede}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1380">
-      <UniqueIdentifier>{fe7b6f47-d03c-4bf7-bad3-73cd97f4f6b2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1377">
-      <UniqueIdentifier>{0fcd70f6-5624-4987-8b13-16cec8b492ea}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1376">
-      <UniqueIdentifier>{a3c21a7e-c7da-4071-a5c2-2b7d51f58e3e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1368">
-      <UniqueIdentifier>{1542a7d0-cdb6-4f91-b740-347e9eed8628}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1367">
-      <UniqueIdentifier>{d031ace3-500b-4a87-864e-2ab4455e60b4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1366">
-      <UniqueIdentifier>{3c2ba26f-8d1f-44bb-ae62-4433d4b90e33}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\2400-2499">
       <UniqueIdentifier>{3bca2155-3686-47f5-874c-13fffe215c8d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1365">
-      <UniqueIdentifier>{62d18a77-56c9-4fb4-a308-fa4a52c0ce3e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1363">
-      <UniqueIdentifier>{2d030eaf-f8ac-42d5-a73a-fc9460c4c5cb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1360">
-      <UniqueIdentifier>{77237f9a-e489-47ef-9a39-815d122d7dbc}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1361">
-      <UniqueIdentifier>{fd79bc64-52e0-4fc1-8104-ce084f885538}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1300-1399\demo1362">
-      <UniqueIdentifier>{c25c8ee0-03c8-4f34-925f-d7297bf3b8e3}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\0900-0999\demo918">
       <UniqueIdentifier>{adbc5f64-feb0-4b3f-9c4f-ec8026b6365b}</UniqueIdentifier>
@@ -509,9 +452,6 @@
     </ClCompile>
     <ClCompile Include="1590. 使数组和能被 P 整除.cpp">
       <Filter>源文件\1500-1599\demo1590</Filter>
-    </ClCompile>
-    <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp">
-      <Filter>源文件\1300-1399\demo1374</Filter>
     </ClCompile>
     <ClCompile Include="1537. 最大得分.cpp">
       <Filter>源文件\1500-1599\demo1537</Filter>
@@ -800,60 +740,6 @@
     </ClCompile>
     <ClCompile Include="1451. 重新排列句子中的单词.cpp">
       <Filter>源文件\1400-1499\demo1451</Filter>
-    </ClCompile>
-    <ClCompile Include="1392. 最长快乐前缀.cpp">
-      <Filter>源文件\1300-1399\demo1392</Filter>
-    </ClCompile>
-    <ClCompile Include="1391. 检查网格中是否存在有效路径.cpp">
-      <Filter>源文件\1300-1399\demo1391</Filter>
-    </ClCompile>
-    <ClCompile Include="1390. 四因数.cpp">
-      <Filter>源文件\1300-1399\demo1390</Filter>
-    </ClCompile>
-    <ClCompile Include="1389. 按既定顺序创建目标数组.cpp">
-      <Filter>源文件\1300-1399\demo1389</Filter>
-    </ClCompile>
-    <ClCompile Include="1383. 最大的团队表现值.cpp">
-      <Filter>源文件\1300-1399\demo1383</Filter>
-    </ClCompile>
-    <ClCompile Include="1382. 将二叉搜索树变平衡.cpp">
-      <Filter>源文件\1300-1399\demo1382</Filter>
-    </ClCompile>
-    <ClCompile Include="1381. 设计一个支持增量操作的栈.cpp">
-      <Filter>源文件\1300-1399\demo1381</Filter>
-    </ClCompile>
-    <ClCompile Include="1380. 矩阵中的幸运数.cpp">
-      <Filter>源文件\1300-1399\demo1380</Filter>
-    </ClCompile>
-    <ClCompile Include="1377. T 秒后青蛙的位置.cpp">
-      <Filter>源文件\1300-1399\demo1377</Filter>
-    </ClCompile>
-    <ClCompile Include="1376. 通知所有员工所需的时间.cpp">
-      <Filter>源文件\1300-1399\demo1376</Filter>
-    </ClCompile>
-    <ClCompile Include="1368. 使网格图至少有一条有效路径的最小代价.cpp">
-      <Filter>源文件\1300-1399\demo1368</Filter>
-    </ClCompile>
-    <ClCompile Include="1367. 二叉树中的列表.cpp">
-      <Filter>源文件\1300-1399\demo1367</Filter>
-    </ClCompile>
-    <ClCompile Include="1366. 通过投票对团队排名.cpp">
-      <Filter>源文件\1300-1399\demo1366</Filter>
-    </ClCompile>
-    <ClCompile Include="1365. 有多少小于当前数字的数字.cpp">
-      <Filter>源文件\1300-1399\demo1365</Filter>
-    </ClCompile>
-    <ClCompile Include="1363. 形成三的最大倍数.cpp">
-      <Filter>源文件\1300-1399\demo1363</Filter>
-    </ClCompile>
-    <ClCompile Include="1360. 日期之间隔几天.cpp">
-      <Filter>源文件\1300-1399\demo1360</Filter>
-    </ClCompile>
-    <ClCompile Include="1361. 验证二叉树.cpp">
-      <Filter>源文件\1300-1399\demo1361</Filter>
-    </ClCompile>
-    <ClCompile Include="1362. 最接近的因数.cpp">
-      <Filter>源文件\1300-1399\demo1362</Filter>
     </ClCompile>
     <ClCompile Include="918. 环形子数组的最大和.cpp">
       <Filter>源文件\0900-0999\demo918</Filter>
@@ -2699,6 +2585,63 @@
     </ClCompile>
     <ClCompile Include="1697. 检查边长度限制的路径是否存在.cpp">
       <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
+    <ClCompile Include="1367. 二叉树中的列表.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1368. 使网格图至少有一条有效路径的最小代价.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1374. 生成每种字符都是奇数个的字符串.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1365. 有多少小于当前数字的数字.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1360. 日期之间隔几天.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1361. 验证二叉树.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1362. 最接近的因数.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1363. 形成三的最大倍数.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1366. 通过投票对团队排名.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1376. 通知所有员工所需的时间.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1377. T 秒后青蛙的位置.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1380. 矩阵中的幸运数.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1382. 将二叉搜索树变平衡.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1383. 最大的团队表现值.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1381. 设计一个支持增量操作的栈.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1389. 按既定顺序创建目标数组.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1390. 四因数.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1391. 检查网格中是否存在有效路径.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
+    <ClCompile Include="1392. 最长快乐前缀.cpp">
+      <Filter>源文件\1300-1399</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
