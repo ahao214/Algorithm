@@ -154,9 +154,6 @@
     <Filter Include="源文件\1500-1599\demo1510">
       <UniqueIdentifier>{8b23e07f-c131-4f67-a8d4-9d47aa146e78}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1500-1599\demo1507">
-      <UniqueIdentifier>{ad90629f-65cb-42ce-90ac-66e0d3e1c22b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1500-1599\demo1508">
       <UniqueIdentifier>{3bf92f58-7d4d-41fb-b547-c10d3ca2696c}</UniqueIdentifier>
     </Filter>
@@ -267,18 +264,6 @@
     </Filter>
     <Filter Include="源文件\1500-1599\demo1512">
       <UniqueIdentifier>{992cdec0-c9d6-4e4c-bd19-bbbebd15df33}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1505">
-      <UniqueIdentifier>{0698a342-a462-43e6-a52a-e328da3cd994}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1504">
-      <UniqueIdentifier>{0401da6f-7318-4419-ba27-0d52e959bdc8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1503">
-      <UniqueIdentifier>{716b015b-5891-42f2-8b66-35b9253b87ba}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1502">
-      <UniqueIdentifier>{05a6bfc1-c522-442e-8d89-95d2c58d9dcc}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499\demo1499">
       <UniqueIdentifier>{6a520ebd-5869-457e-ac70-e90fbb5c47f4}</UniqueIdentifier>
@@ -432,9 +417,6 @@
     <ClCompile Include="1510. 石子游戏 IV.cpp">
       <Filter>源文件\1500-1599\demo1510</Filter>
     </ClCompile>
-    <ClCompile Include="1507. 转变日期格式.cpp">
-      <Filter>源文件\1500-1599\demo1507</Filter>
-    </ClCompile>
     <ClCompile Include="1508. 子数组和排序后的区间和.cpp">
       <Filter>源文件\1500-1599\demo1508</Filter>
     </ClCompile>
@@ -545,18 +527,6 @@
     </ClCompile>
     <ClCompile Include="1512. 好数对的数目.cpp">
       <Filter>源文件\1500-1599\demo1512</Filter>
-    </ClCompile>
-    <ClCompile Include="1505. 最多 K 次交换相邻数位后得到的最小整数.cpp">
-      <Filter>源文件\1500-1599\demo1505</Filter>
-    </ClCompile>
-    <ClCompile Include="1504. 统计全 1 子矩形.cpp">
-      <Filter>源文件\1500-1599\demo1504</Filter>
-    </ClCompile>
-    <ClCompile Include="1503. 所有蚂蚁掉下来前的最后一刻.cpp">
-      <Filter>源文件\1500-1599\demo1503</Filter>
-    </ClCompile>
-    <ClCompile Include="1502. 判断能否形成等差数列.cpp">
-      <Filter>源文件\1500-1599\demo1502</Filter>
     </ClCompile>
     <ClCompile Include="1499. 满足不等式的最大值.cpp">
       <Filter>源文件\1400-1499\demo1499</Filter>
@@ -2585,6 +2555,21 @@
     </ClCompile>
     <ClCompile Include="953. 验证外星语词典.cpp">
       <Filter>源文件\0900-0999</Filter>
+    </ClCompile>
+    <ClCompile Include="1502. 判断能否形成等差数列.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1503. 所有蚂蚁掉下来前的最后一刻.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1504. 统计全 1 子矩形.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1505. 最多 K 次交换相邻数位后得到的最小整数.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1507. 转变日期格式.cpp">
+      <Filter>源文件\1500-1599</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
