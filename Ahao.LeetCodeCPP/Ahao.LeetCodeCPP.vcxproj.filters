@@ -151,15 +151,6 @@
     <Filter Include="源文件\1500-1599\demo1569">
       <UniqueIdentifier>{7657af7f-ea21-442c-85ad-68b644d2dd42}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1500-1599\demo1510">
-      <UniqueIdentifier>{8b23e07f-c131-4f67-a8d4-9d47aa146e78}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1508">
-      <UniqueIdentifier>{3bf92f58-7d4d-41fb-b547-c10d3ca2696c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1509">
-      <UniqueIdentifier>{3ef32664-c89a-422f-adb8-f24c5c5f3436}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1494">
       <UniqueIdentifier>{ea7b90c3-c734-49bd-9fbd-5231f5210cc8}</UniqueIdentifier>
     </Filter>
@@ -252,18 +243,6 @@
     </Filter>
     <Filter Include="源文件\1500-1599\demo1519">
       <UniqueIdentifier>{3b0cd765-2aeb-428c-bae6-f6b8eb3b1e35}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1515">
-      <UniqueIdentifier>{e375add4-f931-489e-9f99-a22047af011a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1514">
-      <UniqueIdentifier>{90a6b279-b0e6-402c-86df-4e3f4f565273}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1513">
-      <UniqueIdentifier>{bbe84200-7576-41b6-95de-415da70af87c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1512">
-      <UniqueIdentifier>{992cdec0-c9d6-4e4c-bd19-bbbebd15df33}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499\demo1499">
       <UniqueIdentifier>{6a520ebd-5869-457e-ac70-e90fbb5c47f4}</UniqueIdentifier>
@@ -414,15 +393,6 @@
     <ClCompile Include="1569. 将子数组重新排序得到同一个二叉查找树的方案数.cpp">
       <Filter>源文件\1500-1599\demo1569</Filter>
     </ClCompile>
-    <ClCompile Include="1510. 石子游戏 IV.cpp">
-      <Filter>源文件\1500-1599\demo1510</Filter>
-    </ClCompile>
-    <ClCompile Include="1508. 子数组和排序后的区间和.cpp">
-      <Filter>源文件\1500-1599\demo1508</Filter>
-    </ClCompile>
-    <ClCompile Include="1509. 三次操作后最大值与最小值的最小差.cpp">
-      <Filter>源文件\1500-1599\demo1509</Filter>
-    </ClCompile>
     <ClCompile Include="1494. 并行课程 II.cpp">
       <Filter>源文件\1400-1499\demo1494</Filter>
     </ClCompile>
@@ -515,18 +485,6 @@
     </ClCompile>
     <ClCompile Include="1519. 子树中标签相同的节点数.cpp">
       <Filter>源文件\1500-1599\demo1519</Filter>
-    </ClCompile>
-    <ClCompile Include="1515. 服务中心的最佳位置.cpp">
-      <Filter>源文件\1500-1599\demo1515</Filter>
-    </ClCompile>
-    <ClCompile Include="1514. 概率最大的路径.cpp">
-      <Filter>源文件\1500-1599\demo1514</Filter>
-    </ClCompile>
-    <ClCompile Include="1513. 仅含 1 的子串数.cpp">
-      <Filter>源文件\1500-1599\demo1513</Filter>
-    </ClCompile>
-    <ClCompile Include="1512. 好数对的数目.cpp">
-      <Filter>源文件\1500-1599\demo1512</Filter>
     </ClCompile>
     <ClCompile Include="1499. 满足不等式的最大值.cpp">
       <Filter>源文件\1400-1499\demo1499</Filter>
@@ -2569,6 +2527,27 @@
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
     <ClCompile Include="1507. 转变日期格式.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1514. 概率最大的路径.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1508. 子数组和排序后的区间和.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1509. 三次操作后最大值与最小值的最小差.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1510. 石子游戏 IV.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1512. 好数对的数目.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1513. 仅含 1 的子串数.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1515. 服务中心的最佳位置.cpp">
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
   </ItemGroup>
