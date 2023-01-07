@@ -82,9 +82,6 @@
     <Filter Include="源文件\2100-2199">
       <UniqueIdentifier>{770106bc-df14-4c30-9f4f-e0664290a671}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1500-1599\demo1537">
-      <UniqueIdentifier>{443506f5-4394-4537-8f82-b7b56b088cbf}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\2200-2299">
       <UniqueIdentifier>{16bc25fa-baed-4cf4-8c71-83cf8b4854a8}</UniqueIdentifier>
     </Filter>
@@ -223,24 +220,6 @@
     <Filter Include="源文件\1500-1599\demo1560">
       <UniqueIdentifier>{498e453a-5ba1-42f0-b01f-91db4d04a4f3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1500-1599\demo1552">
-      <UniqueIdentifier>{3e3bb5bb-d748-4173-a045-901a22595d60}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1551">
-      <UniqueIdentifier>{2a86b0da-6707-4c88-b08f-7b7aa045057a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1550">
-      <UniqueIdentifier>{d5a033db-58f0-4481-89c7-58a7ea072069}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1521">
-      <UniqueIdentifier>{9e3d23e8-51fc-453d-a1a6-30b5e2159955}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1520">
-      <UniqueIdentifier>{95661a89-ef75-4445-917d-d95a839408ba}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1519">
-      <UniqueIdentifier>{3b0cd765-2aeb-428c-bae6-f6b8eb3b1e35}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1499">
       <UniqueIdentifier>{6a520ebd-5869-457e-ac70-e90fbb5c47f4}</UniqueIdentifier>
     </Filter>
@@ -329,9 +308,6 @@
     </ClCompile>
     <ClCompile Include="1590. 使数组和能被 P 整除.cpp">
       <Filter>源文件\1500-1599\demo1590</Filter>
-    </ClCompile>
-    <ClCompile Include="1537. 最大得分.cpp">
-      <Filter>源文件\1500-1599\demo1537</Filter>
     </ClCompile>
     <ClCompile Include="1449.数位成本和为目标值的最大数字.cpp">
       <Filter>源文件\1400-1499\demo1449</Filter>
@@ -461,24 +437,6 @@
     </ClCompile>
     <ClCompile Include="1560. 圆形赛道上经过次数最多的扇区.cpp">
       <Filter>源文件\1500-1599\demo1560</Filter>
-    </ClCompile>
-    <ClCompile Include="1552. 两球之间的磁力.cpp">
-      <Filter>源文件\1500-1599\demo1552</Filter>
-    </ClCompile>
-    <ClCompile Include="1551. 使数组中所有元素相等的最小操作数.cpp">
-      <Filter>源文件\1500-1599\demo1551</Filter>
-    </ClCompile>
-    <ClCompile Include="1550. 存在连续三个奇数的数组.cpp">
-      <Filter>源文件\1500-1599\demo1550</Filter>
-    </ClCompile>
-    <ClCompile Include="1521. 找到最接近目标值的函数值.cpp">
-      <Filter>源文件\1500-1599\demo1521</Filter>
-    </ClCompile>
-    <ClCompile Include="1520. 最多的不重叠子字符串.cpp">
-      <Filter>源文件\1500-1599\demo1520</Filter>
-    </ClCompile>
-    <ClCompile Include="1519. 子树中标签相同的节点数.cpp">
-      <Filter>源文件\1500-1599\demo1519</Filter>
     </ClCompile>
     <ClCompile Include="1499. 满足不等式的最大值.cpp">
       <Filter>源文件\1400-1499\demo1499</Filter>
@@ -2545,6 +2503,27 @@
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
     <ClCompile Include="1518. 换酒问题.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1552. 两球之间的磁力.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1519. 子树中标签相同的节点数.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1520. 最多的不重叠子字符串.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1521. 找到最接近目标值的函数值.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1537. 最大得分.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1550. 存在连续三个奇数的数组.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1551. 使数组中所有元素相等的最小操作数.cpp">
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
   </ItemGroup>
