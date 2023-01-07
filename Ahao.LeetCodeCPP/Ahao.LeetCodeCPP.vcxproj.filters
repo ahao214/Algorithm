@@ -121,9 +121,6 @@
     <Filter Include="源文件\1500-1599\demo1582">
       <UniqueIdentifier>{21af5ba8-3ad5-4564-96c2-db4fe5053b2b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1500-1599\demo1598">
-      <UniqueIdentifier>{75b45ef5-def4-4a53-a6f3-cd9c322d8773}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1441">
       <UniqueIdentifier>{bbc6b5fb-75f3-41bd-806c-071b4ccc03dd}</UniqueIdentifier>
     </Filter>
@@ -132,9 +129,6 @@
     </Filter>
     <Filter Include="源文件\1400-1499\demo1477">
       <UniqueIdentifier>{cc83e47a-1f11-4163-97c6-626bdecd9c24}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1553">
-      <UniqueIdentifier>{8d5b444e-331a-4e00-bc8d-6da0fffad508}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1500-1599\demo1567">
       <UniqueIdentifier>{837d3987-9dd7-4ff8-ac00-9341b9342504}</UniqueIdentifier>
@@ -189,12 +183,6 @@
     </Filter>
     <Filter Include="源文件\1500-1599\demo1558">
       <UniqueIdentifier>{46de89d2-b395-46f6-b897-1179a7408e49}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1557">
-      <UniqueIdentifier>{dd696475-eea4-46fa-92ef-e577b60f0fdd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1556">
-      <UniqueIdentifier>{2ad1d3ef-3df4-48ba-ae57-3968efbaf139}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1500-1599\demo1579">
       <UniqueIdentifier>{74f2942c-7b08-4bbf-ad9e-4acb0be47189}</UniqueIdentifier>
@@ -339,9 +327,6 @@
     <ClCompile Include="1582. 二进制矩阵中的特殊位置.cpp">
       <Filter>源文件\1500-1599\demo1582</Filter>
     </ClCompile>
-    <ClCompile Include="1598. 文件夹操作日志搜集器.cpp">
-      <Filter>源文件\1500-1599\demo1598</Filter>
-    </ClCompile>
     <ClCompile Include="1441. 用栈操作构建数组.cpp">
       <Filter>源文件\1400-1499\demo1441</Filter>
     </ClCompile>
@@ -350,9 +335,6 @@
     </ClCompile>
     <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp">
       <Filter>源文件\1400-1499\demo1477</Filter>
-    </ClCompile>
-    <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp">
-      <Filter>源文件\1500-1599\demo1553</Filter>
     </ClCompile>
     <ClCompile Include="1567. 乘积为正数的最长子数组长度.cpp">
       <Filter>源文件\1500-1599\demo1567</Filter>
@@ -407,12 +389,6 @@
     </ClCompile>
     <ClCompile Include="1558. 得到目标数组的最少函数调用次数.cpp">
       <Filter>源文件\1500-1599\demo1558</Filter>
-    </ClCompile>
-    <ClCompile Include="1557. 可以到达所有点的最少点数目.cpp">
-      <Filter>源文件\1500-1599\demo1557</Filter>
-    </ClCompile>
-    <ClCompile Include="1556. 千位分隔数.cpp">
-      <Filter>源文件\1500-1599\demo1556</Filter>
     </ClCompile>
     <ClCompile Include="1579. 保证图可完全遍历.cpp">
       <Filter>源文件\1500-1599\demo1579</Filter>
@@ -2524,6 +2500,18 @@
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
     <ClCompile Include="1551. 使数组中所有元素相等的最小操作数.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1598. 文件夹操作日志搜集器.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1553. 吃掉 N 个橘子的最少天数.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1556. 千位分隔数.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1557. 可以到达所有点的最少点数目.cpp">
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
   </ItemGroup>
