@@ -178,12 +178,6 @@
     <Filter Include="源文件\1400-1499\demo1446">
       <UniqueIdentifier>{c97e83f6-ed3f-429a-89c2-b1ace60bfb2b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1500-1599\demo1559">
-      <UniqueIdentifier>{4ff694c9-044f-45ff-96e3-4e3849e5ed7c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1558">
-      <UniqueIdentifier>{46de89d2-b395-46f6-b897-1179a7408e49}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1500-1599\demo1579">
       <UniqueIdentifier>{74f2942c-7b08-4bbf-ad9e-4acb0be47189}</UniqueIdentifier>
     </Filter>
@@ -204,9 +198,6 @@
     </Filter>
     <Filter Include="源文件\1500-1599\demo1561">
       <UniqueIdentifier>{01403a8d-784e-4f92-8967-45dc1445c9fb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1560">
-      <UniqueIdentifier>{498e453a-5ba1-42f0-b01f-91db4d04a4f3}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499\demo1499">
       <UniqueIdentifier>{6a520ebd-5869-457e-ac70-e90fbb5c47f4}</UniqueIdentifier>
@@ -293,9 +284,6 @@
     </ClCompile>
     <ClCompile Include="1423. 可获得的最大点数.cpp">
       <Filter>源文件\1400-1499\demo1423</Filter>
-    </ClCompile>
-    <ClCompile Include="1590. 使数组和能被 P 整除.cpp">
-      <Filter>源文件\1500-1599\demo1590</Filter>
     </ClCompile>
     <ClCompile Include="1449.数位成本和为目标值的最大数字.cpp">
       <Filter>源文件\1400-1499\demo1449</Filter>
@@ -384,12 +372,6 @@
     <ClCompile Include="1446. 连续字符.cpp">
       <Filter>源文件\1400-1499\demo1446</Filter>
     </ClCompile>
-    <ClCompile Include="1559. 二维网格图中探测环.cpp">
-      <Filter>源文件\1500-1599\demo1559</Filter>
-    </ClCompile>
-    <ClCompile Include="1558. 得到目标数组的最少函数调用次数.cpp">
-      <Filter>源文件\1500-1599\demo1558</Filter>
-    </ClCompile>
     <ClCompile Include="1579. 保证图可完全遍历.cpp">
       <Filter>源文件\1500-1599\demo1579</Filter>
     </ClCompile>
@@ -410,9 +392,6 @@
     </ClCompile>
     <ClCompile Include="1561. 你可以获得的最大硬币数目.cpp">
       <Filter>源文件\1500-1599\demo1561</Filter>
-    </ClCompile>
-    <ClCompile Include="1560. 圆形赛道上经过次数最多的扇区.cpp">
-      <Filter>源文件\1500-1599\demo1560</Filter>
     </ClCompile>
     <ClCompile Include="1499. 满足不等式的最大值.cpp">
       <Filter>源文件\1400-1499\demo1499</Filter>
@@ -2512,6 +2491,18 @@
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
     <ClCompile Include="1557. 可以到达所有点的最少点数目.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1590. 使数组和能被 P 整除.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1558. 得到目标数组的最少函数调用次数.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1559. 二维网格图中探测环.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
+    <ClCompile Include="1560. 圆形赛道上经过次数最多的扇区.cpp">
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
   </ItemGroup>
