@@ -91,23 +91,8 @@
     <Filter Include="源文件\1400-1499\demo1449">
       <UniqueIdentifier>{99cc1772-2b55-430b-a1df-0c09a4d00128}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1400-1499\demo1403">
-      <UniqueIdentifier>{31f0273f-40af-4d20-8f7d-66df38b1bd1b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1900-1999">
       <UniqueIdentifier>{efbe98c0-a721-428d-bf5c-699c81b543a8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1408">
-      <UniqueIdentifier>{7299892a-9004-4275-a61b-1cbab762b674}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1413">
-      <UniqueIdentifier>{60be2fec-0057-4fc4-a5b0-dbdd841b02b9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1417">
-      <UniqueIdentifier>{b0a9988f-46e7-4d4d-b6c1-ca1f4d9d8906}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1422">
-      <UniqueIdentifier>{92bc5991-3d80-4740-994e-db297fb1334b}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499\demo1450">
       <UniqueIdentifier>{99caf549-7091-4221-b1d1-61d0febba554}</UniqueIdentifier>
@@ -287,21 +272,6 @@
     </ClCompile>
     <ClCompile Include="1449.数位成本和为目标值的最大数字.cpp">
       <Filter>源文件\1400-1499\demo1449</Filter>
-    </ClCompile>
-    <ClCompile Include="1403. 非递增顺序的最小子序列.cpp">
-      <Filter>源文件\1400-1499\demo1403</Filter>
-    </ClCompile>
-    <ClCompile Include="1408. 数组中的字符串匹配.cpp">
-      <Filter>源文件\1400-1499\demo1408</Filter>
-    </ClCompile>
-    <ClCompile Include="1413. 逐步求和得到正数的最小值.cpp">
-      <Filter>源文件\1400-1499\demo1413</Filter>
-    </ClCompile>
-    <ClCompile Include="1417. 重新格式化字符串.cpp">
-      <Filter>源文件\1400-1499\demo1417</Filter>
-    </ClCompile>
-    <ClCompile Include="1422. 分割字符串的最大得分.cpp">
-      <Filter>源文件\1400-1499\demo1422</Filter>
     </ClCompile>
     <ClCompile Include="1450. 在既定时间做作业的学生人数.cpp">
       <Filter>源文件\1400-1499\demo1450</Filter>
@@ -2507,6 +2477,21 @@
     </ClCompile>
     <ClCompile Include="2185. 统计包含给定前缀的字符串.cpp">
       <Filter>源文件\2100-2199</Filter>
+    </ClCompile>
+    <ClCompile Include="1403. 非递增顺序的最小子序列.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1408. 数组中的字符串匹配.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1422. 分割字符串的最大得分.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1413. 逐步求和得到正数的最小值.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1417. 重新格式化字符串.cpp">
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
