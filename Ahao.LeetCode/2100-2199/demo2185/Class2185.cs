@@ -23,5 +23,19 @@ namespace Ahao.LeetCode._2100_2199.demo2185
 
             return res;
         }
+
+        public int PrefixCount2(string[] words, string pref)
+        {
+            int res = 0;
+            foreach (string word in words)
+            {
+                if (word.StartsWith(pref))
+                {
+                    res++;
+                }
+            }
+            return res;
+        }
+
     }
 }
