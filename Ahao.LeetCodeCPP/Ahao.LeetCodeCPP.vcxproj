@@ -163,6 +163,7 @@
     <ClCompile Include="1184. 公交站间的距离.cpp" />
     <ClCompile Include="1802. 有界数组中指定下标处的最大值.cpp" />
     <ClCompile Include="1803. 统计异或值在范围内的数对有多少.cpp" />
+    <ClCompile Include="2185. 统计包含给定前缀的字符串.cpp" />
     <ClCompile Include="2401. 最长优雅子数组.cpp" />
     <ClCompile Include="416. 分割等和子集.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />

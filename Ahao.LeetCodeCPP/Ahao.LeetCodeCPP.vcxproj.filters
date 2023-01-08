@@ -2505,6 +2505,9 @@
     <ClCompile Include="1560. 圆形赛道上经过次数最多的扇区.cpp">
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
+    <ClCompile Include="2185. 统计包含给定前缀的字符串.cpp">
+      <Filter>源文件\2100-2199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
