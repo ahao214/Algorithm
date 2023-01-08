@@ -67,9 +67,6 @@
     <Filter Include="源文件\1400-1499">
       <UniqueIdentifier>{cf1b7cce-7edf-4f8a-924d-daf1023a0322}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1400-1499\demo1423">
-      <UniqueIdentifier>{b299578b-7dd4-4fbb-9b31-a31fc5e49ace}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1500-1599">
       <UniqueIdentifier>{6565823a-03e7-4268-9291-f611bce2e1d9}</UniqueIdentifier>
     </Filter>
@@ -88,9 +85,6 @@
     <Filter Include="源文件\2300-2399">
       <UniqueIdentifier>{70bcfc2e-2139-4cca-89a4-831e09b685eb}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1400-1499\demo1449">
-      <UniqueIdentifier>{99cc1772-2b55-430b-a1df-0c09a4d00128}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1900-1999">
       <UniqueIdentifier>{efbe98c0-a721-428d-bf5c-699c81b543a8}</UniqueIdentifier>
     </Filter>
@@ -105,9 +99,6 @@
     </Filter>
     <Filter Include="源文件\1500-1599\demo1582">
       <UniqueIdentifier>{21af5ba8-3ad5-4564-96c2-db4fe5053b2b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1441">
-      <UniqueIdentifier>{bbc6b5fb-75f3-41bd-806c-071b4ccc03dd}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499\demo1478">
       <UniqueIdentifier>{2f1a9be3-4ca7-4ddd-af45-4b6b13636d34}</UniqueIdentifier>
@@ -153,15 +144,6 @@
     </Filter>
     <Filter Include="源文件\1400-1499\demo1460">
       <UniqueIdentifier>{3b4ffbb8-336f-4439-8304-44cf5c22c533}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1448">
-      <UniqueIdentifier>{5e3c6468-2c26-4bc2-ab52-3fdee219f2ba}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1447">
-      <UniqueIdentifier>{dafb7ed5-8681-4a63-a779-792d354b4b14}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1446">
-      <UniqueIdentifier>{c97e83f6-ed3f-429a-89c2-b1ace60bfb2b}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1500-1599\demo1579">
       <UniqueIdentifier>{74f2942c-7b08-4bbf-ad9e-4acb0be47189}</UniqueIdentifier>
@@ -267,12 +249,6 @@
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="1423. 可获得的最大点数.cpp">
-      <Filter>源文件\1400-1499\demo1423</Filter>
-    </ClCompile>
-    <ClCompile Include="1449.数位成本和为目标值的最大数字.cpp">
-      <Filter>源文件\1400-1499\demo1449</Filter>
-    </ClCompile>
     <ClCompile Include="1450. 在既定时间做作业的学生人数.cpp">
       <Filter>源文件\1400-1499\demo1450</Filter>
     </ClCompile>
@@ -284,9 +260,6 @@
     </ClCompile>
     <ClCompile Include="1582. 二进制矩阵中的特殊位置.cpp">
       <Filter>源文件\1500-1599\demo1582</Filter>
-    </ClCompile>
-    <ClCompile Include="1441. 用栈操作构建数组.cpp">
-      <Filter>源文件\1400-1499\demo1441</Filter>
     </ClCompile>
     <ClCompile Include="1478. 安排邮筒.cpp">
       <Filter>源文件\1400-1499\demo1478</Filter>
@@ -332,15 +305,6 @@
     </ClCompile>
     <ClCompile Include="1460. 通过翻转子数组使两个数组相等.cpp">
       <Filter>源文件\1400-1499\demo1460</Filter>
-    </ClCompile>
-    <ClCompile Include="1448. 统计二叉树中好节点的数目.cpp">
-      <Filter>源文件\1400-1499\demo1448</Filter>
-    </ClCompile>
-    <ClCompile Include="1447. 最简分数.cpp">
-      <Filter>源文件\1400-1499\demo1447</Filter>
-    </ClCompile>
-    <ClCompile Include="1446. 连续字符.cpp">
-      <Filter>源文件\1400-1499\demo1446</Filter>
     </ClCompile>
     <ClCompile Include="1579. 保证图可完全遍历.cpp">
       <Filter>源文件\1500-1599\demo1579</Filter>
@@ -2491,6 +2455,24 @@
       <Filter>源文件\1400-1499</Filter>
     </ClCompile>
     <ClCompile Include="1417. 重新格式化字符串.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1446. 连续字符.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1423. 可获得的最大点数.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1441. 用栈操作构建数组.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1449.数位成本和为目标值的最大数字.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1448. 统计二叉树中好节点的数目.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1447. 最简分数.cpp">
       <Filter>源文件\1400-1499</Filter>
     </ClCompile>
   </ItemGroup>
