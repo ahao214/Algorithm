@@ -70,9 +70,6 @@
     <Filter Include="源文件\1500-1599">
       <UniqueIdentifier>{6565823a-03e7-4268-9291-f611bce2e1d9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1500-1599\demo1590">
-      <UniqueIdentifier>{d410987e-023c-4f9f-bab2-7fe14234eccd}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1700-1799">
       <UniqueIdentifier>{c38d5659-a1cc-4861-89b7-10f9dadbbb7d}</UniqueIdentifier>
     </Filter>
@@ -93,9 +90,6 @@
     </Filter>
     <Filter Include="源文件\1400-1499\demo1470">
       <UniqueIdentifier>{77fdece1-e839-4701-b828-1043fc182eb0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1500-1599\demo1582">
-      <UniqueIdentifier>{21af5ba8-3ad5-4564-96c2-db4fe5053b2b}</UniqueIdentifier>
     </Filter>
     <Filter Include="源文件\1400-1499\demo1478">
       <UniqueIdentifier>{2f1a9be3-4ca7-4ddd-af45-4b6b13636d34}</UniqueIdentifier>
@@ -221,9 +215,6 @@
     </ClCompile>
     <ClCompile Include="1470. 重新排列数组.cpp">
       <Filter>源文件\1400-1499\demo1470</Filter>
-    </ClCompile>
-    <ClCompile Include="1582. 二进制矩阵中的特殊位置.cpp">
-      <Filter>源文件\1500-1599\demo1582</Filter>
     </ClCompile>
     <ClCompile Include="1478. 安排邮筒.cpp">
       <Filter>源文件\1400-1499\demo1478</Filter>
@@ -2441,6 +2432,9 @@
     </ClCompile>
     <ClCompile Include="1462. 课程表 IV.cpp">
       <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1582. 二进制矩阵中的特殊位置.cpp">
+      <Filter>源文件\1500-1599</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
