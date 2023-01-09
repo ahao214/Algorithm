@@ -109,9 +109,6 @@
     <Filter Include="源文件\1400-1499\demo1475">
       <UniqueIdentifier>{61a4911b-3905-46a8-befc-5a3aac16c5c4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1400-1499\demo1499">
-      <UniqueIdentifier>{6a520ebd-5869-457e-ac70-e90fbb5c47f4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1489">
       <UniqueIdentifier>{1f7c1178-4cae-4057-ae29-c7bdbc2785d3}</UniqueIdentifier>
     </Filter>
@@ -176,9 +173,6 @@
     </ClCompile>
     <ClCompile Include="1475. 商品折扣后的最终价格.cpp">
       <Filter>源文件\1400-1499\demo1475</Filter>
-    </ClCompile>
-    <ClCompile Include="1499. 满足不等式的最大值.cpp">
-      <Filter>源文件\1400-1499\demo1499</Filter>
     </ClCompile>
     <ClCompile Include="1489. 找到最小生成树里的关键边和伪关键边.cpp">
       <Filter>源文件\1400-1499\demo1489</Filter>
@@ -2380,6 +2374,9 @@
       <Filter>源文件\1400-1499</Filter>
     </ClCompile>
     <ClCompile Include="1473. 粉刷房子 III.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1499. 满足不等式的最大值.cpp">
       <Filter>源文件\1400-1499</Filter>
     </ClCompile>
   </ItemGroup>
