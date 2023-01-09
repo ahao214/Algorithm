@@ -41,3 +41,54 @@ public:
 		return dummy->next;
 	}
 };
+
+
+
+class Solution {
+public:
+	ListNode* reverseBetween(ListNode* head, int left, int right) {
+		ListNode* dummy = new ListNode(0);
+		dummy->next = head;
+
+		//链表在right处断开
+		ListNode* p = dummy;
+		for (int i = 0; i < right; i++)
+			p = p->next;
+		ListNode* c = p->next;
+		p->next = nullptr;
+
+		//链表在left处断开
+		p = dummy;
+		for (int i = 0; i < left - 1; i++)
+			p = p->next;
+		ListNode* b = p->next;
+		p->next = nullptr;
+
+		b = reverseLinkedList(b);
+
+		p = dummy;
+		while (p->next)
+			p = p->next;
+		p->next = b;
+		while (p->next)
+			p = p->next;
+		p->next = c;
+
+		return dummy->next;
+	}
+
+	ListNode* reverseLinkedList(ListNode* head)
+	{
+		ListNode* last = nullptr;
+		ListNode* cur = head;
+		ListNode* nxt;
+		while (cur)
+		{
+			nxt = cur->next;
+			cur->next = last;
+			last = cur;
+			cur = nxt;
+		}
+		return last;
+	}
+};
