@@ -109,9 +109,6 @@
     <Filter Include="源文件\1400-1499\demo1475">
       <UniqueIdentifier>{61a4911b-3905-46a8-befc-5a3aac16c5c4}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1400-1499\demo1463">
-      <UniqueIdentifier>{b0abd5ef-ead8-4a58-9747-a9b922cba898}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\1400-1499\demo1499">
       <UniqueIdentifier>{6a520ebd-5869-457e-ac70-e90fbb5c47f4}</UniqueIdentifier>
     </Filter>
@@ -148,12 +145,6 @@
     <Filter Include="源文件\1400-1499\demo1480">
       <UniqueIdentifier>{fcbe44de-6259-4c0f-a4ca-731d1fe6f2ae}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1400-1499\demo1473">
-      <UniqueIdentifier>{46249a07-a3e1-499a-88e0-420ffa8c4ecd}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1472">
-      <UniqueIdentifier>{3bc3c416-f199-4832-bd54-a069e01d6f28}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\2400-2499">
       <UniqueIdentifier>{3bca2155-3686-47f5-874c-13fffe215c8d}</UniqueIdentifier>
     </Filter>
@@ -185,9 +176,6 @@
     </ClCompile>
     <ClCompile Include="1475. 商品折扣后的最终价格.cpp">
       <Filter>源文件\1400-1499\demo1475</Filter>
-    </ClCompile>
-    <ClCompile Include="1463. 摘樱桃 II.cpp">
-      <Filter>源文件\1400-1499\demo1463</Filter>
     </ClCompile>
     <ClCompile Include="1499. 满足不等式的最大值.cpp">
       <Filter>源文件\1400-1499\demo1499</Filter>
@@ -224,12 +212,6 @@
     </ClCompile>
     <ClCompile Include="1480. 一维数组的动态和.cpp">
       <Filter>源文件\1400-1499\demo1480</Filter>
-    </ClCompile>
-    <ClCompile Include="1473. 粉刷房子 III.cpp">
-      <Filter>源文件\1400-1499\demo1473</Filter>
-    </ClCompile>
-    <ClCompile Include="1472. 设计浏览器历史记录.cpp">
-      <Filter>源文件\1400-1499\demo1472</Filter>
     </ClCompile>
     <ClCompile Include="290. 单词规律.cpp">
       <Filter>源文件\0200-0299</Filter>
@@ -2370,26 +2352,35 @@
     <ClCompile Include="1577. 数的平方等于两数乘积的方法数.cpp">
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
-    <ClCompile Include="1466. 重新规划路线.cpp">
-      <Filter>源文件\1400-1499\demo1463</Filter>
-    </ClCompile>
-    <ClCompile Include="1465. 切割后面积最大的蛋糕.cpp">
-      <Filter>源文件\1400-1499\demo1463</Filter>
-    </ClCompile>
-    <ClCompile Include="1464. 数组中两元素的最大乘积.cpp">
-      <Filter>源文件\1400-1499\demo1463</Filter>
-    </ClCompile>
-    <ClCompile Include="1467. 两个盒子中球的颜色数相同的概率.cpp">
-      <Filter>源文件\1400-1499\demo1463</Filter>
-    </ClCompile>
-    <ClCompile Include="1470. 重新排列数组.cpp">
-      <Filter>源文件\1400-1499\demo1463</Filter>
-    </ClCompile>
-    <ClCompile Include="1471. 数组中的 k 个最强值.cpp">
-      <Filter>源文件\1400-1499\demo1463</Filter>
-    </ClCompile>
     <ClCompile Include="2411. 按位或最大的最小子数组长度.cpp">
       <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
+    <ClCompile Include="1463. 摘樱桃 II.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1464. 数组中两元素的最大乘积.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1465. 切割后面积最大的蛋糕.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1466. 重新规划路线.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1467. 两个盒子中球的颜色数相同的概率.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1470. 重新排列数组.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1471. 数组中的 k 个最强值.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1472. 设计浏览器历史记录.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1473. 粉刷房子 III.cpp">
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
