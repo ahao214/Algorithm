@@ -2388,6 +2388,9 @@
     <ClCompile Include="1471. 数组中的 k 个最强值.cpp">
       <Filter>源文件\1400-1499\demo1463</Filter>
     </ClCompile>
+    <ClCompile Include="2411. 按位或最大的最小子数组长度.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
