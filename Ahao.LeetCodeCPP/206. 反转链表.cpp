@@ -33,3 +33,24 @@ public:
 		return a;
 	}
 };
+
+
+
+
+class Solution {
+public:
+	ListNode* reverseList(ListNode* head) {
+		ListNode* last = nullptr;
+		ListNode* cur = head;
+		ListNode* nxt;
+
+		while (cur != nullptr)
+		{
+			nxt = cur->next;
+			cur->next = last;
+			last = cur;
+			cur = nxt;
+		}
+		return last;
+	}
+};
