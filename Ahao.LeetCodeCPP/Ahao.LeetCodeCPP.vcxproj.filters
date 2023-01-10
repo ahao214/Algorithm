@@ -88,6 +88,9 @@
     <Filter Include="源文件\2400-2499">
       <UniqueIdentifier>{3bca2155-3686-47f5-874c-13fffe215c8d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2500-2599">
+      <UniqueIdentifier>{5a03dbfe-6567-429d-b5e3-9096ec515e95}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2327,6 +2330,9 @@
     </ClCompile>
     <ClCompile Include="2463. 最小移动总距离.cpp">
       <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
+    <ClCompile Include="2518. 好分区的数目.cpp">
+      <Filter>源文件\2500-2599</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
