@@ -779,6 +779,7 @@
     <ClCompile Include="744. 寻找比目标字母大的最小字母.cpp" />
     <ClCompile Include="746. 使用最小花费爬楼梯.cpp" />
     <ClCompile Include="75. 颜色分类.cpp" />
+    <ClCompile Include="753. 破解保险箱.cpp" />
     <ClCompile Include="754. 到达终点数字.cpp" />
     <ClCompile Include="756. 金字塔转换矩阵.cpp" />
     <ClCompile Include="757. 设置交集大小至少为2.cpp" />
