@@ -167,6 +167,7 @@
     <ClCompile Include="2401. 最长优雅子数组.cpp" />
     <ClCompile Include="2411. 按位或最大的最小子数组长度.cpp" />
     <ClCompile Include="2463. 最小移动总距离.cpp" />
+    <ClCompile Include="2503. 矩阵查询可获得的最大分数.cpp" />
     <ClCompile Include="2518. 好分区的数目.cpp" />
     <ClCompile Include="416. 分割等和子集.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
