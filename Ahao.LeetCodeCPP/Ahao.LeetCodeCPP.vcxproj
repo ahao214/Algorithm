@@ -166,6 +166,7 @@
     <ClCompile Include="2185. 统计包含给定前缀的字符串.cpp" />
     <ClCompile Include="2401. 最长优雅子数组.cpp" />
     <ClCompile Include="2411. 按位或最大的最小子数组长度.cpp" />
+    <ClCompile Include="2463. 最小移动总距离.cpp" />
     <ClCompile Include="416. 分割等和子集.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="120. 三角形最小路径和.cpp" />

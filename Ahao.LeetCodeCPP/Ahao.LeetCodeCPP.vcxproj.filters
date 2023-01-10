@@ -85,30 +85,6 @@
     <Filter Include="源文件\1900-1999">
       <UniqueIdentifier>{efbe98c0-a721-428d-bf5c-699c81b543a8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\1400-1499\demo1494">
-      <UniqueIdentifier>{ea7b90c3-c734-49bd-9fbd-5231f5210cc8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1493">
-      <UniqueIdentifier>{ccba5bc8-09a4-4787-b98e-299b11a20498}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1492">
-      <UniqueIdentifier>{b03c201e-3499-4120-a61e-a11731a9b131}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1475">
-      <UniqueIdentifier>{61a4911b-3905-46a8-befc-5a3aac16c5c4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1496">
-      <UniqueIdentifier>{66245341-8047-4b8c-9f4e-abc2b710db76}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1497">
-      <UniqueIdentifier>{aeecc6bc-4678-457f-ba14-44a30a727f49}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1498">
-      <UniqueIdentifier>{381a9abf-bc1c-4597-8ee8-496b80c3217d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\1400-1499\demo1481">
-      <UniqueIdentifier>{0bd6a0f7-3d70-4d3d-8623-f93e1655fa2a}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\2400-2499">
       <UniqueIdentifier>{3bca2155-3686-47f5-874c-13fffe215c8d}</UniqueIdentifier>
     </Filter>
@@ -116,24 +92,6 @@
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="1494. 并行课程 II.cpp">
-      <Filter>源文件\1400-1499\demo1494</Filter>
-    </ClCompile>
-    <ClCompile Include="1492. n 的第 k 个因子.cpp">
-      <Filter>源文件\1400-1499\demo1492</Filter>
-    </ClCompile>
-    <ClCompile Include="1475. 商品折扣后的最终价格.cpp">
-      <Filter>源文件\1400-1499\demo1475</Filter>
-    </ClCompile>
-    <ClCompile Include="1496. 判断路径是否相交.cpp">
-      <Filter>源文件\1400-1499\demo1496</Filter>
-    </ClCompile>
-    <ClCompile Include="1497. 检查数组对是否可以被 k 整除.cpp">
-      <Filter>源文件\1400-1499\demo1497</Filter>
-    </ClCompile>
-    <ClCompile Include="1481. 不同整数的最少数目.cpp">
-      <Filter>源文件\1400-1499\demo1481</Filter>
     </ClCompile>
     <ClCompile Include="290. 单词规律.cpp">
       <Filter>源文件\0200-0299</Filter>
@@ -2310,44 +2268,65 @@
     <ClCompile Include="753. 破解保险箱.cpp">
       <Filter>源文件\0700-0799</Filter>
     </ClCompile>
-    <ClCompile Include="1480. 一维数组的动态和.cpp">
-      <Filter>源文件\1400-1499\demo1475</Filter>
+    <ClCompile Include="1475. 商品折扣后的最终价格.cpp">
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
     <ClCompile Include="1476. 子矩形查询.cpp">
-      <Filter>源文件\1400-1499\demo1475</Filter>
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
     <ClCompile Include="1477. 找两个和为目标值且不重叠的子数组.cpp">
-      <Filter>源文件\1400-1499\demo1475</Filter>
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
     <ClCompile Include="1478. 安排邮筒.cpp">
-      <Filter>源文件\1400-1499\demo1475</Filter>
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
-    <ClCompile Include="1483. 树节点的第 K 个祖先.cpp">
-      <Filter>源文件\1400-1499\demo1481</Filter>
+    <ClCompile Include="1480. 一维数组的动态和.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1481. 不同整数的最少数目.cpp">
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
     <ClCompile Include="1482. 制作 m 束花所需的最少天数.cpp">
-      <Filter>源文件\1400-1499\demo1481</Filter>
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1483. 树节点的第 K 个祖先.cpp">
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
     <ClCompile Include="1486. 数组异或操作.cpp">
-      <Filter>源文件\1400-1499\demo1481</Filter>
-    </ClCompile>
-    <ClCompile Include="1491. 去掉最低工资和最高工资后的工资平均值.cpp">
-      <Filter>源文件\1400-1499\demo1481</Filter>
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
     <ClCompile Include="1487. 保证文件名唯一.cpp">
-      <Filter>源文件\1400-1499\demo1481</Filter>
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
     <ClCompile Include="1488. 避免洪水泛滥.cpp">
-      <Filter>源文件\1400-1499\demo1481</Filter>
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
     <ClCompile Include="1489. 找到最小生成树里的关键边和伪关键边.cpp">
-      <Filter>源文件\1400-1499\demo1481</Filter>
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
-    <ClCompile Include="1498. 满足条件的子序列数目.cpp">
-      <Filter>源文件\1400-1499\demo1492</Filter>
+    <ClCompile Include="1491. 去掉最低工资和最高工资后的工资平均值.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1494. 并行课程 II.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1496. 判断路径是否相交.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1497. 检查数组对是否可以被 k 整除.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1492. n 的第 k 个因子.cpp">
+      <Filter>源文件\1400-1499</Filter>
     </ClCompile>
     <ClCompile Include="1493. 删掉一个元素以后全为 1 的最长子数组.cpp">
-      <Filter>源文件\1400-1499\demo1492</Filter>
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="1498. 满足条件的子序列数目.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
+    <ClCompile Include="2463. 最小移动总距离.cpp">
+      <Filter>源文件\2400-2499</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
