@@ -2343,6 +2343,9 @@
     <ClCompile Include="2461. 长度为 K 子数组中的最大和.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="494. 目标和.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
