@@ -2346,6 +2346,9 @@
     <ClCompile Include="494. 目标和.cpp">
       <Filter>源文件\0400-0499</Filter>
     </ClCompile>
+    <ClCompile Include="2478. 完美分割的方案数.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
