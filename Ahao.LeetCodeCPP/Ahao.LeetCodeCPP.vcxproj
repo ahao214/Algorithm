@@ -164,6 +164,7 @@
     <ClCompile Include="1802. 有界数组中指定下标处的最大值.cpp" />
     <ClCompile Include="1803. 统计异或值在范围内的数对有多少.cpp" />
     <ClCompile Include="2185. 统计包含给定前缀的字符串.cpp" />
+    <ClCompile Include="2283. 判断一个数的数字计数是否等于数位的值.cpp" />
     <ClCompile Include="2401. 最长优雅子数组.cpp" />
     <ClCompile Include="2411. 按位或最大的最小子数组长度.cpp" />
     <ClCompile Include="2463. 最小移动总距离.cpp" />
