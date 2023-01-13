@@ -36,3 +36,45 @@ public:
 	}
 };
 
+
+
+
+class Solution {
+public:
+	bool check(const string& s, int a, int b) {
+		set<char> st;
+		for (int i = a; i <= b; ++i) {
+			st.insert(s[i]);
+		}
+		for (int i = a; i <= b; ++i) {
+			char c = s[i];
+			if (c <= 'z' && c >= 'a') {
+				if (!st.count(c - 'a' + 'A')) return false;
+			}
+			else {
+				if (!st.count(c - 'A' + 'a')) return false;
+			}
+		}
+		return true;
+	}
+	string longestNiceSubstring(string s) {
+		int n = s.size(), ml = 0, le = 0, ri = 0;
+		for (int i = 0; i < n; ++i) {
+			for (int j = i + 1; j < n; ++j) {
+				if (check(s, i, j)) {
+					if (j - i > ml) {
+						ml = j - i;
+						le = i;
+						ri = j;
+					}
+				}
+			}
+		}
+		if (ml) {
+			return s.substr(le, ri - le + 1);
+		}
+		else {
+			return "";
+		}
+	}
+};
