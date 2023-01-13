@@ -2370,6 +2370,9 @@
     <ClCompile Include="190. 颠倒二进制位.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="1414. 和为 K 的最少斐波那契数字数目.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

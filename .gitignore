@@ -339,3 +339,4 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 /Ahao.LeetCodeCPP/1453. 圆形靶内的最大飞镖数量.cpp
+/Ahao.LeetCodeCPP/1414. 和为 K 的最少斐波那契数字数目.cpp
