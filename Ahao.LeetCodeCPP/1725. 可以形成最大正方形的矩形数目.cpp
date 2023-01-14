@@ -30,3 +30,20 @@ public:
 		return res;
 	}
 };
+
+
+class Solution {
+public:
+	int countGoodRectangles(vector<vector<int>>& rectangles) {
+		int n = rectangles.size(), maxLen = 0, ans = 0;
+		for (int i = 0; i < n; ++i) {
+			maxLen = max(maxLen, min(rectangles[i][0], rectangles[i][1]));
+		}
+		for (int i = 0; i < n; ++i) {
+			if (min(rectangles[i][0], rectangles[i][1]) == maxLen) {
+				ans++;
+			}
+		}
+		return ans;
+	}
+};
