@@ -2376,6 +2376,9 @@
     <ClCompile Include="1819. 序列中不同最大公约数的数目.cpp">
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
+    <ClCompile Include="2458. 移除子树后的二叉树高度.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
