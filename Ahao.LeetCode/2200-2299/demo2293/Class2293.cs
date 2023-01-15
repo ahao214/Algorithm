@@ -35,5 +35,35 @@ namespace Ahao.LeetCode._2200_2299.demo2293
             return MinMaxGame(newNums);
         }
 
+
+
+        /// <summary>
+        /// 模拟
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public int MinMaxGame2(int[] nums)
+        {
+            int n = nums.Length;
+            while (n != 1)
+            {
+                int[] newNums = new int[n / 2];
+                for (int i = 0; i < newNums.Length; i++)
+                {
+                    if (i % 2 == 0)
+                    {
+                        newNums[i] = Math.Min(nums[2 * i], nums[2 * i + 1]);
+                    }
+                    else
+                    {
+                        newNums[i] = Math.Max(nums[2 * i], nums[2 * i + 1]);
+                    }
+                }
+                nums = newNums;
+                n /= 2;
+            }
+            return nums[0];
+        }
+
     }
 }
