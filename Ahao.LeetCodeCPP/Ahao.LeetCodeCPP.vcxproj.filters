@@ -2379,6 +2379,9 @@
     <ClCompile Include="2458. 移除子树后的二叉树高度.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="2293. 极大极小游戏.cpp">
+      <Filter>源文件\2200-2299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
