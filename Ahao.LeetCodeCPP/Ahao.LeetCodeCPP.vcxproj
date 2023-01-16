@@ -180,6 +180,7 @@
     <ClCompile Include="2463. 最小移动总距离.cpp" />
     <ClCompile Include="2467. 树上最大得分和路径.cpp" />
     <ClCompile Include="2478. 完美分割的方案数.cpp" />
+    <ClCompile Include="2484. 统计回文子序列数目.cpp" />
     <ClCompile Include="2498. 青蛙过河 II.cpp" />
     <ClCompile Include="2503. 矩阵查询可获得的最大分数.cpp" />
     <ClCompile Include="2509. 查询树中环的长度.cpp" />

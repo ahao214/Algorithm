@@ -2385,6 +2385,9 @@
     <ClCompile Include="2509. 查询树中环的长度.cpp">
       <Filter>源文件\2500-2599</Filter>
     </ClCompile>
+    <ClCompile Include="2484. 统计回文子序列数目.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
