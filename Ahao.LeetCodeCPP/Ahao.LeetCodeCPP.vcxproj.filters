@@ -2391,6 +2391,9 @@
     <ClCompile Include="2493. 将节点分成尽可能多的组.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="2435. 矩阵中和能被 K 整除的路径.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
