@@ -142,6 +142,7 @@
     <ClCompile Include="..\ahao.leetcode\interview\380. o(1) 时间插入、删除和获取随机元素.cpp" />
     <ClCompile Include="1. 两数之和.cpp" />
     <ClCompile Include="10. 正则表达式匹配.cpp" />
+    <ClCompile Include="1007. 行相等的最少多米诺旋转.cpp" />
     <ClCompile Include="1009. 十进制整数的反码.cpp" />
     <ClCompile Include="101. 对称二叉树.cpp" />
     <ClCompile Include="102. 二叉树的层序遍历.cpp" />
