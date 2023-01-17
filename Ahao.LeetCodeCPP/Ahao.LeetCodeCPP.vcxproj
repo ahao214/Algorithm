@@ -162,6 +162,7 @@
     <ClCompile Include="1161. 最大层内元素和.cpp" />
     <ClCompile Include="1175. 质数排列.cpp" />
     <ClCompile Include="1184. 公交站间的距离.cpp" />
+    <ClCompile Include="1219. 黄金矿工.cpp" />
     <ClCompile Include="1249. 移除无效的括号.cpp" />
     <ClCompile Include="1414. 和为 K 的最少斐波那契数字数目.cpp" />
     <ClCompile Include="1802. 有界数组中指定下标处的最大值.cpp" />
