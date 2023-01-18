@@ -33,3 +33,34 @@ public:
 		return freq[0] > freq[1];
 	}
 };
+
+
+
+
+
+class Solution {
+public:
+	bool winnerOfGame(string colors) {
+		int n = colors.size(), na = 0, nb = 0, ta = 0, tb = 0;
+		for (int i = 0; i < n; i++)
+		{
+			if (colors[i] == 'A')
+			{
+				if (++ta >= 3)
+				{
+					na++;
+				}
+				tb = 0;
+			}
+			else
+			{
+				if (++tb >= 3)
+				{
+					nb++;
+				}
+				ta = 0;
+			}
+		}
+		return na > nb;
+	}
+};
