@@ -21,3 +21,18 @@ public:
         return maxWealth;
     }
 };
+
+
+
+class Solution {
+public:
+    int maximumWealth(vector<vector<int>>& accounts) {
+        int res = 0;
+        for (auto acc : accounts) {
+            //accumulate的用法：累加求和
+            int wealth = accumulate(acc.begin(), acc.end(), 0);
+            res = max(res, wealth);
+        }
+        return res;
+    }
+};
