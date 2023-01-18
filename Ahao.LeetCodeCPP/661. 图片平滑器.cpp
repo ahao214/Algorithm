@@ -32,3 +32,30 @@ public:
         return ret;
     }
 };
+
+
+
+class Solution {
+public:
+    vector<vector<int>> imageSmoother(vector<vector<int>>& img) {
+        int m = img.size(), n = img[0].size();
+        vector<vector<int>> ans(m, vector<int>(n));
+        for (int i = 0; i < m; i++)
+        {
+            for (int j = 0; j < n; j++)
+            {
+                int cnt = 0;
+                for (int k = max(0, i - 1); k <= min(m - 1, i + 1); ++k)
+                {
+                    for (int l = max(0, j - 1); l <= min(n - 1, j + 1); ++l)
+                    {
+                        ans[i][j] += img[k][l];
+                        cnt++;
+                    }
+                }
+                ans[i][j] /= cnt;
+            }
+        }
+        return ans;
+    }
+};
