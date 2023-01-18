@@ -2412,6 +2412,9 @@
     <ClCompile Include="1825. 求出 MK 平均值.cpp">
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
+    <ClCompile Include="1818. 绝对差值和.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

@@ -167,6 +167,7 @@
     <ClCompile Include="1414. 和为 K 的最少斐波那契数字数目.cpp" />
     <ClCompile Include="1802. 有界数组中指定下标处的最大值.cpp" />
     <ClCompile Include="1803. 统计异或值在范围内的数对有多少.cpp" />
+    <ClCompile Include="1818. 绝对差值和.cpp" />
     <ClCompile Include="1819. 序列中不同最大公约数的数目.cpp" />
     <ClCompile Include="1825. 求出 MK 平均值.cpp" />
     <ClCompile Include="190. 颠倒二进制位.cpp" />
