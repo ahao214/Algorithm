@@ -6,6 +6,7 @@ using namespace std;
 
 /*
 464. 我能赢吗
+
 在 "100 game" 这个游戏中，两名玩家轮流选择从 1 到 10 的任意整数，累计整数和，先使得累计整数和 达到或超过  100 的玩家，即为胜者。
 
 如果我们将游戏规则改为 “玩家 不能 重复使用整数” 呢？
@@ -45,6 +46,43 @@ public:
 			}
 		}
 		dp[desire][status] = false;
+		return false;
+	}
+};
+
+
+
+class Solution {
+	int visited[1 << 21];
+public:
+	bool canIWin(int maxChoosableInteger, int desiredTotal) {
+		int totalSum = (1 + maxChoosableInteger) * maxChoosableInteger / 2;
+		if (totalSum < desiredTotal)
+			return false;
+		return dfs(0, 0, maxChoosableInteger, desiredTotal);
+	}
+
+	bool dfs(int state, int sum, int maxChoosableInteger, int desiredTotal)
+	{
+		if (visited[state] == 2) return true;
+		if (visited[state] == 1) return false;
+
+		for (int i = 1; i <= maxChoosableInteger; i++)
+		{
+			if ((state >> i) & 1)
+				continue;
+			if (sum + i >= desiredTotal)
+			{
+				visited[state] = 2;
+				return true;
+			}
+			if (dfs(state + (1 << i), sum + i, maxChoosableInteger, desiredTotal) == false)
+			{
+				visited[state] = 2;
+				return true;
+			}
+		}
+		visited[state] = 1;
 		return false;
 	}
 };
