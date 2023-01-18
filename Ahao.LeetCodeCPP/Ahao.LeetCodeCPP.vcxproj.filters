@@ -2415,6 +2415,9 @@
     <ClCompile Include="1818. 绝对差值和.cpp">
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
+    <ClCompile Include="1996. 游戏中弱角色的数量.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
