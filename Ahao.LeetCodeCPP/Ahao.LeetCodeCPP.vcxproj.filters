@@ -2436,6 +2436,9 @@
     <ClCompile Include="2426. 满足不等式的数对数目.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="2472. 不重叠回文子字符串的最大数目.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

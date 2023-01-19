@@ -190,6 +190,7 @@
     <ClCompile Include="2461. 长度为 K 子数组中的最大和.cpp" />
     <ClCompile Include="2463. 最小移动总距离.cpp" />
     <ClCompile Include="2467. 树上最大得分和路径.cpp" />
+    <ClCompile Include="2472. 不重叠回文子字符串的最大数目.cpp" />
     <ClCompile Include="2478. 完美分割的方案数.cpp" />
     <ClCompile Include="2484. 统计回文子序列数目.cpp" />
     <ClCompile Include="2493. 将节点分成尽可能多的组.cpp" />
