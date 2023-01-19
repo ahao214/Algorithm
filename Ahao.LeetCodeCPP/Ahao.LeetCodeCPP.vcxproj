@@ -183,6 +183,7 @@
     <ClCompile Include="2389. 和有限的最长子序列.cpp" />
     <ClCompile Include="2401. 最长优雅子数组.cpp" />
     <ClCompile Include="2411. 按位或最大的最小子数组长度.cpp" />
+    <ClCompile Include="2434. 使用机器人打印字典序最小的字符串.cpp" />
     <ClCompile Include="2435. 矩阵中和能被 K 整除的路径.cpp" />
     <ClCompile Include="2458. 移除子树后的二叉树高度.cpp" />
     <ClCompile Include="2461. 长度为 K 子数组中的最大和.cpp" />
@@ -730,6 +731,7 @@
     <ClCompile Include="48. 旋转图像.cpp" />
     <ClCompile Include="481. 神奇字符串.cpp" />
     <ClCompile Include="49. 字母异位词分组.cpp" />
+    <ClCompile Include="493. 翻转对.cpp" />
     <ClCompile Include="494. 目标和.cpp" />
     <ClCompile Include="496. 下一个更大元素 I.cpp" />
     <ClCompile Include="497. 非重叠矩形中的随机点.cpp" />

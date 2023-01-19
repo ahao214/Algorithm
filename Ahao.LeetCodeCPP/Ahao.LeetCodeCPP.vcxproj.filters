@@ -2427,6 +2427,12 @@
     <ClCompile Include="926. 将字符串翻转到单调递增.cpp">
       <Filter>源文件\0900-0999</Filter>
     </ClCompile>
+    <ClCompile Include="2434. 使用机器人打印字典序最小的字符串.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
+    <ClCompile Include="493. 翻转对.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
