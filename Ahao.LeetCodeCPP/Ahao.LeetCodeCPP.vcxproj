@@ -183,6 +183,7 @@
     <ClCompile Include="2389. 和有限的最长子序列.cpp" />
     <ClCompile Include="2401. 最长优雅子数组.cpp" />
     <ClCompile Include="2411. 按位或最大的最小子数组长度.cpp" />
+    <ClCompile Include="2426. 满足不等式的数对数目.cpp" />
     <ClCompile Include="2434. 使用机器人打印字典序最小的字符串.cpp" />
     <ClCompile Include="2435. 矩阵中和能被 K 整除的路径.cpp" />
     <ClCompile Include="2458. 移除子树后的二叉树高度.cpp" />
