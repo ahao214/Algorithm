@@ -11,11 +11,10 @@ using namespace std;
 
 从形式上看，返回最大的 V，而 V = (A[i] + A[i+1] + ... + A[i+L-1]) + (A[j] + A[j+1] + ... + A[j+M-1]) 并满足下列条件之一：
 
-
-
 0 <= i < i + L - 1 < j < j + M - 1 < A.length, 或
 0 <= j < j + M - 1 < i < i + L - 1 < A.length.
 */
+
 class Solution {
 public:
 	int work(vector<int>& nums, int a, int b)
