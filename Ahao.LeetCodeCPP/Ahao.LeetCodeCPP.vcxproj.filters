@@ -2454,6 +2454,9 @@
     <ClCompile Include="2216. 美化数组的最少删除数.cpp">
       <Filter>源文件\2200-2299</Filter>
     </ClCompile>
+    <ClCompile Include="643.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
