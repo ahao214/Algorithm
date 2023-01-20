@@ -176,6 +176,7 @@
     <ClCompile Include="190. 颠倒二进制位.cpp" />
     <ClCompile Include="191. 位1的个数.cpp" />
     <ClCompile Include="1996. 游戏中弱角色的数量.cpp" />
+    <ClCompile Include="2024. 考试的最大困扰度.cpp" />
     <ClCompile Include="2185. 统计包含给定前缀的字符串.cpp" />
     <ClCompile Include="2283. 判断一个数的数字计数是否等于数位的值.cpp" />
     <ClCompile Include="2287. 重排字符形成目标字符串.cpp" />

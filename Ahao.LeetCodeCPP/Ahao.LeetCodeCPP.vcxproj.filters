@@ -2448,6 +2448,9 @@
     <ClCompile Include="763. 划分字母区间.cpp">
       <Filter>源文件\0700-0799</Filter>
     </ClCompile>
+    <ClCompile Include="2024. 考试的最大困扰度.cpp">
+      <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
