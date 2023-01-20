@@ -2439,6 +2439,9 @@
     <ClCompile Include="2472. 不重叠回文子字符串的最大数目.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="1817. 查找用户活跃分钟数.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
