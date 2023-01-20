@@ -37,3 +37,20 @@ public:
         return answer;
     }
 };
+
+class Solution {
+public:
+    vector<int> findingUsersActiveMinutes(vector<vector<int>>& logs, int k) {
+        const int n = logs.size();
+        vector<int> ans(k, 0);
+        unordered_map<int, unordered_set<int>> mp;
+
+        for (auto log : logs) {
+            int uID = log[0], time = log[1];
+            mp[uID].emplace(time);
+        }
+
+        for (auto it : mp)  ans[it.second.size() - 1]++;
+        return ans;
+    }
+};
