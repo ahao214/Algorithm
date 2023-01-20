@@ -148,6 +148,7 @@
     <ClCompile Include="102. 二叉树的层序遍历.cpp" />
     <ClCompile Include="1021. 删除最外层的括号.cpp" />
     <ClCompile Include="1022. 从根到叶的二进制数之和.cpp" />
+    <ClCompile Include="1031. 两个非重叠子数组的最大和.cpp" />
     <ClCompile Include="1037. 有效的回旋镖.cpp" />
     <ClCompile Include="105. 从前序与中序遍历序列构造二叉树.cpp" />
     <ClCompile Include="1051. 高度检查器.cpp" />
