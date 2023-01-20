@@ -2442,6 +2442,9 @@
     <ClCompile Include="1817. 查找用户活跃分钟数.cpp">
       <Filter>源文件\1800-1899</Filter>
     </ClCompile>
+    <ClCompile Include="1524. 和为奇数的子数组数目.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
