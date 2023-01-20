@@ -31,3 +31,37 @@ public:
 		return right;
 	}
 };
+
+
+class Solution {
+public:
+	int findDuplicate(vector<int>& nums) {
+		int left = 1, right = nums.size();
+		int res = -1;
+		auto comp = [&](int cur)
+		{
+			int count = 0;
+			for (auto n : nums)
+			{
+				if (n <= cur)
+					count++;
+			}
+			return count;
+		};
+
+		while (left <= right)
+		{
+			int mid = left + (right - left) / 2;
+			if (comp(mid) > mid)
+			{
+				res = mid;
+				right = mid - 1;
+			}
+			else
+			{
+				left = mid + 1;
+			}
+		}
+		return res;
+	}
+};
