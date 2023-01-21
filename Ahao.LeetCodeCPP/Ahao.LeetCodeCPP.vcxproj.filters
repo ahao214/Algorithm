@@ -2460,6 +2460,9 @@
     <ClCompile Include="1031. 两个非重叠子数组的最大和.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="1030. 距离顺序排列矩阵单元格.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
