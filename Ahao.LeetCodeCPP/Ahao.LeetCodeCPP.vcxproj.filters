@@ -2463,6 +2463,9 @@
     <ClCompile Include="1030. 距离顺序排列矩阵单元格.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="1815. 得到新鲜甜甜圈的最多组数.cpp">
+      <Filter>源文件\1800-1899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

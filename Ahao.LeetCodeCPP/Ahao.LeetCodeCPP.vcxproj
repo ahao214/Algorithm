@@ -171,6 +171,7 @@
     <ClCompile Include="1524. 和为奇数的子数组数目.cpp" />
     <ClCompile Include="1802. 有界数组中指定下标处的最大值.cpp" />
     <ClCompile Include="1803. 统计异或值在范围内的数对有多少.cpp" />
+    <ClCompile Include="1815. 得到新鲜甜甜圈的最多组数.cpp" />
     <ClCompile Include="1817. 查找用户活跃分钟数.cpp" />
     <ClCompile Include="1818. 绝对差值和.cpp" />
     <ClCompile Include="1819. 序列中不同最大公约数的数目.cpp" />
