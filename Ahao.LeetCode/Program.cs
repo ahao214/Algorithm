@@ -2,6 +2,7 @@
 using Ahao.LeetCode._6000_6099;
 using Ahao.LeetCode._6000_6099.demo6041;
 using Ahao.LeetCode._6000_6099.demo6071;
+using Ahao.LeetCode._6200_6299.demo6298;
 using Ahao.LeetCode.Medium.demo846;
 using static System.Console;
 
@@ -131,7 +132,8 @@ namespace Ahao.LeetCode
             //nums[1] = new int[4] { 1, 3, 2, 4 };
             //nums[2] = new int[4] { 3, 4, 5, 6 };
 
-
+            Class6298 c = new Class6298();
+            c.MakeStringsEqual("1010", "0101");
 
         }
     }

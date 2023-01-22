@@ -16,7 +16,7 @@ namespace Ahao.LeetCode._0700_0799.demo777
             {
                 while (i < n && start[i] == 'X')
                 {
-                    i++:
+                    i++;
                 }
                 while (j < n && start[j] == 'X')
                 {
@@ -43,7 +43,7 @@ namespace Ahao.LeetCode._0700_0799.demo777
                 {
                     return false;
                 }
-                i++:
+                i++;
             }
             while (j < n)
             {
