@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ahao.LeetCode._6200_6299.demo6296
 {
     /*
-     6296. 交替数字和 显示英文描述 
+     6296. 交替数字和 
 
 给你一个正整数 n 。n 中的每一位数字都会按下述规则分配一个符号：
 
