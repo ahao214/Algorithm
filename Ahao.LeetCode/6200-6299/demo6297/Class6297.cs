@@ -20,8 +20,21 @@ namespace Ahao.LeetCode._6200_6299.demo6297
     {
         public int[][] SortTheStudents(int[][] score, int k)
         {
-
-
+            for (int i = 0; i < score.Length - 1; i++)
+            {
+                for (int j = 0; j < score.Length - 1 - i; j++)
+                {
+                    if (score[j][k] < score[j + 1][k])
+                    {
+                        // 交换
+                        int[] tmp = score[j];
+                        score[j] = score[j + 1];
+                        score[j + 1] = tmp;
+                    }
+                }
+            }
+            return score;
         }
+
     }
 }
