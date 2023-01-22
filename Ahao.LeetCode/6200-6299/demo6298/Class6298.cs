@@ -29,29 +29,50 @@ namespace Ahao.LeetCode._6200_6299.demo6298
     {
         public bool MakeStringsEqual(string s, string target)
         {
+            int n = s.Length;
+            int i = 0;
             if (s == target)
-                return true;
-            ISet<string> dicOne = new HashSet<string>();
-            ISet<string> dicZero = new HashSet<string>();
+                return false;
+            for (i = 0; i < n; i++)
+            {
+                if (target[i] == '1')
+                    break;
+            }
+            if (i == n)
+                return false;
+            for (i = 0; i < n; i++)
+            {
+                if (s[i] == '1')
+                    break;
+            }
+            if (i == n)
+                return false;
+            return true;
+        }
+
+        public bool makeStringsEqual2(string s, string target)
+        {
+            int cnt1 = 0, cnt2 = 0;
             for (int i = 0; i < s.Length; i++)
             {
-                if (!dicOne.Contains(s.Substring(i, 1)))
-                    dicOne.Add(s.Substring(i, 1));
+                if (s[i] == '1')
+                {
+                    cnt1++;
+                }
+                if (target[i] == '1')
+                {
+                    cnt2++;
+                }
             }
-            for (int i = 0; i < target.Length; i++)
+            if (cnt1 == 0)
             {
-                if (dicZero.Contains(target.Substring(i, 1)))
-                    dicZero.Add(target.Substring(i, 1));
+                return cnt2 == 0;
+            }
+            else
+            {
+                return cnt2 > 0;
             }
 
-            for (int i = 0; i < target.Length; i++)
-                if (dicOne.Contains(target.Substring(i, 1)))
-                    dicOne.Remove(target.Substring(i, 1));
-            for (int i = 0; i < s.Length; i++)
-                if (dicZero.Contains(s.Substring(i, 1)))
-                    dicZero.Remove(s.Substring(i, 1));
-
-            return dicOne.Count == dicZero.Count && dicOne.Count == 0 && dicZero.Count == 0;
         }
     }
 }
