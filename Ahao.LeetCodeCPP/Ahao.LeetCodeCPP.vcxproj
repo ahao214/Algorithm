@@ -186,6 +186,7 @@
     <ClCompile Include="2287. 重排字符形成目标字符串.cpp" />
     <ClCompile Include="2293. 极大极小游戏.cpp" />
     <ClCompile Include="2299. 强密码检验器 II.cpp" />
+    <ClCompile Include="2303. 计算应缴税款总额.cpp" />
     <ClCompile Include="2354. 优质数对的数目.cpp" />
     <ClCompile Include="2389. 和有限的最长子序列.cpp" />
     <ClCompile Include="2401. 最长优雅子数组.cpp" />
