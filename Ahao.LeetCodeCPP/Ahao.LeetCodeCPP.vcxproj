@@ -170,6 +170,7 @@
     <ClCompile Include="1249. 移除无效的括号.cpp" />
     <ClCompile Include="1414. 和为 K 的最少斐波那契数字数目.cpp" />
     <ClCompile Include="1524. 和为奇数的子数组数目.cpp" />
+    <ClCompile Include="1632. 矩阵转换后的秩.cpp" />
     <ClCompile Include="1802. 有界数组中指定下标处的最大值.cpp" />
     <ClCompile Include="1803. 统计异或值在范围内的数对有多少.cpp" />
     <ClCompile Include="1815. 得到新鲜甜甜圈的最多组数.cpp" />

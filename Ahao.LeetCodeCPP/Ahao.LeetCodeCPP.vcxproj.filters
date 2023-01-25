@@ -2472,6 +2472,9 @@
     <ClCompile Include="1029. 两地调度.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="1632. 矩阵转换后的秩.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
