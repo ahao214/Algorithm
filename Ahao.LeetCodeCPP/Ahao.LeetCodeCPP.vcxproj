@@ -148,6 +148,7 @@
     <ClCompile Include="102. 二叉树的层序遍历.cpp" />
     <ClCompile Include="1021. 删除最外层的括号.cpp" />
     <ClCompile Include="1022. 从根到叶的二进制数之和.cpp" />
+    <ClCompile Include="1027. 最长等差数列.cpp" />
     <ClCompile Include="1029. 两地调度.cpp" />
     <ClCompile Include="1030. 距离顺序排列矩阵单元格.cpp" />
     <ClCompile Include="1031. 两个非重叠子数组的最大和.cpp" />
