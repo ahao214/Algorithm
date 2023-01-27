@@ -2478,6 +2478,9 @@
     <ClCompile Include="1027. 最长等差数列.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="2309. 兼具大小写的最好英文字母.cpp">
+      <Filter>源文件\2300-2399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
