@@ -30,5 +30,36 @@ namespace Ahao.LeetCode._2300_2399.demo2309
             return "";
         }
 
+
+        /// <summary>
+        /// 位运算
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        public string GreatestLetter2(string s)
+        {
+            int lower = 0, upper = 0;
+            foreach (char c in s)
+            {
+                if (char.IsLower(c))
+                {
+                    lower |= 1 << (c - 'a');
+                }
+                else
+                {
+                    upper |= 1 << (c - 'A');
+                }
+            }
+            for (int i = 25; i >= 0; i--)
+            {
+                if ((lower & upper & (1 << i)) != 0)
+                {
+                    return ((char)('A' + i)).ToString();
+                }
+            }
+            return "";
+        }
+
+
     }
 }
