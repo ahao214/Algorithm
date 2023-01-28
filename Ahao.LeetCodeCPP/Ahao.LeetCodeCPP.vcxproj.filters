@@ -2484,6 +2484,9 @@
     <ClCompile Include="1026. 节点与其祖先之间的最大差值.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="1025. 除数博弈.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
