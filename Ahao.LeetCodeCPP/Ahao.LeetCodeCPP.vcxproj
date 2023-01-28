@@ -148,6 +148,7 @@
     <ClCompile Include="102. 二叉树的层序遍历.cpp" />
     <ClCompile Include="1021. 删除最外层的括号.cpp" />
     <ClCompile Include="1022. 从根到叶的二进制数之和.cpp" />
+    <ClCompile Include="1024. 视频拼接.cpp" />
     <ClCompile Include="1025. 除数博弈.cpp" />
     <ClCompile Include="1026. 节点与其祖先之间的最大差值.cpp" />
     <ClCompile Include="1027. 最长等差数列.cpp" />
