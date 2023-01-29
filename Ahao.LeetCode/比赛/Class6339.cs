@@ -36,7 +36,7 @@ namespace Ahao.LeetCode.比赛
             int n = weights.Length;
             long[] sum = new long[n - 1];
             long result = 0;
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i < n - 1; i++)
             {
                 sum[i] = weights[i] + weights[i + 1];
             }
