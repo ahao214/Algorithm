@@ -31,23 +31,44 @@ namespace Ahao.LeetCode.比赛
         public long CountQuadruplets(int[] nums)
         {
             long res = 0;
-            int n = nums.Length;            
+            int n = nums.Length;
             int minCount = 0;
             int maxCount = 0;
-            for(int i = 1;i < n; i++)
+            for (int i = 2; i < n - 1; i++)
             {
                 for (int j = 0; j < i; j++)
                 {
                     if (nums[j] > nums[i])
-                        minCount++;                    
+                        minCount++;
                 }
-                for(int k = i + 1;k < n; k++)
+                for (int k = i + 1; k < n; k++)
                 {
                     if (nums[k] > nums[i])
                         maxCount++;
                 }
                 res += Math.Max(minCount, maxCount);
             }
+            return res;
+        }
+
+        public long CountQuadruplets2(int[] nums)
+        {
+            long res = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                for (int j = i + 1; j < nums.Length; j++)
+                {
+                    for (int k = j + 1; k < nums.Length; k++)
+                    {
+                        for (int l = k + 1; l < nums.Length; l++)
+                        {
+                            if (i < j && j < k && k < l && nums[i] < nums[k] && nums[k] < nums[j] && nums[j] < nums[l])
+                                res++;
+                        }
+                    }
+                }
+            }
+
             return res;
         }
 
