@@ -33,7 +33,19 @@ namespace Ahao.LeetCode.比赛
     {
         public long PutMarbles(int[] weights, int k)
         {
-            return 0;
+            int n = weights.Length;
+            long[] sum = new long[n - 1];
+            long result = 0;
+            for (int i = 0; i < n; i++)
+            {
+                sum[i] = weights[i] + weights[i + 1];
+            }
+            Array.Sort(sum);
+            for (int i = 1; i < k; i++)
+            {
+                result += sum[sum.Length - i] - sum[i - 1];
+            }
+            return result;
         }
     }
 }
