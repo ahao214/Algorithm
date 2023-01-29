@@ -53,23 +53,29 @@ namespace Ahao.LeetCode.比赛
 
         public long CountQuadruplets2(int[] nums)
         {
-            long res = 0;
+            int n = nums.Length;
+            int[,] left = new int[n, n];
+            int[,] right = new int[n, n];
+            for (int i = 0; i < nums.Length; i++)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    left[j + 1, i] = left[j, i] + (nums[j] < nums[i] ? 1 : 0);
+                }
+                for (int j = nums.Length - 1; j > i; j--)
+                {
+                    right[i, j - 1] = right[i, j] + (nums[j] > nums[i] ? 1 : 0);
+                }
+            }
+            long count = 0;
             for (int i = 0; i < nums.Length; i++)
             {
                 for (int j = i + 1; j < nums.Length; j++)
                 {
-                    for (int k = j + 1; k < nums.Length; k++)
-                    {
-                        for (int l = k + 1; l < nums.Length; l++)
-                        {
-                            if (i < j && j < k && k < l && nums[i] < nums[k] && nums[k] < nums[j] && nums[j] < nums[l])
-                                res++;
-                        }
-                    }
+                    count += nums[i] > nums[j] ? left[i + 1, j] * right[i, j - 1] : 0;
                 }
             }
-
-            return res;
+            return count;
         }
 
     }
