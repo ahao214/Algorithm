@@ -25,5 +25,28 @@ namespace Ahao.LeetCode._2300_2399.demo2315
             }
             return res;
         }
+
+
+
+        public int CountAsterisks2(string s)
+        {
+            int flag = 0;
+            int res = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (s[i] == '|')
+                {
+                    flag++;
+                }
+                if (flag % 2 == 0 && s[i] == '*')
+                {
+                    res++;
+                }
+
+            }
+            return res;
+        }
+
+
     }
 }
