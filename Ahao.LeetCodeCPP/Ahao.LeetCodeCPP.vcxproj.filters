@@ -2502,6 +2502,9 @@
     <ClCompile Include="979. 在二叉树中分配硬币.cpp">
       <Filter>源文件\0900-0999</Filter>
     </ClCompile>
+    <ClCompile Include="977. 有序数组的平方.cpp">
+      <Filter>源文件\0900-0999</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
