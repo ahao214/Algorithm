@@ -2511,6 +2511,9 @@
     <ClCompile Include="2319. 判断矩阵是否是一个 X 矩阵.cpp">
       <Filter>源文件\2300-2399</Filter>
     </ClCompile>
+    <ClCompile Include="975. 奇偶跳.cpp">
+      <Filter>源文件\0900-0999</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
