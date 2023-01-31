@@ -196,6 +196,7 @@
     <ClCompile Include="2303. 计算应缴税款总额.cpp" />
     <ClCompile Include="2309. 兼具大小写的最好英文字母.cpp" />
     <ClCompile Include="2315. 统计星号.cpp" />
+    <ClCompile Include="2319. 判断矩阵是否是一个 X 矩阵.cpp" />
     <ClCompile Include="2354. 优质数对的数目.cpp" />
     <ClCompile Include="2389. 和有限的最长子序列.cpp" />
     <ClCompile Include="2401. 最长优雅子数组.cpp" />
