@@ -2523,6 +2523,9 @@
     <ClCompile Include="973. 最接近原点的 K 个点.cpp">
       <Filter>源文件\0900-0999</Filter>
     </ClCompile>
+    <ClCompile Include="1129. 颜色交替的最短路径.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

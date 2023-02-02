@@ -166,6 +166,7 @@
     <ClCompile Include="1106. 解析布尔表达式.cpp" />
     <ClCompile Include="1108. IP 地址无效化.cpp" />
     <ClCompile Include="111. 二叉树的最小深度.cpp" />
+    <ClCompile Include="1129. 颜色交替的最短路径.cpp" />
     <ClCompile Include="1135 最小生成树.cpp" />
     <ClCompile Include="1161. 最大层内元素和.cpp" />
     <ClCompile Include="1175. 质数排列.cpp" />
