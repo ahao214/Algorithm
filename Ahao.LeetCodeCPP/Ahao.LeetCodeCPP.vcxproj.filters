@@ -2526,6 +2526,9 @@
     <ClCompile Include="1129. 颜色交替的最短路径.cpp">
       <Filter>源文件\1100-1199</Filter>
     </ClCompile>
+    <ClCompile Include="971. 翻转二叉树以匹配先序遍历.cpp">
+      <Filter>源文件\0900-0999</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

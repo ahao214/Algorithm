@@ -938,6 +938,7 @@
     <ClCompile Include="961. 在长度 2N 的数组中找出重复 N 次的元素.cpp" />
     <ClCompile Include="965. 单值二叉树.cpp" />
     <ClCompile Include="97. 交错字符串.cpp" />
+    <ClCompile Include="971. 翻转二叉树以匹配先序遍历.cpp" />
     <ClCompile Include="973. 最接近原点的 K 个点.cpp" />
     <ClCompile Include="974. 和可被 K 整除的子数组.cpp" />
     <ClCompile Include="975. 奇偶跳.cpp" />
