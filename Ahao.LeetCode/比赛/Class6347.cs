@@ -20,8 +20,33 @@ namespace Ahao.LeetCode.比赛
     {
         public int[] VowelStrings(string[] words, int[][] queries)
         {
-            int n = queries.Length; ;
-            int[] result = new int[n];
+            ISet<char> st = new HashSet<char>();
+            st.Add('a');
+            st.Add('e');
+            st.Add('i');
+            st.Add('o');
+            st.Add('u');
+            int n = words.Length; ;
+
+            int[] val = new int[n];
+            for (int i = 0; i < n; i++)
+            {
+                if (st.Contains(words[i][0]) && st.Contains(words[i][words.Length - 1]))
+                    val[i] = 1;
+            }
+            int[] sum = new int[n + 1];
+            for (int i = 1; i <= n; ++i)
+            {
+                sum[i] = sum[i - 1] + val[i - 1];
+            }
+
+            int[] result = new int[queries.Length];
+            for (int i = 0; i < queries.Length; i++)
+            {
+                result[i] = sum[queries[i][1] + 1] - sum[queries[i][0]];
+            }
+            return result;
+
             List<int> lst = new List<int>();
             Dictionary<int, int> dic = new Dictionary<int, int>();
             List<int> res = new List<int>();
