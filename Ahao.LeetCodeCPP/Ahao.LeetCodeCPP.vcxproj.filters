@@ -2541,6 +2541,9 @@
     <ClCompile Include="922. 按奇偶排序数组 II.cpp">
       <Filter>源文件\0900-0999</Filter>
     </ClCompile>
+    <ClCompile Include="1210. 穿过迷宫的最少移动次数.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

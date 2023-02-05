@@ -173,6 +173,7 @@
     <ClCompile Include="1175. 质数排列.cpp" />
     <ClCompile Include="1184. 公交站间的距离.cpp" />
     <ClCompile Include="121. 买卖股票的最佳时机.cpp" />
+    <ClCompile Include="1210. 穿过迷宫的最少移动次数.cpp" />
     <ClCompile Include="1219. 黄金矿工.cpp" />
     <ClCompile Include="1249. 移除无效的括号.cpp" />
     <ClCompile Include="1414. 和为 K 的最少斐波那契数字数目.cpp" />
