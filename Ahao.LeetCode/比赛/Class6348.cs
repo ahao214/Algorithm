@@ -18,16 +18,26 @@ namespace Ahao.LeetCode.比赛
     public class Class6348
     {
         public long PickGifts(int[] gifts, int k)
-        {           
+        {
             int n = gifts.Length;
-            Array.Sort(gifts);
-            while (k > 0)
+            long res = 0;
+            for (int i = 0; i < k; i++)
             {
-                gifts[n - 1] = Convert.ToInt32(Math.Floor((Math.Sqrt(gifts[n - 1]))));
-                Array.Sort(gifts);
-                k--;
+                int max = 0;
+                for (int j = 0; j < n; j++)
+                {
+                    max = Math.Max(max, gifts[j]);
+                }
+                for (int j = 0; j < n; j++)
+                {
+                    if (gifts[j] == max)
+                    {
+                        gifts[j] = Convert.ToInt32(Math.Floor(Math.Sqrt(max)));
+                        break;
+                    }
+                }
             }
-            return gifts.Sum();            
+            return gifts.Sum();
         }
 
     }

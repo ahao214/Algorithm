@@ -23,22 +23,36 @@ namespace Ahao.LeetCode.比赛
             int n = queries.Length; ;
             int[] result = new int[n];
             List<int> lst = new List<int>();
+            Dictionary<int, int> dic = new Dictionary<int, int>();
             List<int> res = new List<int>();
             for (int i = 0; i < words.Length; i++)
             {
-                if ((words[i].Substring(0,1).ToString() == "a" || words[i].Substring(0, 1).ToString() == "e" || words[i].Substring(0, 1).ToString() == "i" || words[i].Substring(0, 1).ToString() == "o" || words[i].Substring(0, 1).ToString() == "u") && (words[i].Substring(words[i].Length - 1, 1).ToString() == "a" || words[i].Substring(words[i].Length - 1, 1).ToString() == "e" || words[i].Substring(words[i].Length - 1, 1).ToString() == "i" || words[i].Substring(words[i].Length - 1, 1).ToString() == "o" || words[i].Substring(words[i].Length - 1, 1).ToString() == "u"))
+                if ((words[i].Substring(0, 1).ToString() == "a" || words[i].Substring(0, 1).ToString() == "e" || words[i].Substring(0, 1).ToString() == "i" || words[i].Substring(0, 1).ToString() == "o" || words[i].Substring(0, 1).ToString() == "u") && (words[i].Substring(words[i].Length - 1, 1).ToString() == "a" || words[i].Substring(words[i].Length - 1, 1).ToString() == "e" || words[i].Substring(words[i].Length - 1, 1).ToString() == "i" || words[i].Substring(words[i].Length - 1, 1).ToString() == "o" || words[i].Substring(words[i].Length - 1, 1).ToString() == "u"))
                 {
                     lst.Add(i);
+                    dic.Add(i, 1);
                 }
             }
             for (int i = 0; i < queries.Length; i++)
             {
+                int first = queries[i][0];
+                int last = queries[i][1];
                 int count = 0;
-                for(int j = queries [i][0];j <=queries[i][1]; j++)
+                while (lst.IndexOf(first) == -1)
                 {
-                    if (lst.Contains(j))
-                        count++;
+                    first++;
                 }
+                while (lst.IndexOf(last) == -1)
+                {
+                    last--;
+                }
+
+                if (lst.IndexOf(first) != -1 && lst.IndexOf(last) != -1 && first <= last)
+                {
+                    count = lst.IndexOf(last) - lst.IndexOf(first) + 1;
+                }
+
+
                 res.Add(count);
             }
 
