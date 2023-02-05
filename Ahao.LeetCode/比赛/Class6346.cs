@@ -25,21 +25,30 @@ namespace Ahao.LeetCode.比赛
     {
         public int MinCapability(int[] nums, int k)
         {
-            int minValue = 0;
-            int n = nums.Length;
-            if (n == 0)
-                return minValue;
-            int currentMoney = 0;
-            int previousMoney = 0;
-            for (int i = 0; i < nums.Length; i++)
+            int l = 1, r = (int)1e9 + 1;
+            while (l < r)
             {
-                int temp = currentMoney;
-                currentMoney = Math.Max(currentMoney, previousMoney + nums[i]);
-                previousMoney = temp;
+                int m = l + (r - l) / 2;
+                int last = -2;
+                int cnt = 0;
+                for (int i = 0; i < nums.Length; i++)
+                {
+                    if (nums[i] <= m && i - last > 1)
+                    {
+                        last = i;
+                        cnt++;
+                    }
+                }
+                if (cnt >= k)
+                {
+                    r = m;
+                }
+                else
+                {
+                    l = m + 1;
+                }
             }
-
-
-            return minValue;
+            return l;
         }
     }
 }
