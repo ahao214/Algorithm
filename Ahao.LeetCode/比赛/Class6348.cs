@@ -21,23 +21,18 @@ namespace Ahao.LeetCode.比赛
         {
             int n = gifts.Length;
             long res = 0;
-            for (int i = 0; i < k; i++)
+            while (k > 0)
             {
-                int max = 0;
-                for (int j = 0; j < n; j++)
-                {
-                    max = Math.Max(max, gifts[j]);
-                }
-                for (int j = 0; j < n; j++)
-                {
-                    if (gifts[j] == max)
-                    {
-                        gifts[j] = Convert.ToInt32(Math.Floor(Math.Sqrt(max)));
-                        break;
-                    }
-                }
+                Array.Sort(gifts);
+                k--;
+                int val = Convert.ToInt32(Math.Floor(Math.Sqrt(gifts[n - 1])));
+                gifts[n - 1] = val;
             }
-            return gifts.Sum();
+            for (int i = 0; i < n; i++)
+            {
+                res += gifts[i];
+            }
+            return res;
         }
 
     }
