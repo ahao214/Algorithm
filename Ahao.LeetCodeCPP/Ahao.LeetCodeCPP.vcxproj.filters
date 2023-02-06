@@ -2544,6 +2544,9 @@
     <ClCompile Include="1210. 穿过迷宫的最少移动次数.cpp">
       <Filter>源文件\1200-1299</Filter>
     </ClCompile>
+    <ClCompile Include="2331. 计算布尔二叉树的值.cpp">
+      <Filter>源文件\2300-2399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
