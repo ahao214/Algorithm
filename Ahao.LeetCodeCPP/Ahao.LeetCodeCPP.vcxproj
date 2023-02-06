@@ -903,6 +903,7 @@
     <ClCompile Include="870. 优势洗牌.cpp" />
     <ClCompile Include="878. 第 N 个神奇数字.cpp" />
     <ClCompile Include="88. 合并两个有序数组.cpp" />
+    <ClCompile Include="880. 索引处的解码字符串.cpp" />
     <ClCompile Include="882. 细分图中的可到达节点.cpp" />
     <ClCompile Include="883. 三维形体投影面积.cpp" />
     <ClCompile Include="886. 可能的二分法.cpp" />

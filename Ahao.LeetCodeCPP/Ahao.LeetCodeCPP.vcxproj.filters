@@ -2547,6 +2547,9 @@
     <ClCompile Include="2331. 计算布尔二叉树的值.cpp">
       <Filter>源文件\2300-2399</Filter>
     </ClCompile>
+    <ClCompile Include="880. 索引处的解码字符串.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
