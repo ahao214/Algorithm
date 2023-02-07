@@ -2559,6 +2559,9 @@
     <ClCompile Include="877. 石子游戏.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="1233. 删除子文件夹.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
