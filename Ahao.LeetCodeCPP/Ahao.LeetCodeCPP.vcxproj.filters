@@ -2556,6 +2556,9 @@
     <ClCompile Include="1604. 警告一小时内使用相同员工卡大于等于三次的人.cpp">
       <Filter>源文件\1600-1699</Filter>
     </ClCompile>
+    <ClCompile Include="877. 石子游戏.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
