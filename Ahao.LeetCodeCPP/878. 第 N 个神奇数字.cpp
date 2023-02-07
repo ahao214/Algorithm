@@ -83,3 +83,40 @@ public:
         return gcd(b, a % b);
     };
 };
+
+
+
+
+/*
+878. 第 N 个神奇数字
+
+一个正整数如果能被 a 或 b 整除，那么它是神奇的。
+
+给定三个整数 n , a , b ，返回第 n 个神奇的数字。因为答案可能很大，所以返回答案 对 109 + 7 取模 后的值。
+*/
+class Solution {
+public:
+    int gcd(int a, int b)
+    {
+        return b ? gcd(b, a % b) : a;
+    }
+
+    long long get(long long  mid, int a, int b)
+    {
+        return mid / a + mid / b - mid / (a * b / gcd(a, b));
+    }
+
+    int nthMagicalNumber(int n, int a, int b) {
+        const int MOD = 1e9 + 7;
+        long long left = 1, right = 4e13;
+        while (left < right)
+        {
+            long long  mid = (left + right) >> 1;
+            if (get(mid, a, b) >= n) right = mid;
+            else left = mid + 1;
+        }
+        return right % MOD;
+    }
+};
+
+
