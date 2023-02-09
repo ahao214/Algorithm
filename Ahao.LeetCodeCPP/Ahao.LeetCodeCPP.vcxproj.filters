@@ -2568,6 +2568,9 @@
     <ClCompile Include="875. 爱吃香蕉的珂珂.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="874. 模拟行走机器人.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

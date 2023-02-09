@@ -903,6 +903,7 @@
     <ClCompile Include="868. 二进制间距.cpp" />
     <ClCompile Include="87. 扰乱字符串.cpp" />
     <ClCompile Include="870. 优势洗牌.cpp" />
+    <ClCompile Include="874. 模拟行走机器人.cpp" />
     <ClCompile Include="875. 爱吃香蕉的珂珂.cpp" />
     <ClCompile Include="876. 链表的中间结点.cpp" />
     <ClCompile Include="877. 石子游戏.cpp" />
