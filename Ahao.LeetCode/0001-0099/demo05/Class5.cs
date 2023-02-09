@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo5
 {
-    /// <summary>
-    /// 5. 最长回文子串
-    /// 给你一个字符串 s，找到 s 中最长的回文子串。
-    /// </summary>
     public class Class5
     {
         public string LongestPalindrome(string s)
