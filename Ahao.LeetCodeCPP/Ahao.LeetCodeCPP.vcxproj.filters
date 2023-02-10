@@ -2574,6 +2574,9 @@
     <ClCompile Include="1223. 掷骰子模拟.cpp">
       <Filter>源文件\1200-1299</Filter>
     </ClCompile>
+    <ClCompile Include="873. 最长的斐波那契子序列的长度.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
