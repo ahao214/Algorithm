@@ -2580,6 +2580,9 @@
     <ClCompile Include="2335. 装满杯子需要的最短总时长.cpp">
       <Filter>源文件\2300-2399</Filter>
     </ClCompile>
+    <ClCompile Include="1138. 字母板上的路径.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
