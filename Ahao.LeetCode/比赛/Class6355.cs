@@ -42,5 +42,23 @@ lower <= nums[i] + nums[j] <= upper
             return count / 2;
         }
 
+        public long CountFairPairs2(int[] nums, int lower, int upper)
+        {
+            long res = 0;
+            Array.Sort(nums);
+            int left = 0;
+            int right = 0;
+            for (int i = nums.Length - 1; i >= 0; i--)
+            {
+                while (left < i && nums[left] + nums[i] < lower)
+                    left++;
+                while (right < i && nums[right] + nums[i] <= upper)
+                    right++;
+                if (i > left)
+                    res += Math.Min(i, right) - 1;
+            }
+            return res;
+        }
+
     }
 }
