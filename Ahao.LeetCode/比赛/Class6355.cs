@@ -55,7 +55,7 @@ lower <= nums[i] + nums[j] <= upper
                 while (right < i && nums[right] + nums[i] <= upper)
                     right++;
                 if (i > left)
-                    res += Math.Min(i, right) - 1;
+                    res += Math.Min(i, right) - left;
             }
             return res;
         }
