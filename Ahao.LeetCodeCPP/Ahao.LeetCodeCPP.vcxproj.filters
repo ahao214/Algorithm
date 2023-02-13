@@ -2583,6 +2583,9 @@
     <ClCompile Include="1138. 字母板上的路径.cpp">
       <Filter>源文件\1100-1199</Filter>
     </ClCompile>
+    <ClCompile Include="1234. 替换子串得到平衡字符串.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
