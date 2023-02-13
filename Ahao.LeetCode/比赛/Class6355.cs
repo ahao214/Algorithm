@@ -60,5 +60,31 @@ lower <= nums[i] + nums[j] <= upper
             return res;
         }
 
+        public long CountFairPairs3(int[] nums, int lower, int upper)
+        {
+            Array.Sort(nums);
+            return count(nums, upper) - count(nums, lower - 1);
+        }
+
+        public long count(int[] arr, int n)
+        {
+            long res = 0;
+            int left = 0;
+            int right = arr.Length - 1;
+            while (left < right)
+            {
+                int sum = arr[left] + arr[right];
+                if (sum <= n)
+                {
+                    res += right - left;
+                    left++;
+                }
+                else
+                {
+                    right--;
+                }
+            }
+            return res;
+        }
     }
 }
