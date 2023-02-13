@@ -2589,6 +2589,9 @@
     <ClCompile Include="872. 叶子相似的树.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="871. 最低加油次数.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

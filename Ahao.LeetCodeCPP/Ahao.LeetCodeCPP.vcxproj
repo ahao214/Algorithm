@@ -907,6 +907,7 @@
     <ClCompile Include="868. 二进制间距.cpp" />
     <ClCompile Include="87. 扰乱字符串.cpp" />
     <ClCompile Include="870. 优势洗牌.cpp" />
+    <ClCompile Include="871. 最低加油次数.cpp" />
     <ClCompile Include="872. 叶子相似的树.cpp" />
     <ClCompile Include="873. 最长的斐波那契子序列的长度.cpp" />
     <ClCompile Include="874. 模拟行走机器人.cpp" />
