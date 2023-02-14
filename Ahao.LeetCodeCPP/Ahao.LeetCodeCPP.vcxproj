@@ -230,6 +230,7 @@
     <ClCompile Include="2516. 每种字符至少取 K 个.cpp" />
     <ClCompile Include="2518. 好分区的数目.cpp" />
     <ClCompile Include="2555. 两个线段获得的最多奖品.cpp" />
+    <ClCompile Include="2556. 二进制矩阵中翻转最多一次使路径不连通.cpp" />
     <ClCompile Include="416. 分割等和子集.cpp" />
     <ClCompile Include="12. 整数转罗马数字.cpp" />
     <ClCompile Include="120. 三角形最小路径和.cpp" />

@@ -2598,6 +2598,9 @@
     <ClCompile Include="2555. 两个线段获得的最多奖品.cpp">
       <Filter>源文件\2500-2599</Filter>
     </ClCompile>
+    <ClCompile Include="2556. 二进制矩阵中翻转最多一次使路径不连通.cpp">
+      <Filter>源文件\2500-2599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
