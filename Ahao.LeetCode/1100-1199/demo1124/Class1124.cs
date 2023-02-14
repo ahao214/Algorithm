@@ -71,5 +71,53 @@ namespace Ahao.LeetCode._1100_1199.demo1124
             return res;
         }
 
+
+        public int LongestWPI3(int[] hours)
+        {
+            int n = hours.Length;
+            for (int i = 0; i < n; i++)
+            {
+                hours[i] = hours[i] > 8 ? 1 : -1;
+            }
+
+            int res = 0;
+            for (int i = 0; i < n; i++)
+            {
+                int count = 0;
+                for (int j = i; j < n; j++)
+                {
+                    count += hours[j];
+                    if (count > 0)
+                        res = Math.Max(res, j - i + 1);
+                }
+                if (n - i <= res)
+                    return res;
+            }
+            return res;
+
+        }
+
+
+        public int LongestWPI4(int[] hours)
+        {
+            int sum = 0;
+            int res = 0;
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            for (int i = 0; i < hours.Length; i++)
+            {
+                int tmp = hours[i] > 8 ? 1 : -1;
+                sum += tmp;
+                if (sum > 0)
+                    res = i + 1;
+                else
+                {
+                    if (!dic.ContainsKey(sum))
+                        dic.Add(sum, i);
+                    if (dic.ContainsKey(sum - 1))
+                        res = Math.Max(res, i - dic.GetValueOrDefault(sum - 1));
+                }
+            }
+            return res;
+        }
     }
 }
