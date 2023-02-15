@@ -32,5 +32,26 @@ namespace Ahao.LeetCode._1200_1299.demo1250
             }
             return num1;
         }
+
+
+        public bool IsGoodArray2(int[] nums)
+        {
+            int n = nums.Length;
+            int res = nums[0];
+            for (int i = 1; i < nums.Length; i++)
+            {
+                res = gcd1(res, nums[i]);
+                if (res == 1)
+                    return true;
+            }
+            return res == 1;
+        }
+
+        public int gcd1(int a, int b)
+        {
+            return b == 0 ? a : gcd1(b, a % b);
+        }
+
+
     }
 }
