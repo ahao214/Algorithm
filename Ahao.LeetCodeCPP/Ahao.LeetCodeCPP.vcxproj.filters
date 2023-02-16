@@ -2607,6 +2607,9 @@
     <ClCompile Include="2341. 数组能形成多少数对.cpp">
       <Filter>源文件\2300-2399</Filter>
     </ClCompile>
+    <ClCompile Include="1139. 最大的以 1 为边界的正方形.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
