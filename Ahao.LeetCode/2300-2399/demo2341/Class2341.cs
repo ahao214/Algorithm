@@ -27,5 +27,29 @@ namespace Ahao.LeetCode._2300_2399.demo2341
             return new int[] { pairCount, dic.Count };
         }
 
+
+        public int[] NumberOfPairs2(int[] nums)
+        {
+            IDictionary<int, bool> cnt = new Dictionary<int, bool>();
+            int res = 0;
+            foreach (int num in nums)
+            {
+                if (cnt.ContainsKey(num))
+                {
+                    cnt[num] = !cnt[num];
+                }
+                else
+                {
+                    cnt.Add(num, true);
+                }
+                if (!cnt[num])
+                {
+                    res++;
+                }
+            }
+            return new int[] { res, nums.Length - 2 * res };
+        }
+
+
     }
 }
