@@ -901,6 +901,7 @@
     <ClCompile Include="829. 连续整数求和.cpp" />
     <ClCompile Include="83. 删除排序链表中的重复元素.cpp" />
     <ClCompile Include="84. 柱状图中最大的矩形.cpp" />
+    <ClCompile Include="840.cpp" />
     <ClCompile Include="85. 最大矩形.cpp" />
     <ClCompile Include="854. 相似度为 K 的字符串.cpp" />
     <ClCompile Include="855. 考场就座.cpp" />
