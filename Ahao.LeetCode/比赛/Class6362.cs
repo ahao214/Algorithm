@@ -39,46 +39,31 @@ nums2[i] = [idi, vali] 表示编号为 idi 的数字对应的值等于 vali 。
             int n2 = nums2.Length;
 
             Dictionary<int, int> dic = new Dictionary<int, int>();
-
-            foreach (var item in nums1)
-            {
-                if (!dic.ContainsKey(item[0]))
-                {
-                    dic.Add(item[0], item[1]);
-                }
-            }
-
-            foreach (var item in nums2)
-            {
-                if (!dic.ContainsKey(item[0]))
-                {
-                    dic.Add(item[0], item[1]);
-                }
-                else
-                {
-                    dic[item[1]] += item[1];
-                }
-            }
-
-            int[][] res = new int[dic.Count][];
-
             for (int i = 0; i < n1; i++)
             {
-                if (nums1[i][0] == nums2[i][0])
-                {
-                    res[i][0] = nums1[i][0];
-                    res[i][1] = nums1[i][1] + nums2[i][1];
-                }
+                dic.Add(nums1[i][0], nums1[i][1]);
+            }
+            for (int i = 0; i < n2; i++)
+            {
+                if (!dic.ContainsKey(nums2[i][0]))
+                    dic.Add(nums2[i][0], nums2[i][1]);
+                else
+                    dic[nums2[i][0]] += nums2[i][1];
+            }
 
-                if (nums1[i][0] < nums2[i][0])
+
+            int[][] res = new int[dic.Count][];
+            for (int i = 0; i < dic.Count; i++)
+            {
+                res[i] = new int[2];
+            }
+            int k = 0;
+            foreach (KeyValuePair<int, int> pair in dic)
+            {
+                if (k < dic.Count)
                 {
-                    res[i][0] = nums1[i][0];
-                    res[i][1] = nums1[i][1];
-                }
-                if (nums1[i][0] > nums2[i][0])
-                {
-                    res[i][0] = nums2[i][0];
-                    res[i][1] = nums2[i][1];
+                    res[k++][0] = pair.Key;
+                    res[k++][1] = pair.Value;
                 }
             }
 
