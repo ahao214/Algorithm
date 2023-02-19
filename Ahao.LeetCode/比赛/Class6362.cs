@@ -37,7 +37,7 @@ nums2[i] = [idi, vali] 表示编号为 idi 的数字对应的值等于 vali 。
         {
             int n1 = nums1.Length;
             int n2 = nums2.Length;
-
+            int i1 = 0, i2 = 0;
             Dictionary<int, int> dic = new Dictionary<int, int>();
             for (int i = 0; i < n1; i++)
             {
@@ -50,25 +50,65 @@ nums2[i] = [idi, vali] 表示编号为 idi 的数字对应的值等于 vali 。
                 else
                     dic[nums2[i][0]] += nums2[i][1];
             }
-
-
             int[][] res = new int[dic.Count][];
             for (int i = 0; i < dic.Count; i++)
-            {
                 res[i] = new int[2];
-            }
-            int k = 0;
-            foreach (KeyValuePair<int, int> pair in dic)
+            while (i1 < n1 || i2 < n2)
             {
-                if (k < dic.Count)
+                if (i1 >= n1)
                 {
-                    res[k++][0] = pair.Key;
-                    res[k++][1] = pair.Value;
+                    res.Append(nums2[i2]);
+                    i2++;
+                    continue;
+                }
+                if (i2 >= n2)
+                {
+                    res.Append(nums1[i1]);
+                    i1++;
+                    continue;
+                }
+                if (nums1[i1][0] == nums2[i2][0])
+                {
+                    int[] newArr = new int[2];
+                    newArr[0] = nums1[i1][0];
+                    newArr[1] = nums1[i1][1] + nums2[i2][1];
+                    res.Append(newArr);
+                    i1++; i2++;
+                }
+                else if (nums1[i1][0] > nums2[i2][0])
+                {
+                    res.Append(nums2[i2]);
+                    i2++;
+                }
+                else
+                {
+                    res.Append(nums1[i1]);
+                    i1++;
                 }
             }
-
-
             return res;
+
+
+
+
+            //int[][] res = new int[dic.Count][];
+            //for (int i = 0; i < dic.Count; i++)
+            //{
+            //    res[i] = new int[2];
+            //}
+            //int k = 0;
+            //foreach (KeyValuePair<int, int> pair in dic)
+            //{
+            //    if (k < dic.Count)
+            //    {
+            //        res[k++][0] = pair.Key;
+            //        res[k++][1] = pair.Value;
+            //    }
+            //}
+
+
+
+            //return res;
         }
     }
 }
