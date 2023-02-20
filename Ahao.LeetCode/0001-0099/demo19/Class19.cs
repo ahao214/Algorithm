@@ -6,10 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo19
 {
-    /*
-     19. 删除链表的倒数第 N 个结点
-给你一个链表，删除链表的倒数第 n 个结点，并且返回链表的头结点。
-     */
     public class Class19
     {
         public ListNode RemoveNthFromEnd(ListNode head, int n)
