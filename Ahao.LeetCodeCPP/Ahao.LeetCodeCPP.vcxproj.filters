@@ -2625,6 +2625,9 @@
     <ClCompile Include="2347. 最好的扑克手牌.cpp">
       <Filter>源文件\2300-2399</Filter>
     </ClCompile>
+    <ClCompile Include="837. 新 21 点.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
