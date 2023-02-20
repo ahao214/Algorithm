@@ -2622,6 +2622,9 @@
     <ClCompile Include="1237. 找出给定方程的正整数解.cpp">
       <Filter>源文件\1200-1299</Filter>
     </ClCompile>
+    <ClCompile Include="2347. 最好的扑克手牌.cpp">
+      <Filter>源文件\2300-2399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
