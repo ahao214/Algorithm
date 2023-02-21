@@ -37,5 +37,17 @@ namespace Ahao.LeetCode.比赛
                 }
             }
         }
+
+        public int MinImpossibleOR2(int[] nums)
+        {
+            int mask = 0;
+            foreach (var item in nums)
+            {
+                if ((item & (item - 1)) == 0)
+                    mask |= item;
+            }
+            mask = ~mask;
+            return mask & -mask;
+        }
     }
 }
