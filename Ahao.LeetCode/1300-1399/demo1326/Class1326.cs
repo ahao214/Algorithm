@@ -42,5 +42,42 @@ namespace Ahao.LeetCode._1300_1399.demo1326
             return dp[n];
         }
 
+
+        /// <summary>
+        /// 贪心算法
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="ranges"></param>
+        /// <returns></returns>
+        public int MinTaps2(int n, int[] ranges)
+        {
+            int[] rightMost = new int[n + 1];
+            for (int i = 0; i <= n; i++)
+            {
+                rightMost[i] = i;
+            }
+            for (int i = 0; i <= n; i++)
+            {
+                int start = Math.Max(0, i - ranges[i]);
+                int end = Math.Min(n, i + ranges[i]);
+                rightMost[start] = Math.Max(rightMost[start], end);
+            }
+            int last = 0, ret = 0, pre = 0;
+            for (int i = 0; i < n; i++)
+            {
+                last = Math.Max(last, rightMost[i]);
+                if (i == last)
+                {
+                    return -1;
+                }
+                if (i == pre)
+                {
+                    ret++;
+                    pre = last;
+                }
+            }
+            return ret;
+        }
+
     }
 }
