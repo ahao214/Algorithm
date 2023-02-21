@@ -44,5 +44,19 @@ n 加上或减去 2 的某个 幂
 
             return res;
         }
+
+
+        public int MinOperations2(int n)
+        {
+            return dfs(n);
+        }
+
+        private int dfs(int x)
+        {
+            if ((x & (x - 1)) == 0)
+                return 1;
+            int lb = x & -x;
+            return 1 + Math.Min(dfs(x + lb), dfs(x - lb));
+        }
     }
 }
