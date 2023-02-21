@@ -51,5 +51,30 @@ Danny Mittal 获得周赛 326 前 10 名，让我们恭喜他。
             return res;
         }
 
+
+        public int MinMaxDifference2(int num)
+        {
+            int maxVal = num;
+            int minVal = num;
+            string ans = num.ToString();
+            for (int i = 0; i < ans.Length; i++)
+            {
+                if (ans[i] != '9')
+                {
+                    maxVal = Convert.ToInt32(ans.Replace(ans[i], '9'));
+                    break;
+                }
+            }
+            for (int i = 0; i < ans.Length; i++)
+            {
+                if (ans[i] != '0')
+                {
+                    minVal = Convert.ToInt32(ans.Replace(ans[i], '0'));
+                    break;
+                }
+            }
+            return maxVal - minVal;
+        }
+
     }
 }
