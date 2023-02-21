@@ -184,6 +184,7 @@
     <ClCompile Include="1237. 找出给定方程的正整数解.cpp" />
     <ClCompile Include="1249. 移除无效的括号.cpp" />
     <ClCompile Include="1250. 检查「好数组」.cpp" />
+    <ClCompile Include="1326. 灌溉花园的最少水龙头数目.cpp" />
     <ClCompile Include="1414. 和为 K 的最少斐波那契数字数目.cpp" />
     <ClCompile Include="1524. 和为奇数的子数组数目.cpp" />
     <ClCompile Include="1604. 警告一小时内使用相同员工卡大于等于三次的人.cpp" />

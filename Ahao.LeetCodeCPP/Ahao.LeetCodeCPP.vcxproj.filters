@@ -2628,6 +2628,9 @@
     <ClCompile Include="837. 新 21 点.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="1326. 灌溉花园的最少水龙头数目.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
