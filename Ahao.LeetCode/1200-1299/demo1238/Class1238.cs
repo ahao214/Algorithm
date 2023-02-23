@@ -29,5 +29,22 @@ namespace Ahao.LeetCode._1200_1299.demo1238
             return ret;
         }
 
+        /// <summary>
+        /// 公式法
+        /// </summary>
+        /// <param name="n"></param>
+        /// <param name="start"></param>
+        /// <returns></returns>
+        public IList<int> CircularPermutation2(int n, int start)
+        {
+            IList<int> ret = new List<int>();
+            for (int i = 0; i < 1 << n; i++)
+            {
+                ret.Add((i >> 1) ^ i ^ start);
+            }
+            return ret;
+        }
+
+
     }
 }

@@ -11,3 +11,11 @@ var circularPermutation = function (n, start) {
 };
 
 
+//公式法
+var circularPermutation = function (n, start) {
+    const ret = [];
+    for (let i = 0; i < 1 << n; i++) {
+        ret.push((i >> 1) ^ i ^ start);
+    }
+    return ret;
+};
