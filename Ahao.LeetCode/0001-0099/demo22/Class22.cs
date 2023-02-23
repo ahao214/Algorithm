@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Medium.demo22
 {
-    /// <summary>
-    /// 22. 括号生成
-    /// </summary>
     public class Class22
     {
         public IList<string> GenerateParenthesis(int n)
