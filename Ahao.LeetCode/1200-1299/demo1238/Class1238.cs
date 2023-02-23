@@ -46,5 +46,16 @@ namespace Ahao.LeetCode._1200_1299.demo1238
         }
 
 
+        public IList<int> CircularPermutation3(int n, int start)
+        {
+            int[] arr = new int[1 << n];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = i ^ i >> 1;
+                arr[i] = arr[i] ^ start;
+            }
+            return arr;
+        }
+
     }
 }
