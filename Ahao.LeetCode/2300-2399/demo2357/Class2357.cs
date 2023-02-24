@@ -37,5 +37,25 @@ namespace Ahao.LeetCode._2300_2399.demo2357
             }
         }
 
+
+        /// <summary>
+        /// 哈希集合
+        /// </summary>
+        /// <param name="nums"></param>
+        /// <returns></returns>
+        public int MinimumOperations2(int[] nums)
+        {
+            ISet<int> set = new HashSet<int>();
+            foreach (int num in nums)
+            {
+                if (num > 0)
+                {
+                    set.Add(num);
+                }
+            }
+            return set.Count;
+        }
+
+
     }
 }
