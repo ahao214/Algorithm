@@ -1,5 +1,6 @@
 #include<vector>
 #include <algorithm>
+#include <unordered_set>
 
 using namespace std;
 
@@ -36,5 +37,20 @@ public:
             }
         }
         return ans;
+    }
+};
+
+
+//¹þÏ£¼¯ºÏ
+class Solution {
+public:
+    int minimumOperations(vector<int>& nums) {
+        unordered_set<int> hashSet;
+        for (int num : nums) {
+            if (num > 0) {
+                hashSet.emplace(num);
+            }
+        }
+        return hashSet.size();
     }
 };
