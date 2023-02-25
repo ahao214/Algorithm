@@ -30,5 +30,33 @@ namespace Ahao.LeetCode._1200_1299.demo1247
             }
             return xy / 2 + yx / 2 + xy % 2 + yx % 2;
         }
+
+
+
+        public int MinimumSwap2(string s1, string s2)
+        {
+            int xCount = 0, yCount = 0;
+            for (int i = 0; i < s1.Length; i++)
+            {
+                if (s1[i] == s2[i])
+                {
+                    continue;
+                }
+                if (s1[i] == 'x')
+                {
+                    xCount++;
+                }
+                else
+                {
+                    yCount++;
+                }
+            }
+            if ((xCount + yCount) % 2 != 0)
+            {
+                return -1;
+            }
+            return (xCount + yCount) / 2 + xCount % 2;
+        }
+
     }
 }
