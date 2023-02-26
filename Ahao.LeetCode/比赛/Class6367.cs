@@ -65,5 +65,18 @@ namespace Ahao.LeetCode.比赛
             return true;
         }
 
+        public int maxNumOfMarkedIndices2(int[] nums)
+        {
+            Array.Sort(nums);
+            int n = nums.Length;
+            int j = 0;
+            for (int i = (n + 1) / 2; i < n; i++)
+            {
+                if (nums[j] * 2 <= nums[i])
+                    j++;
+            }
+            return j * 2;
+        }
+
     }
 }
