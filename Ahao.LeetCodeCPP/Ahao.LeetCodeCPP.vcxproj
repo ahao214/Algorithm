@@ -187,6 +187,7 @@
     <ClCompile Include="1247. 交换字符使得字符串相同.cpp" />
     <ClCompile Include="1249. 移除无效的括号.cpp" />
     <ClCompile Include="1250. 检查「好数组」.cpp" />
+    <ClCompile Include="1255. 得分最高的单词集合.cpp" />
     <ClCompile Include="1326. 灌溉花园的最少水龙头数目.cpp" />
     <ClCompile Include="1414. 和为 K 的最少斐波那契数字数目.cpp" />
     <ClCompile Include="1524. 和为奇数的子数组数目.cpp" />
