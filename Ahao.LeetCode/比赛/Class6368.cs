@@ -33,16 +33,16 @@ word 的 可整除数组 div  是一个长度为 n 的整数数组，并满足�
         {
             int n = word.Length;
             int[] div = new int[n];
-            double d = Convert.ToDouble(m);
+            long mod = 0;
             for (int i = 0; i < n; i++)
             {
-                double num = Convert.ToDouble(word.Substring(0, i + 1));
-                if (num % d == 0)
+                mod = mod * 10 + word[i] - '0';
+                mod %= m;
+                if (mod == 0)
                     div[i] = 1;
                 else
                     div[i] = 0;
             }
-
 
             return div;
         }
