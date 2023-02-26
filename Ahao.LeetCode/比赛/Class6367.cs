@@ -27,11 +27,43 @@ namespace Ahao.LeetCode.比赛
      */
     public class Class6367
     {
-        public int MaxNumOfMarkedIndices(int[] nums)
+        public int maxNumOfMarkedIndices(int[] nums)
         {
-            int res = 0;
-
-            return res;
+            Array.Sort(nums);
+            int l = 0;
+            int r = nums.Length / 2;
+            while (l < r)
+            {
+                int m = (l + r + 1) / 2;
+                if (check(nums, m))
+                {
+                    l = m;
+                }
+                else
+                {
+                    r = m - 1;
+                }
+            }
+            return l * 2;
         }
+
+        public bool check(int[] nums, int k)
+        {
+            if (k * 2 > nums.Length)
+            {
+                return false;
+            }
+            int l = 0;
+            int r = nums.Length - k;
+            for (int i = 0; i < k; i++, l++, r++)
+            {
+                if (nums[l] * 2 > nums[r])
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
     }
 }
