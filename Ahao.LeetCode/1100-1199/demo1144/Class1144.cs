@@ -26,5 +26,30 @@ namespace Ahao.LeetCode._1100_1199.demo1144
             return Math.Min(odd, even);
         }
 
+
+        public int MovesToMakeZigzag2(int[] nums)
+        {
+            return Math.Min(Help(nums, 0), Help(nums, 1));
+        }
+
+        public int Help(int[] nums, int pos)
+        {
+            int res = 0;
+            for (int i = pos; i < nums.Length; i += 2)
+            {
+                int a = 0;
+                if (i - 1 >= 0)
+                {
+                    a = Math.Max(a, nums[i] - nums[i - 1] + 1);
+                }
+                if (i + 1 < nums.Length)
+                {
+                    a = Math.Max(a, nums[i] - nums[i + 1] + 1);
+                }
+                res += a;
+            }
+            return res;
+        }
+
     }
 }
