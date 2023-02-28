@@ -33,5 +33,20 @@ namespace Ahao.LeetCode._2300_2399.demo2363
             return res;
         }
 
+
+        public IList<IList<int>> MergeSimilarItems2(int[][] items1, int[][] items2)
+        {
+            KeyValuePair<int, int> GetKV(int[] t)
+            {
+                return new KeyValuePair<int, int>(t[0], t[1]);
+            }
+            var a = items1.Select(GetKV).ToList();
+            var b = items2.Select(GetKV).ToList();
+            a.AddRange(b);
+            return a.GroupBy(a => a.Key, (n, g) => new List<int> { n, g.Sum(t => t.Value) }).OrderBy(x => x[0]).Cast<IList<int>>().ToList();
+
+        }
+
+
     }
 }
