@@ -911,6 +911,7 @@
     <ClCompile Include="827. 最大人工岛.cpp" />
     <ClCompile Include="829. 连续整数求和.cpp" />
     <ClCompile Include="83. 删除排序链表中的重复元素.cpp" />
+    <ClCompile Include="833. 字符串中的查找与替换.cpp" />
     <ClCompile Include="835. 图像重叠.cpp" />
     <ClCompile Include="836. 矩形重叠.cpp" />
     <ClCompile Include="837. 新 21 点.cpp" />
