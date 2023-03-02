@@ -2655,6 +2655,9 @@
     <ClCompile Include="2373. 矩阵中的局部最大值.cpp">
       <Filter>源文件\2300-2399</Filter>
     </ClCompile>
+    <ClCompile Include="836. 矩形重叠.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
