@@ -32,9 +32,31 @@ num1 和 num2 中数位顺序可以与 num 中数位顺序不同。
         public int SplitNum(int num)
         {
             int res = 0;
-
-
-
+            List<int> lst = new List<int>();
+            while (num != 0)
+            {
+                if (num % 10 != 0)
+                {
+                    lst.Add(num % 10);
+                }                
+                num /= 10;
+            }
+            int[] arr = lst.ToArray();
+            Array.Sort(arr);
+            int evenSum = 0;
+            int oddSum = 0;
+            for(int i =0;i< arr.Length; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    evenSum = evenSum * 10 + arr[i];
+                }
+                else
+                {
+                    oddSum = oddSum * 10 + arr[i];
+                }
+            }
+            res = evenSum + oddSum;
             return res;
         }
     }
