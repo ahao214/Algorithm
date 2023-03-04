@@ -995,6 +995,7 @@
     <ClCompile Include="978. 最长湍流子数组.cpp" />
     <ClCompile Include="979. 在二叉树中分配硬币.cpp" />
     <ClCompile Include="98. 验证二叉搜索树.cpp" />
+    <ClCompile Include="982. 按位与为零的三元组.cpp" />
     <ClCompile Include="998. 最大二叉树 II.cpp" />
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
     <ClCompile Include="1738. 找出第 K 大的异或坐标值.cpp" />
