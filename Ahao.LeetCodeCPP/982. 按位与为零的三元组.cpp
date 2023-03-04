@@ -20,21 +20,44 @@ nums[i] & nums[j] & nums[k] == 0 ，其中 & 表示按位与运算符。
 //方法一：枚举
 class Solution {
 public:
-    int countTriplets(vector<int>& nums) {
-        vector<int> cnt(1 << 16);
-        for (int x : nums) {
-            for (int y : nums) {
-                ++cnt[x & y];
-            }
-        }
-        int ans = 0;
-        for (int x : nums) {
-            for (int mask = 0; mask < (1 << 16); ++mask) {
-                if ((x & mask) == 0) {
-                    ans += cnt[mask];
-                }
-            }
-        }
-        return ans;
-    }
+	int countTriplets(vector<int>& nums) {
+		vector<int> cnt(1 << 16);
+		for (int x : nums) {
+			for (int y : nums) {
+				++cnt[x & y];
+			}
+		}
+		int ans = 0;
+		for (int x : nums) {
+			for (int mask = 0; mask < (1 << 16); ++mask) {
+				if ((x & mask) == 0) {
+					ans += cnt[mask];
+				}
+			}
+		}
+		return ans;
+	}
+};
+
+
+//方法二：枚举+子集优化
+class Solution {
+public:
+	int countTriplets(vector<int>& nums) {
+		vector<int> cnt(1 << 16);
+		for (int x : nums) {
+			for (int y : nums) {
+				++cnt[x & y];
+			}
+		}
+		int ans = 0;
+		for (int x : nums) {
+			x = x ^ 0xffff;
+			for (int sub = x; sub; sub = (sub - 1) & x) {
+				ans += cnt[sub];
+			}
+			ans += cnt[0];
+		}
+		return ans;
+	}
 };
