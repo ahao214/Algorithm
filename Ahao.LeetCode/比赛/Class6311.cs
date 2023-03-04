@@ -18,9 +18,13 @@ namespace Ahao.LeetCode.比赛
     {
         public long ColoredCells(int n)
         {
-            long res = 0;
-
-
+            long res = 1;
+            if (n == 1)
+                return res;
+            for (int i = 2; i <= n; i++)
+            {
+                res += (i - 1) * 4;
+            }
 
             return res;
         }
