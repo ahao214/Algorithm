@@ -24,7 +24,17 @@ namespace Ahao.LeetCode.比赛
     {
         public int CountWays(int[][] ranges)
         {
-            int res = 0;
+            int mod = (int)1e9 + 7;
+            int res = 2;
+
+            Array.Sort(ranges, (a, b) => a[0] - b[0]);
+            int maxR = ranges[0][1];
+            foreach (var item in ranges)
+            {
+                if (item[0] > maxR)
+                    res = res * 2 % mod;
+                maxR = Math.Max(maxR, item[1]);
+            }
 
             return res;
         }
