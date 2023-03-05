@@ -29,10 +29,8 @@ n 个人站成一排，按从 1 到 n 编号。
             int res = 1;
             if (time < n)
                 return time + 1;
-            if(time > n)
-            {
-                res = (2 * n - 1) - time;
-            }
+            int yushu = time % (n - 1);
+            res = yushu + 1;
            
             return res;
         }
