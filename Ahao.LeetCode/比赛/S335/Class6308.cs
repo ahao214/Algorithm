@@ -30,56 +30,37 @@ namespace Ahao.LeetCode.比赛.S335
     {
         public long KthLargestLevelSum(TreeNode root, int k)
         {
-            List<IList<int>> result = new List<IList<int>>();
-            int count = 0;
-            int maxDepth = 0;
-            if (root == null)
+            List<long> list = new List<long>();
+            Queue<TreeNode> q = new Queue<TreeNode>();
+            q.Enqueue(root);
+            while (q.Count > 0)
             {
-                return 0;
+                long sum = 0;
+                int size = q.Count;
+                for (int i = 0; i < size; i++)
+                {
+                    TreeNode a = q.Dequeue();
+                    sum += a.val;
+                    if (a.left != null)
+                    {
+                        q.Enqueue(a.left);
+                    }
+                    if (a.right != null)
+                    {
+                        q.Enqueue(a.right);
+                    }
+                }
+                list.Add(sum);
             }
-            GetMore(root);
-            ISet<int> st = new HashSet<int>();
-            for (int i = 0;i < result.Count; i++)
-            {
-                int sum = 0;
-                for (int j = 0; j < result[i].Count; j++)
-                    sum += result[i][j];
-                st.Add(sum);
-            }
-            
-            int[] arr = st.ToArray();
+            long[] arr = list.ToArray();
             Array.Sort(arr);
-            if (k > arr.Length)
+            
+            if (list.Count < k)
                 return -1;
-
-            for (int i = arr.Length - 1; i >= 0; i--,k--)
-            {
-                if (k == 0)
-                    return arr[i];
-            }
-            return -1;
-
-            void GetMore(TreeNode node)
-            {
-                count++;
-                if (count > maxDepth)
-                {
-                    maxDepth = count;
-                    result.Add(new List<int>());
-                }
-                result[count - 1].Add(node.val);
-                if (node.left != null)
-                {
-                    GetMore(node.left);
-                }
-                if (node.right != null)
-                {
-                    GetMore(node.right);
-                }
-                count--;
-            }
+            
+            return arr[arr.Length - k];
         }
-        
+
     }
 
     public class TreeNode
