@@ -17,7 +17,7 @@ namespace Ahao.LeetCode.比赛.S335
 
 当且仅当 gcd(val1, val2) == 1 成立时，val1 和 val2 这两个值才是互质的，其中 gcd(val1, val2) 表示 val1 和 val2 的最大公约数。
      */
-    class Class6309
+    public class Class6309
     {
         public int FindValidSplit(int[] nums)
         {
