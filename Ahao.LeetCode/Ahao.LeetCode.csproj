@@ -15,6 +15,7 @@
     <Folder Include="Offer\Simple\" />
     <Folder Include="Offer\Hard\" />
     <Folder Include="5000-5099\" />
+    <Folder Include="比赛\D100\" />
   </ItemGroup>
 
   <ItemGroup>
