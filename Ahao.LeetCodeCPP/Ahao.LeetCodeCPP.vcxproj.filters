@@ -2676,6 +2676,9 @@
     <ClCompile Include="982. 按位与为零的三元组.cpp">
       <Filter>源文件\0900-0999</Filter>
     </ClCompile>
+    <ClCompile Include="1599. 经营摩天轮的最大利润.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
