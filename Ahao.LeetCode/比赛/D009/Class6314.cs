@@ -23,11 +23,73 @@ Alice 非常懒，她不想逐个回答 Bob 的猜测，只告诉 Bob 这些猜�
      */
     public class Class6314
     {
+
+        const int N = (int)1e5 + 1, M = N * 2;
+        int[] h = new int[N], ne = new int[M], e = new int[M], w = new int[N];
+        int[] son = new int[M], father = new int[M], ans = new int[M];
+        int[] fa_son = new int[N];
+        Dictionary<int, Dictionary<int, int>> d = new();
+        int idx = 0;
         public int RootCount(int[][] edges, int[][] guesses, int k)
         {
-            int res = 0;
-
-            return res;
+            Array.Fill(h, -1);
+            foreach (var g in guesses)
+            {
+                if (!d.ContainsKey(g[0]))
+                    d[g[0]] = new Dictionary<int, int>();
+                d[g[0]][g[1]] = 1;
+            }
+            foreach (var edge in edges)
+            {
+                int u = edge[0], v = edge[1];
+                e[idx] = v; ne[idx] = h[u]; h[u] = idx++;
+                e[idx] = u; ne[idx] = h[v]; h[v] = idx++;
+            }
+            Dfs1(0, -1);
+            Dfs2(0, -1);
+            Dfs3(0, -1);
+            int cnt = 0;
+            for (int i = 0; i <= edges.Length; i++)
+            {
+                if (ans[i] >= k)
+                    cnt++;
+            }
+            return cnt;
         }
+
+        public void Dfs1(int u, int fa)
+        {
+            for (int i = h[u]; i != -1; i = ne[i])
+            {
+                int j = e[i];
+                if (j == fa) continue;
+                else Dfs1(j, u);
+            }
+            if (fa != -1) son[fa] += son[u] + (d.ContainsKey(fa) && d[fa].ContainsKey(u) ? 1 : 0);
+        }
+
+        public void Dfs2(int u, int fa)
+        {
+            father[u] += (fa == -1 ? 0 : father[fa]) + (d.ContainsKey(u) && d[u].ContainsKey(fa) ? 1 : 0);
+            if (fa != -1) fa_son[u] += son[fa] - son[u] + fa_son[fa] - (d.ContainsKey(fa) && d[fa].ContainsKey(u) ? 1 : 0);
+            for (int i = h[u]; i != -1; i = ne[i])
+            {
+                int j = e[i];
+                if (j == fa) continue;
+                else Dfs2(j, u);
+            }
+        }
+
+        public void Dfs3(int u, int fa)
+        {
+            ans[u] = (fa == -1 ? son[0] : son[u]) + father[u] + fa_son[u];
+            for (int i = h[u]; i != -1; i = ne[i])
+            {
+                int j = e[i];
+                if (j == fa) continue;
+                else Dfs3(j, u);
+            }
+        }
+
     }
 }
