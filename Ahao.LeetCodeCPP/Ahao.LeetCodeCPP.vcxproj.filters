@@ -2679,7 +2679,7 @@
     <ClCompile Include="1599. 经营摩天轮的最大利润.cpp">
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
-    <ClCompile Include=".cpp">
+    <ClCompile Include="765. 情侣牵手.cpp">
       <Filter>源文件\0700-0799</Filter>
     </ClCompile>
   </ItemGroup>
