@@ -2679,6 +2679,9 @@
     <ClCompile Include="1599. 经营摩天轮的最大利润.cpp">
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
+    <ClCompile Include=".cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
