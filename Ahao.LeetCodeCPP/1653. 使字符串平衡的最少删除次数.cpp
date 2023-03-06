@@ -6,6 +6,7 @@ using namespace std;
 
 /*
 1653. 使字符串平衡的最少删除次数
+
 给你一个字符串 s ，它仅包含字符 'a' 和 'b'​​​​ 。
 
 你可以删除 s 中任意数目的字符，使得 s 平衡 。我们称 s 平衡的 当不存在下标对 (i,j) 满足 i < j 且 s[i] = 'b' 同时 s[j]= 'a' 。
@@ -32,4 +33,30 @@ public:
 		}
 		return res;
 	}
+};
+
+
+
+class Solution {
+public:
+    int minimumDeletions(string s) {
+        int leftb = 0, righta = 0;
+        for (int i = 0; i < s.size(); i++) {
+            if (s[i] == 'a') {
+                righta++;
+            }
+        }
+        int res = righta;
+        for (int i = 0; i < s.size(); i++) {
+            char c = s[i];
+            if (c == 'a') {
+                righta--;
+            }
+            else {
+                leftb++;
+            }
+            res = min(res, leftb + righta);
+        }
+        return res;
+    }
 };
