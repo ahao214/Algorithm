@@ -2682,6 +2682,9 @@
     <ClCompile Include="765. 情侣牵手.cpp">
       <Filter>源文件\0700-0799</Filter>
     </ClCompile>
+    <ClCompile Include="1096. 花括号展开 II.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
