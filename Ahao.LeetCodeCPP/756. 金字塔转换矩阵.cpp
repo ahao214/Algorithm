@@ -43,3 +43,33 @@ public:
 		return false;
 	}
 };
+
+
+
+
+
+class Solution {
+public:
+	vector<char> g[7][7];
+
+	bool pyramidTransition(string bottom, vector<string>& allowed) {
+		for (auto& e : allowed)
+			g[e[0] - 'A'][e[1] - 'A'].push_back(e[2]);
+		return dfs(bottom, "", 0);
+	}
+
+	bool dfs(string bottom, string cur, int u)
+	{
+		if (bottom.size() == 1)
+			return true;
+		if (u == bottom.size() - 1)
+			return dfs(cur, "", 0);
+		for (auto c : g[bottom[u] - 'A'][bottom[u + 1] - 'A'])
+		{
+			if (dfs(bottom, cur + c, u + 1))
+				return true;
+		}
+		return false;
+	}
+};
+
