@@ -1,3 +1,4 @@
+#include <algorithm>
 using namespace std;
 
 
@@ -30,5 +31,30 @@ public:
 			}
 		}
 		return left;
+	}
+};
+
+
+
+
+
+class Solution {
+public:
+	int get(int m, int n, int mid)
+	{
+		int res = 0;
+		for (int i = 1; i <= n; i++)
+			res += min(m, mid / i);
+		return res;
+	}
+	int findKthNumber(int m, int n, int k) {
+		int left = 1, right = m * n;
+		while (left < right)
+		{
+			int mid = (left + right) >> 1;
+			if (get(m, n, mid) >= k) right = mid;
+			else left = mid + 1;
+		}
+		return right;
 	}
 };
