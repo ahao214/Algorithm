@@ -43,3 +43,34 @@ public:
         return ans;
     }
 };
+
+
+
+
+class Solution {
+public:
+    unordered_set<string> s;
+    string ans;
+    int v;
+
+    void dfs(string u)
+    {
+        for (int i = 0; i < v; i++)
+        {
+            auto j = u + to_string(i);
+            if (!s.count(j))
+            {
+                s.insert(j);
+                dfs(j.substr(1));
+                ans += to_string(i);
+            }
+        }
+    }
+
+    string crackSafe(int n, int k) {
+        v = k;
+        string start(n - 1, '0');
+        dfs(start);
+        return ans + start;
+    }
+};
