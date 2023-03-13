@@ -142,6 +142,7 @@
     <ClCompile Include="..\ahao.leetcode\interview\380. o(1) 时间插入、删除和获取随机元素.cpp" />
     <ClCompile Include="1096. 花括号展开 II.cpp" />
     <ClCompile Include="2379. 得到 K 个黑块的最少涂色次数.cpp" />
+    <ClCompile Include="2383. 赢得比赛需要的最少训练时长.cpp" />
     <ClCompile Include="765. 情侣牵手.cpp" />
     <ClCompile Include="1. 两数之和.cpp" />
     <ClCompile Include="10. 正则表达式匹配.cpp" />
