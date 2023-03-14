@@ -128,6 +128,40 @@ namespace Ahao.LeetCode._1600_1699.demo1615
         }
 
 
+        public int MaximalNetworkRank3(int n, int[][] roads)
+        {
+            List<List<int>> routes = new List<List<int>>();
+            for (int i = 0; i < n; i++)
+            {
+                routes.Add(new List<int>());
+            }
+            //双向存储两个城市之间的连接情况
+            foreach (var road in roads)
+            {
+                routes[road[0]].Add(road[1]);
+                routes[road[1]].Add(road[0]);
+            }
+            int max = 0;
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    if (i != j)
+                    {
+                        //接入城市i和j的道路总数
+                        int cnt = routes[i].Count + routes[j].Count;
+                        //如果i和j是连通的，减去1条重复的道路
+                        if (routes[i].Contains(j))
+                        {
+                            --cnt;
+                        }
+                        max = Math.Max(max, cnt);
+                    }
+                }
+            }
+            return max;
+        }
+
 
     }
 }
