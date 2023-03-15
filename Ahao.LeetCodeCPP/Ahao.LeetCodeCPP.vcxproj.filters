@@ -2697,6 +2697,9 @@
     <ClCompile Include="1615. 最大网络秩.cpp">
       <Filter>源文件\1600-1699</Filter>
     </ClCompile>
+    <ClCompile Include="2488. 统计中位数为 K 的子数组.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
