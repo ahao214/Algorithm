@@ -1,4 +1,7 @@
-﻿/*
+﻿using namespace std;
+#include<string>
+
+/*
 1616. 分割两个字符串得到回文串
 
 难度：中等
@@ -10,8 +13,7 @@
 如果 能构成回文字符串 ，那么请返回 true，否则返回 false 。
 */
 
-using namespace std;
-#include<string>
+
 
 class Solution {
 public:
@@ -41,5 +43,35 @@ public:
 			j--;
 		}
 		return i >= j;
+	}
+};
+
+
+//双指针
+class Solution {
+public:
+	bool checkSelfPalindrome(const string& a, int left, int right) {
+		while (left < right && a[left] == a[right]) {
+			left++;
+			right--;
+		}
+		return left >= right;
+	}
+
+	bool checkConcatenation(const string& a, const string& b) {
+		int n = a.size();
+		int left = 0, right = n - 1;
+		while (left < right && a[left] == b[right]) {
+			left++;
+			right--;
+		}
+		if (left >= right) {
+			return true;
+		}
+		return checkSelfPalindrome(a, left, right) || checkSelfPalindrome(b, left, right);
+	}
+
+	bool checkPalindromeFormation(string a, string b) {
+		return checkConcatenation(a, b) || checkConcatenation(b, a);
 	}
 };
