@@ -145,6 +145,7 @@
     <ClCompile Include="2379. 得到 K 个黑块的最少涂色次数.cpp" />
     <ClCompile Include="2383. 赢得比赛需要的最少训练时长.cpp" />
     <ClCompile Include="2488. 统计中位数为 K 的子数组.cpp" />
+    <ClCompile Include="654. 最大二叉树.cpp" />
     <ClCompile Include="659. 分割数组为连续子序列.cpp" />
     <ClCompile Include="665. 非递减数列.cpp" />
     <ClCompile Include="765. 情侣牵手.cpp" />
