@@ -2712,6 +2712,9 @@
     <ClCompile Include="1012. 至少有 1 位重复的数字.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="658. 找到 K 个最接近的元素.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
