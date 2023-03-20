@@ -17,3 +17,9 @@ using namespace std;
 »ªÊÏ¶È = ÉãÊÏ¶È * 1.80 + 32.00
 */
 
+class Solution {
+public:
+    vector<double> convertTemperature(double celsius) {
+        return { celsius + 273.15, celsius * 1.80 + 32.00 };
+    }
+};
