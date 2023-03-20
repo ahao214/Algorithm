@@ -2715,6 +2715,9 @@
     <ClCompile Include="658. 找到 K 个最接近的元素.cpp">
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
+    <ClCompile Include="2469. 温度转换.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
