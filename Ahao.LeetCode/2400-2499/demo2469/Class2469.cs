@@ -15,5 +15,12 @@ namespace Ahao.LeetCode._2400_2499.demo2469
             res[1] = celsius * 1.80 + 32.00;
             return res;
         }
+
+
+        public double[] ConvertTemperature2(double celsius)
+        {
+            return new double[] { celsius + 273.15, celsius * 1.80 + 32.00 };
+        }
+
     }
 }
