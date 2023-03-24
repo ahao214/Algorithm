@@ -2724,6 +2724,9 @@
     <ClCompile Include="657. 机器人能否返回原点.cpp">
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
+    <ClCompile Include="1032. 字符流.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

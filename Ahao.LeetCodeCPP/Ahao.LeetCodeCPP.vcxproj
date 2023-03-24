@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="..\ahao.leetcode\interview\380. o(1) 时间插入、删除和获取随机元素.cpp" />
     <ClCompile Include="1012. 至少有 1 位重复的数字.cpp" />
+    <ClCompile Include="1032. 字符流.cpp" />
     <ClCompile Include="1096. 花括号展开 II.cpp" />
     <ClCompile Include="1615. 最大网络秩.cpp" />
     <ClCompile Include="1630. 等差子数组.cpp" />
