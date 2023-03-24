@@ -132,3 +132,27 @@ public:
 		return false;
 	}
 };
+
+
+
+
+/*
+653. 两数之和 IV - 输入 BST
+*/
+class Solution {
+public:
+	unordered_set<int> hash;
+	bool findTarget(TreeNode* root, int k) {
+		return dfs(root, k);
+	}
+
+	bool dfs(TreeNode* root, int k)
+	{
+		if (!root) return false;
+		if (dfs(root->left, k)) return true;
+		int x = root->val;
+		if (hash.count(k - x)) return true;
+		hash.insert(x);
+		return dfs(root->right, k);
+	}
+};
