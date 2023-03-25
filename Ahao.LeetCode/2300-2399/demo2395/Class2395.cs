@@ -25,5 +25,22 @@ namespace Ahao.LeetCode._2300_2399.demo2395
 
             return false;
         }
+
+
+        public bool FindSubarrays2(int[] nums)
+        {
+            int n = nums.Length;
+            ISet<int> seen = new HashSet<int>();
+            for (int i = 0; i < n - 1; ++i)
+            {
+                int sum = nums[i] + nums[i + 1];
+                if (!seen.Add(sum))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
     }
 }
