@@ -2727,6 +2727,9 @@
     <ClCompile Include="1032. 字符流.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="1574. 删除最短的子数组使剩余数组有序.cpp">
+      <Filter>源文件\1500-1599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
