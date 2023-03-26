@@ -43,3 +43,33 @@ public:
 		return ans;
 	}
 };
+
+
+
+
+/*
+652. Ñ°ÕÒÖØ¸´µÄ×ÓÊ÷
+*/
+class Solution {
+public:
+	unordered_map<string, int> ids;
+	int cnt = 0;
+	unordered_map<int, int> hash;
+	vector<TreeNode*> ans;
+	vector<TreeNode*> findDuplicateSubtrees(TreeNode* root) {
+		dfs(root);
+		return ans;
+	}
+
+	int dfs(TreeNode* root)
+	{
+		if (!root) return 0;
+		int left = dfs(root->left);
+		int right = dfs(root->right);
+		string key = to_string(root->val) + ' ' + to_string(left) + ' ' + to_string(right);
+		if (ids.count(key) == 0) ids[key] = ++cnt;
+		int id = ids[key];
+		if (++hash[id] == 2) ans.push_back(root);
+		return id;
+	}
+};
