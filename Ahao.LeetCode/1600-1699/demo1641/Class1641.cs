@@ -22,5 +22,16 @@ namespace Ahao.LeetCode._1600_1699.demo1641
             return dp.Sum();
         }
 
+        /// <summary>
+        /// 组合数字
+        /// </summary>
+        /// <param name="n"></param>
+        /// <returns></returns>
+        public int CountVowelStrings2(int n)
+        {
+            return (n + 1) * (n + 2) * (n + 3) * (n + 4) / 24;
+        }
+
+
     }
 }
