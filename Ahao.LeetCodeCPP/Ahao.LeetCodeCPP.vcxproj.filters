@@ -2736,6 +2736,9 @@
     <ClCompile Include="1092. 最短公共超序列.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="1637. 两点之间不包含任何点的最宽垂直区域.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
