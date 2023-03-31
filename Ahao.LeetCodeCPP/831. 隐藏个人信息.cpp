@@ -1,5 +1,7 @@
 #include<vector>
 #include <string>
+#include <algorithm>
+#include <regex>
 
 using namespace std;
 
