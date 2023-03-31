@@ -2739,6 +2739,9 @@
     <ClCompile Include="1637. 两点之间不包含任何点的最宽垂直区域.cpp">
       <Filter>源文件\1600-1699</Filter>
     </ClCompile>
+    <ClCompile Include="2367. 算术三元组的数目.cpp">
+      <Filter>源文件\2300-2399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
