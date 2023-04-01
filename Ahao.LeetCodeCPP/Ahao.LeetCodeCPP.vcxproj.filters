@@ -2742,6 +2742,9 @@
     <ClCompile Include="2367. 算术三元组的数目.cpp">
       <Filter>源文件\2300-2399</Filter>
     </ClCompile>
+    <ClCompile Include="1039. 多边形三角剖分的最低得分.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
