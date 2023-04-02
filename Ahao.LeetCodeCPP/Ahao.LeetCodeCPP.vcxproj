@@ -143,6 +143,7 @@
     <ClCompile Include="1012. 至少有 1 位重复的数字.cpp" />
     <ClCompile Include="1032. 字符流.cpp" />
     <ClCompile Include="1039. 多边形三角剖分的最低得分.cpp" />
+    <ClCompile Include="1053. 交换一次的先前排列.cpp" />
     <ClCompile Include="1092. 最短公共超序列.cpp" />
     <ClCompile Include="1096. 花括号展开 II.cpp" />
     <ClCompile Include="1574. 删除最短的子数组使剩余数组有序.cpp" />
