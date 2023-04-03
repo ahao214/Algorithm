@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\ahao.leetcode\interview\380. o(1) 时间插入、删除和获取随机元素.cpp" />
+    <ClCompile Include="1000. 合并石头的最低成本.cpp" />
     <ClCompile Include="1012. 至少有 1 位重复的数字.cpp" />
     <ClCompile Include="1032. 字符流.cpp" />
     <ClCompile Include="1039. 多边形三角剖分的最低得分.cpp" />
