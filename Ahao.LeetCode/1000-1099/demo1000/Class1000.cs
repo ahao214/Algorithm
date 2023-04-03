@@ -76,7 +76,7 @@ namespace Ahao.LeetCode._1000_1099.demo1000
 
 
 
-        
+
         public int MergeStones2(int[] stones, int k)
         {
             int n = stones.Length;
@@ -121,6 +121,49 @@ namespace Ahao.LeetCode._1000_1099.demo1000
                 }
             }
             return d[0][n - 1][1];
+        }
+
+
+
+        public int MergeStones3(int[] stones, int k)
+        {
+            int n = stones.Length;
+            if ((n - 1) % (k - 1) != 0)
+            {
+                return -1;
+            }
+
+            int[][] d = new int[n][];
+            for (int i = 0; i < n; i++)
+            {
+                d[i] = new int[n];
+                Array.Fill(d[i], INF);
+            }
+            int[] sum = new int[n];
+
+            for (int i = 0, s = 0; i < n; i++)
+            {
+                d[i][i] = 0;
+                s += stones[i];
+                sum[i] = s;
+            }
+
+            for (int len = 2; len <= n; len++)
+            {
+                for (int l = 0; l < n && l + len - 1 < n; l++)
+                {
+                    int r = l + len - 1;
+                    for (int p = l; p < r; p += k - 1)
+                    {
+                        d[l][r] = Math.Min(d[l][r], d[l][p] + d[p + 1][r]);
+                    }
+                    if ((r - l) % (k - 1) == 0)
+                    {
+                        d[l][r] += sum[r] - (l == 0 ? 0 : sum[l - 1]);
+                    }
+                }
+            }
+            return d[0][n - 1];
         }
 
 
