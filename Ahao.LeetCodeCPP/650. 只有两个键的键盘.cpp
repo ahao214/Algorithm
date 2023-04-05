@@ -6,6 +6,7 @@ using namespace std;
 
 /*
 650. 只有两个键的键盘
+
 最初记事本上只有一个字符 'A' 。你每次可以对这个记事本进行两种操作：
 
 Copy All（复制全部）：复制这个记事本中的所有字符（不允许仅复制部分字符）。
@@ -24,6 +25,29 @@ public:
 				n /= i;
 			}
 		}
+		return res;
+	}
+};
+
+
+
+
+/*
+650. 只有两个键的键盘
+*/
+class Solution {
+public:
+	int minSteps(int n) {
+		int res = 0;
+		for (int i = 2; i <= n / i; i++)
+		{
+			while (n % i == 0)
+			{
+				res += i;
+				n /= i;
+			}
+		}
+		if (n > 1) res += n;
 		return res;
 	}
 };
