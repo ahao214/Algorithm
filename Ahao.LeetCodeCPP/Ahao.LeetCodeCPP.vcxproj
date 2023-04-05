@@ -847,7 +847,7 @@
     <ClCompile Include="63. 不同路径 II.cpp" />
     <ClCompile Include="64. 最小路径和.cpp" />
     <ClCompile Include="640. 求解方程.cpp" />
-    <ClCompile Include="643.cpp" />
+    <ClCompile Include="643. 子数组最大平均数.cpp" />
     <ClCompile Include="65. 有效数字.cpp" />
     <ClCompile Include="650. 只有两个键的键盘.cpp" />
     <ClCompile Include="652. 寻找重复的子树.cpp" />

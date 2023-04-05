@@ -2454,7 +2454,7 @@
     <ClCompile Include="2216. 美化数组的最少删除数.cpp">
       <Filter>源文件\2200-2299</Filter>
     </ClCompile>
-    <ClCompile Include="643.cpp">
+    <ClCompile Include="643. 子数组最大平均数.cpp">
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
     <ClCompile Include="1031. 两个非重叠子数组的最大和.cpp">
