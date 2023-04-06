@@ -47,3 +47,41 @@ public:
         return res;
     }
 };
+
+
+
+class Solution {
+public:
+    string baseNeg2(int n) {
+        if (n == 0 || n == 1) {
+            return to_string(n);
+        }
+        string res;
+        while (n != 0) {
+            int remainder = n & 1;
+            res.push_back('0' + remainder);
+            n -= remainder;
+            n /= -2;
+        }
+        reverse(res.begin(), res.end());
+        return res;
+    }
+};
+
+
+class Solution {
+public:
+    string baseNeg2(int n) {
+        int val = 0x55555555 ^ (0x55555555 - n);
+        if (val == 0) {
+            return "0";
+        }
+        string res;
+        while (val) {
+            res.push_back('0' + (val & 1));
+            val >>= 1;
+        }
+        reverse(res.begin(), res.end());
+        return res;
+    }
+};
