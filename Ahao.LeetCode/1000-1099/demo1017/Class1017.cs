@@ -51,29 +51,51 @@ namespace Ahao.LeetCode._1000_1099.demo1017
 
 
 
-
-    
-            public string BaseNeg23(int n)
+        public string BaseNeg22(int n)
+        {
+            if (n == 0 || n == 1)
             {
-                int val = 0x55555555 ^ (0x55555555 - n);
-                if (val == 0)
-                {
-                    return "0";
-                }
-                StringBuilder sb = new StringBuilder();
-                while (val != 0)
-                {
-                    sb.Append(val & 1);
-                    val >>= 1;
-                }
-                StringBuilder res = new StringBuilder();
-                for (int i = sb.Length - 1; i >= 0; i--)
-                {
-                    res.Append(sb[i]);
-                }
-                return res.ToString();
+                return n.ToString();
             }
-        
+            StringBuilder sb = new StringBuilder();
+            while (n != 0)
+            {
+                int remainder = n & 1;
+                sb.Append(remainder);
+                n -= remainder;
+                n /= -2;
+            }
+            StringBuilder res = new StringBuilder();
+            for (int i = sb.Length - 1; i >= 0; i--)
+            {
+                res.Append(sb[i]);
+            }
+            return res.ToString();
+        }
+
+
+
+        public string BaseNeg23(int n)
+        {
+            int val = 0x55555555 ^ (0x55555555 - n);
+            if (val == 0)
+            {
+                return "0";
+            }
+            StringBuilder sb = new StringBuilder();
+            while (val != 0)
+            {
+                sb.Append(val & 1);
+                val >>= 1;
+            }
+            StringBuilder res = new StringBuilder();
+            for (int i = sb.Length - 1; i >= 0; i--)
+            {
+                res.Append(sb[i]);
+            }
+            return res.ToString();
+        }
+
 
     }
 }
