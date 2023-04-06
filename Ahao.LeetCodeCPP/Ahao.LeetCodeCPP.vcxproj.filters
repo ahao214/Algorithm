@@ -2754,6 +2754,9 @@
     <ClCompile Include="2427. 公因子的数目.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="1017. 负二进制转换.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
