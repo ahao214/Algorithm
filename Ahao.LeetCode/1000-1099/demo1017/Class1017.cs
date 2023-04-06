@@ -48,5 +48,32 @@ namespace Ahao.LeetCode._1000_1099.demo1017
             }
             return res.ToString();
         }
+
+
+
+
+    
+            public string BaseNeg23(int n)
+            {
+                int val = 0x55555555 ^ (0x55555555 - n);
+                if (val == 0)
+                {
+                    return "0";
+                }
+                StringBuilder sb = new StringBuilder();
+                while (val != 0)
+                {
+                    sb.Append(val & 1);
+                    val >>= 1;
+                }
+                StringBuilder res = new StringBuilder();
+                for (int i = sb.Length - 1; i >= 0; i--)
+                {
+                    res.Append(sb[i]);
+                }
+                return res.ToString();
+            }
+        
+
     }
 }
