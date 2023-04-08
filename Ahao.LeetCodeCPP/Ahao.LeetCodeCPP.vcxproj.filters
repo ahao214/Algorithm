@@ -2763,6 +2763,9 @@
     <ClCompile Include="1125. 最小的必要团队.cpp">
       <Filter>源文件\1100-1199</Filter>
     </ClCompile>
+    <ClCompile Include="2399. 检查相同字母间的距离.cpp">
+      <Filter>源文件\2300-2399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
