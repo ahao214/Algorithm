@@ -2766,6 +2766,9 @@
     <ClCompile Include="2399. 检查相同字母间的距离.cpp">
       <Filter>源文件\2300-2399</Filter>
     </ClCompile>
+    <ClCompile Include="1019. 链表中的下一个更大节点.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
