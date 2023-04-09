@@ -31,6 +31,35 @@ namespace Ahao.LeetCode._1000_1099.demo1019
             return res.ToArray();
         }
 
+        public int[] NextLargerNodes2(ListNode head)
+        {           
+            List<int> lst = new List<int>();
+
+            while (head != null)
+            {               
+                lst.Add(head.val);
+                head = head.next;
+            }
+
+            int[] res = new int[lst.Count];
+            int[] arr = lst.ToArray();
+            
+            for (int i = 0; i <lst.Count; i++)
+            {
+                for (int j = i + 1; j < lst.Count; j++)
+                {
+                    
+                    if (arr[j] > arr[i])
+                    {
+                        res[i] = arr[j];
+                        break;
+                    }
+                }
+            }
+
+
+            return res;
+        }
 
     }
 
