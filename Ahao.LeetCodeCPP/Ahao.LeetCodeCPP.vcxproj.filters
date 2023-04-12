@@ -2772,6 +2772,9 @@
     <ClCompile Include="1041. 困于环中的机器人.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="1147. 段式回文.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
