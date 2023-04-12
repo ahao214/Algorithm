@@ -120,5 +120,22 @@ namespace Ahao.LeetCode._1100_1199.demo1147
         }
 
 
+
+
+        public int LongestDecomposition3(string text)
+        {
+            if (string.IsNullOrEmpty(text)) return 0;
+            for (int i = 1; i * 2 <= text.Length; i++)
+            {
+                if (text.Substring(0, i).Equals(text.Substring(text.Length - i, i)))
+                {
+                    return 2 + LongestDecomposition3(text.Substring(i, text.Length - 2 * i));
+                }
+            }
+
+            return 1;
+        }
+
+
     }
 }
