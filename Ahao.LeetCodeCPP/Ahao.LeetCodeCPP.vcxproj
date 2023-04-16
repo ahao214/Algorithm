@@ -154,6 +154,7 @@
     <ClCompile Include="1096. 花括号展开 II.cpp" />
     <ClCompile Include="1125. 最小的必要团队.cpp" />
     <ClCompile Include="1147. 段式回文.cpp" />
+    <ClCompile Include="1157. 子数组中占绝大多数的元素.cpp" />
     <ClCompile Include="1574. 删除最短的子数组使剩余数组有序.cpp" />
     <ClCompile Include="1615. 最大网络秩.cpp" />
     <ClCompile Include="1630. 等差子数组.cpp" />

@@ -2781,6 +2781,9 @@
     <ClCompile Include="1042. 不邻接植花.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="1157. 子数组中占绝大多数的元素.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
