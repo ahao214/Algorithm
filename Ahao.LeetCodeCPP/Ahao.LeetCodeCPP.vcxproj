@@ -165,6 +165,7 @@
     <ClCompile Include="2395. 和相等的子数组.cpp" />
     <ClCompile Include="2399. 检查相同字母间的距离.cpp" />
     <ClCompile Include="2404. 出现最频繁的偶数元素.cpp" />
+    <ClCompile Include="2409. 统计共同度过的日子数.cpp" />
     <ClCompile Include="2427. 公因子的数目.cpp" />
     <ClCompile Include="2469. 温度转换.cpp" />
     <ClCompile Include="2488. 统计中位数为 K 的子数组.cpp" />

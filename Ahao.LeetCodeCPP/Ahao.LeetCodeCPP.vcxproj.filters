@@ -2784,6 +2784,9 @@
     <ClCompile Include="1157. 子数组中占绝大多数的元素.cpp">
       <Filter>源文件\1100-1199</Filter>
     </ClCompile>
+    <ClCompile Include="2409. 统计共同度过的日子数.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
