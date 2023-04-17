@@ -32,5 +32,32 @@ namespace Ahao.LeetCode._2400_2499.demo2409
             return prefixSum[month - 1] + date;
         }
 
+
+
+
+        private static int[] DAYS = new int[] { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+
+        private int calcDays(string s)
+        {
+            int day = (s[3] - '0') * 10 + s[4] - '0';
+            int month = (s[0] - '0') * 10 + s[1] - '0';
+            for (int i = 0; i < month - 1; ++i) // 除了最后一个月份，前面的月份直接累加
+                day += DAYS[i];
+            return day;
+        }
+
+        public int CountDaysTogether2(string arriveAlice, string leaveAlice, string arriveBob, string leaveBob)
+        {
+            int leftAlice = calcDays(arriveAlice);
+            int rightAlice = calcDays(leaveAlice);
+            int leftBob = calcDays(arriveBob);
+            int rightBob = calcDays(leaveBob);
+            int left = Math.Max(leftAlice, leftBob);
+            int right = Math.Min(rightAlice, rightBob);
+            return Math.Max(right - left + 1, 0);
+        }
     }
+
+
 }
+
