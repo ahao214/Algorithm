@@ -149,6 +149,7 @@
     <ClCompile Include="1040. 移动石子直到连续 II.cpp" />
     <ClCompile Include="1041. 困于环中的机器人.cpp" />
     <ClCompile Include="1042. 不邻接植花.cpp" />
+    <ClCompile Include="1043. 分隔数组以得到最大和.cpp" />
     <ClCompile Include="1053. 交换一次的先前排列.cpp" />
     <ClCompile Include="1092. 最短公共超序列.cpp" />
     <ClCompile Include="1096. 花括号展开 II.cpp" />
