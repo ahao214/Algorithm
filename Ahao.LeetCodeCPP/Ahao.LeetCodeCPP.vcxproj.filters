@@ -2799,6 +2799,9 @@
     <ClCompile Include="1105. 填充书架.cpp">
       <Filter>源文件\1100-1199</Filter>
     </ClCompile>
+    <ClCompile Include="1163. 按字典序排在最后的子串.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
