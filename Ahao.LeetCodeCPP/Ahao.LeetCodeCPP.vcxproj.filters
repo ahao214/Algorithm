@@ -2814,6 +2814,9 @@
     <ClCompile Include="2423. 删除字符使频率相同.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="1033. 移动石子直到连续.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
