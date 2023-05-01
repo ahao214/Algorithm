@@ -67,3 +67,30 @@ var numOfMinutes = function (n, headID, manager, informTime) {
 
 
 
+// 定义函数，输入为公司总人数 n，领导的 ID headID，每个员工的直接领导的 ID 数组 manager，员工被通知所需时间的数组 informTime
+var numOfMinutes = function (n, headID, manager, informTime) {
+    // 定义初始值为 0 的结果变量 res 和空 Map memo，用于存储已经计算过的员工所需时间
+    let res = 0;
+    const memo = new Map();
+    // 定义 dfs 函数，参数为当前员工的 ID cur
+    const dfs = (cur) => {
+        // 若当前员工为领导，返回 0
+        if (cur === headID) {
+            return 0;
+        }
+        // 若 memo 中不存在当前员工的计算结果，进行 DFS 计算
+        if (!memo.has(cur)) {
+            const res = dfs(manager[cur]) + informTime[manager[cur]];
+            // 将当前员工的计算结果存入 memo 中
+            memo.set(cur, res);
+        }
+        // 返回 memo 中当前员工的计算结果
+        return memo.get(cur);
+    }
+    // 遍历每个员工，计算其所需时间，并更新结果变量 res
+    for (let i = 0; i < n; i++) {
+        res = Math.max(res, dfs(i));
+    }
+    // 返回结果变量 res
+    return res;
+}

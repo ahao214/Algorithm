@@ -75,5 +75,42 @@ namespace Ahao.LeetCode._1300_1399.demo1376
         }
 
 
+
+
+
+        int headID;
+        int[] manager;
+        int[] informTime;
+        IDictionary<int, int> memo = new Dictionary<int, int>();
+
+        public int NumOfMinutes3(int n, int headID, int[] manager, int[] informTime)
+        {
+            this.headID = headID;
+            this.manager = manager;
+            this.informTime = informTime;
+            int res = 0;
+            for (int i = 0; i < n; i++)
+            {
+                res = Math.Max(res, DFS(i));
+            }
+            return res;
+        }
+
+        public int DFS(int cur)
+        {
+            if (cur == headID)
+            {
+                return 0;
+            }
+            if (!memo.ContainsKey(cur))
+            {
+                int res = DFS(manager[cur]) + informTime[manager[cur]];
+                memo.Add(cur, res);
+            }
+            return memo[cur];
+        }
+
+
+
     }
 }
