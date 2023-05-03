@@ -18,5 +18,21 @@ namespace Ahao.LeetCode._1000_1099.demo1003
             return s.Length == 0;
         }
 
+
+
+        public bool IsValid2(string s)
+        {
+            StringBuilder stk = new StringBuilder();
+            foreach (char c in s)
+            {
+                stk.Append(c);
+                if (stk.Length >= 3 && stk.ToString().Substring(stk.Length - 3).Equals("abc"))
+                {
+                    stk.Remove(stk.Length - 3, 3);
+                }
+            }
+            return stk.Length == 0;
+        }
+
     }
 }
