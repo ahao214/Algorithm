@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ahao.LeetCode._1000_1099.demo1003
+{
+    public class Class1003
+    {
+        public bool IsValid(string s)
+        {
+            while (s.Contains("abc"))
+            {
+                s = s.Replace("abc", "");
+            }
+
+            return s.Length == 0;
+        }
+
+    }
+}
