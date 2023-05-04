@@ -78,5 +78,46 @@ namespace Ahao.LeetCode._2100_2199.demo2106
             return res;
         }
 
+
+
+        public int MaxTotalFruits2(int[][] fruits, int startPos, int k)
+        {
+            int left = 0;
+            int right = 0;
+            int n = fruits.Length;
+            int sum = 0;
+            int ans = 0;
+            // 每次固定住窗口右边界
+            while (right < n)
+            {
+                sum += fruits[right][1];
+                // 移动左边界
+                while (left <= right && Step(fruits, startPos, left, right) > k)
+                {
+                    sum -= fruits[left][1];
+                    left++;
+                }
+                ans = Math.Max(ans, sum);
+                right++;
+            }
+            return ans;
+        }
+
+        public int Step(int[][] fruits, int startPos, int left, int right)
+        {
+            if (fruits[right][0] <= startPos)
+            {
+                return startPos - fruits[left][0];
+            }
+            else if (fruits[left][0] >= startPos)
+            {
+                return fruits[right][0] - startPos;
+            }
+            else
+            {
+                return Math.Min(Math.Abs(startPos - fruits[right][0]), Math.Abs(startPos - fruits[left][0])) + fruits[right][0] - fruits[left][0];
+            }
+        }
+
     }
 }
