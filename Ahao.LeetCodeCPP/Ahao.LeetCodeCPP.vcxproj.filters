@@ -2826,6 +2826,9 @@
     <ClCompile Include="2106. 摘水果.cpp">
       <Filter>源文件\2100-2199</Filter>
     </ClCompile>
+    <ClCompile Include="2432. 处理用时最长的那个任务的员工.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
