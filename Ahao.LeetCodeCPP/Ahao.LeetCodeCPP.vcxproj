@@ -163,6 +163,7 @@
     <ClCompile Include="1163. 按字典序排在最后的子串.cpp" />
     <ClCompile Include="1172. 餐盘栈.cpp" />
     <ClCompile Include="1187. 使数组严格递增.cpp" />
+    <ClCompile Include="1419. 数青蛙.cpp" />
     <ClCompile Include="1574. 删除最短的子数组使剩余数组有序.cpp" />
     <ClCompile Include="1615. 最大网络秩.cpp" />
     <ClCompile Include="1630. 等差子数组.cpp" />
