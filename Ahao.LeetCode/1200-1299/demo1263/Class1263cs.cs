@@ -87,7 +87,8 @@ namespace Ahao.LeetCode._1200_1299.demo1263
         }
 
         public bool Ok(char[][] grid, int m, int n, int x, int y)
-        { // 不越界且不在墙上
+        { 
+            // 不越界且不在墙上
             return x >= 0 && x < m && y >= 0 && y < n && grid[x][y] != '#';
         }
 
