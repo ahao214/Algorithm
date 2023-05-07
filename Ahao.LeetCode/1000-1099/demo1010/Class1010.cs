@@ -29,5 +29,24 @@ namespace Ahao.LeetCode._1000_1099.demo1010
             return res;
         }
 
+
+
+        public int NumPairsDivisibleBy602(int[] time)
+        {
+            int[] cnt = new int[60];
+            foreach (int t in time)
+            {
+                cnt[t % 60]++;
+            }
+            long res = 0;
+            for (int i = 1; i < 30; i++)
+            {
+                res += cnt[i] * cnt[60 - i];
+            }
+            res += (long)cnt[0] * (cnt[0] - 1) / 2 + (long)cnt[30] * (cnt[30] - 1) / 2;
+            return (int)res;
+        }
+
+
     }
 }
