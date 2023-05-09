@@ -2838,6 +2838,9 @@
     <ClCompile Include="1263. 推箱子.cpp">
       <Filter>源文件\1200-1299</Filter>
     </ClCompile>
+    <ClCompile Include="2437. 有效时间的数目.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
