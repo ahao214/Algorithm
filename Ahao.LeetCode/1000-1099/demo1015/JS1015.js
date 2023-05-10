@@ -20,3 +20,17 @@
     // 当余数为 0 时，表示找到了一个长度最短的可被整除的数字，返回长度 len
     return len;
 };
+
+
+var smallestRepunitDivByK = function (k) {
+    // 如果 k 是偶数或者是 5 的倍数，则无法整除，直接返回 -1
+    if (k % 2 === 0 || k % 5 === 0) {
+        return -1;
+    }
+    let resid = 1 % k, len = 1;
+    while (resid !== 0) {
+        resid = (resid * 10 + 1) % k;
+        len++;
+    }
+    return len;
+};
