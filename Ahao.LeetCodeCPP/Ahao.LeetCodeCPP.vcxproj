@@ -144,6 +144,7 @@
     <ClCompile Include="1003. 检查替换后的词是否有效.cpp" />
     <ClCompile Include="1010. 总持续时间可被 60 整除的歌曲.cpp" />
     <ClCompile Include="1012. 至少有 1 位重复的数字.cpp" />
+    <ClCompile Include="1015. 可被 K 整除的最小整数.cpp" />
     <ClCompile Include="1017. 负二进制转换.cpp" />
     <ClCompile Include="1019. 链表中的下一个更大节点.cpp" />
     <ClCompile Include="1032. 字符流.cpp" />
