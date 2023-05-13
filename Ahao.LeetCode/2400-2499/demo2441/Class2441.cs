@@ -51,5 +51,44 @@ namespace Ahao.LeetCode._2400_2499.demo2441
         }
 
 
+
+        public int FindMaxK3(int[] nums)
+        {
+            int k = -1;
+            ISet<int> set = new HashSet<int>();
+            foreach (int x in nums)
+            {
+                set.Add(x);
+            }
+            foreach (int x in nums)
+            {
+                if (set.Contains(-x))
+                {
+                    k = Math.Max(k, x);
+                }
+            }
+            return k;
+        }
+
+
+        public int FindMaxK4(int[] nums)
+        {
+            Array.Sort(nums);
+            for (int i = 0, j = nums.Length - 1; i < j; j--)
+            {
+                while (i < j && nums[i] < -nums[j])
+                {
+                    i++;
+                }
+                if (nums[i] == -nums[j])
+                {
+                    return nums[j];
+                }
+            }
+            return -1;
+        }
+
+
+
     }
 }
