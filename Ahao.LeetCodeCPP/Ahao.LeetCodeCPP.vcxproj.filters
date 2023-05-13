@@ -2850,6 +2850,9 @@
     <ClCompile Include="1330. 翻转子数组得到最大的数组值.cpp">
       <Filter>源文件\1300-1399</Filter>
     </ClCompile>
+    <ClCompile Include="2441. 与对应负数同时存在的最大正整数.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
