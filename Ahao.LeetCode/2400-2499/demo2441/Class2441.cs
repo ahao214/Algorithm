@@ -33,5 +33,23 @@ namespace Ahao.LeetCode._2400_2499.demo2441
 
         }
 
+
+        public int FindMaxK2(int[] nums)
+        {
+            int k = -1;
+            foreach (int x in nums)
+            {
+                foreach (int y in nums)
+                {
+                    if (-x == y)
+                    {
+                        k = Math.Max(k, x);
+                    }
+                }
+            }
+            return k;
+        }
+
+
     }
 }
