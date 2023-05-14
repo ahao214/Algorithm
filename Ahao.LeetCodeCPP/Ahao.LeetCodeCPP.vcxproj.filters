@@ -2853,6 +2853,9 @@
     <ClCompile Include="2441. 与对应负数同时存在的最大正整数.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="1054. 距离相等的条形码.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
