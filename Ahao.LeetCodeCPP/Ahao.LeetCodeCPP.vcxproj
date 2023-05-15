@@ -158,6 +158,7 @@
     <ClCompile Include="1048. 最长字符串链.cpp" />
     <ClCompile Include="1053. 交换一次的先前排列.cpp" />
     <ClCompile Include="1054. 距离相等的条形码.cpp" />
+    <ClCompile Include="1072. 按列翻转得到最大值等行数.cpp" />
     <ClCompile Include="1092. 最短公共超序列.cpp" />
     <ClCompile Include="1096. 花括号展开 II.cpp" />
     <ClCompile Include="1105. 填充书架.cpp" />
