@@ -170,6 +170,7 @@
     <ClCompile Include="1187. 使数组严格递增.cpp" />
     <ClCompile Include="1263. 推箱子.cpp" />
     <ClCompile Include="1330. 翻转子数组得到最大的数组值.cpp" />
+    <ClCompile Include="1335. 工作计划的最低难度.cpp" />
     <ClCompile Include="1419. 数青蛙.cpp" />
     <ClCompile Include="1574. 删除最短的子数组使剩余数组有序.cpp" />
     <ClCompile Include="1615. 最大网络秩.cpp" />

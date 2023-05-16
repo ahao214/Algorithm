@@ -2859,6 +2859,9 @@
     <ClCompile Include="1072. 按列翻转得到最大值等行数.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="1335. 工作计划的最低难度.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
