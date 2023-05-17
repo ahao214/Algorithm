@@ -13,7 +13,5 @@ namespace Ahao.LeetCode._2400_2499.demo2446
         {
             return !(event1[1].CompareTo(event2[0]) < 0 || event2[1].CompareTo(event1[0]) < 0);
         }
-
-
     }
 }
