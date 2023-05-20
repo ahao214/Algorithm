@@ -196,6 +196,7 @@
     <ClCompile Include="2441. 与对应负数同时存在的最大正整数.cpp" />
     <ClCompile Include="2469. 温度转换.cpp" />
     <ClCompile Include="2488. 统计中位数为 K 的子数组.cpp" />
+    <ClCompile Include="648. 单词替换.cpp" />
     <ClCompile Include="649. Dota2 参议院.cpp" />
     <ClCompile Include="654. 最大二叉树.cpp" />
     <ClCompile Include="655. 输出二叉树.cpp" />

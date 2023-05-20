@@ -2874,6 +2874,9 @@
     <ClCompile Include="1373. 二叉搜索子树的最大键值和.cpp">
       <Filter>源文件\1300-1399</Filter>
     </ClCompile>
+    <ClCompile Include="648. 单词替换.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
