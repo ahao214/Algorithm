@@ -2877,6 +2877,9 @@
     <ClCompile Include="648. 单词替换.cpp">
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
+    <ClCompile Include="1080. 根到叶路径上的不足节点.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
