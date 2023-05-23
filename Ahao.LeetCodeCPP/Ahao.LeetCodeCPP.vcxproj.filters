@@ -2880,6 +2880,9 @@
     <ClCompile Include="1080. 根到叶路径上的不足节点.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="1090. 受标签影响的最大值.cpp">
+      <Filter>源文件\1000-1099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
