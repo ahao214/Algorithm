@@ -35,5 +35,35 @@ namespace Ahao.LeetCode._1000_1099.demo1090
             }
             return ans;
         }
+
+        public int LargestValsFromLabels2(int[] values, int[] labels, int numWanted, int useLimit)
+        {
+            int n = values.Length;
+            int res = 0;
+            int[][] grid = new int[n][];
+            for (int i = 0; i < n; i++)
+            {
+                grid[i] = new int[2];
+                grid[i][0] = values[i];
+                grid[i][1] = labels[i];
+            }
+
+            Array.Sort(grid, (a, b) => b[0] - a[0]);
+            IDictionary<int, int> dic = new Dictionary<int, int>();
+            for (int i = 0; i < n && numWanted > 0; i++)
+            {
+                int value = grid[i][0], label = grid[i][1];
+                dic.TryAdd(label, 0);
+                int count = dic[label];
+                if (count < useLimit)
+                {
+                    res += value;
+                    dic[label]++;
+                    numWanted--;
+                }
+            }
+            return res;
+
+        }
     }
 }
