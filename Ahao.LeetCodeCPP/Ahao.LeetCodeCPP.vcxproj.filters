@@ -2883,6 +2883,9 @@
     <ClCompile Include="1090. 受标签影响的最大值.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="2451. 差值数组不同的字符串.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
