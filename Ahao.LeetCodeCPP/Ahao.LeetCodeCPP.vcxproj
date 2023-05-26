@@ -200,6 +200,7 @@
     <ClCompile Include="2451. 差值数组不同的字符串.cpp" />
     <ClCompile Include="2469. 温度转换.cpp" />
     <ClCompile Include="2488. 统计中位数为 K 的子数组.cpp" />
+    <ClCompile Include="646. 最长数对链.cpp" />
     <ClCompile Include="647. 回文子串.cpp" />
     <ClCompile Include="648. 单词替换.cpp" />
     <ClCompile Include="649. Dota2 参议院.cpp" />
