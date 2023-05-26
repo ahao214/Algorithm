@@ -2889,6 +2889,9 @@
     <ClCompile Include="1091. 二进制矩阵中的最短路径.cpp">
       <Filter>源文件\1000-1099</Filter>
     </ClCompile>
+    <ClCompile Include="647. 回文子串.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
