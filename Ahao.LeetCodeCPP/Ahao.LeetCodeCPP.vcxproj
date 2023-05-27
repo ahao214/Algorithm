@@ -165,6 +165,7 @@
     <ClCompile Include="1090. 受标签影响的最大值.cpp" />
     <ClCompile Include="1091. 二进制矩阵中的最短路径.cpp" />
     <ClCompile Include="1092. 最短公共超序列.cpp" />
+    <ClCompile Include="1093. 大样本统计.cpp" />
     <ClCompile Include="1096. 花括号展开 II.cpp" />
     <ClCompile Include="1105. 填充书架.cpp" />
     <ClCompile Include="1125. 最小的必要团队.cpp" />
