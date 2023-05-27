@@ -179,6 +179,7 @@
     <ClCompile Include="1335. 工作计划的最低难度.cpp" />
     <ClCompile Include="1373. 二叉搜索子树的最大键值和.cpp" />
     <ClCompile Include="1419. 数青蛙.cpp" />
+    <ClCompile Include="1439. 有序矩阵中的第 k 个最小数组和.cpp" />
     <ClCompile Include="1574. 删除最短的子数组使剩余数组有序.cpp" />
     <ClCompile Include="1615. 最大网络秩.cpp" />
     <ClCompile Include="1630. 等差子数组.cpp" />
