@@ -2901,6 +2901,9 @@
     <ClCompile Include="1439. 有序矩阵中的第 k 个最小数组和.cpp">
       <Filter>源文件\1400-1499</Filter>
     </ClCompile>
+    <ClCompile Include="645. 错误的集合.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
