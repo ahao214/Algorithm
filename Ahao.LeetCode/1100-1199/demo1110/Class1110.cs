@@ -45,6 +45,43 @@ namespace Ahao.LeetCode._1100_1199.demo1110
         }
 
 
+        bool[] toDelete = new bool[1001];
+        List<TreeNode> res = new List<TreeNode>();
+        public IList<TreeNode> DelNodes2(TreeNode root, int[] to_delete)
+        {
+            foreach (var item in to_delete)
+            {
+                toDelete[item] = true;
+            }
+            if (DFS2(root) != null)
+            {
+                res.Add(root);
+            }
+            return res;
+        }
+
+        private TreeNode DFS2(TreeNode root)
+        {
+            if (root == null)
+            {
+                return null;
+            }
+            root.left = DFS2(root.left);
+            root.right = DFS2(root.right);
+            if (toDelete[root.val])
+            {
+                if (root.left != null)
+                {
+                    res.Add(root.left);
+                }
+                if (root.right != null)
+                {
+                    res.Add(root.right);
+                }
+                return null;
+            }
+            return root;
+        }
     }
 
 
