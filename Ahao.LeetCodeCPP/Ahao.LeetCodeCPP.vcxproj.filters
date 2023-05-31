@@ -2910,6 +2910,9 @@
     <ClCompile Include="1110. 删点成林.cpp">
       <Filter>源文件\1100-1199</Filter>
     </ClCompile>
+    <ClCompile Include="1130. 叶值的最小代价生成树.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
