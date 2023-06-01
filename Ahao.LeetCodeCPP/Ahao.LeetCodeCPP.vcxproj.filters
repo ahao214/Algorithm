@@ -2922,6 +2922,9 @@
     <ClCompile Include="529. 扫雷游戏.cpp">
       <Filter>源文件\0500-0599</Filter>
     </ClCompile>
+    <ClCompile Include="528. 按权重随机选择.cpp">
+      <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
