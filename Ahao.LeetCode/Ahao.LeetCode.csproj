@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="2500-2599\" />
     <Folder Include="2600-2699\" />
     <Folder Include="2700-2799\" />
     <Folder Include="6000-6099\demo6037\" />
