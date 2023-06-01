@@ -206,6 +206,7 @@
     <ClCompile Include="2469. 温度转换.cpp" />
     <ClCompile Include="2488. 统计中位数为 K 的子数组.cpp" />
     <ClCompile Include="2517. 礼盒的最大甜蜜度.cpp" />
+    <ClCompile Include="526. 优美的排列.cpp" />
     <ClCompile Include="528. 按权重随机选择.cpp" />
     <ClCompile Include="529. 扫雷游戏.cpp" />
     <ClCompile Include="530. 二叉搜索树的最小绝对差.cpp" />
