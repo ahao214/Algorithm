@@ -207,6 +207,7 @@
     <ClCompile Include="2488. 统计中位数为 K 的子数组.cpp" />
     <ClCompile Include="2517. 礼盒的最大甜蜜度.cpp" />
     <ClCompile Include="2559. 统计范围内的元音字符串数.cpp" />
+    <ClCompile Include="524. 通过删除字母匹配到字典里最长单词.cpp" />
     <ClCompile Include="526. 优美的排列.cpp" />
     <ClCompile Include="528. 按权重随机选择.cpp" />
     <ClCompile Include="529. 扫雷游戏.cpp" />
