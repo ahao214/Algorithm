@@ -20,7 +20,7 @@ using namespace std;
 class Solution {
 public:
     vector<int> vowelStrings(vector<string>& words, vector<vector<int>>& queries) {
-        int n = words.size();
+        int n = words.size();        
         int prefixSums[n + 1];
         memset(prefixSums, 0, sizeof(prefixSums));
         for (int i = 0; i < n; i++) {
