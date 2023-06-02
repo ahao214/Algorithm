@@ -41,7 +41,7 @@ namespace Ahao.LeetCode._1100_1199.demo1156
                     }
                     // 如果不是相隔一个字符的情况则更新结果
                     if (count[last - 'a'] > cnt) ++cnt;
-                    ans = Math.Max(ans, cnt);
+                    res = Math.Max(res, cnt);
                     // 当前最长重新设置为1，待比对字符更新为当前字符
                     cnt = 1;
                     last = chars[i];
@@ -50,8 +50,8 @@ namespace Ahao.LeetCode._1100_1199.demo1156
             // 遍历完成后确定最终答案，选中的字符当前最大长度若小于出现评率则可+1
             // 如 abbaaaa 最终last = chars[3] cnt = 4
             if (count[last - 'a'] > cnt) ++cnt;
-            ans = Math.Max(ans, cnt);
-            return ans;
+            res = Math.Max(res, cnt);
+            return res;
         }
 
 
