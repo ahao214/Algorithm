@@ -204,6 +204,7 @@
     <ClCompile Include="2441. 与对应负数同时存在的最大正整数.cpp" />
     <ClCompile Include="2451. 差值数组不同的字符串.cpp" />
     <ClCompile Include="2455. 可被三整除的偶数的平均值.cpp" />
+    <ClCompile Include="2465. 不同的平均值数目.cpp" />
     <ClCompile Include="2469. 温度转换.cpp" />
     <ClCompile Include="2488. 统计中位数为 K 的子数组.cpp" />
     <ClCompile Include="2517. 礼盒的最大甜蜜度.cpp" />

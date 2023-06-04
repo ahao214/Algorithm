@@ -2943,6 +2943,9 @@
     <ClCompile Include="1156. 单字符重复子串的最大长度.cpp">
       <Filter>源文件\1100-1199</Filter>
     </ClCompile>
+    <ClCompile Include="2465. 不同的平均值数目.cpp">
+      <Filter>源文件\2400-2499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
