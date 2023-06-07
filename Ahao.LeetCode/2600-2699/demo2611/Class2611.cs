@@ -26,5 +26,29 @@ namespace Ahao.LeetCode._2600_2699.demo2611
             return res;
         }
 
+
+        /*         
+        public int MiceAndCheese2(int[] reward1, int[] reward2, int k)
+        {
+            int ans = 0;
+            int n = reward1.Length;
+            PriorityQueue<int, int> pq = new PriorityQueue<int, int>();
+            for (int i = 0; i < n; i++)
+            {
+                ans += reward2[i];
+                pq.Enqueue(reward1[i] - reward2[i], reward1[i] - reward2[i]);
+                if (pq.Count > k)
+                {
+                    pq.Dequeue();
+                }
+            }
+            while (pq.Count > 0)
+            {
+                ans += pq.Dequeue();
+            }
+            return ans;
+        }
+        */
+
     }
 }
