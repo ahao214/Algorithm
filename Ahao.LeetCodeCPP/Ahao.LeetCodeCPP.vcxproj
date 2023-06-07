@@ -177,6 +177,7 @@
     <ClCompile Include="1163. 按字典序排在最后的子串.cpp" />
     <ClCompile Include="1172. 餐盘栈.cpp" />
     <ClCompile Include="1187. 使数组严格递增.cpp" />
+    <ClCompile Include="1240. 铺瓷砖.cpp" />
     <ClCompile Include="1263. 推箱子.cpp" />
     <ClCompile Include="1330. 翻转子数组得到最大的数组值.cpp" />
     <ClCompile Include="1335. 工作计划的最低难度.cpp" />
