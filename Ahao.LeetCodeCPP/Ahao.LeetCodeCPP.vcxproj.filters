@@ -91,6 +91,9 @@
     <Filter Include="源文件\2500-2599">
       <UniqueIdentifier>{5a03dbfe-6567-429d-b5e3-9096ec515e95}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2600-2699">
+      <UniqueIdentifier>{2e1e7477-2070-4a9a-b681-e33aa3246402}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -2951,6 +2954,9 @@
     </ClCompile>
     <ClCompile Include="2352. 相等行列对.cpp">
       <Filter>源文件\2300-2399</Filter>
+    </ClCompile>
+    <ClCompile Include="2611. 老鼠和奶酪.cpp">
+      <Filter>源文件\2600-2699</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
