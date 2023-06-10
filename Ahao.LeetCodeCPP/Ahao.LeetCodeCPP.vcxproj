@@ -215,6 +215,7 @@
     <ClCompile Include="2559. 统计范围内的元音字符串数.cpp" />
     <ClCompile Include="2611. 老鼠和奶酪.cpp" />
     <ClCompile Include="2699. 修改图中的边权.cpp" />
+    <ClCompile Include="520. 检测大写字母.cpp" />
     <ClCompile Include="521. 最长特殊序列 Ⅰ.cpp" />
     <ClCompile Include="523. 连续的子数组和.cpp" />
     <ClCompile Include="524. 通过删除字母匹配到字典里最长单词.cpp" />

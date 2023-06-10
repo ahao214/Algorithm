@@ -2967,6 +2967,9 @@
     <ClCompile Include="1170. 比较字符串最小字母出现频次.cpp">
       <Filter>源文件\1100-1199</Filter>
     </ClCompile>
+    <ClCompile Include="520. 检测大写字母.cpp">
+      <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
