@@ -2970,6 +2970,9 @@
     <ClCompile Include="520. 检测大写字母.cpp">
       <Filter>源文件\0500-0599</Filter>
     </ClCompile>
+    <ClCompile Include="1171. 从链表中删去总和值为零的连续节点.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
