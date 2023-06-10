@@ -175,6 +175,7 @@
     <ClCompile Include="1156. 单字符重复子串的最大长度.cpp" />
     <ClCompile Include="1157. 子数组中占绝大多数的元素.cpp" />
     <ClCompile Include="1163. 按字典序排在最后的子串.cpp" />
+    <ClCompile Include="1170. 比较字符串最小字母出现频次.cpp" />
     <ClCompile Include="1172. 餐盘栈.cpp" />
     <ClCompile Include="1187. 使数组严格递增.cpp" />
     <ClCompile Include="1240. 铺瓷砖.cpp" />
