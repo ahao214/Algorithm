@@ -46,10 +46,7 @@ namespace Ahao.LeetCode._2400_2499.demo2475
             return res;
         }
 
-        public int UnequalTriplets3(int[] nums)
-        {
-        
-        }
+
 
 
     }
