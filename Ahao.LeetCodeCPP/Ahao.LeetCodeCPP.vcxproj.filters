@@ -2979,6 +2979,9 @@
     <ClCompile Include="2475. 数组中不等三元组的数目.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="1375. 二进制字符串前缀一致的次数.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
