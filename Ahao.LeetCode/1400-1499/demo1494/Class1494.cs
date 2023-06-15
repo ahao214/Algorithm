@@ -9,7 +9,7 @@ namespace Ahao.LeetCode._1400_1499.demo1494
     public class Class1494
     {
 
-        public int minNumberOfSemesters(int n, int[][] relations, int k)
+        public int MinNumberOfSemesters(int n, int[][] relations, int k)
         {
             int[] dp = new int[1 << n];
             Array.Fill(dp, int.MaxValue);
