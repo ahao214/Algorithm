@@ -14,19 +14,11 @@ namespace Ahao.LeetCode._2400_2499.demo2481
             {
                 return 0;
             }
-            if (n == 3)
-            {
-                return n;
-            }
-
             if (n % 2 == 0)
             {
                 return n / 2;
             }
-            else
-            {
-                return n;
-            }
+            return n;
 
         }
     }
