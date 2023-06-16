@@ -214,6 +214,7 @@
     <ClCompile Include="2465. 不同的平均值数目.cpp" />
     <ClCompile Include="2469. 温度转换.cpp" />
     <ClCompile Include="2475. 数组中不等三元组的数目.cpp" />
+    <ClCompile Include="2481. 分割圆的最少切割次数.cpp" />
     <ClCompile Include="2488. 统计中位数为 K 的子数组.cpp" />
     <ClCompile Include="2517. 礼盒的最大甜蜜度.cpp" />
     <ClCompile Include="2559. 统计范围内的元音字符串数.cpp" />

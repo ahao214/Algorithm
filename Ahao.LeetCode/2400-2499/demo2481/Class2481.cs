@@ -6,7 +6,28 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode._2400_2499.demo2481
 {
-    class Class2481
+    public class Class2481
     {
+        public int NumberOfCuts(int n)
+        {
+            if (n == 1)
+            {
+                return 0;
+            }
+            if (n == 3)
+            {
+                return n;
+            }
+
+            if (n % 2 == 0)
+            {
+                return n / 2;
+            }
+            else
+            {
+                return n;
+            }
+
+        }
     }
 }
