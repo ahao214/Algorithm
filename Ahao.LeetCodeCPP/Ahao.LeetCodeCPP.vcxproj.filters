@@ -2988,6 +2988,9 @@
     <ClCompile Include="2481. 分割圆的最少切割次数.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="1254. 统计封闭岛屿的数目.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
