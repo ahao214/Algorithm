@@ -183,6 +183,7 @@
     <ClCompile Include="1240. 铺瓷砖.cpp" />
     <ClCompile Include="1254. 统计封闭岛屿的数目.cpp" />
     <ClCompile Include="1263. 推箱子.cpp" />
+    <ClCompile Include="1281. 整数的各位积和之差.cpp" />
     <ClCompile Include="1330. 翻转子数组得到最大的数组值.cpp" />
     <ClCompile Include="1335. 工作计划的最低难度.cpp" />
     <ClCompile Include="1373. 二叉搜索子树的最大键值和.cpp" />

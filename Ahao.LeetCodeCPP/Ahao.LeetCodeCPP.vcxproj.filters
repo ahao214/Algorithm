@@ -2991,6 +2991,9 @@
     <ClCompile Include="1254. 统计封闭岛屿的数目.cpp">
       <Filter>源文件\1200-1299</Filter>
     </ClCompile>
+    <ClCompile Include="1281. 整数的各位积和之差.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
