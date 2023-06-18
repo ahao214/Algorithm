@@ -121,5 +121,63 @@ namespace Ahao.LeetCode._1200_1299.demo1262
 
 
 
+        public int MaxSumDivThree4(int[] nums)
+        {
+            List<int> one = new List<int>();
+            List<int> two = new List<int>();
+
+            int sum = 0;
+
+            foreach (var item in nums)
+            {
+                if (item % 3 == 1)
+                {
+                    one.Add(item);
+                }
+                if (item % 3 == 2)
+                {
+                    two.Add(item);
+                }
+                sum += item;
+            }
+
+            one.Sort();
+            two.Sort();
+
+            int res = sum % 3, ans = 0;
+
+            if (res == 0)
+            {
+                return sum;
+            }
+
+            if (res == 1)
+            {
+                //剔除一个满足mod3==1的数， 或两个满足mod3==2的数
+                if (two.Count >= 2)
+                {
+                    ans = Math.Max(ans, sum - two[0] - two[1]);
+                }
+                if (one.Count >= 1)
+                {
+                    ans = Math.Max(ans, sum - one[0]);
+                }
+            }
+            else if (res == 2)
+            {
+                //剔除一个满足mod3==2的数， 或两个满足mod3==1的数
+                if (two.Count > 0)
+                {
+                    ans = Math.Max(ans, sum - two[0]);
+                }
+                if (one.Count >= 2)
+                {
+                    ans = Math.Max(ans, sum - one[0] - one[1]);
+                }
+            }
+            return ans;
+
+        }
+
     }
 }
