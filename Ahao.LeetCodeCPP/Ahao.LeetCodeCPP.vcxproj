@@ -182,6 +182,7 @@
     <ClCompile Include="1187. 使数组严格递增.cpp" />
     <ClCompile Include="1240. 铺瓷砖.cpp" />
     <ClCompile Include="1254. 统计封闭岛屿的数目.cpp" />
+    <ClCompile Include="1262. 可被三整除的最大和.cpp" />
     <ClCompile Include="1263. 推箱子.cpp" />
     <ClCompile Include="1281. 整数的各位积和之差.cpp" />
     <ClCompile Include="1330. 翻转子数组得到最大的数组值.cpp" />

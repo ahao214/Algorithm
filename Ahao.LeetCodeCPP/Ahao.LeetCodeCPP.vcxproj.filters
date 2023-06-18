@@ -2994,6 +2994,9 @@
     <ClCompile Include="1281. 整数的各位积和之差.cpp">
       <Filter>源文件\1200-1299</Filter>
     </ClCompile>
+    <ClCompile Include="1262. 可被三整除的最大和.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
