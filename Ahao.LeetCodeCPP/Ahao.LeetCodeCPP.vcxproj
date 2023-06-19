@@ -192,6 +192,7 @@
     <ClCompile Include="1419. 数青蛙.cpp" />
     <ClCompile Include="1439. 有序矩阵中的第 k 个最小数组和.cpp" />
     <ClCompile Include="1574. 删除最短的子数组使剩余数组有序.cpp" />
+    <ClCompile Include="1595. 连通两组点的最小成本.cpp" />
     <ClCompile Include="1615. 最大网络秩.cpp" />
     <ClCompile Include="1630. 等差子数组.cpp" />
     <ClCompile Include="1637. 两点之间不包含任何点的最宽垂直区域.cpp" />
