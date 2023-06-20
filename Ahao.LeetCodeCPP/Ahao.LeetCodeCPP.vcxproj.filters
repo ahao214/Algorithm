@@ -3000,6 +3000,9 @@
     <ClCompile Include="1595. 连通两组点的最小成本.cpp">
       <Filter>源文件\1500-1599</Filter>
     </ClCompile>
+    <ClCompile Include="478. 在圆内随机生成点.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
