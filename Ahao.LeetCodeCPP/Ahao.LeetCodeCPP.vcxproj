@@ -224,6 +224,7 @@
     <ClCompile Include="2559. 统计范围内的元音字符串数.cpp" />
     <ClCompile Include="2611. 老鼠和奶酪.cpp" />
     <ClCompile Include="2699. 修改图中的边权.cpp" />
+    <ClCompile Include="474. 一和零.cpp" />
     <ClCompile Include="478. 在圆内随机生成点.cpp" />
     <ClCompile Include="480. 滑动窗口中位数.cpp" />
     <ClCompile Include="520. 检测大写字母.cpp" />
