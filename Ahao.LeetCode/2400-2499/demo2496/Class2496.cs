@@ -33,6 +33,22 @@ namespace Ahao.LeetCode._2400_2499.demo2496
 
         }
 
+        public int MaximumValue2(string[] strs)
+        {
+            int res = 0;
+            foreach (string s in strs)
+            {
+                bool isDigits = true;
+                foreach (char c in s)
+                {
+                    isDigits &= char.IsDigit(c);
+                }
+                res = Math.Max(res, isDigits ? int.Parse(s) : s.Length);
+            }
+            return res;
+        }
+
+
 
     }
 }
