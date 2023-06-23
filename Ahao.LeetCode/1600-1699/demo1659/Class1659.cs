@@ -134,5 +134,86 @@ namespace Ahao.LeetCode._1600_1699.demo1659
         }
 
 
+
+
+
+        int[] p;
+
+
+
+        public int GetMaxGridHappiness1(int m, int n, int introvertsCount, int extrovertsCount)
+        {
+            this.n = n;
+            this.m = m;
+            // 状态总数为 3^n
+            this.tot = (int)Math.Pow(3, n);
+            this.p = new int[N];
+            p[0] = 1;
+            for (int i = 1; i < n; i++)
+            {
+                p[i] = p[i - 1] * 3;
+            }
+            this.d = new int[N * N][][][];
+
+            // 记忆化搜索数组，初始化为 -1，表示未赋值
+            for (int i = 0; i < N * N; i++)
+            {
+                d[i] = new int[T][][];
+                for (int j = 0; j < T; j++)
+                {
+                    d[i][j] = new int[M + 1][];
+                    for (int k = 0; k <= M; k++)
+                    {
+                        d[i][j][k] = new int[M + 1];
+                        Array.Fill(d[i][j][k], -1);
+                    }
+                }
+            }
+            return DFS1(0, 0, introvertsCount, extrovertsCount);
+        }
+
+        public int DFS1(int pos, int mask, int iv, int ev)
+        {
+            if (pos == n * m || (iv == 0 && ev == 0))
+            {
+                return 0;
+            }
+            int res = d[pos][mask][iv][ev];
+            if (res != -1)
+            {
+                return res;
+            }
+            res = 0;
+            int up = mask / p[n - 1], left = mask % 3;
+            // 若处于第一列，则左侧没有元素，将 left 置为 0
+            if (pos % n == 0)
+            {
+                left = 0;
+            }
+            for (int i = 0; i < 3; i++)
+            {
+                if ((i == 1 && iv == 0) || (i == 2 && ev == 0))
+                {
+                    continue;
+                }
+                int nextMask = mask % p[n - 1] * 3 + i;
+                int scoreSum = DFS(pos + 1, nextMask, iv - (i == 1 ? 1 : 0), ev - (i == 2 ? 1 : 0))
+                                + score[up][i]
+                                + score[left][i];
+                if (i == 1)
+                {
+                    scoreSum += 120;
+                }
+                else if (i == 2)
+                {
+                    scoreSum += 40;
+                }
+                res = Math.Max(res, scoreSum);
+            }
+            d[pos][mask][iv][ev] = res;
+            return res;
+        }
+
+
     }
 }
