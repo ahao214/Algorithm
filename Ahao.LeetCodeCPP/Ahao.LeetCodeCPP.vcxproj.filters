@@ -3009,6 +3009,9 @@
     <ClCompile Include="2496. 数组中字符串的最大值.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="1659. 最大化网格幸福感.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
