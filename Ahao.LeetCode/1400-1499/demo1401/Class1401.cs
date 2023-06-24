@@ -65,5 +65,23 @@ namespace Ahao.LeetCode._1400_1499.demo1401
             return (long)Math.Pow(ux - vx, 2) + (long)Math.Pow(uy - vy, 2);
         }
 
+
+
+
+        public bool CheckOverlap2(int radius, int xCenter, int yCenter, int x1, int y1, int x2, int y2)
+        {
+            double dist = 0;
+            if (xCenter < x1 || xCenter > x2)
+            {
+                dist += Math.Min(Math.Pow(x1 - xCenter, 2), Math.Pow(x2 - xCenter, 2));
+            }
+            if (yCenter < y1 || yCenter > y2)
+            {
+                dist += Math.Min(Math.Pow(y1 - yCenter, 2), Math.Pow(y2 - yCenter, 2));
+            }
+            return dist <= radius * radius;
+        }
+
+
     }
 }
