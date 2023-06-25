@@ -38,7 +38,18 @@ namespace Ahao.LeetCode._2400_2499.demo2485
             return -1;
         }
 
-
+        public int PivotInteger3(int n)
+        {
+            int sum = (n) * (n + 1) / 2;
+            int pre = 1;
+            for (int i = 1; i <= n; i++)
+            {
+                if (pre == sum) return i;
+                pre += i + 1;
+                sum -= i;
+            }
+            return -1;
+        }
 
     }
 }
