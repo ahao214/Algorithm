@@ -27,5 +27,18 @@ namespace Ahao.LeetCode._2400_2499.demo2485
         }
 
 
+        public int PivotInteger2(int n)
+        {
+            int t = (n * n + n) / 2;
+            int x = (int)Math.Sqrt(t);
+            if (x * x == t)
+            {
+                return x;
+            }
+            return -1;
+        }
+
+
+
     }
 }
