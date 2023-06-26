@@ -3018,6 +3018,9 @@
     <ClCompile Include="2485. 找出中枢整数.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="1186. 删除一次得到子数组最大和.cpp">
+      <Filter>源文件\1100-1199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
