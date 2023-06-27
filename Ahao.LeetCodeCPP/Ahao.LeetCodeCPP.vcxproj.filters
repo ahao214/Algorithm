@@ -3021,6 +3021,9 @@
     <ClCompile Include="1186. 删除一次得到子数组最大和.cpp">
       <Filter>源文件\1100-1199</Filter>
     </ClCompile>
+    <ClCompile Include="1681. 最小不兼容性.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
