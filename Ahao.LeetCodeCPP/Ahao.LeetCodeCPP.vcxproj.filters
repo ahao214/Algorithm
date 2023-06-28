@@ -3024,6 +3024,9 @@
     <ClCompile Include="1681. 最小不兼容性.cpp">
       <Filter>源文件\1600-1699</Filter>
     </ClCompile>
+    <ClCompile Include="1253. 重构 2 行二进制矩阵.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
