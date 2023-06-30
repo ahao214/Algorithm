@@ -3030,6 +3030,9 @@
     <ClCompile Include="2490. 回环句.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="472. 连接词.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
