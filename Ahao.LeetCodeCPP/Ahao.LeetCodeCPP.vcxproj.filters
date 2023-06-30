@@ -3036,6 +3036,9 @@
     <ClCompile Include="470. 用 Rand7() 实现 Rand10().cpp">
       <Filter>源文件\0400-0499</Filter>
     </ClCompile>
+    <ClCompile Include="407. 接雨水 II.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

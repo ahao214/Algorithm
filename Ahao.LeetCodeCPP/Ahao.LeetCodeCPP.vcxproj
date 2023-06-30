@@ -232,6 +232,7 @@
     <ClCompile Include="2559. 统计范围内的元音字符串数.cpp" />
     <ClCompile Include="2611. 老鼠和奶酪.cpp" />
     <ClCompile Include="2699. 修改图中的边权.cpp" />
+    <ClCompile Include="407. 接雨水 II.cpp" />
     <ClCompile Include="470. 用 Rand7() 实现 Rand10().cpp" />
     <ClCompile Include="472. 连接词.cpp" />
     <ClCompile Include="474. 一和零.cpp" />
