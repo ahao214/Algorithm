@@ -230,6 +230,7 @@
     <ClCompile Include="2490. 回环句.cpp" />
     <ClCompile Include="2496. 数组中字符串的最大值.cpp" />
     <ClCompile Include="2517. 礼盒的最大甜蜜度.cpp" />
+    <ClCompile Include="2532. 过桥的时间.cpp" />
     <ClCompile Include="2559. 统计范围内的元音字符串数.cpp" />
     <ClCompile Include="2600. K 件物品的最大和.cpp" />
     <ClCompile Include="2611. 老鼠和奶酪.cpp" />

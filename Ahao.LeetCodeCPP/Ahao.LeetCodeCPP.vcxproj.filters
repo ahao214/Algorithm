@@ -3060,6 +3060,9 @@
     <ClCompile Include="2178. 拆分成最多数目的正偶数之和.cpp">
       <Filter>源文件\2100-2199</Filter>
     </ClCompile>
+    <ClCompile Include="2532. 过桥的时间.cpp">
+      <Filter>源文件\2500-2599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
