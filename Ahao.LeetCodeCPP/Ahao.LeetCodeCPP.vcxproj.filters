@@ -3057,6 +3057,9 @@
     <ClCompile Include="2600. K 件物品的最大和.cpp">
       <Filter>源文件\2600-2699</Filter>
     </ClCompile>
+    <ClCompile Include="2178. 拆分成最多数目的正偶数之和.cpp">
+      <Filter>源文件\2100-2199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
