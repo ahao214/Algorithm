@@ -45,7 +45,7 @@ namespace Ahao.LeetCode.比赛
             }
             for (int i = s.Length - 1, j = t.Length - 1; i >= 0; i--)
             {
-                min = Math.Min(min, Math.Max(0, (j -= j >= 0 && s.[i] == t[j] ? 1 : 0) - dp[i] + 1));
+                min = Math.Min(min, Math.Max(0, (j -= j >= 0 && s[i] == t[j] ? 1 : 0) - dp[i] + 1));
             }
             return Math.Min(min, t.Length - dp[s.Length]);
         }
