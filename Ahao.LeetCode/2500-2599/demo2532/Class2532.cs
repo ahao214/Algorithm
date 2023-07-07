@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Ahao.LeetCode._2500_2599.demo2532
 {
     public class Class2532
