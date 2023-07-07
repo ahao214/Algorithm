@@ -6,6 +6,7 @@ using namespace std;
 
 /*
 167. 两数之和 II - 输入有序数组
+
 给你一个下标从 1 开始的整数数组 numbers ，该数组已按 非递减顺序排列  ，请你从数组中找出满足相加之和等于目标数 target 的两个数。如果设这两个数分别是 numbers[index1] 和 numbers[index2] ，则 1 <= index1 < index2 <= numbers.length 。
 
 以长度为 2 的整数数组 [index1, index2] 的形式返回这两个整数的下标 index1 和 index2。
@@ -26,3 +27,23 @@ public:
 		return { -1, -1 };
 	}
 };
+
+
+
+vector<int> twoSum(vector<int>& numbers, int target) {
+    int i = 0;
+    int j = numbers.size() - 1;
+    while (i < j) {
+        int sum = numbers[i] + numbers[j];
+        if (sum < target) {
+            i++;
+        }
+        else if (sum > target) {
+            j--;
+        }
+        else {
+            return vector<int>{i + 1, j + 1};
+        }
+    }
+    return vector<int>{-1, -1};
+}
