@@ -236,6 +236,7 @@
     <ClCompile Include="2611. 老鼠和奶酪.cpp" />
     <ClCompile Include="2679. 矩阵中的和.cpp" />
     <ClCompile Include="2699. 修改图中的边权.cpp" />
+    <ClCompile Include="399. 除法求值.cpp" />
     <ClCompile Include="400. 第 N 位数字.cpp" />
     <ClCompile Include="401. 二进制手表.cpp" />
     <ClCompile Include="404. 左叶子之和.cpp" />
