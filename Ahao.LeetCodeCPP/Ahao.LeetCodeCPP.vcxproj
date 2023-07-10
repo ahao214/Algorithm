@@ -201,6 +201,7 @@
     <ClCompile Include="1637. 两点之间不包含任何点的最宽垂直区域.cpp" />
     <ClCompile Include="1659. 最大化网格幸福感.cpp" />
     <ClCompile Include="1681. 最小不兼容性.cpp" />
+    <ClCompile Include="1979. 找出数组的最大公约数.cpp" />
     <ClCompile Include="2106. 摘水果.cpp" />
     <ClCompile Include="2178. 拆分成最多数目的正偶数之和.cpp" />
     <ClCompile Include="2352. 相等行列对.cpp" />
