@@ -5,6 +5,7 @@ using namespace std;
 
 /*
 1911. 最大子序列交替和
+
 一个下标从 0 开始的数组的 交替和 定义为 偶数 下标处元素之 和 减去 奇数 下标处元素之 和 。
 
 比方说，数组 [4,2,5,3] 的交替和为 (4 + 5) - (2 + 3) = 4 。
@@ -26,5 +27,19 @@ public:
 			f[i][1] = max(f[i - 1][1], f[i - 1][0] + nums[i - 1]);
 		}
 		return max(f[n][0], f[n][1]);
+	}
+};
+
+
+
+class Solution {
+public:
+	long long maxAlternatingSum(vector<int>& nums) {
+		long long even = nums[0], odd = 0;
+		for (int i = 1; i < nums.size(); i++) {
+			even = max(even, odd + nums[i]);
+			odd = max(odd, even - nums[i]);
+		}
+		return even;
 	}
 };
