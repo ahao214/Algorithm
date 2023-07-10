@@ -3072,6 +3072,9 @@
     <ClCompile Include="309. 最佳买卖股票时机含冷冻期.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="312. 戳气球.cpp">
+      <Filter>源文件\0300-0399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
