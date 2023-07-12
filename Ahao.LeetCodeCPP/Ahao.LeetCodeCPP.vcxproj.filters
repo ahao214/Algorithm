@@ -3081,6 +3081,9 @@
     <ClCompile Include="1979. 找出数组的最大公约数.cpp">
       <Filter>源文件\1900-1999</Filter>
     </ClCompile>
+    <ClCompile Include="2544. 交替数字和.cpp">
+      <Filter>源文件\2500-2599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
