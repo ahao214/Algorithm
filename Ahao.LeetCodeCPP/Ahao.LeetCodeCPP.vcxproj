@@ -1107,6 +1107,7 @@
     <ClCompile Include="929. 独特的电子邮件地址.cpp" />
     <ClCompile Include="93. 复原 IP 地址.cpp" />
     <ClCompile Include="930. 和相同的二元子数组.cpp" />
+    <ClCompile Include="931. 下降路径最小和.cpp" />
     <ClCompile Include="934. 最短的桥.cpp" />
     <ClCompile Include="937. 重新排列日志文件.cpp" />
     <ClCompile Include="94. 二叉树的中序遍历.cpp" />

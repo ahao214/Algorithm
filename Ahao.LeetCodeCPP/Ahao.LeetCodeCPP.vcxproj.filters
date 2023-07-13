@@ -3084,6 +3084,9 @@
     <ClCompile Include="2544. 交替数字和.cpp">
       <Filter>源文件\2500-2599</Filter>
     </ClCompile>
+    <ClCompile Include="931. 下降路径最小和.cpp">
+      <Filter>源文件\0900-0999</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
