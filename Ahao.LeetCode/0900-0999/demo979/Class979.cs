@@ -8,6 +8,34 @@ namespace Ahao.LeetCode._0900_0999.demo979
 {
     internal class Class979
     {
+
+        int move = 0;
+
+        public int DistributeCoins(TreeNode root)
+        {
+            DFS(root);
+            return move;
+        }
+
+        public int DFS(TreeNode root)
+        {
+            int moveleft = 0;
+            int moveright = 0;
+            if (root == null)
+            {
+                return 0;
+            }
+            if (root.left != null)
+            {
+                moveleft = DFS(root.left);
+            }
+            if (root.right != null)
+            {
+                moveright = DFS(root.right);
+            }
+            move += Math.Abs(moveleft) + Math.Abs(moveright);
+            return moveleft + moveright + root.val - 1;
+        }
     }
 
 
