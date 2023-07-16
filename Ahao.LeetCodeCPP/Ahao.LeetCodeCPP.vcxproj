@@ -1049,6 +1049,7 @@
     <ClCompile Include="831. 隐藏个人信息.cpp" />
     <ClCompile Include="832. 翻转图像.cpp" />
     <ClCompile Include="833. 字符串中的查找与替换.cpp" />
+    <ClCompile Include="834. 树中距离之和.cpp" />
     <ClCompile Include="835. 图像重叠.cpp" />
     <ClCompile Include="836. 矩形重叠.cpp" />
     <ClCompile Include="837. 新 21 点.cpp" />
