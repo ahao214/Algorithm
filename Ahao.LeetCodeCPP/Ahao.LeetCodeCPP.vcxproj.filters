@@ -3090,6 +3090,9 @@
     <ClCompile Include="834. 树中距离之和.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="415. 字符串相加.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
