@@ -3096,6 +3096,9 @@
     <ClCompile Include="771. 宝石与石头.cpp">
       <Filter>源文件\0700-0799</Filter>
     </ClCompile>
+    <ClCompile Include="2208. 将数组和减半的最少操作次数.cpp">
+      <Filter>源文件\2200-2299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
