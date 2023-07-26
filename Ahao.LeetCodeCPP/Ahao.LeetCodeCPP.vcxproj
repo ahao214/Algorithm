@@ -235,6 +235,7 @@
     <ClCompile Include="2532. 过桥的时间.cpp" />
     <ClCompile Include="2544. 交替数字和.cpp" />
     <ClCompile Include="2559. 统计范围内的元音字符串数.cpp" />
+    <ClCompile Include="2569. 更新数组后处理求和查询.cpp" />
     <ClCompile Include="2600. K 件物品的最大和.cpp" />
     <ClCompile Include="2611. 老鼠和奶酪.cpp" />
     <ClCompile Include="2679. 矩阵中的和.cpp" />
