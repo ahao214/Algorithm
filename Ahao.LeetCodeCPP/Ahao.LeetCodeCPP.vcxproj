@@ -192,6 +192,7 @@
     <ClCompile Include="1373. 二叉搜索子树的最大键值和.cpp" />
     <ClCompile Include="1375. 二进制字符串前缀一致的次数.cpp" />
     <ClCompile Include="1401. 圆和矩形是否有重叠.cpp" />
+    <ClCompile Include="141. 环形链表.cpp" />
     <ClCompile Include="1419. 数青蛙.cpp" />
     <ClCompile Include="1439. 有序矩阵中的第 k 个最小数组和.cpp" />
     <ClCompile Include="1574. 删除最短的子数组使剩余数组有序.cpp" />
