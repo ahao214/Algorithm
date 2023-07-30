@@ -1,10 +1,12 @@
 #include<vector>
+#include <unordered_set>
 
 using namespace std;
 
 
 /*
 142. 环形链表 II
+
 给定一个链表的头节点  head ，返回链表开始入环的第一个节点。
 如果链表无环，则返回 null。
 
@@ -50,3 +52,22 @@ public:
 		return NULL;
 	}
 };
+
+
+
+class Solution {
+public:
+	ListNode* detectCycle(ListNode* head) {
+		unordered_set<ListNode*> visited;
+		while (head != nullptr) {
+			if (visited.count(head)) {
+				return head;
+			}
+			visited.insert(head);
+			head = head->next;
+		}
+		return nullptr;
+	}
+};
+
+
