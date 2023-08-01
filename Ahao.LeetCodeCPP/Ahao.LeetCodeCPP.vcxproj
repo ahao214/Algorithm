@@ -243,6 +243,7 @@
     <ClCompile Include="2600. K 件物品的最大和.cpp" />
     <ClCompile Include="2611. 老鼠和奶酪.cpp" />
     <ClCompile Include="2679. 矩阵中的和.cpp" />
+    <ClCompile Include="2681. 英雄的力量.cpp" />
     <ClCompile Include="2699. 修改图中的边权.cpp" />
     <ClCompile Include="306. 累加数.cpp" />
     <ClCompile Include="309. 最佳买卖股票时机含冷冻期.cpp" />

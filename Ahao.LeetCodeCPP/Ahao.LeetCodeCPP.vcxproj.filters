@@ -3114,6 +3114,9 @@
     <ClCompile Include="143. 重排链表.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="2681. 英雄的力量.cpp">
+      <Filter>源文件\2600-2699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
