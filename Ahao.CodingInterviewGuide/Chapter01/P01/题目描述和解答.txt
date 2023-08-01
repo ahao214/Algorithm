@@ -21,5 +21,15 @@
 
 
 
+第二种设计方案
+1、压入数据规则
+假设当前数据为newNum，先将其压入stackData。然后判断stackMin是否为空
+
+2、弹出数据规则
+在stackData中弹出数据，弹出的数据记作value；弹出stackMin中的栈顶，返回value
+
+3、查询当前栈中的最小值操作
+stackMin的栈顶元素始终是当前stackData中的最小值
+
 
 

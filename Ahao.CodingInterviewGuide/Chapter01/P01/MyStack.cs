@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ahao.CodingInterviewGuide.Chapter01.P01
 {
-    /*
-     设计一个有getMin功能的栈
-     */
+    /// <summary>
+    /// 第一种设计方案
+    /// </summary>
     public class MyStack1
     {
         private Stack<int> stkData;
@@ -56,4 +56,57 @@ namespace Ahao.CodingInterviewGuide.Chapter01.P01
             return stkMin.Peek();
         }
     }
+
+    /// <summary>
+    /// 第二种设计方案
+    /// </summary>
+    public class MyStack2
+    {
+        private Stack<int> stackData;
+        private Stack<int> stackMin;
+
+        public MyStack2()
+        {
+            this.stackData = new Stack<int>();
+            this.stackMin = new Stack<int>();
+        }
+
+        public void Push(int newNum)
+        {
+            if (this.stackMin.Count == 0)
+            {
+                this.stackMin.Push(newNum);
+            }
+            else if (newNum < this.GetMin())
+            {
+                this.stackMin.Push(newNum);
+            }
+            else
+            {
+                int newMin = this.stackMin.Peek();
+                this.stackMin.Push(newMin);
+            }
+            this.stackData.Push(newNum);
+        }
+
+        public int Pop()
+        {
+            if (this.stackData.Count == 0)
+            {
+                throw new ArgumentException("Your stack is empty");
+            }
+            this.stackMin.Pop();
+            return this.stackData.Pop();
+        }
+
+        public int GetMin()
+        {
+            if (this.stackData.Count == 0)
+            {
+                throw new ArgumentException("Your stack is empty");
+            }
+            return this.stackData.Peek();
+        }
+    }
+
 }
