@@ -3120,6 +3120,9 @@
     <ClCompile Include="822. 翻转卡片游戏.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="722. 删除注释.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
