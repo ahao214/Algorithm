@@ -24,7 +24,7 @@ namespace Ahao.CodingInterviewGuide.Chapter01.P02
             {
                 while (stackPush.Count != 0)
                 {
-                    stackPop.Push(stackPop.Pop());
+                    stackPop.Push(stackPush.Pop());
                 }
             }
         }
