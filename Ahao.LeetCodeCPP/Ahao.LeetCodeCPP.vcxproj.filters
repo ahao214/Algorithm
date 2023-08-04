@@ -3123,6 +3123,9 @@
     <ClCompile Include="722. 删除注释.cpp">
       <Filter>源文件\0700-0799</Filter>
     </ClCompile>
+    <ClCompile Include="980. 不同路径 III.cpp">
+      <Filter>源文件\0900-0999</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
