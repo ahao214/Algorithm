@@ -62,5 +62,54 @@ namespace Ahao.CodingInterviewGuide.Chapter01.P06
 
         #endregion
 
+
+        #region 非递归的方法——用栈来模拟整个过程
+
+        public enum Action
+        {
+            No, LToM, MToL, MToR, RToM
+        }
+
+        public int HanoiProblem2(int num, string left, string mid, string right)
+        {
+            Stack<int> lS = new Stack<int>();
+            Stack<int> mS = new Stack<int>();
+            Stack<int> rS = new Stack<int>();
+            lS.Push(int.MaxValue);
+            mS.Push(int.MaxValue);
+            rS.Push(int.MaxValue);
+
+            for (int i = num; i > 0; i--)
+            {
+                lS.Push(i);
+            }
+
+            Action[] record = { Action.No };
+            int step = 0;
+            while (rS.Count != num + 1)
+            {
+                step += FStackToStack(record, Action.MToL, Action.LToM, lS, mS, left, mid);
+                step += FStackToStack(record, Action.LToM, Action.MToL, mS, lS, mid, left);
+                step += FStackToStack(record, Action.RToM, Action.MToR, mS, rS, mid, right);
+                step += FStackToStack(record, Action.MToR, Action.RToM, rS, mS, right, mid);
+            }
+            return step;
+
+        }
+
+        public static int FStackToStack(Action[] record, Action preNoAct, Action nowAct, Stack<int> fStk, Stack<int> tStk, string from, string to)
+        {
+            if (record[0] != preNoAct && fStk.Peek() < tStk.Peek())
+            {
+                Console.WriteLine("Move" + tStk.Peek() + "from" + from + "to" + to);
+                record[0] = nowAct;
+                return 1;
+            }
+            return 0;
+        }
+
+
+        #endregion
+
     }
 }
