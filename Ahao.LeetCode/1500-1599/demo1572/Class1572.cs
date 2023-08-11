@@ -50,5 +50,17 @@ namespace Ahao.LeetCode._1500_1599.demo1572
         }
 
 
+
+        public int DiagonalSum3(int[][] mat)
+        {
+            int n = mat.Length, sum = 0, mid = n / 2;
+            for (int i = 0; i < n; ++i)
+            {
+                sum += mat[i][i] + mat[i][n - 1 - i];
+            }
+            return sum - mat[mid][mid] * (n & 1);
+        }
+
+
     }
 }
