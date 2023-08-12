@@ -81,7 +81,5 @@ namespace Ahao.CodingInterviewGuide.Chapter01.P08
 
         }
 
-
-
     }
 }
