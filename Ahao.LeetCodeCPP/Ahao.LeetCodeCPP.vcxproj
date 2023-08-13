@@ -247,6 +247,8 @@
     <ClCompile Include="2679. 矩阵中的和.cpp" />
     <ClCompile Include="2681. 英雄的力量.cpp" />
     <ClCompile Include="2699. 修改图中的边权.cpp" />
+    <ClCompile Include="301. 删除无效的括号.cpp" />
+    <ClCompile Include="303. 区域和检索 - 数组不可变.cpp" />
     <ClCompile Include="304. 二维区域和检索 - 矩阵不可变.cpp" />
     <ClCompile Include="306. 累加数.cpp" />
     <ClCompile Include="309. 最佳买卖股票时机含冷冻期.cpp" />

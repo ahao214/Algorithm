@@ -3138,6 +3138,12 @@
     <ClCompile Include="304. 二维区域和检索 - 矩阵不可变.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="303. 区域和检索 - 数组不可变.cpp">
+      <Filter>源文件\0300-0399</Filter>
+    </ClCompile>
+    <ClCompile Include="301. 删除无效的括号.cpp">
+      <Filter>源文件\0300-0399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
