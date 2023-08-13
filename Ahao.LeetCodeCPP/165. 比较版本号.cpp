@@ -6,6 +6,7 @@ using namespace std;
 
 /*
 165. 比较版本号
+
 给你两个版本号 version1 和 version2 ，请你比较它们。
 
 版本号由一个或多个修订号组成，各修订号由一个 '.' 连接。每个修订号由 多位数字 组成，可能包含 前导零 。每个版本号至少包含一个字符。修订号从左到右编号，下标从 0 开始，最左边的修订号下标为 0 ，下一个修订号下标为 1 ，以此类推。例如，2.5.33 和 0.1 都是有效的版本号。
@@ -44,5 +45,26 @@ public:
 		if (n1 < n2) return -1;
 		if (n1 == n2) return 0;
 		return 1;
+	}
+};
+
+
+
+
+class Solution {
+public:
+	int compareVersion(string version1, string version2) {
+		for (int i = 0, j = 0; i < version1.size() || j < version2.size();)
+		{
+			int a = i, b = j;
+			while (a < version1.size() && version1[a] != '.') a++;
+			while (b < version2.size() && version2[b] != '.') b++;
+			int x = a == i ? 0 : stoi(version1.substr(i, a - i));
+			int y = b == j ? 0 : stoi(version2.substr(j, b - j));
+			if (x > y) return 1;
+			if (x < y) return -1;
+			i = a + 1, j = b + 1;
+		}
+		return 0;
 	}
 };
