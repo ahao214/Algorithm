@@ -275,6 +275,7 @@
     <ClCompile Include="528. 按权重随机选择.cpp" />
     <ClCompile Include="529. 扫雷游戏.cpp" />
     <ClCompile Include="530. 二叉搜索树的最小绝对差.cpp" />
+    <ClCompile Include="617. 合并二叉树.cpp" />
     <ClCompile Include="645. 错误的集合.cpp" />
     <ClCompile Include="646. 最长数对链.cpp" />
     <ClCompile Include="647. 回文子串.cpp" />
