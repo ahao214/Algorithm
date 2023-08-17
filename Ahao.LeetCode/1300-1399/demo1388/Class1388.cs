@@ -44,5 +44,35 @@ namespace Ahao.LeetCode._1300_1399.demo1388
             return dp[N - 1][n];
         }
 
+
+
+
+        public int MaxSizeSlices2(int[] slices)
+        {
+            return Math.Max(GetMax(slices, 0), GetMax(slices, 1));
+        }
+
+        private int GetMax(int[] slices, int start)
+        {
+            int n = slices.Length;
+            int choose = n / 3;
+            int[][] dp = new int[n + 1][];
+            for (int i = 0; i <= n; i++)
+            {
+                dp[i] = new int[choose + 1];
+            }
+
+            for (int i = 2; i <= n; i++)
+            {
+                for (int j = 1; j <= choose; j++)
+                {
+                    dp[i][j] = Math.Max(dp[i - 2][j - 1] + slices[start + i - 2], dp[i - 1][j]);
+                }
+            }
+
+            return dp[n][choose];
+        }
+
+
     }
 }
