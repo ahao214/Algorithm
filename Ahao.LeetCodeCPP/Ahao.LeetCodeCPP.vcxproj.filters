@@ -3156,6 +3156,9 @@
     <ClCompile Include="1388. 3n 块披萨.cpp">
       <Filter>源文件\1300-1399</Filter>
     </ClCompile>
+    <ClCompile Include="2235. 两整数相加.cpp">
+      <Filter>源文件\2200-2299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
