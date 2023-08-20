@@ -213,6 +213,7 @@
     <ClCompile Include="2178. 拆分成最多数目的正偶数之和.cpp" />
     <ClCompile Include="2208. 将数组和减半的最少操作次数.cpp" />
     <ClCompile Include="2235. 两整数相加.cpp" />
+    <ClCompile Include="2236. 判断根结点是否等于子结点之和.cpp" />
     <ClCompile Include="2352. 相等行列对.cpp" />
     <ClCompile Include="2367. 算术三元组的数目.cpp" />
     <ClCompile Include="2379. 得到 K 个黑块的最少涂色次数.cpp" />
