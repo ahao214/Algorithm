@@ -6,6 +6,7 @@ using Ahao.LeetCode._6200_6299.demo6298;
 using Ahao.LeetCode.Medium.demo846;
 using static System.Console;
 using Ahao.LeetCode._1200_1299.demo1289;
+using Ahao.LeetCode._0800_0899.demo849;
 
 namespace Ahao.LeetCode
 {
@@ -137,14 +138,9 @@ namespace Ahao.LeetCode
             //c.MakeStringsEqual("1010", "0101");
 
 
-            int[][] nums = new int[5][];
-            nums[0] = new int[5] { -37, 51, -36, 34, -22 };
-            nums[1] = new int[5] { 82, 4, 30, 14, 38 };
-            nums[2] = new int[5] { -68, -52, -92, 65, -85 };
-            nums[3] = new int[5] { -49, -3, -77, 8, -19 };
-            nums[4] = new int[5] { -60, -71, -21, -62, -73 };
-            Class1289 minsum = new Class1289();
-            int result = minsum.MinFallingPathSum(nums);
+            int[] arr = { 1, 0, 1 };
+            Class849 class849 = new Class849();
+            class849.MaxDistToClosest(arr);
         }
     }
 }
