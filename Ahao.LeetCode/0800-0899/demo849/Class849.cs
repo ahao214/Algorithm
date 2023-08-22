@@ -43,5 +43,38 @@ namespace Ahao.LeetCode._0800_0899.demo849
 
         }
 
+
+
+
+        public int MaxDistToClosest2(int[] seats)
+        {
+            int res = 0;
+            int l = 0;
+            while (l < seats.Length && seats[l] == 0)
+            {
+                ++l;
+            }
+            res = Math.Max(res, l);
+            while (l < seats.Length)
+            {
+                int r = l + 1;
+                while (r < seats.Length && seats[r] == 0)
+                {
+                    ++r;
+                }
+                if (r == seats.Length)
+                {
+                    res = Math.Max(res, r - l - 1);
+                }
+                else
+                {
+                    res = Math.Max(res, (r - l) / 2);
+                }
+                l = r;
+            }
+            return res;
+        }
+
+
     }
 }
