@@ -7,6 +7,7 @@ using namespace std;
 
 /*
 1782. 统计点对的数目
+
 给你一个无向图，无向图由整数 n  ，表示图中节点的数目，和 edges 组成，其中 edges[i] = [ui, vi] 表示 ui 和 vi 之间有一条无向边。同时给你一个代表查询的整数数组 queries 。
 
 第 j 个查询的答案是满足如下条件的点对 (a, b) 的数目：
@@ -20,7 +21,7 @@ cnt 是与 a 或者 b 相连的边的数目，且 cnt 严格大于 queries[j] 。
 class Solution {
 public:
 	vector<int> countPairs(int n, vector<vector<int>>& edges, vector<int>& queries) {
-		vector<int> d(n + 1)
+		vector<int> d(n + 1);
 			unordered_map<int, int> cnt;
 		for (auto& e : edges)
 		{
@@ -52,3 +53,47 @@ public:
 		return res;
 	}
 };
+
+
+
+class Solution {
+public:
+    vector<int> countPairs(int n, vector<vector<int>>& edges, vector<int>& queries) {
+        vector<int> degree(n);
+        unordered_map<int, int> cnt;
+        for (auto edge : edges) {
+            int x = edge[0] - 1, y = edge[1] - 1;
+            if (x > y) {
+                swap(x, y);
+            }
+            degree[x]++;
+            degree[y]++;
+            cnt[x * n + y]++;
+        }
+
+        vector<int> arr = degree;
+        vector<int> ans;
+        sort(arr.begin(), arr.end());
+        for (int bound : queries) {
+            int total = 0;
+            for (int i = 0; i < n; i++) {
+                int j = upper_bound(arr.begin() + i + 1, arr.end(), bound - arr[i]) - arr.begin();
+                total += n - j;
+            }
+            for (auto& [val, freq] : cnt) {
+                int x = val / n;
+                int y = val % n;
+                if (degree[x] + degree[y] > bound && degree[x] + degree[y] - freq <= bound) {
+                    total--;
+                }
+            }
+            ans.emplace_back(total);
+        }
+
+        return ans;
+    }
+};
+
+
+
+
