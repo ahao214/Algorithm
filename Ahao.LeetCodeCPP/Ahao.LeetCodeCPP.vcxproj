@@ -1081,6 +1081,7 @@
     <ClCompile Include="839. 相似字符串组.cpp" />
     <ClCompile Include="84. 柱状图中最大的矩形.cpp" />
     <ClCompile Include="840.cpp" />
+    <ClCompile Include="849. 到最近的人的最大距离.cpp" />
     <ClCompile Include="85. 最大矩形.cpp" />
     <ClCompile Include="854. 相似度为 K 的字符串.cpp" />
     <ClCompile Include="855. 考场就座.cpp" />
