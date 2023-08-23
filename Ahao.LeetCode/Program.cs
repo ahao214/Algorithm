@@ -5,8 +5,8 @@ using Ahao.LeetCode._6000_6099.demo6071;
 using Ahao.LeetCode._6200_6299.demo6298;
 using Ahao.LeetCode.Medium.demo846;
 using static System.Console;
-using Ahao.LeetCode._1200_1299.demo1289;
-using Ahao.LeetCode._0800_0899.demo849;
+using Ahao.LeetCode._1200_1299.demo1267;
+
 
 namespace Ahao.LeetCode
 {
@@ -138,9 +138,18 @@ namespace Ahao.LeetCode
             //c.MakeStringsEqual("1010", "0101");
 
 
-            int[] arr = { 1, 0, 1 };
-            Class849 class849 = new Class849();
-            class849.MaxDistToClosest(arr);
+            Class1267 c = new Class1267();
+            int[][] grid = new int[2][];
+            for (int i = 0; i < 2; i++)
+            {
+                grid[i] = new int[2];
+            }
+            grid[0][0] = 1;
+            grid[0][1] = 0;
+            grid[1][0] = 1;
+            grid[1][1] = 1;
+            c.CountServers(grid);
+
         }
     }
 }
