@@ -3168,6 +3168,9 @@
     <ClCompile Include="849. 到最近的人的最大距离.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="1267. 统计参与通信的服务器.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
