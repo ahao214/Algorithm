@@ -7,6 +7,7 @@ using namespace std;
 
 /*
 1448. 统计二叉树中好节点的数目
+
 给你一棵根为 root 的二叉树，请你返回二叉树中好节点的数目。
 
 「好节点」X 定义为：从根到该节点 X 所经过的节点中，没有任何节点的值大于 X 的值。
@@ -34,5 +35,27 @@ public:
 		int res = maxv <= root->val;
 		maxv = max(maxv, root->val);
 		return res + dfs(root->left, maxv) + dfs(root->right, maxv);
+	}
+};
+
+
+
+class Solution {
+public:
+	int dfs(TreeNode* root, int path_max) {
+		if (root == nullptr) {
+			return 0;
+		}
+		int res = 0;
+		if (root->val >= path_max) {
+			res++;
+			path_max = root->val;
+		}
+		res += dfs(root->left, path_max) + dfs(root->right, path_max);
+		return res;
+	}
+
+	int goodNodes(TreeNode* root) {
+		return dfs(root, INT_MIN);
 	}
 };
