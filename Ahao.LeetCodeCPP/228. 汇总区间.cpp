@@ -6,6 +6,7 @@ using namespace std;
 
 /*
 228. 汇总区间
+
 给定一个  无重复元素 的 有序 整数数组 nums 。
 
 返回 恰好覆盖数组中所有数字 的 最小有序 区间范围列表 。
@@ -90,6 +91,32 @@ public:
 		}
 		res.push_back(rangeToString(st, ed));
 		return res;
+	}
+};
+
+
+
+class Solution {
+public:
+	vector<string> summaryRanges(vector<int>& nums) {
+		vector<string> ret;
+		int i = 0;
+		int n = nums.size();
+		while (i < n) {
+			int low = i;
+			i++;
+			while (i < n && nums[i] == nums[i - 1] + 1) {
+				i++;
+			}
+			int high = i - 1;
+			string temp = to_string(nums[low]);
+			if (low < high) {
+				temp.append("->");
+				temp.append(to_string(nums[high]));
+			}
+			ret.push_back(move(temp));
+		}
+		return ret;
 	}
 };
 
