@@ -3171,6 +3171,9 @@
     <ClCompile Include="1267. 统计参与通信的服务器.cpp">
       <Filter>源文件\1200-1299</Filter>
     </ClCompile>
+    <ClCompile Include="823. 带因子的二叉树.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
