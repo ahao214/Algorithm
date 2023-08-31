@@ -3174,6 +3174,9 @@
     <ClCompile Include="823. 带因子的二叉树.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="2240. 买钢笔和铅笔的方案数.cpp">
+      <Filter>源文件\2200-2299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
