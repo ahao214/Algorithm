@@ -57,5 +57,25 @@ namespace Ahao.LeetCode._2500_2599.demo2511
             }
             return ans;
         }
+
+
+
+        public int CaptureForts3(int[] forts)
+        {
+            int ans = 0;
+            int pre = -1; // 表示不存在
+            for (int i = 0; i < forts.Length; i++)
+            {
+                if (forts[i] != 0)
+                {
+                    if (pre >= 0 && forts[i] != forts[pre])
+                    { // 一个是 1，另一个是 -1
+                        ans = Math.Max(ans, i - pre - 1);
+                    }
+                    pre = i;
+                }
+            }
+            return ans;
+        }
     }
 }
