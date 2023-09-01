@@ -5,7 +5,7 @@ using Ahao.LeetCode._6000_6099.demo6071;
 using Ahao.LeetCode._6200_6299.demo6298;
 using Ahao.LeetCode.Medium.demo846;
 using static System.Console;
-using Ahao.LeetCode._1200_1299.demo1267;
+using Ahao.LeetCode._2500_2599.demo2511;
 
 
 namespace Ahao.LeetCode
@@ -138,17 +138,9 @@ namespace Ahao.LeetCode
             //c.MakeStringsEqual("1010", "0101");
 
 
-            Class1267 c = new Class1267();
-            int[][] grid = new int[2][];
-            for (int i = 0; i < 2; i++)
-            {
-                grid[i] = new int[2];
-            }
-            grid[0][0] = 1;
-            grid[0][1] = 0;
-            grid[1][0] = 1;
-            grid[1][1] = 1;
-            c.CountServers(grid);
+            Class2511 c = new Class2511();
+            int[] arr = { 1, 0, 0, -1, 0, 0, -1, 0, 0, 1 };
+            c.CaptureForts(arr);
 
         }
     }
