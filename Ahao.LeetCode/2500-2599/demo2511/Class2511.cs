@@ -38,5 +38,24 @@ namespace Ahao.LeetCode._2500_2599.demo2511
             return res;
         }
 
+
+
+        public int CaptureForts2(int[] forts)
+        {
+            int n = forts.Length;
+            int ans = 0, pre = -1;
+            for (int i = 0; i < n; i++)
+            {
+                if (forts[i] == 1 || forts[i] == -1)
+                {
+                    if (pre >= 0 && forts[i] != forts[pre])
+                    {
+                        ans = Math.Max(ans, i - pre - 1);
+                    }
+                    pre = i;
+                }
+            }
+            return ans;
+        }
     }
 }
