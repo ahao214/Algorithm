@@ -3183,6 +3183,9 @@
     <ClCompile Include="1921. 消灭怪物的最大数量.cpp">
       <Filter>源文件\1900-1999</Filter>
     </ClCompile>
+    <ClCompile Include="164. 最大间距.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
