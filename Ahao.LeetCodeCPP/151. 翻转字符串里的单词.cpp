@@ -7,6 +7,7 @@ using namespace std;
 
 /*
 151. 翻转字符串里的单词
+
 给你一个字符串 s ，逐个翻转字符串中的所有 单词 。
 
 单词 是由非空格字符组成的字符串。s 中使用至少一个空格将字符串中的 单词 分隔开。
@@ -44,6 +45,29 @@ public:
             }
         }
         s.erase(s.begin() + idx, s.end());
+        return s;
+    }
+};
+
+
+
+class Solution {
+public:
+    string reverseWords(string s) {
+        int k = 0;
+        for (int i = 0; i < s.size(); i++)
+        {
+            if (s[i] == ' ')continue;
+            int j = i, t = k;
+            while (j < s.size() && s[j] != ' ')
+                s[t++] = s[j++];
+            reverse(s.begin() + k, s.begin() + t);
+            s[t++] = ' ';
+            k = t, i = j;
+        }
+        if (k)k--;
+        s.erase(s.begin() + k, s.end());
+        reverse(s.begin(), s.end());
         return s;
     }
 };
