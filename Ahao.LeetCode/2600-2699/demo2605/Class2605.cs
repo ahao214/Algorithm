@@ -34,5 +34,38 @@ namespace Ahao.LeetCode._2600_2699.demo2605
             }
             return nums1[0] < nums2[0] ? nums1[0] * 10 + nums2[0] : nums2[0] * 10 + nums1[0];
         }
+
+
+
+        public int MinNumber2(int[] nums1, int[] nums2)
+        {
+            int s = Same(nums1, nums2);
+            if (s != -1)
+            {
+                return s;
+            }
+
+            int x = nums1.Min();
+            int y = nums2.Min();
+            return Math.Min(x * 10 + y, y * 10 + x);
+        }
+
+        public int Same(int[] nums1, int[] nums2)
+        {
+            ISet<int> s = new HashSet<int>();
+            foreach (int num in nums1)
+            {
+                s.Add(num);
+            }
+            int x = 10;
+            foreach (int num in nums2)
+            {
+                if (s.Contains(num))
+                {
+                    x = Math.Min(x, num);
+                }
+            }
+            return x == 10 ? -1 : x;
+        }
     }
 }
