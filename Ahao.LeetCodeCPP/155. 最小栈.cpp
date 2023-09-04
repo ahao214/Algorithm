@@ -6,6 +6,7 @@ using namespace std;
 
 /*
 155. 最小栈
+
 设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。
 
 push(x) —— 将元素 x 推入栈中。
@@ -39,5 +40,36 @@ public:
 
     int getMin() {
         return stackMin.top();
+    }
+};
+
+
+
+
+class Solution {
+public:
+    stack<int> stk, f;
+    void MinStack() {
+
+    }
+
+    void push(int val) {
+        stk.push(val);
+        if (f.empty() || f.top() >= val)
+            f.push(val);
+    }
+
+    void pop() {
+        if (stk.top() <= f.top())
+            f.pop();
+        stk.pop();
+    }
+
+    int top() {
+        return stk.top();
+    }
+
+    int getMin() {
+        return f.top();
     }
 };
