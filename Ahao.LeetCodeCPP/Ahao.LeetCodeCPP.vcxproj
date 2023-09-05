@@ -158,6 +158,7 @@
     <ClCompile Include="1048. 最长字符串链.cpp" />
     <ClCompile Include="1053. 交换一次的先前排列.cpp" />
     <ClCompile Include="1054. 距离相等的条形码.cpp" />
+    <ClCompile Include="107. 二叉树的层序遍历 II.cpp" />
     <ClCompile Include="1072. 按列翻转得到最大值等行数.cpp" />
     <ClCompile Include="1073. 负二进制数相加.cpp" />
     <ClCompile Include="1079. 活字印刷.cpp" />
@@ -169,6 +170,7 @@
     <ClCompile Include="1096. 花括号展开 II.cpp" />
     <ClCompile Include="1105. 填充书架.cpp" />
     <ClCompile Include="1110. 删点成林.cpp" />
+    <ClCompile Include="1123. 最深叶节点的最近公共祖先.cpp" />
     <ClCompile Include="1125. 最小的必要团队.cpp" />
     <ClCompile Include="1130. 叶值的最小代价生成树.cpp" />
     <ClCompile Include="1147. 段式回文.cpp" />
