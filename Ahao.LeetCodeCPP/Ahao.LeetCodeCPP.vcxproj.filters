@@ -3210,6 +3210,9 @@
     <ClCompile Include="110. 平衡二叉树.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="106.从中序与后序遍历序列构造二叉树.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
