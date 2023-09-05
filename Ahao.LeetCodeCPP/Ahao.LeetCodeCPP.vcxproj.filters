@@ -3192,6 +3192,9 @@
     <ClCompile Include="152. 乘积最大子数组.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="2605. 从两个数字数组里生成最小数字.cpp">
+      <Filter>源文件\2600-2699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
