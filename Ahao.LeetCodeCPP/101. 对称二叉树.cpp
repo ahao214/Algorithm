@@ -18,6 +18,7 @@ struct TreeNode {
 
 /*
 101. 对称二叉树
+
 给你一个二叉树的根节点 root ， 检查它是否轴对称。
 */
 class Solution {
@@ -63,6 +64,7 @@ public:
 
 /*
 101. 对称二叉树
+
 给你一个二叉树的根节点 root ， 检查它是否轴对称。
 */
 class Solution {
@@ -111,3 +113,24 @@ public:
 		return true;
 	}
 };
+
+
+
+class Solution {
+public:
+	bool isSymmetric(TreeNode* root) {
+		//空树
+		if (!root) return true;
+		return dfs(root->left, root->right);
+	}
+
+	bool dfs(TreeNode* p, TreeNode* q)
+	{
+		if (!p && !q) return true;
+		if (!p || !q || p->val != q->val)
+			return false;
+		return dfs(p->left, q->right) && dfs(p->right, q->left);
+	}
+
+};
+
