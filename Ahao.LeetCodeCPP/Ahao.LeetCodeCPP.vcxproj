@@ -162,7 +162,9 @@
     <ClCompile Include="1072. 按列翻转得到最大值等行数.cpp" />
     <ClCompile Include="1073. 负二进制数相加.cpp" />
     <ClCompile Include="1079. 活字印刷.cpp" />
+    <ClCompile Include="108. 将有序数组转换为二叉搜索树.cpp" />
     <ClCompile Include="1080. 根到叶路径上的不足节点.cpp" />
+    <ClCompile Include="109. 有序链表转换二叉搜索树.cpp" />
     <ClCompile Include="1090. 受标签影响的最大值.cpp" />
     <ClCompile Include="1091. 二进制矩阵中的最短路径.cpp" />
     <ClCompile Include="1092. 最短公共超序列.cpp" />

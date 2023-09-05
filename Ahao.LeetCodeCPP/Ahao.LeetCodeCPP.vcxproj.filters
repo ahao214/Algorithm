@@ -3201,6 +3201,12 @@
     <ClCompile Include="107. 二叉树的层序遍历 II.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="108. 将有序数组转换为二叉搜索树.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
+    <ClCompile Include="109. 有序链表转换二叉搜索树.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
