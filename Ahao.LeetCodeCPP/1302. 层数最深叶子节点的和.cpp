@@ -6,6 +6,8 @@ using namespace std;
 
 /*
 1302. 层数最深叶子节点的和
+
+给你一棵二叉树的根节点 root ，请你返回 层数最深的叶子节点的和 。
 */
 struct TreeNode {
 	int val;
@@ -66,5 +68,33 @@ public:
 		}
 		dfs(node->left, level + 1);
 		dfs(node->right, level + 1);
+	}
+};
+
+
+
+
+class Solution {
+public:
+	int getDepth(TreeNode* root)
+	{
+		if (!root)
+			return 0;
+		return 1 + max(getDepth(root->left), getDepth(root->right));
+	}
+
+	int helper(TreeNode* root, int depth)
+	{
+		if (!root)
+			return 0;
+		if (depth == 1)
+			return root->val;
+		return helper(root->left, depth - 1) + helper(root->right, depth - 1);
+	}
+
+	int deepestLeavesSum(TreeNode* root) {
+		int depth = getDepth(root);
+		int sum = helper(root, depth);
+		return sum;
 	}
 };
