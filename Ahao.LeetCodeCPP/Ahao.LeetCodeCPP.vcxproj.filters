@@ -3222,6 +3222,9 @@
     <ClCompile Include="2594. 修车的最少时间.cpp">
       <Filter>源文件\2500-2599</Filter>
     </ClCompile>
+    <ClCompile Include="325.和等于K的最长子数组长度.cpp">
+      <Filter>源文件\0300-0399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

@@ -277,6 +277,7 @@
     <ClCompile Include="309. 最佳买卖股票时机含冷冻期.cpp" />
     <ClCompile Include="312. 戳气球.cpp" />
     <ClCompile Include="315. 计算右侧小于当前元素的个数.cpp" />
+    <ClCompile Include="325.和等于K的最长子数组长度.cpp" />
     <ClCompile Include="344. 反转字符串.cpp" />
     <ClCompile Include="399. 除法求值.cpp" />
     <ClCompile Include="400. 第 N 位数字.cpp" />
