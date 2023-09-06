@@ -1082,6 +1082,7 @@
     <ClCompile Include="817. 链表组件.cpp" />
     <ClCompile Include="819. 最常见的单词.cpp" />
     <ClCompile Include="82. 删除排序链表中的重复元素 II.cpp" />
+    <ClCompile Include="820. 单词的压缩编码.cpp" />
     <ClCompile Include="821. 字符的最短距离.cpp" />
     <ClCompile Include="822. 翻转卡片游戏.cpp" />
     <ClCompile Include="823. 带因子的二叉树.cpp" />
