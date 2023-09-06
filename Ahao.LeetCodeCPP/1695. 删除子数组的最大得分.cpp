@@ -1,11 +1,13 @@
 #include<vector>
 #include <unordered_map>
+#include <unordered_set>
 
 using namespace std;
 
 
 /*
 1695. 删除子数组的最大得分
+
 给你一个正整数数组 nums ，请你从中删除一个含有 若干不同元素 的子数组。删除子数组的 得分 就是子数组各元素之 和 。
 
 返回 只删除一个 子数组可获得的 最大得分 。
@@ -30,6 +32,30 @@ public:
 			res = max(res, sum);
 		}
 
+		return res;
+	}
+};
+
+
+
+
+class Solution {
+public:
+	int maximumUniqueSubarray(vector<int>& nums) {
+		int res = 0, left = 0, sum = 0;
+		unordered_set<int> st;
+		for (int right = 0; right < nums.size(); right++)
+		{
+			while (st.count(nums[right]))
+			{
+				st.erase(nums[left]);
+				sum -= nums[left];
+				left++;
+			}
+			sum += nums[right];
+			st.insert(nums[right]);
+			res = max(res, sum);
+		}
 		return res;
 	}
 };
