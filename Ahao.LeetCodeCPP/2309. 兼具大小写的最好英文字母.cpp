@@ -51,3 +51,22 @@ public:
         return "";
     }
 };
+
+
+
+class Solution {
+public:
+    string greatestLetter(string s) {
+        vector<int> letters(128, 0);
+        for (auto c : s)
+        {
+            letters[c]++;
+        }
+        for (int i = 'Z'; i >= 'A'; i--)
+        {
+            if (letters[i] > 0 && letters[i - 'A' + 'a'] > 0)
+                return string(1, i);
+        }
+        return "";
+    }
+};
