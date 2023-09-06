@@ -291,6 +291,7 @@
     <ClCompile Include="474. 一和零.cpp" />
     <ClCompile Include="478. 在圆内随机生成点.cpp" />
     <ClCompile Include="480. 滑动窗口中位数.cpp" />
+    <ClCompile Include="510.二叉搜索树中的中序后继.cpp" />
     <ClCompile Include="520. 检测大写字母.cpp" />
     <ClCompile Include="521. 最长特殊序列 Ⅰ.cpp" />
     <ClCompile Include="523. 连续的子数组和.cpp" />

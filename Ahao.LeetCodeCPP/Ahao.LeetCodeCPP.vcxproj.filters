@@ -3228,6 +3228,9 @@
     <ClCompile Include="820. 单词的压缩编码.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="510.二叉搜索树中的中序后继.cpp">
+      <Filter>源文件\0500-0599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
