@@ -3231,6 +3231,9 @@
     <ClCompile Include="510.二叉搜索树中的中序后继.cpp">
       <Filter>源文件\0500-0599</Filter>
     </ClCompile>
+    <ClCompile Include="2651. 计算列车到站时间.cpp">
+      <Filter>源文件\2600-2699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
