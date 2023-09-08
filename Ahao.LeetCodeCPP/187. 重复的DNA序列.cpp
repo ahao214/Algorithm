@@ -7,6 +7,7 @@ using namespace std;
 
 /*
 187. 重复的DNA序列
+
 DNA序列 由一系列核苷酸组成，缩写为 'A', 'C', 'G' 和 'T'.。
 
 例如，"ACGAATTCCG" 是一个 DNA序列 。
@@ -24,6 +25,30 @@ public:
 			string str = s.substr(i, 10);
 			if (++hash[str] == 2)
 				res.push_back(str);
+		}
+		return res;
+	}
+};
+
+
+
+
+
+class Solution {
+public:
+	vector<string> findRepeatedDnaSequences(string s) {
+		if (s.length() < 10)
+			return {};
+		vector<string> res;
+		string sub = s.substr(0, 10);
+		unordered_map<string, int> cnt{ {sub,1} };
+
+		for (int i = 10; i < s.length(); i++) {
+			sub += s[i];
+			sub.erase(sub.begin());
+			if (cnt[sub]++ == 1) {
+				res.push_back(sub);
+			}
 		}
 		return res;
 	}
