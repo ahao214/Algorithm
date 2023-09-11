@@ -3252,6 +3252,9 @@
     <ClCompile Include="170. 两数之和(3)-数据结构设计.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="630. 课程表 III.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
