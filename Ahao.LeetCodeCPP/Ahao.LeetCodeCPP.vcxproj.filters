@@ -3264,6 +3264,9 @@
     <ClCompile Include="2596. 检查骑士巡视方案.cpp">
       <Filter>源文件\2500-2599</Filter>
     </ClCompile>
+    <ClCompile Include="1222. 可以攻击国王的皇后.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
