@@ -14,3 +14,26 @@ using namespace std;
 注意，骑士行动时可以垂直移动两个格子且水平移动一个格子，或水平移动两个格子且垂直移动一个格子。下图展示了骑士从某个格子出发可能的八种行动路线。
 */
 
+class Solution {
+public:
+    bool checkValidGrid(vector<vector<int>>& grid) {
+        if (grid[0][0] != 0) {
+            return false;
+        }
+        int n = grid.size();
+        vector<array<int, 2>> indices(n * n);
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                indices[grid[i][j]] = { i, j };
+            }
+        }
+        for (int i = 1; i < indices.size(); i++) {
+            int dx = abs(indices[i][0] - indices[i - 1][0]);
+            int dy = abs(indices[i][1] - indices[i - 1][1]);
+            if (dx * dy != 2) {
+                return false;
+            }
+        }
+        return true;
+    }
+};
