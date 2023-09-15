@@ -68,3 +68,28 @@ public:
 		return 0;
 	}
 };
+
+
+
+
+class Solution {
+public:
+	int compareVersion(string version1, string version2) {
+		int i = 0, n = version1.length();
+		int j = 0, m = version2.length();
+
+		while (i < n || j < m)
+		{
+			int a = 0, b = 0;
+			while (i < n && version1[i] != '.')
+				a = a * 10 + (version1[i++] - '0');
+			i++;
+			while (j < m&& version2[j] != '.')
+				b = b * 10 + (version2[j++] - '0');
+			j++;
+			if (a != b)
+				return a > b ? 1 : -1;
+		}
+		return 0;
+	}
+};
