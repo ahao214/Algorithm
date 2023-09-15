@@ -3267,6 +3267,9 @@
     <ClCompile Include="1222. 可以攻击国王的皇后.cpp">
       <Filter>源文件\1200-1299</Filter>
     </ClCompile>
+    <ClCompile Include="163.缺失的区间.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
