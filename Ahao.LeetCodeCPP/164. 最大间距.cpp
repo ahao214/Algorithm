@@ -50,3 +50,50 @@ public:
 		return res;
 	}
 };
+
+
+
+
+
+class Solution {
+	struct bucket {
+		int minVal, maxVal;
+		bool used;
+		bucket() : minVal(INT_MAX), maxVal(INT_MIN), used(false) {}
+	};
+public:
+	int maximumGap(vector<int>& nums) {
+		int n = nums.size();
+		if (n < 2) return 0;
+
+		int minVal = INT_MAX, maxVal = INT_MIN;
+		for (auto num : nums)
+		{
+			minVal = min(minVal, num);
+			maxVal = max(maxVal, num);
+		}
+
+		int d = max(1, (maxVal - minVal) / (n - 1));
+		int size = (maxVal - minVal) / d + 1;
+
+		vector<bucket> buckets(size);
+		for (int i = 0; i < n; i++)
+		{
+			int idx = (nums[i] - minVal) / d;
+			buckets[idx].used = true;
+			buckets[idx].minVal = min(nums[i], buckets[idx].minVal);
+			buckets[idx].maxVal = max(nums[i], buckets[idx].maxVal);
+		}
+
+		int res = 0;
+		for (int i = 0, last = minVal; i < size; i++)
+		{
+			if (buckets[i].used)
+			{
+				res = max(res, buckets[i].minVal - last);
+				last = buckets[i].maxVal;
+			}
+		}
+		return res;
+	}
+};
