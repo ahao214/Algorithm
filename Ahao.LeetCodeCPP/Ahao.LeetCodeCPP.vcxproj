@@ -214,6 +214,7 @@
     <ClCompile Include="1572. 矩阵对角线元素的和.cpp" />
     <ClCompile Include="1574. 删除最短的子数组使剩余数组有序.cpp" />
     <ClCompile Include="1595. 连通两组点的最小成本.cpp" />
+    <ClCompile Include="161.相隔为1的编辑距离.cpp" />
     <ClCompile Include="1615. 最大网络秩.cpp" />
     <ClCompile Include="163.缺失的区间.cpp" />
     <ClCompile Include="1630. 等差子数组.cpp" />

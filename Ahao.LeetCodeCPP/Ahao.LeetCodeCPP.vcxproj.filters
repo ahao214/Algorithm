@@ -3270,6 +3270,9 @@
     <ClCompile Include="163.缺失的区间.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="161.相隔为1的编辑距离.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
