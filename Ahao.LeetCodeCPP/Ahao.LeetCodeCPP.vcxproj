@@ -213,6 +213,7 @@
     <ClCompile Include="154. 寻找旋转排序数组中的最小值 II.cpp" />
     <ClCompile Include="1572. 矩阵对角线元素的和.cpp" />
     <ClCompile Include="1574. 删除最短的子数组使剩余数组有序.cpp" />
+    <ClCompile Include="159.至多包含两个不同字符串的最长子串.cpp" />
     <ClCompile Include="1595. 连通两组点的最小成本.cpp" />
     <ClCompile Include="161.相隔为1的编辑距离.cpp" />
     <ClCompile Include="1615. 最大网络秩.cpp" />
