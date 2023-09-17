@@ -73,3 +73,30 @@ public:
         return f.top();
     }
 };
+
+
+
+
+class MinStack {
+    stack<pair<int, int>> stk;
+public:
+    MinStack() {
+
+    }
+
+    void push(int val) {
+        stk.push({ val,min(val,getMin()) });
+    }
+
+    void pop() {
+        stk.pop();
+    }
+
+    int top() {
+        return stk.top().first;
+    }
+
+    int getMin() {
+        return !stk.empty() ? stk.top().second : INT_MAX;
+    }
+};

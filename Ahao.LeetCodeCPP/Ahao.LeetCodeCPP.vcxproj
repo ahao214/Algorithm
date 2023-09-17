@@ -211,6 +211,7 @@
     <ClCompile Include="1444. 切披萨的方案数.cpp" />
     <ClCompile Include="152. 乘积最大子数组.cpp" />
     <ClCompile Include="154. 寻找旋转排序数组中的最小值 II.cpp" />
+    <ClCompile Include="156.上下翻转二叉树.cpp" />
     <ClCompile Include="157.用Read4读取N个字符.cpp" />
     <ClCompile Include="1572. 矩阵对角线元素的和.cpp" />
     <ClCompile Include="1574. 删除最短的子数组使剩余数组有序.cpp" />
