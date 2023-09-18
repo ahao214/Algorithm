@@ -27,7 +27,7 @@ namespace Ahao.LeetCode._0300_0399.demo337
 
 
 
-        public int rob3(TreeNode root)
+        public int Rob2(TreeNode root)
         {
             int[] res = robAction1(root);
             return Math.Max(res[0], res[1]);
