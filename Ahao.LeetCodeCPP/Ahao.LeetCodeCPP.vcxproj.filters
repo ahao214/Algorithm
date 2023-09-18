@@ -3291,6 +3291,9 @@
     <ClCompile Include="337. 打家劫舍 III.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="2560. 打家劫舍 IV.cpp">
+      <Filter>源文件\2500-2599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
