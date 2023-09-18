@@ -209,6 +209,7 @@
     <ClCompile Include="143. 重排链表.cpp" />
     <ClCompile Include="1439. 有序矩阵中的第 k 个最小数组和.cpp" />
     <ClCompile Include="1444. 切披萨的方案数.cpp" />
+    <ClCompile Include="150. 逆波兰表达式求值.cpp" />
     <ClCompile Include="152. 乘积最大子数组.cpp" />
     <ClCompile Include="154. 寻找旋转排序数组中的最小值 II.cpp" />
     <ClCompile Include="156.上下翻转二叉树.cpp" />
