@@ -71,3 +71,25 @@ public:
         return s;
     }
 };
+
+
+
+class Solution {
+public:
+    string reverseWords(string s) {
+        int idx = 0;
+        for (int i = 0; i < s.length(); i++)
+        {
+            if (s[i] == ' ') continue;
+            int j = i, k = idx;
+            while (j < s.length() && s[j] != ' ')
+                s[k++] = s[j++];
+            reverse(s.begin() + idx, s.begin() + k);
+            s[k++] = ' ';
+            i = j, idx = k;
+        }
+        s.erase(s.begin() + idx - 1, s.end());
+        reverse(s.begin(), s.end());
+        return s;
+    }
+};
