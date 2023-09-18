@@ -28,3 +28,21 @@ public:
 		return res;
 	}
 };
+
+
+
+class Solution {
+public:
+	int maxProduct(vector<int>& nums) {
+		int res = nums[0];
+		int preMax = nums[0], preMin = nums[0];
+		for (int i = 1; i < nums.size(); i++)
+		{
+			int a = preMax * nums[i], b = preMin * nums[i];
+			preMax = max(nums[i], max(a, b));
+			preMin = min(nums[i], min(a, b));
+			res = max(res, preMax);
+		}
+		return res;
+	}
+};
