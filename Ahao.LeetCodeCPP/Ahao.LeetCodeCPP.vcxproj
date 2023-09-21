@@ -283,6 +283,7 @@
     <ClCompile Include="2594. 修车的最少时间.cpp" />
     <ClCompile Include="2596. 检查骑士巡视方案.cpp" />
     <ClCompile Include="2600. K 件物品的最大和.cpp" />
+    <ClCompile Include="2603. 收集树中金币.cpp" />
     <ClCompile Include="2605. 从两个数字数组里生成最小数字.cpp" />
     <ClCompile Include="2611. 老鼠和奶酪.cpp" />
     <ClCompile Include="2651. 计算列车到站时间.cpp" />
