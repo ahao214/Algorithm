@@ -280,6 +280,7 @@
     <ClCompile Include="2559. 统计范围内的元音字符串数.cpp" />
     <ClCompile Include="2560. 打家劫舍 IV.cpp" />
     <ClCompile Include="2569. 更新数组后处理求和查询.cpp" />
+    <ClCompile Include="2591. 将钱分给最多的儿童.cpp" />
     <ClCompile Include="2594. 修车的最少时间.cpp" />
     <ClCompile Include="2596. 检查骑士巡视方案.cpp" />
     <ClCompile Include="2600. K 件物品的最大和.cpp" />
