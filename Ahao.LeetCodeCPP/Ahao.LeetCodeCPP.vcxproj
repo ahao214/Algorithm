@@ -208,6 +208,7 @@
     <ClCompile Include="1419. 数青蛙.cpp" />
     <ClCompile Include="143. 重排链表.cpp" />
     <ClCompile Include="1439. 有序矩阵中的第 k 个最小数组和.cpp" />
+    <ClCompile Include="144. 二叉树的前序遍历.cpp" />
     <ClCompile Include="1444. 切披萨的方案数.cpp" />
     <ClCompile Include="145. 二叉树的后序遍历.cpp" />
     <ClCompile Include="146. LRU 缓存.cpp" />
