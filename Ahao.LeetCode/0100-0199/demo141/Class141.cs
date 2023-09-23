@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode._0100_0199.demo141
 {
-    public class Class141
+    public class Class146
     {
         public bool HasCycle(ListNode head)
         {
