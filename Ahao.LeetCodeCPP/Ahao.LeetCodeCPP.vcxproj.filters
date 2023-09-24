@@ -3315,6 +3315,9 @@
     <ClCompile Include="1993. 树上的操作.cpp">
       <Filter>源文件\1900-1999</Filter>
     </ClCompile>
+    <ClCompile Include="460. LFU 缓存.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
