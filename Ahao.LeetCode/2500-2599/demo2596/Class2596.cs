@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode._2500_2599.demo2596
 {
-    internal class Class2596
+    internal class Class2582
     {
         public bool CheckValidGrid(int[][] grid)
         {
