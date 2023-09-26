@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode.Simple.demo1332
 {
-    public class Class1332
+    public class Class1333
     {
         public int RemovePalindromeSub(string s)
         {
