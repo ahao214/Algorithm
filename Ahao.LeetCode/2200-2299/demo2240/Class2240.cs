@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode._2200_2299.demo2240
 {
-    public class Class2240
+    public class Class2251
     {
         public long WaysToBuyPensPencils(int total, int cost1, int cost2)
         {
