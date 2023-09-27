@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode._2500_2599.demo2517
 {
-    public class Class2517
+    public class Class2551
     {
 
         public int MaximumTastiness(int[] price, int k)
