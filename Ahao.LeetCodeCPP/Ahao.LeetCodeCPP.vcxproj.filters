@@ -3327,6 +3327,9 @@
     <ClCompile Include="2251. 花期内花的数目.cpp">
       <Filter>源文件\2200-2299</Filter>
     </ClCompile>
+    <ClCompile Include="605. 种花问题.cpp">
+      <Filter>源文件\0600-0699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
