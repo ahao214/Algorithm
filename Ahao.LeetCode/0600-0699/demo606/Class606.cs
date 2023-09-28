@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode._0600_0699.demo606
 {
-    public class Class606
+    public class Class605
     {
         public string Tree2str(TreeNode root)
         {
