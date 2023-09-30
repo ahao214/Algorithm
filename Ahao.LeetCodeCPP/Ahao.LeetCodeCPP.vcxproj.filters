@@ -3330,6 +3330,9 @@
     <ClCompile Include="605. 种花问题.cpp">
       <Filter>源文件\0600-0699</Filter>
     </ClCompile>
+    <ClCompile Include="2136. 全部开花的最早一天.cpp">
+      <Filter>源文件\2100-2199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
