@@ -189,6 +189,7 @@
     <ClCompile Include="1177. 构建回文串检测.cpp" />
     <ClCompile Include="1186. 删除一次得到子数组最大和.cpp" />
     <ClCompile Include="1187. 使数组严格递增.cpp" />
+    <ClCompile Include="122. 买卖股票的最佳时机 II.cpp" />
     <ClCompile Include="1222. 可以攻击国王的皇后.cpp" />
     <ClCompile Include="1240. 铺瓷砖.cpp" />
     <ClCompile Include="1253. 重构 2 行二进制矩阵.cpp" />
