@@ -204,6 +204,7 @@
     <ClCompile Include="1335. 工作计划的最低难度.cpp" />
     <ClCompile Include="1373. 二叉搜索子树的最大键值和.cpp" />
     <ClCompile Include="1375. 二进制字符串前缀一致的次数.cpp" />
+    <ClCompile Include="138. 复制带随机指针的链表.cpp" />
     <ClCompile Include="1388. 3n 块披萨.cpp" />
     <ClCompile Include="140. 单词拆分 II.cpp" />
     <ClCompile Include="1401. 圆和矩形是否有重叠.cpp" />
