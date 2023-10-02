@@ -191,6 +191,7 @@
     <ClCompile Include="1187. 使数组严格递增.cpp" />
     <ClCompile Include="122. 买卖股票的最佳时机 II.cpp" />
     <ClCompile Include="1222. 可以攻击国王的皇后.cpp" />
+    <ClCompile Include="123. 买卖股票的最佳时机 III.cpp" />
     <ClCompile Include="1240. 铺瓷砖.cpp" />
     <ClCompile Include="1253. 重构 2 行二进制矩阵.cpp" />
     <ClCompile Include="1254. 统计封闭岛屿的数目.cpp" />
