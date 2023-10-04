@@ -8,7 +8,10 @@ namespace Ahao.LeetCode._0100_0199.demo188
 {
     public class Class188
     {
-        
+     
+            
+
+    
 
 
     }
