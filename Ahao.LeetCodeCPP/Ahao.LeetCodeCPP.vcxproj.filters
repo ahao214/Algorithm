@@ -3351,6 +3351,9 @@
     <ClCompile Include="132. 分割回文串 II.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="714. 买卖股票的最佳时机含手续费.cpp">
+      <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
