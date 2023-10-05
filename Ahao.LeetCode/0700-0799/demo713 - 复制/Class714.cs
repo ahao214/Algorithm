@@ -28,8 +28,21 @@ namespace Ahao.LeetCode.Medium.LC714
         }
 
 
-
         public int MaxProfit2(int[] prices, int fee)
+        {
+            int n = prices.Length;
+            int sell = 0, buy = -prices[0];
+            for (int i = 1; i < n; ++i)
+            {
+                sell = Math.Max(sell, buy + prices[i] - fee);
+                buy = Math.Max(buy, sell - prices[i]);
+            }
+            return sell;
+        }
+
+
+
+        public int MaxProfit3(int[] prices, int fee)
         {
             int n = prices.Length;
             int buy = prices[0] + fee;
