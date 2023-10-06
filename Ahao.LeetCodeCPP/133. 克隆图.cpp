@@ -49,3 +49,32 @@ public:
 		return clone;
 	}
 };
+
+
+
+
+class Solution {
+	unordered_map<Node*, Node*> h;
+public:
+	Node* cloneGraph(Node* node) {
+		if (!node) return nullptr;
+		dfs(node);
+		for (auto [from, to] : h)
+		{
+			for (auto next : from->neighbors)
+				to->neighbors.push_back(h[next]);
+		}
+		return h[node];
+	}
+
+	void dfs(Node* node)
+	{
+		h[node] = new Node(node->val);
+		for (auto next : node->neighbors)
+		{
+			if (!h[next])
+				dfs(next);
+		}
+	}
+};
+
