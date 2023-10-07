@@ -200,6 +200,7 @@
     <ClCompile Include="1267. 统计参与通信的服务器.cpp" />
     <ClCompile Include="1281. 整数的各位积和之差.cpp" />
     <ClCompile Include="1289. 下降路径最小和 II.cpp" />
+    <ClCompile Include="129. 求根节点到叶节点数字之和.cpp" />
     <ClCompile Include="132. 分割回文串 II.cpp" />
     <ClCompile Include="1330. 翻转子数组得到最大的数组值.cpp" />
     <ClCompile Include="1333. 餐厅过滤器.cpp" />
