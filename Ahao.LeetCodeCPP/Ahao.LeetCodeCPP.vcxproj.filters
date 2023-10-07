@@ -3357,6 +3357,9 @@
     <ClCompile Include="129. 求根节点到叶节点数字之和.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="130. 被围绕的区域.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
