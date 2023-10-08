@@ -3360,6 +3360,9 @@
     <ClCompile Include="130. 被围绕的区域.cpp">
       <Filter>源文件\0100-0199</Filter>
     </ClCompile>
+    <ClCompile Include="2578. 最小和分割.cpp">
+      <Filter>源文件\2500-2599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
