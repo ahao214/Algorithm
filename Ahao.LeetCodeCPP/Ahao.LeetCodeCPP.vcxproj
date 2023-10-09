@@ -309,6 +309,7 @@
     <ClCompile Include="2681. 英雄的力量.cpp" />
     <ClCompile Include="2682. 找出转圈游戏输家.cpp" />
     <ClCompile Include="2699. 修改图中的边权.cpp" />
+    <ClCompile Include="2731. 移动机器人.cpp" />
     <ClCompile Include="301. 删除无效的括号.cpp" />
     <ClCompile Include="303. 区域和检索 - 数组不可变.cpp" />
     <ClCompile Include="304. 二维区域和检索 - 矩阵不可变.cpp" />

@@ -94,6 +94,9 @@
     <Filter Include="源文件\2600-2699">
       <UniqueIdentifier>{2e1e7477-2070-4a9a-b681-e33aa3246402}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2700-2799">
+      <UniqueIdentifier>{852672af-ca0c-4e25-9ef2-0510808d2161}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3362,6 +3365,9 @@
     </ClCompile>
     <ClCompile Include="2578. 最小和分割.cpp">
       <Filter>源文件\2500-2599</Filter>
+    </ClCompile>
+    <ClCompile Include="2731. 移动机器人.cpp">
+      <Filter>源文件\2700-2799</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
