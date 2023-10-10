@@ -3369,6 +3369,9 @@
     <ClCompile Include="2731. 移动机器人.cpp">
       <Filter>源文件\2700-2799</Filter>
     </ClCompile>
+    <ClCompile Include="2512. 奖励最顶尖的 K 名学生.cpp">
+      <Filter>源文件\2500-2599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
