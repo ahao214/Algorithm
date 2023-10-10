@@ -48,9 +48,17 @@ namespace Ahao.LeetCode._2500_2599.demo2512
             var rp = new PriorityQueue<int, int[]>(
                 Comparer<int[]>.Create((a, b) => a[1] == b[1] ? a[0] - b[0] : b[1] - a[1])
             );
-            var map = new Dictionary<string, int>();
-            foreach (var s in positive_feedback) { if (!map.ContainsKey(s)) map.Add(s, 3); }
-            foreach (var s in negative_feedback) { if (!map.ContainsKey(s)) map.Add(s, -1); }
+            var dic = new Dictionary<string, int>();
+            foreach (var s in positive_feedback) 
+            { 
+                if (!dic.ContainsKey(s)) 
+                    dic.Add(s, 3); 
+            }
+            foreach (var s in negative_feedback) 
+            {
+                if (!dic.ContainsKey(s)) 
+                    dic.Add(s, -1); 
+            }
             int n = student_id.Length, score = 0;
             for (int i = 0; i < n; ++i)
             {
@@ -58,16 +66,16 @@ namespace Ahao.LeetCode._2500_2599.demo2512
                 var tmp = report[i].Split(' ');
                 foreach (var s in tmp)
                 {
-                    if (map.ContainsKey(s)) score += map[s];
+                    if (dic.ContainsKey(s)) score += dic[s];
                 }
                 rp.Enqueue(student_id[i], new int[] { student_id[i], score });
             }
-            var list = new List<int>();
+            var lst = new List<int>();
             for (int i = 0; i < k; i++)
             {
-                list.Add(rp.Dequeue());
+                lst.Add(rp.Dequeue());
             }
-            return list;
+            return lst;
         }
 
 
