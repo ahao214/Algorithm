@@ -295,6 +295,7 @@
     <ClCompile Include="2544. 交替数字和.cpp" />
     <ClCompile Include="2559. 统计范围内的元音字符串数.cpp" />
     <ClCompile Include="2560. 打家劫舍 IV.cpp" />
+    <ClCompile Include="2562. 找出数组的串联值.cpp" />
     <ClCompile Include="2569. 更新数组后处理求和查询.cpp" />
     <ClCompile Include="2578. 最小和分割.cpp" />
     <ClCompile Include="2582. 递枕头.cpp" />
