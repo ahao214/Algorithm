@@ -30,5 +30,27 @@ namespace Ahao.LeetCode._2500_2599.demo2562
             }
             return res;
         }
+
+
+
+
+        public long FindTheArrayConcVal2(int[] nums)
+        {
+            long ans = 0;
+            for (int i = 0, j = nums.Length - 1; i <= j; i++, j--)
+            {
+                if (i != j)
+                {
+                    ans += int.Parse(nums[i].ToString() + nums[j].ToString());
+                }
+                else
+                {
+                    ans += nums[i];
+                }
+            }
+            return ans;
+        }
+
+
     }
 }
