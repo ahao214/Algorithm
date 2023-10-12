@@ -7,6 +7,7 @@ using namespace std;
 
 /*
 1488. 避免洪水泛滥
+
 你的国家有无数个湖泊，所有湖泊一开始都是空的。当第 n 个湖泊下雨的时候，如果第 n 个湖泊是空的，那么它就会装满水，否则这个湖泊会发生洪水。你的目标是避免任意一个湖泊发生洪水。
 
 给你一个整数数组 rains ，其中：
@@ -64,5 +65,33 @@ public:
 			}
 		}
 		return res;
+	}
+};
+
+
+class Solution {
+public:
+	vector<int> avoidFlood(vector<int>& rains) {
+		vector<int> ans(rains.size(), 1);
+		set<int> st;
+		unordered_map<int, int> mp;
+		for (int i = 0; i < rains.size(); ++i) {
+			if (rains[i] == 0) {
+				st.insert(i);
+			}
+			else {
+				ans[i] = -1;
+				if (mp.count(rains[i])) {
+					auto it = st.lower_bound(mp[rains[i]]);
+					if (it == st.end()) {
+						return {};
+					}
+					ans[*it] = rains[i];
+					st.erase(it);
+				}
+				mp[rains[i]] = i;
+			}
+		}
+		return ans;
 	}
 };
