@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode._0100_0199.demo136
 {
-    /*
-     136. 只出现一次的数字
-给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
 
-说明：
-     */
     public class Class136
     {
         public int SingleNumber(int[] nums)
@@ -47,5 +42,15 @@ namespace Ahao.LeetCode._0100_0199.demo136
             Console.WriteLine(eor ^ onlyOne);
 
         }
+
+
+
+        public int SingleNumber2(int[] nums)
+        {
+            int ret = 0;
+            foreach (int e in nums) ret ^= e;
+            return ret;
+        }
+
     }
 }
