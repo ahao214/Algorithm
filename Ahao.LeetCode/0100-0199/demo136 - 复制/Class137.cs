@@ -32,5 +32,32 @@ namespace Ahao.LeetCode._0100_0199.demo137
 
 
 
+        public int SingleNumber2(int[] nums)
+        {
+            int a = 0, b = 0;
+            foreach (var num in nums)
+            {
+                int aNext = (~a & b & num) | (a & ~b & ~num), bNext = ~a & (b ^ num);
+                a = aNext;
+                b = bNext;
+            }
+            return b;
+        }
+
+
+        public int SingleNumber3(int[] nums)
+        {
+            int a = 0, b = 0;
+            foreach (var num in nums)
+            {
+                b = ~a & (b ^ num);
+                a = ~b & (a ^ num);
+            }
+            return b;
+        }
+
+
+
+
     }
 }
