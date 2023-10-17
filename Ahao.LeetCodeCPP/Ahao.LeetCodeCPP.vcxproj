@@ -307,6 +307,7 @@
     <ClCompile Include="2605. 从两个数字数组里生成最小数字.cpp" />
     <ClCompile Include="2611. 老鼠和奶酪.cpp" />
     <ClCompile Include="2651. 计算列车到站时间.cpp" />
+    <ClCompile Include="2652. 倍数求和.cpp" />
     <ClCompile Include="2679. 矩阵中的和.cpp" />
     <ClCompile Include="2681. 英雄的力量.cpp" />
     <ClCompile Include="2682. 找出转圈游戏输家.cpp" />
