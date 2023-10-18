@@ -30,5 +30,24 @@ namespace Ahao.LeetCode._2500_2599.demo2530
         }
 
 
+
+        public long MaxKelements2(int[] nums, int k)
+        {
+            PriorityQueue<int, int> q = new PriorityQueue<int, int>();
+            foreach (int num in nums)
+            {
+                q.Enqueue(num, -num);
+            }
+            long ans = 0;
+            for (int i = 0; i < k; ++i)
+            {
+                int x = q.Dequeue();
+                ans += x;
+                q.Enqueue((x + 2) / 3, -(x + 2) / 3);
+            }
+            return ans;
+        }
+
+
     }
 }
