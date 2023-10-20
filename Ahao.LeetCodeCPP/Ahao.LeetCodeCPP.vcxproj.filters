@@ -3381,6 +3381,9 @@
     <ClCompile Include="2530. 执行 K 次操作后的最大分数.cpp">
       <Filter>源文件\2500-2599</Filter>
     </ClCompile>
+    <ClCompile Include="2525. 根据规则将箱子分类.cpp">
+      <Filter>源文件\2500-2599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
