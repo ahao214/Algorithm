@@ -3384,6 +3384,9 @@
     <ClCompile Include="2525. 根据规则将箱子分类.cpp">
       <Filter>源文件\2500-2599</Filter>
     </ClCompile>
+    <ClCompile Include="2316. 统计无向图中无法互相到达点对数.cpp">
+      <Filter>源文件\2300-2399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
