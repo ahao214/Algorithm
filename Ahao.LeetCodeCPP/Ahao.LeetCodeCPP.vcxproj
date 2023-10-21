@@ -213,6 +213,7 @@
     <ClCompile Include="1388. 3n 块披萨.cpp" />
     <ClCompile Include="140. 单词拆分 II.cpp" />
     <ClCompile Include="1401. 圆和矩形是否有重叠.cpp" />
+    <ClCompile Include="1402. 做菜顺序.cpp" />
     <ClCompile Include="141. 环形链表.cpp" />
     <ClCompile Include="1419. 数青蛙.cpp" />
     <ClCompile Include="143. 重排链表.cpp" />
