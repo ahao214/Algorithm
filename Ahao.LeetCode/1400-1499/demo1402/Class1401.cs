@@ -56,5 +56,43 @@ namespace Ahao.LeetCode._1400_1499.demo1402
             return ans;
         }
 
+
+
+        public int MaxSatisfaction3(int[] satisfaction)
+        {
+            Array.Sort(satisfaction);
+            int sum = 0;
+            int num = 0;
+            for (int i = satisfaction.Length - 1; i >= 0; i--)
+            {
+                var cur = satisfaction[i];
+                if (cur <= -num)
+                {
+                    break;
+                }
+                sum = sum + cur + num;
+                num += cur;
+            }
+            return sum;
+        }
+
+
+        public int MaxSatisfaction4(int[] satisfaction)
+        {
+            Array.Sort(satisfaction);
+            int result = 0, presum = 0;
+            for (int i = satisfaction.Length - 1; i >= 0; i--)
+            {
+                presum += satisfaction[i];
+                if (presum < 0)
+                    break;
+                else
+                    result += presum;
+            }
+
+            return result;
+        }
+
+
     }
 }
