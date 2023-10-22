@@ -22,6 +22,20 @@ namespace Ahao.LeetCode._2600_2699.demo2678
             return res;
         }
 
+        public int CountSeniors2(string[] details)
+        {
+            int count = 0;
+            foreach (string info in details)
+            {
+                if (int.Parse(info.Substring(11, 2)) > 60)
+                {
+                    count++;
+                }
+            }
+            return count;
+        }
+
+
 
     }
 }
