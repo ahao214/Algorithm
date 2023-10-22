@@ -3390,6 +3390,9 @@
     <ClCompile Include="1402. 做菜顺序.cpp">
       <Filter>源文件\1400-1499</Filter>
     </ClCompile>
+    <ClCompile Include="2678. 老人的数目.cpp">
+      <Filter>源文件\2600-2699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
