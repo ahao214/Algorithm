@@ -94,5 +94,37 @@ namespace Ahao.LeetCode._2600_2699.demo2698
         }
 
 
+
+
+        public int PunishmentNumber3(int n)
+        {
+            int res = 0;
+            for (int i = 1; i <= n; i++)
+            {
+                int a = i * i;
+                if (dfs(a, i, 0) || i * i == i)
+                    res += i * i;
+            }
+            return res;
+        }
+
+        public bool dfs(int a, int n, int sum)
+        {
+            if (sum + a == n) 
+                return true;
+            if (sum > n || a == 0) 
+                return false;
+
+            for (int i = 10; i <= a * 10; i *= 10)
+            {
+                if (dfs(a / i, n, sum + (a % i)))
+                    return true;
+            }
+            return false;
+        }
     }
+
+
+
+
 }
