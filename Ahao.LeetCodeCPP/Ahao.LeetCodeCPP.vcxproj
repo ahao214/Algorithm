@@ -180,6 +180,7 @@
     <ClCompile Include="1125. 最小的必要团队.cpp" />
     <ClCompile Include="1130. 叶值的最小代价生成树.cpp" />
     <ClCompile Include="1147. 段式回文.cpp" />
+    <ClCompile Include="1155. 掷骰子等于目标和的方法数.cpp" />
     <ClCompile Include="1156. 单字符重复子串的最大长度.cpp" />
     <ClCompile Include="1157. 子数组中占绝大多数的元素.cpp" />
     <ClCompile Include="1163. 按字典序排在最后的子串.cpp" />
