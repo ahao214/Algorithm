@@ -294,6 +294,7 @@
     <ClCompile Include="2511. 最多可以摧毁的敌人城堡数目.cpp" />
     <ClCompile Include="2512. 奖励最顶尖的 K 名学生.cpp" />
     <ClCompile Include="2517. 礼盒的最大甜蜜度.cpp" />
+    <ClCompile Include="2520. 统计能整除数字的位数.cpp" />
     <ClCompile Include="2525. 根据规则将箱子分类.cpp" />
     <ClCompile Include="2530. 执行 K 次操作后的最大分数.cpp" />
     <ClCompile Include="2532. 过桥的时间.cpp" />
