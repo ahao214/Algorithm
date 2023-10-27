@@ -299,6 +299,7 @@
     <ClCompile Include="2530. 执行 K 次操作后的最大分数.cpp" />
     <ClCompile Include="2532. 过桥的时间.cpp" />
     <ClCompile Include="2544. 交替数字和.cpp" />
+    <ClCompile Include="2558. 从数量最多的堆取走礼物.cpp" />
     <ClCompile Include="2559. 统计范围内的元音字符串数.cpp" />
     <ClCompile Include="2560. 打家劫舍 IV.cpp" />
     <ClCompile Include="2562. 找出数组的串联值.cpp" />
