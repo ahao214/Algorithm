@@ -3405,6 +3405,9 @@
     <ClCompile Include="2558. 从数量最多的堆取走礼物.cpp">
       <Filter>源文件\2500-2599</Filter>
     </ClCompile>
+    <ClCompile Include="274. H 指数.cpp">
+      <Filter>源文件\0200-0299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
