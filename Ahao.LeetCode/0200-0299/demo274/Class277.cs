@@ -4,36 +4,81 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.LeetCode._0200_0299.demo277
+namespace Ahao.LeetCode._0200_0299.demo274
 {
-    public class Class277
+    public class Class274
     {
-        public int findCelebrity(int n)
+        public int HIndex(int[] citations)
         {
-            int cand = 0;   //谁可能成为明星，谁就是cand
-            for (int i = 0; i < n; i++)
+            Array.Sort(citations);
+            int h = 0, i = citations.Length - 1;
+            while (i >= 0 && citations[i] > h)
             {
-                if (knows(cand, i))
-                    cand = i;
+                h++;
+                i--;
             }
-
-            for (int i = 0; i < cand; i++)
-            {
-                if (knows(cand, i))
-                    return -1;
-            }
-            //是不是所有的人都认识cand
-            for (int i = 0; i < n; i++)
-            {
-                if (!knows(i, cand))
-                    return -1;
-            }
-            return cand;
+            return h;
         }
 
-        public bool knows(int x, int y)
+
+        public int HIndex2(int[] citations)
         {
-            return true;
+            int n = citations.Length, tot = 0;
+            int[] counter = new int[n + 1];
+            for (int i = 0; i < n; i++)
+            {
+                if (citations[i] >= n)
+                {
+                    counter[n]++;
+                }
+                else
+                {
+                    counter[citations[i]]++;
+                }
+            }
+            for (int i = n; i >= 0; i--)
+            {
+                tot += counter[i];
+                if (tot >= i)
+                {
+                    return i;
+                }
+            }
+            return 0;
         }
+
+
+
+        public int HIndex3(int[] citations)
+        {
+            int left = 0, right = citations.Length;
+            int mid = 0, cnt = 0;
+            while (left < right)
+            {
+                // +1 防止死循环
+                mid = (left + right + 1) >> 1;
+                cnt = 0;
+                for (int i = 0; i < citations.Length; i++)
+                {
+                    if (citations[i] >= mid)
+                    {
+                        cnt++;
+                    }
+                }
+                if (cnt >= mid)
+                {
+                    // 要找的答案在 [mid,right] 区间内
+                    left = mid;
+                }
+                else
+                {
+                    // 要找的答案在 [0,mid) 区间内
+                    right = mid - 1;
+                }
+            }
+            return left;
+        }
+
+
     }
 }
