@@ -6,6 +6,7 @@ using namespace std;
 
 /*
 275. H 指数 II
+
 给你一个整数数组 citations ，其中 citations[i] 表示研究者的第 i
 篇论文被引用的次数，citations 已经按照升序排列 。
 计算并返回该研究者的 h 指数。
@@ -31,4 +32,23 @@ public:
 		}
 		return right;
 	}
+};
+
+
+class Solution {
+public:
+    int hIndex(vector<int>& citations) {
+        int n = citations.size();
+        int left = 0, right = n - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (citations[mid] >= n - mid) {
+                right = mid - 1;
+            }
+            else {
+                left = mid + 1;
+            }
+        }
+        return n - left;
+    }
 };
