@@ -3408,6 +3408,9 @@
     <ClCompile Include="274. H 指数.cpp">
       <Filter>源文件\0200-0299</Filter>
     </ClCompile>
+    <ClCompile Include="2003. 每棵子树内缺失的最小基因值.cpp">
+      <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
