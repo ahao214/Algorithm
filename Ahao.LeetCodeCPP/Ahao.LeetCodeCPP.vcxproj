@@ -255,6 +255,7 @@
     <ClCompile Include="2003. 每棵子树内缺失的最小基因值.cpp" />
     <ClCompile Include="2050. 并行课程 III.cpp" />
     <ClCompile Include="210. 课程表 II.cpp" />
+    <ClCompile Include="2103. 环和杆.cpp" />
     <ClCompile Include="2106. 摘水果.cpp" />
     <ClCompile Include="2127. 参加会议的最多员工数.cpp" />
     <ClCompile Include="2136. 全部开花的最早一天.cpp" />
