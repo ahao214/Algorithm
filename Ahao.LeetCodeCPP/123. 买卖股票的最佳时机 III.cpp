@@ -4,7 +4,7 @@ using namespace std;
 
 
 /*
-122. 买卖股票的最佳时机 II
+123. 买卖股票的最佳时机 III
 
 给你一个整数数组 prices ，其中 prices[i] 表示某支股票第 i 天的价格。
 
@@ -12,6 +12,35 @@ using namespace std;
 
 返回 你能获得的 最大 利润 。
 */
+
+
+class Solution {
+public:
+	/*
+	Times:O(n)
+	Space:O(n)
+	*/
+	int maxProfit(vector<int>& prices) {
+		int n = prices.size();
+		vector<int> left(n), right(n);
+		for (int i = 1, minPrice = prices[0]; i < n; i++)
+		{
+			left[i] = max(left[i - 1], prices[i] - minPrice);
+			minPrice = min(minPrice, prices[i]);
+		}
+
+		for (int i = n - 2, maxPrice = prices[n - 1]; i >= 0; i--)
+		{
+			right[i] = max(right[i + 1], maxPrice - prices[i]);
+			maxPrice = max(maxPrice, prices[i]);
+		}
+
+		int res = 0;
+		for (int i = 0; i < n; i++)
+			res = max(res, left[i] + right[i]);
+		return res;
+	}
+};
 
 
 class Solution {
