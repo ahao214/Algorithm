@@ -3417,6 +3417,9 @@
     <ClCompile Include="2103. 环和杆.cpp">
       <Filter>源文件\2100-2199</Filter>
     </ClCompile>
+    <ClCompile Include="126. 单词接龙 II.cpp">
+      <Filter>源文件\0100-0199</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
