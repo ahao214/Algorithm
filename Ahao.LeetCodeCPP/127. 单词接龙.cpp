@@ -56,3 +56,46 @@ public:
 		return 0;
 	}
 };
+
+
+
+
+
+class Solution {
+public:
+	int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
+		unordered_set<string> dict(wordList.begin(), wordList.end());
+		if (!dict.count(endWord)) return 0;
+
+		unordered_set<string> s1{ beginWord }, s2{ endWord };
+
+		int step = 1;
+		while (!s1.empty() && !s2.empty())
+		{
+			step++;
+			if (s1.size() > s2.size()) swap(s1, s2);
+
+			for (string w : s1) dict.erase(w);
+			for (string w : s2) dict.erase(w);
+
+			unordered_set<string> s;
+			for (string word : s1)
+			{
+				for (int i = 0; i < word.length(); i++)
+				{
+					char ch = word[i];
+					for (char j = 'a'; j <= 'z'; j++)
+					{
+						word[i] = j;
+						if (s2.count(word)) return step;
+						if (!dict.count(word)) continue;
+						s.insert(word);
+					}
+					word[i] = ch;
+				}
+			}
+			s1 = s;
+		}
+		return 0;
+	}
+};
