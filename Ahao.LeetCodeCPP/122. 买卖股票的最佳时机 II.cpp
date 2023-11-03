@@ -13,3 +13,17 @@ using namespace std;
 返回 你能获得的 最大 利润 。
 */
 
+class Solution {
+public:
+	/*
+	Times:O(n)
+	Space:O(1)
+	*/
+	int maxProfit(vector<int>& prices) {
+		int res = 0;
+		for (int i = 1; i < prices.size(); i++)
+			res += max(prices[i] - prices[i - 1], 0);
+		return res;
+	}
+};
+
