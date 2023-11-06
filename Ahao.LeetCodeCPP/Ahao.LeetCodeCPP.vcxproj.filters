@@ -3423,6 +3423,9 @@
     <ClCompile Include="318. 最大单词长度乘积.cpp">
       <Filter>源文件\0300-0399</Filter>
     </ClCompile>
+    <ClCompile Include="2586. 统计范围内的元音字符串数.cpp">
+      <Filter>源文件\2500-2599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
