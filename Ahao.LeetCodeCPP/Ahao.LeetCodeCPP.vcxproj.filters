@@ -3426,6 +3426,9 @@
     <ClCompile Include="2586. 统计范围内的元音字符串数.cpp">
       <Filter>源文件\2500-2599</Filter>
     </ClCompile>
+    <ClCompile Include="2609. 最长平衡子字符串.cpp">
+      <Filter>源文件\2600-2699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
