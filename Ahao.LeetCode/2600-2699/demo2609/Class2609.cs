@@ -33,5 +33,38 @@ namespace Ahao.LeetCode._2600_2699.demo2609
             return res;
         }
 
+
+
+        public int FindTheLongestBalancedSubstring2(string s)
+        {
+            int res = 0;
+            int countZero = 0;//统计当前0的个数
+            int countOne = 0;   // 统计当前1的个数
+            var str = s.ToCharArray();
+            int i = 0;
+            while (true)
+            {
+                while (i < s.Length && str[i] == '0')
+                {
+                    countZero++;
+                    i++;
+                }
+                while (i < s.Length && str[i] == '1')
+                {
+                    countOne++;
+                    i++;
+                }
+                res = Math.Max(res, Math.Min(countZero, countOne));
+                countZero = 0;
+                countOne = 0;
+                if (i >= s.Length)
+                {
+                    break;
+                }
+            }
+            return res * 2;
+        }
+
+
     }
 }
