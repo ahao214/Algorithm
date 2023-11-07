@@ -11,38 +11,27 @@ namespace Ahao.LeetCode._2600_2699.demo2609
         public int FindTheLongestBalancedSubstring(string s)
         {
             int res = 0;
-            if (string.IsNullOrEmpty(s) || s.Length == 0)
-            {
-                return 0;
-            }
-
-            char[] chars = s.ToCharArray();
-            int countZero = 0;
-            int n = chars.Length;
-            int count = 0;           
+            int n = s.Length;
+            int[] count = new int[2];
             for (int i = 0; i < n; i++)
             {
-                if (chars[i] == '0')
+                if (s[i] == '1')
                 {
-                    countZero++;
-                    count++;
+                    count[1]++;
+                    res = Math.Max(res, 2 * Math.Min(count[0], count[1]));
+                }
+                else if (i == 0 || s[i - 1] == '1')
+                {
+                    count[0] = 1;
+                    count[1] = 0;
                 }
                 else
                 {
-                    if (countZero > 0)
-                    {
-                        countZero--;
-                        count++;
-                    }
-                }
-                if (countZero == 0)
-                {
-                    res = Math.Max(res, count);
-                    count = 0;
+                    count[0]++;
                 }
             }
-
             return res;
         }
+
     }
 }
