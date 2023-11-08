@@ -3429,6 +3429,9 @@
     <ClCompile Include="2609. 最长平衡子字符串.cpp">
       <Filter>源文件\2600-2699</Filter>
     </ClCompile>
+    <ClCompile Include="2258. 逃离火灾.cpp">
+      <Filter>源文件\2200-2299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
