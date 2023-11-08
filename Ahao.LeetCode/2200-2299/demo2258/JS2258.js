@@ -1,57 +1,86 @@
-﻿var fullBloomFlowers = function (flowers, people) {
-    const cnt = new Map();
-    for (const [start, end] of flowers) {
-        cnt.set(start, cnt.has(start) ? cnt.get(start) + 1 : 1);
-        cnt.set(end + 1, cnt.has(end + 1) ? cnt.get(end + 1) - 1 : -1);
-    }
-    const arr = [];
-    for (let item of cnt.entries()) {
-        arr.push([item[0], item[1]]);
-    }
-    arr.sort((a, b) => a[0] - b[0]);
-    let m = people.length;
-    indices = Array.from(new Array(m).keys())
-    indices.sort((a, b) => people[a] - people[b]);
-    let j = 0, curr = 0;
-    let ans = new Array(m).fill(0);
-    for (const i of indices) {
-        while (j < arr.length && arr[j][0] <= people[i]) {
-            curr += arr[j][1];
-            j += 1;
-        }
-        ans[i] = curr;
-    }
-    return ans;
-};
+﻿const dirs = [[0, -1], [0, 1], [1, 0], [-1, 0]];
 
+var maximumMinutes = function (grid) {
+    const m = grid.length;
+    const n = grid[0].length;
+    const INF = 1e9;
+    const fireTime = new Array(m).fill(0).map(() => new Array(n).fill(INF));
 
-
-
-var fullBloomFlowers = function (flowers, people) {
-    const starts = flowers.map((item) => item[0]);
-    const ends = flowers.map((item) => item[1]);
-    starts.sort((a, b) => a - b);
-    ends.sort((a, b) => a - b);
-
-    var binarySearch = function (arr, target) {
-        let res = arr.length;
-        let left = 0, right = arr.length - 1;
-        while (left <= right) {
-            let mid = (left + right) >> 1;
-            if (arr[mid] >= target) {
-                res = mid;
-                right = mid - 1;
-            } else {
-                left = mid + 1;
+    const bfs = function () {
+        let q = [];
+        for (let i = 0; i < m; i++) {
+            for (let j = 0; j < n; j++) {
+                if (grid[i][j] == 1) {
+                    q.push([i, j])
+                    fireTime[i][j] = 0
+                }
             }
         }
-        return res;
+
+        let time = 1;
+        while (q.length > 0) {
+            const tmp = q;
+            q = [];
+            for (const [cx, cy] of tmp) {
+                for (const [i, j] of dirs) {
+                    const nx = cx + i;
+                    const ny = cy + j;
+                    if (nx >= 0 && ny >= 0 && nx < m && ny < n) {
+                        if (grid[nx][ny] == 2 || fireTime[nx][ny] != INF) {
+                            continue;
+                        }
+                        q.push([nx, ny]);
+                        fireTime[nx][ny] = time;
+                    }
+                }
+            }
+            time++;
+        }
+    };
+
+    const check = function (stayTime) {
+        visit = new Array(m).fill(0).map(() => new Array(n).fill(false));
+        let q = [[0, 0, stayTime]]
+        while (q.length > 0) {
+            const tmp = q
+            q = []
+            for (const [cx, cy, time] of tmp) {
+                for (const [i, j] of dirs) {
+                    const nx = cx + i;
+                    const ny = cy + j;
+                    if (nx >= 0 && ny >= 0 && nx < m && ny < n) {
+                        if (visit[nx][ny] || grid[nx][ny] == 2) {
+                            continue;
+                        }
+                        /* 到达安全屋 */
+                        if (nx == m - 1 && ny == n - 1) {
+                            return fireTime[nx][ny] >= time + 1;
+                        }
+                        /* 火未到达当前位置 */
+                        if (fireTime[nx][ny] > time + 1) {
+                            q.push([nx, ny, time + 1]);
+                            visit[nx][ny] = true;
+                        }
+                    }
+                }
+            }
+        }
+        return false;
+    };
+
+    /* 通过 bfs 求出每个格子着火的时间 */
+    bfs();
+    /* 二分查找找到最大停留时间 */
+    let ans = -1;
+    let low = 0, high = m * n;
+    while (low <= high) {
+        const mid = low + Math.floor((high - low) / 2);
+        if (check(mid)) {
+            ans = mid;
+            low = mid + 1;
+        } else {
+            high = mid - 1;
+        }
     }
-    const m = people.length;
-    const ans = new Array(m).fill(0);
-    for (let i = 0; i < m; i++) {
-        const p = people[i];
-        ans[i] = binarySearch(starts, p + 1) - binarySearch(ends, p);
-    }
-    return ans;
+    return ans >= m * n ? 1e9 : ans;
 };
