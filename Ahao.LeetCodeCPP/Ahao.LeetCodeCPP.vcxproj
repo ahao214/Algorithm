@@ -267,6 +267,7 @@
     <ClCompile Include="2240. 买钢笔和铅笔的方案数.cpp" />
     <ClCompile Include="2251. 花期内花的数目.cpp" />
     <ClCompile Include="2258. 逃离火灾.cpp" />
+    <ClCompile Include="2300. 咒语和药水的成功对数.cpp" />
     <ClCompile Include="2316. 统计无向图中无法互相到达点对数.cpp" />
     <ClCompile Include="2337. 移动片段得到字符串.cpp" />
     <ClCompile Include="2352. 相等行列对.cpp" />
