@@ -8,24 +8,38 @@ namespace Ahao.LeetCode._2300_2399.demo2300
 {
     public class Class2300
     {
+
         public int[] SuccessfulPairs(int[] spells, int[] potions, long success)
         {
-            int n = spells.Length;
-            int m = potions.Length;
-            int[] result = new int[n];
+            Array.Sort(potions);
+            int n = spells.Length, m = potions.Length;
+            int[] res = new int[n];
             for (int i = 0; i < n; i++)
             {
-                int count = 0;
-                for (int j = 0; j < m; j++)
-                {
-                    if (spells[i] * potions[j] >= success)
-                    {
-                        count++;
-                    }
-                }
-                result[i] = count;
+                long t = (success + spells[i] - 1) / spells[i] - 1;
+                res[i] = m - BinarySearch(potions, 0, m - 1, t);
             }
-            return result;
+            return res;
         }
+
+        public int BinarySearch(int[] arr, int lo, int hi, long target)
+        {
+            int res = hi + 1;
+            while (lo <= hi)
+            {
+                int mid = lo + (hi - lo) / 2;
+                if (arr[mid] > target)
+                {
+                    res = mid;
+                    hi = mid - 1;
+                }
+                else
+                {
+                    lo = mid + 1;
+                }
+            }
+            return res;
+        }
+
     }
 }
