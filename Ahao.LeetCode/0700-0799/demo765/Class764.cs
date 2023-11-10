@@ -8,6 +8,9 @@ namespace Ahao.LeetCode._0700_0799.demo765
 {
     public class Class765
     {
-
+      
+            
+        
+      
     }
 }
