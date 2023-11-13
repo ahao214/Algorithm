@@ -311,6 +311,7 @@
     <ClCompile Include="2562. 找出数组的串联值.cpp" />
     <ClCompile Include="2569. 更新数组后处理求和查询.cpp" />
     <ClCompile Include="2578. 最小和分割.cpp" />
+    <ClCompile Include="2581. 统计可能的树根数目.cpp" />
     <ClCompile Include="2582. 递枕头.cpp" />
     <ClCompile Include="2586. 统计范围内的元音字符串数.cpp" />
     <ClCompile Include="2591. 将钱分给最多的儿童.cpp" />

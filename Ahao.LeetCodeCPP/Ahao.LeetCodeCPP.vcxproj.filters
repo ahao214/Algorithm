@@ -3447,6 +3447,9 @@
     <ClCompile Include="2646. 最小化旅行的价格总和.cpp">
       <Filter>源文件\2600-2699</Filter>
     </ClCompile>
+    <ClCompile Include="2581. 统计可能的树根数目.cpp">
+      <Filter>源文件\2500-2599</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
