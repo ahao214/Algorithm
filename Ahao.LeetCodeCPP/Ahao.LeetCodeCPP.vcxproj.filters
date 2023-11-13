@@ -97,6 +97,9 @@
     <Filter Include="源文件\2700-2799">
       <UniqueIdentifier>{852672af-ca0c-4e25-9ef2-0510808d2161}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2800-2899">
+      <UniqueIdentifier>{53f89592-6139-4148-8631-5a7edd217f1b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Ahao.LeetCodeCPP.cpp">
@@ -3437,6 +3440,12 @@
     </ClCompile>
     <ClCompile Include="715. Range 模块.cpp">
       <Filter>源文件\0700-0799</Filter>
+    </ClCompile>
+    <ClCompile Include="class NumArray {.cpp">
+      <Filter>源文件\2800-2899</Filter>
+    </ClCompile>
+    <ClCompile Include="2646. 最小化旅行的价格总和.cpp">
+      <Filter>源文件\2600-2699</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

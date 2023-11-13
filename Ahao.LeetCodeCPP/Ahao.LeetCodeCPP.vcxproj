@@ -321,6 +321,7 @@
     <ClCompile Include="2605. 从两个数字数组里生成最小数字.cpp" />
     <ClCompile Include="2609. 最长平衡子字符串.cpp" />
     <ClCompile Include="2611. 老鼠和奶酪.cpp" />
+    <ClCompile Include="2646. 最小化旅行的价格总和.cpp" />
     <ClCompile Include="2651. 计算列车到站时间.cpp" />
     <ClCompile Include="2652. 倍数求和.cpp" />
     <ClCompile Include="2678. 老人的数目.cpp" />
@@ -1252,6 +1253,7 @@
     <ClCompile Include="Ahao.LeetCodeCPP.cpp" />
     <ClCompile Include="1738. 找出第 K 大的异或坐标值.cpp" />
     <ClCompile Include="236. 二叉树的最近公共祖先.cpp" />
+    <ClCompile Include="class NumArray {.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp" />
