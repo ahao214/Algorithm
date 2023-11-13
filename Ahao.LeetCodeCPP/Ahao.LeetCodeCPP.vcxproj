@@ -333,6 +333,8 @@
     <ClCompile Include="2699. 修改图中的边权.cpp" />
     <ClCompile Include="2731. 移动机器人.cpp" />
     <ClCompile Include="274. H 指数.cpp" />
+    <ClCompile Include="2836. 在传球游戏中最大化函数值.cpp" />
+    <ClCompile Include="2846. 边权重均等查询.cpp" />
     <ClCompile Include="301. 删除无效的括号.cpp" />
     <ClCompile Include="303. 区域和检索 - 数组不可变.cpp" />
     <ClCompile Include="304. 二维区域和检索 - 矩阵不可变.cpp" />

@@ -3450,6 +3450,12 @@
     <ClCompile Include="2581. 统计可能的树根数目.cpp">
       <Filter>源文件\2500-2599</Filter>
     </ClCompile>
+    <ClCompile Include="2846. 边权重均等查询.cpp">
+      <Filter>源文件\2800-2899</Filter>
+    </ClCompile>
+    <ClCompile Include="2836. 在传球游戏中最大化函数值.cpp">
+      <Filter>源文件\2800-2899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
