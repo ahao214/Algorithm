@@ -3459,6 +3459,9 @@
     <ClCompile Include="2589. 完成所有任务的最少时间.cpp">
       <Filter>源文件\2500-2599</Filter>
     </ClCompile>
+    <ClCompile Include="1334. 阈值距离内邻居最少的城市.cpp">
+      <Filter>源文件\1300-1399</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
