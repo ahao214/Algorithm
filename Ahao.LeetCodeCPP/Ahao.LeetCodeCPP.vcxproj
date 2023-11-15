@@ -327,6 +327,7 @@
     <ClCompile Include="2646. 最小化旅行的价格总和.cpp" />
     <ClCompile Include="2651. 计算列车到站时间.cpp" />
     <ClCompile Include="2652. 倍数求和.cpp" />
+    <ClCompile Include="2656. K 个元素的最大和.cpp" />
     <ClCompile Include="2678. 老人的数目.cpp" />
     <ClCompile Include="2679. 矩阵中的和.cpp" />
     <ClCompile Include="2681. 英雄的力量.cpp" />
