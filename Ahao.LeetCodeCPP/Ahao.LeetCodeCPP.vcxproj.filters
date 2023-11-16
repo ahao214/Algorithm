@@ -3465,6 +3465,9 @@
     <ClCompile Include="2656. K 个元素的最大和.cpp">
       <Filter>源文件\2600-2699</Filter>
     </ClCompile>
+    <ClCompile Include="2760. 最长奇偶子数组.cpp">
+      <Filter>源文件\2700-2799</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
