@@ -67,6 +67,29 @@ namespace Ahao.LeetCode._2700_2799.demo2760
             return res;
         }
 
+        public int longestAlternatingSubarray(int[] nums, int threshold)
+        {
+            int res = 0;
+            int start = -1;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (start != -1 && nums[i] % 2 != nums[i - 1] % 2 && nums[i] <= threshold)
+                {
+                    res = Math.Max(res, i - start + 1);
+                }
+                else if (nums[i] % 2 == 0 && nums[i] <= threshold)
+                {
+                    start = i;
+                    res = Math.Max(res, 1);
+                }
+                else
+                {
+                    start = -1;
+                }
+            }
+            return res;
+        }
+
 
     }
 }
