@@ -3468,6 +3468,9 @@
     <ClCompile Include="2760. 最长奇偶子数组.cpp">
       <Filter>源文件\2700-2799</Filter>
     </ClCompile>
+    <ClCompile Include="2736. 最大和查询.cpp">
+      <Filter>源文件\2700-2799</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

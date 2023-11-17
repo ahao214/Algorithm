@@ -335,6 +335,7 @@
     <ClCompile Include="2698. 求一个整数的惩罚数.cpp" />
     <ClCompile Include="2699. 修改图中的边权.cpp" />
     <ClCompile Include="2731. 移动机器人.cpp" />
+    <ClCompile Include="2736. 最大和查询.cpp" />
     <ClCompile Include="274. H 指数.cpp" />
     <ClCompile Include="2760. 最长奇偶子数组.cpp" />
     <ClCompile Include="2836. 在传球游戏中最大化函数值.cpp" />
