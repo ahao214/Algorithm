@@ -4,33 +4,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ahao.LeetCode._2200_2299.demo2208
+namespace Ahao.LeetCode._2200_2299.demo2216
 {
-    internal class Class2216
+    public class Class2216
     {
-
-        public int HalveArray(int[] nums)
+        public int MinDeletion(int[] nums)
         {
-            PriorityQueue<double, double> pq = new PriorityQueue<double, double>();
-            foreach (int num in nums)
+            int n = nums.Length;
+            int ans = 0;
+            bool check = true;
+            for (int i = 0; i + 1 < n; ++i)
             {
-                pq.Enqueue(num, -num);
+                if (nums[i] == nums[i + 1] && check)
+                {
+                    ++ans;
+                }
+                else
+                {
+                    check = !check;
+                }
             }
-            int res = 0;
-            double sum = 0;
-            foreach (int num in nums)
+            if ((n - ans) % 2 != 0)
             {
-                sum += num;
+                ++ans;
             }
-            double sum2 = 0.0;
-            while (sum2 < sum / 2)
-            {
-                double x = pq.Dequeue();
-                sum2 += x / 2;
-                pq.Enqueue(x / 2, -x / 2);
-                res++;
-            }
-            return res;
+            return ans;
         }
+
     }
 }

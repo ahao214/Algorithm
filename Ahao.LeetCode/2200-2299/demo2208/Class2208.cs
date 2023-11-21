@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode._2200_2299.demo2208
 {
-    internal class Class2216
+    internal class Class2208
     {
 
         public int HalveArray(int[] nums)
