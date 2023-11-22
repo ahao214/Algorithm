@@ -67,5 +67,42 @@ namespace Ahao.LeetCode._1400_1499.demo1410
         }
 
 
+
+
+        public string EntityParser2(string text)
+        {
+            Dictionary<string, string> match = new Dictionary<string, string>() { { "&quot;", "\"" }, { "&apos;", "'" }, { "&amp;", "&" }, { "&gt;", ">" }, { "&lt;", "<" }, { "&frasl;", "/" } };
+            StringBuilder sb = new StringBuilder();
+            int n = text.Length;
+            for (int i = 0; i < n; i++)
+            {
+                if (text[i] == '&')
+                {
+                    bool found = false;
+                    foreach (KeyValuePair<string, string> item in match)
+                    {
+                        if (i + item.Key.Length - 1 < n && text.Substring(i, item.Key.Length) == item.Key)
+                        {
+                            sb.Append(item.Value);
+                            i += item.Key.Length - 1;
+                            found = true;
+                            break;
+                        }
+                    }
+                    if (!found)
+                    {
+                        sb.Append(text[i]);
+                    }
+                }
+                else
+                {
+                    sb.Append(text[i]);
+                }
+            }
+            return sb.ToString();
+        }
+
+
+
     }
 }
