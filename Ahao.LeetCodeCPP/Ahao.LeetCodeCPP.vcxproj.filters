@@ -3474,6 +3474,9 @@
     <ClCompile Include="2342. 数位和相等数对的最大和.cpp">
       <Filter>源文件\2300-2399</Filter>
     </ClCompile>
+    <ClCompile Include="1410. HTML 实体解析器.cpp">
+      <Filter>源文件\1400-1499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

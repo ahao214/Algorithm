@@ -218,6 +218,7 @@
     <ClCompile Include="1401. 圆和矩形是否有重叠.cpp" />
     <ClCompile Include="1402. 做菜顺序.cpp" />
     <ClCompile Include="141. 环形链表.cpp" />
+    <ClCompile Include="1410. HTML 实体解析器.cpp" />
     <ClCompile Include="1419. 数青蛙.cpp" />
     <ClCompile Include="143. 重排链表.cpp" />
     <ClCompile Include="1439. 有序矩阵中的第 k 个最小数组和.cpp" />
