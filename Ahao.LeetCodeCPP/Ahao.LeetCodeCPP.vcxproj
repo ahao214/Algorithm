@@ -1169,6 +1169,7 @@
     <ClCompile Include="823. 带因子的二叉树.cpp" />
     <ClCompile Include="824. 山羊拉丁文.cpp" />
     <ClCompile Include="827. 最大人工岛.cpp" />
+    <ClCompile Include="828. 统计子串中的唯一字符.cpp" />
     <ClCompile Include="829. 连续整数求和.cpp" />
     <ClCompile Include="83. 删除排序链表中的重复元素.cpp" />
     <ClCompile Include="831. 隐藏个人信息.cpp" />

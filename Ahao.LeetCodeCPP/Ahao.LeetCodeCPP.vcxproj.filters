@@ -3480,6 +3480,9 @@
     <ClCompile Include="2824. 统计和小于目标的下标对数目.cpp">
       <Filter>源文件\2800-2899</Filter>
     </ClCompile>
+    <ClCompile Include="828. 统计子串中的唯一字符.cpp">
+      <Filter>源文件\0800-0899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
