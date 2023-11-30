@@ -3483,6 +3483,9 @@
     <ClCompile Include="828. 统计子串中的唯一字符.cpp">
       <Filter>源文件\0800-0899</Filter>
     </ClCompile>
+    <ClCompile Include="1657. 确定两个字符串是否接近.cpp">
+      <Filter>源文件\1600-1699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

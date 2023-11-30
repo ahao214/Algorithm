@@ -243,6 +243,7 @@
     <ClCompile Include="1630. 等差子数组.cpp" />
     <ClCompile Include="1637. 两点之间不包含任何点的最宽垂直区域.cpp" />
     <ClCompile Include="164. 最大间距.cpp" />
+    <ClCompile Include="1657. 确定两个字符串是否接近.cpp" />
     <ClCompile Include="1659. 最大化网格幸福感.cpp" />
     <ClCompile Include="168. Excel表列名称.cpp" />
     <ClCompile Include="1681. 最小不兼容性.cpp" />
