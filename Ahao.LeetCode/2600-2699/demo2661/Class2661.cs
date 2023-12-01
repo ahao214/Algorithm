@@ -38,5 +38,30 @@ namespace Ahao.LeetCode._2600_2699.demo2661
             }
             return -1;
         }
+
+
+
+
+        public int FirstCompleteIndex2(int[] arr, int[][] mat)
+        {            
+            int m = mat.Length;
+            int n = mat[0].Length;
+
+            var map = new int[m * n + 1];
+            for (int i = 0; i < m * n; i++)
+            {
+                map[arr[i]] = i;
+            }
+
+            var rowMin = mat.Select(row => row.Max(num => map[num]))
+                            .Min();
+            var colMin = Enumerable.Range(0, n)
+                            .Select(j => Enumerable.Range(0, m).Max(i => map[mat[i][j]]))
+                            .Min();
+
+            return Math.Min(rowMin, colMin);
+        }
+
+
     }
 }
