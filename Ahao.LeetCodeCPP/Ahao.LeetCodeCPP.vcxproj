@@ -172,6 +172,7 @@
     <ClCompile Include="1091. 二进制矩阵中的最短路径.cpp" />
     <ClCompile Include="1092. 最短公共超序列.cpp" />
     <ClCompile Include="1093. 大样本统计.cpp" />
+    <ClCompile Include="1094. 拼车.cpp" />
     <ClCompile Include="1096. 花括号展开 II.cpp" />
     <ClCompile Include="110. 平衡二叉树.cpp" />
     <ClCompile Include="1105. 填充书架.cpp" />
