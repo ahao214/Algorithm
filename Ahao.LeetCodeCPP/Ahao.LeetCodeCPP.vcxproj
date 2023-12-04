@@ -151,6 +151,7 @@
     <ClCompile Include="103. 二叉树的锯齿形层序遍历.cpp" />
     <ClCompile Include="1032. 字符流.cpp" />
     <ClCompile Include="1033. 移动石子直到连续.cpp" />
+    <ClCompile Include="1038. 从二叉搜索树到更大和树.cpp" />
     <ClCompile Include="1039. 多边形三角剖分的最低得分.cpp" />
     <ClCompile Include="104. 二叉树的最大深度.cpp" />
     <ClCompile Include="1040. 移动石子直到连续 II.cpp" />
