@@ -10,7 +10,7 @@ namespace Ahao.LeetCode._1000_1099.demo1038
     {
         int sum = 0;
         public TreeNode BstToGst(TreeNode root)
-        {            
+        {
             if (root != null)
             {
                 BstToGst(root.right);
@@ -20,6 +20,53 @@ namespace Ahao.LeetCode._1000_1099.demo1038
             }
             return root;
         }
+
+
+
+        public TreeNode BstToGst2(TreeNode root)
+        {
+            int sum = 0;
+            TreeNode node = root;
+
+            while (node != null)
+            {
+                if (node.right == null)
+                {
+                    sum += node.val;
+                    node.val = sum;
+                    node = node.left;
+                }
+                else
+                {
+                    TreeNode succ = GetSuccessor(node);
+                    if (succ.left == null)
+                    {
+                        succ.left = node;
+                        node = node.right;
+                    }
+                    else
+                    {
+                        succ.left = null;
+                        sum += node.val;
+                        node.val = sum;
+                        node = node.left;
+                    }
+                }
+            }
+
+            return root;
+        }
+
+        public TreeNode GetSuccessor(TreeNode node)
+        {
+            TreeNode succ = node.right;
+            while (succ.left != null && succ.left != node)
+            {
+                succ = succ.left;
+            }
+            return succ;
+        }
+
 
     }
 
