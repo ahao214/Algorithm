@@ -297,6 +297,7 @@
     <ClCompile Include="2465. 不同的平均值数目.cpp" />
     <ClCompile Include="2469. 温度转换.cpp" />
     <ClCompile Include="2475. 数组中不等三元组的数目.cpp" />
+    <ClCompile Include="2477. 到达首都的最少油耗.cpp" />
     <ClCompile Include="2481. 分割圆的最少切割次数.cpp" />
     <ClCompile Include="2485. 找出中枢整数.cpp" />
     <ClCompile Include="2488. 统计中位数为 K 的子数组.cpp" />
