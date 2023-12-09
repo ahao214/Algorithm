@@ -3498,6 +3498,9 @@
     <ClCompile Include="2477. 到达首都的最少油耗.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="2048. 下一个更大的数值平衡数.cpp">
+      <Filter>源文件\2000-2099</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

@@ -259,6 +259,7 @@
     <ClCompile Include="1979. 找出数组的最大公约数.cpp" />
     <ClCompile Include="1993. 树上的操作.cpp" />
     <ClCompile Include="2003. 每棵子树内缺失的最小基因值.cpp" />
+    <ClCompile Include="2048. 下一个更大的数值平衡数.cpp" />
     <ClCompile Include="2050. 并行课程 III.cpp" />
     <ClCompile Include="210. 课程表 II.cpp" />
     <ClCompile Include="2103. 环和杆.cpp" />
