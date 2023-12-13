@@ -3501,6 +3501,9 @@
     <ClCompile Include="2048. 下一个更大的数值平衡数.cpp">
       <Filter>源文件\2000-2099</Filter>
     </ClCompile>
+    <ClCompile Include="2697. 字典序最小回文串.cpp">
+      <Filter>源文件\2600-2699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
