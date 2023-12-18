@@ -3510,6 +3510,9 @@
     <ClCompile Include="2415. 反转二叉树的奇数层.cpp">
       <Filter>源文件\2400-2499</Filter>
     </ClCompile>
+    <ClCompile Include="1901. 寻找峰值 II.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
