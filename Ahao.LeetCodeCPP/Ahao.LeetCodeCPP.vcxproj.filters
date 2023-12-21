@@ -3516,6 +3516,9 @@
     <ClCompile Include="2828. 判别首字母缩略词.cpp">
       <Filter>源文件\2800-2899</Filter>
     </ClCompile>
+    <ClCompile Include="2866. 美丽塔 II.cpp">
+      <Filter>源文件\2800-2899</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
