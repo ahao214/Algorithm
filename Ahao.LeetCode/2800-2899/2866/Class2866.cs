@@ -54,5 +54,30 @@ namespace Ahao.LeetCode._2800_2899._2866
             return res;
         }
 
+
+        public long MaximumSumOfHeights2(IList<int> maxHeights)
+        {
+            int n = maxHeights.Count;
+            long res = 0;
+            for (int i = 0; i < n; i++)
+            {
+                long cur = maxHeights[i];
+                int pre = maxHeights[i];
+                for (int j = i + 1; j < n; j++)
+                {
+                    pre = Math.Min(pre, maxHeights[j]);
+                    cur += pre;
+                }
+                pre = maxHeights[i];
+                for (int j = i - 1; j >= 0; j--)
+                {
+                    pre = Math.Min(pre, maxHeights[j]);
+                    cur += pre;
+                }
+                res = Math.Max(res, cur);
+            }
+            return res;
+
+        }
     }
 }
