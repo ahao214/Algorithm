@@ -3519,6 +3519,9 @@
     <ClCompile Include="2866. 美丽塔 II.cpp">
       <Filter>源文件\2800-2899</Filter>
     </ClCompile>
+    <ClCompile Include="1962. 移除石子使总数最小.cpp">
+      <Filter>源文件\1900-1999</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

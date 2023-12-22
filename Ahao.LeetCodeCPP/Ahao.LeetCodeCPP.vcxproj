@@ -257,6 +257,7 @@
     <ClCompile Include="186.反转字符串中的单词(二).cpp" />
     <ClCompile Include="1901. 寻找峰值 II.cpp" />
     <ClCompile Include="1921. 消灭怪物的最大数量.cpp" />
+    <ClCompile Include="1962. 移除石子使总数最小.cpp" />
     <ClCompile Include="1979. 找出数组的最大公约数.cpp" />
     <ClCompile Include="1993. 树上的操作.cpp" />
     <ClCompile Include="2003. 每棵子树内缺失的最小基因值.cpp" />
