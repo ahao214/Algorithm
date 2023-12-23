@@ -39,5 +39,19 @@ namespace Ahao.LeetCode._1900_1999.demo1954
             return ans * 8;
         }
 
+
+        public long minimumPerimeter(long neededApples)
+        {
+            long side = 0;
+            long totalApples = 0;
+            while (totalApples < neededApples)
+            {
+                side += 2;
+                totalApples += 3 * side * side;
+            }
+            return side * 4;
+        }
+
+
     }
 }
