@@ -3525,6 +3525,9 @@
     <ClCompile Include="1954. 收集足够苹果的最小花园周长.cpp">
       <Filter>源文件\1900-1999</Filter>
     </ClCompile>
+    <ClCompile Include="1276. 不浪费原料的汉堡制作方案.cpp">
+      <Filter>源文件\1200-1299</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
