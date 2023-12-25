@@ -20,6 +20,22 @@ namespace Ahao.LeetCode._1200_1299.demo1276
             return ans;
         }
 
+        public IList<int> NumOfBurgers1(int tomatoSlices, int cheeseSlices)
+        {
+            IList<int> res = new List<int>();
+
+            for (int i = 0; i <= cheeseSlices; i++)
+            {
+                if ((i * 4 + (cheeseSlices - i) * 2) == tomatoSlices)
+                {
+                    res.Add(i);
+                    res.Add(cheeseSlices - i);
+                }
+            }
+            return res;
+
+        }
+
 
     }
 }
