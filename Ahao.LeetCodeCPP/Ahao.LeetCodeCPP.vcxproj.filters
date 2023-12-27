@@ -3534,6 +3534,9 @@
     <ClCompile Include="2660. 保龄球游戏的获胜者.cpp">
       <Filter>源文件\2600-2699</Filter>
     </ClCompile>
+    <ClCompile Include="2735. 收集巧克力.cpp">
+      <Filter>源文件\2700-2799</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
