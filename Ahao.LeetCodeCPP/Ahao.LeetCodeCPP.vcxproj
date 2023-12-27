@@ -342,6 +342,7 @@
     <ClCompile Include="2651. 计算列车到站时间.cpp" />
     <ClCompile Include="2652. 倍数求和.cpp" />
     <ClCompile Include="2656. K 个元素的最大和.cpp" />
+    <ClCompile Include="2660. 保龄球游戏的获胜者.cpp" />
     <ClCompile Include="2661. 找出叠涂元素.cpp" />
     <ClCompile Include="2678. 老人的数目.cpp" />
     <ClCompile Include="2679. 矩阵中的和.cpp" />
