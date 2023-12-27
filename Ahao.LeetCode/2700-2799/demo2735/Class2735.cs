@@ -146,5 +146,35 @@ namespace Ahao.LeetCode._2700_2799.demo2735
         }
 
 
+
+        public long MinCost3(int[] nums, int x)
+        {
+            int n = nums.Length;
+            long[][] costs = new long[n][];
+            for (int i = 0; i < n; i++)
+            {
+                costs[i] = new long[n];
+            }
+            for (int j = 0; j < n; j++)
+            {
+                costs[0][j] = nums[j];
+            }
+            for (int i = 1; i < n; i++)
+            {
+                for (int j = 0; j < n; j++)
+                {
+                    costs[i][j] = Math.Min(costs[i - 1][j], nums[(j + i) % n]);
+                }
+            }
+            long minTotalCost = long.MaxValue;
+            for (int i = 0; i < n; i++)
+            {
+                long totalCost = costs[i].Sum() + (long)x * i;
+                minTotalCost = Math.Min(minTotalCost, totalCost);
+            }
+            return minTotalCost;
+        }
+
+
     }
 }
