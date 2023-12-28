@@ -18,6 +18,24 @@ namespace Ahao.LeetCode._2700_2799.demo2706
             return money;
         }
 
+        public int BuyChoco2(int[] prices, int money)
+        {
+            int fi = int.MaxValue, se = int.MaxValue;
+            foreach (int price in prices)
+            {
+                if (price < fi)
+                {
+                    se = fi;
+                    fi = price;
+                }
+                else if (price < se)
+                {
+                    se = price;
+                }
+            }
+            return money < fi + se ? money : money - fi - se;
+        }
+
 
     }
 }
