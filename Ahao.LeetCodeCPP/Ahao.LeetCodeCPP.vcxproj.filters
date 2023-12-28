@@ -3537,6 +3537,9 @@
     <ClCompile Include="2735. 收集巧克力.cpp">
       <Filter>源文件\2700-2799</Filter>
     </ClCompile>
+    <ClCompile Include="2706. 购买两块巧克力.cpp">
+      <Filter>源文件\2700-2799</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
