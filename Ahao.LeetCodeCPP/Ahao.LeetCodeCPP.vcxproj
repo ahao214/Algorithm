@@ -190,6 +190,7 @@
     <ClCompile Include="1171. 从链表中删去总和值为零的连续节点.cpp" />
     <ClCompile Include="1172. 餐盘栈.cpp" />
     <ClCompile Include="1177. 构建回文串检测.cpp" />
+    <ClCompile Include="1185. 一周中的第几天.cpp" />
     <ClCompile Include="1186. 删除一次得到子数组最大和.cpp" />
     <ClCompile Include="1187. 使数组严格递增.cpp" />
     <ClCompile Include="122. 买卖股票的最佳时机 II.cpp" />
