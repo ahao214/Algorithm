@@ -309,6 +309,7 @@
     <ClCompile Include="2477. 到达首都的最少油耗.cpp" />
     <ClCompile Include="2481. 分割圆的最少切割次数.cpp" />
     <ClCompile Include="2485. 找出中枢整数.cpp" />
+    <ClCompile Include="2487. 从链表中移除节点.cpp" />
     <ClCompile Include="2488. 统计中位数为 K 的子数组.cpp" />
     <ClCompile Include="2490. 回环句.cpp" />
     <ClCompile Include="2496. 数组中字符串的最大值.cpp" />
