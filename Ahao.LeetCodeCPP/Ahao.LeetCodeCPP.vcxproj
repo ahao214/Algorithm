@@ -359,6 +359,7 @@
     <ClCompile Include="2736. 最大和查询.cpp" />
     <ClCompile Include="274. H 指数.cpp" />
     <ClCompile Include="2760. 最长奇偶子数组.cpp" />
+    <ClCompile Include="2807. 在链表中插入最大公约数.cpp" />
     <ClCompile Include="2824. 统计和小于目标的下标对数目.cpp" />
     <ClCompile Include="2828. 判别首字母缩略词.cpp" />
     <ClCompile Include="2836. 在传球游戏中最大化函数值.cpp" />
