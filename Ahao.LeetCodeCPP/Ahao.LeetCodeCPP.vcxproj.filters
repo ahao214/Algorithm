@@ -3552,6 +3552,9 @@
     <ClCompile Include="2807. 在链表中插入最大公约数.cpp">
       <Filter>源文件\2800-2899</Filter>
     </ClCompile>
+    <ClCompile Include="447. 回旋镖的数量.cpp">
+      <Filter>源文件\0400-0499</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">

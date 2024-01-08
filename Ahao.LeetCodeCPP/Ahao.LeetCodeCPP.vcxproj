@@ -383,6 +383,7 @@
     <ClCompile Include="407. 接雨水 II.cpp" />
     <ClCompile Include="415. 字符串相加.cpp" />
     <ClCompile Include="445. 两数相加 II.cpp" />
+    <ClCompile Include="447. 回旋镖的数量.cpp" />
     <ClCompile Include="460. LFU 缓存.cpp" />
     <ClCompile Include="466. 统计重复个数.cpp" />
     <ClCompile Include="470. 用 Rand7() 实现 Rand10().cpp" />
