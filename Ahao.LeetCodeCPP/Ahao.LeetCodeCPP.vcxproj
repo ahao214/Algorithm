@@ -354,6 +354,7 @@
     <ClCompile Include="2698. 求一个整数的惩罚数.cpp" />
     <ClCompile Include="2699. 修改图中的边权.cpp" />
     <ClCompile Include="2706. 购买两块巧克力.cpp" />
+    <ClCompile Include="2707. 字符串中的额外字符.cpp" />
     <ClCompile Include="2731. 移动机器人.cpp" />
     <ClCompile Include="2735. 收集巧克力.cpp" />
     <ClCompile Include="2736. 最大和查询.cpp" />

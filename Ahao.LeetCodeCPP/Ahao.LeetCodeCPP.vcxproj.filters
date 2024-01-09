@@ -3555,6 +3555,9 @@
     <ClCompile Include="447. 回旋镖的数量.cpp">
       <Filter>源文件\0400-0499</Filter>
     </ClCompile>
+    <ClCompile Include="2707. 字符串中的额外字符.cpp">
+      <Filter>源文件\2700-2799</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
