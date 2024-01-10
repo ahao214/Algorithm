@@ -20,5 +20,25 @@ namespace Ahao.LeetCode._2600_2699.demo2696
         }
 
 
+
+        public int MinLength2(string s)
+        {
+            IList<char> stack = new List<char>();
+            foreach (char c in s)
+            {
+                stack.Add(c);
+                int m = stack.Count;
+                if (m >= 2 &&
+                    (stack[m - 2] == 'A' && stack[m - 1] == 'B' ||
+                    stack[m - 2] == 'C' && stack[m - 1] == 'D'))
+                {
+                    stack.RemoveAt(m - 1);
+                    stack.RemoveAt(m - 2);
+                }
+            }
+            return stack.Count;
+        }
+
+
     }
 }
