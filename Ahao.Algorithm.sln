@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29926.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ahao.Algorithm", "Ahao.Algorithm\Ahao.Algorithm.csproj", "{D7BA32B1-19EE-4A8B-BBCF-EAC37F9A74D4}"
 EndProject
@@ -74,6 +74,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AlgorithmCompetition", "AlgorithmCompetition", "{5623BEE2-F5BF-4870-BF70-687E0078AC91}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ahao.AlgorithmCompetition", "Ahao.AlgorithmCompetition\Ahao.AlgorithmCompetition.vcxproj", "{1A7F0EDB-4848-4FC3-BB8D-B812727DFBF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch01_03", "ch01_03\ch01_03.csproj", "{0160288A-E883-4716-B4A1-F7BB08F14E84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -369,6 +371,18 @@ Global
 		{1A7F0EDB-4848-4FC3-BB8D-B812727DFBF1}.Release|x64.Build.0 = Release|x64
 		{1A7F0EDB-4848-4FC3-BB8D-B812727DFBF1}.Release|x86.ActiveCfg = Release|Win32
 		{1A7F0EDB-4848-4FC3-BB8D-B812727DFBF1}.Release|x86.Build.0 = Release|Win32
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Debug|x64.Build.0 = Debug|Any CPU
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Debug|x86.Build.0 = Debug|Any CPU
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Release|x64.ActiveCfg = Release|Any CPU
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Release|x64.Build.0 = Release|Any CPU
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Release|x86.ActiveCfg = Release|Any CPU
+		{0160288A-E883-4716-B4A1-F7BB08F14E84}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -399,6 +413,7 @@ Global
 		{AF031B34-A334-49F5-A392-E31BF3E9BB6F} = {98773F82-95AD-498B-A595-C76A93D6B84F}
 		{F6526551-D242-42F2-B250-7CD2613137AE} = {98773F82-95AD-498B-A595-C76A93D6B84F}
 		{1A7F0EDB-4848-4FC3-BB8D-B812727DFBF1} = {5623BEE2-F5BF-4870-BF70-687E0078AC91}
+		{0160288A-E883-4716-B4A1-F7BB08F14E84} = {AD4885DD-2795-4340-BB59-357A984B23B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {836DAA45-E1E9-43F1-914A-37022F68FC97}
