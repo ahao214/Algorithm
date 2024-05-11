@@ -350,6 +350,7 @@
     <ClCompile Include="2679. 矩阵中的和.cpp" />
     <ClCompile Include="2681. 英雄的力量.cpp" />
     <ClCompile Include="2682. 找出转圈游戏输家.cpp" />
+    <ClCompile Include="2696. 删除子串后的字符串最小长度.cpp" />
     <ClCompile Include="2697. 字典序最小回文串.cpp" />
     <ClCompile Include="2698. 求一个整数的惩罚数.cpp" />
     <ClCompile Include="2699. 修改图中的边权.cpp" />

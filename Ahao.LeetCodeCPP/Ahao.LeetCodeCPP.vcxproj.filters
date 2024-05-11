@@ -3558,6 +3558,9 @@
     <ClCompile Include="2707. 字符串中的额外字符.cpp">
       <Filter>源文件\2700-2799</Filter>
     </ClCompile>
+    <ClCompile Include="2696. 删除子串后的字符串最小长度.cpp">
+      <Filter>源文件\2600-2699</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="6. Z 字形变换.cpp">
