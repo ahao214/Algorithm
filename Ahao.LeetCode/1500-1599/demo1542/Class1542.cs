@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode._1500_1599.demo1542
 {
-    internal class Class1542
+    public  class Class1542
     {
+
+
     }
 }
