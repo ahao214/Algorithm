@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ahao.LeetCode._1600_1699.demo1672
 {
-    public class Class1672
+    public class Class1673
     {
         public int MaximumWealth(int[][] accounts)
         {
