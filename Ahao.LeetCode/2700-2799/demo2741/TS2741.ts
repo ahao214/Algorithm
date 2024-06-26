@@ -29,3 +29,42 @@
     }
     return res;
 };
+
+
+
+const MOD: number = 1000000007;
+
+function specialPermTS(nums: number[]): number {
+    const n: number = nums.length;
+    const f: number[][] = Array.from(Array(1 << n), () => Array(n).fill(0));
+
+    for (let i = 0; i < n; i++) {
+        f[1 << i][i] = 1;
+    }
+
+    for (let state = 1; state < (1 << n); state++) {
+        for (let i = 0; i < n; i++) {
+            if (!(state >> i & 1)) {
+                continue;
+            }
+            for (let j = 0; j < n; j++) {
+                if (i === j || !(state >> j & 1)) {
+                    continue;
+                }
+                const x: number = nums[i];
+                const y: number = nums[j];
+                if (x % y !== 0 && y % x !== 0) {
+                    continue;
+                }
+                f[state][i] = (f[state][i] + f[state ^ (1 << i)][j]) % MOD;
+            }
+        }
+    }
+
+    let sum: number = 0;
+    for (let i = 0; i < n; i++) {
+        sum = (sum + f[(1 << n) - 1][i]) % MOD;
+    }
+
+    return sum;
+};
